@@ -21,6 +21,12 @@ import argparse
 import time
 from pathlib import Path
 
+# Force UTF-8 output so Unicode chars (→, emoji) don't crash on Windows cp1252
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout = open(sys.stdout.fileno(), mode="w", encoding="utf-8", buffering=1)
+if sys.stderr.encoding and sys.stderr.encoding.lower() != "utf-8":
+    sys.stderr = open(sys.stderr.fileno(), mode="w", encoding="utf-8", buffering=1)
+
 from config import QUERIER_HOST, QUERIER_MODEL
 from querier import (
     get_query_keywords,
@@ -29,6 +35,7 @@ from querier import (
     follow_cross_references,
     answer_question,
     answer_question_stream,
+    detect_greeting,
 )
 
 
@@ -217,6 +224,13 @@ def QueryLayeredStream(IndexFolder, Query: str, Model: str, Host: str):
     LLM is called only for query expansion (small) and final answer (streaming).
     """
     IndexFolder = Path(IndexFolder)
+
+    # ── Greeting / small-talk short-circuit ──────────────────────────────
+    greeting = detect_greeting(Query)
+    if greeting:
+        yield ("token", greeting)
+        return
+
     Keywords = get_query_keywords(Query)
 
     # ── Layer 1: Select product ────────────────────
@@ -345,6 +359,12 @@ def QueryLayered(IndexFolder, Query: str, Model: str, Host: str):
     route_info = {"product": ..., "modules": [...], "documents": [...]}
     """
     IndexFolder = Path(IndexFolder)
+
+    # ── Greeting / small-talk short-circuit ──────────────────────────────
+    greeting = detect_greeting(Query)
+    if greeting:
+        return greeting, [], {}
+
     Keywords = get_query_keywords(Query)
     RouteInfo = {}
 
@@ -453,54 +473,49 @@ if __name__ == "__main__":
     )
     Args = Parser.parse_args()
 
-    print(f"\n{'='*55}")
-    print(f"  Query: {Args.query}")
-    print(f"{'='*55}\n")
+    print(f"\n{'='*55}", file=sys.stderr)
+    print(f"  Query: {Args.query}", file=sys.stderr)
+    print(f"{'='*55}\n", file=sys.stderr)
 
     Start = time.time()
 
     for Stage, Data in QueryLayeredStream(Args.index, Args.query, Args.model, Args.host):
         if Stage == "layer1":
             Names = [P["name"] for P in Data]
-            print(f"  Layer 1 - Product:  {', '.join(Names)}")
+            print(f"  Layer 1 - Product:  {', '.join(Names)}", file=sys.stderr)
 
         elif Stage == "layer2":
             ProductName, Modules = Data
             Names = [M["name"] for M in Modules]
-            print(f"  Layer 2 - Module:   {ProductName} -> {', '.join(Names)}")
+            print(f"  Layer 2 - Module:   {ProductName} -> {', '.join(Names)}", file=sys.stderr)
 
         elif Stage == "layer3":
             ProductName, ModuleNames, Docs = Data
             Names = [D["name"] for D in Docs]
-            print(f"  Layer 3 - Document: {', '.join(Names)}")
+            print(f"  Layer 3 - Document: {', '.join(Names)}", file=sys.stderr)
 
         elif Stage == "expanded":
             if Data:
-                print(f"  Query expanded:     +{', '.join(Data[:4])}")
+                print(f"  Query expanded:     +{', '.join(Data[:4])}", file=sys.stderr)
             else:
-                print(f"  Query expanded:     (no extra terms)")
+                print(f"  Query expanded:     (no extra terms)", file=sys.stderr)
 
         elif Stage == "sections":
-            print(f"  Sections found:     {len(Data)}")
+            print(f"  Sections found:     {len(Data)}", file=sys.stderr)
             for S in Data:
                 SrcIcon = {
                     "tree": "+", "page_summary": "*",
                     "raw_text": "#", "cross_reference": "@"
                 }.get(S.get("source", ""), "-")
                 print(f"   {SrcIcon} [{S.get('doc_module','')}/{S['structure']}] "
-                      f"{S['title']} (score:{S['score']})")
+                      f"{S['title']} (score:{S['score']})", file=sys.stderr)
 
         elif Stage == "context_size":
             print(f"  Context size:       {Data:,} chars "
-                  f"({Data*100//MAX_CONTEXT_CHARS}% of budget)")
-            print(f"\n{'='*55}")
-            print("  Answer:")
-            print(f"{'='*55}")
+                  f"({Data*100//MAX_CONTEXT_CHARS}% of budget)", file=sys.stderr)
 
         elif Stage == "token":
-            print(Data, end="", flush=True)
+            print(Data, end="", flush=True)   # answer goes to stdout only
 
     Elapsed = time.time() - Start
-    print(f"\n{'='*55}")
-    print(f"  ({Elapsed:.1f}s)")
-    print(f"{'='*55}\n")
+    print(f"\n\n  ({Elapsed:.1f}s)", file=sys.stderr)

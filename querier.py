@@ -140,12 +140,128 @@ def load_index(index_path: str) -> dict:
 # Query Expansion (NEW)
 # ─────────────────────────────────────────
 
+# ─────────────────────────────────────────
+# Query Intent Detection
+# ─────────────────────────────────────────
+
+# Patterns that signal a conceptual / overview question (not a how-to)
+_CONCEPTUAL_PATTERNS = [
+    r'\bwhat\s+is\b',
+    r'\bwhat\s+are\b',
+    r'\bdefine\b',
+    r'\bexplain\b',
+    r'\bdescribe\b',
+    r'\btell\s+me\s+about\b',
+    r'\bwhat\s+does\b',
+    r'\bwhat\s+do\b',
+    r'\boverview\b',
+    r'\bintroduction\b',
+]
+
+# Greetings / small-talk phrases — matched before any RAG logic
+# NOTE: detect_greeting() normalises repeated letters first (hii → hi)
+_GREETING_MAP = [
+    # (compiled regex, reply_key)
+    (re.compile(r'^(hi|hello|hey|hiya|howdy|greetings|good\s*(morning|afternoon|evening|day))$'), "greeting"),
+    (re.compile(r'^how\s+are\s+(you|u)$'),                                                         "how_are_you"),
+    (re.compile(r"^what'?s\s+up$"),                                                                 "greeting"),
+    (re.compile(r'^(thanks|thank\s+you|thx|ty)$'),                                                  "thanks"),
+    (re.compile(r'^(bye|goodbye|see\s+you|cya|take\s+care)$'),                                      "bye"),
+    (re.compile(r'^(ok|okay|got\s+it|sure|alright|cool|nice|great|awesome)[!.]*$'),                 "ok"),
+    (re.compile(r'^who\s+are\s+you$'),                                                              "who"),
+    (re.compile(r'^what\s+(can|do)\s+you\s+do$'),                                                  "what_do"),
+]
+
+_GREETING_REPLIES = {
+    "greeting": (
+        "Hello! 👋 I'm the FlexCube documentation assistant. "
+        "Ask me anything about Oracle FlexCube — how screens work, "
+        "step-by-step processes, prerequisites, and more."
+    ),
+    "how_are_you": (
+        "I'm doing great, thanks for asking! 😊 "
+        "Ready to help you with FlexCube documentation. What would you like to know?"
+    ),
+    "thanks": (
+        "You're welcome! 😊 Let me know if you have any other FlexCube questions."
+    ),
+    "bye": (
+        "Goodbye! Feel free to come back anytime you need FlexCube help. 👋"
+    ),
+    "ok": (
+        "Sure! Feel free to ask me anything about FlexCube documentation."
+    ),
+    "who": (
+        "I'm a RAG-powered assistant built to answer questions about "
+        "Oracle FlexCube banking documentation. "
+        "Ask me about screens, processes, prerequisites, or any feature — I'll search the docs and answer!"
+    ),
+    "what_do": (
+        "I can answer questions about Oracle FlexCube documentation — "
+        "how-to procedures, screen navigation, field explanations, prerequisites, and more. "
+        "Just type your question!"
+    ),
+}
+
+
+def detect_greeting(query: str) -> str | None:
+    """
+    Returns a friendly reply string if the query is small-talk / a greeting.
+    Returns None if this is a real question (run the full RAG pipeline).
+
+    Handles stretched input like 'Hii', 'Heyyy', 'Thankss' by collapsing
+    runs of 3+ identical letters down to 2 before matching.
+    Example: 'hiiiii' -> 'hii' -> matches 'hi' pattern after further collapse.
+    """
+    # Lowercase and strip punctuation/spaces
+    q = query.strip().lower()
+    q = re.sub(r'[!?,\.]+$', '', q).strip()   # drop trailing punctuation
+
+    # Collapse runs of 3+ same letter to 2: 'hiiiii' -> 'hii', 'heyyy' -> 'heyy'
+    q_norm = re.sub(r'(.)\1{2,}', r'\1\1', q)
+    # Then collapse runs of 2 same letter to 1: 'hii' -> 'hi', 'heyy' -> 'hey'
+    q_norm = re.sub(r'(.)\1+', r'\1', q_norm)
+
+    for pattern, reply_key in _GREETING_MAP:
+        if pattern.match(q_norm):
+            return _GREETING_REPLIES[reply_key]
+    return None
+
+
+def classify_query(query: str) -> str:
+    """
+    Returns 'conceptual' for definition/overview questions,
+    'procedural' for how-to/process questions.
+    """
+    q = query.lower()
+    for pattern in _CONCEPTUAL_PATTERNS:
+        if re.search(pattern, q):
+            return 'conceptual'
+    return 'procedural'
+
+
 def expand_query_keywords(query: str, model: str, host: str) -> list:
     """
     Uses the LLM to generate targeted search keywords from the query.
-    Also injects prerequisite-related terms so the section search
-    automatically surfaces setup / requirement sections alongside main steps.
+    For procedural questions also injects prerequisite-related terms so
+    setup/requirement sections surface alongside main steps.
+    For conceptual questions keeps it focused — no setup injection.
     """
+    intent = classify_query(query)
+
+    if intent == 'conceptual':
+        prereq_rule = (
+            "3. Do NOT add prerequisite or setup terms — the user wants a definition/overview."
+        )
+    else:
+        prereq_rule = (
+            "3. For process/how-to questions also add prerequisite-related terms to help find "
+            "setup sections. Use words like: prerequisite, setup, configuration, required, "
+            "maintenance, initial along with the main topic noun. "
+            "Example: 'how to create a customer' → also include "
+            "'customer prerequisite', 'customer setup', 'customer maintenance'."
+        )
+
     prompt = f"""You are an enterprise search assistant for Oracle FlexCube banking documentation.
 
 Analyze the question below and return a concise list of search keywords.
@@ -153,11 +269,7 @@ Analyze the question below and return a concise list of search keywords.
 Rules:
 1. Fix any typos in the question.
 2. Extract 3-5 critical technical keywords: exact screen names, module names, feature names, or field labels.
-3. For process/how-to questions also add prerequisite-related terms that will help find setup
-   sections in the documentation. Use words like: prerequisite, setup, configuration, required,
-   maintenance, overview, initial along with the main topic noun.
-   Example: if the question is "how to create a customer", also include:
-   "customer prerequisite", "customer setup", "customer maintenance"
+{prereq_rule}
 4. Do NOT use broad synonyms (e.g. do not change 'maintenance' to 'management').
 5. Keep exact FlexCube terminology.
 
@@ -451,14 +563,38 @@ def get_page_context(relevant_sections: list, index_data: dict) -> str:
 # Answer Generation
 # ─────────────────────────────────────────
 
-def _build_answer_prompt(query: str, context: str, relevant_sections: list) -> str:
-    """
-    Build the answer prompt.
-    Always instructs the LLM to look for prerequisites even when the user
-    did not explicitly ask — because banking workflows always have them.
-    """
+def _build_conceptual_prompt(query: str, context: str, relevant_sections: list) -> str:
+    """Prompt for definition / overview / 'what is' questions."""
     sections_info = ", ".join(f"'{s['title']}'" for s in relevant_sections)
+    return f"""You are an expert Oracle FlexCube banking documentation assistant.
+Answer the user's question using ONLY the retrieved documentation below.
 
+Sections retrieved: {sections_info}
+
+--- DOCUMENTATION CONTEXT START ---
+{context}
+--- DOCUMENTATION CONTEXT END ---
+
+User question: {query}
+
+=== INSTRUCTIONS ===
+The user is asking a conceptual question — they want to UNDERSTAND what something is,
+not follow a procedure.
+
+Write a clear, plain-English answer:
+- Start with a 1-2 sentence direct definition or overview.
+- Then expand with the key capabilities, modules, or components described in the context.
+- Use bullet points for lists of features/modules if helpful.
+- Do NOT output step-by-step procedures, screen codes, or navigation paths unless the
+  context specifically explains them as part of the concept.
+- Do NOT expose internal document section numbers, chapter headings, or file names.
+- Use ONLY information from the documentation context above.
+- If the context does not contain enough information to fully answer, say so briefly."""
+
+
+def _build_procedural_prompt(query: str, context: str, relevant_sections: list) -> str:
+    """Prompt for how-to / process / step-by-step questions."""
+    sections_info = ", ".join(f"'{s['title']}'" for s in relevant_sections)
     return f"""You are an expert Oracle FlexCube banking documentation assistant.
 Your goal is to give a COMPLETE, ACTIONABLE answer using ONLY the retrieved documentation below.
 
@@ -472,41 +608,44 @@ User question: {query}
 
 === HOW TO STRUCTURE YOUR ANSWER ===
 
-Always follow this structure. Skip any section where the context contains no relevant information —
-do NOT write "not found" or "not mentioned"; simply omit that heading.
+Follow this structure. Skip any section where the context has nothing relevant —
+do NOT write "not found"; simply omit that heading.
 
 **Prerequisites / Required Setup**
-- Identify every configuration, maintenance, or access right that must exist BEFORE this task.
-- For EACH prerequisite, provide its FULL ANSWER using the context — do not just name it:
-    1. [Prerequisite name] (Screen: [screen name or code if mentioned])
-       → What it is and how to complete it, based on the documentation.
-- Look for keywords in context: prerequisite, required, must, initial setup, maintained, configured, overview.
+- Every configuration, maintenance, or access right that must exist BEFORE this task.
+- For each prerequisite, provide its full answer from the context:
+    1. [Prerequisite name] (Screen: [screen name/code if mentioned])
+       What it is and how to complete it.
 
 **How to Access**
-- Provide the exact screen name and the fastest way to open it:
-  menu path (e.g. Retail Teller > Operations > Teller Transaction Input)
-  OR the screen code to type in the FlexCube toolbar (e.g. STDCIFCR, TELTXNIN).
+- Exact screen name and fastest way to open it:
+  Menu path OR screen code to type in the FlexCube toolbar.
 
 **Step-by-Step Process**
 - Number every step.
 - Quote field names and values exactly as they appear in the documentation.
-- Include any button clicks, checkboxes, or tab selections.
+- Include button clicks, checkboxes, or tab selections.
 
 **Important Fields**
-- List key fields and what they control (only if the context describes them).
+- Key fields and what they control (only if the context describes them).
 
 **Notes & Warnings**
-- Validations, authorization steps, system-generated events, or special cases found in the context.
+- Validations, authorization steps, system-generated events, or special cases.
 
 === STRICT RULES ===
 - Use ONLY the information in the documentation context above.
 - Never invent screen names, field names, or steps.
-- SCREEN NAMES AND CODES ARE MANDATORY: every screen name (e.g. "Islamic Customer Accounts
-  Maintenance") and every screen code (e.g. STDCIFCR, CSDCUSTM, TELTXNIN) that appears
-  anywhere in the context MUST be included in your response. Never omit them.
-- If cross-referenced sections are included in the context, use their information too.
-- If the context has PARTIAL information, share what is available; do not say the whole answer is unavailable.
+- Every screen name and screen code found in the context MUST be included.
+- If cross-referenced sections are included, use their information too.
 - Be specific — users are bank operations staff who need exact screen codes and field names."""
+
+
+def _build_answer_prompt(query: str, context: str, relevant_sections: list) -> str:
+    """Route to the right prompt based on detected query intent."""
+    intent = classify_query(query)
+    if intent == 'conceptual':
+        return _build_conceptual_prompt(query, context, relevant_sections)
+    return _build_procedural_prompt(query, context, relevant_sections)
 
 
 def answer_question(query: str, context: str,
@@ -526,6 +665,12 @@ def answer_question_stream(query: str, context: str,
     Generate answer in streaming mode — yields tokens as they arrive.
     Use this in the interactive chat to avoid timeouts on large contexts.
     """
+    # Greetings bypass — already handled upstream by query_pdf_stream,
+    # but guard here too in case called directly.
+    greeting = detect_greeting(query)
+    if greeting:
+        yield greeting
+        return
     if not context:
         yield "Could not find relevant content in the document."
         return
@@ -539,6 +684,12 @@ def answer_question_stream(query: str, context: str,
 
 def query_pdf(index_path: str, query: str, model: str, host: str):
     """Full query pipeline with cross-reference following and query expansion."""
+
+    # ── Greeting / small-talk short-circuit ──────────────────────────────
+    greeting = detect_greeting(query)
+    if greeting:
+        return greeting, []   # no RAG, no document context
+
     index_data = load_index(index_path)
 
     # Step 1: Expand query vocabulary

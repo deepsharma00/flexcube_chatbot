@@ -9,6 +9,7 @@ import sys
 import os
 from pathlib import Path
 from config import QUERIER_MODEL, QUERIER_HOST
+from querier import detect_greeting
 
 # Directory where ui.py lives — used as cwd for subprocess
 SCRIPT_DIR = Path(__file__).parent.resolve()
@@ -26,17 +27,29 @@ st.set_page_config(
 st.title("💬 FlexCube RAG Chatbot")
 st.write("Ask questions about your FlexCube documentation")
 
+# ── Scoped CSS: keep heading sizes sane inside chat bubbles ───────────────
+st.markdown("""
+<style>
+/* Scale down LLM-generated headings so they don't dominate the chat */
+[data-testid="stChatMessage"] h1 { font-size: 1.15rem !important; margin: 0.4em 0 0.2em; }
+[data-testid="stChatMessage"] h2 { font-size: 1.05rem !important; margin: 0.4em 0 0.2em; }
+[data-testid="stChatMessage"] h3 { font-size: 0.95rem !important; margin: 0.3em 0 0.15em; }
+[data-testid="stChatMessage"] p  { font-size: 0.92rem; line-height: 1.55; }
+[data-testid="stChatMessage"] li { font-size: 0.92rem; line-height: 1.55; }
+</style>
+""", unsafe_allow_html=True)
+
 # ──────────────────────────────────────────────────────────────────────────
 # Sidebar Configuration
 # ──────────────────────────────────────────────────────────────────────────
 
 # Model catalogue: (display_label, model_id, host)
 MODEL_OPTIONS = [
-    ("🟢 Groq — llama-3.3-70b-versatile",  "llama-3.3-70b-versatile",  "groq"),
-    ("🟢 Groq — llama-3.1-70b-versatile",  "llama-3.1-70b-versatile",  "groq"),
-    ("🟢 Groq — llama-3.1-8b-instant",     "llama-3.1-8b-instant",     "groq"),
-    ("🟢 Groq — mixtral-8x7b-32768",       "mixtral-8x7b-32768",       "groq"),
-    ("🔵 Qwen — qwen2.5:7b (Ollama)",      "qwen2.5:7b",               QUERIER_HOST),
+    ("🟢 Groq — llama-3.3-70b-versatile",        "llama-3.3-70b-versatile",                  "groq"),
+    ("🟢 Groq — llama-4-scout-17b (fast)",        "meta-llama/llama-4-scout-17b-16e-instruct", "groq"),
+    ("🟢 Groq — llama-3.1-8b-instant",           "llama-3.1-8b-instant",                     "groq"),
+    ("🟢 Groq — mixtral-8x7b-32768",             "mixtral-8x7b-32768",                        "groq"),
+    ("🔵 Qwen — qwen2.5:7b (Ollama)",            "qwen2.5:7b",                                QUERIER_HOST),
 ]
 MODEL_LABELS = [m[0] for m in MODEL_OPTIONS]
 
@@ -69,6 +82,24 @@ with st.sidebar:
 # Index path is always the default (not exposed to user)
 index_path = "index/"
 
+
+def clean_response(raw: str) -> str:
+    """Strip debug artifacts (=== lines, timing) that may leak into stdout."""
+    import re
+    lines = raw.splitlines()
+    cleaned = []
+    for line in lines:
+        # Drop pure === separator lines
+        if re.match(r'^\s*={3,}\s*$', line):
+            continue
+        # Drop timing line like "  (12.3s)"
+        if re.match(r'^\s*\(\d+\.\d+s\)\s*$', line):
+            continue
+        cleaned.append(line)
+    # Collapse 3+ consecutive blank lines to 1
+    result = re.sub(r'\n{3,}', '\n\n', '\n'.join(cleaned))
+    return result.strip()
+
 # ──────────────────────────────────────────────────────────────────────────
 # Main Chat Interface
 # ──────────────────────────────────────────────────────────────────────────
@@ -91,73 +122,77 @@ if question:
     with st.chat_message("user"):
         st.markdown(question)
     
-    # Process the query
-    with st.chat_message("assistant"):
-        status_placeholder = st.empty()
-        response_placeholder = st.empty()
-        
-        try:
-            status_placeholder.info("🔄 Searching documentation...")
-            
-            # Build the command
-            cmd = [
-                sys.executable,
-                str(SCRIPT_DIR / "multi_querier.py"),
-                "--index", index_path,
-                "--query", question,
-            ]
-            
-            # Always pass the chosen model and host
-            cmd.extend(["--host",  host_value])
-            cmd.extend(["--model", selected_model])
-            
-            # Force UTF-8 output so Unicode chars (→, etc.) don't crash on Windows
-            run_env = os.environ.copy()
-            run_env["PYTHONIOENCODING"] = "utf-8"
+    # ── Greeting check — instant reply, no subprocess needed ───────────
+    greeting_reply = detect_greeting(question)
+    if greeting_reply:
+        with st.chat_message("assistant"):
+            st.markdown(greeting_reply)
+        st.session_state.messages.append({"role": "assistant", "content": greeting_reply})
+    else:
+        # Process the query via multi_querier
+        with st.chat_message("assistant"):
+            status_placeholder = st.empty()
+            response_placeholder = st.empty()
 
-            # Run multi_querier.py from the project directory
-            result = subprocess.run(
-                cmd,
-                capture_output=True,
-                text=True,
-                encoding="utf-8",
-                errors="replace",
-                timeout=300,
-                cwd=str(SCRIPT_DIR),
-                env=run_env,
-            )
-            
-            status_placeholder.empty()
-            
-            if result.returncode == 0:
-                # Extract the response (filter out debug info if any)
-                response_text = result.stdout.strip()
-                response_placeholder.markdown(response_text)
+            try:
+                status_placeholder.info("🔄 Searching documentation...")
                 
-                # Add to history
-                st.session_state.messages.append({
-                    "role": "assistant",
-                    "content": response_text
-                })
-            else:
-                error_msg = result.stderr or result.stdout or "Unknown error"
-                response_placeholder.error(f"❌ Error: {error_msg}")
-                st.session_state.messages.append({
-                    "role": "assistant",
-                    "content": f"*Error: {error_msg}*"
-                })
-        
-        except subprocess.TimeoutExpired:
-            status_placeholder.empty()
-            response_placeholder.error("⏱️ Request timed out (5 minutes). Try a simpler query.")
-        
-        except FileNotFoundError:
-            status_placeholder.empty()
-            response_placeholder.error("❌ Error: Could not find multi_querier.py. Make sure you're in the correct directory.")
-        
-        except Exception as e:
-            status_placeholder.empty()
-            response_placeholder.error(f"❌ Error: {str(e)}")
+                # Build the command
+                cmd = [
+                    sys.executable,
+                    str(SCRIPT_DIR / "multi_querier.py"),
+                    "--index", index_path,
+                    "--query", question,
+                ]
+                
+                # Always pass the chosen model and host
+                cmd.extend(["--host",  host_value])
+                cmd.extend(["--model", selected_model])
+                
+                # Force UTF-8 output so Unicode chars (→, etc.) don't crash on Windows
+                run_env = os.environ.copy()
+                run_env["PYTHONIOENCODING"] = "utf-8"
+
+                # Run multi_querier.py from the project directory
+                result = subprocess.run(
+                    cmd,
+                    capture_output=True,
+                    text=True,
+                    encoding="utf-8",
+                    errors="replace",
+                    timeout=300,
+                    cwd=str(SCRIPT_DIR),
+                    env=run_env,
+                )
+                
+                status_placeholder.empty()
+                
+                if result.returncode == 0:
+                    response_text = clean_response(result.stdout)
+                    response_placeholder.markdown(response_text)
+                    st.session_state.messages.append({
+                        "role": "assistant",
+                        "content": response_text
+                    })
+                else:
+                    error_msg = result.stderr or result.stdout or "Unknown error"
+                    response_placeholder.error(f"❌ Error: {error_msg}")
+                    st.session_state.messages.append({
+                        "role": "assistant",
+                        "content": f"*Error: {error_msg}*"
+                    })
+            
+            except subprocess.TimeoutExpired:
+                status_placeholder.empty()
+                response_placeholder.error("⏱️ Request timed out (5 minutes). Try a simpler query.")
+            
+            except FileNotFoundError:
+                status_placeholder.empty()
+                response_placeholder.error("❌ Error: Could not find multi_querier.py.")
+            
+            except Exception as e:
+                status_placeholder.empty()
+                response_placeholder.error(f"❌ Error: {str(e)}")
 
 # ──────────────────────────────────────────────────────────────────────────
 # Footer

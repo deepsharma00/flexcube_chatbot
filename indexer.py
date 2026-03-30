@@ -16,6 +16,12 @@ import time
 import argparse
 from pathlib import Path
 
+# Force UTF-8 output so Unicode chars (→, emoji) don't crash on Windows cp1252
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout = open(sys.stdout.fileno(), mode="w", encoding="utf-8", buffering=1)
+if sys.stderr.encoding and sys.stderr.encoding.lower() != "utf-8":
+    sys.stderr = open(sys.stderr.fileno(), mode="w", encoding="utf-8", buffering=1)
+
 import requests
 import fitz  # PyMuPDF
 
@@ -27,42 +33,18 @@ from config import INDEXER_HOST, INDEXER_MODEL, GROQ_API_KEY
 # ─────────────────────────────────────────
 
 def call_ollama(prompt: str, model: str, host: str = INDEXER_HOST, timeout: int = 300) -> str:
-    """Call Ollama API or Groq API and return response text."""
+    """Call Ollama or Groq API and return the response text."""
     if host.lower() == "groq":
-        if not GROQ_API_KEY:
-            print("  [ERROR] GROQ_API_KEY not found in .env files.")
-            return ""
-        
-        url = "https://api.groq.com/openai/v1/chat/completions"
-        headers = {
-            "Authorization": f"Bearer {GROQ_API_KEY}",
-            "Content-Type": "application/json"
-        }
-        payload = {
-            "model": model,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0
-        }
-        try:
-            # Groq free tier limit is often 30 RPM (2s per request). Sleep to avoid 429.
-            time.sleep(2.5)
-            resp = requests.post(url, json=payload, headers=headers, timeout=timeout)
-            if resp.status_code == 429:
-                print("  [RATE LIMIT] Sleeping for 10 seconds due to strict RPM...")
-                time.sleep(10)
-                resp = requests.post(url, json=payload, headers=headers, timeout=timeout)
-            resp.raise_for_status()
-            
-            data = resp.json()
-            return data["choices"][0]["message"]["content"].strip()
-        except requests.exceptions.Timeout:
-            print(f"  [TIMEOUT] Groq took too long.")
-            return ""
-        except Exception as e:
-            print(f"  [GROQ ERROR] {e}")
-            return ""
+        from groq import Groq
+        client = Groq(api_key=GROQ_API_KEY)
+        chat = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0,
+            max_tokens=2048,
+        )
+        return chat.choices[0].message.content.strip()
 
-    # Default to standard local Ollama
     url = f"{host}/api/generate"
     payload = {
         "model": model,
