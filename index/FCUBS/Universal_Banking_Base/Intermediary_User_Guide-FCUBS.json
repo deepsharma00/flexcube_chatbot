@@ -1,0 +1,2041 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/Intermediary_User_Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 65,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces general maintenance and provides an overview of intermediaries.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Intermediary module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Intermediary module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Intermediary module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Intermediary module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Intermediary module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "3",
+          "title": "2. Intermediary - An Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. General Maintenance",
+          "start_page": 8
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Introduction",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Branch Parameters",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Capturing Branch Parameters",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Actions Allowed",
+          "start_page": 9
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Viewing Branch Parameters Summary",
+          "start_page": 10
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Intermediary SDE Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Capturing Intermediary SDE Details",
+          "start_page": 11
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Actions Allowed",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.3",
+          "title": "3.3.3 Viewing SDE Summary Details",
+          "start_page": 14
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Intermediary Rule",
+          "start_page": 14
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Defining an Intermediary Rule",
+          "start_page": 14
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Capturing Rule Formula",
+          "start_page": 17
+        },
+        {
+          "structure": "4.4.3",
+          "title": "3.4.3 Actions Allowed",
+          "start_page": 18
+        },
+        {
+          "structure": "4.4.4",
+          "title": "3.4.4 Viewing Rule Summary Details",
+          "start_page": 18
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Intermediary Group",
+          "start_page": 19
+        },
+        {
+          "structure": "4.5.1",
+          "title": "3.5.1 Maintaining Intermediary Group",
+          "start_page": 19
+        },
+        {
+          "structure": "4.5.2",
+          "title": "3.5.2 Actions Allowed",
+          "start_page": 19
+        },
+        {
+          "structure": "4.5.3",
+          "title": "3.5.3 Viewing Group Summary Details",
+          "start_page": 20
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Intermediary Hierarchy Details",
+          "start_page": 20
+        },
+        {
+          "structure": "4.6.1",
+          "title": "3.6.1 Maintaining Intermediary Hierarchy Details",
+          "start_page": 21
+        },
+        {
+          "structure": "4.6.2",
+          "title": "3.6.2 Intermediary Tab",
+          "start_page": 22
+        },
+        {
+          "structure": "4.6.3",
+          "title": "3.6.3 Settlement and Statement Tab",
+          "start_page": 25
+        },
+        {
+          "structure": "4.6.4",
+          "title": "3.6.4 Products Tab",
+          "start_page": 27
+        },
+        {
+          "structure": "4.6.5",
+          "title": "3.6.5 Capturing Events",
+          "start_page": 28
+        },
+        {
+          "structure": "4.6.6",
+          "title": "3.6.6 Maintaining MIS Details",
+          "start_page": 31
+        },
+        {
+          "structure": "4.6.7",
+          "title": "3.6.7 Viewing UDE Values",
+          "start_page": 31
+        },
+        {
+          "structure": "4.6.8",
+          "title": "3.6.8 Actions Allowed",
+          "start_page": 32
+        },
+        {
+          "structure": "4.6.9",
+          "title": "3.6.9 Viewing Intermediary Summary Details",
+          "start_page": 32
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 External UDE Values",
+          "start_page": 33
+        },
+        {
+          "structure": "4.7.1",
+          "title": "3.7.1 Specifying External UDE Values",
+          "start_page": 33
+        },
+        {
+          "structure": "4.7.2",
+          "title": "3.7.2 Actions Allowed",
+          "start_page": 35
+        },
+        {
+          "structure": "4.7.3",
+          "title": "3.7.3 Viewing External UDE Summary",
+          "start_page": 36
+        },
+        {
+          "structure": "5",
+          "title": "4. Setting up a Product",
+          "start_page": 37
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Introduction",
+          "start_page": 37
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Intermediary Product",
+          "start_page": 37
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Maintaining an Intermediary Product",
+          "start_page": 37
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Specifying Accounting Roles",
+          "start_page": 39
+        },
+        {
+          "structure": "5.2.3",
+          "title": "4.2.3 Specifying Events",
+          "start_page": 40
+        },
+        {
+          "structure": "5.2.4",
+          "title": "4.2.4 Specifying Product Preferences",
+          "start_page": 42
+        },
+        {
+          "structure": "5.2.5",
+          "title": "4.2.5 Specifying Module Product Restrictions",
+          "start_page": 44
+        },
+        {
+          "structure": "5.2.6",
+          "title": "4.2.6 Specifying MIS Details",
+          "start_page": 45
+        },
+        {
+          "structure": "5.2.7",
+          "title": "4.2.7 Actions Allowed",
+          "start_page": 45
+        },
+        {
+          "structure": "5.2.8",
+          "title": "4.2.8 Viewing Product Summary",
+          "start_page": 46
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Intermediary Product Restrictions",
+          "start_page": 46
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Specifying Branch and Currency Restrictions",
+          "start_page": 46
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Viewing Product Restrictions Summary",
+          "start_page": 48
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 UDE Values",
+          "start_page": 49
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Specifying UDE Values",
+          "start_page": 49
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Actions Allowed",
+          "start_page": 50
+        },
+        {
+          "structure": "5.4.3",
+          "title": "4.4.3 Viewing UDE Summary Details",
+          "start_page": 50
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides references to related user manuals and icons used in the Intermediary module, along with details on accounting entries and function IDs.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides references to related user manuals and icons used in the Intermediary module, along with details on accounting entries and function IDs.",
+      "cross_references": [
+        {
+          "structure": "7",
+          "title": "6. Annexure A – Accounting Entries and Advices",
+          "start_page": 61
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 Introduction",
+          "start_page": 61
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Events",
+          "start_page": 61
+        },
+        {
+          "structure": "7.3",
+          "title": "6.3 Accounting Roles",
+          "start_page": 61
+        },
+        {
+          "structure": "7.4",
+          "title": "6.4 Amount Tags",
+          "start_page": 61
+        },
+        {
+          "structure": "7.5",
+          "title": "6.5 Accounting Entries and Advices",
+          "start_page": 62
+        },
+        {
+          "structure": "7.5.1",
+          "title": "6.5.1 Payment",
+          "start_page": 62
+        },
+        {
+          "structure": "7.5.2",
+          "title": "6.5.2 Collection",
+          "start_page": 62
+        },
+        {
+          "structure": "7.6",
+          "title": "6.6 Advice Format",
+          "start_page": 63
+        },
+        {
+          "structure": "7.6.1",
+          "title": "6.6.1 INTER_CR_ADV",
+          "start_page": 64
+        },
+        {
+          "structure": "7.6.2",
+          "title": "6.6.2 INTER_DR_ADV",
+          "start_page": 64
+        },
+        {
+          "structure": "7.6.3",
+          "title": "6.6.3 INTER_STMT",
+          "start_page": 64
+        },
+        {
+          "structure": "6",
+          "title": "5. Operations",
+          "start_page": 51
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Introduction",
+          "start_page": 51
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Commission",
+          "start_page": 51
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Commission Processing",
+          "start_page": 51
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Settlement of Commission Between Intermediaries",
+          "start_page": 53
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Viewing Intermediary System Data Elements",
+          "start_page": 53
+        },
+        {
+          "structure": "6.2.4",
+          "title": "5.2.4 Actions Allowed",
+          "start_page": 54
+        },
+        {
+          "structure": "6.2.5",
+          "title": "5.2.5 Viewing SDE Summary",
+          "start_page": 54
+        },
+        {
+          "structure": "6.2.6",
+          "title": "5.2.6 Viewing Calculated Commission",
+          "start_page": 55
+        },
+        {
+          "structure": "6.2.7",
+          "title": "5.2.7 Actions Allowed",
+          "start_page": 56
+        },
+        {
+          "structure": "6.2.8",
+          "title": "5.2.8 Viewing Commission Calculation Summary",
+          "start_page": 57
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Intermediary Commission",
+          "start_page": 58
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Liquidating Intermediary Commission Manually",
+          "start_page": 58
+        },
+        {
+          "structure": "6.3.2",
+          "title": "5.3.2 Actions Allowed",
+          "start_page": 59
+        },
+        {
+          "structure": "6.3.3",
+          "title": "5.3.3 Viewing Manual Liquidation Summary",
+          "start_page": 60
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Intermediary - An Overview",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of intermediaries in financial services and explains how to process them using Oracle FLEXCUBE software.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page provides an overview of intermediaries in financial services and explains how to process them using Oracle FLEXCUBE software.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. General Maintenance",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page outlines the maintenance of various details required for processing transactions using intermediary services, including branch parameters and intermediary system data element details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Introduction",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page outlines the maintenance of various details required for processing transactions using intermediary services, including branch parameters and intermediary system data element details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Branch Parameters",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page outlines the maintenance of various details required for processing transactions using intermediary services, including branch parameters and intermediary system data element details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Capturing Branch Parameters",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page outlines the maintenance of various details required for processing transactions using intermediary services, including branch parameters and intermediary system data element details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.2",
+      "title": "3.2.2 Actions Allowed",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page describes how to input branch and transaction codes, set processing preferences for automatic events, and outlines actions that can be performed on a record.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.3",
+      "title": "3.2.3 Viewing Branch Parameters Summary",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page describes how to view parameters for each branch and details on capturing and viewing intermediary SDE (System Data Element) information.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Intermediary SDE Details",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page describes how to view parameters for each branch and details on capturing and viewing intermediary SDE (System Data Element) information.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.1",
+      "title": "3.3.1 Capturing Intermediary SDE Details",
+      "start_page": 11,
+      "end_page": 13,
+      "summary": "This section details various System Data Elements (SDEs) available in the system that capture financial metrics related to loans created by intermediaries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.2",
+      "title": "3.3.2 Actions Allowed",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page describes how to view details of System Data Elements (SDE) in the 'Intermediary SDE Maintenance' screen and outlines the available fields and actions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.3",
+      "title": "3.3.3 Viewing SDE Summary Details",
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This page describes how to view SDE summary details and provides an overview of intermediary rules, including defining them and capturing rule formulas.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Intermediary Rule",
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This page describes how to view SDE summary details and provides an overview of intermediary rules, including defining them and capturing rule formulas.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.1",
+      "title": "3.4.1 Defining an Intermediary Rule",
+      "start_page": 14,
+      "end_page": 17,
+      "summary": "This page describes how to view SDE summary details and provides an overview of intermediary rules, including defining them and capturing rule formulas.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.2",
+      "title": "3.4.2 Capturing Rule Formula",
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This section explains how to specify a rule formula using the 'Formula' screen in the 'Intermediary Rule Maintenance' interface, including details on assigning sequence numbers, specifying conditions and results, and building conditions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.3",
+      "title": "3.4.3 Actions Allowed",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page describes the actions that can be performed on a record and how to view details of intermediary rules in the system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.4",
+      "title": "3.4.4 Viewing Rule Summary Details",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page describes the actions that can be performed on a record and how to view details of intermediary rules in the system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5",
+      "title": "3.5 Intermediary Group",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page describes how to maintain intermediary groups by specifying group details and performing actions like new, delete, and unlock on records.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.1",
+      "title": "3.5.1 Maintaining Intermediary Group",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page describes how to maintain intermediary groups by specifying group details and performing actions like new, delete, and unlock on records.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.2",
+      "title": "3.5.2 Actions Allowed",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This page describes how to maintain intermediary groups by specifying group details and performing actions like new, delete, and unlock on records.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.3",
+      "title": "3.5.3 Viewing Group Summary Details",
+      "start_page": 20,
+      "end_page": 20,
+      "summary": "This page describes how to view intermediary group details and provides an overview of maintaining intermediary hierarchy details through various tabs and sections.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6",
+      "title": "3.6 Intermediary Hierarchy Details",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This page describes how to view intermediary group details and provides an overview of maintaining intermediary hierarchy details through various tabs and sections.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.1",
+      "title": "3.6.1 Maintaining Intermediary Hierarchy Details",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page discusses maintaining intermediary hierarchy details in Oracle FLEXCUBE, including creating a hierarchy of intermediaries and specifying commission processing shares for each one.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.2",
+      "title": "3.6.2 Intermediary Tab",
+      "start_page": 22,
+      "end_page": 25,
+      "summary": "This page describes how to specify additional details for an intermediary in a system, including fields such as primary contact, type, branch code, effective date, category, group code, and parent intermediary code.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.3",
+      "title": "3.6.3 Settlement and Statement Tab",
+      "start_page": 25,
+      "end_page": 27,
+      "summary": "This page describes how to set up and specify details for settlement processing and statement generation in a financial system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.4",
+      "title": "3.6.4 Products Tab",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This page describes how to specify the external bank code and details about products that an intermediary can transact under.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.5",
+      "title": "3.6.5 Capturing Events",
+      "start_page": 28,
+      "end_page": 31,
+      "summary": "This page describes various system features related to product processing, commission settings, and event capturing in an intermediary maintenance context.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.6",
+      "title": "3.6.6 Maintaining MIS Details",
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This page describes how to access and use the Management Information System (MIS) and UDE Values screens within the Intermediary Maintenance module.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.7",
+      "title": "3.6.7 Viewing UDE Values",
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This page describes how to access and use the Management Information System (MIS) and UDE Values screens within the Intermediary Maintenance module.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.8",
+      "title": "3.6.8 Actions Allowed",
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This page details the actions that can be performed on a record and how to view intermediary summary details in the application.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.9",
+      "title": "3.6.9 Viewing Intermediary Summary Details",
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This page details the actions that can be performed on a record and how to view intermediary summary details in the application.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7",
+      "title": "3.7 External UDE Values",
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This page discusses how to specify and manage external user-defined element (UDE) values for intermediary commission calculations, including actions allowed and viewing summaries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7.1",
+      "title": "3.7.1 Specifying External UDE Values",
+      "start_page": 33,
+      "end_page": 35,
+      "summary": "This page discusses how to specify and manage external user-defined element (UDE) values for intermediary commission calculations, including actions allowed and viewing summaries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7.2",
+      "title": "3.7.2 Actions Allowed",
+      "start_page": 35,
+      "end_page": 36,
+      "summary": "This page describes how to configure and manage rules related to product UDEs (User Defined Elements), including setting UDE IDs, currencies, types, values, and the actions that can be performed on these rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7.3",
+      "title": "3.7.3 Viewing External UDE Summary",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This section explains how to view details of external UDEs through a specific screen and provides criteria for querying records.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Setting up a Product",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page explains how to set up a product by defining its attributes and linking it to intermediaries, including specific steps for maintaining the intermediary product.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Introduction",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page explains how to set up a product by defining its attributes and linking it to intermediaries, including specific steps for maintaining the intermediary product.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Intermediary Product",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page explains how to set up a product by defining its attributes and linking it to intermediaries, including specific steps for maintaining the intermediary product.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.1",
+      "title": "4.2.1 Maintaining an Intermediary Product",
+      "start_page": 37,
+      "end_page": 39,
+      "summary": "This page explains how to set up a product by defining its attributes and linking it to intermediaries, including specific steps for maintaining the intermediary product.",
+      "cross_references": [
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Capturing Branch Parameters",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Branch Parameters",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Actions Allowed",
+          "start_page": 9
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Viewing Branch Parameters Summary",
+          "start_page": 10
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Intermediary SDE Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Capturing Intermediary SDE Details",
+          "start_page": 11
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Actions Allowed",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.3",
+          "title": "3.3.3 Viewing SDE Summary Details",
+          "start_page": 14
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Intermediary Rule",
+          "start_page": 14
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Defining an Intermediary Rule",
+          "start_page": 14
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Capturing Rule Formula",
+          "start_page": 17
+        },
+        {
+          "structure": "4.4.3",
+          "title": "3.4.3 Actions Allowed",
+          "start_page": 18
+        },
+        {
+          "structure": "4.4.4",
+          "title": "3.4.4 Viewing Rule Summary Details",
+          "start_page": 18
+        }
+      ]
+    },
+    {
+      "structure": "5.2.2",
+      "title": "4.2.2 Specifying Accounting Roles",
+      "start_page": 39,
+      "end_page": 40,
+      "summary": "This page describes how to maintain various roles and settings for a product, including accounting roles, allowed branches and currencies, customers/customer categories, and MIS parameters.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.3",
+      "title": "4.2.3 Specifying Events",
+      "start_page": 40,
+      "end_page": 42,
+      "summary": "This page describes how to specify events and accounting entries in the lifecycle of transactions linked to a product through the 'Events' and 'Accounting Entries' screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.4",
+      "title": "4.2.4 Specifying Product Preferences",
+      "start_page": 42,
+      "end_page": 44,
+      "summary": "This section describes how to specify product preferences by setting various details such as settlement frequency and start date through the 'Preferences' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.5",
+      "title": "4.2.5 Specifying Module Product Restrictions",
+      "start_page": 44,
+      "end_page": 45,
+      "summary": "This page describes how to specify module product restrictions by maintaining a list of allowed or disallowed products for transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.6",
+      "title": "4.2.6 Specifying MIS Details",
+      "start_page": 45,
+      "end_page": 45,
+      "summary": "This page describes how to maintain Management Information System details and outlines the actions that can be performed on a record.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.7",
+      "title": "4.2.7 Actions Allowed",
+      "start_page": 45,
+      "end_page": 46,
+      "summary": "This page describes how to maintain Management Information System details and outlines the actions that can be performed on a record.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.8",
+      "title": "4.2.8 Viewing Product Summary",
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This page describes how to view summary details of products using a specific screen and outlines sections for specifying branch and currency restrictions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Intermediary Product Restrictions",
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This page describes how to view summary details of products using a specific screen and outlines sections for specifying branch and currency restrictions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.1",
+      "title": "4.3.1 Specifying Branch and Currency Restrictions",
+      "start_page": 46,
+      "end_page": 48,
+      "summary": "This page describes how to view summary details of products using a specific screen and outlines sections for specifying branch and currency restrictions.",
+      "cross_references": [
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Capturing Intermediary SDE Details",
+          "start_page": 11
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Actions Allowed",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "5.3.2",
+      "title": "4.3.2 Viewing Product Restrictions Summary",
+      "start_page": 48,
+      "end_page": 49,
+      "summary": "This page describes how to specify currencies in an 'Allowed' or 'Disallowed' list, manage class codes, set default components for products, and view product restrictions summary.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4",
+      "title": "4.4 UDE Values",
+      "start_page": 49,
+      "end_page": 49,
+      "summary": "This page discusses how to specify User Data Element (UDE) values for a product rule, including the necessary details such as Product Code, Rule ID, and UDE Value.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.1",
+      "title": "4.4.1 Specifying UDE Values",
+      "start_page": 49,
+      "end_page": 50,
+      "summary": "This page discusses how to specify User Data Element (UDE) values for a product rule, including the necessary details such as Product Code, Rule ID, and UDE Value.",
+      "cross_references": [
+        {
+          "structure": "4.4.3",
+          "title": "3.4.3 Actions Allowed",
+          "start_page": 18
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Capturing Rule Formula",
+          "start_page": 17
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Defining an Intermediary Rule",
+          "start_page": 14
+        }
+      ]
+    },
+    {
+      "structure": "5.4.2",
+      "title": "4.4.2 Actions Allowed",
+      "start_page": 50,
+      "end_page": 50,
+      "summary": "This page outlines actions that can be performed on a record and how to view summary details of UDE values based on specific criteria.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.3",
+      "title": "4.4.3 Viewing UDE Summary Details",
+      "start_page": 50,
+      "end_page": 51,
+      "summary": "This page outlines actions that can be performed on a record and how to view summary details of UDE values based on specific criteria.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Operations",
+      "start_page": 51,
+      "end_page": 51,
+      "summary": "This page explains the process of computing and settling commission for intermediaries, including details on how SDEs are calculated and various actions allowed.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Introduction",
+      "start_page": 51,
+      "end_page": 51,
+      "summary": "This page explains the process of computing and settling commission for intermediaries, including details on how SDEs are calculated and various actions allowed.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Commission",
+      "start_page": 51,
+      "end_page": 51,
+      "summary": "This page explains the process of computing and settling commission for intermediaries, including details on how SDEs are calculated and various actions allowed.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.1",
+      "title": "5.2.1 Commission Processing",
+      "start_page": 51,
+      "end_page": 53,
+      "summary": "This page explains the process of computing and settling commission for intermediaries, including details on how SDEs are calculated and various actions allowed.",
+      "cross_references": [
+        {
+          "structure": "5.2.3",
+          "title": "4.2.3 Specifying Events",
+          "start_page": 40
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Specifying Accounting Roles",
+          "start_page": 39
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Intermediary Product Restrictions",
+          "start_page": 46
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Specifying Branch and Currency Restrictions",
+          "start_page": 46
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Viewing Product Restrictions Summary",
+          "start_page": 48
+        },
+        {
+          "structure": "5.2.7",
+          "title": "4.2.7 Actions Allowed",
+          "start_page": 45
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Intermediary Product",
+          "start_page": 37
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Maintaining an Intermediary Product",
+          "start_page": 37
+        },
+        {
+          "structure": "5.2.4",
+          "title": "4.2.4 Specifying Product Preferences",
+          "start_page": 42
+        },
+        {
+          "structure": "5.2.5",
+          "title": "4.2.5 Specifying Module Product Restrictions",
+          "start_page": 44
+        },
+        {
+          "structure": "5.2.6",
+          "title": "4.2.6 Specifying MIS Details",
+          "start_page": 45
+        },
+        {
+          "structure": "5.2.8",
+          "title": "4.2.8 Viewing Product Summary",
+          "start_page": 46
+        }
+      ]
+    },
+    {
+      "structure": "6.2.2",
+      "title": "5.2.2 Settlement of Commission Between Intermediaries",
+      "start_page": 53,
+      "end_page": 53,
+      "summary": "This page discusses settlement processes for transactions involving intermediaries and details on commission settlement between them, as well as how to view intermediary system data elements.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.3",
+      "title": "5.2.3 Viewing Intermediary System Data Elements",
+      "start_page": 53,
+      "end_page": 54,
+      "summary": "This page discusses settlement processes for transactions involving intermediaries and details on commission settlement between them, as well as how to view intermediary system data elements.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.4",
+      "title": "5.2.4 Actions Allowed",
+      "start_page": 54,
+      "end_page": 54,
+      "summary": "This page describes how to specify product and intermediary codes for viewing SDEs, the actions allowed on a record, and how to view a summary of SDEs through an application screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.5",
+      "title": "5.2.5 Viewing SDE Summary",
+      "start_page": 54,
+      "end_page": 55,
+      "summary": "This page describes how to specify product and intermediary codes for viewing SDEs, the actions allowed on a record, and how to view a summary of SDEs through an application screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.6",
+      "title": "5.2.6 Viewing Calculated Commission",
+      "start_page": 55,
+      "end_page": 56,
+      "summary": "This section explains how to view calculated commission for intermediary products by specifying various details such as product code, intermediary code, branch code, and execution date.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.7",
+      "title": "5.2.7 Actions Allowed",
+      "start_page": 56,
+      "end_page": 57,
+      "summary": "This page details how to specify various parameters for viewing commission calculations and the actions that can be performed on a record.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.8",
+      "title": "5.2.8 Viewing Commission Calculation Summary",
+      "start_page": 57,
+      "end_page": 58,
+      "summary": "This section explains how to view a summary of all commission calculations through the 'Intermediary Calculation View Summary' screen and details the criteria for querying records and the information displayed.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3",
+      "title": "5.3 Intermediary Commission",
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This section explains how to manually liquidate intermediary commission for failed settlements through a specific screen in the application tool bar.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.1",
+      "title": "5.3.1 Liquidating Intermediary Commission Manually",
+      "start_page": 58,
+      "end_page": 59,
+      "summary": "This section explains how to manually liquidate intermediary commission for failed settlements through a specific screen in the application tool bar.",
+      "cross_references": [
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Viewing Product Restrictions Summary",
+          "start_page": 48
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Specifying Branch and Currency Restrictions",
+          "start_page": 46
+        }
+      ]
+    },
+    {
+      "structure": "6.3.2",
+      "title": "5.3.2 Actions Allowed",
+      "start_page": 59,
+      "end_page": 60,
+      "summary": "This page details the fields and actions related to liquidating commission, including specifying various parameters such as reference number, event code, execution date, amount, and currency, along with available actions on a record.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.3",
+      "title": "5.3.3 Viewing Manual Liquidation Summary",
+      "start_page": 60,
+      "end_page": 61,
+      "summary": "This section explains how to view a summary of all manual liquidations through the 'Intermediary Manual Liquidation Summary' screen and details the criteria for querying these records.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Annexure A – Accounting Entries and Advices",
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This page outlines the suggested accounting entries for the Intermediary module of Oracle FLEXCUBE, detailing events, roles, tags, and advice formats.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 Introduction",
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This page outlines the suggested accounting entries for the Intermediary module of Oracle FLEXCUBE, detailing events, roles, tags, and advice formats.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 Events",
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This page outlines the suggested accounting entries for the Intermediary module of Oracle FLEXCUBE, detailing events, roles, tags, and advice formats.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3",
+      "title": "6.3 Accounting Roles",
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This page outlines the suggested accounting entries for the Intermediary module of Oracle FLEXCUBE, detailing events, roles, tags, and advice formats.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.4",
+      "title": "6.4 Amount Tags",
+      "start_page": 61,
+      "end_page": 62,
+      "summary": "This page outlines the suggested accounting entries for the Intermediary module of Oracle FLEXCUBE, detailing events, roles, tags, and advice formats.",
+      "cross_references": [
+        {
+          "structure": "6.2",
+          "title": "5.2 Commission",
+          "start_page": 51
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Commission Processing",
+          "start_page": 51
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Settlement of Commission Between Intermediaries",
+          "start_page": 53
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Viewing Intermediary System Data Elements",
+          "start_page": 53
+        },
+        {
+          "structure": "6.2.4",
+          "title": "5.2.4 Actions Allowed",
+          "start_page": 54
+        },
+        {
+          "structure": "6.2.5",
+          "title": "5.2.5 Viewing SDE Summary",
+          "start_page": 54
+        },
+        {
+          "structure": "6.2.6",
+          "title": "5.2.6 Viewing Calculated Commission",
+          "start_page": 55
+        },
+        {
+          "structure": "6.2.7",
+          "title": "5.2.7 Actions Allowed",
+          "start_page": 56
+        },
+        {
+          "structure": "6.2.8",
+          "title": "5.2.8 Viewing Commission Calculation Summary",
+          "start_page": 57
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Intermediary Commission",
+          "start_page": 58
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Liquidating Intermediary Commission Manually",
+          "start_page": 58
+        },
+        {
+          "structure": "6.3.2",
+          "title": "5.3.2 Actions Allowed",
+          "start_page": 59
+        },
+        {
+          "structure": "6.3.3",
+          "title": "5.3.3 Viewing Manual Liquidation Summary",
+          "start_page": 60
+        }
+      ]
+    },
+    {
+      "structure": "7.5",
+      "title": "6.5 Accounting Entries and Advices",
+      "start_page": 62,
+      "end_page": 62,
+      "summary": "This page discusses the setup of accounting entries for payment and collection types, including specific advice and events related to these transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.5.1",
+      "title": "6.5.1 Payment",
+      "start_page": 62,
+      "end_page": 62,
+      "summary": "This page discusses the setup of accounting entries for payment and collection types, including specific advice and events related to these transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.5.2",
+      "title": "6.5.2 Collection",
+      "start_page": 62,
+      "end_page": 63,
+      "summary": "This page discusses the setup of accounting entries for payment and collection types, including specific advice and events related to these transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.6",
+      "title": "6.6 Advice Format",
+      "start_page": 63,
+      "end_page": 64,
+      "summary": "This page discusses accounting entries and advices for intermediaries, including their formats and handling of credits and debits.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.6.1",
+      "title": "6.6.1 INTER_CR_ADV",
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This page details the formats for capturing and recording intermediary account information including dates, codes, names, addresses, customer IDs, values, amounts, currencies, accounts (credit/debit), transaction details, and settlement accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.6.2",
+      "title": "6.6.2 INTER_DR_ADV",
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This page details the formats for capturing and recording intermediary account information including dates, codes, names, addresses, customer IDs, values, amounts, currencies, accounts (credit/debit), transaction details, and settlement accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.6.3",
+      "title": "6.6.3 INTER_STMT",
+      "start_page": 64,
+      "end_page": 65,
+      "summary": "This page details the formats for capturing and recording intermediary account information including dates, codes, names, addresses, customer IDs, values, amounts, currencies, accounts (credit/debit), transaction details, and settlement accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Function ID Glossary",
+      "start_page": 65,
+      "end_page": 67,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page provides an intermediary user guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Intermediary User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited.",
+      "raw_text": "Intermediary User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "General Maintenance",
+        "Intermediary - An Overview"
+      ],
+      "summary": "This page introduces general maintenance and provides an overview of intermediaries.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nIntermediary - An Overview .................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n3. \n General Maintenance .............................................................................. 3-1\n3.1 \nIntroduction..............................................................................................................  3-1\n3.2 \nBranch Parameters..................................................................................................  3-1\n3.2.1  \nCapturing Branch Parameters ...................................................................  3-1\n3.2.2  \nActions Allowed ..........................................................................................  3-2\n3.2.3  \nViewing Branch Parameters Summary.......................................................  3-3\n3.3 \nIntermediary SDE Details ........................................................................................  3-3\n3.3.1  \nCapturing Intermediary SDE Details...........................................................  3-4\n3.3.2  \nActions Allowed ..........................................................................................  3-6\n3.3.3  \nViewing SDE Summary Details ..................................................................  3-7\n3.4 \nIntermediary Rule ....................................................................................................  3-7\n3.4.1  \nDefining an Intermediary Rule....................................................................  3-7\n3.4.2  \nCapturing Rule Formula ...........................................................................  3-10\n3.4.3  \nActions Allowed ........................................................................................  3-11\n3.4.4  \nViewing Rule Summary Details ................................................................  3-11\n3.5 \nIntermediary Group................................................................................................  3-12\n3.5.1  \nMaintaining Intermediary Group ...............................................................  3-12\n3.5.2  \nActions Allowed ........................................................................................  3-12\n3.5.3  \nViewing Group Summary Details..............................................................  3-13\n3.6 \nIntermediary Hierarchy Details ..............................................................................  3-13\n3.6.1  \nMaintaining Intermediary Hierarchy Details..............................................  3-14\n3.6.2  \nIntermediary Tab ......................................................................................  3-15\n3.6.3  \nSettlement and Statement Tab.................................................................  3-18\n3.6.4  \nProducts Tab ............................................................................................  3-20\n3.6.5  \nCapturing Events......................................................................................  3-21\n3.6.6  \nMaintaining MIS Details............................................................................  3-24\n3.6.7  \nViewing UDE Values ................................................................................  3-24\n3.6.8  \nActions Allowed ........................................................................................  3-25\n3.6.9  \nViewing Intermediary Summary Details....................................................  3-25\n3.7 \nExternal UDE Values.............................................................................................  3-26\n3.7.1  \nSpecifying External UDE Values ..............................................................  3-26\n3.7.2  \nActions Allowed ........................................................................................  3-28\n3.7.3  \nViewing External UDE Summary .............................................................  3-29\n4. \nSetting up a Product ................................................................................ 4-1\n4.1 \nIntroduction..............................................................................................................  4-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Intermediary Product",
+        "Intermediary Product Restrictions",
+        "UDE Values"
+      ],
+      "summary": "This page discusses various aspects of managing an intermediary product, including maintaining it, specifying roles and events, setting preferences and restrictions, and defining UDE values.",
+      "raw_text": "4.2 \nIntermediary Product ...............................................................................................  4-1\n4.2.1  \nMaintaining an Intermediary Product..........................................................  4-1\n4.2.2  \nSpecifying Accounting Roles......................................................................  4-3\n4.2.3  \nSpecifying Events ......................................................................................  4-4\n4.2.4  \nSpecifying Product Preferences .................................................................  4-6\n4.2.5  \nSpecifying Module Product Restrictions.....................................................  4-8\n4.2.6  \nSpecifying MIS Details................................................................................  4-9\n4.2.7  \nActions Allowed ..........................................................................................  4-9\n4.2.8  \nViewing Product Summary .......................................................................  4-10\n4.3 \nIntermediary Product Restrictions .........................................................................  4-10\n4.3.1  \nSpecifying Branch and Currency Restrictions ..........................................  4-10\n4.3.2  \nViewing Product Restrictions Summary ...................................................  4-12\n4.4 \nUDE Values...........................................................................................................  4-13\n4.4.1  \nSpecifying UDE Values ............................................................................  4-13\n4.4.2  \nActions Allowed ........................................................................................  4-14\n4.4.3  \nViewing UDE Summary Details................................................................  4-14\n5. \nOperations ................................................................................................ 5-1\n5.1 \nIntroduction..............................................................................................................  5-1\n5.2 \nCommission.............................................................................................................  5-1\n5.2.1  \nCommission Processing.............................................................................  5-1\n5.2.2  \nSettlement of Commission Between Intermediaries...................................  5-3\n5.2.3  \nViewing Intermediary System Data Elements ............................................  5-3\n5.2.4  \nActions Allowed ..........................................................................................  5-4\n5.2.5  \nViewing SDE Summary .............................................................................  5-4\n5.2.6  \nViewing Calculated Commission ................................................................  5-5\n5.2.7  \nActions Allowed ..........................................................................................  5-6\n5.2.8  \nViewing Commission Calculation Summary...............................................  5-7\n5.3 \nIntermediary Commission........................................................................................  5-8\n5.3.1  \nLiquidating Intermediary Commission Manually .........................................  5-8\n5.3.2  \nActions Allowed ..........................................................................................  5-9\n5.3.3  \nViewing Manual Liquidation Summary .....................................................  5-10\n6. \nAnnexure A – Accounting Entries and Advices ................................... 6-1\n6.1 \nIntroduction..............................................................................................................  6-1\n6.2 \nEvents......................................................................................................................  6-1\n6.3 \nAccounting Roles.....................................................................................................  6-1\n6.4 \nAmount Tags ...........................................................................................................  6-1\n6.5 \nAccounting Entries and Advices..............................................................................  6-2\n6.5.1  \nPayment .....................................................................................................  6-2\n6.5.2  \nCollection....................................................................................................  6-2\n6.6 \nAdvice Format .........................................................................................................  6-3\n6.6.1  \nINTER_CR_ADV .......................................................................................  6-4\n6.6.2  \nINTER_DR_ADV .......................................................................................  6-4\n6.6.3  \nINTER_STMT ............................................................................................  6-4\n7. \nFunction ID Glossary ............................................................................... 7-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This page introduces the Intermediary module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help acquaint you with the Intermediary module of Oracle \nFLEXCUBE.\nIn addition to this User Manual, you can find answers to specific features and procedures, in \nthe Online Help. It can be invoked by choosing Help Contents from the Help Menu of the \nsoftware. You can further obtain information about to a particular field by placing the cursor \non the relevant field and striking the <F1> key on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nBack office data entry clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/ Beginning of \nDay\nFinancial Controller / Product Managers\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nIntermediary - An Overview gives a snapshot of the features that the \nmodule provides.\nChapter 3\nGeneric Maintenance discusses the details that need to be maintained in \norder to process transactions requiring intermediary services. \nChapter 4\nSetting up a Product chapter talks about defining the attributes specific \nto setting up an intermediary product.\nChapter 5\nOperations talks about commission calculation for intermediaries."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page provides references to related user manuals and icons used in the Intermediary module, along with details on accounting entries and function IDs.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nYou may need to refer to any or all of the User Manuals while working on the Intermediary \nmodule:\nCore \nProcedures\nSettlements\nInterest\nUser Defined\nRetail Lending\nLeasing\nMortgages\nIslamic Financing\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter 6\nAnnexure A – Accounting Entries and Advices explains the types of \naccounting entries and advices generated for every event.\nChapter 7\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "Intermediary - An Overview"
+      ],
+      "summary": "This page provides an overview of intermediaries in financial services and explains how to process them using Oracle FLEXCUBE software.",
+      "raw_text": "2-1\n2. Intermediary - An Overview\n2.1 \nIntroduction\nAn intermediary is a third party who offers intermediation services between two trading \nparties. From a software application perspective, an intermediary acts as a middleware \nbetween the bank and the customer. The bank may also contract an intermediary to market \nits funds, thereby attracting the customers. Intermediaries can avail the commission from the \nbank on every successful loan created through them. An intermediary can be a single entity \nor a group. The banks can follow hierarchical structure to group multiple intermediaries. In \ncase of multiple intermediaries, the commission earned should be shared with all \nintermediaries who are part of the same hierarchical structure up to the specified levels.\nThis manual explains the processing of intermediaries in Oracle FLEXCUBE. Using the \nIntermediary Service that Oracle FLEXCUBE provides, you can:\nCapture and maintain the Intermediary hierarchy structure\nMaintain commission plans and commission calculation for main loans and third party \nproducts such as insurances, warranty contracts, etc\nPay commission to the intermediaries as the loan is disbursed\nMaintain charge backs in case of early pay-offs and defaults\nGenerate Intermediary statements\nCapture and maintain periodic billing and accounting\nYou can process intermediaries in Oracle FLEXCUBE in the following manner:\nMaintain Intermediary details\nMaintain intermediary rules\nMaintain branch and currency restrictions\nCapture Intermediary account details"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Introduction",
+        "Branch Parameters",
+        "Intermediary SDE Details",
+        "Intermediary Rule",
+        "Intermediary Group",
+        "Intermediary Hierarchy Details",
+        "External UDE Values"
+      ],
+      "summary": "This page outlines the maintenance of various details required for processing transactions using intermediary services, including branch parameters and intermediary system data element details.",
+      "raw_text": "3-1\n3.  General Maintenance\n3.1 \nIntroduction\nYou need to maintain the following details in order to process transactions using intermediary \nservices:\nBranch Parameters\nIntermediary System Data Element (SDE) Details\nIntermediary Rules\nIntermediary Group\nIntermediary Hierarchy\nExternal UDE Values\nThis chapter contains the following sections:\nSection 3.2, \"Branch Parameters\"\nSection 3.3, \"Intermediary SDE Details\"\nSection 3.4, \"Intermediary Rule\"\nSection 3.5, \"Intermediary Group\"\nSection 3.6, \"Intermediary Hierarchy Details\"\nSection 3.7, \"External UDE Values\"\n3.2 \nBranch Parameters\nThis section contains the following topics:\nSection 3.2.1, \"Capturing Branch Parameters \"\nSection 3.2.2, \"Actions Allowed\"\nSection 3.2.3, \"Viewing Branch Parameters Summary\"\n3.2.1 \nCapturing Branch Parameters \nYou can maintain branch-level parameters for all transaction involving the intermediary \nmodule, using the ‘Intermediary Branch Parameters Maintenance’ screen. You can invoke"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Specify the following details.",
+        "Actions Allowed"
+      ],
+      "summary": "This page describes how to input branch and transaction codes, set processing preferences for automatic events, and outlines actions that can be performed on a record.",
+      "raw_text": "3-2\nthis screen by typing ‘INDBRMNT’ in the field at the top right corner of the Application tool bar \nand clicking the adjoining arrow button.\nSpecify the following details.\nBranch Code\nSpecify the branch code for which you are maintaining parameters. The adjoining option list \ndisplays all valid branch codes maintained in the system. You can select the appropriate one.\nBranch Name\nThe system displays the branch name associated with the branch code.\nTransaction Code\nSpecify the transaction code.\nProcess Till\nThis specification determines the day on which automatic events such accrual, liquidation etc. \nfalling due on a holiday, should be processed. Indicate your preference by selecting the \nappropriate option. The available options here are:\nSystem Date - If you select this option, events will be scheduled as per the date \nirrespective of whether it is a holiday or not.\nNext Working Day -1 - If you select this option, events scheduled for a holiday will be \nprocessed on the last working day before the holiday.\nIntermediary Daily Computation\nCheck this box to indicate that SDE calculation should happen daily for every intermediary.\n3.2.2 \nActions Allowed\nYou can perform the following actions on a record:\nNew\nDelete\nUnlock"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Intermediary Branch Parameters Summary",
+        "Intermediary SDE Details"
+      ],
+      "summary": "This page describes how to view parameters for each branch and details on capturing and viewing intermediary SDE (System Data Element) information.",
+      "raw_text": "3-3\nSave\nAuth (Authorise)\nReverse\nExecute\nQuery\nRefer the Procedures User Manual for details about each action.\n3.2.3 \nViewing Branch Parameters Summary\nYou can view parameters maintained for every branch, using the ‘Intermediary Branch \nParameters Summary’ screen. You can invoke this screen by typing ‘INSBRMNT’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button.\nYou can query on records based on any or all of the following criteria:\nAuthorization Status\nRecord Status\nBranch Code\nProcess Till\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status\nRecord Status\nBranch Code\nProcess Till\n3.3 \nIntermediary SDE Details\nThis section contains the following topics:\nSection 3.3.1, \"Capturing Intermediary SDE Details\"\nSection 3.3.2, \"Actions Allowed\"\nSection 3.3.3, \"Viewing SDE Summary Details\""
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Capturing Intermediary SDE Details"
+      ],
+      "summary": "This section details various System Data Elements (SDEs) available in the system that capture financial metrics related to loans created by intermediaries.",
+      "raw_text": "3-4\n3.3.1 \nCapturing Intermediary SDE Details\nThe following System Data Elements (SDEs) are available in the system.\nElement\nDescription\nCalculation \nmethod\nLOAN_COUNT\nThis SDE returns the total number of \nloans created by a particular Interme-\ndiary\nPeriodic\nLOAN_DISBURSED_AMT\nThis SDE returns the sum of amount \ndisbursed of all loans created by a par-\nticular Intermediary.\nPeriodic\nLOAN_OVERDUE_AMT\nThis SDE returns the sum of all over-\ndue amount i.e. sum of all overdue \ncomponents i.e. PRINCIPAL, INTER-\nEST etc. of all the loans created by a \nparticular Intermediary.\nAs of date\nLOAN_OVERDUE_PRINC\nThis SDE returns the sum of the over-\ndue principal amount i.e. sum of PRIN-\nCIPAL of all the loans created by a \nparticular Intermediary.\nAs of date\nLOAN_OUT-\nSTAND_PRINC\nThis SDE returns the sum of outstand-\ning principal of all the loans created by \na particular Intermediary.\nAs of date\nLOAN_ PREPAID_AMT\nThis SDE returns the sum of amount \npaid as pre-payment on all loans cre-\nated by a particular Intermediary.\nPeriodic\nLOAN_BOOKED_AMT\nThis SDE returns the sum of amount \nbooked on all loans created by a par-\nticular Intermediary.\nPeriodic\nLOAN_COLLECTED_AMT\nThis SDE returns the sum of amount \ncollected by the Intermediary for the \ncurrent cycle of liquidation. This is the \nactual amount collected and it \nexcludes the amount paid and \nreversed in the current liquidation \ncycle.\nPeriodic\nLOAN_COLL_REV_AMT\nThis SDE returns the sum of reversed \namount, which was collected by the \nIntermediary for the previous cycle but \nwas reversed in the current liquidation \ncycle.\nPeriodic\nCASA_COUNT  \nThis SDE returns the total number of \nCASA applications created by a par-\nticular intermediary for all the custom-\ners.  \nPeriodic"
+    },
+    {
+      "page_number": 12,
+      "sections": [],
+      "summary": "This page describes various SDE (System Data Entity) queries related to minimum balances and counts of different types of accounts managed by intermediaries.",
+      "raw_text": "3-5\nCASA_MIN_BALANCE\nThe SDE returns the minimum bal-\nance required to be maintained for \nCASA applications created by a par-\nticular intermediary.\nPeriodic\nISLAMIC_CASA_MIN_-\nBALANCE\nThe SDE returns the minimum balance \nrequired to be maintained for Islamic \nCASA applications created by a particular \nIntermediary.\nPeriodic\nTD_ COUNT\nThe SDE returns the count of Term \ndeposit account referred by a particular \nIntermediary\nPeriodic\nISLAMIC_CASA_COUNT\nThe SDE returns the count of \nIslamic CASA account referred by a \nparticular Intermediary.\nAs of date\nISLAMIC_TD_COUNT\nThe SDE returns the count of Islamic \nterm deposit account referred by a \nparticular intermediary\nPeriodic\nTD_AMOUNT\nThe SDE returns the sum TD amount by \na particular intermediary.\nAs of date\nTD_PART_WITHDRAW\nThe SDE returns the sum of the amount \nwithdrawn partially for TD by a particular \nintermediary\nAs of date\nTD_ROLLOVER_AMOUNT\nThe SDE returns the sum of the rollover \namount by a particular intermediary.\nAs of date\nISLAMIC_TD_AMOUNT\nThe SDE returns the sum of the Islamic \nTD amount by a particular Intermediary.\nAs of date\nISLAMIC_ PART_WITH-\nDRAW\nThe SDE returns the sum of the amount \nwithdraw partially for Islamic TD by a par-\nticular intermediary.\nAs of date\nISLAMIC_ TD_ROLLO-\nVER_AMOUNT\nThe SDE returns the sum of the rollover \namount by a particular Intermediary for \nIslamic TD\nAs of date"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Element",
+        "Description",
+        "Calculation Method",
+        "Actions Allowed"
+      ],
+      "summary": "This page describes how to view details of System Data Elements (SDE) in the 'Intermediary SDE Maintenance' screen and outlines the available fields and actions.",
+      "raw_text": "3-6\nYou can view details of each one of them in the ‘Intermediary SDE Maintenance’ screen. You \ncan invoke this screen by typing ‘INDSDEMT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nHere you can view the following details.\nElement\nThe system displays a unique identification code for the System Data Element (SDE).\nDescription\nThe system displays a brief description for the System Data Element.\nCalculation Method\nThe system displays the method that should be used for calculation purposes from the \nadjoining drop-down list. The options available are:\nPeriodic - These SDEs will always aggregate data for an intermediary between the last \nsettlement date and the next settlement date. The computation of all such SDEs will be \nbased on the booking date.\nAs of date - These SDEs will be the aggregated data as of that point in time.\n3.3.2 \nActions Allowed\nYou can perform the following actions on a record:\nQuery"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Viewing SDE Summary Details",
+        "Intermediary Rule",
+        "Defining an Intermediary Rule"
+      ],
+      "summary": "This page describes how to view SDE summary details and provides an overview of intermediary rules, including defining them and capturing rule formulas.",
+      "raw_text": "3-7\nRefer the Procedures User Manual for details about each action.\n3.3.3 \nViewing SDE Summary Details\nYou can view all SDEs maintained for intermediaries in the ‘Intermediary SDE Maintenance \nSummary’ screen. You can invoke this screen by typing ‘INSSDEMT’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nYou can query based on the SDE ID.\nClick ‘Search’ button. The system identifies all records matching the criteria specified and \ndisplays the following details for each of them:\nElement\nDescription\nCalculation Method\n3.4 \nIntermediary Rule\nThis section contains the following topics:\nSection 3.4.1, \"Defining an Intermediary Rule\"\nSection 3.4.2, \"Capturing Rule Formula\"\nSection 3.4.3, \"Actions Allowed\"\nSection 3.4.4, \"Viewing Rule Summary Details\"\n3.4.1 \nDefining an Intermediary Rule\nAn Intermediary Rule identifies the method to calculate commission payable to the \nIntermediary and Pre-Payment/Late Payment penalty charge to be recovered from the \nIntermediary. You can maintain such rules in the ‘Intermediary Rule Maintenance’ screen."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Specify the following details."
+      ],
+      "summary": "This section explains how to invoke a screen and specifies the details required for creating an Intermediary rule, including Rule ID, Description, Currency, Exchange Rate Type, and Rule Type.",
+      "raw_text": "3-8\nYou can invoke this screen by typing ‘INDRLMNT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nSpecify the following details.\nRule ID\nSpecify a unique rule identification code for the Intermediary rule you are creating. \nRule Description\nGive a brief description for the rule ID.\nCurrency\nSpecify the currency in which the aggregation of total amount should be considered in the \nrule. The adjoining option list displays all valid currencies maintained in the system. You can \nchoose the appropriate one.\nExchange Rate Type\nSpecify the rate type to be used for cross currency transactions. The adjoining option list \ndisplays all valid exchange rate types maintained in the system. You can choose the \nappropriate one.\nRule Type\nSelect the type of rule from the adjoining drop-down list. The options available here are:\nPayment\nCollection\nThis value determines the accounting set-up that needs to be done for the intermediary \nproduct."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "SDE Details",
+        "UDE ID",
+        "UDE Type",
+        "UDE Basis",
+        "UDE Currency"
+      ],
+      "summary": "This page details how to specify System Data Elements (SDE) and User Data Elements (UDE) for rules, including their IDs, types, bases, currencies, and conditions.",
+      "raw_text": "3-9\nRefer the chapter titled ‘Setting up A Product’ in this User Manual for details about product set-\nup.\nSDE Details\nYou can specify the following details for SDEs.\nSDE ID\nSpecify the System Data Elements ID to be included in the rule. The adjoining option list \ndisplays all valid SDE IDs available in the system. You can choose the appropriate one.\nYou can maintain multiple SDEs.\nUDE ID\nSpecify the User Data Element ID to be included in the rule. \nUDE Type\nSelect the type of the UDE from the adjoining drop-down list. The following options are \navailable:\nAmount\nRate\nNumber\nUDE Basis\nSelect the UDE basis from the adjoining drop-down list. The following options are available:\nInternal\nExternal\nUDE Currency\nSpecify the UDE currency. The adjoining option list displays all valid currency codes \nmaintained in the system. You can choose the appropriate one.\nNote\nYou can specify the currency only if UDE type if ‘Amount’ and basis is ‘External’.\nYou can maintain multiple UDEs."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Capturing Rule Formula"
+      ],
+      "summary": "This section explains how to specify a rule formula using the 'Formula' screen in the 'Intermediary Rule Maintenance' interface, including details on assigning sequence numbers, specifying conditions and results, and building conditions.",
+      "raw_text": "3-10\n3.4.2 \nCapturing Rule Formula\nYou can specify the formula for the rule using the ‘Formula’ screen. You can invoke this \nscreen by clicking ‘Formula’ button in the ‘Intermediary Rule Maintenance’ screen.\nSpecify the following details.\nLine\nAssign a unique sequence number/formula number for each condition. The conditions are \nevaluated based on this number.\nCondition\nSpecify the condition for the rule.\nResult\nSpecify the result of the condition being satisfied.\nTo define a condition, click on ‘Condition’ in the screen above. The following screen is \ndisplayed:\nIn this screen, you can use the elements, operators, and logical operators to build a condition."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Actions Allowed",
+        "Viewing Rule Summary Details"
+      ],
+      "summary": "This page describes the actions that can be performed on a record and how to view details of intermediary rules in the system.",
+      "raw_text": "3-11\nAlthough you can define multiple expressions for a component, if a given condition is satisfied, \nsubsequent conditions are not evaluated. Thus, depending on the condition of the expression \nthat is satisfied, the corresponding formula result is picked up for component value \ncomputation. Therefore, you have the flexibility to define a computation logic for each \ncomponent of the product. \n3.4.3 \nActions Allowed\nYou can perform the following actions on a record:\nNew\nDelete\nUnlock\nSave\nAuth (Authorise)\nReverse\nExecute\nQuery\nRefer the Procedures User Manual for details about each action.\n3.4.4 \nViewing Rule Summary Details\nYou can view details of all intermediary rules maintained in the system, using the \n‘Intermediary Rule Maintenance Summary’ screen. You can invoke this screen by typing \n‘INSRLMNT’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button.\nYou can query based on the following criteria:\nAuthorization Status\nRecord Status\nRule ID\nClick ‘Search’ button. The system identifies all records matching the criteria specified and \ndisplays the following details for each of them:\nAuthorization Status\nRecord Status"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Intermediary Group",
+        "Maintaining Intermediary Group",
+        "Actions Allowed",
+        "Viewing Group Summary Details"
+      ],
+      "summary": "This page describes how to maintain intermediary groups by specifying group details and performing actions like new, delete, and unlock on records.",
+      "raw_text": "3-12\nRule ID\nRule Description\nRule Type \n3.5 \nIntermediary Group\nThis section contains the following topics:\nSection 3.5.1, \"Maintaining Intermediary Group\"\nSection 3.5.2, \"Actions Allowed\"\nSection 3.5.3, \"Viewing Group Summary Details\"\n3.5.1 \nMaintaining Intermediary Group\nYou can associate a set of intermediaries to a group and link the group to transactions. You \ncan maintain such intermediary groups using the ‘Intermediary Group Maintenance’ screen. \nYou can invoke this screen by typing ‘INDGRPMT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button. \nYou can specify the following details:\nGroup Code\nSpecify a unique code to identify the group that you want to maintain.\nDescription\nSpecify a brief description for the group code.\n3.5.2 \nActions Allowed\nYou can perform the following actions on a record:\nNew\nDelete\nUnlock"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Viewing Group Summary Details",
+        "Intermediary Hierarchy Details"
+      ],
+      "summary": "This page describes how to view intermediary group details and provides an overview of maintaining intermediary hierarchy details through various tabs and sections.",
+      "raw_text": "3-13\nSave\nAuth (Authorise)\nReverse\nExecute\nQuery\nRefer the Procedures User Manual for details about each action.\n3.5.3 \nViewing Group Summary Details\nYou can view all the details of intermediary groups in the ‘Intermediary Group Maintenance \nSummary’ screen. You can invoke this screen by typing ‘INSGRPMT’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nYou can query based on the following criteria:\nAuthorization Status\nRecord Status\nGroup Code\nClick ‘Search’ button. The system identifies all records matching the criteria specified and \ndisplays the following details for each of them:\nAuthorization Status\nRecord Status\nGroup Code\n3.6 \nIntermediary Hierarchy Details\nThis section contains the following topics:\nSection 3.6.1, \"Maintaining Intermediary Hierarchy Details\"\nSection 3.6.2, \"Intermediary Tab\"\nSection 3.6.3, \"Settlement and Statement Tab\"\nSection 3.6.4, \"Products Tab\"\nSection 3.6.5, \"Capturing Events\"\nSection 3.6.6, \"Maintaining MIS Details\""
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "This page discusses maintaining intermediary hierarchy details in Oracle FLEXCUBE, including creating a hierarchy of intermediaries and specifying commission processing shares for each one.",
+      "raw_text": "3-14\nSection 3.6.7, \"Viewing UDE Values\"\nSection 3.6.8, \"Actions Allowed\"\nSection 3.6.9, \"Viewing Intermediary Summary Details\"\n3.6.1 \nMaintaining Intermediary Hierarchy Details\nYou can maintain intermediaries in Oracle FLEXCUBE. You can also create a hierarchy of \nintermediaries and specify commission processing share for each one in the hierarchy.\nYou can maintain such hierarchy details through the ‘Intermediary Maintenance’ screen. You \ncan then link the intermediary to a loan. You can invoke this screen by typing ‘INDINMNT’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.  \nYou should specify the following details in the above screen.\nIntermediary Code\nThe system generates a unique numeric intermediary code for every intermediary as per the \nfollowing mask:\nNNNNNNNNN\nWhere, \nNNNNNNNNN - Running sequence number\nIntermediary Name\nSpecify the name of the Intermediary associated with the bank."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Intermediary Tab",
+        "Intermediary Details"
+      ],
+      "summary": "This page describes how to specify additional details for an intermediary in a system, including fields such as primary contact, type, branch code, effective date, category, group code, and parent intermediary code.",
+      "raw_text": "3-15\nYou can specify additional details for the intermediary in the following tabs:\nIntermediary\nSettlement and Statement\nProducts\n3.6.2 \nIntermediary Tab\nThe system displays this tab by default when you invoke this screen.\nIntermediary Details\nYou can specify the following details.\nPrimary Contact\nSpecify the name of the person to be contacted from the intermediary.\nType\nIndicate whether the intermediary is internal or external to your bank by selecting the one of \nthe options from the adjoining drop-down list:\nInternal\nExternal\nBranch Code\nThis field indicates the Home Branch of the intermediary. This value is defaulted based on the \ncurrent logged-in branch.\nEffective Date\nThe system displays the current system date.\nIntermediary Category\nSpecify weather the Intermediary is a single entity or group of intermediaries. The options \navailable here are:\nIndividual\nGroup\nGroup Code\nIf you have selected the category as ‘Group’, then you have to specify the group code to which \nthe intermediary should belong. The adjoining option list displays all valid intermediary group \ncodes maintained in the system. You can choose the appropriate one.\nParent Intermediary Code\nIn order to build a hierarchy of intermediaries, you need to specify the parent intermediary \ncode. The adjoining option list displays all valid intermediary codes maintained in the system. \nYou can choose the appropriate one. \nThe system will allow only intermediaries with the same home branch to be linked as parent \nintermediary.\nParent Intermediary Name\nBased on the parent intermediary code, the system displays the corresponding intermediary \nname."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Intermediary Customer Number",
+        "Address",
+        "ZIP",
+        "Country",
+        "Collection Agent",
+        "Root Intermediary",
+        "Liquidation Mode",
+        "Minimum Amount for Liquidation"
+      ],
+      "summary": "This page details the fields and options available to specify intermediary information, including customer number, address, country, collection agent status, root intermediary designation, liquidation mode, and minimum amount for commission liquidation.",
+      "raw_text": "3-16\nIntermediary Customer Number\nSpecify the customer number of the intermediary. You can choose the appropriate customer \nnumber from the adjoining option list. This list displays all valid and open accounts maintained \nin the system.\nAddress\nSpecify the address of the intermediary. \nThe system retrieves the address based on the customer number (CIF). However, you can \nchange it.\nZIP\nSpecify the ZIP code of the address. \nThe system retrieves the ZIP code based on the customer number (CIF). However, you can \nchange it.\nCountry\nSpecify the country in which intermediary resides. The adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one. \nThe system retrieves the country based on the customer number (CIF). However, you can \nchange it.\nCollection Agent\nCheck this box to indicate that the Intermediary can act as a collection agent. \nRoot Intermediary\nIndicate whether the intermediary is at the root of the hierarchy or not by selecting one of the \nfollowing options:\nYes\nNo\nLiquidation Mode\nSelect the mode of liquidation for settlement of intermediary transactions from the adjoining \ndrop-down list. The options available are:\nAutomatic\nManual\nMinimum Amount for Liquidation\nSpecify the minimum amount required for primary commission liquidation. While processing \ntransactions for the intermediary, if the calculated amount is less than the amount maintained \nhere, it will not consider the amount for liquidation.\nIntermediary Status\nIndicate the status of the intermediary by choosing one of the following options from the \nadjoining drop-down list:\nActive\nInactive\nCascade Child\nCheck this box to indicate that status of the parent should be applied to the child \nintermediaries. Once checked, if you change the status of a parent intermediary from active \nto inactive, the system will make all child intermediaries inactive. However, you can also leave \nthe box unchecked. In such case, the status of parent intermediary will not be applied to the"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Level Number",
+        "Cascade Till",
+        "Telephone",
+        "Mobile",
+        "Fax",
+        "E-Mail ID"
+      ],
+      "summary": "This page describes various fields and settings related to intermediary hierarchy in a system, including level updates, commission distribution rules, and contact information.",
+      "raw_text": "3-17\nchild intermediaries. During hierarchy commission distribution, the system will stop \nprocessing on encountering the first inactive record.\nLevel Number\nThe system updates the level of the intermediary in the hierarchy on saving the record.\nCascade Till\nIndicate the level until which the system should process hierarchy commission by choosing \none of the following values from the adjoining drop-down list:\nImmediate - If you select this option, commission hierarchy will be processed only up to \nimmediate parent.\nRoot - If you select this option, commission hierarchy will be processed up to the root \nintermediary till the minimum hierarchy commission amount is reached.\nTelephone\nSpecify the telephone number of the intermediary. \nThe system retrieves the telephone number based on the customer number (CIF). However, \nyou can change it.\nMobile \nSpecify the mobile number of the intermediary. \nThe system retrieves the mobile number based on the customer number (CIF). However, you \ncan change it.\nFax\nSpecify the facsimile (fax) number of the intermediary. \nThe system retrieves the fax number based on the customer number (CIF). However, you can \nchange it.\nE-Mail ID\nSpecify the e-mail ID of the intermediary. \nThe system retrieves the e-mail ID based on the customer number (CIF). However, you can \nchange it."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Settlement Details",
+        "Statement Details"
+      ],
+      "summary": "This page describes how to set up and specify details for settlement processing and statement generation in a financial system.",
+      "raw_text": "3-18\n3.6.3 \nSettlement and Statement Tab\nClick ‘Settlement and Statement’ tab to capture details about settlement processing. \nYou can specify the following details.\nSettlement Details\nSpecify the following details for settlement processing.\nSettlement Currency\nSpecify the currency to be used for settlement processing. The adjoining option list displays \nall valid currency codes maintained in the system. You can select the appropriate one.\nSettlement Mode\nIndicate the settlement mode by choosing one of the following values from the adjoining drop-\ndown list:\nCASA\nExternal\nIf you choose ‘CASA’, you will have to specify the settlement account under ‘CASA’ section. \nIf you choose ‘External’, you will have to specify the settlement account for CASA as well as \nexternal account details under the ‘External Account’ section.\nStatement Details\nSpecify the following details for statement generation."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Statement Frequency",
+        "Statement Frequency Unit",
+        "Statement Start Month",
+        "Statement Start Date",
+        "Last Statement Date",
+        "Next Statement Date",
+        "CASA"
+      ],
+      "summary": "This page describes settings for generating statements at different frequencies and related details, including the start date, last generation date, next generation date, and settlement account information.",
+      "raw_text": "3-19\nStatement Frequency\nSelect the frequency at which statement should be generated for the intermediary, from the \nadjoining drop-down list. The following values are available:\nDaily\nWeekly\nMonthly\nYearly\nStatement Frequency Unit\nSpecify a numeric value to denote the unit of statement frequency. For example, if the \nfrequency is daily and the unit is specified as ‘3’, it will imply that statements should be \ngenerated every 3 days.\nStatement Start Month\nFrom the adjoining drop-down list, select the month from which statement generation should \nbegin if you have chosen the frequency as ‘Monthly’ or ‘Yearly’.\nStatement Start Date\nSpecify the date from which the statement generation should begin based on the given \nfrequency, using the adjoining calendar.\nLast Statement Date\nThe system displays the date of last statement generation.\nNext Statement Date\nBased on the statement generation parameters, the system arrives at the next statement date \nand displays it here.\nCASA\nIf settlement needs to be done using an internal account (CASA), you need to specify the \nfollowing details. \nSettlement Branch\nSpecify the branch code where the settlement needs to be done. The adjoining option list \ndisplays all valid branch codes maintained in the system. You can select the appropriate one.\nSettlement Account\nSpecify the account from which settlement needs to be done. The adjoining option list \ndisplays all valid accounts available for the CIF. You can select the appropriate one.\nInput to this field is mandatory for both CASA and External modes of settlement.\nExternal Account\nIf settlement needs to be done using an external account, you need to specify the following \ndetails.\nExternal Account Name\nSpecify the name of the external account.\nExternal Account Number\nSpecify the external account number."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "External Bank Code",
+        "Products Tab"
+      ],
+      "summary": "This page describes how to specify the external bank code and details about products that an intermediary can transact under.",
+      "raw_text": "3-20\nExternal Bank Code\nSpecify the bank code to which the external account belongs. The adjoining option list \ndisplays all valid bank codes maintained in the system. You can select the appropriate one.\n3.6.4 \nProducts Tab\nClick ‘Products’ tab to capture details about products under which the intermediary can \ntransact. \nSpecify the following details:\nProduct Code\nSpecify the intermediary product in which the intermediary can transact. The adjoining option \nlist displays all open and authorized intermediary products maintained in the system. You can \nchoose the appropriate one. \nYou can link multiple products to the intermediary.\nProduct Description\nThe system displays a brief description of the product.\nLast Settlement Date\nThe system displays the last settlement date for the product."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Last Processing Date",
+        "Next Processing Date",
+        "Hierarchy Commission Percentage",
+        "Minimum Hierarchy Commission",
+        "UDE Details",
+        "Rule ID",
+        "UDE ID",
+        "UDE Value",
+        "Capturing Events"
+      ],
+      "summary": "This page describes various system features related to product processing, commission settings, and event capturing in an intermediary maintenance context.",
+      "raw_text": "3-21\nLast Processing Date\nThe system displays the last processing date for the product.\nNext Processing Date\nThe system displays the next settlement date for the product based on the settlement \nfrequency.\nHierarchy Commission Percentage\nSpecify the commission that the intermediary should get in terms of a percentage of the \ntransaction amount.\nMinimum Hierarchy Commission\nSpecify the minimum amount that should be granted as commission.\nUDE Details\nThe system displays all rules linked to the product. You can specify the UDE values for them.\nRule ID\nThe system displays the rules that are linked to the product.\nUDE ID\nThe system displays the UDE ID associated with the rule.\nUDE Value\nSpecify the value for the UDE IDs.\n3.6.5 \nCapturing Events\nClick ‘Events’ button in the ‘Intermediary Maintenance’ screen and invoke the ‘Events’ screen.\nHere you can view the following details:\nEvent Number\nEvent Code\nEvent Date"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Click ‘Messages’ button and invoke the ‘Messages’ screen to view the messages generated for the intermediary."
+      ],
+      "summary": "This section describes how to access the 'Messages' screen and lists the details that can be viewed there.",
+      "raw_text": "3-22\nClick ‘Messages’ button and invoke the ‘Messages’ screen to view the messages generated \nfor the intermediary. \nHere you can view the following details:\nEvent Number\nMessage Type\nParty ID\nSuppress\nPriority"
+    },
+    {
+      "page_number": 30,
+      "sections": [],
+      "summary": "This page describes how to view accounting entries for transactions of an intermediary by invoking the 'Accounting Entries' screen and lists the details that can be viewed.",
+      "raw_text": "3-23\nClick ‘Accounting Entries’ button and invoke the ‘Accounting Entries’ screen to view \naccounting entries posted for transactions of the intermediary.\nHere you can view the following details:\nBranch Code\nAccount Number\nD/C\nLocal Currency\nLocal Ccy Amount\nExchange Rate\nForeign Ccy Amount\nDate\nValue date\nAmount Tag\nCode"
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Maintaining MIS Details",
+        "Viewing UDE Values"
+      ],
+      "summary": "This page describes how to access and use the Management Information System (MIS) and UDE Values screens within the Intermediary Maintenance module.",
+      "raw_text": "3-24\n3.6.6 \nMaintaining MIS Details\nClick ‘MIS’ button in the ‘Intermediary Maintenance’ screen and invoke the ‘Management \nInformation System’ screen.\nRefer the User Manual on MIS for further details.\n3.6.7 \nViewing UDE Values\nClick ‘UDE Values’ button in the ‘Intermediary Maintenance’ screen to invoke the ‘UDE \nValues’ screen. You can view values for all UDEs applicable to the Intermediary in this screen. \nNote that you will be able to invoke this screen only in the Query mode. In all other cases, this \nbutton will be disabled."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Actions Allowed",
+        "Viewing Intermediary Summary Details"
+      ],
+      "summary": "This page details the actions that can be performed on a record and how to view intermediary summary details in the application.",
+      "raw_text": "3-25\nHere you can view the following details:\nRule ID\nUDE ID\nUDE Value\n3.6.8 \nActions Allowed\nYou can perform the following actions on a record:\nNew\nDelete\nUnlock\nSave\nAuth (Authorise)\nReverse\nExecute\nQuery\nRefer the Procedures User Manual for details about each action.\n3.6.9 \nViewing Intermediary Summary Details\nYou can view details of all intermediaries in the ‘Intermediary Maintenance Summary’ screen. \nYou can invoke this screen by typing ‘INSINMNT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou can query on records based on any or all of the following criteria:\nAuthorization Status\nRecord Status\nIntermediary Code\nIntermediary Name\nIntermediary Status\nParent Intermediary Code"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "External UDE Values",
+        "Specifying External UDE Values",
+        "Actions Allowed",
+        "Viewing External UDE Summary"
+      ],
+      "summary": "This page discusses how to specify and manage external user-defined element (UDE) values for intermediary commission calculations, including actions allowed and viewing summaries.",
+      "raw_text": "3-26\nPrimary Contact\nIntermediary Category\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status\nRecord Status\nIntermediary Code\nIntermediary Name\nIntermediary Status\nParent Intermediary Code\nPrimary Contact\nIntermediary Category\n3.7 \nExternal UDE Values\nThis section contains the following topics:\nSection 3.7.1, \"Specifying External UDE Values\"\nSection 3.7.2, \"Actions Allowed\"\nSection 3.7.3, \"Viewing External UDE Summary \"\n3.7.1 \nSpecifying External UDE Values\nYou may need to capture data from external systems for computation of intermediary \ncommission. You can capture such data in the ‘External UDE Values Maintenance’ screen."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Specify the intermediary code",
+        "UDE Effective Date",
+        "Product Details",
+        "Product Code",
+        "Product Description",
+        "UDE Details"
+      ],
+      "summary": "This page explains how to invoke a screen for capturing external UDE values and details the steps required, including specifying intermediary codes, product codes, effective dates, and viewing product descriptions and related rules.",
+      "raw_text": "3-27\nYou can invoke this screen by typing ‘INDUDEMT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.I\nSpecify the following details.\nIntermediary Code\nSpecify the intermediary code for which you want to capture external UDE values. The \nadjoining option list displays all valid intermediary codes maintained in the system. You can \nchoose the appropriate one.\nUDE Effective Date\nSpecify the date from which the UDE should be effective.\nProduct Details\nYou can link products to the intermediary code.\nProduct Code\nSpecify the intermediary product code for which you want to capture external UDE values. \nThe adjoining option list displays all valid intermediary product codes maintained in the \nsystem. You can choose the appropriate one.\nProduct Description\nThe system displays a brief description of the product.\nUDE Details\nThe system displays all rules linked to the specified product code."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Rule ID",
+        "UDE ID",
+        "UDE Currency",
+        "UDE Type",
+        "UDE Value",
+        "Actions Allowed"
+      ],
+      "summary": "This page describes how to configure and manage rules related to product UDEs (User Defined Elements), including setting UDE IDs, currencies, types, values, and the actions that can be performed on these rules.",
+      "raw_text": "3-28\nRule ID\nThe system displays all rules linked to the product.\nUDE ID\nSpecify the external UDE ID that you want to attach to the rule. The adjoining option list \ndisplays all valid UDEs maintained in the system. You can select the appropriate one.\nUDE Currency\nThe system displays the UDE currency based on the UDE ID. However you can change it. \nThe adjoining option list displays all valid currency codes maintained in the system. You can \nchoose the appropriate one.\nUDE Type\nThe system displays the UDE type based on the UDE ID. However you can change it. Select \nthe type of the UDE from the adjoining drop-down list. The options available here are:\nNumber\nRate\nAmount\nUDE Value\nSpecify the external UDE value. At the time of processing, the system checks the UDE value \nfor the corresponding product maintained in this screen for the maximum effective date falling \nbetween the last liquidation date and the calculation date. If no value is maintained in this \nscreen, the UDE value will be considered as ‘0’.\n3.7.2 \nActions Allowed\nYou can perform the following actions on a record:\nNew\nDelete\nUnlock\nSave\nAuth (Authorise)\nReverse\nExecute\nQuery"
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Viewing External UDE Summary"
+      ],
+      "summary": "This section explains how to view details of external UDEs through a specific screen and provides criteria for querying records.",
+      "raw_text": "3-29\nRefer the Procedures User Manual for details about each action.\n3.7.3 \nViewing External UDE Summary \nYou can view details of all external UDEs through ‘External UDE Value Maintenance \nSummary’ screen. You can invoke this screen by typing ‘INSUDEMT’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nYou can query on records based on any or all of the following criteria:\nAuthorization Status\nRecord Status\nIntermediary Code\nUDE Effective Date\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status\nRecord Status\nIntermediary Code\nUDE Effective Date"
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Introduction",
+        "Intermediary Product",
+        "Maintaining an Intermediary Product"
+      ],
+      "summary": "This page explains how to set up a product by defining its attributes and linking it to intermediaries, including specific steps for maintaining the intermediary product.",
+      "raw_text": "4-1\n4. Setting up a Product\n4.1 \nIntroduction\nYou can maintain a product and define specific attributes like rules for processing \nintermediary commission and also define settlement frequency for the same. This product in \nturn can be linked to an intermediary.\nThis chapter contains the following sections:\nSection 4.2, \"Intermediary Product\"\nSection 4.3, \"Intermediary Product Restrictions\"\nSection 4.4, \"UDE Values\"\n4.2 \nIntermediary Product\nThis section contains the following topics:\nSection 4.2.1, \"Maintaining an Intermediary Product\"\nSection 4.2.2, \"Specifying Accounting Roles\"\nSection 4.2.3, \"Specifying Events \"\nSection 4.2.4, \"Specifying Product Preferences\"\nSection 4.2.5, \"Specifying Module Product Restrictions\"\nSection 4.2.6, \"Specifying MIS Details\"\nSection 4.2.7, \"Actions Allowed\"\nSection 4.2.8, \"Viewing Product Summary\"\n4.2.1 \nMaintaining an Intermediary Product\nYou can maintain a product and link it to lending transactions requiring an intermediary. You \ncan maintain an intermediary product using the ‘Intermediary Product’ screen. You can invoke"
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Intermediary Product Code",
+        "Product Description",
+        "Start Date",
+        "End Date",
+        "Remarks",
+        "Buttons"
+      ],
+      "summary": "This page describes how to input details for an intermediary product in a specific application tool and outlines the fields and buttons available for further customization.",
+      "raw_text": "4-2\nthis screen by typing ‘INDPRMNT ’ in the field at the top right corner of the Application tool \nbar and clicking the adjoining arrow button.\nYou can specify the following details:\nIntermediary Product Code\nSpecify a unique code to identify the intermediary product. \nProduct Description\nSpecify a brief description for the intermediary product.\nStart Date\nSpecify the date from which this product will be available, using the adjoining calendar.\nEnd Date\nSpecify the date until which this product will be available, using the adjoining calendar.\nRemarks\nYou can enter some information about the product which is internal to the bank. This will not \nbe printed on any correspondence with the intermediary.\nYou can maintain additional details for the product by clicking the following buttons on the \nscreen.\nButtons\nDescription\nAccounting \nRoles\nClick this button to define the accounting role to accounting head map-\nping. \nEvents\nClick this button to select the events for the product and then maintain \nevent-wise accounting entries and advices.\nPreferences\nClick this button to define preferences like tenor, Prepayment option  \netc."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Specifying Accounting Roles",
+        "Restrictions",
+        "Module Product",
+        "MIS"
+      ],
+      "summary": "This page describes how to maintain various roles and settings for a product, including accounting roles, allowed branches and currencies, customers/customer categories, and MIS parameters.",
+      "raw_text": "4-3\n4.2.2 \nSpecifying Accounting Roles\nClick ‘Accounting Roles’ button to maintain accounting roles for the product.\nRefer the chapter titled ‘Product Definition’ in the Products User Manual under Modularity for \ndetails about role definition.\nRestrictions\nClick this button to maintain the list of allowed/ disallowed branches \nand currencies for the product.\nModule Prod-\nuct\nClick this button to maintain the list of allowed/ disallowed customers/\ncustomer categories.\nMIS\nClick this button to capture MIS related parameters."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "4.2.3 Specifying Events",
+        "4.2.3.1 Specifying Accounting Entries"
+      ],
+      "summary": "This page describes how to specify events and accounting entries in the lifecycle of transactions linked to a product through the 'Events' and 'Accounting Entries' screens.",
+      "raw_text": "4-4\n4.2.3 \nSpecifying Events \nClick ‘Events’ button and invoke the ‘Events’ screen to maintain events for the product.\nHere you can specify events that should occur in the lifecycle of transactions linked to the \nproduct.\n4.2.3.1 \nSpecifying Accounting Entries\nClick ‘Accounting Entries’ button in the ‘Events’ screen and invoke the ‘Accounting Entries’ \nscreen to maintain event-wise accounting entries."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Specifying Advices"
+      ],
+      "summary": "This section explains how to access and maintain advices for product event accounting entries through specific screens and manuals.",
+      "raw_text": "4-5\n4.2.3.2 \nSpecifying Advices\nClick ‘Advices’ button in the ‘Product Event Accounting Entries Maintenance’ screen and \ninvoke the ‘Advices’ screen to maintain event-wise advices.\nAll suggested accounting entries are listed in the chapter titled ‘Annexure A – Accounting \nentries and Advices’ of this User Manual.\nRefer to the ‘Product Definition’ User Manual under Modularity for details about events, \naccounting entries and advices."
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Specifying Product Preferences"
+      ],
+      "summary": "This section describes how to specify product preferences by setting various details such as settlement frequency and start date through the 'Preferences' screen.",
+      "raw_text": "4-6\n4.2.4 \nSpecifying Product Preferences\nClick ‘Preferences’ button and invoke the Intermediary Product ‘Preferences’ screen to \nmaintain generic attributes of the product.\nSpecify the following details:\nSettlement Details\nYou can capture the following settlement details.\nSettlement Frequency\nSelect the frequency for settlement of payment from the adjoining drop-down list. The options \navailable here are:\nDaily\nWeekly\nMonthly\nYearly\nSettlement Frequency Unit\nSpecify a numeric value to denote the unit of settlement frequency. For example, if the \nfrequency is daily and the unit is specified as ‘3’, it will imply that payments should be \nscheduled every 3 days.\nSettlement Start Month\nSelect the month from which settlement should begin if you have chosen the frequency as \n‘Monthly’ or ‘Yearly’.\nSettlement Start Date\nSpecify the date from which the settlement should begin based on the given frequency, using \nthe adjoining calendar.\nCharge Back Unit\nSelect the unit for calculation of pre-payment penalty period from the adjoining drop-down list. \nThe options available here are:\nDaily\nWeekly"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Charge Back Period",
+        "Product Restriction",
+        "Currency To be Considered for Computation",
+        "Rule Details"
+      ],
+      "summary": "This page outlines various settings and rules related to loan pre-payments, including penalty periods, branch and currency restrictions, and rule linking.",
+      "raw_text": "4-7\nMonthly\nYearly\nIf the requirement is to consider all pre-payments, the penalty period can be maintained as \nnull and penalty unit should be left blank. In this case, the system will consider all pre-\npayments.\nCharge Back Period\nSpecify the period within which if prepayment is done a loan, then pre-payment penalty should \nbe charged from the Intermediary. This indicates the duration from the date of the first loan \ndisbursement. During this period, if any pre-payment is done, then pre-payment charges will \nbe levied on the Intermediary.\nProduct Restriction\nBranch To be Considered for Computation\nIndicate whether you want to create a list of allowed branches or disallowed branches by \nselecting one of the following options:\nAllowed\nDisallowed\nCurrency To be Considered for Computation\nIndicate whether you want to create a list of allowed currencies or disallowed currencies by \nselecting one of the following options:\nAllowed\nDisallowed\nRule Details\nYou can link rules to the product.\nRule ID\nSpecify the rule that should be linked to the product. The adjoining option list displays all \nintermediary rules maintained in the system. You can select the appropriate one.\nRule Description\nBased on the rule ID, the system displays a brief description of the rule."
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Specifying Module Product Restrictions",
+        "Loans To Be Considered for Computation",
+        "Module Products Restrictions"
+      ],
+      "summary": "This page describes how to specify module product restrictions by maintaining a list of allowed or disallowed products for transactions.",
+      "raw_text": "4-8\n4.2.5 \nSpecifying Module Product Restrictions\nClick ‘Module Product’ button in the ‘Intermediary Product’ screen and invoke the ‘Module \nProducts Restriction’ screen. You can maintain a list of products (from other modules) that \nshould be allowed or disallowed for all transactions under this product. \nSpecify the following details.\nProduct Code and Description\nThe system displays the product code and description.\nLoans To Be Considered for Computation\nIndicate whether you want to create a list of allowed loans or disallowed loans by selecting \none of the following options:\nAllowed\nDisallowed\nModule Products Restrictions\nDepending on whether you have opted to create an ‘Allowed’ or ‘Disallowed’ list, you can \nspecify the loan products to be included in the list.\nProduct Code\nSpecify the product code that should be included in the ‘Allowed’ or ‘Disallowed’ list. The \nadjoining option list displays all valid product codes maintained in the system for the following \nmodules:\nRetail Lending \nMortgages\nLeasing\nYou can select the appropriate one.\nProduct Description\nBased on the product code, the system displays a brief description of the product.\nYou can maintain multiple products in the list."
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "Specifying MIS Details",
+        "Actions Allowed"
+      ],
+      "summary": "This page describes how to maintain Management Information System details and outlines the actions that can be performed on a record.",
+      "raw_text": "4-9\n4.2.6 \nSpecifying MIS Details\nClick ‘MIS’ button to maintain MIS details.\nRefer the Management Information System User Manual under Modularity for further details. \n4.2.7 \nActions Allowed\nYou can perform the following actions on a record:\nNew\nDelete\nUnlock\nSave\nAuth (Authorise)\nReverse\nExecute\nQuery\nRefer the Procedures User Manual for details about each action."
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "Viewing Product Summary",
+        "Intermediary Product Restrictions",
+        "Specifying Branch and Currency Restrictions"
+      ],
+      "summary": "This page describes how to view summary details of products using a specific screen and outlines sections for specifying branch and currency restrictions.",
+      "raw_text": "4-10\n4.2.8 \nViewing Product Summary\nYou can view summary details of all products using the ‘Intermediary Product Summary’ \nscreen. You can invoke this screen by typing ‘INSPRMNT’ in the field at the top right corner \nof the Application tool bar and clicking the adjoining arrow button.\nYou can query on records based on any or all of the following criteria:\nAuthorization Status\nRecord Status\nIntermediary Product Code\nSettlement Frequency\nCharge Back Unit\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status\nRecord Status\nIntermediary Product Code\nSettlement Frequency\nCharge Back Unit\n4.3 \nIntermediary Product Restrictions\nThis section contains the following topics:\nSection 4.3.1, \"Specifying Branch and Currency Restrictions\"\nSection 4.3.2, \"Viewing Product Restrictions Summary\"\n4.3.1 \nSpecifying Branch and Currency Restrictions\nYou can maintain a list of branches and currencies that should be allowed or disallowed for \nall transactions under the product. You can specify such restrictions using the ‘Intermediary"
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "Product Code",
+        "Product Description",
+        "Branch To Be Considered for Computation",
+        "Currency To Be Considered for Computation",
+        "Branch",
+        "Branch Code",
+        "Branch Description"
+      ],
+      "summary": "This page describes how to use the 'Product Restrictions' screen to specify product details, branch and currency considerations, and create lists of allowed or disallowed branches and currencies.",
+      "raw_text": "4-11\nProduct Restrictions’ screen. You can invoke this screen by typing ‘INDPRDRS’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button.\nSpecify the following details.\nProduct Code\nSpecify the product code. Alternatively, you can select the product code from the list.\nProduct Description\nThe system displays the product description based on the selected product code.\nBranch To Be Considered for Computation\nIndicate whether you want to create a list of allowed branches or disallowed branches by \nselecting one of the following options:\nAllowed\nDisallowed\nCurrency To Be Considered for Computation\nIndicate whether you want to create a list of allowed currencies or disallowed currencies by \nselecting one of the following options:\nAllowed\nDisallowed\nBranch\nDepending on whether you have opted to create an ‘Allowed’ or ‘Disallowed’ list, you can \nspecify the branches to be included in the list.\nBranch Code\nSpecify the branch code that should be included in the ‘Allowed’ or ‘Disallowed’ list. The \nadjoining option list displays all valid branch codes maintained in the system. You can select \nthe appropriate one.\nBranch Description\nBased on the branch code, the system displays a brief description of the branch.\nYou can maintain multiple branches in the list."
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Currency",
+        "Class Code and Description",
+        "Default From Class",
+        "Viewing Product Restrictions Summary"
+      ],
+      "summary": "This page describes how to specify currencies in an 'Allowed' or 'Disallowed' list, manage class codes, set default components for products, and view product restrictions summary.",
+      "raw_text": "4-12\nCurrency\nDepending on whether you have opted to create an ‘Allowed’ or ‘Disallowed’ list, you can \nspecify the currencies to be included in the list.\nCurrency Code\nSpecify the currency code that should be included in the ‘Allowed’ or ‘Disallowed’ list. The \nadjoining option list displays all valid currency codes maintained in the system. You can select \nthe appropriate one.\nCurrency Description\nBased on the currency code, the system displays a brief description of the currency.\nYou can maintain multiple currencies in the list.\nClass Code and Description\nSelect a class code from the adjoining option list. The option list displays all the valid classes \nmaintained in the system. One class can have multiple components defined. System displays \nthe class code description based on the selected class code.\nDefault From Class\nThe system attaches all the components to the product on clicking ‘Default from Class’ button.\n4.3.2 \nViewing Product Restrictions Summary\nYou can view summary details of all product restrictions using the ‘Intermediary Product \nRestrictions Summary’ screen. You can invoke this screen by typing ‘INSPRDRS’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button.\nYou can query on records based on any or all of the following criteria:\nAuthorization Status\nRecord Status\nProduct Code\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status"
+    },
+    {
+      "page_number": 49,
+      "sections": [
+        "Record Status",
+        "Product Code",
+        "Specifying UDE Values",
+        "Actions Allowed",
+        "Viewing UDE Summary Details"
+      ],
+      "summary": "This page discusses how to specify User Data Element (UDE) values for a product rule, including the necessary details such as Product Code, Rule ID, and UDE Value.",
+      "raw_text": "4-13\nRecord Status\nProduct Code\n4.4 \nUDE Values\nThis section contains the following topics:\nSection 4.4.1, \"Specifying UDE Values\"\nSection 4.4.2, \"Actions Allowed\"\nSection 4.4.3, \"Viewing UDE Summary Details\"\n4.4.1 \nSpecifying UDE Values\nAs you can recall, you can link rules to a product. A rule consists of System Data Elements \nand the User Data Elements. You can maintain the values for the UDEs defined for the rule \nin the ‘Internal UDE Value Maintenance’ screen. You can invoke this screen by typing \n‘INDIUDVM’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button. \nSpecify the following details:\nProduct Code\nSpecify the Intermediary product code for which you want to maintain UDE values. \nRule ID\nThe system displays all intermediary rules linked to the product.\nUDE ID\nThe system displays the UDE ID linked to the rule.\nUDE Value\nSpecify the value for the applicable UDE IDs."
+    },
+    {
+      "page_number": 50,
+      "sections": [
+        "Actions Allowed",
+        "Viewing UDE Summary Details"
+      ],
+      "summary": "This page outlines actions that can be performed on a record and how to view summary details of UDE values based on specific criteria.",
+      "raw_text": "4-14\n4.4.2 \nActions Allowed\nYou can perform the following actions on a record:\nNew\nDelete\nUnlock\nSave\nAuth (Authorise)\nReverse\nExecute\nQuery\nRefer the Procedures User Manual for details about each action.\n4.4.3 \nViewing UDE Summary Details\nYou can view summary details of all UDE values in the ‘Internal UDE Value Maintenance \nSummary’ screen. You can invoke this screen by typing ‘INSIUDVM’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button.\nYou can query on records based on any or all of the following criteria:\nAuthorization Status\nRecord Status\nProduct Code\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status\nRecord Status\nProduct Code"
+    },
+    {
+      "page_number": 51,
+      "sections": [
+        "Introduction",
+        "Commission",
+        "Commission Processing"
+      ],
+      "summary": "This page explains the process of computing and settling commission for intermediaries, including details on how SDEs are calculated and various actions allowed.",
+      "raw_text": "5-1\n5. Operations\n5.1 \nIntroduction\nYou can process commission payment/charge collection at defined frequency level for every \nintermediary based on the transactions. You can also pay commission/collect charge to/from \nthe intermediary at a pre-defined frequency specified for every intermediary product. \nHierarchy distribution of the commission is done based on the hierarchy percentage \nmaintained at intermediary product level.\nAfter settlement is done, the system generates an intermediary statement based on the \nproduct maintenance displaying details of computation and the settlement amount.\nThis chapter explains the processing for computing commission.\\\nThis chapter contains the following sections\nSection 5.2, \"Commission\"\nSection 5.3, \"Intermediary Commission\"\n5.2 \nCommission\nThis section contains the following topics:\nSection 5.2.1, \"Commission Processing\"\nSection 5.2.2, \"Settlement of Commission Between Intermediaries\"\nSection 5.2.3, \"Viewing Intermediary System Data Elements\"\nSection 5.2.4, \"Actions Allowed\"\nSection 5.2.5, \"Viewing SDE Summary \"\nSection 5.2.6, \"Viewing Calculated Commission\"\nSection 5.2.7, \"Actions Allowed\"\nSection 5.2.8, \"Viewing Commission Calculation Summary\"\n5.2.1 \nCommission Processing\nAs part of the End of Day (EOD) processing, the system computes System Data Elements \n(SDEs) for the Intermediaries across products. Calculation of SDEs is done for intermediaries \nbased on the branch-level parameter ‘Daily SDE Computation’. If the branch parameter is \nchecked, the system will do daily computation of SDEs for all intermediaries irrespective of \nwhether the settlement is due on application date or not. If it is not checked, the system will \ncompute SDEs only if settlement processing is due on the said date.\nConsider the following example:\nAssume a transaction with the following details:\nSDE - LOAN_DISBURSED_AMT \nBatch Processing Date - 01 February, 2009 \nLast Settlement Date for the intermediary product - 01 January, 2009\nThe batch will calculate the total amount disbursed for the intermediary between last \nsettlement date, i.e 01 January, 2009 and processing date i.e. 01 February, 2009. This"
+    },
+    {
+      "page_number": 52,
+      "sections": [],
+      "summary": "This page describes the process of calculating and processing amounts for a product (INP1) using rules (RUL1, RUL2), netting the amounts, and settling with an intermediary based on the settlement mode.",
+      "raw_text": "5-2\namount will be used for computation of the SDE and then logged into a data store for \nprocessing.\nSubsequent to SDE calculation, the system does the following:\nCalculation of amount for all the rules for the product (say INP1)\n– \nAssume the following figure is calculated rule-wise: \nRUL1: 200 (Commission) \nRUL2: 100 (Charge/Penalty)\nNetting the amount across all the rules\n– \nFor above scenario, the accounting should be as under\nRUL1\nRUL2\nIn the above scenario, netting will be done as under:\nProcessing settlement with the intermediary based on netted amount \n– \nThe system posts settlement entries as per the netted. The settlement with the \nintermediary is based on the intermediary set-up. If CASA is the settlement mode \nmaintained for the intermediary, settlement will happen using the CASA maintained. \nIf External Account is the settlement mode maintained, then settlement will happen \nthrough External Payment System.\nThe system performs the following validations:\nFor every product-intermediary combination, a liquidation reference number is \ngenerated. The sequence is based on the product code. The entries are passed when \nthe INLQ event defined at the product level is triggered.\nIf the settlement mode of the intermediary is CASA, settlement will be processed with \nthe CASA (both debit/credit).The corresponding debit/credit advice will get generated \nfor the intermediary based on the product set-up and the netted amount. If the netted \namount to the intermediary is a credit, credit advice will get generated. If the netted \namount is a debit, debit advice will get generated.\nIf the settlement mode of the intermediary is ‘External Account’, the system will check \nfor the following: \nAccounting Role\nAmount Tag\nDebit/Credit\nExpense\n200\nDr\nIntermediary\n200\nCr\nAccounting Role\nAmount Tag\nDebit/Credit\nIntermediary \n100\nDr\nIncome\n100\nCr\nAccounting Role\nAmount Tag\nDebit/Credit\nExpense\n200\nDr\nIncome\n100\nCr\nIntermediary\n100\nCr"
+    },
+    {
+      "page_number": 53,
+      "sections": [
+        "5-3",
+        "5.2.2 Settlement of Commission Between Intermediaries",
+        "5.2.3 Viewing Intermediary System Data Elements"
+      ],
+      "summary": "This page discusses settlement processes for transactions involving intermediaries and details on commission settlement between them, as well as how to view intermediary system data elements.",
+      "raw_text": "5-3\n– \nIf the transaction is a credit to the intermediary, then settlement will happen through \nExternal Payment System based on the maintenance at intermediary level and the \ncategory maintained at the intermediary branch level.\n– \nIf the transaction is a debit to the intermediary, settlement will get processed using \nthe settlement account/branch maintained for the intermediary.\n5.2.2 \nSettlement of Commission Between Intermediaries\nOracle FLEXCUBE supports commission settlement between intermediaries in a hierarchical \nway. The system computes the hierarchy amount payable to the parent intermediary for each \nintermediary based on the intermediary maintenance. The following diagram illustrates the \nhierarchical structure that can be maintained for intermediaries.\nThe computation happens till the level specified at the intermediary level. If the level is \nimmediate, calculation will happen only till the immediate parent level; otherwise it will happen \ntill the root level. This computation will happen product-wise for the intermediary.\n5.2.3 \nViewing Intermediary System Data Elements\nFore a given product, you can view all SDE values for the current liquidation cycle, through \nthe ‘Intermediary SDE View’ screen. You can invoke this screen by typing ‘INDSDVAL’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button.\nHere you can capture the following details."
+    },
+    {
+      "page_number": 54,
+      "sections": [
+        "Product Code",
+        "Intermediary Code",
+        "Actions Allowed",
+        "Viewing SDE Summary"
+      ],
+      "summary": "This page describes how to specify product and intermediary codes for viewing SDEs, the actions allowed on a record, and how to view a summary of SDEs through an application screen.",
+      "raw_text": "5-4\nProduct Code\nSpecify the product for which you want to view SDEs. The adjoining option list displays all \nvalid Intermediary products maintained in the system. You can select the appropriate one.\nIntermediary Code\nSpecify the Intermediary code for which you want to view SDEs. The adjoining option list \ndisplays all valid Intermediary codes maintained in the system. You can select the appropriate \none.\n5.2.4 \nActions Allowed\nYou can perform the following action on a record:\nQuery\nRefer the Procedures User Manual for details about each action.\n5.2.5 \nViewing SDE Summary \nYou can view a summary of all SDEs for different product-intermediary combinations, through \nthe ‘Intermediary SDE View Summary’ screen. You can invoke this screen by typing \n‘INSSDVAL’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button.\nYou can query based on all or any of the following criteria:\nProduct Code\nIntermediary Code\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nProduct Code\nIntermediary Code\nSDE \nSDE Value"
+    },
+    {
+      "page_number": 55,
+      "sections": [
+        "Viewing Calculated Commission"
+      ],
+      "summary": "This section explains how to view calculated commission for intermediary products by specifying various details such as product code, intermediary code, branch code, and execution date.",
+      "raw_text": "5-5\n5.2.6 \nViewing Calculated Commission\nYou can view all the accounts considered for commission/charge calculation across \nintermediary products for a given execution date, using the ‘Intermediary Calculation View’ \nscreen. You can invoke this screen by typing ‘INDIVIEW’ in the field at the top right corner of \nthe Application tool bar and clicking the adjoining arrow button.\nSpecify the following details.\nProduct Code\nSpecify the intermediary product code for which you want to view commission calculation. \nIntermediary Code\nSpecify the intermediary code for which you want to view commission calculation.\nBranch Code\nSpecify the branch code under which transactions should be considered for commission \ncalculation view.\nReference Number\nSpecify the contract reference number for which you want to view commission calculation.\nEvent Code\nSpecify the event code for which you want to view commission calculation.\nExecution Date\nSpecify the date of automatic transaction execution based on which you want to view \ncommission calculation.\nRule ID\nSpecify the intermediary rule based on which you want to view commission calculation.\nManual Execution Date\nSpecify the date of manual transaction execution based on which you want to view \ncommission calculation."
+    },
+    {
+      "page_number": 56,
+      "sections": [
+        "Amount",
+        "Currency",
+        "SDE ID",
+        "SDE Value",
+        "Settlement Branch",
+        "Settlement Account",
+        "Hierarchy Commission Processed",
+        "Actions Allowed"
+      ],
+      "summary": "This page details how to specify various parameters for viewing commission calculations and the actions that can be performed on a record.",
+      "raw_text": "5-6\nAmount\nSpecify the transaction amount based on which you want to view commission calculation.\nCurrency\nSpecify the transaction currency based on which you want to view commission calculation.\nSDE ID\nSpecify the SDE ID based on which you want to view commission calculation.\nSDE Value\nSpecify the SDE value based on which you want to view commission calculation.\nSettlement Branch\nSpecify the settlement branch code based on which you want to view commission calculation.\nSettlement Account\nSpecify the settlement account based on which you want to view commission calculation.\nHierarchy Commission Processed\nIndicate the hierarchy commission processing status by choosing one of the following options \nfrom the adjoining drop-down list:\nYes\nNo\nClick Single View icon. This screen displays the following details of accounts considered for \ncommission calculation: \nReference Number\nBranch Code\nCustomer ID\nBook Date\nModule Code\n5.2.7 \nActions Allowed\nYou can perform the following action on a record:\nQuery\nRefer the Procedures User Manual for details about each action."
+    },
+    {
+      "page_number": 57,
+      "sections": [
+        "Viewing Commission Calculation Summary"
+      ],
+      "summary": "This section explains how to view a summary of all commission calculations through the 'Intermediary Calculation View Summary' screen and details the criteria for querying records and the information displayed.",
+      "raw_text": "5-7\n5.2.8 \nViewing Commission Calculation Summary\nYou can view summary of all commission calculation through the ‘Intermediary Calculation \nView Summary’ screen. You can invoke this screen by typing ‘INSIVIEW’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nYou can query on records based on any or all of the following criteria:\nProduct Code\nBranch Code\nEvent Code\nRule ID\nIntermediary Code\nReference Number\nExecution Date\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nProduct Code\nBranch Code\nEvent Code\nRule ID\nIntermediary Code\nReference Number\nExecution Date\nRule ID\nHierarchy Commission Processed\nAmount\nCurrency\nSDE ID\nSDE Value\nSettlement Branch"
+    },
+    {
+      "page_number": 58,
+      "sections": [
+        "Intermediary Commission",
+        "Liquidating Intermediary Commission Manually"
+      ],
+      "summary": "This section explains how to manually liquidate intermediary commission for failed settlements through a specific screen in the application tool bar.",
+      "raw_text": "5-8\nSettlement Account\n5.3 \nIntermediary Commission \nThis section contains the following topics:\nSection 5.3.1, \"Liquidating Intermediary Commission Manually\"\nSection 5.3.2, \"Actions Allowed\"\nSection 5.3.3, \"Viewing Manual Liquidation Summary\"\n5.3.1 \nLiquidating Intermediary Commission Manually\nAs mentioned before, commission calculation and liquidation can be automated as part of the \nEOD batch. However, you can also manually liquidate commission or charge for the failed \nsettlements in the batch, through the ‘Intermediary Manual Liquidation’ screen. You can \ninvoke this screen by typing ‘INDMPMCL’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button.\nSpecify the following details.\nProduct Code\nSpecify the intermediary product code for which you want to liquidate commission. The \nadjoining option list displays all valid product codes maintained in the system. You can select \nthe appropriate one.\nRule ID\nSpecify the intermediary rule based on which you want to liquidate commission. The adjoining \noption list displays all valid rule IDs maintained in the system. You can select the appropriate \none.\nIntermediary Code\nSpecify the intermediary code for which you want to liquidate commission. The adjoining \noption list displays all valid intermediary codes maintained in the system. You can select the \nappropriate one."
+    },
+    {
+      "page_number": 59,
+      "sections": [
+        "Branch Code",
+        "Reference Number",
+        "Event Code",
+        "Execution Date",
+        "Amount",
+        "Currency",
+        "SDE ID",
+        "SDE Value",
+        "Settlement Branch",
+        "Settlement Account",
+        "Manual Execution Date",
+        "Click Single View icon.",
+        "Actions Allowed"
+      ],
+      "summary": "This page details the fields and actions related to liquidating commission, including specifying various parameters such as reference number, event code, execution date, amount, and currency, along with available actions on a record.",
+      "raw_text": "5-9\nBranch Code\nThe system displays the current logged-in branch code.\nReference Number\nSpecify the contract reference number for which you want to view liquidate commission. The \nadjoining option list displays all transactions linked to the intermediary. You can select the \nappropriate one.\nEvent Code\nSpecify the event code for which you want to liquidate commission.\nExecution Date\nSpecify the date of automatic transaction execution based on which you want to liquidate \ncommission, using the adjoining calendar.\nAmount\nSpecify the commission amount that you want to liquidate.\nCurrency\nSpecify the currency based on which you want to liquidate commission.\nSDE ID\nSpecify the SDE ID based on which you want to liquidate commission.\nSDE Value\nSpecify the SDE value based on which you want to liquidate commission.\nSettlement Branch\nSpecify the settlement branch code based on which you want to liquidate commission.\nSettlement Account\nSpecify the settlement account based on which you want to liquidate commission.\nManual Execution Date\nSpecify the date of manual transaction execution based on which you want to liquidate \ncommission, using the adjoining calendar.\nClick Single View icon. This screen displays the following details of accounts considered for \ncommission liquidation: \nReference Number\nBranch Code\nCustomer ID\nBook Date\nModule Code\n5.3.2 \nActions Allowed\nYou can perform the following actions on a record:\nNew\nDelete\nUnlock\nSave\nAuth (Authorise)\nReverse"
+    },
+    {
+      "page_number": 60,
+      "sections": [
+        "Viewing Manual Liquidation Summary"
+      ],
+      "summary": "This section explains how to view a summary of all manual liquidations through the 'Intermediary Manual Liquidation Summary' screen and details the criteria for querying these records.",
+      "raw_text": "5-10\nExecute\nQuery\nRefer the Procedures User Manual for details about each action.\n5.3.3 \nViewing Manual Liquidation Summary\nYou can view summary of all manual liquidations through the ‘Intermediary Manual \nLiquidation Summary’ screen. You can invoke this screen by typing ‘INSMPMCL’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button.\nYou can query based on all or any of the following criteria:\nAuthorized\nBranch Code\nRule ID\nExecution Date\nProduct Code\nIntermediary Code\nEvent Code\nReference Number\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorized\nProduct Code\nBranch Code\nIntermediary Code\nRule ID\nEvent Code\nExecution Date\nReference Number"
+    },
+    {
+      "page_number": 61,
+      "sections": [
+        "Introduction",
+        "Events",
+        "Accounting Roles",
+        "Amount Tags",
+        "Accounting Entries and Advices",
+        "Advice Format"
+      ],
+      "summary": "This page outlines the suggested accounting entries for the Intermediary module of Oracle FLEXCUBE, detailing events, roles, tags, and advice formats.",
+      "raw_text": "6-1\n6. Annexure A – Accounting Entries and Advices\n6.1 \nIntroduction\nThis section contains details of the suggested accounting entries that can be set up for the \nIntermediary module of Oracle FLEXCUBE. The details of the suggested accounting entries \nare given event-wise.\nThis chapter contains the following sections:\nSection 6.2, \"Events\"\nSection 6.3, \"Accounting Roles\"\nSection 6.4, \"Amount Tags\"\nSection 6.5, \"Accounting Entries and Advices\"\nSection 6.6, \"Advice Format\"\n6.2 \nEvents\nYou can link the following events to an Intermediary product.\n6.3 \nAccounting Roles\nThe following accounting roles are available in the module.\n6.4 \nAmount Tags\nThe following amount tags are available in the module.\nEvent Code\nEvent Description\nINLQ\nIntermediary Liquidation\nINHL\nIntermediary Hierarchy Liquidation\nIMST\nIntermediary Statement \nAccounting Role\nRole Description\nEXPENSE\nExpense GL\nREC_INTER\nReceiving Intermediary\nPAY_INTER\nPaying Intermediary\nINCOME\nIncome GL\nAmount Tag\nTag Description\n<RULEID>_INTERPAY_AMT\nAmount paid to the Intermediary\nINTERHIE_AMT\nAmount for hierarchy-wise settlement"
+    },
+    {
+      "page_number": 62,
+      "sections": [
+        "Accounting Entries and Advices",
+        "Payment",
+        "Collection"
+      ],
+      "summary": "This page discusses the setup of accounting entries for payment and collection types, including specific advice and events related to these transactions.",
+      "raw_text": "6-2\n6.5 \nAccounting Entries and Advices\nYou can set up accounting entries for the following types of products:\nPayment \nCollection\nThis section contains the following topics:\nSection 6.5.1, \"Payment\"\nSection 6.5.2, \"Collection\"\n6.5.1 \nPayment\nFor a product linked to payment type of rule, you can maintain the following accounting \nentries. \n6.5.1.1 \nAccounting Entries\nINLQ – Intermediary Liquidation\n6.5.1.2 \nAdvices\nYou can link the following advices to the events.\nThe advices will address the primary intermediary.\n6.5.2 \nCollection\nFor a product linked to collection type of rule, you can maintain the following accounting \nentries. \nDr/Cr \nAccounting Role\nAmount Tag\nDr\nEXPENSE\n<RULEID>_INTERPAY_AMT\nCr\nREC_INTER\n<RULEID>_INTERPAY_AMT\nEvent\nMessage Name\nDescription\nINLQ\nIN_INTER_CR\nCredit Advice\nINLQ\nIN_INTER_DR\nDebit Advice\nIMST\nIN_INTER_STMT\nIntermediary Statement"
+    },
+    {
+      "page_number": 63,
+      "sections": [
+        "Accounting Entries",
+        "Advices",
+        "Advice Format"
+      ],
+      "summary": "This page discusses accounting entries and advices for intermediaries, including their formats and handling of credits and debits.",
+      "raw_text": "6-3\n6.5.2.1 \nAccounting Entries\nINLQ – Intermediary Liquidation\nINHL – Intermediary Hierarchy Liquidation\nRule ID will be replaced with actual Rule ID while processing the entries.\n6.5.2.2 \nAdvices\nYou can link the following advices to the events.\nThe advices will address the primary intermediary.\nIf settlement mode for intermediary is CASA for both debit and credit, the settlement details \nwill be picked up from the settlement account maintenance for the intermediary. \nIf settlement mode for intermediary is ‘External Account’, the credits will be handled using the \nexternal account by triggering an External Payment System. Debits to intermediary will be \nhandled using the settlement account details maintained for the intermediary. \n6.6 \nAdvice Format\nYou can maintain the following advice formats using the ‘Advice Format’ screen:\nINTER_CR_ADV (for credit advice)\nINTER_DR_ADV (for debit advice)\nINTER_STMT (for intermediary statement) \nThis section contains the following topics:\nDr/Cr Indicator\nAccounting Role\nAmount Tag\nDr\nPAY_INTER\n<RULEID>_INTERPAY_AMT\nCr\nINCOME\n<RULEID>_INTERPAY_AMT\nCr\nREC_INTER\n<RULEID>_INTERPAY_AMT\nDr\nEXPENSE\n<RULEID>_INTERPAY_AMT\nDr/Cr Indicator\nAccounting Role\nAmount Tag\nDr\nPAY_INTER\nINTERHIE_AMT\nCr\nREC_INTER\nINTERHIE_AMT\nEvent\nMessage Name\nDescription\nINLQ\nIN_INTER_CR\nCredit Advice\nINLQ\nIN_INTER_DR\nDebit Advice\nIMST\nIN_INTER_STMT\nIntermediary Statement"
+    },
+    {
+      "page_number": 64,
+      "sections": [
+        "INTER_CR_ADV",
+        "INTER_DR_ADV",
+        "INTER_STMT"
+      ],
+      "summary": "This page details the formats for capturing and recording intermediary account information including dates, codes, names, addresses, customer IDs, values, amounts, currencies, accounts (credit/debit), transaction details, and settlement accounts.",
+      "raw_text": "6-4\nSection 6.6.1, \"INTER_CR_ADV \"\nSection 6.6.2, \"INTER_DR_ADV \"\nSection 6.6.3, \"INTER_STMT \"\n6.6.1 \nINTER_CR_ADV \nYou can capture the following details in this format:\nDate\nIntermediary Code\nIntermediary Name\nAddress\nIntermediary Customer Id\nValue Date\nAmount\nCurrency\nCredit Account\n6.6.2 \nINTER_DR_ADV \nYou can capture the following details in this format:\nDate\nIntermediary Code\nIntermediary Name\nAddress\nIntermediary Customer Id\nValue Date\nAmount\nCurrency\nDebit Account\n6.6.3 \nINTER_STMT \nYou can capture the following details in this format:\nDate\nStatement Period\nIntermediary Code\nIntermediary Name\nAddress\nIntermediary Customer id\nTransaction Date \nTransaction Details \nAmount\nCurrency\nDebit/Credit\nSettlement account"
+    },
+    {
+      "page_number": 65,
+      "sections": [],
+      "summary": "",
+      "raw_text": "7-1\n7. Function ID Glossary\nI\nINDBRMNT .......................3-2\nINDGRPMT .....................3-12\nINDINMNT .......................3-14\nINDIUDVM ......................4-13\nINDIVIEW ..........................5-5\nINDMPMCL .......................5-8\nINDPRDRS ......................4-11\nINDPRMNT .......................4-2\nINDRLMNT ........................3-8\nINDSDEMT ........................3-6\nINDSDVAL ........................5-3\nINDUDEMT ..................... 3-27\nINSBRMNT ....................... 3-3\nINSGRPMT ..................... 3-13\nINSINMNT ...................... 3-25\nINSIUDVM ...................... 4-14\nINSIVIEW .......................... 5-7\nINSMPMCL ..................... 5-10\nINSPRDRS ..................... 4-12\nINSPRMNT ..................... 4-10\nINSRLMNT ...................... 3-11\nINSSDEMT ....................... 3-7\nINSSDVAL ........................ 5-4\nINSUDEMT ..................... 3-29"
+    }
+  ]
+}

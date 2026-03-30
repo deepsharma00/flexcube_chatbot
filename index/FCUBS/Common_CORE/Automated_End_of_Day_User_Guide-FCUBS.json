@@ -1,0 +1,860 @@
+{
+  "source": "FlexCube/FCUBS/Common_CORE/Automated_End_of_Day_User_Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 25,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's structure and accessibility features, as well as related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Oracle FLEXCUBE, detailing its purpose, target audience, organization structure, and content chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Oracle FLEXCUBE, detailing its purpose, target audience, organization structure, and content chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Oracle FLEXCUBE, detailing its purpose, target audience, organization structure, and content chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Oracle FLEXCUBE, detailing its purpose, target audience, organization structure, and content chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Oracle FLEXCUBE, detailing its purpose, target audience, organization structure, and content chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces the user manual for Oracle FLEXCUBE, detailing its purpose, target audience, organization structure, and content chapters.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EOD Maintenances",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Various Stages of EOC Process",
+          "start_page": 6
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Mandatory Batch Program Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Defining Functions to be Run Automatically",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Picking up Function to be Part of AEOD",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 Specifying EOC Group",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Specifying Frequency at which Function Should be Run",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.5",
+          "title": "2.3.5 Indicating Execution Layer",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Batch EOD Function Inputs",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Specifying Data Values for EOD Functions",
+          "start_page": 11
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 End of Cycle Groups",
+          "start_page": 12
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining End of Cycle Groups",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Pending Maintenances",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing Unauthorized Maintenances",
+          "start_page": 14
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 End of Cycle Process",
+          "start_page": 15
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Processing End of Cycle Operations",
+          "start_page": 16
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Verifying EOC Process",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Dropping End of Transaction Input",
+          "start_page": 20
+        },
+        {
+          "structure": "3.7.4",
+          "title": "2.7.4 Stopping EOC for Running Branches",
+          "start_page": 21
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Deferred EOD Process",
+          "start_page": 22
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 End of Cycle Monitor",
+          "start_page": 22
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking EOC Monitor Screen",
+          "start_page": 23
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Changing System Date",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Viewing System Date",
+          "start_page": 24
+        }
+      ]
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides references to Oracle FLEXCUBE manuals for further information on procedures discussed in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. EOD Maintenances",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the various stages of the End of Cycle process in Oracle FLEXCUBE, focusing on the End of Transaction input stage and mandatory batch program maintenance.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the various stages of the End of Cycle process in Oracle FLEXCUBE, focusing on the End of Transaction input stage and mandatory batch program maintenance.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Various Stages of EOC Process",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page discusses the various stages of the End of Cycle process in Oracle FLEXCUBE, focusing on the End of Transaction input stage and mandatory batch program maintenance.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Mandatory Batch Program Maintenance",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page discusses validation rules for RTGS messages and the procedures for End of Financial Input (EOFI) and End of Day processes in a financial system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Defining Functions to be Run Automatically",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page explains how to set up automatic functions for End of Cycle processing through the Mandatory Batch Program Maintenance screen, including selecting and defining automated processes and specifying their execution stages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Picking up Function to be Part of AEOD",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page explains how to set up automatic functions for End of Cycle processing through the Mandatory Batch Program Maintenance screen, including selecting and defining automated processes and specifying their execution stages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.3",
+      "title": "2.3.3 Specifying EOC Group",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This page explains how to set up automatic functions for End of Cycle processing through the Mandatory Batch Program Maintenance screen, including selecting and defining automated processes and specifying their execution stages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.4",
+      "title": "2.3.4 Specifying Frequency at which Function Should be Run",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page discusses various post-end-of-day processes and transaction marking procedures, including different stages and frequencies for running functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.5",
+      "title": "2.3.5 Indicating Execution Layer",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page discusses strategies for scheduling financial processes during month-ends and explains how to configure execution layers and job codes for batch processing using a job scheduler.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Batch EOD Function Inputs",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page discusses strategies for scheduling financial processes during month-ends and explains how to configure execution layers and job codes for batch processing using a job scheduler.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Specifying Data Values for EOD Functions",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page discusses strategies for scheduling financial processes during month-ends and explains how to configure execution layers and job codes for batch processing using a job scheduler.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 End of Cycle Groups",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page describes how to invoke a specific function input screen and explains the process of setting up report orientation, as well as maintaining end of cycle groups in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.1",
+      "title": "2.5.1 Maintaining End of Cycle Groups",
+      "start_page": 12,
+      "end_page": 14,
+      "summary": "This page describes how to invoke a specific function input screen and explains the process of setting up report orientation, as well as maintaining end of cycle groups in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Pending Maintenances",
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This page explains how branches are sequenced and managed in a system, focusing on pending maintenances and unauthorized transactions that need to be authorized before End of Day operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Viewing Unauthorized Maintenances",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page explains how branches are sequenced and managed in a system, focusing on pending maintenances and unauthorized transactions that need to be authorized before End of Day operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 End of Cycle Process",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page describes how to perform queries using parameters such as Product ID and Description in the Application toolbar, and outlines the process for starting the End of Cycle.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.1",
+      "title": "2.7.1 Processing End of Cycle Operations",
+      "start_page": 16,
+      "end_page": 19,
+      "summary": "This page outlines the various stages involved in the End of Cycle operations, including processing end of cycle operations, verifying the process, dropping end of transaction input, stopping end of cycle for running branches, and handling deferred end of day processes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.2",
+      "title": "2.7.2 Verifying EOC Process",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This page describes how to remove branches from a list and verify the status of End-of-Day (EOC) processes in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.3",
+      "title": "2.7.3 Dropping End of Transaction Input",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This page describes how to search for and view details of EOC processes running in a system, including how to drill down into specific process stages and batch statuses.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.4",
+      "title": "2.7.4 Stopping EOC for Running Branches",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This section explains how to stop running End of Cycle processes for specific branches using the 'End of Cycle' screen in the Application toolbar.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8",
+      "title": "2.8 Deferred EOD Process",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page describes the Deferred End-of-Day process and introduces the End of Cycle Monitor section, which includes instructions for invoking the EOC Monitor Screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9",
+      "title": "2.9 End of Cycle Monitor",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This page describes the Deferred End-of-Day process and introduces the End of Cycle Monitor section, which includes instructions for invoking the EOC Monitor Screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.1",
+      "title": "2.9.1 Invoking EOC Monitor Screen",
+      "start_page": 23,
+      "end_page": 3,
+      "summary": "This section explains how to access and view the status of Electronic Order Confirmation (EOC) for a specific branch using the 'EOC Monitor' screen in the application toolbar.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10",
+      "title": "2.10 Changing System Date",
+      "start_page": 3,
+      "end_page": 24,
+      "summary": "This page introduces the document's structure and accessibility features, as well as related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EOD Maintenances",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Various Stages of EOC Process",
+          "start_page": 6
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Mandatory Batch Program Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Defining Functions to be Run Automatically",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Picking up Function to be Part of AEOD",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 Specifying EOC Group",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Specifying Frequency at which Function Should be Run",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.5",
+          "title": "2.3.5 Indicating Execution Layer",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Batch EOD Function Inputs",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Specifying Data Values for EOD Functions",
+          "start_page": 11
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 End of Cycle Groups",
+          "start_page": 12
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining End of Cycle Groups",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Pending Maintenances",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing Unauthorized Maintenances",
+          "start_page": 14
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 End of Cycle Process",
+          "start_page": 15
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Processing End of Cycle Operations",
+          "start_page": 16
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Verifying EOC Process",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Dropping End of Transaction Input",
+          "start_page": 20
+        },
+        {
+          "structure": "3.7.4",
+          "title": "2.7.4 Stopping EOC for Running Branches",
+          "start_page": 21
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Deferred EOD Process",
+          "start_page": 22
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 End of Cycle Monitor",
+          "start_page": 22
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking EOC Monitor Screen",
+          "start_page": 23
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Viewing System Date",
+          "start_page": 24
+        }
+      ]
+    },
+    {
+      "structure": "3.10.1",
+      "title": "2.10.1 Viewing System Date",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This page discusses how to change and view the system date in a business context, including details on accessing the 'System Dates Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 25,
+      "end_page": 27,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for the automated end of day process in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, released in November 2022.",
+      "raw_text": "Common Core - Automated End of Day User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including addresses, phone numbers, and copyright details.",
+      "raw_text": "Common Core - Automated End of Day User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the document's structure and accessibility features, as well as related documents.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-1\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nEOD Maintenances .................................................................................. 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nVarious Stages of EOC Process .............................................................................  2-1\n2.3 \nMandatory Batch Program Maintenance.................................................................  2-2\n2.3.1  \nDefining Functions to be Run Automatically...............................................  2-3\n2.3.2  \nPicking up Function to be Part of AEOD ....................................................  2-3\n2.3.3  \nSpecifying EOC Group ...............................................................................  2-3\n2.3.4  \nSpecifying Frequency at which Function Should be Run ...........................  2-5\n2.3.5  \nIndicating Execution Layer .........................................................................  2-6\n2.4 \nBatch EOD Function Inputs.....................................................................................  2-6\n2.4.1  \nSpecifying Data Values for EOD Functions................................................  2-6\n2.5 \nEnd of Cycle Groups ...............................................................................................  2-7\n2.5.1  \nMaintaining End of Cycle Groups...............................................................  2-7\n2.6 \nPending Maintenances............................................................................................  2-9\n2.6.1  \nViewing Unauthorized Maintenances .........................................................  2-9\n2.7 \nEnd of Cycle Process ............................................................................................  2-10\n2.7.1  \nProcessing End of Cycle Operations........................................................  2-11\n2.7.2  \nVerifying EOC Process.............................................................................  2-14\n2.7.3  \nDropping End of Transaction Input...........................................................  2-15\n2.7.4  \nStopping EOC for Running Branches.......................................................  2-16\n2.8 \nDeferred EOD Process..........................................................................................  2-17\n2.9 \nEnd of Cycle Monitor .............................................................................................  2-17\n2.9.1  \nInvoking EOC Monitor Screen..................................................................  2-18\n2.10 Changing System Date..........................................................................................  2-19\n2.10.1  Viewing System Date ...............................................................................  2-19\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Chapter 1: About this Manual",
+        "Chapter 2: EOD Maintenances",
+        "Chapter 3: Function ID Glossary",
+        "Icons"
+      ],
+      "summary": "This page introduces the user manual for Oracle FLEXCUBE, detailing its purpose, target audience, organization structure, and content chapters.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis user manual is designed to help you quickly get acquainted with the many functions \nroutinely executed everyday in Oracle FLEXCUBE.\nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/ Beginning of \nDay\nFinancial Controller/Product Manag-\ners\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nEOD Maintenances explains the maintenance of various batches run \nin the system.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Related Documents"
+      ],
+      "summary": "This page provides references to Oracle FLEXCUBE manuals for further information on procedures discussed in the manual.",
+      "raw_text": "1-2\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nCommon Procedures\nProducts\nAutomated End of Day\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Various Stages of EOC Process",
+        "Mandatory Batch Program Maintenance"
+      ],
+      "summary": "This page discusses the various stages of the End of Cycle process in Oracle FLEXCUBE, focusing on the End of Transaction input stage and mandatory batch program maintenance.",
+      "raw_text": "2-1\n2. EOD Maintenances\n2.1 \nIntroduction\nOracle FLEXCUBE allows you to execute several functions everyday on a routine basis as \npart of the end of cycle (EOC) process. These functions can be run at various stages of the \nEOC process. \nEOD ensures that once End of Cycle processing starts, each function that will be run in the \nspecified sequence will be executed automatically. However, you can take manual control if \nthere are any problems in running the function. Certain functions requires some inputs (called \nrun-time inputs) before they are executed. This also can be automated.\nThe EOD process should be defined and executed separately for different branches of your \nbank. When the process is running, you could choose to monitor it from a central location, \nperhaps your data center.\nThis chapter contains the following sections:\nSection 2.2, \"Various Stages of EOC Process\"\nSection 2.3, \"Mandatory Batch Program Maintenance\"\nSection 2.4, \"Batch EOD Function Inputs\"\nSection 2.5, \"End of Cycle Groups\"\nSection 2.6, \"Pending Maintenances\"\nSection 2.7, \"End of Cycle Process\"\nSection 2.8, \"Deferred EOD Process\"\nSection 2.9, \"End of Cycle Monitor\"\nSection 2.10, \"Changing System Date\"\n2.2 \nVarious Stages of EOC Process\nEnd of Transaction input (EOTI) \nThe End of Transaction input (EOTI) stage is the first stage in EOD operations. The system \nshould be moved to this status after all the transactions for the day have been entered into \nthe system. In addition, all the transactions should be authorized and the relevant messages \ngenerated.\nNote\nPlease note that while it is not mandatory for all the messages to be generated on the \nsame day as transaction input, it is ideally done that way. In an exceptional situation, you \ncan go ahead with the End of Day processes without generating a message. This mes-\nsage will remain in the ungenerated status in the Outgoing Message Browser and can be \ngenerated on any other day. An ungenerated message will not be archived.\nYou will not be allowed to mark EOTI under the following circumstances:\nWhen a message is in an unprocessed state\nNote\nWhen a reply to the message sent has either not been received or arrived at by the system."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "The above validations are applicable for RTGS messages only.",
+        "End of Financial Input (EOFI)",
+        "End of Day"
+      ],
+      "summary": "This page discusses validation rules for RTGS messages and the procedures for End of Financial Input (EOFI) and End of Day processes in a financial system.",
+      "raw_text": "2-2\nThe above validations are applicable for RTGS messages only.\nWhen transactions that have been input are yet to be authorized\nWhen the debit and credit totals for the day do not match for some reason\nUnder such circumstances, you should examine the transaction(s), which have resulted in the \nimbalance (with the help of the Transaction Journal) and take the necessary action. The \naction could be in the posting an extra entry, or moving an entry from one account to another, \netc. \nAfter you have moved the system to this status, you will neither be allowed to enter further \ntransactions into the system nor will you be allowed to perform any maintenance functions. \nAll the relevant toolbar actions will also be disabled. However, you can perform queries on the \nsystem.\nYou can run only those automated functions that have been defined for this stage of End of \nDay processing.\nEnd of Financial Input (EOFI) \nAt this stage no further accounting entries can be passed for the day either through \ntransactions that you have entered or by transactions that are automatically triggered by the \nsystem.\nAfter you have moved the system to this status you can generate financial reports for the day \nnow since all the automatic processes have been run for the day and since the balances \navailable will be the latest. \nAfter EOFI is marked, you can generate all advice related messages like reports, tracers and \nall other information on the day’s activities.\nEnd of Day \nThe EOD process is designed to tie up all the operations for a financial day and prepare the \nsystem for the next day. \nThe End of Day operations for a branch can begin after all the transactions for the day have \nbeen input and authorized. Ideally, all the messages for the day should also be generated \nbefore the End of Day operations begin. A message should be carried over to a subsequent \nday only under exceptional conditions. \nThe End of Day status indicates that you have completed all the activities for the day. After \nEOD for a branch is run, the system will not allow you to run any other operation in the branch, \ntill the system date has been changed to the next working day, and authorized. If you try to \nrun any application, you will be prompted to change the system date first. \n2.3 \nMandatory Batch Program Maintenance\nThis section contains the following topic:\nSection 2.3.1, \"Defining Functions to be Run Automatically\"\nSection 2.3.2, \"Picking up Function to be Part of AEOD\"\nSection 2.3.3, \"Specifying EOC Group\"\nSection 2.3.4, \"Specifying Frequency at which Function Should be Run\"\nSection 2.3.5, \"Indicating Execution Layer\""
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Defining Functions to be Run Automatically",
+        "Picking up Function to be Part of AEOD",
+        "Specifying EOC Group"
+      ],
+      "summary": "This page explains how to set up automatic functions for End of Cycle processing through the Mandatory Batch Program Maintenance screen, including selecting and defining automated processes and specifying their execution stages.",
+      "raw_text": "2-3\n2.3.1 \nDefining Functions to be Run Automatically\nThrough the Mandatory Batch Program Maintenance screen, you can indicate the functions \nthat should be automatically triggered as part of automatic End of Cycle. You can invoke the \n‘Mandatory Batch Program Maintenance’ screen by typing ‘EIDMANPE’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\n2.3.2 \nPicking up Function to be Part of AEOD\nYou should choose the automated process that should be run as part of AEOD and define \nattributes for it.\n2.3.3 \nSpecifying EOC Group\nWhile defining a function in the AEOD Maintenance table, you should also indicate the stage \nat which it should be run. The end of cycle processing has different stages. They are as \nfollows:\nTransaction Input\nEnd of Transaction Input (EOTI)\nEnd of Financial Input (EOFI) \nEnd of Day (EOD)\nBeginning of Day (BOD)\nEnd of Previous Day (EOPD)"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "End of Transaction Input (EOTI)",
+        "The End of Financial Input (EOFI)",
+        "The End of Day (EOD)",
+        "The Beginning of Day (BOD)"
+      ],
+      "summary": "This page explains the different stages in a financial process, including EOTI, EOFI, EOD, and BOD, detailing what each stage signifies and when certain operations should be performed.",
+      "raw_text": "2-4\nEnd of Transaction Input (EOTI)\nEOTI indicates End of all Transaction Inputs, during which all transaction inputs are \ncompleted and the batch should be run before EOFI. EOFI indicates End of Financial Input, \nduring which all accounting transactions are completed and the batch should be run before \nEOD. EOD indicates End of Day, during which all activities for that day are completed and the \nbatch should be run before BOD. BOD indicates Beginning of the Day, during which the \ntransactions are Input. EOPD indicates End of Previous Day, during which all the EOD \nprocess that are deferred to the next day are processed.\nThe End of Financial Input (EOFI)\nThis stage indicates that no further accounting entries can be passed for the day either \nthrough transactions or by automated processes. \nThe End of Day (EOD)\nThis stage indicates that all the activities for the day are complete. Further activities can be \ndone on the system only after the system date has been changed to the next working day and \nauthorized. \nTypically, most of the automated functions will be a part of the Beginning of Day operations. \nThereafter, some of them (say accruals, for example) should be executed when the system \nis in the EOTI stage. Some of the functions run during Beginning of Day should be repeated \nduring EOTI stage so that any automated liquidation triggered by transactions input during the \nday will be processed.\nThe Beginning of Day (BOD)\nThis is the stage after the system date has been changed and authorized, and before the \ntransaction input for the day can begin. \nAt this stage, the system is expecting certain functions to be executed. For example, \nautomatic liquidation of interest or commission scheduled for the day.\nThe execution of these functions during this stage ensures that all the debits and credits to a \ncustomer account that are triggered automatically are done and the balances updated. Thus, \nwhen the customers of your bank walk in to execute transactions during the day, your records \nwill reflect the latest balance.\nThe End of Previous Day (EOPD)\nThis stage after BOD processes all the non critical process such as GL statement generation, \narchival, purging that are deferred to next day during an EOD process.\nThe End of Transaction Input (EOTI)\nThis stage indicates that all the transactions for the day have been input and authorized. \nThus, the automated processes that involve transaction input during the day have to be \nexecuted (periodic accruals, any automatic interest or commission liquidation triggered by \ntransactions that were input during the day, etc.) when the system is in the EOTI stage. \nSub Stage\nSpecify a valid sub stage number to run a batch ensuring inter branch dependency from the \nadjoining drop-down list. This list displays numbers from 1–3.\nThe following sub stages are available for different EOC stages:\nPost End of Transaction Input\n– \nPost End of Transaction Input 1\n– \nPost End of Transaction Input 2\n– \nPost End of Transaction Input 3"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Post End of Financial Input",
+        "Post End of End of Day",
+        "Post End of Beginning of Day",
+        "Mark Transaction Input",
+        "Mark End of Previous Day"
+      ],
+      "summary": "This page discusses various post-end-of-day processes and transaction marking procedures, including different stages and frequencies for running functions.",
+      "raw_text": "2-5\nPost End of Financial Input\n– \nPost End of Financial Input 1\n– \nPost End of Financial Input 2\n– \nPost End of Financial Input 3\nPost End of End of Day\n– \nPost End of End of Day 1\n– \nPost End of End of Day 2\n– \nPost End of End of Day 3\nPost End of Beginning of Day\n– \nPost End of Beginning of Day 1\n– \nPost End of Beginning of Day 2\n– \nPost End of Beginning of Day 3\nMark Transaction Input\nMark End of Previous Day\n– \nPost End of Previous Day 1\n– \nPost End of Previous Day 2\n– \nPost End of Previous Day 3\nFor example, if you need to run a batch at head office, after running the batch at all the \nreporting branches, then the batch run at HO is maintained at Sub Stage 3 and the batch run \nat reporting branches is maintained at 1 or 2, so that the system runs Stage 3 after \nsuccessfully completing Stage 2 in all branches. EOD run mode is maintained as ‘Parallel’. \n2.3.4 \nSpecifying Frequency at which Function Should be Run\nCertain functions performed at your bank will have to be run daily, while some others may \nneed to be executed at other periodic frequencies. Specify the functions that should be run at \nAEOD and select the frequency with which it should be run from the adjoining drop-down list. \nThis list displays the following values:\nDaily\nMonth-end\nQuarter-end\nHalf-year-end\nYear end\nNth day of the month\nN days before end of month\nSpecific date\nWeekly\nTypically, repayments due to loans or deposits, liquidation of commissions due to an LC, etc. \nwould be functions that you should execute daily since such transactions may happen on any \nday, depending on the liquidation date specified for the individual contracts. \nIf you select the frequency options ‘Nth day of the month’ or ‘N days before month-end’, you \nshould specify the exact date in the ‘Run Date’ field or the number of days before which the \nfunction should be run in the ‘Number of days’ field respectively."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "For instance, you might want to run the liquidation of interest on current and savings accounts to the fifth day of every month.",
+        "2.3.5 Indicating Execution Layer",
+        "2.4 Batch E"
+      ],
+      "summary": "This page discusses strategies for scheduling financial processes during month-ends and explains how to configure execution layers and job codes for batch processing using a job scheduler.",
+      "raw_text": "2-6\nIt is a known fact that month-ends are usually a period of hectic activity for bankers. Hence, \nyou might want to postpone certain activities to a later date, so that you can spread the load \nevenly.\nFor instance, you might want to run the liquidation of interest on current and savings accounts \nto the fifth day of every month. While defining the IC liquidation function, you can specify the \nfrequency as ‘Nth day of the month’ and specify the number of days as five. The liquidation \nfunction will be executed on the fifth, but the processing will be done as of the end of the \nprevious month.\nSimilarly, you can opt to execute a function a few days before the month-end. To do this, \nspecify the frequency level as N days before end of month. Specify the number of days before \nwhich the function should be executed. \nIf you have defined the frequency as Specific date, you should enter the date on which the \nparticular function has to be executed.\n2.3.5 \nIndicating Execution Layer\nBIP reports can be automatically generated using the job scheduler. Indicate the following \ndetails:\nExecution Layer\nExecution layer indicates the execution layer where the batch should be processed. It can \nhave two values\nDatabase\nApplication\nFor example: BIP reports at EOD can be automatically generated using the job scheduler.\nJob Code\nSpecify a job code that needs to be run to process the job scheduler operations.\nJob description \nThis is displayed based on the job code specified.\n2.4 \nBatch EOD Function Inputs\nThis section contains the following topics:\nSection 2.4.1, \"Specifying Data Values for EOD Functions\"\n2.4.1 \nSpecifying Data Values for EOD Functions\nSome EOD functions may require inputs for their successful execution, such as data values. \nFor this, you can specify the required data value in the Batch EOD Function Input screen."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Report Orientation",
+        "2.5 End of Cycle Groups",
+        "2.5.1 Maintaining End of Cycle Groups"
+      ],
+      "summary": "This page describes how to invoke a specific function input screen and explains the process of setting up report orientation, as well as maintaining end of cycle groups in Oracle FLEXCUBE.",
+      "raw_text": "2-7\nYou can invoke the ‘Batch EOD Function Input’ screen by typing ‘BADEODFE’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button.\nSelect the EOC group to which the function is associated, for which you wish to specify \nvalues. You must also select the branch and the corresponding function identification that \nwould be executed as part of marking the selected EOC state. The parameters for which the \nsystem expects a data value are displayed in the Parameter column. You can specify the \nrequired data value in the Value field.\nReport Orientation\nSpecify the orientation, i.e. Landscape or Portrait. If you do not wish to specify it, select Not \nApplicable.\n2.5 \nEnd of Cycle Groups\nThis section contains the following topic:\nSection 2.5.1, \"Maintaining End of Cycle Groups\"\n2.5.1 \nMaintaining End of Cycle Groups\nIn Oracle FLEXCUBE, you can trigger EOC process from any branch for all the branches of \nthe bank. To simplify the process of selection of branches, you may group them into several \nEOC groups. Such grouping can be based on the time zones, holiday calendar, time at which \nthe branches close the operations of a day or such similar common features."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "To maintain an End of Cycle group",
+        "Branches"
+      ],
+      "summary": "This page explains how to invoke and set up 'End of Cycle Groups' in a system, focusing on specifying details such as group code, description, and branches, with the goal of improving performance during end-of-day processes.",
+      "raw_text": "2-8\nYou can invoke the ‘End of Cycle Groups’ screen by typing ‘AEDECGRU’ in the field at the \ntop right corner of the Application tool bar and clicking the adjoining arrow button.\nTo maintain an End of Cycle group, specify the following details:\nGroup Code\nEnter a unique code for the EOC group that you wish to create. This group can later be \nidentified by the group code specified.\nGroup Description\nEnter a description that describes the nature of the group. \nEnd of Previous Day Group\nEOPD Group is optional. EOC Group for EOPD will start after EOD Cycle. EOD cycle runs till \nTransaction Input, so EOPD starts after TI.\nEnd of Previous Day group processes Mark End of Previous Day and Post End of Previous \nDay stages (POSTEOPD_1, POSTEOPD_2, POSTEOPD_3) excluding other stages like TI, \nFI, EOD and BOD.\nWithout specifying EOPD group, if we have 200 EOC branches divided into 20 EOC groups \neach will occupy 20 CPUs in EOPD Stage. Since EOPD group runs parallel to Transaction \nInput (TI) stage, all CPU's were occupied by EOPD process which will slow down the TI \nProcesses thus reducing the performance. With a separate EOPD group, EOPD Process will \nhave 200 EOC branches divided into 5 EOPD groups to improve performance that will \ncontinue to run even after TI Stage till next EOTI process. This will increase the performance \nof EOD processing and reduce the time taken for End of Day processes.\nBranches\nSelect the branches to be grouped. Select ‘Add’ from the Actions menu in the Application tool \nbar or click add icon to add more rows to the list of branches. Specify the branch code of each \nbranch to be grouped. The system displays the name of the branch against each code \nspecified. \nAt times, you may wish to remove a branch from the list of branches. To remove a branch, \ncheck the box against the branch code and Select ‘Delete’ from the Actions menu in the \nApplication tool bar or click delete icon."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Sequence",
+        "2.6 Pending Maintenances",
+        "2.6.1 Viewing Unauthorized Maintenances"
+      ],
+      "summary": "This page explains how branches are sequenced and managed in a system, focusing on pending maintenances and unauthorized transactions that need to be authorized before End of Day operations.",
+      "raw_text": "2-9\nNote\nOne branch can be linked to one normal group code and one EOPD group code.\nSequence\nEnter the sequence number for each branch. The system will display the branch codes as per \nthe sequence when the branch group is added in AEDSTART screen and Branches will run \nin that sequencing order during EOD.\nNote\nIf the Sequence number is null or same then the system will not validate this field.\n2.6 \nPending Maintenances\nThis section contains the following topic:\nSection 2.6.1, \"Viewing Unauthorized Maintenances\"\n2.6.1 \nViewing Unauthorized Maintenances\nAll the transactions and maintenance records processed during the day should be authorized \nbefore End of Day operations can begin. Authorizers in the various departments should \nauthorize transactions before handing over the system to the data center for End of Day \nprocessing. \nIn Oracle FLEXCUBE, you can get a list of unauthorized transactions and records at any point \nin time. This information enables the authorizers to easily find out which transactions or \nrecords are unauthorized.\nYou can view the maintenance that are yet to be authorized through the View Unauthorized \nMaintenance option. \nYou can invoke the ‘Pending Maintenances’ screen by typing ‘STSVWPEN’"
+    },
+    {
+      "page_number": 15,
+      "sections": [],
+      "summary": "This page describes how to perform queries using parameters such as Product ID and Description in the Application toolbar, and outlines the process for starting the End of Cycle.",
+      "raw_text": "2-10\n in the field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nProduct ID\nDescription\nSelect any or all of the above parameters for a query and click ‘Search’ button. The records \nmeeting the selected criteria are displayed.\nSystem displays the all the pending maintenance pertaining to this branch:\nFunction ID\nLanguage Code\nDescription\n2.7 \nEnd of Cycle Process\nTo start the End of Cycle process, choose End of Cycle and the Start EOC option under it."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Processing End of Cycle Operations",
+        "Verifying EOC Process",
+        "Dropping End of Transaction Input",
+        "Stopping EOC for Running Branches",
+        "Deferred EOD Process"
+      ],
+      "summary": "This page outlines the various stages involved in the End of Cycle operations, including processing end of cycle operations, verifying the process, dropping end of transaction input, stopping end of cycle for running branches, and handling deferred end of day processes.",
+      "raw_text": "2-11\nThe End of Cycle operations consist of several stages. In this chapter we shall discuss in \ndetails the various stages that are a part of the cycle. The various stages in this cycle have \nbeen diagrammatically represented below:\nThis section contains the following topics:\nSection 2.7.1, \"Processing End of Cycle Operations\"\nSection 2.7.2, \"Verifying EOC Process\"\nSection 2.7.3, \"Dropping End of Transaction Input\"\nSection 2.7.4, \"Stopping EOC for Running Branches\"\nSection 2.8, \"Deferred EOD Process\"\n2.7.1 \nProcessing End of Cycle Operations\nYou can invoke the ‘End of Cycle Operations’ screen by typing ‘AEDSTART’ in the field at the \ntop right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "In order to initiate EOC operations",
+        "Target Stage"
+      ],
+      "summary": "This page explains how to initiate End of Cycle Operations by specifying an EOC reference number and selecting target stages for branches, with details on system validation during submission.",
+      "raw_text": "2-12\nIn order to initiate EOC operations, specify the following details:\nEOC Reference\nOn clicking ‘Submit’ button, the system generates a unique EOC reference number. \nTarget Stage\nAs part of EOC operations, the system will process each selected branch from its current \nstage to the target stage. Select the target stage for all the branches from the adjoining drop-\ndown list. This list displays the following stages:\nMark End of Transaction Input\n– \nPost End of Transaction Input 1\n– \nPost End of Transaction Input 2\n– \nPost End of Transaction Input 3\nMark End of Financial Input\n– \nPost End of Financial Input 1\n– \nPost End of Financial Input 2\n– \nPost End of Financial Input 3\nMark End of Day\n– \nPost End of End of Day 1\n– \nPost End of End of Day 2\n– \nPost End of End of Day 3\nMark Beginning of Day\n– \nPost End of Beginning of Day 1\n– \nPost End of Beginning of Day 2\n– \nPost End of Beginning of Day 3\nMark Transaction Input \nMark End of Previous Day\n– \nPost End of Previous Day 1\n– \nPost End of Previous Day 2\n– \nPost End of Previous Day 3\nYou can select the appropriate one. The system defaults this as the target stage for all \nbranches. However, you can modify the same for each branch.\nIn End of Cycle Operation, if EOC group code with End of Previous Day is selected, then the \nsystem validates the following on SUBMIT action:\nFor the current stage or target stage fields, if the stages other than MARKEOPD or \nPOSTEOPD_1, 2, 3 are selected, then the system displays an error message.\nFor any branches in the group, if the EOD process is not completed till TI the system \ndisplays appropriate error message.\nThe EOC Group for EOPD starts after EOD Cycle. EOPD group continues to run Mark End \nof Previous Day (MARK EOPD) and Post End of Previous Day Stages (POSTEOPD_1, \nPOSTEOPD_2, POSTEOPD_3). This EOPD Group can be optional. The system supports if \nyou prefer to run normal group. Normal Group runs from Mark End Of Transaction Input to \nPost End of Previous Day 3 (POSTEOPD_3).\nRun Mode\nIndicate the mode in which the EOC operation should take place. The system allows you to \nselect any one of the following run modes:"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Serial",
+        "Parallel",
+        "EOC Type"
+      ],
+      "summary": "This page describes different modes of processing EOC (End of Cycle) operations in a system, including serial and parallel processing methods, and options for selecting EOC operation types such as Multi Thread and Branch Scheduler.",
+      "raw_text": "2-13\nSerial – The system processes EOC in a serial mode taking branch after branch. In this \nmode, even if the process fails for a particular branch, the system moves on to the next \nbranch and proceeds. \nParallel – The system processes EOC stage wise, for all selected branches. At any \nstage if it fails, the system will not be able to run it for any of the remaining branches. \nFor example, consider an EOC operation for two branches, Branch A and Branch B from the stage \n‘Set Time Level to 9’ to the stage ‘End of Financial Input’. The system initially processes both \nbranches to the stage ‘End of Transaction Input’ at once. It goes on till the final stage. However, \nin the meantime, if any branch fails to process, the system stops the EOC operations for both the \nbranches together.\nEOC Type\nSelect a valid EOC operation type you need from the adjoining drop-down list. This list \ndisplays the following options:\nMulti Thread – If you select this option, the system runs EOD based on the scheduler \nframework. Oracle FLEXCUBE prepares EOD run charts for the selected branches and \nsubmits synchronous request to the Database to run EOD. Scheduler framework then \npicks-up these branches and runs EOD. Hence Multi Thread is also referred as \n‘Scheduler’ type. A Scheduler Framework is available to process EOD batch. \n– \nBranch Scheduler – It polls branches submitted for EOD in scheduler mode and \ntriggers the EOD process. Before triggering the EOD process for a particular \nbranch, the scheduler validates its feasibility for processing EOD. If EOD Running \nMode is maintained as ‘Parallel’, then it checks for the movement of the branch to \nthe next stage, because all the branches are synchronously moved across stages. \nScheduler also keeps track of number of sessions for the current EOC. \nSingle Thread – If you select this option, the system runs the entire EOD process in \nsingle session, for all branches. After submitting EOD, Oracle FLEXCUBE submits an \nasynchronous request to the Database to run EOD.\nMaximum Threads\nSpecify maximum number of sessions you need to maintain, if you have selected ‘Multi \nThread’ as ‘EOC Type’.\n2.7.1.1 \nSelecting Branches for EOC Operations\nUnder EOC Branch Groups, the system displays the list all EOC branch groups that you have \nmaintained. You can select one or more branch groups to proceed with EOC operations. Use \nthe checkbox adjacent to each group to select it. Check against ‘ALL’ to indicate that the EOC \nhas to be run for all the branches together.\nOnce you have selected the branch groups, click ’Populate’ button. Under EOC Branches, the \nsystem displays all branches grouped under the selected branch groups. \nNote\n– \nThe system does not display the branches for which EOC is already running. \n– \nThe user has to manually change the sequencing order if the sequence number is \nthe same as the branches of a group or multiple groups.\nYou can add more branches to the list of branches displayed. Click add icon to add more rows \nto the list. Specify a valid branch code to set the target stage. This adjoining option list displays \nall valid branch codes maintained in the system. However, the option list will not display the \nbranches for which EOC is already running."
+    },
+    {
+      "page_number": 19,
+      "sections": [],
+      "summary": "This page describes how to remove branches from a list and verify the status of End-of-Day (EOC) processes in Oracle FLEXCUBE.",
+      "raw_text": "2-14\nTo remove a branch from the list, check the box adjacent to the branch code and Click delete \nicon. \nOnce you have specified all the details, click ’Submit’ button. The system proceeds with the \nEOC process in Asynchronous mode after necessary validations. \nYou can use the ’Reset’ button to clear the list of branches. Further, you need to select the \nbranch groups and individual branches again to proceed with EOC operation. \n2.7.2 \nVerifying EOC Process\nIn Oracle FLEXCUBE, you can verify the status of EOC that you have submitted. The EOC \nMonitor screen displays the status of EOC process across branches. You can invoke the \n‘EOC Monitor’ screen by typing ‘AESBRMTR’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button. \nThe screen is as shown below:\nBranch Code\nYou can filter your search by branch code. Select the branch code from the option list to view \nthe status of the EOC processes for that branch.\nEOC Reference Number\nYou can filter your search by the reference number of the EOC operation. Select the reference \nnumber from the option list to view the status of the EOC processes.\nYou will notice four buttons arrayed on the screen. The functions that each of these buttons \nperforms are detailed below:\nSearch\nFor the specified criteria, on clicking ‘Search’ button, the system fetches the records.\nReset\nUse this button to reset the search criteria.\nAdvanced Search\nYou can perform an advanced search defining more filter criteria.\nGo to Page\nBased on the number of records displayed per page, the system will fetch them on multiple \npages. Enter the page number and use this button to navigate to that page."
+    },
+    {
+      "page_number": 20,
+      "sections": [],
+      "summary": "This page describes how to search for and view details of EOC processes running in a system, including how to drill down into specific process stages and batch statuses.",
+      "raw_text": "2-15\nOn this screen, you can search for the EOC processes that are currently running. Specify the \nbranch code or the EOC Reference number and click ’Search’ button. Based on the filters that \nyou have set, the system displays the details of the EOC processes. \nYou can drill down to view the detailed information on a specific EOC process. Double click \non the required row to view the details. \nThe system displays the following details under EOC Runchart:\nBranch Date\nSequence\nEOC Stage\nStage Status\nReference Number\nSession\nYou can select a particular stage to see the status of the batches configured for that stage. \nThe system displays the following details pertaining to the selected batch:\nEOC batch\nBatch status, i.e. pending, completed or aborted\nThe EOC reference number\nError code, in case the process is aborted\nIf you find a batch in aborted status, you may process the batch again using ‘Rerun Batch’ \nbutton. \n2.7.3 \nDropping End of Transaction Input \nYou may stop a running AEOD batch within the current branch using ‘End of Cycle \nOperations’ screen. You can invoke the ‘End of Cycle Operations’ screen by typing \n‘EIDUEOTI’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button. \nThe system displays the following details on this screen:\nBranch code of the current branch"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Stopping EOC for Running Branches"
+      ],
+      "summary": "This section explains how to stop running End of Cycle processes for specific branches using the 'End of Cycle' screen in the Application toolbar.",
+      "raw_text": "2-16\nBranch name\nEnd of Input\nYou can stop an AEOD process by clicking ’Drop End of Txn Input’ button on the screen. The \nsystem seeks a confirmation for going ahead with dropping. Once you confirm it, the system \nupdates the status of the process as ‘End of Transaction Input’.\n2.7.4 \nStopping EOC for Running Branches\nYou can stop running EOC processes for specific branches using ‘End of Cycle’ screen. You \ncan invoke the ‘End of Cycle’ screen by typing ‘AEDSTOP’ in the field at the top right corner \nof the Application tool bar and clicking the adjoining arrow button. \nThe screen is as shown below:\nThe system displays the running branches on this screen. Check the box under ‘Stop’, against \nthe branches for which you wish to stop the process. Click ‘Stop’ button to stop the process \nfor the selected branches."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Deferred EOD Process",
+        "End of Cycle Monitor"
+      ],
+      "summary": "This page describes the Deferred End-of-Day process and introduces the End of Cycle Monitor section, which includes instructions for invoking the EOC Monitor Screen.",
+      "raw_text": "2-17\n2.8 \nDeferred EOD Process\nThe below flowchart indicates the EOD process in the system. \nThe EOPD is run parallel to the Transaction Input. The next day Mark EOTI is allowed only \nwhen the EOPD stage is completed. You cannot mark end of transaction input if the automatic \nend of day status of EOPD is ‘N’.\n2.9 \nEnd of Cycle Monitor\nThis section contains the following topic:\nSection 2.9.1, \"Invoking EOC Monitor Screen\""
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Invoking EOC Monitor Screen"
+      ],
+      "summary": "This section explains how to access and view the status of Electronic Order Confirmation (EOC) for a specific branch using the 'EOC Monitor' screen in the application toolbar.",
+      "raw_text": "2-18\n2.9.1 \nInvoking EOC Monitor Screen\nYou can view the current status of EOC of a branch using ‘EOC Monitor’ screen. You can \ninvoke the ‘EOC Monitor’ screen by typing ‘AEDBRMTR’ in the field at the top right corner of \nthe Application tool bar and clicking the adjoining arrow button.\nYou can view the status of branch wise EOC here.\nBranch Code\nSelect the branch code from the option list for which you want to view the EOC status. Based \non the branch you selected branch name gets displayed. \nWhen you click ‘Go’ button the records matching the specified branch are displayed. For each \nrecord fetched by the system based on your query criteria, the following details are displayed:\nMessage\nEOC Status\nBranch Date\nSequence\nEOC Stage\nStage Status\nReference Number\nSession\nError Code"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Note",
+        "Changing System Date",
+        "Viewing System Date"
+      ],
+      "summary": "This page discusses how to change and view the system date in a business context, including details on accessing the 'System Dates Maintenance' screen.",
+      "raw_text": "2-19\nNote\nThe system displays internal batches like AEBMTLVL, COBMTLVL, OLBMTLVL and EL-\nBMTLVL during Mark Time Level 9 EOC stage. These batches are called ‘depending on \nthe module groups’ and are stored in Smtb_Modules_Group maintained during FCUBS in-\nstallation.\n2.10 Changing System Date\nThe first task for a business day is to change the system date to the current working date. This \ndate will be used by the system for all purposes that are associated with a date: automatic \nprocesses scheduled for the day, the date/time stamp for the activities that take place during \nthe day, and so on.\nThis section contains the following topics:\nSection 2.10.1, \"Viewing System Date\"\n2.10.1 \nViewing System Date\nYou can view details of the system date in the system dates table. You can invoke the ‘System \nDates Maintenance’ screen by typing ‘STDDATES’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nThe default date will be displayed in the screen. For instance, on the first working date 1st of \nJanuary, 1998; the system dates will be updated to read as follows:\nToday’s date = 01 January 1998\nPrevious working date = 31 December 1997\nNext working date = 02 January 1998\nToday’s date is defaulted from Next working date of the old record. Previous working date is \ndefaulted from today’s date of the old record. The Next working date is picked up from the \nLocal branch holiday calendar as maintained for your branch.\nThe only time you add a record in the system dates table is when Oracle FLEXCUBE is first \ninstalled in your branch. Subsequently, the dates will be updated by EOD operations.Click \n‘Exit’ button to exit the screen. You will be returned to the Application Browser."
+    },
+    {
+      "page_number": 25,
+      "sections": [],
+      "summary": "",
+      "raw_text": "3-1\n3. Function ID Glossary\nA\nAEDBRMTR ....................2-18\nAEDECGRU ......................2-8\nAEDSTART .....................2-11\nAEDSTOP .......................2-16\nAESBRMTR ....................2-14\nB\nBADEODFE .......................2-7\nE\nEIDMANPE ....................... 2-3\nEIDUEOTI ....................... 2-15\nS\nSTDDATES ..................... 2-19\nSTSVWPEN ...................... 2-9"
+    }
+  ]
+}

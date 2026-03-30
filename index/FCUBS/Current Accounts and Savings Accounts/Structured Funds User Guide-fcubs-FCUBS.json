@@ -1,0 +1,765 @@
+{
+  "source": "FlexCube/FCUBS/Current Accounts and Savings Accounts/Structured Funds User Guide-fcubs-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 28,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the manual and provides an overview of creating structured deposit products.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. About this Manual",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual introduces the Structured Funds module of Oracle FLEXCUBE, its intended audience, and how to access help features, organized by user roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual introduces the Structured Funds module of Oracle FLEXCUBE, its intended audience, and how to access help features, organized by user roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual introduces the Structured Funds module of Oracle FLEXCUBE, its intended audience, and how to access help features, organized by user roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual introduces the Structured Funds module of Oracle FLEXCUBE, its intended audience, and how to access help features, organized by user roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This manual introduces the Structured Funds module of Oracle FLEXCUBE, its intended audience, and how to access help features, organized by user roles.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. About this Manual",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Processing Structured Deposit Contracts",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Fund Raising Activity",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Capturing the Fund Raising Activity Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Specifying the Structured Deposit Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.3",
+          "title": "3.1.3 Interest Button",
+          "start_page": 14
+        },
+        {
+          "structure": "4.1.4",
+          "title": "3.1.4 Subscription Button",
+          "start_page": 16
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Subscriptions for Structured Deposits",
+          "start_page": 16
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Capturing Subscriptions for Structured Deposits",
+          "start_page": 16
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Redeeming Structured Deposits",
+          "start_page": 19
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Cancelling Structured Deposits",
+          "start_page": 20
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Viewing Subscription Summary",
+          "start_page": 21
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Saving the Structured Deposit Subscriptions",
+          "start_page": 22
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Status Tracking",
+          "start_page": 22
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Structured Deposit Launch",
+          "start_page": 24
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Initiating the Structured Deposit Launch",
+          "start_page": 24
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Launching of Structured Deposits",
+          "start_page": 24
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Closing Structured Deposits",
+          "start_page": 25
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Exceptions for Structured Deposits",
+          "start_page": 26
+        },
+        {
+          "structure": "4.7.1",
+          "title": "3.7.1 Handling Exceptions for Structured Deposits",
+          "start_page": 26
+        },
+        {
+          "structure": "4.8",
+          "title": "3.8 Net Asset Values",
+          "start_page": 27
+        },
+        {
+          "structure": "4.8.1",
+          "title": "3.8.1 Feeding the Net Asset Values",
+          "start_page": 27
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Structured Deposit Products",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Structured Deposit Product Maintenance",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking the SD Product Definition Screen",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Viewing SD Product Summary",
+          "start_page": 9
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Organization",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page outlines the organization of the manual and lists related documents as well as a glossary of icons used within it.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page outlines the organization of the manual and lists related documents as well as a glossary of icons used within it.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page outlines the organization of the manual and lists related documents as well as a glossary of icons used within it.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Creating Structured Deposit Products",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section explains what structured deposits are and how they work, including their potential for higher returns compared to regular savings accounts, and mentions Oracle FLEXCUBE's role in facilitating these products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section explains what structured deposits are and how they work, including their potential for higher returns compared to regular savings accounts, and mentions Oracle FLEXCUBE's role in facilitating these products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Structured Deposit Product Maintenance",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section explains what structured deposits are and how they work, including their potential for higher returns compared to regular savings accounts, and mentions Oracle FLEXCUBE's role in facilitating these products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Invoking the SD Product Definition Screen",
+      "start_page": 6,
+      "end_page": 9,
+      "summary": "This section explains what structured deposits are and how they work, including their potential for higher returns compared to regular savings accounts, and mentions Oracle FLEXCUBE's role in facilitating these products.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Viewing SD Product Summary",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This section explains how to search for SD Products in the 'SD Product Summary' screen and describes the filter criteria available.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Processing Structured Deposit Contracts",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page discusses the process of capturing fund raising activity details and specifying structured deposit information within Oracle FLEXCUBE for Structured Deposit contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Fund Raising Activity",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page discusses the process of capturing fund raising activity details and specifying structured deposit information within Oracle FLEXCUBE for Structured Deposit contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Capturing the Fund Raising Activity Details",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page discusses the process of capturing fund raising activity details and specifying structured deposit information within Oracle FLEXCUBE for Structured Deposit contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Specifying the Structured Deposit Details",
+      "start_page": 10,
+      "end_page": 14,
+      "summary": "This page discusses the process of capturing fund raising activity details and specifying structured deposit information within Oracle FLEXCUBE for Structured Deposit contracts.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Structured Deposit Product Maintenance",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking the SD Product Definition Screen",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Viewing SD Product Summary",
+          "start_page": 9
+        }
+      ]
+    },
+    {
+      "structure": "4.1.3",
+      "title": "3.1.3 Interest Button",
+      "start_page": 14,
+      "end_page": 16,
+      "summary": "This page discusses the association of account classes with structured deposits during their launch, options for premature redemption, and details about term deposit returns and performance-based returns in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.4",
+      "title": "3.1.4 Subscription Button",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page explains how to enter subscription details for SD contracts and introduces various topics related to managing structured deposit subscriptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Subscriptions for Structured Deposits",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page explains how to enter subscription details for SD contracts and introduces various topics related to managing structured deposit subscriptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Capturing Subscriptions for Structured Deposits",
+      "start_page": 16,
+      "end_page": 19,
+      "summary": "This page explains how to enter subscription details for SD contracts and introduces various topics related to managing structured deposit subscriptions.",
+      "cross_references": [
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Viewing SD Product Summary",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking the SD Product Definition Screen",
+          "start_page": 6
+        }
+      ]
+    },
+    {
+      "structure": "4.2.2",
+      "title": "3.2.2 Redeeming Structured Deposits",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This page describes how term deposit accounts are created for structured deposits and outlines the process of reversing or redeeming these deposits if certain conditions are met.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.3",
+      "title": "3.2.3 Cancelling Structured Deposits",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This page explains the process of pre-redeeming Term Deposits (TDs) under Structured Deposits (SDs) during a batch processing, and how to cancel structured deposit contracts before maturity.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.4",
+      "title": "3.2.4 Viewing Subscription Summary",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page describes the internal tracking of SD Reference Status and the process for handling term deposit cancellations and viewing subscription summaries in a financial system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.5",
+      "title": "3.2.5 Saving the Structured Deposit Subscriptions",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page describes the process of saving structured deposit subscriptions and outlines various validations performed by the system upon saving.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Status Tracking",
+      "start_page": 22,
+      "end_page": 24,
+      "summary": "This page describes the process of saving structured deposit subscriptions and outlines various validations performed by the system upon saving.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Structured Deposit Launch",
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section explains how to initiate and launch a structured deposit contract after receiving sufficient subscriptions, detailing the process through the application tool bar and specific steps within the system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.1",
+      "title": "3.4.1 Initiating the Structured Deposit Launch",
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section explains how to initiate and launch a structured deposit contract after receiving sufficient subscriptions, detailing the process through the application tool bar and specific steps within the system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5",
+      "title": "3.5 Launching of Structured Deposits",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This section explains how to initiate and launch a structured deposit contract after receiving sufficient subscriptions, detailing the process through the application tool bar and specific steps within the system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6",
+      "title": "3.6 Closing Structured Deposits",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page describes the processing of structured deposit subscriptions during the SD batch process, including the release of amount blocks, creation of term deposits, and details on interest and charge calculations.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7",
+      "title": "3.7 Exceptions for Structured Deposits",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section explains how to handle exceptions during the processing of structured deposits and provides instructions on reprocessing failed contracts in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7.1",
+      "title": "3.7.1 Handling Exceptions for Structured Deposits",
+      "start_page": 26,
+      "end_page": 27,
+      "summary": "This section explains how to handle exceptions during the processing of structured deposits and provides instructions on reprocessing failed contracts in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.8",
+      "title": "3.8 Net Asset Values",
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This section explains how to maintain and enter Net Asset Values (NAV) for SD contracts in Oracle FLEXCUBE, including navigating to the relevant screen and entering required details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.8.1",
+      "title": "3.8.1 Feeding the Net Asset Values",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This section explains how to maintain and enter Net Asset Values (NAV) for SD contracts in Oracle FLEXCUBE, including navigating to the relevant screen and entering required details.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Function ID Glossary",
+      "start_page": 28,
+      "end_page": 30,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking structured funds, version 14.7.0.0.0, released in November 2022.",
+      "raw_text": "Structured Funds User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including details about their user guide and software licensing terms.",
+      "raw_text": "Structured Funds User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "About this Manual",
+        "Creating Structured Deposit Products"
+      ],
+      "summary": "This page introduces the manual and provides an overview of creating structured deposit products.",
+      "raw_text": "Contents\n1. \nAbout this Manual .................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nOrganization ............................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n1.7 \nGlossary of Icons.....................................................................................................  1-2\n2. \nCreating Structured Deposit Products .................................................. 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nStructured Deposit Product Maintenance................................................................  2-1\n2.2.1  \nInvoking the SD Product Definition Screen ................................................  2-1\n2.2.2  \nViewing SD Product Summary ...................................................................  2-4\n3. \nProcessing Structured Deposit Contracts ............................................ 3-1\n3.1 \nFund Raising Activity...............................................................................................  3-1\n3.1.1  \nCapturing the Fund Raising Activity Details ...............................................  3-1\n3.1.2  \nSpecifying the Structured Deposit Details ..................................................  3-1\n3.1.3  \nInterest Button ............................................................................................  3-5\n3.1.4  \nSubscription Button ....................................................................................  3-7\n3.2 \nSubscriptions for Structured Deposits .....................................................................  3-7\n3.2.1  \nCapturing Subscriptions for Structured Deposits........................................  3-7\n3.2.2  \nRedeeming Structured Deposits...............................................................  3-10\n3.2.3  \nCancelling Structured Deposits ................................................................  3-11\n3.2.4  \nViewing Subscription Summary................................................................  3-12\n3.2.5  \nSaving the Structured Deposit Subscriptions ...........................................  3-13\n3.3 \nStatus Tracking......................................................................................................  3-13\n3.4 \nStructured Deposit Launch....................................................................................  3-15\n3.4.1  \nInitiating the Structured Deposit Launch...................................................  3-15\n3.5 \nLaunching of Structured Deposits ........................................................................  3-15\n3.6 \nClosing Structured Deposits..................................................................................  3-16\n3.7 \nExceptions for Structured Deposits .......................................................................  3-17\n3.7.1  \nHandling Exceptions for Structured Deposits ...........................................  3-17\n3.8 \nNet Asset Values...................................................................................................  3-18\n3.8.1  \nFeeding the Net Asset Values..................................................................  3-18\n4. \nFunction ID Glossary ............................................................................... 4-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "About this Manual",
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This manual introduces the Structured Funds module of Oracle FLEXCUBE, its intended audience, and how to access help features, organized by user roles.",
+      "raw_text": "1-1\n1. About this Manual\n1.1 \nIntroduction\nThis manual is designed to help acquaint you with the Structured Funds module of Oracle \nFLEXCUBE\nThis manual provides answers to specific features and procedures that you need to be aware \nof for the module to function successfully. Besides this User Manual, you can invoke the \ncontext sensitive help available for each field. This help encapsulates the purpose of each \nfield within a screen. Placing the cursor on the relevant field and striking the <F1> key on the \nkeyboard can obtain information specific to a particular field.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThe manual is organized in the following manner:\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/Beginning of Day\nChapter\nDescription\nChapter 1\nAbout this Manual gives a brief introduction of the module, the audience it \naddresses and the organization of the various chapters. It also includes \nthe list of related documents to be referred, if any, and the conventions \nused in the document.\nChapter 2\nCreating Structured Deposit Products explains the process of creating and \nmaintaining a Structured Deposit Product.\nChapter 3\nProcessing Structured Deposit Contracts deals about to capture the \ndetails pertaining to every fund raising activity post once the Structured \nDeposits (SD) products have been set up.\nChapter 4\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation."
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page outlines the organization of the manual and lists related documents as well as a glossary of icons used within it.",
+      "raw_text": "1-2\n1.5 \nOrganization\nThis manual covers the following topics:\nSetting up a Structured Deposit Product\nProcessing Structured Deposit Contracts\n1.6 \nRelated Documents\nGeneric Interface\nCore Entities\nThe Procedures User Manual\nThe Products User Manual\nThe Interest User Manual\n1.7 \nGlossary of Icons\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Introduction"
+      ],
+      "summary": "This section explains what structured deposits are and how they work, including their potential for higher returns compared to regular savings accounts, and mentions Oracle FLEXCUBE's role in facilitating these products.",
+      "raw_text": "2-1\n2. Creating Structured Deposit Products\n2.1 \nIntroduction\nStructured Deposits enable customers to invest in instruments linked to difference asset \nclasses such as interest rates, equities, commodities, foreign exchange and credit without \ndirectly investing in the underlying assets. Structured Deposits gives an opportunity to the \ncustomers to earn higher returns than in a regular savings account. The returns from \nstructured deposits are potentially higher than a plain vanilla deposit. However, the returns \nare not assured as it depends on the performance of the underlying assets. \nOracle FLEXCUBE facilitates the processing of structured deposits. Your bank can raise \nfunds and offer structured deposits for a specific period with a pre-determined amount. The \nbank will decide on the fund raising amount for launching a structured deposit scheme and \ninvites customers to invest in the scheme. The system will allow you to offer the facility of \ninvesting in structured deposit scheme for a certain period of time. After the end date if the \nbank successfully receives the fund raising amount required to offer the structured deposit \nscheme, it can launch the scheme. Consequently, the system creates term deposits for each \ncontribution.\nThe bank can raise funds from any of the savings account held in the fund raising currency. \nThe process of raising funds by utilizing the amount from the savings account is called as \nSubscription. The system will block the customer’s savings account for the amount that the \ncustomer wants to invest in the structured deposit till the scheme is launched. On the \nsuccessful launch of the scheme, the system will release the amount from the savings \naccount and creates term deposits. \nThe structured deposit can have two kinds of returns such as the Assured Returns (i.e., Term \nDeposit returns) and the Performance Based Returns (i.e., Performance gain or loss). You \ncan book Assured Returns interest to the participating savings accounts by setting up the TD \nand corresponding IC products. The system propagates the basic interest rate of return given \nduring the SD fund raising activity to the term deposit accounts. You can book Performance \nBased Returns by means of an external feed to the associated customer account created for \nthe corpus. The performance loss or gain for each of the underlying term deposits is uploaded \ninto the system. Subsequently the performance based return is distributed by IC products. \nThis chapter contains the following sections:\nSection 2.2, \"Structured Deposit Product Maintenance\"\n2.2 \nStructured Deposit Product Maintenance\nThis section contains the following topics:\nSection 2.2.1, \"Invoking the SD Product Definition Screen\"\nSection 2.2.2, \"Viewing SD Product Summary\"\n2.2.1 \nInvoking the SD Product Definition Screen\nYou first need to set up Structured Deposit (SD) products to start the fund raising activity to \nlaunch a Structured Deposit scheme. Subsequently, you can capture details of every SD fund \nraising activity. You can initiate several fund raising activities using a single productYou need \nto maintain Structured Deposit Products in the ‘SD Product Definition’ screen. You can invoke"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Product Code",
+        "Product Description",
+        "Slogan",
+        "Remarks"
+      ],
+      "summary": "This page describes how to define attributes for a product in FLEXCUBE, including the product code, description, slogan, and remarks.",
+      "raw_text": "2-2\nthis screen by typing ‘SFDPRODT’ in the field at the top right corner of the Application tool bar \nand clicking on the adjoining arrow button.\nFor any product you create in FLEXCUBE, you can define the generic attributes. \nConsequently, the contracts associated with the product will inherit the attributes defined for \nthe product. \nProduct Code\nThe code you assign to a product will identify the product throughout the module. The code \nshould contain four alphanumeric characters. You can follow your own convention for \ndevising the code.\nSince the code that you define is used to identify the product, it should be unique across the \nmodules of FLEXCUBE. For instance, if you have assigned the code ‘SD01’ to a particular \nproduct in this module, you cannot use it as a code in any other module. \nProduct Description\nYou can enter a brief description of the product, which will be associated with the product for \ninformation retrieval purposes.\nSlogan\nYou can specify a marketing punch-line to be associated with the product. This slogan will be \nprinted on all the advices that are sent to the customer, for an SD involving this product.\nRemarks\nYou can enter information about the product, intended for the internal reference of your bank. \nThe remarks are displayed when the details of the SD are displayed or printed However, this \ninformation will not be printed on any correspondence with the customer."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Product Group",
+        "Start Date",
+        "End Date",
+        "Product Type"
+      ],
+      "summary": "This page discusses product classification and setup in a system, including grouping products, defining start and end dates for their availability, and specifying the type of structured deposit.",
+      "raw_text": "2-3\nProduct Group\nEach product is classified under a specific group. The different groups are defined in the \nProduct Group Definition table.\nStart Date \nA SD product can be set up for use over a specific period, by defining a start and an end date. \nThe start and end dates of a product come in handy when you are defining a product for a \nscheme, which is open for a specific period.\nEnd Date\nA SD product can be set up for use over a specific period, by defining a start and an end date. \nEnter the date till which the product should be available in the system\nAfter the product is set up, you can associate SD contracts with the SD products. This is \ndiscussed in the next chapter of this manual.\nProduct Type\nThe product type identifies the basic nature of a product. An SD product that you create in \nOracle FLEXCUBE can be of the following types:\nNormal Deposit\nDual Currency Deposit\nIf you indicate the product type as Normal Deposit, the liquidation account currency of the \nsubscription should be same as the currency of the Structured Deposit. \nIf you indicate the product type as Dual Currency Deposit, the liquidation account currency \ncan differ from the currency of the Structured Deposit."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Viewing SD Product Summary"
+      ],
+      "summary": "This section explains how to search for SD Products in the 'SD Product Summary' screen and describes the filter criteria available.",
+      "raw_text": "2-4\n2.2.2 \nViewing SD Product Summary\nYou can search for the SD Products in the ‘SD Product Summary’ screen. You can invoke this \nscreen by typing ‘SFSPRODT’ in the field at the top right corner of the Application tool bar and \nclicking on the adjoining arrow button.\nIn this screen, you can filter the search based on the following criteria:\nAuthorization Status\nProduct Code\nProduct Group\nStart Date\nRecord Status\nDescription\nProduct Type\nEnd Date\nNote\nIn case you do not specify the ‘End Date’, the system considers the product you filter, as \nopen ended."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Fund Raising Activity",
+        "Capturing the Fund Raising Activity Details"
+      ],
+      "summary": "This page discusses the process of capturing fund raising activity details and specifying structured deposit information within Oracle FLEXCUBE for Structured Deposit contracts.",
+      "raw_text": "3-1\n3. Processing Structured Deposit Contracts\nOnce you have set up Structured Deposits (SD) products, you will be able to capture the \ndetails pertaining to every fund raising activity. These are maintained as SD contracts in \nOracle FLEXCUBE.\nThis chapter contains the following sections:\nSection 3.1, \"Fund Raising Activity\"\nSection 3.2, \"Subscriptions for Structured Deposits\"\nSection 3.3, \"Status Tracking\"\nSection 3.4, \"Structured Deposit Launch\"\nSection 3.5, \"Launching of Structured Deposits \"\nSection 3.6, \"Closing Structured Deposits\"\nSection 3.7, \"Exceptions for Structured Deposits\"\nSection 3.8, \"Net Asset Values\"\n3.1 \nFund Raising Activity\nThis section contains the following topics:\nSection 3.1.1, \"Capturing the Fund Raising Activity Details\"\nSection 3.1.2, \"Specifying the Structured Deposit Details\"\nSection 3.1.3, \"Interest Button\"\nSection 3.1.4, \"Subscription Button\"\n3.1.1 \nCapturing the Fund Raising Activity Details\nAs mentioned earlier, for every fund raising activity, your bank can accept funds from existing \nsaving accounts. Once the customers confirm the amount that they wish to invest in the \nstructured deposit, you need to record it in the system as a contract. The system will block \nthat amount in their savings account. Once the bank receives the necessary amount through \nvarious subscriptions, it can launch the SD scheme. Consequently, all the subscriptions that \nthe bank had entered into will also be launched. The system will release the amount from their \nsavings account and creates term deposits.\nThe Structured Deposit details are maintained as Contract Details in the ‘SD Definition’ \nscreen The contract details basically will include all the properties for the SD like interest, \ncurrency, maturity date (SD End Date). After you enter and save the SD contracts, your bank \ncan accept subscriptions for the contracts. Effectively, subscription is the way in which the \nbank raises the money for any SD. These details are maintained as Subscription details.\n3.1.2 \nSpecifying the Structured Deposit Details\nThe SD contracts are maintained in the ‘Structured Deposit Definition’ screen. You can invoke \nthis screen by typing ‘SFDTRONL’ in the field at the top right corner of the Application tool bar"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Product Code",
+        "Product Description",
+        "Product Type Description",
+        "Contract Description",
+        "Structured Deposit Reference Number"
+      ],
+      "summary": "This page details the fields and their descriptions for recording structured deposit activities, including product selection, description entries, reference number generation rules, and contract information.",
+      "raw_text": "3-2\nand clicking on the adjoining arrow button. The ‘Structured Deposit Definition’ screen is \ndisplayed.\nThe details that need to be maintained at the time of recording each fund raising activity are \ndiscussed below: \nProduct Code\nSelect the product from the list of products created under Structured Deposits. The details of \nthis product get defaulted from the Product screen.\nProduct Description\nA brief description of the SD Product is displayed in this field.\nProduct Type Description\nA brief description of the SD Product Type is displayed in this field.\nContract Description\nYou can enter a brief description of the contract, which will be associated with the contract for \ninformation retrieval purposes.\nStructured Deposit Reference Number\nSpecify the SD Reference Number based on the mask maintained in ‘Account Mask \nParameters’ screen at the Branch Parameters level. However, The system would generate \nthe SD Reference Number if the field, ‘Loan Account Auto Generate’ is checked in ‘Account \nMask  Parameters’ screen at the Branch level.\nThe SD Reference Number is a combination of the branch code, the product code, the date \non which the contract is booked (in Julian format) and a running serial number for the booking \ndate.\nThe Reference Number consists of a three-digit branch code, a four-character product code, \na five-digit Julian Date and a four-digit serial number.\nThe Julian Date has the following format:"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "SD User Reference Number",
+        "Subscription Amount Till Date",
+        "NAV",
+        "Launch till Date"
+      ],
+      "summary": "This page discusses how to manage user reference numbers in Oracle FLEXCUBE, including their generation and uniqueness requirements, as well as the display of subscription amounts and net asset values for contracts.",
+      "raw_text": "3-3\nYYDDD\nHere, YY stands for the last two digits of the year and DDD for the number of day(s) that has/\nhave elapsed, in the year. \nSD User Reference Number\nIn addition to Contract Reference Number, a unique User Reference Number also identifies \na contract. By default, the Contract Reference Number generated by the system will be taken \nas the User Reference Number. But you have the option to change the User Ref Number. \nHowever, the User Reference Number has to be unique across various modules of Oracle \nFLEXCUBE.\nOracle FLEXCUBE also provides you the facility to generate the user reference number in a \nspecific format\nNote\nYou can specify a format for the generation of the User Reference Number in the ‘Se-\nquence Generation’ screen available in the Application Browser. Refer to the Core Servic-\nes User Manual for details on maintaining a sequence format.\nSubscription Amount Till Date\nBased on the number of subscriptions received, the system displays the amount that the bank \nhas raised through the subscriptions. The system displays the amount after taking into \naccount the unauthorized subscriptions also. \nNAV\nThis is applicable only after the contracts for the SD is launched. After the SD is launched, \nyou can feed the Net Asset Value for the contracts in the NAV Input screen. Consequently, \nthe system picks up the NAV and displays here. \nRefer to the section ‘Feeding the Net Asset Values’ in this chapter for details.\nLaunch till Date\nThis is the amount equal to the total subscription amount on the date of launch.\nOutstanding Amount\nThe system updates this amount during TD redemptions. You can partially redeem \nsubscriptions.  For example, let us assume that the bank decides on the launch amount as \nUSD 10000 and is offering 10 subscriptions of 1000 USD each.  A customer can redeem USD \n500.  Consequently, the outstanding amount will be USD 9500. \nDates\nAs part of recording each fund raising activity, you need to capture the dates of each \nsubscription. \nStart Date\nThis indicates the start date of the contract. \nEnd Date\nThis is the end date of the contract. If the bank raises the funds successfully, this end date will \nbe the maturity date of the term deposits. The system defaults the end date to the end date \nof the associated product. \nThe system validates the end date with the holidays maintained for your branch. If the end \ndate falls on a branch holiday, the system displays an override message."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Subscription Start Date",
+        "Subscription End Date",
+        "Launch Date",
+        "Subscription End Time",
+        "Amount"
+      ],
+      "summary": "This page outlines various key dates and details related to a structured deposit (SD) scheme, including subscription periods, launch date, and amount specifications.",
+      "raw_text": "3-4\nNote\nThe system validates the end date against branch holidays every time you modify the end \ndate of the contract. \nSubscription Start Date\nThis is the date from which the bank starts the fund raising activity to float the structured \ndeposit scheme. The customers can start subscribing for the SD scheme from this date. The \nsubscription start date should necessarily be within the SD Start and End date.\nSubscription End Date\nThis is the date by which the bank has to raise the money for floating the SD scheme. The \ncustomers can subscribe till this date.\nLaunch Date\nThe bank will launch the structured deposit scheme on the launch date. The bank can also \nlaunch the contracts manually if the necessary funds are raised through various subscriptions. \nOn launching the contract manually, the launch Date will be the Next Working Date of the \nBranch. On the day of launching, the system will convert all amount blocks into term deposits. \nIf you do not specify the launch date, the system will default the launch date as the next \nworking date after the subscription end date. \nSubscription End Time\nIn addition to the end date for subscription, the bank can also specify the cut off time for the \nlast day of the subscription till subscriptions are accepted for the SD scheme.  \nAmount\nYou need to specify the following amount details for the contract. \nCurrency Code\nYou need to indicate the currency of the SD contract.\nAmount Subscribed Per Unit\nYou need to enter the amount for each subscription unit. For example, let us assume that the \nlaunch amount is USD 10,000. If a customer subscribes for ten subscriptions, the amount \nsubscribed per unit will be USD 1000.\nMinimum Subscription Amount\nThe bank can specify that the customers cannot subscribe less than a specific amount to \nenter into a SD contract.  You need to enter this as the minimum subscription amount. \nMinimum Launch Amount \nThe bank can launch the SD scheme after it receives a certain amount of funds. This refers \nto the minimum launch amount. \nMaximum Launch Amount\nThis is the maximum amount that the bank needs to float the SD scheme. The funds required \nto start the SD scheme should be within the Minimum Launch Amount and Maximum Launch \nAmount range. \nDeposit \nAs part of entering the contract details, you need to specify the account class which will be \nused to create the term deposits on successful launching of the SD scheme."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Account Class",
+        "Premature Redemption",
+        "Other Remarks"
+      ],
+      "summary": "This page discusses the association of account classes with structured deposits during their launch, options for premature redemption, and details about term deposit returns and performance-based returns in Oracle FLEXCUBE.",
+      "raw_text": "3-5\nAccount Class\nDuring the launch of a SD scheme, the system releases the amount blocks from the \nparticipating savings accounts and converts them to term deposits. Therefore, you need to \nassociate the account class Deposit with the SD contracts. \nYou need to capture the Account class before the launch. Consequently, the system will \nautomatically generate the term deposits during the launching of the SD scheme. Additionally, \nthe subscription details will also be updated with the term deposit account details accordingly. \nPremature Redemption\nSelect the option ‘Allow Premature Redemption’ to allow cancellation of SD after launch, \npremature closing individual TDs and individual TD partial liquidation. \nOther \nRemarks\nSpecify any additional information about the SD.\nIn Oracle FLEXCUBE, the returns from structured deposits will include term deposit interest \nas well as performance gain or loss. \nAll structured deposits can have two kinds of returns: \nTerm Deposit returns\nPerformance based returns\nTerm Deposit returns is assured returns. The term deposit interest will be given to the \nparticipating savings accounts by means of setting up TD and corresponding IC products. The \nsystem will propagate the basic interest rate of return given during the SD fund raising activity \nto the term deposit accounts. \nPerformance based returns or performance gain or loss is booked by means of an external \nsystem to the associated customer account. The external system will feed the total income for \neach of the underlying term deposits. Subsequently, Oracle FLEXCUBE calculates the \nperformance based return as net of the interest computed for the term deposit and distributes \namongst the term deposits. \n3.1.3 \nInterest Button\nYou need to specify the method for calculation of interest on the term deposits. \nIn Oracle FLEXCUBE, interest is calculated using the interest rules that you define. You can \ndefine the interest rules to suit the peculiar requirements of your bank. The rules are then \nassociated to Interest and Charges products. \nFor further information on the Defining Interest Rules and Products, refer to the following \nOracle FLEXCUBE User Manuals:\nInterest and Charges \nProducts"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Account Details",
+        "Product Details",
+        "UDE Currency",
+        "Generate UDE Change Advice",
+        "UDE Dates"
+      ],
+      "summary": "This page describes the features of the 'IC Special Conditions Maintenance' screen used for specifying conditions for calculating interest on deposits, including account and product details, currency selection, advice generation, and date settings.",
+      "raw_text": "3-6\nClick ‘Interest’ button to specify the conditions for calculating the interest on the deposits. The \n‘IC Special Conditions Maintenance’ screen is displayed.\nThe features of this screen are as discussed below:\nAccount Details\nAccount Class\nThe system defaults the account class from the SD Contract main screen.\nProduct Details\nProduct Code\nSelect the IC product based on which you want the system to calculate the interest. The \ninterest accrual and liquidation will happen based on the periodic frequency set for the IC \nproduct that you select. \nUDE Currency\nBased on the IC product that you select, the system displays the corresponding currency. You \nare not allowed to modify the currency.\nGenerate UDE Change Advice\nCheck this field to indicate advice generation in the events of interest liquidation and interest \nrate change.\nUDE Dates \nYou need to indicate the date from which the system should start calculating the interest on \nthe automatically generated term deposits.\nFor more details on defining UDE Dates and UDE Values, refer to the section, ‘Defining \nSpecial Condition’ in the chapter, ‘Applying Interest Product on Account’ of the ‘Interest and \nCharges‘User Manual."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Subscription Button",
+        "Subscriptions for Structured Deposits"
+      ],
+      "summary": "This page explains how to enter subscription details for SD contracts and introduces various topics related to managing structured deposit subscriptions.",
+      "raw_text": "3-7\n3.1.4 \nSubscription Button\nYou need to enter the subscription details for the SD contracts in the Structured Deposit \nSubscription screen. This is discussed in the next section of this chapter. You can enter the \nsubscription details after saving the SD contracts.\nAt the time of defining a SD contract, you can click ‘Subscription’ button to view if there are \nany subscriptions for the contract.\nAt the time of creating a new contract, you will not be able to view the subscriptions as you \nwould not have recorded any subscriptions before saving the contract. The system will display \nthe subscription details after you enter subscriptions against the contracts.\nYou can view the following fields in this screen:\nSubscription Reference Number\nCustomer Account Number \nDate\nAmount\nSubscription Branch\nCurrency\nSubscription Status\nTD Account Number\nTD Branch\nRefer to the next section ‘Capturing Subscriptions for Structured Deposits’ for detailed \nexplanation. \n3.2 \nSubscriptions for Structured Deposits\nThis section contains the following topics:\nSection 3.2.1, \"Capturing Subscriptions for Structured Deposits\"\nSection 3.2.2, \"Redeeming Structured Deposits\"\nSection 3.2.3, \"Cancelling Structured Deposits\"\nSection 3.2.4, \"Viewing Subscription Summary\"\nSection 3.2.5, \"Saving the Structured Deposit Subscriptions\"\n3.2.1 \nCapturing Subscriptions for Structured Deposits\nAfter saving the SD contracts, you can record the subscriptions against the SD contracts in \nthe ‘Structured Deposit Subscription’ screen. You can invoke this screen by typing"
+    },
+    {
+      "page_number": 17,
+      "sections": [],
+      "summary": "This page describes how to enter subscriptions for SD contracts in an application tool and details various fields such as subscription reference number, user reference, description, date, and currency.",
+      "raw_text": "3-8\n‘SFDSUBSC’ in the field at the top right corner of the Application tool bar and clicking on the \nadjoining arrow button. \nIn this screen, you can enter the subscriptions for the SD contracts. \nSD Reference Number\nSelect the contract for which you are entering the subscription. The system displays the \ncorresponding contract description, SD User Reference Number and the product type.\nSubscription Ref Number\nThe system sequentially generates and displays the reference number for each subscription \nthat you enter.\nSD User Reference\nThe system displays the SD User Reference maintained at ‘Structured Deposit Definition’ \nscreen for the SD Reference Number you selected.\nDescription\nThe system defaults a brief description of the SD maintained at ‘Structured Deposit Definition’ \nscreen for the SD Reference Number you selected.\nSubscription Date\nYou need to enter the date on which the system should block the amount from the account. \nThis date should effectively be within the Subscription Start and End Date for the selected \ncontract. The system defaults the application date. The subscription date cannot be greater \nthan the application date. If you are recording the subscription on the last specified for \nsubscriptions, the system checks for the corresponding SD contract’s subscription cut-off \ntime.\nCurrency\nThe currency of the account is displayed."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Product Type",
+        "Amount",
+        "Subscription Details",
+        "Customer Account",
+        "Note",
+        "Customer ID",
+        "Currency",
+        "Branch",
+        "Account Name",
+        "Liquidation Details",
+        "Liquidation Account",
+        "Note"
+      ],
+      "summary": "This page describes the steps and details required to enter subscription information for a Structured Deposit product, including customer account selection and liquidation account specification.",
+      "raw_text": "3-9\nProduct Type\nThe SD product type is displayed.\nAmount\nEnter the subscription amount. The subscription that you enter should be greater than or \nequal to the minimum subscription amount for the contract. This amount will be blocked in the \ncustomer account that you specify next.\nSubscription Details\nCustomer Account\nYou need to enter the account number of the customer who is subscribing for the Structured \nDeposit. The system displays all the savings accounts maintained for the branch that you are \nlogged into. Select the appropriate customer account number for which the system needs to \nblock the subscription amount. \nNote\nThe currency code of the customer account and the Structured Deposit contract should be \nthe same. \nCustomer ID\nThe CIF number of the subscribing customer is displayed.\nCurrency\nThe currency of the customer account is displayed.\nBranch\nThe branch of the subscribing customer’s account is displayed.\nAccount Name\nThe account name of the subscribing customer is displayed.\nLiquidation Details\nLiquidation Account\nOn maturity of the SD contract, the system will credit the returns into the liquidation account \nthat you specify here. \nNote\n– \nIf the SD product is of type Normal, the liquidation account currency should be the \nsame as the SD currency.\n– \nIf the SD product is of type Dual Currency Deposit,  the liquidation account currency \ncan be different from the SD currency\nIf you do not specify the liquidation account, the system will use the customer subscription \naccount for liquidation. If you specify a liquidation account which does not belong to the \nsubscription account customer, the system displays an override to indicate the same. \nThe liquidation account can be of any currency.\nCurrency\nThe currency of the liquidation account is displayed"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "TD Account Details",
+        "Customer Account Mask",
+        "TD Account No",
+        "Redeeming Structured Deposits"
+      ],
+      "summary": "This page describes how term deposit accounts are created for structured deposits and outlines the process of reversing or redeeming these deposits if certain conditions are met.",
+      "raw_text": "3-10\nBranch\nThe branch of the liquidation account is displayed.\nTD Account Details\nCustomer Account Mask\nThe system displays the format defined for account numbers for the branch\nTD Account No\nOn successful launching of the SD, the system releases the amount block from the savings \naccount and creates a term deposit account for each subscription.  You need to enter the \naccount number for the term deposit that has to be created for the subscription that you are \nentering. The account number should be in line with the account mask.\n3.2.2 \nRedeeming Structured Deposits\nIf the bank is not successful in raising the necessary funds for starting the SD scheme, the \nbank can reverse/ redeem the SD contract after it is launched.  In other words, if the total \nsubscription amount is lesser than the minimum threshold amount and the date is greater than \nthe subscription date, you will need to reverse the SD contract. \nYou can reverse a structured deposit contract through the ‘Structured Deposit Definition’ \nscreen. Invoke the contract that you wish to reverse. \nThe status of the deposit will be ‘Active’ and the authorization status as ‘Authorized’. To \nreverse the contract, click reverse icon or select the option ‘Reverse’. The status of the \ncontract will be set to Cancellation Initiated. \nYou have to unlock and enter the pre-closure date from the Structured Deposit Definition \nscreen to redeem the SD after launch before maturity and the ‘REVERSE’ operation in the \ntoolbar is disabled."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "The SD BOD Batch",
+        "Cancelling Structured Deposits"
+      ],
+      "summary": "This page explains the process of pre-redeeming Term Deposits (TDs) under Structured Deposits (SDs) during a batch processing, and how to cancel structured deposit contracts before maturity.",
+      "raw_text": "3-11\nThe SD BOD Batch will pre-redeem all the TD’s under the SD’s for the current branch which \nare in the status as ‘Redemption initiated’ or ‘Redeemed   Partially’ on the pre-closure date. \nDuring SD batch processing for all deposits with the status Redemption Initiated or \nRedeemed Partially, the amount block done during the subscription on the customer account \nwill be released Incase of any exceptions, the SD contract will be reversed partially \n3.2.3 \nCancelling Structured Deposits\nYou can cancel structured deposit contracts that have been launched but to mature You can \ncancel a structured deposit contract through the ‘Structured Deposit Definition’ screen Invoke \nthe contract that you wish to cancel. \nThe ‘Structured Deposit Definition’ screen is given below:\nThe status of the deposit will be ‘Launched’.  \nThe Structured Deposit Definition screen facilitates to enter the effective date for pre-closure \nof a Structured Deposit (SD) after launch before the maturity date is provided This enables \nthe system to process pre-closure of the TD under that SD during the BOD of the effective \nDate\nThe criteria for pre-closure date are as follows:\nThe pre-closure date should be greater than the launch date and should be before the \nmaturity date. The pre-closure date should be later than the current transaction date \nalso. \nThe system should process this date and pre-redeem all the Term Deposits (TD) under \nthis SD during the BOD on this pre-closure date. \nThe SD is auto closed on the maturity date if the pre-closure date is not provided \nAn override message is provided, whenever the pre-closure date is newly given or when \nmodified the existing pre-closure date"
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "This page describes the internal tracking of SD Reference Status and the process for handling term deposit cancellations and viewing subscription summaries in a financial system.",
+      "raw_text": "3-12\nThe system internally tracks the following SD Reference Status: \nThe pre-closure date cannot be entered, if the SD contract is open\nThe pre-closure date should be allowed to be amended if the SD contract is launched\nThe status changes to ‘Redemption initiated’ after entering pre-closure date if the user \nhas authorized the transaction.\nThe pre-closure date can be amended by the user till one day before the pre- closure. \nThe new pre-closure date should always be greater than the application date.\nOn cancellation, during the EOD operations, the premature redemption of the term deposits \nwill occur. The principal liquidation branch/account of the TD will be used in case of normal \ndeposits. In case of dual currency deposits; the principal will be liquidated into the liquidation \naccount. The status of the contract will be set to Cancelled. \nIncase of exceptions where in the term deposits cannot be closed, the status will be set to \n‘Cancelled Partially’\n3.2.4 \nViewing Subscription Summary\nYou can search for the subscription details in the ‘Subscription Summary’ screen. You can \ninvoke this screen by typing ‘SFSSUBSC’ in the field at the top right corner of the Application \ntool bar and clicking on the adjoining arrow button.\nIn this screen, you can filter the search based on the following criteria:\nSD Status\nDetails\nRedemption initi-\nated\nUser enters a pre-closure date which is after launch before matu-\nrity\nRedeemed Partially\nIn case the reversal process in the BOD results in exception\nRedeemed \nWhen the SD has been closed after launch before maturity"
+    },
+    {
+      "page_number": 22,
+      "sections": [],
+      "summary": "This page describes the process of saving structured deposit subscriptions and outlines various validations performed by the system upon saving.",
+      "raw_text": "3-13\nAuthorization Status\nSubscription Reference Number\nCustomer Account\nSubscription Status\nRecord Status\nSD Reference Number\nCurrency\nUser Reference Number\n3.2.5 \nSaving the Structured Deposit Subscriptions\nAfter you enter all the subscription details, you need to save the subscription details. Click \nsave icon to save the contract. \nUpon saving the subscription, the system:\nValidates the SD maximum launch amount If the maximum launch amount is reached \n(inclusive of all subscriptions done till that point of time – both authorized and \nunauthorized subscriptions) upon booking a particular subscription against the contract, \nan override message “Maximum Launch Amount has been breached” is displayed \nindicating the same. \nUpdates the Subscription Till Date \nValidates the subscription amount against the minimum subscription amount and \namount subscribed per unit An error message is displayed if there is any error \n Validates the subscription account and liquidation account as per the deposit type \nvalidations\nValidates the TD Account Number format based on the TD Account Number mask \nValidates for duplicate account numbers When doing this validation, the system \nconsiders account numbers created using both Subscription and Customer Account \nmodules. \nGenerates the TD account automatically if the option ‘Auto Generate’ in the ‘Branch \nParameters’ screen is selected. \nNote\nOn saving a subscription, the system checks if there is sufficient balance in the customer \nsavings account. Incase of insufficient balance, the system will not allow the subscription. \n3.3 \nStatus Tracking\nThe system will internally track the status of the structured deposits. It marks the status of the \nSD in its lifecycle.\nThe various statuses that a SD contract can have are depicted in the table below:\nSD Status\nDetails\nActive\nStatus when the SD has been created and is open for subscrip-\ntions\nReversal Initiated\nStatus when you initiate a reversal of the SD. You can initiate a \nreversal only before the SD is launched"
+    },
+    {
+      "page_number": 23,
+      "sections": [],
+      "summary": "This page outlines the various statuses and their meanings for a stage-wise process related to fund raising, launch, cancellation, and closure of an SD (likely referring to some specific type of financial product or service).",
+      "raw_text": "3-14\nThe stage wise possible status change is shown below:\nReversed Partially\nStatus when the reversal process results in exceptions\nReversed\nStatus when the fund raising has been terminated due to mini-\nmum threshold not being met\nLaunch Initiated\nStatus when the launch is initiated\nLaunched Partially\nStatus when the launch process results in exceptions\nLaunched\nStatus when the SD launch has been completed i.e., Term \nDeposits have been created during the SD Batch process\nCancellation Initiated\nStatus when you initiate a closure after launch before maturity \nincase of deteriorating performance of the SD\nCancelled Partially\nStatus when the cancellation process results in exceptions\nCancelled\nStatus when you close a SD after launch and before maturity\nClosed\nStatus when the SD runs successfully for the entire tenor and \ncloses on the maturity date\nTo \nStatus\n→\nFrom \nStatus\nO\npe\nn\nCanc\nellati\non \ninitiat\ned\nCanc\nelled \nParti\nally\nCa\nnc\nell\ned\nLau\nnch \niniti\nated\nLau\nnch\ned \nParti\nally\nLa\nun\nch\ned\nRede\nmpti\non \ninitiat\ned\nRed\neem\ned \nParti\nally\nRed\nee\nme\nd\nCl\no\nse\nd\nOpen\n√\n√\nX\nX\n√\nX\nX\nX\nX\nX\nX\nCancel-\nlation \ninitiated\nX\nX\n√\n√\nX\nX\nX\nX\nX\nX\nX\nCan-\ncelled \nPartially\nX\nX\n√\n√\nX\nX\nX\nX\nX\nX\nX\nCan-\ncelled\nX\nX\nX\nX\nX\nX\nX\nX\nX\nX\nX\nLaunch \ninitiated\nX\nX\nX\nX\nX\n√\n√\nX\nX\nX\nX\nLaunch\ned Par-\ntially\nX\nX\nX\nX\nX\n√\n√\nX\nX\nX\nX\nLaunch\ned\nX\nX\nX\nX\nX\nX\nX\n√\nX\nX\n√\nRedem\nption \ninitiated\nX\nX\nX\nX\nX\nX\nX\nX\n√\n√\nX"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "3.4 Structured Deposit Launch",
+        "3.4.1 Initiating the Structured Deposit Launch"
+      ],
+      "summary": "This section explains how to initiate and launch a structured deposit contract after receiving sufficient subscriptions, detailing the process through the application tool bar and specific steps within the system.",
+      "raw_text": "3-15\n3.4 \nStructured Deposit Launch\nThis section contains the following topics:\nSection 3.4.1, \"Initiating the Structured Deposit Launch\"\n3.4.1 \nInitiating the Structured Deposit Launch\nYou can launch a structured deposit contract after you receive sufficient subscriptions to raise \nthe necessary fund. The Structured Deposit contract can be launched from the branch where \nthe contract was created.\nYou can launch a SD scheme from the Structured Deposit Definition screen. You can invoke \nthis screen by typing ‘SFSCONON’ in the field at the top right corner of the Application tool \nbar and clicking on the adjoining arrow button. Invoke the contract that you wish to launch \nfrom this screen.\nThe status of the deposit will be ‘Active’ and the authorization status as ‘Authorized’. To \nlaunch the contract, click on liquidate icon or select the option ‘Liquidate’. The status of the \ncontract will be set to ‘Launch Initiated’.\n3.5 \nLaunching of Structured Deposits \nDuring Beginning of Day operations, the system will run the branch–wise SD batch process \nin addition to other batch processes\nRedee\nmed \nPartially\nX\nX\nX\nX\nX\nX\nX\nX\n√\n√\nX\nRedee\nmed \nX\nX\nX\nX\nX\nX\nX\nX\nX\nX\nX\nClosed\nX\nX\nX\nX\nX\nX\nX\nX\nX\nX\nX"
+    },
+    {
+      "page_number": 25,
+      "sections": [],
+      "summary": "This page describes the processing of structured deposit subscriptions during the SD batch process, including the release of amount blocks, creation of term deposits, and details on interest and charge calculations.",
+      "raw_text": "3-16\nAll subscriptions captured for the structured deposit with status as Open or Launch Initiated \nor Launched Partially and Launch Date less than or equal to the application date and created \nin the current branch will be processed during the SD batch process. \nDuring SD Batch processing:\nThe amount block done during subscription will be released and new term deposits will \nbe created in the branch of the associated SD contract\nThe subscription amount will be the term deposit amount.\nThe charge booking branch and account will be through the new TD account\nThe interest booking branch and account will be through the customer branch and \naccount of the subscription in case the SD product type is normal.  In case of DCD type \ndeposits, the interest booking branch/account will be the liquidation customer branch/\naccount given during subscription.\nCalculation of interest and charges will start from the date of launch. Interest and \ncharges will be calculated according to the selected IC product \nThe UDE details for the RATE will be defaulted with the basic interest rate of the SD \nproduct\nThe deposit details of the TD accounts created by the system during SD batch process will \nbe as follows:\nPrincipal liquidation branch/account will be the customer branch/account of the \nsubscription if the SD product type is Normal. If the SD product is of Dual Currency \nDeposit type, the Principal will be liquidated to the liquidation account number specified \nduring subscription\nCalculation of interest from the launch date The tenor for interest calculation purpose \nwill be from the launch date to the SD End date. The last date of the SD is set as the \nmaturity date for the SD scheme.\nCustomer branch/account of the subscription will be the offset branch/account.\nThe SD will be closed on the maturity date \nTD pay-in option will be TD pay-in by Savings\nCustomer branch/account of the subscription will be the offset branch/account \nCurrency will be the currency of the SD contract\nAuto Rollover will not be done \nFor all term deposits created through SD’s, the system will not allow modification of \ninterest and deposit parameters in the TD maintenance screen.\nThe exchange rate will be used as the standard rate for currency conversion in case of \nDual Currency Deposit types \nThe status against the SD Reference Number will be set to ‘Launched’ and subscription \nwill be marked as processed successfully. \nThe Structured Deposit will be launched partially under the following circumstances:\nIf the amount block cannot be released\nIf the term deposit account cannot be created\n3.6 \nClosing Structured Deposits\nIf all the term deposits are closed after the tenor of the structured deposit, the status of the SD \ncontract will be updated to ‘Closed’ during EOD operations. The status will be updated to \nclosed for the SD contracts whose application date is greater than or equal to the SD end date"
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "3.7 Exceptions for Structured Deposits",
+        "Handling Exceptions for Structured Deposits"
+      ],
+      "summary": "This section explains how to handle exceptions during the processing of structured deposits and provides instructions on reprocessing failed contracts in Oracle FLEXCUBE.",
+      "raw_text": "3-17\nIf the term deposits have not matured, the SD cannot be marked as closed Under such \ncircumstances, the status of the contract will be updated to ‘Closed Partially’\n3.7 \nExceptions for Structured Deposits\nThis section contains the following topics:\nSection 3.7.1, \"Handling Exceptions for Structured Deposits\"\n3.7.1 \nHandling Exceptions for Structured Deposits\nDuring SD batch process, the system might encounter errors while processing certain \nstructured deposits. For example, the system might not be able release the amount block \nduring the launch of a SD. The system will handle such circumstances as Exception Handling.\nIn Oracle FLEXCUBE, you can reprocess the structured deposit contracts that failed earlier. \nThis is done in the ‘Structured Deposit Reprocess’ screen. You can invoke this screen by \ntyping ‘SFDREPRO’ in the field at the top right corner of the Application tool bar and clicking \non the adjoining arrow button.\nSelect the option ‘Reprocess’ under ‘Structured Deposits’ menu item in the Application \nBrowser.\nSD Reference Number\nSpecify the SFD reference number. The system displays the description based on the \nselected reference number.\nStatus\nYou can reprocess the SD’s with the following statuses:\nLaunched Partially\nReversed Partially\nCancelled Partially\nSelect the SD contract that you wish to reprocess and click ‘Reprocess’ button."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "3.8 Net Asset Values",
+        "3.8.1 Feeding the Net Asset Values"
+      ],
+      "summary": "This section explains how to maintain and enter Net Asset Values (NAV) for SD contracts in Oracle FLEXCUBE, including navigating to the relevant screen and entering required details.",
+      "raw_text": "3-18\n3.8 \nNet Asset Values\nThis section contains the following topics:\nSection 3.8.1, \"Feeding the Net Asset Values\"\n3.8.1 \nFeeding the Net Asset Values\nAs mentioned earlier, you need to maintain the Net Asset Values (NAV) after the SD contracts \nare launched You need to enter the NAV for the SD contracts that you have launched in \nOracle FLEXCUBE.\nThe NAV’s are captured in the SD NAV Input screen. You can invoke this screen by typing \n‘SFDNAVIN’ in the field at the top right corner of the Application tool bar and clicking on the \nadjoining arrow button.\nIn this screen, you need to enter:\nThe SD contract reference for which you want to enter the NAV\nThe date on which you are feeding the NAV\nThe currency of the NAV\nNAV"
+    },
+    {
+      "page_number": 28,
+      "sections": [],
+      "summary": "",
+      "raw_text": "4-1\n4. Function ID Glossary\nS\nSFDNAVIN ......................3-18\nSFDPRODT .......................2-2\nSFDREPRO ....................3-17\nSFDSUBSC ...................... 3-8\nSFDTRONL ....................... 3-1\nSFSCONON .................... 3-15\nSFSPRODT ...................... 2-4\nSFSSUBSC ..................... 3-12"
+    }
+  ]
+}

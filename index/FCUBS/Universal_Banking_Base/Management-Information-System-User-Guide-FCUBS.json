@@ -1,0 +1,795 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/Management-Information-System-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 24,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organization structure, and related information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's Management Information System module, detailing its purpose and target audience.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's Management Information System module, detailing its purpose and target audience.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's Management Information System module, detailing its purpose and target audience.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's Management Information System module, detailing its purpose and target audience.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's Management Information System module, detailing its purpose and target audience.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "6",
+          "title": "5. Making MIS adjustments for a Pool",
+          "start_page": 14
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 MIS Adjustment Maintenance",
+          "start_page": 14
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Invoking the MIS Adjustments Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Operations on the MIS Adjustments Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "3",
+          "title": "2. Defining MIS Class Codes",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 MIS Code Restriction Maintenance",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 Maintaining Allowed List of MIS Codes",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Viewing MIS Code Restriction Summary",
+          "start_page": 8
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. MIS Cascading",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 MIS Cascading",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Feature ID Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "5",
+          "title": "4. Defining MIS Heads",
+          "start_page": 11
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 MIS Head Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Invoking the MIS Heads Screen",
+          "start_page": 11
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Linking an MIS Head to an Accounting Entry",
+          "start_page": 12
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Operations on the MIS Head Record",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents such as the Procedures User Guide and Common Core - Core Entities and Services User Manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents such as the Procedures User Guide and Common Core - Core Entities and Services User Manual.",
+      "cross_references": [
+        {
+          "structure": "7",
+          "title": "6. Defining MIS Details for a Customer, Account Class, Account, Product, and Contract",
+          "start_page": 16
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 MIS Details for a Customer, Account Class and Product",
+          "start_page": 16
+        },
+        {
+          "structure": "7.1.1",
+          "title": "6.1.1 Defining MIS Details for a Customer",
+          "start_page": 16
+        },
+        {
+          "structure": "7.1.2",
+          "title": "6.1.2 Change Log Button",
+          "start_page": 17
+        },
+        {
+          "structure": "7.1.3",
+          "title": "6.1.3 Defining MIS Details Screen for an Account Class",
+          "start_page": 17
+        },
+        {
+          "structure": "7.1.4",
+          "title": "6.1.4 Defining MIS Details Screen for a Product",
+          "start_page": 18
+        },
+        {
+          "structure": "7.1.5",
+          "title": "6.1.5 Specifying the MIS Details for an Account Class and a Product",
+          "start_page": 18
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 MIS Details for a Contract and Account",
+          "start_page": 19
+        },
+        {
+          "structure": "7.2.1",
+          "title": "6.2.1 Defining the MIS Details Screen for a Contract",
+          "start_page": 19
+        },
+        {
+          "structure": "7.2.2",
+          "title": "6.2.2 Change Log Button",
+          "start_page": 20
+        },
+        {
+          "structure": "7.2.3",
+          "title": "6.2.3 Defining the MIS Details Screen for an Account",
+          "start_page": 21
+        },
+        {
+          "structure": "7.2.4",
+          "title": "6.2.4 Change Log Button",
+          "start_page": 21
+        },
+        {
+          "structure": "7.3",
+          "title": "6.3 GL MIS Balance Transfers due to Reclassification",
+          "start_page": 22
+        },
+        {
+          "structure": "7.3.1",
+          "title": "6.3.1 Viewing Balance Transfer Log",
+          "start_page": 22
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Defining MIS Class Codes",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page explains what an MIS Class is and how it is used for flexible reporting in a bank's centralized database architecture, along with details on maintaining restrictions related to MIS codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 MIS Code Restriction Maintenance",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page explains what an MIS Class is and how it is used for flexible reporting in a bank's centralized database architecture, along with details on maintaining restrictions related to MIS codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.1",
+      "title": "2.1.1 Maintaining Allowed List of MIS Codes",
+      "start_page": 6,
+      "end_page": 8,
+      "summary": "This page explains what an MIS Class is and how it is used for flexible reporting in a bank's centralized database architecture, along with details on maintaining restrictions related to MIS codes.",
+      "cross_references": [
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.1.2",
+      "title": "2.1.2 Viewing MIS Code Restriction Summary",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This page describes how to specify and manage MIS codes in a system, including viewing their descriptions, allowing them for specific combinations, and accessing the restriction summary screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. MIS Cascading",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page explains how MIS cascading works and allows defaulting specific MIS groups in various screens during record creation, with a batch program updating these values at EOD. It also describes the maintenance of feature IDs for branches across multiple screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 MIS Cascading",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page explains how MIS cascading works and allows defaulting specific MIS groups in various screens during record creation, with a batch program updating these values at EOD. It also describes the maintenance of feature IDs for branches across multiple screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Feature ID Maintenance",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page explains how MIS cascading works and allows defaulting specific MIS groups in various screens during record creation, with a batch program updating these values at EOD. It also describes the maintenance of feature IDs for branches across multiple screens.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 MIS Code Restriction Maintenance",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 Maintaining Allowed List of MIS Codes",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Viewing MIS Code Restriction Summary",
+          "start_page": 8
+        }
+      ]
+    },
+    {
+      "structure": "5",
+      "title": "4. Defining MIS Heads",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page explains how to maintain and link accounting entries to MIS Heads for profitability reporting purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 MIS Head Maintenance",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page explains how to maintain and link accounting entries to MIS Heads for profitability reporting purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Invoking the MIS Heads Screen",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page explains how to maintain and link accounting entries to MIS Heads for profitability reporting purposes.",
+      "cross_references": [
+        {
+          "structure": "4.1",
+          "title": "3.1 MIS Cascading",
+          "start_page": 10
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Linking an MIS Head to an Accounting Entry",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page explains different types of MIS Heads used in accounting entries for balance, income, expense, and contingent entries, along with their classification purposes and an example of the 'Refinance' option.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.3",
+      "title": "4.1.3 Operations on the MIS Head Record",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page describes how to link MIS Heads to accounting entries and provides details on operations that can be performed on an existing MIS Head record.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Making MIS adjustments for a Pool",
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This page explains how to make adjustments in Management Information System (MIS) codes for a pool, specifically focusing on maintaining and using the MIS Adjustments screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 MIS Adjustment Maintenance",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page explains how to make adjustments in Management Information System (MIS) codes for a pool, specifically focusing on maintaining and using the MIS Adjustments screen.",
+      "cross_references": [
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Linking an MIS Head to an Accounting Entry",
+          "start_page": 12
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Invoking the MIS Heads Screen",
+          "start_page": 11
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 MIS Head Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Operations on the MIS Head Record",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "6.1.1",
+      "title": "5.1.1 Invoking the MIS Adjustments Screen",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page explains how to invoke and use the 'MIS Adjustment Maintenance' screen for inputting adjustment details, including necessary fields and operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.2",
+      "title": "5.1.2 Operations on the MIS Adjustments Screen",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page explains how to invoke and use the 'MIS Adjustment Maintenance' screen for inputting adjustment details, including necessary fields and operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Defining MIS Details for a Customer, Account Class, Account, Product, and Contract",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section explains how to define MIS details for customers, including their MIS group, and provides instructions on using the 'MIS' screen during customer code definition.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 MIS Details for a Customer, Account Class and Product",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section explains how to define MIS details for customers, including their MIS group, and provides instructions on using the 'MIS' screen during customer code definition.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.1",
+      "title": "6.1.1 Defining MIS Details for a Customer",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This section explains how to define MIS details for customers, including their MIS group, and provides instructions on using the 'MIS' screen during customer code definition.",
+      "cross_references": [
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Invoking the MIS Adjustments Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 MIS Adjustment Maintenance",
+          "start_page": 14
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Operations on the MIS Adjustments Screen",
+          "start_page": 15
+        }
+      ]
+    },
+    {
+      "structure": "7.1.2",
+      "title": "6.1.2 Change Log Button",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page discusses how MIS codes are managed for customers, including linking groups, defaulting codes, and maintaining change logs.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.3",
+      "title": "6.1.3 Defining MIS Details Screen for an Account Class",
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This page discusses how MIS codes are managed for customers, including linking groups, defaulting codes, and maintaining change logs.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.4",
+      "title": "6.1.4 Defining MIS Details Screen for a Product",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page explains how to invoke and define the 'MIS Details' screen for account classes and products, including specifying the MIS Group and MIS Code.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.5",
+      "title": "6.1.5 Specifying the MIS Details for an Account Class and a Product",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page explains how to invoke and define the 'MIS Details' screen for account classes and products, including specifying the MIS Group and MIS Code.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 MIS Details for a Contract and Account",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page discusses how MIS (Management Information System) group links affect account classes or products, default settings from the MIS group, pool codes, and details defined for contracts and accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2.1",
+      "title": "6.2.1 Defining the MIS Details Screen for a Contract",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This page discusses how MIS (Management Information System) group links affect account classes or products, default settings from the MIS group, pool codes, and details defined for contracts and accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2.2",
+      "title": "6.2.2 Change Log Button",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This section describes how changes in MIS codes are logged when reclassification occurs and details what information is stored in the Contract MIS Change Log.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2.3",
+      "title": "6.2.3 Defining the MIS Details Screen for an Account",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This page explains how to access the Management Information System screen and describes the details stored in the Account MIS Change Log when there are changes to the MIS codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2.4",
+      "title": "6.2.4 Change Log Button",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page explains how to access the Management Information System screen and describes the details stored in the Account MIS Change Log when there are changes to the MIS codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3",
+      "title": "6.3 GL MIS Balance Transfers due to Reclassification",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This section explains how balances are transferred between GL accounts during reclassification and details what information is stored in the MIS Balance Transfer Log.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.1",
+      "title": "6.3.1 Viewing Balance Transfer Log",
+      "start_page": 22,
+      "end_page": 24,
+      "summary": "This section explains how balances are transferred between GL accounts during reclassification and details what information is stored in the MIS Balance Transfer Log.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Function ID Glossary",
+      "start_page": 24,
+      "end_page": 26,
+      "summary": "This page appears to list function IDs and their corresponding codes without any section titles.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "Could not summarize",
+      "raw_text": "Management Information System User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal disclaimers for Oracle Financial Services Software Limited's Management Information System User Guide.",
+      "raw_text": "1-1\nManagement Information System User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs \ninstalled on the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” \npursuant to the applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, \nduplication, disclosure, modification, and adaptation of the programs, including any operating system, integrated software, any \nprograms installed on the hardware, and/or documentation, shall be subject to license terms and license restrictions applicable \nto the programs. No other rights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed \nor intended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If \nyou use this software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, \nbackup, redundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for \nany damages caused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure \nand are protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you \nmay not use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any \npart, in any form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by \nlaw for interoperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from \nthird parties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with \nrespect to third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, \ncosts, or damages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organization structure, and related information.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nDefining MIS Class Codes ...................................................................... 2-1\n2.1 \nMIS Code Restriction Maintenance.........................................................................  2-1\n2.1.1  \nMaintaining Allowed List of MIS Codes ......................................................  2-1\n2.1.2  \nViewing MIS Code Restriction Summary....................................................  2-3\n3. \nMIS Cascading ......................................................................................... 3-1\n3.1 \nMIS Cascading .......................................................................................................  3-1\n3.2 \nFeature ID Maintenance .........................................................................................  3-1\n4. \nDefining MIS Heads ................................................................................. 4-1\n4.1 \nMIS Head Maintenance...........................................................................................  4-1\n4.1.1  \nInvoking the MIS Heads Screen.................................................................  4-1\n4.1.2  \nLinking an MIS Head to an Accounting Entry .............................................  4-2\n4.1.3  \nOperations on the MIS Head Record .........................................................  4-3\n5. \nMaking MIS adjustments for a Pool ....................................................... 5-1\n5.1 \nMIS Adjustment Maintenance..................................................................................  5-1\n5.1.1  \nInvoking the MIS Adjustments Screen........................................................  5-2\n5.1.2  \nOperations on the MIS Adjustments Screen ..............................................  5-2\n6. \nDefining MIS Details for a Customer, Account Class, Account, Product, and \nContract ........................................................................................................... 6-1\n6.1 \nMIS Details for a Customer, Account Class and Product........................................  6-1\n6.1.1  \nDefining MIS Details for a Customer ..........................................................  6-1\n6.1.2  \nChange Log Button.....................................................................................  6-2\n6.1.3  \nDefining MIS Details Screen for an Account Class ....................................  6-2\n6.1.4  \nDefining MIS Details Screen for a Product .................................................  6-3\n6.1.5  \nSpecifying the MIS Details for an Account Class and a Product ................  6-3\n6.2 \nMIS Details for a Contract and Account ..................................................................  6-4\n6.2.1  \nDefining the MIS Details Screen for a Contract..........................................  6-4\n6.2.2  \nChange Log Button.....................................................................................  6-5\n6.2.3  \nDefining the MIS Details Screen for an Account ........................................  6-6\n6.2.4  \nChange Log Button.....................................................................................  6-6\n6.3 \nGL MIS Balance Transfers due to Reclassification .................................................  6-7\n6.3.1  \nViewing Balance Transfer Log....................................................................  6-7\n7. \nFunction ID Glossary ............................................................................... 7-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's Management Information System module, detailing its purpose and target audience.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to give you an understanding of the Management Information \nSystem module of Oracle FLEXCUBE. Apart from assisting you in generating reports, this \nmanual guides you in the definition and maintenance of MIS classes and cost codes, MIS \ngroups, MIS heads, MIS pools and refinancing rates. You are also taught how to define MIS \ndetails for a customer, an account class, a product and a contract.\nThis user manual is a supplement to the Common Core - Core Entities and Services user \nmanual and contains only specific functionalities and information related to Oracle FCUBS \nManagement Information System. Hence, this document should be read in conjunction with \nthe Common Core - Core Entities and Services user manual from the perspective of \ncompleteness in flow and understanding. \n1.2 \nAudience\nThis manual is intended for the Customer Service Representatives (CSRs) and the bank staff \nin charge of setting up new products in your bank.\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It \nalso lists the various chapters covered in this User Manual.\nChapter 2\nDefining MIS Class Code describes how to define MIS classes and \nlink them to several entities.\nChapter 3\nMIS Cascading explains the details on MIS cascading. \nChapter 4\nDefining MIS Heads describes the procedure for defining MIS \nheads. This includes the linking of an MIS head to an accounting \nentry, indicating whether the MIS head should be considered for refi-\nnancing and the operations that can be performed on an existing \nMIS head record. \nChapter 5\nMaking MIS Adjustments for a Pool specifies the manner in which \nyou can allocate the amounts to be reported from one MIS code to \nanother. \nChapter 6\nDefining MIS details for a Customer, Account Class, Account, Prod-\nuct, and Contract enumerates the steps that you should follow while \ndefining MIS details for a customer, an account class, a product or a \ncontract."
+    },
+    {
+      "page_number": 5,
+      "sections": [],
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents such as the Procedures User Guide and Common Core - Core Entities and Services User Manual.",
+      "raw_text": "1-2\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\n1.6 \nRelated Documents\nProcedures User Guide\nCommon Core - Core Entities and Services User Manual \nChapter 7\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "MIS Code Restriction Maintenance",
+        "Maintaining Allowed List of MIS Codes"
+      ],
+      "summary": "This page explains what an MIS Class is and how it is used for flexible reporting in a bank's centralized database architecture, along with details on maintaining restrictions related to MIS codes.",
+      "raw_text": "2-1\n2. Defining MIS Class Codes\nIn simple terms, an MIS Class represents a type of entity based on which you want your \nreporting to be done. An MIS Class will be the most general definition for MIS reporting, under \nwhich you can have several entities. \nFor example, if you want reports on the profitability of accounts officers, you would define \nAccounts Officer as an MIS Class. Accounts Officers in your bank would report to this MIS \nClass. Similarly, you define Cost Center as an MIS Class if you want reports based on the \ncost centers in your bank. You can have the various cost centers in your bank linked to the \nMIS Class of Cost Center. Business Segment, Industry Segments are other examples of an \nMIS Class.\nThe definition of MIS Class renders the entire MIS reporting absolutely flexible. By defining a \nclass of your choice, and linking several entities to it, you can generate management \ninformation as per your requirement.\nIn a centralized database architecture, an MIS Class is defined in the Head Office branch of \nyour bank, and is used by all the branches on the database.\nThis chapter contains the following section:\nSection 2.1, \"MIS Code Restriction Maintenance\"\n2.1 \nMIS Code Restriction Maintenance\nYou can maintain MIS Code restriction maintenance for MIS Class, Product or Account Class, \nand Branch.\nThis section contains the following topic:\nSection 2.1.1, \"Maintaining Allowed List of MIS Codes\"\n2.1.1 \nMaintaining Allowed List of MIS Codes\nYou can maintain a list of allowed MIS codes for a given MIS class, product or account class \ncombination for a branch in the ‘MIS Code Allowed For MIS Class and Product/Account Class’ \nscreen.The MIS call forms would pick only the MIS codes that are allowed for the product or account \nclass and MIS class combination. You can invoke the 'MIS Code Restriction Maintenance' screen \nby typing ‘MIDPRDMN’ in the field at the top right corner of the Application tool bar and \nclicking on the adjoining arrow button."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Branch Code",
+        "Branch Name",
+        "MIS Class",
+        "MIS Class Description",
+        "Product / Account Class Code",
+        "Product Or Account Class Description"
+      ],
+      "summary": "This page describes how to specify and select various details such as branch code, MIS class, product or account class codes for maintaining allowed lists in a system.",
+      "raw_text": "2-2\nYou can specify the following details:\nBranch Code\nSpecify the branch code. Alternatively, you can select the branch code from the option list. \nThe list displays all the branch code for which the MIS code restrictions are maintained.\nBranch Name\nThe system displays the name of the branch maintained in the system.\nMIS Class\nSpecify the MIS class for which the allowed list of MIS codes are maintained. Alternatively, you can \nselect the class code from the option list. The list displays all the MIS classes maintained in \nthe system. The customer MIS classes are not part of the list.\nMIS Class Description\nThe system displays the MIS class description maintained in the system.\nProduct / Account Class Code\nSpecify the product code or account class code for which the allowed lists are maintained. \nAlternatively, you can select the code from the option list. The list displays all the products or \naccount class code maintained in the system.\nProduct Or Account Class Description\nThe system displays the product or account class description respectively maintained in the \nsystem."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "MIS Codes",
+        "MIS Code Description",
+        "Allowed",
+        "Note",
+        "Viewing MIS Code Restriction Summary"
+      ],
+      "summary": "This page describes how to specify and manage MIS codes in a system, including viewing their descriptions, allowing them for specific combinations, and accessing the restriction summary screen.",
+      "raw_text": "2-3\nMIS Codes\nMIS Code\nSpecify the MIS code maintained. Alternatively, you can select the MIS code from the option \nlist. The list displays all the MIS codes maintained in the system.\nMIS Code Description\nThe system displays the MIS code description maintained in the system.\nAllowed\nCheck this box to allow the MIS code for a given MIS class, product or account class combination for a \nbranch.\nNote \nThe MIS call forms attached to a transaction input or an account creation screen populates \nthe MIS codes that are allowed for a given MIS class, product or account class combina-\ntion for a branch. If you do not perform maintenance for a given branch, account class/\nproduct code and MIS class combination, then all MIS Classes linked to the account class/\nproduct code will be available. \n2.1.2 \nViewing MIS Code Restriction Summary\nYou can view the MIS code restriction summary in the ‘MIS Code Restriction Summary’ \nscreen. It displays the status of the records maintained, whether it is authorized, unauthorized \nor rejected.\nYou can invoke this screen by typing ‘MISPRDMN’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button."
+    },
+    {
+      "page_number": 9,
+      "sections": [],
+      "summary": "This page describes how to use query parameters such as Authorization Status, Branch Code, MIS Class, Record Status, and Product/Account Class to search for records in a system.",
+      "raw_text": "2-4\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nAuthorization Status\nBranch Code\nMIS Class\nRecord Status\nProduct/Account Class\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status \nRecord Status \nBranch Code \nProduct/Account Class \nMIS Class"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "MIS Cascading",
+        "Feature ID Maintenance"
+      ],
+      "summary": "This page explains how MIS cascading works and allows defaulting specific MIS groups in various screens during record creation, with a batch program updating these values at EOD. It also describes the maintenance of feature IDs for branches across multiple screens.",
+      "raw_text": "3-1\n3. MIS Cascading\nThis chapter contains the following sections:\nSection 3.1, \"MIS Cascading \"\nSection 3.2, \"Feature ID Maintenance \"\n3.1 \nMIS Cascading \nYou can have a particular MIS group defaulted in the MIS Subsystem of the following screens \nat the time of creation of records:\nCustomer Maintenance Screen\nAccount Class Maintenance Screen\nCustomer Account Maintenance Screen\nAll the Products Screens\nAll the Contract Screens\nOnce these records are authorized, you can change the MIS Group values (i.e. MIS Codes \nlinked to the MIS Class) in the MIS Group Maintenance screen. During EOD, the batch \nprogram ‘MIGCASCD’ maintained at the Post EOTI level will cascade the modified MIS \nCodes in the above screens. As a result, the system replaces the MIS Codes that are provided \nat the time of creation of the above records by the MIS Codes maintained in MIS Group.\n3.2 \nFeature ID Maintenance \nIf you maintain feature ID for all branches, the system displays the MIS class values and MIS \ncodes in the MIS subsystem of the following screens.\nCustomer Maintenance Screen\nAccount Class Maintenance Screen\nCustomer Account Maintenance Screen\nAll the Products Screens\nAll the Contract Screens"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "MIS Head Maintenance",
+        "Invoking the MIS Heads Screen"
+      ],
+      "summary": "This page explains how to maintain and link accounting entries to MIS Heads for profitability reporting purposes.",
+      "raw_text": "4-1\n4. Defining MIS Heads\nEach accounting entry that is generated can be linked to an MIS Head. An MIS Head indicates \nthe manner in which the type of entry should be considered for profitability reporting purposes.\nThis chapter contains the following section:\nSection 4.1, \"MIS Head Maintenance\"\n4.1 \nMIS Head Maintenance\nThis section contains the following topics:\nSection 4.1.1, \"Invoking the MIS Heads Screen\"\nSection 4.1.2, \"Linking an MIS Head to an Accounting Entry\"\nSection 4.1.3, \"Operations on the MIS Head Record\"\n4.1.1 \nInvoking the MIS Heads Screen\nYou can invoke the ‘MIS Head Maintenance’ screen by typing ‘MIDHEAD’ in the field at the \ntop right corner of the Application toolbar and clicking the adjoining arrow button.\nIf you are creating a new MIS Head, select ‘New’ from the Actions Menu in the Application \ntoolbar or click new icon. The ‘MIS Head’ screen is displayed without any details.\nIf you are calling an MIS Head that has already been defined, double-click an MIS Head from \nthe summary screen.\nCategory\nThe MIS Head Category classification indicates the method in which the accounting entry will \nbe reported in the profitability report. It could be one of the following:"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Balance",
+        "Income",
+        "Expense",
+        "Contingent",
+        "Refinance"
+      ],
+      "summary": "This page explains different types of MIS Heads used in accounting entries for balance, income, expense, and contingent entries, along with their classification purposes and an example of the 'Refinance' option.",
+      "raw_text": "4-2\nBalance\nIndicates that the accounting entry should be considered for calculating the Cumulative \nAverage Balance. Typically, an asset entry would be classified under the balance type MIS \nHead. The GL entry leg of a loan disbursement transaction, would typically be classified under \na Balance type of MIS Head.\nIncome\nIndicates that the accounting entry should be considered as an income for the purpose of \nprofitability reporting. Clearly, any interest or charge income would be classified under an \nIncome type of MIS Head.\nExpense\nIndicates that the accounting entry should be considered as an expense for the purpose of \nprofitability reporting. Any interest, postage, or tax expense would be classified under an \nexpense type of MIS Head.\nContingent\nIndicates that the accounting entry should be considered as a contingent entry for the purpose \nof profitability reporting. A forward FX deal, the issue of an import Letter of Credit, etc., are \nexamples of contingent type of entries. You can generate a report that gives the balances due \nto such contingent type of entries.\nUnder each type of MIS Head, you may define additional MIS Heads, as per your reporting \nrequirement. For example, you can have an MIS Head for each loan product, so that you can \nhave the cumulative average balance due to all the loans disbursed under the product. \nRefinance\nThe ‘Refinance’ option is provided for marking MIS Heads for refinancing. For MIS Heads that \nare marked for refinancing, the refinancing income or expense would be calculated, on the \ncumulative average balance, for the reporting period. You would typically mark a balance type \nof MIS Head for refinancing.\nThis option is provided because not all the balance type of entries would come under the \numbrella of refinancing. To enable this option select the check box beside ‘Refinance’.\n4.1.2 \nLinking an MIS Head to an Accounting Entry\nEach accounting entry generated in Oracle FLEXCUBE will have a transaction code that \ndescribes the nature of the entry. These transaction codes are defined by you, depending on \nyour requirements. \nAn MIS Head can be attached to a transaction code. A transaction code is attached to an \naccounting entry when an event is defined for a product, through the ‘Product Event \nAccounting Entries Maintenance’ screen. Thus, whenever a transaction with an MIS Head \nattached is entered for an entry, the MIS Head will automatically be linked to it. You can \nchange this while defining the product."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "4-3",
+        "4.1.3 Operations on the MIS Head Record"
+      ],
+      "summary": "This page describes how to link MIS Heads to accounting entries and provides details on operations that can be performed on an existing MIS Head record.",
+      "raw_text": "4-3\nAlternatively, you can link an MIS Head to an accounting entry directly while defining the \nproduct. \nYou should link the appropriate leg of the accounting entry to the MIS Head to which it \nbelongs. Ensure that you link only one leg of the entry to an MIS Head. \nTo add a record to the list of ‘Accounting Entries’ click add icon. Choose values for each field \nof a record using the adjoining option list.\n4.1.3 \nOperations on the MIS Head Record\nOn an existing MIS Head record, you can perform the following operations (if any function \nunder the Actions Menu is disabled, it means that the function is not allowed for the record):\nAmend the details of an MIS Head\nAuthorize an MIS Head\nCopy the details an MIS Head on to a new one\nPrint the details of an MIS Head\nDelete an MIS Head\nPlease refer to the manual on common procedures for details of these operations."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "MIS Adjustment Maintenance",
+        "Invoking the MIS Adjustments Screen",
+        "Operations on the MIS Adjustments Screen"
+      ],
+      "summary": "This page explains how to make adjustments in Management Information System (MIS) codes for a pool, specifically focusing on maintaining and using the MIS Adjustments screen.",
+      "raw_text": "5-1\n5. Making MIS adjustments for a Pool\nWithin a pool, you may sometimes want to allocate the amounts to be reported from one MIS \nCode to another.\nFor instance, the Financial Control (FINCON) department in your bank is the one that \ndisburses the salaries for your staff. This department is defined as an MIS Code under the \nMIS Class Cost Center. \nNow, there are other cost centers, such as: loans department, time deposits department, \ntrade financing department and retail banking department. \nWhen the salary is disbursed by the FINCON department every month, a debit entry shown \nfor the MIS Code FINCON. The burden of this debit entry should be shared appropriately by \nthe various departments to which the staff of your bank belong.\nThis distribution of the salary amount is done through the MIS adjustments screen.\nThus, MIS adjustments can be done between two MIS Codes, which belong to the same pool, \nand MIS Class. \nThis chapter contains the following section:\nSection 5.1, \"MIS Adjustment Maintenance\"\n5.1 \nMIS Adjustment Maintenance\nThis section contains the following topics:\nSection 5.1.1, \"Invoking the MIS Adjustments Screen\"\nSection 5.1.2, \"Operations on the MIS Adjustments Screen\""
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "5.1.1 Invoking the MIS Adjustments Screen",
+        "5.1.2 Operations on the MIS Adjustments Screen"
+      ],
+      "summary": "This page explains how to invoke and use the 'MIS Adjustment Maintenance' screen for inputting adjustment details, including necessary fields and operations.",
+      "raw_text": "5-2\n5.1.1 \nInvoking the MIS Adjustments Screen\nYou can invoke the ‘MIS Adjustment Maintenance’ screen by typing ‘MIDADJ’ in the field at \nthe top right corner of the Application tool bar and clicking on the adjoining arrow button.\nSelect ‘New’ from the Actions Menu in the Application toolbar or click new icon to input the \ndetails of an adjustment. The ‘MIS Adjustments’ screen is displayed without any details. You \ncan input the following details of the adjustment.\nReference Number\nPool Code\nMIS Class\nMIS Head\nCurrency\nAdjustment Details and Time Details\nYou have to specify the following details while doing an adjustment:\nThe pool code, MIS Class and MIS Head under which you want to make the adjustment.\nThe currency in which the adjustment amount is represented.\nThe MIS Code from which the amount should be moved (the debit MIS Code).\nThe MIS Code to which the amount should be moved (the credit MIS Code).\nThe amount that has to be moved or adjusted.\nThe period for which the adjustment should be considered (represented through the \nmonth and the year under the ‘Time Details’).\nDepending on the type of MIS Head - balance, income, expense, or contingent, the adjusted \namount will be reported accordingly, for the appropriate period.\n5.1.2 \nOperations on the MIS Adjustments Screen\nOnce you input the details of an adjustment, it should be authorized by a user bearing a \ndifferent Login ID from yours.\nPlease refer to the manual on common procedures for details of these operations."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "MIS Details for a Customer, Account Class and Product",
+        "Defining MIS Details for a Customer"
+      ],
+      "summary": "This section explains how to define MIS details for customers, including their MIS group, and provides instructions on using the 'MIS' screen during customer code definition.",
+      "raw_text": "6-1\n6. Defining MIS Details for a Customer, Account\nClass, Account, Product, and Contract\nThis chapter contains the following sections:\nSection 6.1, \"MIS Details for a Customer, Account Class and Product\"\nSection 6.2, \"MIS Details for a Contract and Account\"\nSection 6.3, \"GL MIS Balance Transfers due to Reclassification\"\n6.1 \nMIS Details for a Customer, Account Class and Prod-\nuct\nThis section contains the following topics:\nSection 6.1.1, \"Defining MIS Details for a Customer\"\nSection 6.1.2, \"Change Log Button\"\nSection 6.1.3, \"Defining MIS Details Screen for an Account Class\"\nSection 6.1.4, \"Defining MIS Details Screen for a Product\"\nSection 6.1.5, \"Specifying the MIS Details for an Account Class and a Product\"\n6.1.1 \nDefining MIS Details for a Customer\nThe MIS details for a customer can be defined through the ‘MIS’ screen. This screen can be \ninvoked by clicking on the ‘MIS’ button while defining the customer code. The ‘MIS’ details \nscreen for a customer is shown below.\nWhile defining a customer, you can define the following MIS details:\nMIS Group\nThe MIS Group to which the customer should be linked is defined in the ‘MIS Group’ field (if \nit is applicable, if not, you can define the individual entities under which the customer should \nbe reviewed). If a group is linked, the entities defined for the group will be displayed, and these \nentities can be changed. Only the Customer and Composite type of MIS Classes will be"
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Link to Group",
+        "Customer MIS Code and Composite MIS Code",
+        "6.1.2 Change Log Button"
+      ],
+      "summary": "This page discusses how MIS codes are managed for customers, including linking groups, defaulting codes, and maintaining change logs.",
+      "raw_text": "6-2\napplicable for customers. The specific MIS entity (in the form of an MIS Code) will be picked \nup by default only if you have defined them for the group. If not, you have to indicate the \nappropriate MIS code for each applicable MIS class.\nLink to Group\nIf an MIS Group is linked, you can indicate whether the linkage with the group should always \nbe maintained. If yes, any change to the MIS Group will automatically apply to the customer \nto whom the MIS Group is linked. If not, the entities defaulted for the customer will continue, \neven if they are changed subsequently for the group.\nCustomer MIS Code and Composite MIS Code\nThe details defined for a customer will be defaulted, whenever a contract (a loan, deposit, \nletter of credit, bill, etc.) is processed for the customer. The details of the customer and \ncomposite class of entities will be picked up by default. These entities are defaulted even \nwhen you are opening an account for the customer. \n6.1.2 \nChange Log Button\nIf MIS reclassification occurs, through changing the MIS codes for the ‘Customer Type’ of MIS \nclasses, the system stores the changes made, in a Customer MIS ‘Change Log’ screen.\nClick ‘Change Log’ button in the Customer MIS screen to view the Customer MIS Change log.\nThe following details are stored in the Customer MIS Change Log for the customer in respect \nof which the MIS reclassification occurred:\nCustomer Number\nMIS Class that was changed\nDate on which the change was made\nThe old code for the changed MIS Class (this information is stored only for the first \namendment during a day)\nThe new MIS code for the changed MIS class\n6.1.3 \nDefining MIS Details Screen for an Account Class\nThe MIS details for an account class and a product are defined in a similar manner. The \nprocedures involved in defining the MIS details for an account class and a product are \ndescribed below."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "6-3",
+        "6.1.4 Defining MIS Details Screen for a Product",
+        "6.1.5 Specifying the MIS Details for an Account Class and a Product"
+      ],
+      "summary": "This page explains how to invoke and define the 'MIS Details' screen for account classes and products, including specifying the MIS Group and MIS Code.",
+      "raw_text": "6-3\nThe MIS details screen for an account class can be invoked by clicking on the MIS button \nwhile defining the account class.\n6.1.4 \nDefining MIS Details Screen for a Product\nThe ‘MIS Details’ screen for a product can be invoked by clicking on the ‘MIS’ button while \ndefining the product. \n6.1.5 \nSpecifying the MIS Details for an Account Class and a Product\nThe MIS details you would define for an account class and a product are similar. You should \nspecify the following:\nMIS Group\nThe MIS Group to which the account class or product should be linked is specified in the ‘MIS \nGroup’ field (if it is applicable; if not, you can define the individual entities under which the \nproduct or account class should be reviewed). If a group is linked, the entities defined for the \ngroup will be displayed and these entities can be changed. Only the transaction type of MIS \nClass will be applicable for an account class or product. The specific MIS entity (in the form \nof an MIS Code) will be picked up by default only if you have defined them for the group. If \nnot, you have to indicate the appropriate MIS code for each applicable MIS classes."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Link to Group",
+        "Default from MIS Group",
+        "Pool Code",
+        "MIS Details for a Contract and Account"
+      ],
+      "summary": "This page discusses how MIS (Management Information System) group links affect account classes or products, default settings from the MIS group, pool codes, and details defined for contracts and accounts.",
+      "raw_text": "6-4\nLink to Group\nIf an MIS Group is linked, you can indicate whether the linkage with the group should always \nbe maintained. If yes, any change done to the MIS Group will automatically be applied to the \naccount class or product to which the MIS Group is linked. If not, the entities defaulted for the \naccount class or product will be continued even if they are changed subsequently for the \ngroup.\nDefault from MIS Group\nThe details defined for an account class will default to account opened under the class. The \ndetails defined for the product will be picked up for the contracts processed under it.\nPool Code\nThe Pool Code to which the account class or product belongs should be defined.\n6.2 \nMIS Details for a Contract and Account\nThe MIS details you would define for an account class and a product are similar. The entities \ndefined for the customer will be picked up by default and these entities can be changed.\nThis section contains the following topics:\nSection 6.2.1, \"Defining the MIS Details Screen for a Contract\"\nSection 6.2.2, \"Change Log Button\"\nSection 6.2.3, \"Defining the MIS Details Screen for an Account\"\nSection 6.2.4, \"Change Log Button\"\n6.2.1 \nDefining the MIS Details Screen for a Contract\nTo invoke the MIS details screen for a contract, click on the ‘MIS’ button while processing the \ncontract.\nFor a contract, the transaction type of MIS class, the cost code and pool code will be picked \nup from the product under which the contract is processed. The composite MIS code will be \npicked up from the definition made for the customer, on behalf of whom the contract is being \nprocessed."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Change Log Button"
+      ],
+      "summary": "This section describes how changes in MIS codes are logged when reclassification occurs and details what information is stored in the Contract MIS Change Log.",
+      "raw_text": "6-5\nThe interest calculation method for the refinancing rates of the pool will also be picked up, by \ndefault, from Pool Codes maintenance and these can be changed. For an account, the \ntransaction type of MIS class will be picked up from the account class, along with the cost \ncodes and pool codes. The composite type of MIS class will be defaulted from those defined \nfor the customer. These too can be changed.\n6.2.2 \nChange Log Button\nIf MIS reclassification occurs, through changing the MIS codes for transaction or composite \nclasses, the System stores the changes made, in a Contract MIS Change Log. The following \ndetails are stored in the Contract MIS Change Log for the contract in respect of which the MIS \nreclassification occurred:\nContract Reference Number\nMIS Class that was changed\nDate on which the change was made. \nThe old code for the changed MIS Class (this information is stored only for the first \namendment during a day)\nThe new MIS code for the changed MIS class.\nClick ‘Change Log’ button in the ‘Transaction MIS Maintenance’ screen to view the Contract \nMIS Change Log."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Defining the MIS Details Screen for an Account",
+        "Change Log Button"
+      ],
+      "summary": "This page explains how to access the Management Information System screen and describes the details stored in the Account MIS Change Log when there are changes to the MIS codes.",
+      "raw_text": "6-6\n6.2.3 \nDefining the MIS Details Screen for an Account\nTo invoke the ‘Management Information System’ screen for an account, click on the ‘MIS’ \nbutton while opening or modifying the account. \n6.2.4 \nChange Log Button\nIf MIS reclassification occurs, through changing the MIS codes for the transaction or \ncomposite type of MIS classes for the customer account, the system stores the changes \nmade, in an Account MIS Change Log. The following details are stored in the Account MIS \nChange Log for the customer account in respect of which the MIS reclassification occurred:\nAccount Number\nAccount Branch\nMIS Class that was changed\nDate on which the change was made. \nThe old code for the changed MIS Class (this information is stored only for the first \namendment during a day)\nThe new MIS code for the changed MIS class."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "GL MIS Balance Transfers due to Reclassification",
+        "Viewing Balance Transfer Log"
+      ],
+      "summary": "This section explains how balances are transferred between GL accounts during reclassification and details what information is stored in the MIS Balance Transfer Log.",
+      "raw_text": "6-7\nClick ‘Change Log’ button in the ‘Account MIS’ screen to view the Account MIS Change log.\n6.3 \nGL MIS Balance Transfers due to Reclassification\nThis section contains the following topic:\nSection 6.3.1, \"Viewing Balance Transfer Log\"\n6.3.1 \nViewing Balance Transfer Log\nWhen an MIS reclassification occurs in respect of a customer, account or contract, the \nbalances in a GL associated with the old MIS code in each case are transferred to the GL for \nthe new MIS code, if the option of transferring MIS balances upon reclassification has been \nset in the Chart of Accounts for the GL.\nA batch process executes a GL MIS balance transfer upon MIS reclassification, for those GLs \nfor which the balance transfer option has been set. The transfer is performed taking into \naccount the details stored in the change logs (Customer MIS Change Log, Account MIS \nChange Log or Contract MIS Change Log). When the transfer is performed, the transfer \ndetails are stored in the MIS Balance Transfer Log. The following details relating to the \ntransfer are stored:\nBranch\nGL\nPeriod Code\nFinancial Cycle\nCurrency\nReference Type\nReference Number (Account, Contract, Customer Number)\nMIS Class\nOld MIS Code\nNew MIS Code\nTransfer Indicator (Dr or Cr into New MIS Code).\nAmount\nTransaction Date"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "You can view the MIS ‘Balance Transfer Log’ for a customer, customer account or contract",
+        "The GL MIS Balance Transfer Process"
+      ],
+      "summary": "This page explains how to access the Balance Transfer Log in different maintenance screens and provides an example of the GL MIS balance transfer process.",
+      "raw_text": "6-8\nYou can view the MIS ‘Balance Transfer Log’ for a customer, customer account or contract \nby clicking on ‘Transfer Log’ button in the Customer MIS, Customer Account MIS, or \nTransaction MIS Maintenance screens.\nThe GL MIS Balance Transfer Process\nThe following example explains how the batch process executes the transfer of GL MIS \nbalances."
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page appears to list function IDs and their corresponding codes without any section titles.",
+      "raw_text": "7-1\n7. Function ID Glossary\nM\nMIDADJ .............................5-2\nMIDHEAD ......................... 4-1\nMIDPRDMN ...................... 2-1\nMISPRDMN ...................... 2-3"
+    }
+  ]
+}

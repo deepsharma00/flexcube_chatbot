@@ -1,0 +1,2016 @@
+{
+  "source": "FlexCube/FCUBS/Relationship_Pricing/Relationship-Pricing-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 55,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, structure, related documents, and icon glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This manual provides an overview of the Relationship Pricing module in Oracle FLEXCUBE, detailing its usage for various user roles and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This manual provides an overview of the Relationship Pricing module in Oracle FLEXCUBE, detailing its usage for various user roles and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This manual provides an overview of the Relationship Pricing module in Oracle FLEXCUBE, detailing its usage for various user roles and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This manual provides an overview of the Relationship Pricing module in Oracle FLEXCUBE, detailing its usage for various user roles and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This manual provides an overview of the Relationship Pricing module in Oracle FLEXCUBE, detailing its usage for various user roles and organizational structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Customer Relationship Pricing",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 User Data Elements",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining User Data Elements",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Query Tab",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Function Tab",
+          "start_page": 10
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 Viewing UDE Details",
+          "start_page": 11
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 System Data Elements",
+          "start_page": 12
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 External Data Elements",
+          "start_page": 12
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 External Price Component Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Relationship Value Tag Codes",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Maintaining Relationship Value Tag Codes",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Viewing RVT Code Details",
+          "start_page": 15
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Maintaining Values for Relationship Tags",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Viewing Relationship Tag Value Details",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Relationship Pricing Eligibility Plan",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Maintaining Relationship Pricing Eligibility Plan",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Creating Eligibility Condition",
+          "start_page": 20
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Viewing Relationship Pricing Eligibility Plan Details",
+          "start_page": 21
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Pricing Variance Rule Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Pricing Variance Rule",
+          "start_page": 22
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing Variance Rule Details",
+          "start_page": 27
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Benefit Plan Maintenance",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Benefit Plan",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Benefit Plan Details",
+          "start_page": 33
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Changing Benefit Plan Priority",
+          "start_page": 34
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Relationship Pricing Scheme",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Pricing Scheme",
+          "start_page": 35
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Benefit Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.10.3",
+          "title": "2.10.3 Eligibility Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.10.4",
+          "title": "2.10.4 Viewing Pricing Scheme Details",
+          "start_page": 38
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Customer Scheme",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Customer Scheme Linkage",
+          "start_page": 40
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Benefit Plan Button",
+          "start_page": 41
+        },
+        {
+          "structure": "3.11.3",
+          "title": "2.11.3 Viewing Benefit Details Button",
+          "start_page": 42
+        },
+        {
+          "structure": "3.11.4",
+          "title": "2.11.4 Viewing Linkage Details",
+          "start_page": 43
+        },
+        {
+          "structure": "3.11.5",
+          "title": "2.11.5 Changing Customer Scheme Linkage Status",
+          "start_page": 44
+        },
+        {
+          "structure": "3.11.6",
+          "title": "2.11.6 Viewing Customer Scheme Status Change Details",
+          "start_page": 46
+        },
+        {
+          "structure": "3.11.7",
+          "title": "2.11.7 Querying Customer Scheme Linkages",
+          "start_page": 47
+        },
+        {
+          "structure": "3.11.8",
+          "title": "2.11.8 Evaluating Customer Scheme Online",
+          "start_page": 48
+        },
+        {
+          "structure": "3.11.9",
+          "title": "2.11.9 Viewing Customer Availed Scheme Benefits",
+          "start_page": 51
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Relationship Pricing Batch",
+          "start_page": 4
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Processing Relationship Pricing Batch",
+          "start_page": 52
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Relationship Pricing Support for External Product Processors",
+          "start_page": 54
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides information about related documents and a glossary of icons used in the Procedures User Manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides information about related documents and a glossary of icons used in the Procedures User Manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Customer Relationship Pricing",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section explains relationship pricing in banking services, where customers receive special pricing based on their total business conducted with a bank, including discounts, rebates, and bundled products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This section explains relationship pricing in banking services, where customers receive special pricing based on their total business conducted with a bank, including discounts, rebates, and bundled products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 User Data Elements",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page outlines the various sections and their contents related to relationship pricing, including user data elements, system data elements, external data elements, and other maintenance processes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Maintaining User Data Elements",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page outlines the various sections and their contents related to relationship pricing, including user data elements, system data elements, external data elements, and other maintenance processes.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Query Tab",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page explains how to configure User Data Elements (UDE) in a system, including specifying codes and descriptions, selecting derivation methods, and defining data types. It also details the Query tab for setting up SQL queries when using 'Query' as the basis for deriving UDE values.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "2.2.3 Function Tab",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This section explains how to specify function parameters for deriving UDE values and includes details on selecting a function name, getting parameters, specifying parameter names, and inputting UDE or constant values.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.4",
+      "title": "2.2.4 Viewing UDE Details",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This section explains how to view and search for User Data Element (UDE) details in the 'Relationship Pricing – User Data Elements Summary' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 System Data Elements",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page describes how to search for data elements using an 'Open' and 'Closed' UDE code, details on system-defined data elements used for eligibility criteria, and instructions on maintaining external data elements in a module.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 External Data Elements",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page describes how to search for data elements using an 'Open' and 'Closed' UDE code, details on system-defined data elements used for eligibility criteria, and instructions on maintaining external data elements in a module.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 External Price Component Maintenance",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page describes how to specify external data element codes and their descriptions, as well as the data types for a module in a product processor system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Relationship Value Tag Codes",
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This page describes mandatory fields for specifying product and price component codes, as well as related descriptions and types, and introduces sections for maintaining relationship value tag codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Maintaining Relationship Value Tag Codes",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page describes mandatory fields for specifying product and price component codes, as well as related descriptions and types, and introduces sections for maintaining relationship value tag codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.2",
+      "title": "2.6.2 Viewing RVT Code Details",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page explains how to invoke a screen for specifying customer relationship value tag details and viewing RVT code details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.3",
+      "title": "2.6.3 Maintaining Values for Relationship Tags",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This page describes how to perform a search by selecting criteria such as authorization status, record status, and RVT code, and also explains methods for maintaining values of relationship tags.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.4",
+      "title": "2.6.4 Viewing Relationship Tag Value Details",
+      "start_page": 17,
+      "end_page": 19,
+      "summary": "This page describes how to invoke and use the 'CODCURVT' screen to specify relationship tag values for customers, including details such as customer number, RVT code, source code, and their corresponding descriptions and values.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 Relationship Pricing Eligibility Plan",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section describes how to maintain and manage eligibility criteria for a relationship pricing plan, including creating conditions and viewing details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.1",
+      "title": "2.7.1 Maintaining Relationship Pricing Eligibility Plan",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This section describes how to maintain and manage eligibility criteria for a relationship pricing plan, including creating conditions and viewing details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.2",
+      "title": "2.7.2 Creating Eligibility Condition",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This page explains how to specify a value for a relationship data element and build an eligibility condition using various elements such as conditions, relationship data elements, functions, operations, and logical operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.3",
+      "title": "2.7.3 Viewing Relationship Pricing Eligibility Plan Details",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page discusses logical operations for building eligibility criteria expressions and how to view and search details of relationship pricing eligibility plans.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8",
+      "title": "2.8 Pricing Variance Rule Maintenance",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page describes how to set up and maintain pricing variance rules for currency pairs in a specific system or application.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.1",
+      "title": "2.8.1 Maintaining Pricing Variance Rule",
+      "start_page": 22,
+      "end_page": 27,
+      "summary": "This page describes how to set up and maintain pricing variance rules for currency pairs in a specific system or application.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.2",
+      "title": "2.8.2 Viewing Variance Rule Details",
+      "start_page": 27,
+      "end_page": 29,
+      "summary": "This page outlines rules for calculating buy and sell spreads based on transaction amounts, specifically for USD to INR currency pairs, and describes how to view variance rule details in the application.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9",
+      "title": "2.9 Benefit Plan Maintenance",
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This page describes how to select variance rule types for searching and provides information on maintaining benefit plans, including defining benefits and viewing details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.1",
+      "title": "2.9.1 Maintaining Benefit Plan",
+      "start_page": 29,
+      "end_page": 33,
+      "summary": "This page describes how to select variance rule types for searching and provides information on maintaining benefit plans, including defining benefits and viewing details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.2",
+      "title": "2.9.2 Viewing Benefit Plan Details",
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This section explains how to view and search for benefit plan details in the 'Relationship Pricing Benefit Plan Summary' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.3",
+      "title": "2.9.3 Changing Benefit Plan Priority",
+      "start_page": 34,
+      "end_page": 3,
+      "summary": "This page describes how to change the priority of a benefit plan and introduces the Relationship Pricing Scheme section.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10",
+      "title": "2.10 Relationship Pricing Scheme",
+      "start_page": 3,
+      "end_page": 35,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, structure, related documents, and icon glossary.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Customer Relationship Pricing",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 User Data Elements",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining User Data Elements",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Query Tab",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Function Tab",
+          "start_page": 10
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 Viewing UDE Details",
+          "start_page": 11
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 System Data Elements",
+          "start_page": 12
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 External Data Elements",
+          "start_page": 12
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 External Price Component Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Relationship Value Tag Codes",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Maintaining Relationship Value Tag Codes",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Viewing RVT Code Details",
+          "start_page": 15
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Maintaining Values for Relationship Tags",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Viewing Relationship Tag Value Details",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Relationship Pricing Eligibility Plan",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Maintaining Relationship Pricing Eligibility Plan",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Creating Eligibility Condition",
+          "start_page": 20
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Viewing Relationship Pricing Eligibility Plan Details",
+          "start_page": 21
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Pricing Variance Rule Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Pricing Variance Rule",
+          "start_page": 22
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing Variance Rule Details",
+          "start_page": 27
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Benefit Plan Maintenance",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Benefit Plan",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Benefit Plan Details",
+          "start_page": 33
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Changing Benefit Plan Priority",
+          "start_page": 34
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Pricing Scheme",
+          "start_page": 35
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Benefit Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.10.3",
+          "title": "2.10.3 Eligibility Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.10.4",
+          "title": "2.10.4 Viewing Pricing Scheme Details",
+          "start_page": 38
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Customer Scheme",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Customer Scheme Linkage",
+          "start_page": 40
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Benefit Plan Button",
+          "start_page": 41
+        },
+        {
+          "structure": "3.11.3",
+          "title": "2.11.3 Viewing Benefit Details Button",
+          "start_page": 42
+        },
+        {
+          "structure": "3.11.4",
+          "title": "2.11.4 Viewing Linkage Details",
+          "start_page": 43
+        },
+        {
+          "structure": "3.11.5",
+          "title": "2.11.5 Changing Customer Scheme Linkage Status",
+          "start_page": 44
+        },
+        {
+          "structure": "3.11.6",
+          "title": "2.11.6 Viewing Customer Scheme Status Change Details",
+          "start_page": 46
+        },
+        {
+          "structure": "3.11.7",
+          "title": "2.11.7 Querying Customer Scheme Linkages",
+          "start_page": 47
+        },
+        {
+          "structure": "3.11.8",
+          "title": "2.11.8 Evaluating Customer Scheme Online",
+          "start_page": 48
+        },
+        {
+          "structure": "3.11.9",
+          "title": "2.11.9 Viewing Customer Availed Scheme Benefits",
+          "start_page": 51
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Relationship Pricing Batch",
+          "start_page": 4
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Processing Relationship Pricing Batch",
+          "start_page": 52
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Relationship Pricing Support for External Product Processors",
+          "start_page": 54
+        }
+      ]
+    },
+    {
+      "structure": "3.10.1",
+      "title": "2.10.1 Maintaining Pricing Scheme",
+      "start_page": 35,
+      "end_page": 37,
+      "summary": "This page discusses how to maintain pricing schemes and details about different tabs for benefit and eligibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10.2",
+      "title": "2.10.2 Benefit Details Tab",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page describes how to configure a pricing scheme by selecting execution type, setting benefit expiration, choosing benefit plans, and specifying eligibility criteria.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10.3",
+      "title": "2.10.3 Eligibility Details Tab",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page describes how to configure a pricing scheme by selecting execution type, setting benefit expiration, choosing benefit plans, and specifying eligibility criteria.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10.4",
+      "title": "2.10.4 Viewing Pricing Scheme Details",
+      "start_page": 38,
+      "end_page": 3,
+      "summary": "This page outlines the different revision frequencies for an eligibility plan and provides instructions on viewing pricing scheme details through a specific screen in the application.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11",
+      "title": "2.11 Customer Scheme",
+      "start_page": 3,
+      "end_page": 40,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, structure, related documents, and icon glossary.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Customer Relationship Pricing",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 User Data Elements",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining User Data Elements",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Query Tab",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Function Tab",
+          "start_page": 10
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 Viewing UDE Details",
+          "start_page": 11
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 System Data Elements",
+          "start_page": 12
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 External Data Elements",
+          "start_page": 12
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 External Price Component Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Relationship Value Tag Codes",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Maintaining Relationship Value Tag Codes",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Viewing RVT Code Details",
+          "start_page": 15
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Maintaining Values for Relationship Tags",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Viewing Relationship Tag Value Details",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Relationship Pricing Eligibility Plan",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Maintaining Relationship Pricing Eligibility Plan",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Creating Eligibility Condition",
+          "start_page": 20
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Viewing Relationship Pricing Eligibility Plan Details",
+          "start_page": 21
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Pricing Variance Rule Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Pricing Variance Rule",
+          "start_page": 22
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing Variance Rule Details",
+          "start_page": 27
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Benefit Plan Maintenance",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Benefit Plan",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Benefit Plan Details",
+          "start_page": 33
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Changing Benefit Plan Priority",
+          "start_page": 34
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Relationship Pricing Scheme",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Pricing Scheme",
+          "start_page": 35
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Benefit Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.10.3",
+          "title": "2.10.3 Eligibility Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.10.4",
+          "title": "2.10.4 Viewing Pricing Scheme Details",
+          "start_page": 38
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Customer Scheme Linkage",
+          "start_page": 40
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Benefit Plan Button",
+          "start_page": 41
+        },
+        {
+          "structure": "3.11.3",
+          "title": "2.11.3 Viewing Benefit Details Button",
+          "start_page": 42
+        },
+        {
+          "structure": "3.11.4",
+          "title": "2.11.4 Viewing Linkage Details",
+          "start_page": 43
+        },
+        {
+          "structure": "3.11.5",
+          "title": "2.11.5 Changing Customer Scheme Linkage Status",
+          "start_page": 44
+        },
+        {
+          "structure": "3.11.6",
+          "title": "2.11.6 Viewing Customer Scheme Status Change Details",
+          "start_page": 46
+        },
+        {
+          "structure": "3.11.7",
+          "title": "2.11.7 Querying Customer Scheme Linkages",
+          "start_page": 47
+        },
+        {
+          "structure": "3.11.8",
+          "title": "2.11.8 Evaluating Customer Scheme Online",
+          "start_page": 48
+        },
+        {
+          "structure": "3.11.9",
+          "title": "2.11.9 Viewing Customer Availed Scheme Benefits",
+          "start_page": 51
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Relationship Pricing Batch",
+          "start_page": 4
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Processing Relationship Pricing Batch",
+          "start_page": 52
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Relationship Pricing Support for External Product Processors",
+          "start_page": 54
+        }
+      ]
+    },
+    {
+      "structure": "3.11.1",
+      "title": "2.11.1 Maintaining Customer Scheme Linkage",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This section explains how to link a customer to a pricing scheme in the 'Customer Scheme Manual Linkage' screen and details the fields that can be specified during this process.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.2",
+      "title": "2.11.2 Benefit Plan Button",
+      "start_page": 41,
+      "end_page": 42,
+      "summary": "This page describes how to view and understand benefit plans associated with a selected scheme, including details such as module, benefit plan ID, description, and priority number.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.3",
+      "title": "2.11.3 Viewing Benefit Details Button",
+      "start_page": 42,
+      "end_page": 43,
+      "summary": "This section describes how to view detailed information about a selected benefit plan by clicking on the 'View Benefit Details' button.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.4",
+      "title": "2.11.4 Viewing Linkage Details",
+      "start_page": 43,
+      "end_page": 44,
+      "summary": "This page describes how to view and search for customer scheme linkages in the 'Customer Scheme Manual Linkage Summary' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.5",
+      "title": "2.11.5 Changing Customer Scheme Linkage Status",
+      "start_page": 44,
+      "end_page": 46,
+      "summary": "This section describes how to search for records based on various parameters and how to change the status of customer scheme linkages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.6",
+      "title": "2.11.6 Viewing Customer Scheme Status Change Details",
+      "start_page": 46,
+      "end_page": 47,
+      "summary": "This page describes how to select and view the status of scheme linkages, including available statuses and search criteria for details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.7",
+      "title": "2.11.7 Querying Customer Scheme Linkages",
+      "start_page": 47,
+      "end_page": 48,
+      "summary": "This section describes how to view and query scheme linkages for a customer in the 'Customer Scheme Linkage Query' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.8",
+      "title": "2.11.8 Evaluating Customer Scheme Online",
+      "start_page": 48,
+      "end_page": 51,
+      "summary": "This page describes various fields and statuses related to customer scheme applications, including start and end dates, current status, eligibility evaluation process, and status change details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.9",
+      "title": "2.11.9 Viewing Customer Availed Scheme Benefits",
+      "start_page": 51,
+      "end_page": 4,
+      "summary": "This section explains how to view details of benefits availed by customers through the 'Customer Availed Scheme Benefit Details' screen and lists the fields needed for querying this information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12",
+      "title": "2.12 Relationship Pricing Batch",
+      "start_page": 4,
+      "end_page": 52,
+      "summary": "This page discusses various functionalities related to customer schemes, relationship pricing batches, and their processing.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Customer Relationship Pricing",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 User Data Elements",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining User Data Elements",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Query Tab",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Function Tab",
+          "start_page": 10
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 Viewing UDE Details",
+          "start_page": 11
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 System Data Elements",
+          "start_page": 12
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 External Data Elements",
+          "start_page": 12
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 External Price Component Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Relationship Value Tag Codes",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Maintaining Relationship Value Tag Codes",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Viewing RVT Code Details",
+          "start_page": 15
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Maintaining Values for Relationship Tags",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Viewing Relationship Tag Value Details",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Relationship Pricing Eligibility Plan",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Maintaining Relationship Pricing Eligibility Plan",
+          "start_page": 19
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Creating Eligibility Condition",
+          "start_page": 20
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Viewing Relationship Pricing Eligibility Plan Details",
+          "start_page": 21
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Pricing Variance Rule Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Pricing Variance Rule",
+          "start_page": 22
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing Variance Rule Details",
+          "start_page": 27
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Benefit Plan Maintenance",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Benefit Plan",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Benefit Plan Details",
+          "start_page": 33
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Changing Benefit Plan Priority",
+          "start_page": 34
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Relationship Pricing Scheme",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Pricing Scheme",
+          "start_page": 35
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Benefit Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.10.3",
+          "title": "2.10.3 Eligibility Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.10.4",
+          "title": "2.10.4 Viewing Pricing Scheme Details",
+          "start_page": 38
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Customer Scheme",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Customer Scheme Linkage",
+          "start_page": 40
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Benefit Plan Button",
+          "start_page": 41
+        },
+        {
+          "structure": "3.11.3",
+          "title": "2.11.3 Viewing Benefit Details Button",
+          "start_page": 42
+        },
+        {
+          "structure": "3.11.4",
+          "title": "2.11.4 Viewing Linkage Details",
+          "start_page": 43
+        },
+        {
+          "structure": "3.11.5",
+          "title": "2.11.5 Changing Customer Scheme Linkage Status",
+          "start_page": 44
+        },
+        {
+          "structure": "3.11.6",
+          "title": "2.11.6 Viewing Customer Scheme Status Change Details",
+          "start_page": 46
+        },
+        {
+          "structure": "3.11.7",
+          "title": "2.11.7 Querying Customer Scheme Linkages",
+          "start_page": 47
+        },
+        {
+          "structure": "3.11.8",
+          "title": "2.11.8 Evaluating Customer Scheme Online",
+          "start_page": 48
+        },
+        {
+          "structure": "3.11.9",
+          "title": "2.11.9 Viewing Customer Availed Scheme Benefits",
+          "start_page": 51
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Processing Relationship Pricing Batch",
+          "start_page": 52
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Relationship Pricing Support for External Product Processors",
+          "start_page": 54
+        }
+      ]
+    },
+    {
+      "structure": "3.12.1",
+      "title": "2.12.1 Processing Relationship Pricing Batch",
+      "start_page": 52,
+      "end_page": 54,
+      "summary": "This section describes the processing of relationship pricing batches, including changing scheme status and evaluating eligibility for customers who have opted for relationship pricing.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12.2",
+      "title": "2.12.2 Relationship Pricing Support for External Product Processors",
+      "start_page": 54,
+      "end_page": 55,
+      "summary": "This page discusses the application of variance rates or amounts in benefit plans and checks the final rate against set limits, as well as describes interactions between banking product components and FLEXCUBE RP module for external pricing support.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 55,
+      "end_page": 57,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Relationship Pricing in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Relationship Pricing User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited's Relationship Pricing User Guide.",
+      "raw_text": "Relationship Pricing User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, structure, related documents, and icon glossary.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nCustomer Relationship Pricing .............................................................. 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nUser Data Elements ................................................................................................  2-2\n2.2.1  \nMaintaining User Data Elements ................................................................  2-2\n2.2.2  \nQuery Tab...................................................................................................  2-3\n2.2.3  \nFunction Tab...............................................................................................  2-4\n2.2.4  \nViewing UDE Details ..................................................................................  2-5\n2.3 \nSystem Data Elements............................................................................................  2-6\n2.4 \nExternal Data Elements...........................................................................................  2-6\n2.5 \nExternal Price Component Maintenance.................................................................  2-7\n2.6 \nRelationship Value Tag Codes................................................................................  2-8\n2.6.1  \nMaintaining Relationship Value Tag Codes................................................  2-8\n2.6.2  \nViewing RVT Code Details .........................................................................  2-9\n2.6.3  \nMaintaining Values for Relationship Tags ................................................  2-10\n2.6.4  \nViewing Relationship Tag Value Details...................................................  2-11\n2.7 \nRelationship Pricing Eligibility Plan........................................................................  2-13\n2.7.1  \nMaintaining Relationship Pricing Eligibility Plan .......................................  2-13\n2.7.2  \nCreating Eligibility Condition.....................................................................  2-14\n2.7.3  \nViewing Relationship Pricing Eligibility Plan Details.................................  2-15\n2.8 \nPricing Variance Rule Maintenance ......................................................................  2-16\n2.8.1  \nMaintaining Pricing Variance Rule............................................................  2-16\n2.8.2  \nViewing Variance Rule Details .................................................................  2-21\n2.9 \nBenefit Plan Maintenance......................................................................................  2-23\n2.9.1  \nMaintaining Benefit Plan...........................................................................  2-23\n2.9.2  \nViewing Benefit Plan Details.....................................................................  2-27\n2.9.3  \nChanging Benefit Plan Priority..................................................................  2-28\n2.10 Relationship Pricing Scheme.................................................................................  2-28\n2.10.1  Maintaining Pricing Scheme.....................................................................  2-29\n2.10.2  Benefit Details Tab ...................................................................................  2-31\n2.10.3  Eligibility Details Tab ................................................................................  2-31\n2.10.4  Viewing Pricing Scheme Details...............................................................  2-32\n2.11 Customer Scheme.................................................................................................  2-33\n2.11.1  Maintaining Customer Scheme Linkage...................................................  2-34\n2.11.2  Benefit Plan Button...................................................................................  2-35\n2.11.3  Viewing Benefit Details Button .................................................................  2-36\n2.11.4  Viewing Linkage Details ...........................................................................  2-37\n2.11.5  Changing Customer Scheme Linkage Status...........................................  2-38\n2.11.6  Viewing Customer Scheme Status Change Details .................................  2-40\n2.11.7  Querying Customer Scheme Linkages ....................................................  2-41"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Evaluating Customer Scheme Online",
+        "Viewing Customer Availed Scheme Benefits",
+        "Relationship Pricing Batch",
+        "Processing Relationship Pricing Batch",
+        "Relationship Pricing Support for External Product Processors"
+      ],
+      "summary": "This page discusses various functionalities related to customer schemes, relationship pricing batches, and their processing.",
+      "raw_text": "2.11.8  Evaluating Customer Scheme Online.......................................................  2-42\n2.11.9  Viewing Customer Availed Scheme Benefits ...........................................  2-45\n2.12 Relationship Pricing Batch.....................................................................................  2-46\n2.12.1  Processing Relationship Pricing Batch.....................................................  2-46\n2.12.2  Relationship Pricing Support for External Product Processors ................  2-48\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter 1 About this Manual",
+        "Chapter 2 Customer Relationship Pricing"
+      ],
+      "summary": "This manual provides an overview of the Relationship Pricing module in Oracle FLEXCUBE, detailing its usage for various user roles and organizational structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help you quickly get acquainted with the Relationship Pricing \nmodule of Oracle FLEXCUBE.\nIt provides an overview to the module, and provides information on using this module of \nOracle FLEXCUBE. \nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThe manual is organized in the following manner:\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of day operators\nProcessing during end of day/ beginning of day\nFinancial Controller/Product Managers\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives a brief introduction of the module, the audience it \naddresses and the organization of the various chapters. It also includes \nthe list of related documents to be referred, if any, and the conventions \nused in the document.\nChapter 2\nCustomer Relationship Pricing explains the maintenances required to pro-\nvide services to customers based on the total business that the customer \nconducts or could potentially conduct.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation."
+    },
+    {
+      "page_number": 6,
+      "sections": [],
+      "summary": "This page provides information about related documents and a glossary of icons used in the Procedures User Manual.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nThe Procedures User Manual\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction"
+      ],
+      "summary": "This section explains relationship pricing in banking services, where customers receive special pricing based on their total business conducted with a bank, including discounts, rebates, and bundled products.",
+      "raw_text": "2-1\n2. Customer Relationship Pricing\n2.1 \nIntroduction\nRelationship pricing is the pricing of services offered to a customer based on the total \nbusiness that the customer conducts or could potentially conduct. In this case, a set of eligible \ncustomers is offered a special pricing over and above the standard product pricing. This is \ncommonly implemented by way of discounts, rebates, or offsets against standard pricing. A \ncombination of products wrapped as a product bundle could also be offered to customers. \nPricing benefits are offered to customers based on customer relation, product bundling or a \ncombination of both. For e.g., for keeping a minimum daily balance of $2,500, a bank may \noffer its customers a fee waive-off on credit cards, lines of credit, checking and savings, as \nwell as 100 free trades and bonus interest rates on savings accounts.\nRelation Pricing supports Pricing for external banking product processors like OBMA retail \nteller, OBMA IC, OBPM, OBCL, ELCM, OBTF, and OBTR.\nPricing benefits are offered to customers as a variance over the standard product pricing. A \npricing scheme is defined and details like eligibility criteria, validity period, and the benefits of \nthe scheme are maintained. The relation between different components involved in \nrelationship pricing can be explained as follows:\n1. User Data Elements (UDE) are defined to extract data from Oracle FLEXCUBE\n2. External relationship values of customers are captured using relationship value tags \n(RVT). The RVT value can also be extracted from external systems\n3. System Data Elements (SDE) are defined to be used in the special pricing rules\n4. User defined fields are maintained to be used in the pricing rules\n5. External Data Elements (EDE) are maintained to be used in pricing rules\n6. External price component are maintained to be used in benefit plans\n7. Eligibility criteria to identify the set of customer to avail the benefits of the scheme are de-\nfined using the values of UDE, SDE, RVT, and UDFPricing variance rules are defined \nbased on which the scheme benefits are offered to customers\n8. Scheme benefits are applied to eligible customers based on their eligibility and also based \non the product bundle the customer has opted for"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "User Data Elements",
+        "System Data Elements",
+        "External Data Elements",
+        "External Price Component Maintenance",
+        "Relationship Value Tag Codes",
+        "Relationship Pricing Eligibility Plan",
+        "Pricing Variance Rule Maintenance",
+        "Benefit Plan Maintenance",
+        "Relationship Pricing Scheme",
+        "Customer Scheme",
+        "Relationship Pricing Batch",
+        "Maintaining User Data Elements",
+        "Query Tab",
+        "Function Tab",
+        "Viewing UDE Details"
+      ],
+      "summary": "This page outlines the various sections and their contents related to relationship pricing, including user data elements, system data elements, external data elements, and other maintenance processes.",
+      "raw_text": "2-2\nThe following diagram displays the relation between various components involved in the \ncalculation of relationship pricing.\nThe various maintenances required to provide relationship pricing to customers is explained \nin the subsequent sections.\nThis chapter contains the following sections:\nSection 2.2, \"User Data Elements\"\nSection 2.3, \"System Data Elements\"\nSection 2.4, \"External Data Elements\"\nSection 2.5, \"External Price Component Maintenance\"\nSection 2.6, \"Relationship Value Tag Codes\"\nSection 2.7, \"Relationship Pricing Eligibility Plan\"\nSection 2.8, \"Pricing Variance Rule Maintenance\"\nSection 2.9, \"Benefit Plan Maintenance\"\nSection 2.10, \"Relationship Pricing Scheme\"\nSection 2.11, \"Customer Scheme\"\nSection 2.12, \"Relationship Pricing Batch\"\n2.2 \nUser Data Elements\nThis section contains the following topics:\nSection 2.2.1, \"Maintaining User Data Elements\"\nSection 2.2.2, \"Query Tab\"\nSection 2.2.3, \"Function Tab\"\nSection 2.2.4, \"Viewing UDE Details\"\n2.2.1 \nMaintaining User Data Elements\nYou can maintain the data elements to be used to compose pricing scheme rules in \n‘Relationship Pricing – User Data Elements’ maintenance screen. You can invoke this screen"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "UDE Basis",
+        "Query Tab"
+      ],
+      "summary": "This page explains how to configure User Data Elements (UDE) in a system, including specifying codes and descriptions, selecting derivation methods, and defining data types. It also details the Query tab for setting up SQL queries when using 'Query' as the basis for deriving UDE values.",
+      "raw_text": "2-3\nby typing ‘CODUDEMT’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nThe data elements could be relevant fields from tables in the database or could be complex \nstored procedures derived from values of other UDEs or constant values. \nThe screen appears as shown below:\nYou can maintain the following details in this screen:\nUDE Code\nSpecify a unique alphanumeric code for the User Data Element\nUDE Description\nSpecify a suitable description for the User Data Element\nUDE Basis\nSelect the basis for deriving the UDE value from the drop-down list provided. The options \navailable are as follows:\nQuery - the UDE value is derived using a PL/SQL query on Oracle FLEXCUBE data-\nbase, which returns a single value\nFunction - the UDE value is derived using pre-defined database functions returning a \nparticular value. You need to provide proper inputs to the function to return the UDE val-\nue\nUDE Datatype\nSelect the data type of the UDE value from the drop-down list provided. The possible options \nare as follows:\nNumeric\nString\nDate\n2.2.2 \nQuery Tab\nIf you have selected ‘Query’ as the basis for deriving UDE value, you need to specify the SQL \nquery statement to return the UDE output value.\nYou can frame the query statement using one or more database tables in Oracle FLEXCUBE. \nYou can also use aggregate functions and multiple conditions in the where clause of the SQL"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Function Tab"
+      ],
+      "summary": "This section explains how to specify function parameters for deriving UDE values and includes details on selecting a function name, getting parameters, specifying parameter names, and inputting UDE or constant values.",
+      "raw_text": "2-4\nstatement. You need to provide customer number as an input to the query and the result of \nthe query will be the UDE value.\nYou can validate the query statement by clicking the ‘Validate Query’ button. Any errors in the \nquery statement will get displayed in the ‘Error’ field.\nFor example, the UDE to get the number of accounts opened for a customer in the logged in \nBranch can be defined as follows:\nSelect count (1) from STTM_CUST_ACCOUNT\nWhere Cust_No = @CUSTOMER_NO\nAnd branch_code = global.current_branch;\n2.2.3 \nFunction Tab\nIf you have selected ‘Function’ as the basis for deriving UDE value, you need to specify the \nparameters related to the function in the ‘Function’ tab.\nYou can specify the following details here:\nFunction Name\nSelect the database function you wish to use from the pre-defined set of functions available \nin the option list. \nClick the ‘Get Parameter’ button to get the parameters linked to the function name selected.\nParameter Name\nAll function parameters, which can be mapped to an existing UDE or a constant value to arrive \nat the required output, get displayed here\nYou can specify either a UDE code or a constant value as input for the function parameter\nUDE \nSpecify the UDE/EDE code to be used as a value for the function parameter"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Viewing UDE Details"
+      ],
+      "summary": "This section explains how to view and search for User Data Element (UDE) details in the 'Relationship Pricing – User Data Elements Summary' screen.",
+      "raw_text": "2-5\nNote\nYou can specify the ‘@CUSTOMER_NO’ keyword as a parameter value\nConstant\nSpecify a constant value of the function parameter\nNote\nYou cannot close a UDE record if it is used in Eligibility Criteria maintenance or in Variance \nRule maintenance.\n2.2.4 \nViewing UDE Details\nYou can view the details of UDEs maintained and search for a UDE in the ‘Relationship \nPricing – User Data Elements Summary’ screen. You can invoke this screen by typing \n‘COSUDEMT’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button. \nThe screen appears as shown below:\nYou can search for a UDE value in this screen by specifying any of the following:\nAuthorization Status\nSelect the authorization status of the record you want to search for, from the drop-down list \nprovided. The options possible are:\nAuthorized\nUnauthorized\nRecord Status\nSelect the status of the record which you want search for, from the drop-down list provided. \nThe options possible are:"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "UDE Code",
+        "System Data Elements",
+        "External Data Elements"
+      ],
+      "summary": "This page describes how to search for data elements using an 'Open' and 'Closed' UDE code, details on system-defined data elements used for eligibility criteria, and instructions on maintaining external data elements in a module.",
+      "raw_text": "2-6\nOpen \nClosed\nUDE Code\nSelect the code of the data element you want to search for, from the option list provided\nClick the ‘Search’ button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n‘Advanced Search’ button.\n2.3 \nSystem Data Elements\nFor defining the eligibility criteria and the variance rule for a customer, you need to use the \nfollowing SDEs available in the system:\nCUST_AVGSAL- to calculate the average salary of the customer for the last six months. \nThe system calculates the average salary based on the salary amount credited to the \naccount using the ‘salary’ or ‘advance salary’ transaction codes. Any reversal of salary \nwith DR amount is not considered for calculating the average salary.\n CUST_EMPLOYER- to determine the customer’s current employer code maintained in \ncustomer maintenance screen.\n2.4 \nExternal Data Elements\nIt allows the users to maintain External Data elements for a module. You can invoke this \nscreen by typing ‘CODEDEMT’ in the field at the top right corner of the Application tool bar \nand clicking the adjoining arrow button.\nSpecify the following fields.\nModule\nSpecify the module id of the invoked product processor.It indicates in which module the ede \ncodes belongs too.\nThe field is mandatory."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "External Data Element Code",
+        "External Data Element Description",
+        "External Data Element Data Type",
+        "External Price Component Maintenance"
+      ],
+      "summary": "This page describes how to specify external data element codes and their descriptions, as well as the data types for a module in a product processor system.",
+      "raw_text": "2-7\nExternal Data Element Code\nSpecify the External Data Element Code. It indicates the external product processor data \nelement code. \nThe field is mandatory.\nExternal Data Element Description\nSpecify the external data element code description, this indicated the description of the given \nede code data type.\nThe field is mandatory.\nExternal Data Element Data Type\nSpecify the external data element data type, this indicated the data type of the given ede code \ndata type.\nSelect the required value in the External Data Element Data drop-down list: The available \nvalues are:\nNumeric\nString\nDate\nThe field is mandatory.\n2.5 \nExternal Price Component Maintenance\nIt allows the users to maintain External Data elements for a module. You can invoke this \nscreen by typing ‘CODEDEMT’ in the field at the top right corner of the Application tool bar \nand clicking the adjoining arrow button.\nSpecify the following fields.\nModule\nSpecify the module id of the invoked product processor.This indicates in which module the \nede codes belongs too."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Product",
+        "Price Component",
+        "Price Component Description",
+        "Price Component Type",
+        "Relationship Value Tag Codes"
+      ],
+      "summary": "This page describes mandatory fields for specifying product and price component codes, as well as related descriptions and types, and introduces sections for maintaining relationship value tag codes.",
+      "raw_text": "2-8\nThe field is mandatory.\nProduct\nSpecify the Product Code, It indicates given price component codes belongs to which product.\nThe field is mandatory.\nPrice Component\nSpecify the external price component code, It indicates the external product processors price \ncomponent code.\nThe field is mandatory.\nPrice Component Description\nSpecify the external price component description. It indicated the description of the given \nprice component code.\nThe field is mandatory.\nPrice Component Type\nSpecify the external price component type, this indicated the description of the given price \ncomponent type.\nSelect the required value from Price Component Type drop-down list. The available values \nare:\nInterest\nCharge\nFees\nCommission\nThe field is mandatory.\n2.6 \nRelationship Value Tag Codes\nThis section contains the following topics:\nSection 2.6.1, \"Maintaining Relationship Value Tag Codes\"\nSection 2.6.2, \"Viewing RVT Code Details\"\nSection 2.6.3, \"Maintaining Values for Relationship Tags\"\nSection 2.6.4, \"Viewing Relationship Tag Value Details\"\n2.6.1 \nMaintaining Relationship Value Tag Codes\nA customer can avail the benefits of a scheme offered by your bank, based on certain \nattributes like credit card reward points, bonus points etc. You can maintain these attribute \ntags in the ‘Relationship Value Tag Code Maintenance’ screen. The values for these attribute \ntags can be specified either manually or uploaded from an external system."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "You can invoke this screen by typing ‘CODRVTMT’ in the field at the top right corner of the Application tool bar and clicking the adjoining arrow button.",
+        "Viewing RVT Code Details"
+      ],
+      "summary": "This page explains how to invoke a screen for specifying customer relationship value tag details and viewing RVT code details.",
+      "raw_text": "2-9\nYou can invoke this screen by typing ‘CODRVTMT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou can specify the following details in this screen:\nRVT Code\nSpecify a unique code for customer relationship value tag.\nRVT Description\nSpecify a suitable description for the relationship value tag.\nNote\nYou cannot close an RVT record if it has been used for any customer-RVT code mapping.\n2.6.2 \nViewing RVT Code Details\nYou can view the details of the RVT code and also search for a desired code in the \n‘Relationship Value Code Maintenance Summary’ screen. You can also invoke this screen by \ntyping ‘COSRVTMT’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Authorization Status",
+        "Record Status",
+        "RVT Code",
+        "Maintaining Values for Relationship Tags"
+      ],
+      "summary": "This page describes how to perform a search by selecting criteria such as authorization status, record status, and RVT code, and also explains methods for maintaining values of relationship tags.",
+      "raw_text": "2-10\nThe screen appears as shown below:\nYou can specify any of the following details to perform a search.\nAuthorization Status\nSelect the authorization status of the record you want to search for, from the drop-down list \nprovided. The options possible are:\nAuthorized\nUnauthorized\nRecord Status\nSelect the status of the record which you want search for, from the drop-down list provided. \nThe options possible are:\nOpen \nClosed\nRVT Code\nSelect the code of the relationship value tag you want to search for, from the option list \nprovided.\nClick the ‘Search’ button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n‘Advanced Search’ button.\n2.6.3 \nMaintaining Values for Relationship Tags\nYou can maintain the values for the relationship tags either manually or you can upload the \nsame from an external system. You can maintain the values manually using the ‘Customer \nRelationship Value Tag Code Maintenance’ screen."
+    },
+    {
+      "page_number": 17,
+      "sections": [],
+      "summary": "This page describes how to invoke and use the 'CODCURVT' screen to specify relationship tag values for customers, including details such as customer number, RVT code, source code, and their corresponding descriptions and values.",
+      "raw_text": "2-11\nYou can invoke this screen by typing ‘CODCURVT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou can specify the following details in this screen:\nCustomer Number\nSelect the name of the customer for whom you want to specify the relationship tag value from \nthe option list provided\nCustomer Name\nCustomer name gets displayed automatically once you specify the customer number\nRVT Code\nSelect the relationship tag code for which you want to specify the value, from the option list \nprovided\nRVT Description\nRelationship tag description gets displayed once you specify the RVT code\nRVT Code Value\nSpecify a value for the relationship tag selected\nSource Code\nSelect the source code for the desired external system, from the option list provided\n2.6.4 \nViewing Relationship Tag Value Details\nYou can view the details of the relationship tag values and also search for a desired value in \nthe ‘Customer Relationship Value Code Maintenance Summary’ screen. You can invoke this"
+    },
+    {
+      "page_number": 18,
+      "sections": [],
+      "summary": "This page describes how to perform a search in an application by specifying various criteria such as authorization status, record status, customer number, RVT code, and source code.",
+      "raw_text": "2-12\nscreen by typing ‘COSCURVT’ in the field at the top right corner of the Application tool bar \nand clicking the adjoining arrow button.\nYou can specify any of the following details to perform a search.\nAuthorization Status\nSelect the authorization status of the record you want to search for, from the drop-down list \nprovided. The options possible are:\nAuthorized\nUnauthorized\nRecord Status\nSelect the status of the record which you want search for, from the drop-down list provided. \nThe options possible are:\nOpen \nClosed\nCustomer Number\nSelect the customer number whose relationship value you want to search for, from the option \nlist provided.\nRVT Code\nSelect the relationship value tag code you want to search for, from the option list provided\nRVT Code Value\nSelect the relationship value you want to search for, from the option list provided\nSource Code\nSelect the source code for the desired external system, from the option list provided\nClick the ‘Search’ button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n‘Advanced Search’ button."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Maintaining Relationship Pricing Eligibility Plan",
+        "Creating Eligibility Condition",
+        "Viewing Relationship Pricing Eligibility Plan Details"
+      ],
+      "summary": "This section describes how to maintain and manage eligibility criteria for a relationship pricing plan, including creating conditions and viewing details.",
+      "raw_text": "2-13\n2.7 \nRelationship Pricing Eligibility Plan\nThis section contains the following topics:\nSection 2.7.1, \"Maintaining Relationship Pricing Eligibility Plan\"\nSection 2.7.2, \"Creating Eligibility Condition\"\nSection 2.7.3, \"Viewing Relationship Pricing Eligibility Plan Details\"\n2.7.1 \nMaintaining Relationship Pricing Eligibility Plan\nYou need to maintain the eligibility criteria based on which a customer can avail the benefits \nof scheme. Eligibility criteria can be defined based on various customer attributes maintained \nas User Data Elements (UDE) or pre-shipped set of System Data Elements (SDE) and it helps \nto identify the target customers for a scheme. The eligibility criteria can be defined using \ncustomer RVT codes also. You can maintain the eligibility criteria for a scheme in \n‘Relationship Pricing Eligibility Plan’ screen. \nYou can invoke this screen by typing ‘CODELPLN’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou can maintain the following details in this screen:\nEligibility Plan ID\nSpecify a unique ID for the eligibility plan\nEligibility Plan Description\nSpecify a unique description for the eligibility plan\nRDE Code \nSelect the relationship data element to be used to build the eligibility criteria expression. All \nsystem data elements, user data elements, and customer RVT codes are available for \nselection in the option list provided."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "RDE Parameter Value",
+        "Creating Eligibility Condition"
+      ],
+      "summary": "This page explains how to specify a value for a relationship data element and build an eligibility condition using various elements such as conditions, relationship data elements, functions, operations, and logical operations.",
+      "raw_text": "2-14\nRDE Parameter Value\nSpecify a value for the relationship data element selected\n2.7.2 \nCreating Eligibility Condition\nYou can build the condition to be evaluated to verify the eligibility of a customer by clicking the \n‘Expression Builder’ button. The ‘Expression Builder’ screen is displayed.\nYou can specify the following details to build the eligibility criteria expression:\nCondition\nSpecify the eligibility evaluation condition, using the relationship data elements, functions, \noperations, and logical operations provided.\nRelationship Data Element\nSelect the relationship data element to be used to build the eligibility condition. The RDE \ncodes specified in ‘Relationship Pricing Eligibility Plan’ screen are displayed in the drop-down \nlist provided.\nFunctions\nSelect the mathematical function to be used to build the eligibility condition. The following \noptions are available:\nAbs\nGreatest\nRound\nTrunc\nFloor\nCeil\nPower\nMod\nOperations\nSelect the operator to be used to build the eligibility criteria expression. The following options \nare possible:\n+ (Addition)"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Logical Operations",
+        "Viewing Relationship Pricing Eligibility Plan Details"
+      ],
+      "summary": "This page discusses logical operations for building eligibility criteria expressions and how to view and search details of relationship pricing eligibility plans.",
+      "raw_text": "2-15\n - (Subtraction)\n * (Multiplication)\n/ (Division)\nLogical Operations\nSelect the logical operator to be used to build the eligibility criteria expression. The following \noptions are possible:\nAND\nOR\n<\n<=\n>\n>=\n<>\n2.7.3 \nViewing Relationship Pricing Eligibility Plan Details\nYou can view the details of the eligibility plans and also search for a desired plan in the \n‘Relationship Pricing Eligibility Plan Summary’ screen. You can invoke this screen by typing \n‘COSELPLN’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button. \nThe screen appears as shown below:\nYou can specify any of the following details to perform a search.\nAuthorization Status\nSelect the authorization status of the record you want to search for, from the drop-down list \nprovided. The options possible are:\nAuthorized\nUnauthorized"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Pricing Variance Rule Maintenance",
+        "Maintaining Pricing Variance Rule"
+      ],
+      "summary": "This page describes how to set up and maintain pricing variance rules for currency pairs in a specific system or application.",
+      "raw_text": "2-16\nRecord Status\nSelect the status of the record which you want search for, from the drop-down list provided. \nThe options possible are:\nOpen \nClosed\nEligibility Plan ID\nSelect the eligibility plan you want to search for, from the option list provided.\nClick the ‘Search’ button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n‘Advanced Search’ button.\n2.8 \nPricing Variance Rule Maintenance\nThis section contains the following topics:\nSection 2.8.1, \"Maintaining Pricing Variance Rule\"\nSection 2.8.2, \"Viewing Variance Rule Details\"\n2.8.1 \nMaintaining Pricing Variance Rule\nYou can define the variance rule in ‘Relationship Pricing Variance Rule Maintenance’ screen. \nYou can define a single variance rule to return both buy and sell spread (two values) for a \ncurrency pair for rate variance. While defining exchange rate variance for a module at a \nproduct level using the RP Benefit plan, you can define both buy and sell spread for a currency \npair combination using a single variance rule.\nYou can maintain the price or exchange rate variance rules at module level where you can \nspecify the multiple rule conditions based on which the preferential variance for eligible \ncustomers can be derived. You can specify multiple conditions based on which the \npreferential variance for eligible customers can be derived."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Variance Rule ID",
+        "Variance Rule Description",
+        "Module",
+        "Variance Rule Basis",
+        "Variance Rule Type"
+      ],
+      "summary": "This page describes how to invoke a screen for defining variance rules in an application tool and the details that need to be specified, including unique IDs, descriptions, modules, price component bases, and rule types.",
+      "raw_text": "2-17\nYou can invoke this screen by typing ‘CODVARRL’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou need to specify the following details in this screen:\nVariance Rule ID\nSpecify a unique ID for the variance rule.\nVariance Rule Description\nSpecify a suitable description for the variance rule.\nModule\nSelect the module to which you wish to associate the variance rule, from the option list \nprovided. All valid Flexcube modules codes are displayed in the option list. This field also \nincludes new module code.\nVariance Rule Basis\nThis field indicates the price component basis for which the variance is being defined.Select \nthe price component based on which you want to define the variance rule. The following \noptions are available:\nInterest \nCharge\nCommission \nFees\nExchange Rate\nVariance Rule Type\nSelect the type of the value being returned by the variance rule, from the option list provided. \nThe following options are available for selection:\nFixed Rate - applicable if you have selected ‘Interest’ as Variance Rule Basis. Variance \nrule returns a fixed rate, in this case, which can be used for pricing computation"
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page explains different variance rules and their associated settings for pricing computation, including fixed amount, variance rate, variance amount, and percentage, along with related currency selections.",
+      "raw_text": "2-18\nFixed Amount - variance rule returns a fixed amount, which can be used for pricing com-\nputation\nVariance Rate – applicable if you have selected ‘Interest’ as Variance Rule Basis.  Var-\niance rule returns the variance rate over the base rate computed, which is added to or \nsubtracted from the base rate\nVariance Amount - returns the variance amount to be added to or subtracted from the \nbase rate\nPercentage - returns a percentage to be applied to the base amount or base rate com-\nputed to arrive at the final value\nNote\nThe options ‘Fixed Amount’ and ‘Variance Amount’ are not applicable if you have specified \n‘Interest’ as Variance Rule Basis\nVariance Rule Currency 1\nSelect the currency associated with the variance rule from the option list provided. You need \nto specify this if you have selected ‘Fixed Amount’ or ‘Variance Amount’ as Variance Rule \nType.\nIf you have selected the Variance Rule Basis as ‘Exchange Rate’, you need to select the first \ncurrency of the currency pair from the option list provided.\nNote\nThis is a mandatory field if the variance rule return type is fixed amount or variance \namount.\nVariance Rule Currency 2\nSelect the second currency of the currency pair from the option list provided, if you have \nselected the Variance Rule Basis as ‘Exchange Rate’.\nNote\nThis is a mandatory field if the variance rule return type is fixed amount or variance \namount.\nSpecifying Relationship Data Elements\nRelationship Data Element is a collection of UDE, SDE (module specific and customer \nspecific) and Customer RVT codes which is used to build the variance rule. You can maintain \nthe following details to build the variance rule:\nRelationship Data Element\nSelect the relationship data element to be used to build the variance rule. The option list \ncontains all SDEs, UDEs, and customer RVT codes, available for selection. \nRDE parameter value\nSpecify a value for the RDE parameter selected.\nSpecifying Conditions for Variance Rule\nYou can build the expressions and specify conditions to derive the variance rule using the \n‘Expression Builder’ screen.Click the ‘Expression Builder’ button to invoke the ‘Expression \nBuilder’ screen."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Condition",
+        "Result",
+        "Relationship Data Element",
+        "Function",
+        "Operators",
+        "Logical Operators"
+      ],
+      "summary": "This page describes how to specify conditions and build a variance rule by selecting various elements such as conditions, results, data elements, functions, operators, and logical operators.",
+      "raw_text": "2-19\nYou can specify the conditions for deriving the variance rule, in this screen\nCondition\nSpecify the condition for building the variance rule.\nResult\nSpecify the result of the execution of the variance rule, in terms of rate or amount.\nRelationship Data Element\nSelect the RDE to be used to build the variance rule expression. All the RDEs selected \npreviously for this variance rule are displayed in the option list.\nFunction\nSelect the mathematic function to be used to build the variance rule, from the drop-down list \nprovided. The following options are available:\nAbs\nGreatest\nRound \nTrunc\nFloor\nCeil\nPower\nMod\nOperators\nSelect the operator to be used to build the variance rule expression. The following options are \navailable:\n+ (add)\n- (subtract)\n* (multiply)\n/ (divide)\nLogical Operators\nSelect the logical operator to be used to build the variance rule expression. The following \noptions are available:"
+    },
+    {
+      "page_number": 26,
+      "sections": [],
+      "summary": "This page explains how to set up variance rules based on transaction amounts for interest rates and exchange rates, using logical operators and conditions.",
+      "raw_text": "2-20\nAND\nOR\n<\n<=\n>\n>=\n<>\nYou can specify any number of conditions using combinations of mathematical functions, \noperators, and logical operators.\nThe following example demonstrates the building of a variance rule.\nA variance rule needs to be set up to derive beneficial interest rates for customers based on \nloan amount. If the loan amount is greater than 250,000 then interest rate needs to be \ndecreased by 1% and if the loan amount is greater than 500,000 then the decrease should be \n1.5%.\nExample 2.1 \nFor the above rule, the setup can be as follows\nThe following example demonstrates the return of Buy and Sell spread respectively for the conditions \ndefined for Variance rule.\nA variance rule can be set to derive the beneficial Exchange rates for an eligible customer based on the \ntransaction amount. If the transaction amount is greater than 1, 00,000 then buy spread is 1.1 and sell \nspread 1.5.\nSetup \nValues\nModule\nLD\nRDE\nTXN_AMOUNT\nVariance Rule basis \nInterest rate\nReturn type\nPercentage\nCondition1\nTXN_AMOUNT > 250000 \nAND TXN_AMOUNT < 500000\nResult 1\n-1\nCondition2\nTXN_AMOUNT >= 500000\nResult 2\n-1.5\nSetup \nValues\nModule\nFLEXCUBE Payments\nVariance Rule basis \nExchange rate\nReturn type\nVariance Rate\nCondition\nTXN_AMOUNT > 1,00,000"
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Relationship Data Elements",
+        "Eligibility Criteria",
+        "Viewing Variance Rule Details"
+      ],
+      "summary": "This page outlines rules for calculating buy and sell spreads based on transaction amounts, specifically for USD to INR currency pairs, and describes how to view variance rule details in the application.",
+      "raw_text": "2-21\nRelationship Data Elements\nEligibility Criteria\nIf the transaction amount is greater than 1, 00,000\nSingle Variance Rule would be defined to return both Buy and Sell Spread for Currency Pair CCY1 & \nCCY2 (USD & INR), for Exchange Rate Variance. These would be applied as follows :\nCase-1: Buying USD for INR : Buy Spread =1.1\nCase-2: Selling USD for INR :Sell Spread = 1.5\n2.8.2 \nViewing Variance Rule Details\nYou can view the details of the variance rule and also search for a rule for a specific module \nor type in the ‘Relationship Pricing Variance Rule Maintenance Summary’ screen. You can \ninvoke this screen by typing ‘COSVARRL’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button. \nVariance Currency1\nUSD\nVariance Currency2\nINR\nBuy Spread\n1.1 \nSell Spread\n1.5\nRDECode\nRemarks\nTXN_AMOUNT\nDefined to get the total transaction amount of the cus-\ntomer \nCondition\nTXN_AMOUNT > 1,00000"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Authorization Status",
+        "Record Status",
+        "Variance Rule ID",
+        "Module",
+        "Variance Rule Basis"
+      ],
+      "summary": "This page details the options available for searching a variance rule in a system, including criteria such as authorization status, record status, and module.",
+      "raw_text": "2-22\nThe screen appears as shown below:\nYou can specify the following details to search for a variance rule:\nAuthorization Status\nSelect the authorization status of the record you want to search for, from the drop-down list \nprovided. The options possible are:\nAuthorized\nUnauthorized\nRecord Status\nSelect the status of the record which you want search for, from the drop-down list provided. \nThe options possible are:\nOpen \nClosed\nVariance Rule ID\nSelect the variance rule you want to search for, from the option list provided.\nModule\nSelect the module for which you want view the variance rule details, from the option list \nprovided.\nVariance Rule Basis\nSelect the basis of the variance rule which you want to search for, from the option list \nprovided. The following options are available:\nInterest \nCharge\nCommission \nFees"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Variance Rule Type",
+        "Benefit Plan Maintenance",
+        "Maintaining Benefit Plan"
+      ],
+      "summary": "This page describes how to select variance rule types for searching and provides information on maintaining benefit plans, including defining benefits and viewing details.",
+      "raw_text": "2-23\nVariance Rule Type\nSelect the type of the variance rule you want to search for, from the option list provided. The \nfollowing options are available for selection:\nFixed Rate\nFixed Amount\nVariance Rate\nVariance Amount\nPercentage\nClick the ‘Search’ button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n‘Advanced Search’ button.\n2.9 \nBenefit Plan Maintenance\nThis section contains the following topics:\nSection 2.9.1, \"Maintaining Benefit Plan\"\nSection 2.9.2, \"Viewing Benefit Plan Details\"\nSection 2.9.3, \"Changing Benefit Plan Priority\"\n2.9.1 \nMaintaining Benefit Plan\nYou can define the benefits offered to eligible customers on availing a scheme, in the \n‘Relationship Pricing Benefit Plan’ screen. Benefits can be defined in terms of any of the \nfollowing:\nPreferential interest rates for loan products\nBeneficial charges/fees for various transactions\nPreferential commission variance\nPreferential rates for periodic interest and charges\nPreferential exchange rates"
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "You can define benefits at module level",
+        "Specify the following details in this screen",
+        "Specifying Pricing Benefit Details"
+      ],
+      "summary": "This page explains how to define and specify details for pricing benefit plans at a module level, including fields like Benefit Plan ID, Description, Module, Priority Number, and Product selection.",
+      "raw_text": "2-24\nYou can define benefits at module level, for more than one product and price component \ncombination. You can invoke this screen by typing ’CODBENDT’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button. \nYou can specify the following details in this screen:\nBenefit Plan ID\nSpecify a unique identification for the pricing benefit plan.\nBenefit Plan Description\nSpecify a suitable description for the benefit plan.\nModule\nSelect the module for which you want to maintain the benefit plan from the option list provided. \nThis field will also include a new module code.\nPriority Number\nSpecify the priority number to be associated with the benefit plan for the selected module.\nNote\nThe priority number specified should be unique across all benefit plans for a given module\nSpecifying Pricing Benefit Details\nYou can specify the following pricing preferences for the benefit plan:\nProduct\nSelect the product to which you want to associate the benefit plan from the option list \nprovided. All the valid product codes from the FLEXCUBE Payments module are displayed in \nthe list."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Price Component Type",
+        "Price Components",
+        "Benefit Type",
+        "Variance Type"
+      ],
+      "summary": "This page describes how to select price component types and associated components for a benefit plan, as well as options for specifying the type of variance or waive-off benefit.",
+      "raw_text": "2-25\nPrice Component Type\nSelect the type of the price component from the drop-down list. The following options are \navailable:\nInterest\nCharge\nFee\nCommission\nExchange Rate\nNote\nThe applicable Price Component Type for New Module code is ‘Charges’ and ‘Exchange’ \nRate.\nPrice Components\nSelect the price class components to be associated with the benefit plan. The option list \ndisplays the valid price class components maintained, based on the product code and price \ncomponent type specified. \nFor example, if you select the price component type as Interest for an LD product, the price \ncomponents list will display Interest Class components mapped to the LD product. \nIf you specify price component type as Charge, the price components list will display Charge \nClass components.\nBenefit Type\nSelect the type of benefit from the drop-down list. The following options are available:\nVariance – a price variance is offered as benefit to the customer\nWaive – a price component waive-off is offered as benefit to the customer\nNote\nWaive-off benefit is applicable for price components of type charges, fees and commis-\nsion.\nVariance Type\nSelect the type of variance to be attached to the benefit plan. This is applicable if you have \nspecified ‘Variance’ as the benefit type. The following options are available:\nFixed Rate - fixed rate will be applied over the computed base rate computed\nVariance Rate - variance rate will be either added to or subtracted from the base rate \ncomputed\nFixed Amount - fixed amount will be applied over the computed price amount\nVariance Amount - variance amount will be added to or subtracted from the base \namount computed\nPercentage - percentage of base rate or amount computed will be increased or de-\ncreased from the base rate or amount\nFree Txn – indicates the number of free transactions available for the combination of a \ngiven Module id, Product, Price component type, and Price Component for a calendar \nmonth"
+    },
+    {
+      "page_number": 32,
+      "sections": [],
+      "summary": "This page explains how to configure settings for a feature that requires setup through the 'IC' module and specifies various parameters such as variance currency, value, rule, and buy spread.",
+      "raw_text": "2-26\nNote\nTo avail this feature, you must setup the charge through the ‘IC’ module and select ‘ITEM-\nCOUNT’ as charge basis. For a product, the system overrides the free transaction count \nmaintained at account class level with the free transaction count maintained at the RP ben-\nefit plan level.\nIf you have selected the price component type as ‘Exchange Rate’, you need to select \n‘Variance Rate’ as the variance type.\nVariance Currency 1\nSelect the currency associated with fixed amount or variance amount, from the option list \nprovided. If you have selected the price component type as ‘Exchange Rate’, you need to \nselect the buy currency of the customer from the option list provided.\nVariance Currency 2\nSpecify the sale currency associated with the benefit plan from the option list provided. This \nis applicable only if you have selected the price component type as ‘Exchange Rate’.\nVariance Value\nSpecify the value related to variance. This is applicable if you have selected ‘Variance’ as the \nbenefit type.\nIf you have selected the price component type as ‘Exchange Rate’, the system automatically \ncalculates the variance value using the quotation method maintained for the currency pair.\nVariance Rule\nSelect the variance rule ID to be associated with the benefit plan, from the option list provided.\nOnce you select a variance rule ID, the type of the variance rule gets defaulted in the benefit \nplan and you cannot change this.\nBuy Spread\nSpecify the spread associated with the buy currency.\nSale Spread\nSpecify the spread associated with the sale currency.\nNote\nBuy and Sale spreads are applicable only if you have selected the price component type \nas ‘Exchange Rate’. \nYou can attach the benefit plan to a scheme which in turn can be linked to a customer. You \ncan either manually link the scheme to the customer or you can use the RP batch to link the \nscheme based on the eligibility criteria. When such a pricing scheme having the price \ncomponent type as ‘Exchange Rate’, is linked to a customer, the system derived variance \nvalue is added to the base rate to arrive at the customer specific rate at the transaction level. \nMaximum Value\nSpecify the maximum value for interest rate component type.\nMinimum Value\nSpecify the minimum value for interest rate component type."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Viewing Benefit Plan Details"
+      ],
+      "summary": "This section explains how to view and search for benefit plan details in the 'Relationship Pricing Benefit Plan Summary' screen.",
+      "raw_text": "2-27\nNote\nThe system will validate the final interest rate (after application of RP) against the minimum \nand maximum interest rate maintained at the RP level. If the value of the interest rate is \ngreater than the maximum value, then the system will use the maximum value for compu-\ntation. If the value of the interest rate is lesser than the minimum value then the system will \ncompute the minimum value computation.\n2.9.2 \nViewing Benefit Plan Details\nYou can view the details of the benefit plan and also search for a benefit plan for a specific \nmodule in the ‘Relationship Pricing Benefit Plan Summary’ screen. You can invoke this screen \nby typing ‘COSBENDT’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nYou can search for a benefit plan by specifying the following fields:\nAuthorization Status\nSelect the authorization status of the record you want to search for, from the drop-down list \nprovided. The options possible are:\nAuthorized\nUnauthorized\nRecord Status\nSelect the status of the record which you want search for, from the drop-down list provided. \nThe options possible are:\nOpen \nClosed\nBenefit Plan ID\nSelect the benefit plan you want to search for, from the option list provided.\nModule\nSelect the module for which you want to view the benefit plans from the option list provided."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Changing Benefit Plan Priority",
+        "Relationship Pricing Scheme"
+      ],
+      "summary": "This page describes how to change the priority of a benefit plan and introduces the Relationship Pricing Scheme section.",
+      "raw_text": "2-28\nClick the ‘Search' button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n'Advanced Search' button.\n2.9.3 \nChanging Benefit Plan Priority\nYou can modify the priority value associated with a benefit plan for a given module in the \n‘Relationship Pricing Benefit Priority Maintenance screen. You can invoke this screen by \ntyping ‘CODBENPR’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nYou need to specify the following details to change the priority of a benefit plan.\nModule\nSelect the module for which you want to change the benefit plan priority number. All modules \nfor which benefit plans are defined are displayed in the option list.\nModule Description\nThe description associated with the selected module is displayed here\nBenefit Plan ID\nSelect a module and click the ‘Query’ button to view the valid benefit plan IDs for that module\nBenefit Plan Description\nThe description associated with the benefit plan ID is displayed here\nPriority\nThe priority number linked to the benefit plan is displayed here. You can change the priority \nnumber in such a way that it remains unique for a benefit plan within a given module.\nSelect a benefit plan ID and click the ‘View Benefit Plan’ button to view the details of the \nselected benefit plan.\n2.10 Relationship Pricing Scheme\nThis section contains the following topics:"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Maintaining Pricing Scheme",
+        "Benefit Details Tab",
+        "Eligibility Details Tab",
+        "Viewing Pricing Scheme Details"
+      ],
+      "summary": "This page discusses how to maintain pricing schemes and details about different tabs for benefit and eligibility information.",
+      "raw_text": "2-29\nSection 2.10.1, \"Maintaining Pricing Scheme\"\nSection 2.10.2, \"Benefit Details Tab\"\nSection 2.10.3, \"Eligibility Details Tab\"\nSection 2.10.4, \"Viewing Pricing Scheme Details\"\n2.10.1 \nMaintaining Pricing Scheme\nYou can maintain the details of the pricing scheme in the ‘Relationship Pricing Scheme \nMaintenance’ screen. You can invoke this screen by typing ‘CODSCHME’ in the field at the \ntop right corner of the Application tool bar and clicking the adjoining arrow button. \nYou can maintain the following details specific to the scheme in this screen:\nPricing Scheme ID\nSpecify a unique ID for the pricing scheme\nPricing Scheme ID Description\nSpecify a suitable description for the pricing scheme\nScheme Start Date\nSpecify the effective start date of the pricing scheme. Select the start date by clicking the \nadjoining calendar icon\nScheme End Date\nSpecify the end date of the scheme. Select the end date by clicking the adjoining calendar \nicon"
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Benefit Validity Period",
+        "Benefit Validity Basis",
+        "Scheme Advice Description",
+        "Scheme Status",
+        "Validity Type",
+        "Eligibility Type",
+        "Apply For"
+      ],
+      "summary": "This page outlines various parameters for specifying the validity period and conditions of a pricing scheme, including the basis of validity, status, type of application, and eligibility.",
+      "raw_text": "2-30\nBenefit Validity Period\nSpecify the period through which the benefits will be made available to the customer, in terms \nof days, months or years. This date is applicable under the following conditions:\nScheme ceases to exist, but benefits are given to the customers for a period of time\nScheme is active, but the benefits are given to the customers for a short period of time\nBenefit Validity Basis\nSelect the basis of specifying the validity period, from the drop-down list provided. The \nfollowing options are available:\nDays\nMonths\nYears\nScheme Advice Description\nSpecify a suitable description for the scheme advice\nScheme Status\nStatus of the scheme is displayed as ‘Active’, by default\nNote\nThe status of the scheme changes to ‘Expired’, on the end date specified for the schema\nValidity Type\nSelect the way of applying the scheme benefits from the drop-down list. The following options \nare available:\nOne-Time – benefits are made available to eligible customers only once\nRenewable – scheme benefits are made available to the customers till the expiry of the \nscheme\nPerpetual – benefits offered to eligible customers continue to be available to the cus-\ntomers even if they fall out of the eligibility conditions\nEligibility Type\nSelect the duration of the benefit validity from the drop-down list. The following options are \navailable:\nBenefits Validity Period\nScheme Validity Period \nApply For\nSelect the customers for which the pricing scheme is applicable, from the drop-down list. The \nfollowing options are available:\nNew customer\nAll customers\nExisting customers\nNote\nA customer is identified as new or existing based on their creation date and scheme start \ndate"
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Execution Type",
+        "Benefit End on Scheme Expiry",
+        "Benefit Details Tab",
+        "Eligibility Details Tab"
+      ],
+      "summary": "This page describes how to configure a pricing scheme by selecting execution type, setting benefit expiration, choosing benefit plans, and specifying eligibility criteria.",
+      "raw_text": "2-31\nExecution Type\nSelect the type of application of the pricing scheme, from the drop-down list. The following \noptions are available:\nManual\nAutomatic\nBenefit End on Scheme Expiry\nSelect this checkbox to indicate that the customer scheme benefits expire on reaching the \nscheme end date, in cases where the validity period exceeds the scheme end date.\n2.10.2 \nBenefit Details Tab\nYou can select the benefit plans to be applicable for a pricing scheme in the ‘Benefit Details’ \ntab. The following details related to the benefit plan are displayed:\nBenefit Plan ID\nBenefit Plan Description\nSelect the checkbox against any desired benefit plan to make it a part of the pricing scheme\n2.10.3 \nEligibility Details Tab\nYou can specify the eligibility details of the pricing scheme in the ‘Eligibility Details’ tab.\nYou can specify the following details related to eligibility:\nEligibility Plan ID\nSelect the eligibility criteria for a customer to avail the benefits of a scheme, from the option \nlist provided. All valid eligibility plans are displayed in the list\nEligibility Revision Frequency\nSelect the frequency at which the eligibility plan gets revised, from the drop-down list. The \nfollowing options are possible:"
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Daily",
+        "Weekly",
+        "Fortnightly",
+        "Monthly",
+        "Quarterly",
+        "Half Yearly",
+        "Yearly",
+        "First Revision Date",
+        "Last Revision Date",
+        "Next Revision Date",
+        "Viewing Pricing Scheme Details"
+      ],
+      "summary": "This page outlines the different revision frequencies for an eligibility plan and provides instructions on viewing pricing scheme details through a specific screen in the application.",
+      "raw_text": "2-32\nDaily\nWeekly\nFortnightly\nMonthly\nQuarterly\nHalf Yearly\nYearly\nFirst Revision Date\nThe date on which the first execution of the eligibility plan happened, is displayed here\nLast Revision Date\nThe last revision date of the scheme eligibility is displayed here\nNext Revision Date\nThe date on which next revision of the eligibility plan should happen is displayed here. This \nvalue is arrived at, based on the last revision date and the revision frequency specified.\n2.10.4 \nViewing Pricing Scheme Details\nYou can view the details of the pricing scheme and also search for a scheme in the \n‘Relationship Pricing Scheme Maintenance Summary’ screen. \nYou can invoke this screen by typing ‘COSSCHME’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou can search for a pricing scheme by specifying any of the following fields:\nAuthorization Status\nSelect the authorization status of the record you want to search for, from the drop-down list \nprovided. The options possible are:"
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Customer Scheme",
+        "Section 2.11.1, \"Maintaining Customer Scheme Linkage\"",
+        "Section 2.11.2, \"Benefit Plan Button\"",
+        "Section 2.11.3, \"Viewing Benefit Details Button\"",
+        "Section 2.11.4, \"Viewing Linkage Details\"",
+        "Section 2.11.5, \"Changing Customer Scheme Linkage Status\""
+      ],
+      "summary": "This page describes the search criteria and options for finding records related to pricing schemes, as well as sections detailing customer scheme management.",
+      "raw_text": "2-33\nAuthorized\nUnauthorized\nRecord Status\nSelect the status of the record which you want search for, from the drop-down list provided. \nThe options possible are:\nOpen \nClosed\nPricing Scheme ID\nSelect the pricing scheme you want to search for, from the option list provided\nScheme Start Date\nSpecify the start date of the pricing scheme you want to search for\nScheme End Date\nSpecify the end date of the pricing scheme you want to search for\nValidity Type\nSelect the validity type of the pricing scheme you want to search for, from the drop-down list \nprovided\nApply For\nSelect the customers for which the pricing scheme you want to search for is applicable, from \nthe drop-down list. The following options are available:\nNew customer\nAll customers\nExisting customers\nExecution Type\nSelect the type of application of the pricing scheme you want to search for, from the drop-\ndown list. The following options are available:\nManual\nAutomatic\nClick the ‘Search’ button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n'Advanced Search’ button.\n2.11 Customer Scheme\nThis section contains the following topics:\nSection 2.11.1, \"Maintaining Customer Scheme Linkage\"\nSection 2.11.2, \"Benefit Plan Button\"\nSection 2.11.3, \"Viewing Benefit Details Button\"\nSection 2.11.4, \"Viewing Linkage Details\"\nSection 2.11.5, \"Changing Customer Scheme Linkage Status\"\nSection 2.11.6, \"Viewing Customer Scheme Status Change Details\"\nSection 2.11.7, \"Querying Customer Scheme Linkages \"\nSection 2.11.8, \"Evaluating Customer Scheme Online\"\nSection 2.11.9, \"Viewing Customer Availed Scheme Benefits\""
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Maintaining Customer Scheme Linkage"
+      ],
+      "summary": "This section explains how to link a customer to a pricing scheme in the 'Customer Scheme Manual Linkage' screen and details the fields that can be specified during this process.",
+      "raw_text": "2-34\n2.11.1 \nMaintaining Customer Scheme Linkage\nYou can link a customer to a pricing scheme in the ‘Customer Scheme Manual Linkage’ \nscreen. The benefits of the scheme are applied to the customer for the validity period \nspecified. \nYou can invoke this screen by typing ‘CODCUSML’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou can specify the following details in this screen:\nCustomer Number\nSelect the customer for whom you want to link the pricing scheme, from the option list \nprovided. All customers who have opted for relation pricing are displayed in the list.\nCustomer Name\nName of the customer gets displayed, once you select the customer number.\nCustomer Account\nSpecify the customer account to which the Relationship Pricing scheme should be linked. The \noption list displays all valid accounts of the selected customer. \nYou may also select ‘ALL’ to link all the accounts of the selected customer to schemes.\nAccount Branch\nOn selecting the account number, the system displays the branch of the account.\nAccount Currency \nOn selecting the account number, the system displays the currency of the account.\nScheme ID\nSelect the scheme ID to be linked to the customer number, from the option list provided\nNote\nYou can link more than one scheme to a customer number"
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Scheme Description",
+        "Benefit Plan Button"
+      ],
+      "summary": "This page describes how to view and understand benefit plans associated with a selected scheme, including details such as module, benefit plan ID, description, and priority number.",
+      "raw_text": "2-35\nScheme Description\nThe description associated with the scheme gets displayed, once you select the scheme ID\nBenefit Start Date\nSpecify the date on which the scheme benefits starts to be applied for the customer\nBenefit End Date\nSpecify the date on which the scheme benefits cease to exist for the customer\n2.11.2 \nBenefit Plan Button\nSelect a benefit scheme and click the ‘View Benefit Plan’ button to view the benefit plans \nassociated with the selected scheme.\nThe following details related to the benefit are displayed:\nModule - module to which the benefit is related\nBenefit Plan ID - unique identification of the benefit plan \nBenefit Plan Description - description linked to the benefit plan ID \nPriority Number - priority number assigned to the benefit plan"
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Viewing Benefit Details Button"
+      ],
+      "summary": "This section describes how to view detailed information about a selected benefit plan by clicking on the 'View Benefit Details' button.",
+      "raw_text": "2-36\n2.11.3 \nViewing Benefit Details Button\nSelect a row in ‘Benefit Details’ and click the ‘View Benefit Details’ button to view the details \nassociated with the selected benefit plan. Thesystem displays ‘Relationship Pricing Benefit \nPlan Maintenance’ screen.\nThe details associated with the selected benefit plan are displayed here"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Viewing Linkage Details"
+      ],
+      "summary": "This page describes how to view and search for customer scheme linkages in the 'Customer Scheme Manual Linkage Summary' screen.",
+      "raw_text": "2-37\nIf the benefit selected in ‘Benefit Details’ screen is related to Consumer Lending module, the \nfollowing screen gets displayed.\nThe following details related to the benefit plan selected are displayed:\nBenefit or promotion plan identification and description\nStart date and end date of the promotion\nTenor details and the holiday period details\nRelated UDEs and corresponding values\nSchedule details of the principal and interest components\n2.11.4 \nViewing Linkage Details\nYou can view the details of customer scheme linkages and also search for a customer in the \n‘Customer Scheme Manual Linkage Summary’ screen. You can invoke this screen by typing"
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Changing Customer Scheme Linkage Status"
+      ],
+      "summary": "This section describes how to search for records based on various parameters and how to change the status of customer scheme linkages.",
+      "raw_text": "2-38\n‘COSCUSML’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button.\nYou can search the records based on one or more of the following parameters:\nAuthorization Status\nRecord Status\nCustomer Number\nCustomer Account\nAccount Branch\nClick the ‘Search’ button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n'Advanced Search’ button.\n2.11.5 \nChanging Customer Scheme Linkage Status\nYou can view and change the status of customer scheme linkages in the ‘Customer Scheme \nLinkage Status Change’ screen. All the schemes linked to the customer are displayed in this \nscreen, with the respective status."
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "You can invoke this screen by typing ‘CODSCHST’ in the field at the top right corner of the Application tool bar and clicking the adjoining arrow button.",
+        "Customer Number",
+        "Customer Name",
+        "Customer Account",
+        "Account Branch",
+        "Scheme ID",
+        "Scheme Description",
+        "Viewing Scheme Details"
+      ],
+      "summary": "This page describes how to invoke a screen for changing scheme linkage status, including details on specifying customer information, selecting schemes, and viewing related details.",
+      "raw_text": "2-39\nYou can invoke this screen by typing ‘CODSCHST’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou can specify the following details in this screen:\nCustomer Number\nSelect the customer number, to search for changing the scheme linkage status.\nCustomer Name\nThe system displays the name of the specified customer ID based on the customer number \nselected.\nCustomer Account\nSelect the customer account, to search for changing the scheme linkage status. The option \nlist displays all valid accounts of the selected customer. \nYou may also select ‘ALL’ to update the scheme linkage of all accounts of the selected \ncustomer.\nAccount Branch\nOn selecting the customer account. the system displays the account branch.\n Scheme ID\nSelect the ID of the scheme whose status you want to change, from the option list\nScheme Description\nThe description associated with the scheme gets displayed, once you select the Scheme ID\nViewing Scheme Details\nThe following details related to the scheme are displayed.\nScheme ID\nEligibility plan ID\nBenefit start date and end date\nLinkage status and the status of previous linkage \nLinkage Date\nDate of last status change and the reason for change"
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "Linkage Status",
+        "Viewing Customer Scheme Status Change Details"
+      ],
+      "summary": "This page describes how to select and view the status of scheme linkages, including available statuses and search criteria for details.",
+      "raw_text": "2-40\nLinkage Status\n Select the status of the scheme linkage from the drop-down list provided. The following \noptions are available:\nActive\nWaiting for Acceptance\nExpired\nExpired/Renewable\nRejected\n2.11.6 \nViewing Customer Scheme Status Change Details\nYou can view the details of scheme linkage status and also search for a linkage in the \n‘Customer Scheme Status Change Summary’ screen. \nYou can invoke this screen by typing ‘COSSCHST’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou can specify any of the following details to perform a search:\nAuthorization Status\nRecord Status\nScheme ID\nCustomer Number\nCustomer Account\nAccount Branch\nClick the ‘Search’ button to search for records according to the search criteria specified. You \ncan also perform an advanced search using combinations of conditions by clicking the \n'Advanced Search’ button."
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "Querying Customer Scheme Linkages"
+      ],
+      "summary": "This section describes how to view and query scheme linkages for a customer in the 'Customer Scheme Linkage Query' screen.",
+      "raw_text": "2-41\n2.11.7 \nQuerying Customer Scheme Linkages \nYou can view the schemes linked to a customer number in ‘Customer Scheme Linkage Query’ \nscreen. You can invoke this screen by typing ‘CODSCLQY ’ in the field at the top right corner \nof the Application tool bar and clicking the adjoining arrow button. \nCustomer Number\nSelect the customer whose scheme linkages you would like to change. All valid customer \nnumbers with scheme linkages are displayed in the option list.\nCustomer Account\nSelect the customer account whose scheme linkages you need to change. The option list \ndisplays all valid accounts of the selected customer.\nYou can also select ‘ALL’ to query the linkage details of all accounts of the customer.\nAccount Branch\nOn selecting the customer account, the system displays the account branch.\nLinkage Status\nSelect the linkage status of the scheme which you want to modify. The following options are \navailable:\nAll\nActive\nWaiting for Acceptance\nExpired\nExpired/Renewable\nRejected\nClick the ‘Query’ button to get the details of the schemes attached to the customer in ‘Scheme \nDetails’.\nScheme ID\nAll scheme IDs linked to the selected customer are displayed\nEligibility Plan ID\nThe eligibility plan ID maintained for the scheme is displayed here. For manual linkages the \neligibility plan ID is displayed as MANUAL."
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Benefit Start Date",
+        "Benefit End Date",
+        "Current Status",
+        "You can change the status of the scheme linkages under the following conditions:",
+        "Status Change Reason",
+        "Last Status Change Date",
+        "Previous Linkage Status",
+        "Evaluating Customer Scheme Online"
+      ],
+      "summary": "This page describes various fields and statuses related to customer scheme applications, including start and end dates, current status, eligibility evaluation process, and status change details.",
+      "raw_text": "2-42\nBenefit Start Date\nThe date when the scheme was applied to the customer is displayed\nBenefit End Date\nThe end date of the benefits received by the customer is displayed here\nCurrent Status\nThe current status of the scheme application to the customer is displayed here. The following \nvalues are possible:\nActive\nExpired \nExpired/Renewable\nWaiting for Acceptance\nRejected\nYou can change the status of the scheme linkages under the following conditions:\nReject –  this status can be selected if the current status of scheme linkage is any of the \nfollowing:\n– \nActive \n– \nWaiting for Acceptance\n– \nExpired/Renewable\nOn rejection, the linkage status changes to ‘Rejected’\nAccept - this status can be selected if the current status of scheme linkage is ‘Waiting \nfor Acceptance’. On acceptance the linkage status changes to ‘Active’\nStatus Change Reason\nThe reason for changing the status is indicated here\nLast Status Change Date\nThe date on which the customer scheme linkage status was last changed, either by the \nsystem or manually, is displayed here\nPrevious Linkage Status\nThe previous status of linkage, in case the current linkage status is changed manually or by \nsystem, is displayed here\n2.11.8 \nEvaluating Customer Scheme Online\nYou can perform an online evaluation of customer eligibility for a scheme using the ‘Online \nCustomer – Scheme Eligibility Evaluation’ screen. All eligibility plans associated with active \nschemes are evaluated and if the customer is eligible for a scheme, then customer scheme \nlinkage gets established."
+    },
+    {
+      "page_number": 49,
+      "sections": [],
+      "summary": "This page describes how to invoke a screen for evaluating customer eligibility for a scheme and outlines the details that need to be specified, including Customer Number, Scheme ID, and Scheme Description.",
+      "raw_text": "2-43\nYou can invoke this screen by typing ‘CODELEBT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nYou need to specify the following details to evaluate the customer eligibility for a scheme:\nCustomer Number\nSelect the customer number for which you would like to evaluate scheme eligibility, from the \noption list provided.\nCustomer Name\nThe name of the selected customer is displayed here\nScheme ID\nSelect the scheme ID for which you want to perform eligibility evaluation, from the option list \nprovided\nScheme Description\nThe description associated with the selected scheme is displayed here"
+    },
+    {
+      "page_number": 50,
+      "sections": [],
+      "summary": "This page describes how to submit a batch for processing and monitor its status using the 'Batch Monitor' button, with possible statuses including Process in Progress, Unprocessed, and Process Completed.",
+      "raw_text": "2-44\nClick the ‘Ok’ button to submit the batch for processing. After submitting the batch, click ‘Batch \nMonitor’ button to view the status of the batch. The status of the process is displayed in the \n‘Journal Batch Log’ screen.\nThe status of the process can be any of the following:\nW – Process in Progress\nU – Unprocessed\nP – Process Completed"
+    },
+    {
+      "page_number": 51,
+      "sections": [
+        "Viewing Customer Availed Scheme Benefits"
+      ],
+      "summary": "This section explains how to view details of benefits availed by customers through the 'Customer Availed Scheme Benefit Details' screen and lists the fields needed for querying this information.",
+      "raw_text": "2-45\n2.11.9 \nViewing Customer Availed Scheme Benefits\nYou can view the details of the benefits availed by the customers in the ‘Customer Availed \nScheme Benefit Details’ screen. You can invoke this screen by typing ‘CODCUSCH’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button.\nYou need to specify the following to view the benefit details availed by the customer:\nCustomer Number\nSelect the customer number for which you would like to view the benefit details\nCustomer Name\nThe name of the selected customer is displayed here\nScheme ID\nSelect the scheme availed by the customer, whose details you want to view\nScheme Description\nThe description associated with the selected scheme is displayed here\nFrom Date\nSpecify the date from which the scheme is applicable for the customer\nTo Date\nSpecify the date up to which the scheme is applicable to the customer\nClick the ‘QUERY’ button to view the following details related to the benefits availed by the \ncustomer.\nCustomer Number\nCustomer Account Number\nTransaction Reference Number\nBenefit Processing Date\nScheme ID\nBenefit Plan ID\nEligibility Plan ID"
+    },
+    {
+      "page_number": 52,
+      "sections": [
+        "Processing Relationship Pricing Batch",
+        "Changing Scheme Status",
+        "Evaluating Scheme Eligibility"
+      ],
+      "summary": "This section describes the processing of relationship pricing batches, including changing scheme status and evaluating eligibility for customers who have opted for relationship pricing.",
+      "raw_text": "2-46\nPrice Component\nBenefit Type\nVariance Type\nVariance Value\nVariance Currency\nOriginal Computed Price\nFinal Price\nPrice Currency\n2.12 Relationship Pricing Batch\nThis section contains the following topics:\nSection 2.12.1, \"Processing Relationship Pricing Batch\"\nSection 2.12.2, \"Relationship Pricing Support for External Product Processors\"\n2.12.1 \nProcessing Relationship Pricing Batch\nRelationship pricing batch evaluates the eligibility criteria for customers who have opted for \nrelationship pricing, and links the schemes applicable to the customers. The customer linkage \nstatus also gets changed during the batch. This batch is run at the head office level, during \nEOD, after marking End of Financial Input (EOFI). \nThe batch process involves the following main activities:\nChanging scheme status\nEvaluating scheme eligibility\nApplying scheme benefits\nThe linkage status of customers, whose benefits have expired, will change to ‘Expired’ during \nEOD as part of the batch\n2.12.1.1 Changing Scheme Status\nThe status change of the scheme happens before the evaluation of the scheme eligibility. On \nthe end date of the scheme, the status of the scheme changes to ‘Expired’. If the scheme has \nthe ‘Benefits End on Scheme Expiry’ option enabled, then all the related customer scheme \nlinkages will be marked as ‘Expired’.\n2.12.1.2 Evaluating Scheme Eligibility\nAll the active schemes with first revision date or next revision date less than or equal to \napplication date are considered for eligibility evaluation. \nFollowing validations are carried out for schemes with different validity types:\nPerpetual validity – customers created within the benefit period are not considered for \neligibility evaluation\nOne-time validity – customers created within the benefit period are considered for eli-\ngibility evaluation.  If the customer does not satisfy the eligibility conditions, then the \nbenefits will not be given to customer again. The status of such customer scheme link-\nages will be marked as ‘Expired’.\nRenewable validity – customers created within the benefit period are considered for \nevaluation. If the customer does not satisfy the eligibility conditions, then the benefits"
+    },
+    {
+      "page_number": 53,
+      "sections": [
+        "New Customers",
+        "Existing Customers"
+      ],
+      "summary": "This page outlines the eligibility criteria for new and existing customers to avail relationship pricing schemes, including conditions for linking and status updates.",
+      "raw_text": "2-47\nwill not be given to customer till the customer becomes eligible again. The status of such \ncustomer scheme linkages will be marked as ‘Expired’/’Renewable’.\nThe eligibility evaluation is carried out as follows in case of new customers and existing \ncustomers:\nNew Customers\nFollowing conditions need to be satisfied for a new customer to avail the benefits of \nrelationship pricing schemes:\nCustomer should have opted for relationship pricing\nCustomer creation date should not be less than the scheme start date\nCustomer should satisfy the eligibility criteria associated with scheme eligibility plan\nCustomer scheme linkage is established with status as ‘Active’ if the scheme execution type \nis ‘Automatic’. The status will be ‘Waiting for Acceptance’ if the scheme execution type is \n‘Manual’.\nExisting Customers\nFor existing customers, the customer creation date should be less than scheme start date.\nAt the end of the batch process, the next revision frequency for the scheme eligibility gets \nupdated based on revision frequency.\nNote\nNote the following:\n– \nEligibility evaluation will not happen for customers who already have the schemes \nlinked to them, after the benefit validity period, if the scheme eligibility type is Benefit \nValidity period.\n– \nEligibility evaluation will happen for customers who already have the schemes \nlinked to them, after the benefit validity period, if the scheme eligibility type is \nScheme period.\n– \nEligibility evaluation will not happen till the end of the benefit period, for customers \nwhose schemes have been manually linked \n2.12.1.3 Applying Scheme Benefits\nThe benefits of the scheme are applied to customers only after the eligibility evaluation of the \nscheme during EOD. The eligible customers can avail the benefits of the scheme only from \nnext branch working day. The following activities are involved in the application of scheme \nbenefits for eligible customers:\nThe system checks if the customer is eligible for any scheme benefits for the product \nand price component associated with the transactions or contracts involved, and for el-\nigible customers the pricing process is changed based on the benefit type.\nIf the customer has more than one benefit plan for the same product and price compo-\nnent combination, then benefit plan with the least priority number is taken up for pro-\ncessing.\nIf the benefit plan type is waive-off, then the price component computation is done and \nthe final price will be waived off."
+    },
+    {
+      "page_number": 54,
+      "sections": [],
+      "summary": "This page discusses the application of variance rates or amounts in benefit plans and checks the final rate against set limits, as well as describes interactions between banking product components and FLEXCUBE RP module for external pricing support.",
+      "raw_text": "2-48\nIf the benefit plan is of variance type, then the variance rate or amount is applied. If a \nvariance rule is attached to the price component, then the variance rule is evaluated to \nget the variance rate or amount.\nAfter applying benefit variance, the final rate or amount will be checked against the min-\nimum and maximum limits set at module product level.\n2.12.2 \nRelationship Pricing Support for External Product Processors\nFlowchart for Product Components Interaction with Flexcube for RP.\nAbove diagram depicts the high level interactions between the banking product components \nand FLEXCUBE RP module to support external pricing."
+    },
+    {
+      "page_number": 55,
+      "sections": [],
+      "summary": "",
+      "raw_text": "3-1\n3. Function ID Glossary\nC\nCODBENDT ....................2-24\nCODBENPR ....................2-28\nCODCURVT ....................2-11\nCODCUSCH ....................2-45\nCODELEBT .....................2-43\nCODELPLN .....................2-13\nCODRVTMT ......................2-9\nCODSCHME ....................2-29\nCODSCHST ....................2-39\nCODSCLQY ....................2-41\nCODUDEMT ......................2-3\nCODVARRL .................... 2-17\nCOSCURVT .................... 2-12\nCOSCUSML .................... 2-38\nCOSELPLN ..................... 2-15\nCOSRVTMT ...................... 2-9\nCOSSCHME ................... 2-32\nCOSSCHST .................... 2-40\nCOSUDEMT ...................... 2-5\nCOSVARRL .................... 2-21\nR\nRELATIONSHIP PRICING SUPPORT \n2-48"
+    }
+  ]
+}

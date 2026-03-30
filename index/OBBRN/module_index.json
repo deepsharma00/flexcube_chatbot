@@ -1,0 +1,54 @@
+{
+  "product": "OBBRN",
+  "module_count": 6,
+  "modules": [
+    {
+      "name": "Branch",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Common Core",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Installation",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Party Services",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Security Management System (SMS)",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Troubleshooting",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    }
+  ]
+}

@@ -1,0 +1,979 @@
+{
+  "source": "FlexCube/FCUBS/Current Accounts and Savings Accounts/Signature Verification User Guide-fcubs-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 31,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces a document's preface and provides an overview of signature verification, including different types of signatories and system features.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Signature Verification module of Oracle FLEXCUBE and outlines the manual's structure, intended audience, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Signature Verification module of Oracle FLEXCUBE and outlines the manual's structure, intended audience, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Signature Verification module of Oracle FLEXCUBE and outlines the manual's structure, intended audience, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Signature Verification module of Oracle FLEXCUBE and outlines the manual's structure, intended audience, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Signature Verification module of Oracle FLEXCUBE and outlines the manual's structure, intended audience, and accessibility information.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Signature Verification - An Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 The Concept of Customer Signatories",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 The Concept of Account Signatories",
+          "start_page": 7
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Main Features of the System",
+          "start_page": 8
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents for the Messaging module, including chapters on account signatories, signature verification, and function ID glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents for the Messaging module, including chapters on account signatories, signature verification, and function ID glossary.",
+      "cross_references": [
+        {
+          "structure": "4",
+          "title": "3. Maintaining Customer Signatories",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Customer Signature and Image Upload",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Customer Image and Signature",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Signature/Image Button",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Operations on a CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Performing Operations on CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Deleting a CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Authorizing a CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Modifying a CIF Signatory Record",
+          "start_page": 13
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Detailed Viewing of a CIF Signatory Record",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Customer Signature and Image History",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Viewing Customer Signature Change History",
+          "start_page": 13
+        },
+        {
+          "structure": "6",
+          "title": "5. Verification of Signatures",
+          "start_page": 26
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Signature Verification",
+          "start_page": 26
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Verifying Signatures On- Line",
+          "start_page": 26
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Displaying Signatures with the Necessary Approval Limit",
+          "start_page": 28
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Displaying All the Account Signatories",
+          "start_page": 28
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Verifying Signatures Off-Line",
+          "start_page": 28
+        },
+        {
+          "structure": "5",
+          "title": "4. Maintaining Account Signatories",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Signatory Details",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Maintaining Signatory Details",
+          "start_page": 15
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Operations on Account Signatory Record",
+          "start_page": 20
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Performing Operations on Account Signatory Record",
+          "start_page": 21
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Deleting an Account Signatory Record",
+          "start_page": 21
+        },
+        {
+          "structure": "5.2.3",
+          "title": "4.2.3 Modifying an Account Signatory Record",
+          "start_page": 21
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Customer Account Signatory History",
+          "start_page": 21
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Viewing Customer Account Signatory History",
+          "start_page": 21
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Customer Signature View",
+          "start_page": 22
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Viewing Customer Signature",
+          "start_page": 23
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Instruction Details Button",
+          "start_page": 25
+        },
+        {
+          "structure": "5.4.3",
+          "title": "4.4.3 Viewing Customer Image",
+          "start_page": 25
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Signature Verification - An Overview",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of Signature Verification in Oracle FLEXCUBE, including its purpose and main features, as well as details on customer signatories.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of Signature Verification in Oracle FLEXCUBE, including its purpose and main features, as well as details on customer signatories.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 The Concept of Customer Signatories",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of Signature Verification in Oracle FLEXCUBE, including its purpose and main features, as well as details on customer signatories.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 The Concept of Account Signatories",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page provides an overview of Signature Verification in Oracle FLEXCUBE, including its purpose and main features, as well as details on customer signatories.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Main Features of the System",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This section describes the system's features for verifying signatures based on approval limits and transaction amounts, as well as the option to verify signatures online or offline.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Maintaining Customer Signatories",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page describes how to capture and link customer signatures through various screens, including uploading images and maintaining signatory details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Customer Signature and Image Upload",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page describes how to capture and link customer signatures through various screens, including uploading images and maintaining signatory details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Maintaining Customer Image and Signature",
+      "start_page": 9,
+      "end_page": 11,
+      "summary": "This page describes how to capture and link customer signatures through various screens, including uploading images and maintaining signatory details.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 The Concept of Account Signatories",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 The Concept of Customer Signatories",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Signature/Image Button",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page explains how to set up and manage customer signatures in a banking system, including default settings, upload procedures, and replication options.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Operations on a CIF Signatory Record",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses various operations that can be performed on a CIF signatory record, including deleting, authorizing, and modifying the record.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Performing Operations on CIF Signatory Record",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses various operations that can be performed on a CIF signatory record, including deleting, authorizing, and modifying the record.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.2",
+      "title": "3.2.2 Deleting a CIF Signatory Record",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses various operations that can be performed on a CIF signatory record, including deleting, authorizing, and modifying the record.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.3",
+      "title": "3.2.3 Authorizing a CIF Signatory Record",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page discusses various operations that can be performed on a CIF signatory record, including deleting, authorizing, and modifying the record.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.4",
+      "title": "3.2.4 Modifying a CIF Signatory Record",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page describes how to modify and view signatory records in a Customer Information File (CIF), including saving changes, invoking the maintenance screen, and viewing signature change history.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.5",
+      "title": "3.2.5 Detailed Viewing of a CIF Signatory Record",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page describes how to modify and view signatory records in a Customer Information File (CIF), including saving changes, invoking the maintenance screen, and viewing signature change history.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Customer Signature and Image History",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page describes how to modify and view signatory records in a Customer Information File (CIF), including saving changes, invoking the maintenance screen, and viewing signature change history.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.1",
+      "title": "3.3.1 Viewing Customer Signature Change History",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This page describes how to modify and view signatory records in a Customer Information File (CIF), including saving changes, invoking the maintenance screen, and viewing signature change history.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Maintaining Account Signatories",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This section explains how to link CIF signatories with specific accounts and manage account messages in a banking context.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Signatory Details",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This section explains how to link CIF signatories with specific accounts and manage account messages in a banking context.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Maintaining Signatory Details",
+      "start_page": 15,
+      "end_page": 20,
+      "summary": "This section explains how to link CIF signatories with specific accounts and manage account messages in a banking context.",
+      "cross_references": [
+        {
+          "structure": "4.1",
+          "title": "3.1 Customer Signature and Image Upload",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Customer Image and Signature",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Signature/Image Button",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Operations on a CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Performing Operations on CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Deleting a CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Authorizing a CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Modifying a CIF Signatory Record",
+          "start_page": 13
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Detailed Viewing of a CIF Signatory Record",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Customer Signature and Image History",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Viewing Customer Signature Change History",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Operations on Account Signatory Record",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This page describes how to view signatures/images for a customer account and provides details about the operations that can be performed on an account signatory record.",
+      "cross_references": [
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Authorizing a CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Performing Operations on CIF Signatory Record",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Deleting a CIF Signatory Record",
+          "start_page": 12
+        }
+      ]
+    },
+    {
+      "structure": "5.2.1",
+      "title": "4.2.1 Performing Operations on Account Signatory Record",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This page describes how to perform operations such as deleting and modifying account signatories, including the necessary steps and conditions for each operation.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.2",
+      "title": "4.2.2 Deleting an Account Signatory Record",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This page describes how to perform operations such as deleting and modifying account signatories, including the necessary steps and conditions for each operation.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.3",
+      "title": "4.2.3 Modifying an Account Signatory Record",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This page describes how to perform operations such as deleting and modifying account signatories, including the necessary steps and conditions for each operation.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Customer Account Signatory History",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This page describes how to perform operations such as deleting and modifying account signatories, including the necessary steps and conditions for each operation.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.1",
+      "title": "4.3.1 Viewing Customer Account Signatory History",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page describes how to perform operations such as deleting and modifying account signatories, including the necessary steps and conditions for each operation.",
+      "cross_references": [
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Viewing Customer Signature Change History",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "5.4",
+      "title": "4.4 Customer Signature View",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This page describes how to invoke a screen for viewing signature history details of an account and lists the details displayed on the screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.1",
+      "title": "4.4.1 Viewing Customer Signature",
+      "start_page": 23,
+      "end_page": 25,
+      "summary": "This page describes how to view customer signature and image details on the 'Customer Account' field of the 'Customer Signature and Image View' screen, including various account-related information.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.2",
+      "title": "4.4.2 Instruction Details Button",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page describes how to view customer instructions and images through specific buttons and hotkeys in a system interface.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.3",
+      "title": "4.4.3 Viewing Customer Image",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page describes how to view customer instructions and images through specific buttons and hotkeys in a system interface.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Verification of Signatures",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page explains how to verify signatures during debit transactions and details the information displayed for verification purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Signature Verification",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page explains how to verify signatures during debit transactions and details the information displayed for verification purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.1",
+      "title": "5.1.1 Verifying Signatures On- Line",
+      "start_page": 26,
+      "end_page": 28,
+      "summary": "This page explains how to verify signatures during debit transactions and details the information displayed for verification purposes.",
+      "cross_references": [
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Maintaining Signatory Details",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Signatory Details",
+          "start_page": 15
+        }
+      ]
+    },
+    {
+      "structure": "6.1.2",
+      "title": "5.1.2 Displaying Signatures with the Necessary Approval Limit",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page explains how to display signatures for verification based on approval limits in the Data Entry module, and provides options for displaying all signatories or only those whose limits match the transaction amount.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.3",
+      "title": "5.1.3 Displaying All the Account Signatories",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page explains how to display signatures for verification based on approval limits in the Data Entry module, and provides options for displaying all signatories or only those whose limits match the transaction amount.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.4",
+      "title": "5.1.4 Verifying Signatures Off-Line",
+      "start_page": 28,
+      "end_page": 31,
+      "summary": "This page explains how to display signatures for verification based on approval limits in the Data Entry module, and provides options for displaying all signatories or only those whose limits match the transaction amount.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Function ID Glossary",
+      "start_page": 31,
+      "end_page": 33,
+      "summary": "This page appears to list function IDs and their corresponding references without any section titles.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for signature verification in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Signature Verification User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including details about their user guide copyright and usage terms.",
+      "raw_text": "Signature Verification User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Signature Verification - An Overview"
+      ],
+      "summary": "This page introduces a document's preface and provides an overview of signature verification, including different types of signatories and system features.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nSignature Verification - An Overview ..................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nThe Concept of Customer Signatories ....................................................................  2-1\n2.3 \nThe Concept of Account Signatories.......................................................................  2-1\n2.4 \nMain Features of the System...................................................................................  2-2\n3. \nMaintaining Customer Signatories ........................................................ 3-1\n3.1 \nCustomer Signature and Image Upload ..................................................................  3-1\n3.1.1  \nMaintaining Customer Image and Signature ..............................................  3-1\n3.1.2  \nSignature/Image Button..............................................................................  3-3\n3.2 \nOperations on a CIF Signatory Record ...................................................................  3-4\n3.2.1  \nPerforming Operations on CIF Signatory Record.......................................  3-4\n3.2.2  \nDeleting a CIF Signatory Record................................................................  3-4\n3.2.3  \nAuthorizing a CIF Signatory Record...........................................................  3-4\n3.2.4  \nModifying a CIF Signatory Record..............................................................  3-5\n3.2.5  \nDetailed Viewing of a CIF Signatory Record ..............................................  3-5\n3.3 \nCustomer Signature and Image History ..................................................................  3-5\n3.3.1  \nViewing Customer Signature Change History ............................................  3-5\n4. \nMaintaining Account Signatories ........................................................... 4-1\n4.1 \nSignatory Details .....................................................................................................  4-1\n4.1.1  \nMaintaining Signatory Details .....................................................................  4-1\n4.2 \nOperations on Account Signatory Record ...............................................................  4-6\n4.2.1  \nPerforming Operations on Account Signatory Record................................  4-7\n4.2.2  \nDeleting an Account Signatory Record.......................................................  4-7\n4.2.3  \nModifying an Account Signatory Record ....................................................  4-7\n4.3 \nCustomer Account Signatory History.......................................................................  4-7\n4.3.1  \nViewing Customer Account Signatory History............................................  4-7\n4.4 \nCustomer Signature View........................................................................................  4-8\n4.4.1  \nViewing Customer Signature......................................................................  4-9\n4.4.2  \nInstruction Details Button..........................................................................  4-11\n4.4.3  \nViewing Customer Image .........................................................................  4-11\n5. \nVerification of Signatures ....................................................................... 5-1\n5.1 \nSignature Verification ..............................................................................................  5-1\n5.1.1  \nVerifying Signatures On- Line.....................................................................  5-1\n5.1.2  \nDisplaying Signatures with the Necessary Approval Limit..........................  5-3\n5.1.3  \nDisplaying All the Account Signatories.......................................................  5-3\n5.1.4  \nVerifying Signatures Off-Line......................................................................  5-3"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Function ID Glossary"
+      ],
+      "summary": "This section provides definitions for function IDs.",
+      "raw_text": "6. \nFunction ID Glossary ............................................................................... 6-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This page introduces the Signature Verification module of Oracle FLEXCUBE and outlines the manual's structure, intended audience, and accessibility information.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help acquaint you with the Signature Verification (SV) module of \nOracle FLEXCUBE.\nSignature Verification (SV) facilitates with the automated signature scanning and retrieval \nprocedure which is optimized and is more efficient compared to the manual scanning of \nsignatures.\nIn addition to this User Manual, you can find answers to specific features and procedures, in \nthe Online Help. It can be invoked by choosing Help Contents from the Help Menu of the \nsoftware. You can further obtain information about to a particular field by placing the cursor \non the relevant field and striking the <F1> key on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nBack office data entry clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/Beginning of Day\nFinancial Controller/Product Manag-\ners\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It \nalso lists the various chapters covered in this User Manual.\nChapter 2\nSignature Verification - An Overview is a snapshot of the features \nthat the module provides.\nChapter 3\nMaintaining Customer Signatories  explains the process of captur-\ning and linking customer signatures through the Signature Verifica-\ntion module."
+    },
+    {
+      "page_number": 6,
+      "sections": [],
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents for the Messaging module, including chapters on account signatories, signature verification, and function ID glossary.",
+      "raw_text": "1-2\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\n1.6 \nRelated Documents\nYou may need to refer to any or all of the User Manuals while working on the Messaging \nmodule:\nProcedures\nChapter 4\nMaintaining Account Signatories discusses the procedure to link \nand maintain the Account Signatory Details derived from CIF Sig-\nnatory Details screen.\nChapter 5\nVerification of Signatures discusses details pertaining to signature \nverification while processing a transaction involving an account for \nwhich signatures have been maintained.\nChapter 6\nFunction ID Glossary has alphabetical listing of Function/Screen \nID's used in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Signature Verification - An Overview",
+        "The Concept of Customer Signatories"
+      ],
+      "summary": "This page provides an overview of Signature Verification in Oracle FLEXCUBE, including its purpose and main features, as well as details on customer signatories.",
+      "raw_text": "2-1\n2. Signature Verification - An Overview\n2.1 \nIntroduction\nSignature Verification (SV) is the signature scanning and retrieval procedure of Oracle \nFLEXCUBE. In Signature Verification you can scan customer signatures and retrieve the \nsame for on-line or off-line verification. Since here the scanning and verification process is \nautomated it is less time consuming and more efficient than the manual scanning of \nsignatures. \nA typical application for this module would therefore be on-line verification of signatures \nduring teller operations and back office verification of incoming clearing instruments. \nSV application collaborates with all other applications of Oracle FLEXCUBE where a \ncustomer’s current or savings account is involved. \nThis chapter contains the following sections:\nSection 2.2, \"The Concept of Customer Signatories\"\nSection 2.3, \"The Concept of Account Signatories\"\nSection 2.4, \"Main Features of the System\"\n2.2 \nThe Concept of Customer Signatories\nCustomers, whether corporate or individuals, may have one or more accounts in your bank. \nFor each account, you can maintain an unlimited number of CIF signatories. You can capture \nCIF Signatory details and signature images through the ‘CIF Signatory Details Input’ screen. \nFor each CIF Signatory you can capture nine specimen signatures. All the nine specimens \nwill be displayed during verification. \nFor example, a corporate customer has its MD, Financial Controller, Chairperson and General \nManager. All four people can be enlisted as the signatories for the customer. \n2.3 \nThe Concept of Account Signatories\nAlthough you begin by enlisting all the signatories as customer signatories, you have to attach \nthem to specific accounts and make them account signatories.\nFor example, a corporate customer has five accounts in your bank. One operated by the MD, \nanother by the Financial Controller and the GM, a third by the MD and the GM and so on.\nNow the account signatories for current accounts 1, 2 & 3 would be:\nMD\nFinancial Controller and GM\nMD and GM\nHence while doing the verification; the signatures thrown up will be those applicable for the \naccount. \nYou can link CIF signatories to specific accounts through the Accounts Signatory Details Input \nscreen. Once you link CIF signatories to specific accounts then, whenever there is a debit"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Main Features of the System"
+      ],
+      "summary": "This section describes the system's features for verifying signatures based on approval limits and transaction amounts, as well as the option to verify signatures online or offline.",
+      "raw_text": "2-2\ntransaction on the account(s) for which the CIF signatory is an account signatory, you can opt \nfor verifying the signature.\n2.4 \nMain Features of the System\nFor each account signatory you can specify an approval limit. The approval limit is the limit up \nto which each account signatory has got authority to allow debit transactions for a particular \naccount. The approval limit is the criteria based on which the specimen signatures will be \ndisplayed for verification.\nWhenever there is a debit transaction involving an account, the signature specimens of \naccount signatories with an approval limit above the amount specified in the instrument will \nbe displayed for verification. However, regardless of the approval limit, if you want the \nspecimen signatures of all the account signatories for that account to be displayed for \nverification you can give the required specification. \nMoreover you can opt to verify signatures On-line or Off-line. On-line verification of signatures \ncan be done whenever you are processing a debit transaction involving an account for which \nthe customer signatory is an account signatory.\nOff-line verification on the other hand, is the verification of signatures for a customer when no \ntransaction involving them is being processed."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Customer Signature and Image Upload",
+        "Operations on a CIF Signatory Record",
+        "Customer Signature and Image History",
+        "Maintaining Customer Image and Signature",
+        "Signature/Image Button"
+      ],
+      "summary": "This page describes how to capture and link customer signatures through various screens, including uploading images and maintaining signatory details.",
+      "raw_text": "3-1\n3. Maintaining Customer Signatories\nYou can capture signatures and link them to specific customers through the following screens:\n‘Signature Verification’ screen\n‘CIF Signatory Details Input’ screen\nThe signatures can be captured through the ‘CIF Signatory Details’ screen, later on you can \nlink them to specific accounts through the ‘Account Signatory Details’ screen. \nThe procedure for maintaining the database through the above functions is described \nsubsequently.\nThis chapter contains the following sections:\nSection 3.1, \"Customer Signature and Image Upload\"\nSection 3.2, \"Operations on a CIF Signatory Record\"\nSection 3.3, \"Customer Signature and Image History\"\n3.1 \nCustomer Signature and Image Upload\nThis section contains the following topics:\nSection 3.1.1, \"Maintaining Customer Image and Signature\"\nSection 3.1.2, \"Signature/Image Button\"\n3.1.1 \nMaintaining Customer Image and Signature\nYou can upload both signatures and images for a customer using ‘Customer Image and \nSignature Upload’ screen. Also you can replicate the uploaded signature to customer’s \nexisting accounts.\nYou can query the signature details for customer and signature id combination from \n‘Customer Signature and Image Upload’ Screen. You can also query with the help of web-\nservice (FCUBSSV Service) using the operation name ‘QueryCustomerSignature’. On query, \nthe system will return images in an encoded base64format. The external system will have to \ndecode the same to get the original image/signature."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Customer Number",
+        "Customer Name",
+        "Signature ID",
+        "Note",
+        "Signature Name"
+      ],
+      "summary": "This page explains how to invoke and use the 'Customer Image and Signature Upload' screen in an application tool, detailing fields such as customer number, name, signature ID, and signature name.",
+      "raw_text": "3-2\nYou can invoke the ‘Customer Image and Signature Upload’ screen by typing ‘STDCIFIS’ in \nthe field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nBranch\nSystem displays the Current Branch in this field.\nCustomer Number\nSpecify the customer number from the adjoining option list.\nCustomer Name\nThe system displays the name of the specified customer ID based on the details maintained \nat ‘Customer Maintenance’ level\nSignature ID\nCustomer ID is defaulted as Signature ID for the first signature upload; however, you need to \nspecify it manually for the subsequent uploads. \nSince you can maintain unlimited number of signatories for every customer, each signatory is \nallotted a serial ID. This serial ID is referred to as the customer signatory ID. It will be \nassociated with the signatory for all future retrievals. \nNote\nThis serial ID is unique across that particular CIF for which it is maintained. \nSignature Name\nFull name of the Customer is defaulted as signature name for the first signature upload; \nhowever, you need to specify it manually for the subsequent uploads."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Signature Title",
+        "Signature/Image Details Section",
+        "Signature/Image Button",
+        "Replicating and Closing Signature"
+      ],
+      "summary": "This page explains how to set up and manage customer signatures in a banking system, including default settings, upload procedures, and replication options.",
+      "raw_text": "3-3\nSignature Title\nShort name of customer is defaulted as signature title for the first signature upload; however, \nyou need to specify it manually for the subsequent uploads.\nCustomer signature title describes the position occupied by that person in the organization. \nTypically this applies for a corporate customer.\nNote\nA customer can maintain one or more accounts in your bank. For each of these accounts \nyou can maintain unlimited number of customer signatures. Hence it is essential to men-\ntion separately the signature title and name.\nReplicate to Account\nCheck this box to enable the replication of the new signature to existing customer’s accounts \nduring the first authorization.\nNote\nThe system replicates signatures to the accounts for both single and joint accounts only if  \n‘Replicate Customer Signature’ check box is also checked at the account level.\n3.1.1.1 \nSignature/Image Details Section\nImage Type\nSelect the image type you want to upload from the drop-down list. This list displays the \nfollowing values:\nSignature – Displayed by default\nImage – Select to upload image\nDefault value of this field is Signature.\nSequence/Specimen Number\nSystem displays auto generated sequence or specimen number in this field based on the \nimage type chosen.\n3.1.2 \nSignature/Image Button\nClick on ‘Signature/Image’ button to upload the signature or image. The system displays a \nscreen to upload the signature:\n3.1.2.1 \nReplicating and Closing Signature\nReplication of signature happens only if ‘Replicate to account’ box is checked on ‘Customer \nImage and Signature Upload’ (STDCIFIS) screen and ‘Replicate Customer Signature’ \ncheckbox on ‘Customer Accounts Maintenance’ (STDCUSAC) screen. \nReplication of customer signature details also happens for joint accounts.When customer \ndetails are changed for an account (as a part of ‘Primary Party Change’), the signature details \nof the new customer is replicated (based on the replication flag status).\nClosing the ‘Signature ID’ at ‘Customer Image and Signature Upload’ (STDCIFIS) screen \nremoves the record from customer accounts maintenance (STDCUSAC). Status of replication \nflag at signature and account level will not be checked for closure."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Operations on a CIF Signatory Record",
+        "Performing Operations on CIF Signatory Record",
+        "Deleting a CIF Signatory Record",
+        "Authorizing a CIF Signatory Record"
+      ],
+      "summary": "This page discusses various operations that can be performed on a CIF signatory record, including deleting, authorizing, and modifying the record.",
+      "raw_text": "3-4\nSystem displays the following alert message:\n‘Closing the record will remove the Signature Id across Customer and Account Maintenance’ \nbefore closing the record.\n3.2 \nOperations on a CIF Signatory Record\nThis section contains the following topics:\nSection 3.2.1, \"Performing Operations on CIF Signatory Record\"\nSection 3.2.2, \"Deleting a CIF Signatory Record\"\nSection 3.2.3, \"Authorizing a CIF Signatory Record\"\nSection 3.2.4, \"Modifying a CIF Signatory Record\"\nSection 3.2.5, \"Detailed Viewing of a CIF Signatory Record\"\n3.2.1 \nPerforming Operations on CIF Signatory Record\nApart from maintaining CIF signatory details you can perform the following operations on a \nCIF signatory record:\nDelete CIF signatories\nCopy CIF signatories\nAuthorize CIF signatories\nModify CIF signatories\nView the details of customer signatories\nThe maintenance of CIF signatory details is within the maintenance of CIF details. Hence any \noperation of CIF signatory details should be done through the CIF details maintenance \nscreen. Any operation on a stored customer signatory should be done after unlocking the CIF \nrecord. \n3.2.2 \nDeleting a CIF Signatory Record\nTo delete a CIF Signatory Record, Capture ‘CIF ID’ of the record in the ‘Signature Upload’ \nscreen and click delete icon. The customer signatory details will be deleted. \nNote\nTo delete the details of a customer signatory, you should have access rights to delete a \nCIF ID. \n3.2.3 \nAuthorizing a CIF Signatory Record\nModifications to the record have to be authorized before they take effect. \nSelect ‘Authorize’ from the Actions menu in the Application toolbar or click authorize icon, \nwhen the record whose details you want to authorize is displayed. \nYou will be prompted to confirm the authorization. Once you authorize a record, your user ID \nwill be captured in the checker field. The status of the record will be updated as ‘Authorized’."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Modifying a CIF Signatory Record",
+        "Detailed Viewing of a CIF Signatory Record",
+        "Customer Signature and Image History"
+      ],
+      "summary": "This page describes how to modify and view signatory records in a Customer Information File (CIF), including saving changes, invoking the maintenance screen, and viewing signature change history.",
+      "raw_text": "3-5\n3.2.4 \nModifying a CIF Signatory Record\nTo make any modification on a Customer Signatory record, unlock the CIF record to which \nthe signatory is attached and do the necessary modification in the ‘Signature Upload’ screen. \nWhen you select ‘Save’ from the Actions menu in the Application toolbar or click save icon to \nsave the modified record, the modified fields are updated. Your user ID is captured in the \nmaker field. The date and time of authorization is also captured. \n3.2.5 \nDetailed Viewing of a CIF Signatory Record\nYou can invoke the ‘Customer Information Maintenance’ screen by typing ‘STDCIF’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button.\nOnce you do this the ‘Customer Information Maintenance’ screen is displayed. You have to \nclick ‘Show Image’ button in this screen. The signatory details of each record are displayed \none at a time. You can also print the displayed details.\n3.3 \nCustomer Signature and Image History\nThis section contains the following topics:\nSection 3.3.1, \"Viewing Customer Signature Change History\"\n3.3.1 \nViewing Customer Signature Change History\nYou can view the history of all the Signature/Image changes for a customer in the ‘Customer \nSignature and Image History’ screen.\nYou can invoke this screen by typing ‘STDCSHIS’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button..\nThe following details are captured in this screen:\nCustomer Number \nSelect the customer number for which you want to view the signature history details, from the \nadjoining option list. The list displays all valid customers maintained in the system."
+    },
+    {
+      "page_number": 14,
+      "sections": [],
+      "summary": "This page lists various details and identifiers related to a selected customer account, including name, signature ID, image type, status, and release time.",
+      "raw_text": "3-6\nName\nThe name of the selected customer is displayed here.\nThe following details pertaining to the selected account are displayed:\nCustomer\nSignature ID\nImage Type\nSpecimen Number\nStatus\nMod Number\nMaker ID\nRelease Time\nChecker ID\nChecker Date Stamp\nFile Type\nSignature/Image"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Maintaining Account Signatories"
+      ],
+      "summary": "This section explains how to link CIF signatories with specific accounts and manage account messages in a banking context.",
+      "raw_text": "4-1\n4. Maintaining Account Signatories\nOnce the CIF signatory details and signature images have been captured through the ‘CIF \nSignatory Details Input’ screen, they have to be attached to specific accounts.\nWhenever there is a debit transaction on the account(s) for which the CIF signatory is an \naccount signatory, you can choose to verify the signatures attached to the account signatory. \nYou can link a CIF signatory with one or more accounts. A customer signatory can be the lone \nsignatory for some accounts and one among the many for some other accounts. \nFor instance, suppose that a corporate customer has nine accounts in your bank.\nNow the requirement is that you link the MD as the lone signatory for four accounts. For the \nother five accounts you should maintain two other signatories (the Financial Controller and \nthe Manager - Personnel) besides the MD. \nBased on the requirement you can have four accounts with the MD as the lone signatory. The \nother five accounts can have two other signatories the MD being one of them.\nIf your customer is a company, people at various hierarchical levels will be authorized as \nsignatories for different accounts. You have to manually allot separate signatory numbers to \nall the customer signatories and link them up to one or many accounts as the case may be.\nMoreover you can maintain brief messages referred to as account messages. The account \nmessages are specific to every account and convey information about the nature of the \naccount. In addition, you can also maintain signatory messages specific to each signatory. \nBoth these messages are displayed during verification.\nThis chapter contains the following sections:\nSection 4.1, \"Signatory Details\"\nSection 4.2, \"Operations on Account Signatory Record\"\nSection 4.3, \"Customer Account Signatory History\"\nSection 4.4, \"Customer Signature View\"\n4.1 \nSignatory Details\nThis section contains the following topic:\nSection 4.1.1, \"Maintaining Signatory Details\"\n4.1.1 \nMaintaining Signatory Details\nFor every account of the customer, you can capture unlimited number of customer \nsignatories. You can also capture the minimum number of signatories required to sign on \ninstruments for particular accounts. In addition, you can capture information to confirm \nwhether the minimum number of signatures are necessary when a signatory with a specific \ntitle signs the instrument (for example, the Chief Executive Officer or CEO). This information \nwill be displayed during verification.\nWhen customer details are changed for an account the signature details of the new customer \nare replicated only if ‘Replicate Customer Signature’ box is checked at both ‘Customer Image \nand Signature Upload’ (STDCIFIS) screen and at ‘Customer Accounts Maintenance’ \n(STDCUSAC) level."
+    },
+    {
+      "page_number": 16,
+      "sections": [],
+      "summary": "This page describes the process of closing and reopening a 'Signature ID' at customer level, including how signatures are managed when customers are added or removed from accounts, and instructions on maintaining signatory details through specific screens.",
+      "raw_text": "4-2\nIf you close a ‘Signature ID’ at customer level system removes the record from customer \naccounts maintenance (STDCUSAC). The status of replication flag at signature and account \nlevel is not checked during closure System displays the following alert message:\n‘Closing the record will remove the Signature Id across Customer and Account Maintenance’ \nbefore closing the record.’\nWhen a customer is attached/ added to an account, the signature details maintained for that \ncustomer also gets added at that account level.When a customer having a joint holder \nrelationship with the account is de-attached/removed from the account, the signature details \nmaintained for that customer at account level is removed.\nDuring reopen of Signature ID, if the replication is checked then the signature will be \nreplicated back again only to those account where the signature replication is allowed. The \nsame will be updated in the Account signature History screen. \nThe maintenance of account signatory details is within the maintenance of customer account \ndetails. Hence, any operation on account signatory details should be done through the \nCustomer Account Maintenance screen. Any operation on a stored account signatory should \nbe done after unlocking the customer account record. You should then move to the ‘Signatory \nDetails’ screen by clicking ‘Account Signatory’ button.\nFor more details on ‘Customer Account Maintenance’ screen refer to ‘Maintaining Customer \nAccounts’ chapter of the ‘CASA’ Module.\nYou can also specify the approval limit for each signatory. This is the amount up to which each \nsignatory can approve for debit on a single instrument.\nThis information will be displayed during verification.\nIn the ‘Account Signatory Details Input’ screen you can link customer signatories to an \naccount and make them account signatories."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Linking a Customer Signatory to an Account"
+      ],
+      "summary": "This section explains how to link customer signatories to an account and capture signature verification details such as the minimum number of signatories required.",
+      "raw_text": "4-3\nNote\nYou can retrieve a signature for an account belonging to one particular branch from any of \nthe other branches of your bank for which retrieval is allowed (when the customer signa-\ntory details are captured). \nLinking a Customer Signatory to an Account\nYou can go to the ‘Account Signatory’ details screen by clicking on ‘Account Signatory’ button \nin the ‘Customer Accounts Maintenance’ screen. \nIn addition to linking customer signatories to an account, you can capture the following \nsignature verification details for an account:\nAn account message \nThe minimum number of signatories required to endorse an instrument involving the \naccount.\nYou can then link the customer signatories to the account. Along with this you capture the \nsignatory name, signatory type, approval limit and the signatory message for each account \nsignatory. \nYou can link a customer signatory to an account either by:\nClicking on the option list next to the Signatory Number. A list of customer signatory \nnumbers, whose details have been captured, will be displayed, along with their names. \nPick up the signatory whom you want to make an account signatory for the account. \nKeying-in the customer Signatory Number and Name directly, if the signatory number \nhas not been maintained through the ‘Customer Signatory Details’ screen. \nNote\nIf the signatory ID that you specify has not been maintained, the System displays an over-\nride. On confirming the override, you will be allowed to save the signatory details. An error \nmessage is displayed if you enter a duplicate Signatory ID. Each time you capture a new \nSignatory ID at the account level you must identify the relationship of the signatory with the \ncustomer. \nYou should then specify the following details for the account signatory:\nSignatory Type – Identify the relationship of the signatory with the customer. \nApproval Limit – Specify the amount up to which the account signatory can approve \nlimits. \nSignatory Message – Capture a message that has to be displayed when the signature \nis retrieved for verification. \nFor example, consider a case where you want to link the customer signatories of a corporate \ncustomer to specific accounts. The corporate customer has nine accounts in your bank. \nNow the requirement is that you link the CEO to account number five. Click on the signatory \nnumber in the Account Signatory details screen. The option list containing the signatory \nnumbers will be displayed. Click on the number allotted to the CEO. The signatory name will \nbe displayed. Specify the signatory type and also whether this signatory alone is enough to \nendorse the instrument or if others need to endorse the instrument as well. \nSpecify the approval limit for that signatory and enter a relevant signatory message."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Key-in the Customer Signatory Number",
+        "Specify the name of the guardian as the Signatory Name",
+        "Specify ‘Father’ as the Signatory Type",
+        "Capturing Account Messages",
+        "Capturing Account Signatory Messages",
+        "Capturing the Number of Signatories Required to Endorse an Instrument"
+      ],
+      "summary": "This page explains how to set up a Savings Account for a minor with a guardian as the signatory, and details on capturing account messages, signatory information, and the number of required signatories.",
+      "raw_text": "4-4\nNow, consider another example where you are opening a Savings Account for a person, who \nis 17 years of age. In this case, the guardian of the applicant is the Customer Signatory. Since \nthe guardian’s details have not been maintained in the CIF screen you must:\nKey-in the Customer Signatory Number \nSpecify the name of the guardian as the Signatory Name \nSpecify ‘Father’ as the Signatory Type \nYou can specify the appropriate Approval Limit and a brief signatory message as well.  Once \nall the details have been captured you can click ‘Ok’ button. The captured details will be \nstored. \nCapturing Account Messages\nYou can enter relevant information about the customer account that will be useful during \nverification. For instance, if a particular account always needs the CEO’s signature to allow \ndebits you can capture this information here. This message will be displayed during \nverification. \nCapturing Account Signatory Messages\nYou can capture information about particular signatories. These messages could pertain to \nthe name, number and the type of signatory your customer is. For example you can capture \na message like - ‘This signatory is a joint account holder with rights to sign instruments only \nup USD 8000’.\nCapturing the Number of Signatories Required to Endorse an Instrument\nYou can specify the minimum number of signatories required to endorse an instrument \npertaining to an account that results in a debit to the account. You can maintain unlimited \nnumber of signatories for an account.\nSpecifying the Type of Signatory\nYou can categorize the type of signatory your customer is. You can specify whether the \nsignatory is an account holder, joint account holder guarantor or any other type. This \ninformation will be displayed during verification.\nSpecifying the Number of Signatories Required to Endorse an Instrument\nYou can specify whether one signatory is sufficient to endorse an instrument involving the \naccount if the signatory whose details you are capturing has signed. For instance, assume \nthat an account has six account signatories with the CEO being one of them. There is a debit \ntransaction involving this account. You can opt to clear an instrument if the CEO is the lone \nsignatory. \nApproval Limit\nYou have to specify the approval limit for each signatory i.e. the amount up to which each \naccount signatory has got authority to allow debit transactions for a particular account. The \napproval limit for each signatory will be displayed during verification. \nOnly while doing Data Entry or Teller transactions you have the option of displaying those \nsignatory details with an approval limit that is greater than or equal to the transaction amount. \nThis option is not available for any other module in Oracle FLEXCUBE. \nCapturing the Signatures of ‘New’ Signatories\nYou may need to add new signatories while capturing the Customer Account details if the \nsignatory CIF ID is not linked to the main customer. For example, the parent would be the \nsignatory of a minor. Similarly, the legal attorney would be the signatory of a mentally \nimbalanced person. These persons would not be linked as signatories, while they would need \nto be added as part of the Customer Account Maintenance."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Replication of Signature",
+        "Replication of signature at Account Signatory level happens according to the following conditions:"
+      ],
+      "summary": "This page explains how signatures are replicated for new signatories and outlines the conditions under which replication occurs.",
+      "raw_text": "4-5\nYou must capture the signature of new signatories that you have captured for the account \nusing the Scan option. \nEvery new signatory that you add will be available for the next account belonging to the same \nCIF ID. \nReplication of Signature\nReplication of signature at Account Signatory level happens according to the following \nconditions:\nSr.No\nReplicate to \nAccount \n(STDCIFIS)\nReplicate \nCustomer \nSignature \n(STDCUSAC)\nReplication of \nsignature \n(Account \nSignatory \nDetails)\nRemarks\n1\nSelected\nSelected\nYes\nAs both the \nflags are \nselected. Sig-\nnature should \nget replicated\n2\nSelected\nUnselected\nNo\nAs ‘Replicate \nCustomer Sig-\nnature’ is not \nselected. Sig-\nnature should \nnot be repli-\ncated\n3\nUnselected\nSelected\nNo\nAs ‘Replicate \nto Account’ is \nnot selected. \nSignature \nshould not be \nreplicated\n4\nUnselected\nUnselected\nNo\nAs both the \nflags are unse-\nlected. Signa-\nture should not \nbe replicated"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Viewing Signatures/Images button",
+        "Operations on Account Signatory Record"
+      ],
+      "summary": "This page describes how to view signatures/images for a customer account and provides details about the operations that can be performed on an account signatory record.",
+      "raw_text": "4-6\n4.1.1.1 \nViewing Signatures/Images button\nClick ‘All Signatures/Images’ button to invoke ‘Customer Signature/Image Consolidated View’ \nscreen..\nThe following details will be displayed in the above screen\nAccount Number\nAccount Branch\nAccount Description\nAccount Currency\nCustomer Number\nSignature Id\nSignature Name\nThe ‘Signature/Image’ tab displays nine signatures/Images for a signature id in a single pane \nwith three signatures/Images in a row.\nIf there is more than one signature id linked to a customer account, then they would be \ndisplayed in different pages.\nEach image is provided with the following buttons:\nZoom In\nZoom Out\nRotate Clockwise\nRotate Anticlockwise\nFlip Horizontal\nFlip Vertical\n4.2 \nOperations on Account Signatory Record\nThis section contains the following topics:\nSection 4.2.1, \"Performing Operations on Account Signatory Record\"\nSection 4.2.2, \"Deleting an Account Signatory Record\"\nSection 4.2.3, \"Modifying an Account Signatory Record\""
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "4.2.1 Performing Operations on Account Signatory Record",
+        "4.2.2 Deleting an Account Signatory Record",
+        "4.2.3 Modifying an Account Signatory Record"
+      ],
+      "summary": "This page describes how to perform operations such as deleting and modifying account signatories, including the necessary steps and conditions for each operation.",
+      "raw_text": "4-7\n4.2.1 \nPerforming Operations on Account Signatory Record\nApart from defining account signatory details you can perform the following operations on an \naccount signatory record:\nDelete account signatories\nModify account signatories\n4.2.2 \nDeleting an Account Signatory Record\nUnlock the CIF ID for which you want to delete a signatory. Move to the Customer Accounts \nMaintenance screen by clicking ‘Account Signatory’ button. \nYou can delete an existing account signatory record only if it is yet to be authorized. Once you \ndelete a account signatory record it will be removed from the system completely and will not \nbe available for future use. \nNote\nTo delete the details of an account signatory you should have the access rights to delete \nthe CIF ID. \n4.2.3 \nModifying an Account Signatory Record\nTo make any modifications on an account signatory record, unlock the Customer Accounts \ntable to which the signatory is attached. Click ‘Account Signatory’ button. The ‘Customer \nAccounts Maintenance’ screen will be displayed and you can carry out the modifications. \nWhen you select ‘Save’ from the Actions menu in the Application toolbar or click save icon to \nsave the modified record, the modified fields are updated. Your user ID is captured in the \nmaker field. \nThe modifications you make come into effect as soon as they are made, regardless of \nwhether they are authorized or not. \nHowever a copy of the old record and the user ID of the person who authorized the \nmodification will be captured for the purpose of audit trail requirements.\n4.3 \nCustomer Account Signatory History\nThis section contains the following topic:\nSection 4.3.1, \"Viewing Customer Account Signatory History\"\n4.3.1 \nViewing Customer Account Signatory History\nYou can view the history of all the Signature/Image changes of an account in the ‘Account \nSignature and Image History’ screen."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Customer Signature View",
+        "Viewing Customer Signature"
+      ],
+      "summary": "This page describes how to invoke a screen for viewing signature history details of an account and lists the details displayed on the screen.",
+      "raw_text": "4-8\nYou can invoke this screen by typing ‘STDASHIS’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button..\nThe following details are captured in this screen:\nAccount Number \nSelect the account number for which you want to view the signature history details, from the \nadjoining option list. The list displays all valid accounts maintained in the system.\nAccount Description\nThe description of the selected account is displayed here.\nBranch Code\nThe branch to which the selected account belongs to is displayed here.\nAccount Currency\nThe currency of the selected account is displayed here.\nThe following details pertaining to the selected account are displayed:\nCustomer ID\nSignature ID\nSignature Name\nSignature Type\nNature of Change\nMaker ID & Date Time\nChecker ID & Date Time\nSignature\n4.4 \nCustomer Signature View\nThis section contains the following topics:\nSection 4.4.1, \"Viewing Customer Signature\""
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Viewing Customer Signature",
+        "Instruction Details Button",
+        "Viewing Customer Image"
+      ],
+      "summary": "This page describes how to view customer signature and image details on the 'Customer Account' field of the 'Customer Signature and Image View' screen, including various account-related information.",
+      "raw_text": "4-9\nSection 4.4.2, \"Instruction Details Button\"\nSection 4.4.3, \"Viewing Customer Image\"\n4.4.1 \nViewing Customer Signature\nYou can view the customer account opening message from any ‘Customer Account’ field of \n‘Customer Signature and Image View’ (SVDIMGVW) screen. Enter the After selecting the \n‘Customer Account’ and pressing hot key (F12).\nOnce the user presses the hot key the system will invoke the ‘Customer Sign View’ screen to \ndisplay the signatory details of the customer account of which Account Opening Message will \nalso be a part.\nAlong with the customer signature and image details the screen also displays the joint \naccount holder details.\nThe following details are displayed here:\nAccount Number\nAccount Description\nAccount Branch\nAccount Currency\nAccount Message\nCustomer ID\nJoint Holder Type\nSignature ID\nSignature Name\nSignatory Type\nApproval Limit\nSignatory Message\nSolo Sufficient"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Viewing all Signatures"
+      ],
+      "summary": "This section describes how to view and manage customer signatures/images in a consolidated view, including the details displayed and actions available for each signature/image.",
+      "raw_text": "4-10\n4.4.1.1 \nViewing all Signatures\nClick ‘All Signatures’ button to view ‘Customer Signature/Image Consolidated View’ screen.\nThe following details will be displayed in the above screen\nAccount Number\nAccount Branch\nAccount Description\nAccount Currency\nCustomer Number\nSignature Id\nSignature Name\nThe ‘Signature/Image’ tab displays nine signatures/Images for a signature id in a single pane \nwith three signatures/Images in a row.\nIf there is more than one signature id linked to a customer account, then they would be \ndisplayed in different pages.\nEach image is provided with the following buttons:\nZoom In\nZoom Out\nRotate Clockwise\nRotate Anticlockwise\nFlip Horizontal\nFlip Vertical"
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Instruction Details Button",
+        "Viewing Customer Image"
+      ],
+      "summary": "This page describes how to view customer instructions and images through specific buttons and hotkeys in a system interface.",
+      "raw_text": "4-11\n4.4.2 \nInstruction Details Button\nYou can invoke the ‘Customer Instructions View’ screen by clicking the ‘Instruction Details’ \nbutton in the Customer Sign View screen.\nHere you can view the following details:\nCustomer Number\nCustomer Name\nInstruction ID\nInstruction Description\nInstruction Date\n4.4.3 \nViewing Customer Image\nYou can view the customer images from any ‘Customer Account’ field of any screen. After \nselecting the ‘Customer Account’ and pressing hot key (F10).\nOnce the user presses the hot key the system will invoke the ‘Customer Image’ screen to \ndisplay the images of the customer linked to the account. \nThe system will display the first image by default."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Signature Verification",
+        "Verifying Signatures On- Line"
+      ],
+      "summary": "This page explains how to verify signatures during debit transactions and details the information displayed for verification purposes.",
+      "raw_text": "5-1\n5. Verification of Signatures\nEvery time you are processing a debit transaction involving an account for which signatures \nhave been maintained, you have the option of verifying signatures. \nAlong with the signature image, the following details will be displayed when you retrieve a \nsignature for Off-line verification:\nAccount message -- This is the information about the customer account that was \ncaptured when account signatories were linked to it.\nSignatory message -- This is the information about the signatory that was captured \nwhen the account signatory was linked to the account.\nApproval limit -- The approval limit is the amount up to which the signatory has got \nauthority to authorize.\nNote\nIn the Off-line verification screen the ‘Customer Signatory’ verify option is disabled. \nThis chapter contains the following section:\nSection 5.1, \"Signature Verification\"\n5.1 \nSignature Verification\nThis section contains the following topics:\nSection 5.1.1, \"Verifying Signatures On- Line\"\nSection 5.1.2, \"Displaying Signatures with the Necessary Approval Limit\"\nSection 5.1.3, \"Displaying All the Account Signatories\"\nSection 5.1.4, \"Verifying Signatures Off-Line\"\n5.1.1 \nVerifying Signatures On- Line\nYou can choose to verify signatures on-line while you are performing the following operations:\nTeller transactions\nRemittances - When a customer account is debited for initiating a transfer. For example \nfor a DD, telegraphic transfer or a charge payment.\nLoans - When you debit a customer account for processing a repayment or a fee \npayment.\nDeposits - When you debit a customer account to draw-down the deposit amount.\nMoney Markets - In settlements\nForeign Exchange - In settlements\nLetters of Credit - For a commission or charge payment. \nIn Bills and Collections - When you are processing a payment (interest or principal) and \ncharges.\nIn Standing Instructions - When you process a payment and realize charges.\nWhen you click on the account field and press F12 key  while you are performing any one of \nthese operations, the ‘Signature Verification’ screen will be displayed. For instance when you"
+    },
+    {
+      "page_number": 27,
+      "sections": [],
+      "summary": "This page describes how to verify signatures on-line during debit transactions in various modules and screens of a banking system, including Data Entry, Funds Transfer, Loans and Deposits, Money Markets, Foreign Exchange, Letters of Credit, Bills and Collections, and Standing Instructions.",
+      "raw_text": "5-2\nare processing a debit transaction involving a customer account, click on this button next to \nthe account.\nFor instance, consider that you are working in the Teller module. A customer presents a check \nfor a debit transaction of USD 7000. You can opt to verify the signature of the account \nsignatory through the On-Line Verification screen. Click on the account field and press the \nF12 key’ , the On-Line Verification screen is displayed.\nYou can choose to verify signatures on-line while you are working in any of the following \nmodules:\nData Entry\nFunds Transfer\nLoans and Deposits\nMoney Markets\nForeign Exchange\nLetters of Credit\nBills and Collections\nStanding Instructions\nHighlight the account number, and click on the F12 key while you working in any one of the \nfollowing screens. The on-line verification screen will be launched. \nAll the details regarding the account signatory will be displayed. \nYou can view the signatory message by clicking on the icon next to the Signatory Message \nbox. \nThe Approval Limit is the limit up to which each signatory has got the authority to authorize \ndebit transactions for a particular account. You have already specified the approval limit for \nall the account signatories while you were linking them to particular accounts in the ‘Account \nSignatory Input’ screen."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "5.1.2 Displaying Signatures with the Necessary Approval Limit",
+        "5.1.3 Displaying All the Account Signatories"
+      ],
+      "summary": "This page explains how to display signatures for verification based on approval limits in the Data Entry module, and provides options for displaying all signatories or only those whose limits match the transaction amount.",
+      "raw_text": "5-3\n5.1.2 \nDisplaying Signatures with the Necessary Approval Limit\nOnly when you are working in the Data Entry module you can choose to view the signature \nimages of those account signatories whose approval limit is equal to or greater than the \namount involved in the transaction. Highlight the ‘Approval Limit Amount’ field. The signatory \ndetails of those customers whose approval limit is greater than the amount involved in the \ntransaction will be displayed for verification. \nFor instance, a corporate customer who maintains nine accounts in your bank, presents a \ncheck involving a debit transaction of USD 15,000 for a particular account. The MD is the lone \nsignatory for four accounts. The other five accounts have the Financial Controller the \nManager-Personnel and the MD as account signatories.\nThe MD and Financial Controller have an approval limit of USD 15,000 and the Manager-\npersonnel have an approval limit of USD 9,000. \nDuring verification, the signature images of only those signatories whose approval limit is \nequal to or greater than the amount specified in the instrument will be displayed. Here the \nsignatures of the MD and the Financial Controller will be displayed for verification. \n5.1.3 \nDisplaying All the Account Signatories\nBy default, the signature images of all the account signatories will be displayed for verification. \nHowever, you can choose to view the signatory details of those customers whose approval \nlimit is greater than the amount involved in the transaction. Highlight the button ‘Approval limit \n> Amount’.\nNote\nPlease remember that the ‘Approval limit > Amount’ option is enabled only for Data Entry \nand Teller transactions and not for any other module settlement screens. \nAs stated in the above example, for the same check of USD 15,000 you can choose to view \nthe signature images of all three signatories (the MD, the Financial Controller and the Manage \nthe ‘Display’ to view the specimen signatures of the account signatory whose name has been \nhighlighted. All the specimen signatures of the chosen signatory will be displayed in separate \nwindowsr-Personnel) even though the approval limit for the Manager-Personnel is only USD \n9,000. \nDisplaying a signature\nClick on a record to view the corresponding signatures in the ‘Image’ section.\n5.1.4 \nVerifying Signatures Off-Line\nOff-line verification means the verification of signatures for a customer or account when no \ntransaction involving them is being processed."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "To verify the details of all the customer signatories invoke the ‘Signature Verifications’ screen.",
+        "You can specify the following details:"
+      ],
+      "summary": "This page explains how to access and use the 'Signature Verifications' screen to check customer signatory details, including specifying customer number, branch, and name.",
+      "raw_text": "5-4\nTo verify the details of all the customer signatories invoke the ‘Signature Verifications’ screen. \nYou can invoke this screen by typing ‘SVDCIFOL’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button.\nYou can specify the following details:\nCustomer Number\nSpecify the customer number to verify the signatory details. Alternatively, you can select the \ncustomer number from the option list. The list displays the customer number maintained in the \nsystem.\nBranch\nThe system displays the branch code maintained in the system.\nCustomer Name\nThe system displays the name of the customer selected.\nCustomer Signatory Details\nBased on the customer number selected, the system displays the following signatory details \nof the customer:\nSignature ID\nSignature Name\nSignature Title"
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Viewing Signatures/Images button"
+      ],
+      "summary": "This section describes how to view customer signatures/images and details displayed on the 'Customer Signature/Image Consolidated View' screen.",
+      "raw_text": "5-5\n5.1.4.1 \nViewing Signatures/Images button\nClick ‘All Signatures/Images’ button to view ‘Customer Signature/Image Consolidated View’ \nscreen.\nThe following details will be displayed in the above screen\nAccount Number\nAccount Branch\nAccount Description\nAccount Currency\nCustomer Number\nSignature Id\nSignature Name\nThe ‘Signature/Image’ tab displays nine signatures/Images for a signature id in a single pane \nwith three signatures/Images in a row.\nIf there is more than one signature id linked to a customer account, then they would be \ndisplayed in different pages.\nEach image is provided with the following buttons:\nZoom In\nZoom Out\nRotate Clockwise\nRotate Anticlockwise\nFlip Horizontal\nFlip Vertical\nFor more details on ‘Signature Verifications’ screen refer to ‘Invoking the on-line verification’ \nscreen in this chapter."
+    },
+    {
+      "page_number": 31,
+      "sections": [],
+      "summary": "This page appears to list function IDs and their corresponding references without any section titles.",
+      "raw_text": "6-1\n6. Function ID Glossary\nS\nSTDASHIS ........................4-8\nSTDCIFIS ......................... 3-2\nSTDCSHIS ........................ 3-5\nSVDCIFOL ........................ 5-4"
+    }
+  ]
+}

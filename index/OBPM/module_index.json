@@ -1,0 +1,38 @@
+{
+  "product": "OBPM",
+  "module_count": 4,
+  "modules": [
+    {
+      "name": "Common_CORE",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Modules",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Oracle Banking Payments Base",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Reference Documents",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    }
+  ]
+}

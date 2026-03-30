@@ -1,0 +1,230 @@
+{
+  "source": "FlexCube/FCUBS/Machine_Learning/Machine Learning User Manual-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 12,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "1  Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual is designed to assist users in understanding and utilizing the Oracle FLEXCUBE Machine Learning framework for building models and interpreting outcomes.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual is designed to assist users in understanding and utilizing the Oracle FLEXCUBE Machine Learning framework for building models and interpreting outcomes.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual is designed to assist users in understanding and utilizing the Oracle FLEXCUBE Machine Learning framework for building models and interpreting outcomes.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3",
+      "title": "1.3 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This manual is designed to assist users in understanding and utilizing the Oracle FLEXCUBE Machine Learning framework for building models and interpreting outcomes.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "2 Overview of Machine Learning",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This section provides an overview of machine learning and its dependence on historical data for model building and prediction purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "2.1 An Introduction",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This section provides an overview of machine learning and its dependence on historical data for model building and prediction purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "3 Model Building Routine",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the setup of machine learning for Oracle FLEXCUBE Universal Banking, focusing on the customer churn model and providing steps to define a use case.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "3.1 Contextual Information",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the setup of machine learning for Oracle FLEXCUBE Universal Banking, focusing on the customer churn model and providing steps to define a use case.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "3.2 ML Use Case Definition",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page discusses the setup of machine learning for Oracle FLEXCUBE Universal Banking, focusing on the customer churn model and providing steps to define a use case.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "3.2.1 Model Metrics Tab",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page describes various fields and settings related to module code selection, data training source, unique case ID, target column, positive target value for classification, table space, partition column, selected algorithm, model error statistic, and the Model Metrics tab in a machine learning use case definition.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.2",
+      "title": "3.2.2 Correlation Button",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page describes how to select data source columns for model partitions and initiate correlation analysis by clicking the Correlation button on the ML Use Case Definition screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "3.2.3 Cost Matrix Button",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page describes the steps for setting up correlation analysis in a data processing system, including selecting correlation types, setting thresholds, ignoring features, and analyzing results.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "3.3 ML Training and Scoring",
+      "start_page": 10,
+      "end_page": 12,
+      "summary": "This page describes how to maintain details on the Cost Matrix screen and outlines the steps for accessing the ML Training and Scoring screen.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page appears to be a header for the Machine Learning User Manual related to Oracle FLEXCUBE Universal Banking Release 14.7.0.0.0.",
+      "raw_text": "Machine Learning User Manual \n                                                                                            Oracle FLEXCUBE Universal Banking  \n                                                                                                                                           Release 14.7.0.0.0  \nPart Number: F72109-01 \n                                                                                                                            [November] [2022]"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page provides information about FCUBS Machine Learning software from Oracle Financial Services Software Limited, including contact details and copyright information.",
+      "raw_text": "2 \n \n \nFCUBS Machine Learning \n[November] [2022]  \nVersion 14.7.0.0.0 \n  \nOracle Financial Services Software Limited  \nOracle Park  \nOff Western Express Highway  \nGoregaon (East)  \nMumbai, Maharashtra 400 063  \nIndia  \nWorldwide Inquiries:  \nPhone: +91 22 6718 3000  \nFax: +91 22 6718 3001  \n \nhttps://www.oracle.com/industries/financial-services/index.html  \n \nCopyright © [2007, 2022], Oracle and/or its affiliates. All rights reserved. \n \nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be \ntrademarks of their respective owners.  \nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated \nsoftware, any programs installed on the hardware, and/or documentation, delivered to U.S. \nGovernment end users are \"commercial computer software\" pursuant to the applicable Federal \nAcquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, \ndisclosure, modification, and adaptation of the programs, including any operating system, \nintegrated software, any programs installed on the hardware, and/or documentation, shall be \nsubject to license terms and license restrictions applicable to the programs. No other rights are \ngranted to the U.S. Government.  \nThis software or hardware is developed for general use in a variety of information management \napplications. It is not developed or intended for use in any inherently dangerous applications, \nincluding applications that may create a risk of personal injury. If you use this software or hardware \nin dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates \ndisclaim any liability for any damages caused by use of this software or hardware in dangerous \napplications.  \nThis software and related documentation are provided under a license agreement containing \nrestrictions on use and disclosure and are protected by intellectual property laws. Except as \nexpressly permitted in your license agreement or allowed by law, you may not use, copy, reproduce, \ntranslate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any \npart, in any form, or by any means. Reverse engineering, disassembly, or decompilation of this \nsoftware, unless required by law for interoperability, is prohibited.  \nThe information contained herein is subject to change without notice and is not warranted to be \nerror-free. If you find any errors, please report them to us in writing.  \nThis software or hardware and documentation may provide access to or information on content, \nproducts and services from third parties. Oracle Corporation and its affiliates are not responsible \nfor and expressly disclaim all warranties of any kind with respect to third-party content, products, \nand services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Organization",
+        "Overview of Machine Learning",
+        "Model Building Routine"
+      ],
+      "summary": "This page introduces the document's structure and content related to machine learning, including its introduction, target audience, organization, overview, and model building routine.",
+      "raw_text": "3 \n \nTable of Contents \n1 \nPreface .....................................................................................................................................4 \n1.1 \nIntroduction .....................................................................................................................4 \n1.2 \nAudience ..........................................................................................................................4 \n1.3 \nOrganization ....................................................................................................................4 \n2 \nOverview of Machine Learning .............................................................................................5 \n2.1 \nAn Introduction ................................................................................................................5 \n3 \nModel Building Routine .........................................................................................................6 \n3.1 \nContextual Information ...................................................................................................6 \n3.2 \nML Use Case Definition ........................................................................................................6 \n3.2.1 \nModel Metrics Tab .......................................................................................................7 \n3.2.2 \nCorrelation Button .......................................................................................................8 \n3.2.3 \nCost Matrix Button.......................................................................................................9 \n3.3 \nML Training and Scoring .................................................................................................... 10"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Preface",
+        "Introduction",
+        "Audience",
+        "Organization"
+      ],
+      "summary": "This manual is designed to assist users in understanding and utilizing the Oracle FLEXCUBE Machine Learning framework for building models and interpreting outcomes.",
+      "raw_text": "4 \n \n                                                                                             \n1  Preface \n1.1 Introduction \nThis manual is designed to assist you in getting acquainted with the Oracle FLEXCUBE Machine \nLearning framework. \nIt has detailed stepwise instructions to help you build Oracle FLEXCUBE Machine Learning models \nand process their execution.  \nThe manual also outlines how to access and interpret the model outcomes for augmented decision- \nmaking. \n1.2 Audience \nThis manual is intended for the following Users/ User Roles: \nRole \nFunction \nBranch Managers \nOverall Branch Perspective \nAccount Managers/ Relationship Managers \nCustomer Relationship Management \nHead Office Managers \nOverall Bank Perspective \nFLEXCUBE Admin / IT support \nApplication Administration and Support \n \n1.3 Organization \nThis manual is organized as per the following chapters \nChapter \nDescription \nOverview of Machine Learning \nIt introduces the Machine Learning context and specifically the \nOracle FLEXCUBE framework. \nModel Building Routine \nThis chapter contains instructions on how to build Machine \nLearning Models using historical Oracle FLEXCUBE data."
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "An Introduction"
+      ],
+      "summary": "This section provides an overview of machine learning and its dependence on historical data for model building and prediction purposes.",
+      "raw_text": "5 \n \n2 Overview of Machine Learning \n2.1 \nAn Introduction \nMachine Learning is heavily dependent on historical data to build models and use the models to \npredict outcomes for better decision-making. \nThe following points encompass contextual information to help you get familiarized with the subject: \n1. Machine learning model building is dependent on historical data spread across dates. \n2. The model building will take time. It may range from a couple of minutes to hours, \nsometimes days, depending on the algorithm’s complexity.  \n3. The model has to be built for each bank. It cannot be pre-shipped and also it can not be \nre-used across banks. \n4. The model is only as good as the data used to build it. \n5. Built Models are valid only for the data used to build the model."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "3 Model Building Routine",
+        "3.1 Contextual Information",
+        "3.2 ML Use Case Definition"
+      ],
+      "summary": "This page discusses the setup of machine learning for Oracle FLEXCUBE Universal Banking, focusing on the customer churn model and providing steps to define a use case.",
+      "raw_text": "6 \n \n3 Model Building Routine \nOracle FLEXCUBE Machine learning framework is a newer feature that is being introduced as part of \nFCUBS. The machine learning framework is being designed to work in tandem with Oracle \nFLEXCUBE based on Production database or Projection database for the data generation routine. \nThe following are Use Case Types: \n• \nRegression \n• \nClassification  \n3.1 Contextual Information \nThis is the first time Machine Learning is being setup for Oracle FLEXCUBE Universal Banking.  \nAs part of this process, historical FLEXCUBE data will be referenced and the requisite data \ntransformation routine will be called. The customer churn model is the only one that will be built. \nThe customer lifetime value and segmentation do not have a persistent model object and get \nexecuted runtime. \n3.2 ML Use Case Definition \n \nSpecify User ID and Password and login to the Homescreen of the application. \n1. On Homescreen, type STDUCDFN in the text box, and click Next. \n ML Use Case Definition screen displays. \n \n2. On ML Use Case Definition screen, specify the details. \nUse Case Name \nSpecify the name of the Use Case.  \nDescription \nSpecify the Use Case description. \nUse Case Type \nSpecify the different types of Algorithms:"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "REGRESSION",
+        "CLASSIFICATION"
+      ],
+      "summary": "This page describes various fields and settings related to module code selection, data training source, unique case ID, target column, positive target value for classification, table space, partition column, selected algorithm, model error statistic, and the Model Metrics tab in a machine learning use case definition.",
+      "raw_text": "7 \n \n• \nREGRESSION \n• \nCLASSIFICATION \nModule Code \nSelect the module code from the list of values.  \nTraining Data Source \nSelect the data source for the Data Model Training. \nUnique Case ID \nSelect the unique case Id from the list of values.  \nTarget Column \nSelect the target column from the list of values.  \nPositive Target Value \nSelect the positive target column from the list of values. This field is enabled only when the Use Case \nType is CLASSIFICATION.  \nTablespace \nSpecify the name of the Table Space. \nPartition Column \nSelect the partition column. A list of values has a list of columns from the Data Source other than the \nnull columns. The system supports selecting more than one column and while saving, it has to be \nsaved with comma separated. \nSelected Algorithm \nSelect the algorithm names available in the list. This can be left blank to find the best algorithm by the \nsystem.  \nModel Error Statistic \nSelect the model error statistic from the drop-down list: \n• \nRMSE \n• \nMAE \nThis field is enabled only when Use Case Type is REGRESSION. The system defaults to RMSE \n(Root Mean Square Error). \n \n3.2.1 Model Metrics Tab \nThe Model Metrics tab displays the results of the Trained Model. \n1. On ML Use Case Definition screen, click the Model Metrics tab. \n Model Metrics tab displays."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Model Partitions",
+        "Correlation Button"
+      ],
+      "summary": "This page describes how to select data source columns for model partitions and initiate correlation analysis by clicking the Correlation button on the ML Use Case Definition screen.",
+      "raw_text": "8 \n \n \nModel Partitions \nSelect the data source columns. The FULL MODEL is one of the values available in this list to select. \nMetrics \nThe system displays the metrics values based on the Algorithm and Algorithm type. \nValue \nThe system displays the computed values for each metric. \n3.2.2 Correlation Button \nThe Correlation sub-system is used to do the Correlation Analysis. \n1. On the ML Use Case Definition screen, click the Correlation button. \n Correlation Analysis screen displays. \n \n2. On the Correlation Analysis screen, specify the details."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Type of Correlation",
+        "Threshold Value",
+        "Analyzed Feature",
+        "Ignore Features",
+        "Feature 1, Feature 2 and Correlation Coefficient"
+      ],
+      "summary": "This page describes the steps for setting up correlation analysis in a data processing system, including selecting correlation types, setting thresholds, ignoring features, and analyzing results.",
+      "raw_text": "9 \n \nType of Correlation \nSelect the type of correlation from the drop-down list: \n• \nPearson \n• \nSpearman \n• \nKendall \nThreshold Value \nSet the threshold value. The value has to be >0 and <1. The system defaulted value is 0.5. \nAnalyzed Feature \nThe system displays all the columns from the data source and one can move these to ignore columns \none by one by analyzing all the columns displayed in the Ignore Features. \nNote: The correlation is successful if the above step is successful, else the system displays an error \nmessage. \nIgnore Features \nThe system displays the ignore features. Ignore Features stores the columns as comma-separated \nvalues. For Example: \nIf the Ignore Features has three values as follows: \n• \nA \n• \nB \n• \nC \nIt should be sent as ‘A, B, C’. \n \nOn specifying the Type of Correlation and Threshold Value, click the Analyze button. \nFeature 1, Feature 2 and Correlation Coefficient \nThe system displays the pairwise correlation frame Feature 1, Feature 2, and Correlation \nCoefficient. \n \n3.2.3 Cost Matrix Button \nThis Cost Matrix sub-system is enabled only when the Use Case Type is selected as a \nCLASSIFICATION. \n1. On the ML Use Case Definition screen, click the Cost Matrix button. \n Cost Matrix screen displays."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "2. On the Cost Matrix screen, maintain the following details.",
+        "3.3 ML Training and Scoring"
+      ],
+      "summary": "This page describes how to maintain details on the Cost Matrix screen and outlines the steps for accessing the ML Training and Scoring screen.",
+      "raw_text": "10 \n \n \n2. On the Cost Matrix screen, maintain the following details. \nActual Value \nThe system displays the actual value. \nPredicted Value \nThe system displays the predicted value. \nCost \nThe system displays the cost value. \n \n3.3 ML Training and Scoring \nSpecify User ID and Password and login to the Homescreen of the application. \n1. On Homescreen, type STDTRSCR in the text box, and click Next. \n ML Training and Scoring screen displays."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Use Case Name",
+        "Description",
+        "Use Case Type",
+        "Training Data Source",
+        "Unique Case ID",
+        "Target Column",
+        "Partition Column",
+        "Train Model",
+        "Model Name"
+      ],
+      "summary": "This page describes the fields and options available on the ML Training and Scoring screen, including use case details, data sources, model training, and displayed information.",
+      "raw_text": "11 \n \n \n2. On the ML Training and Scoring screen, specify the details. \nUse Case Name \nSpecify the Use Case name. In this field, only Open and Authorized Use Case name is allowed to \nquery. \nDescription \nThe system displays the description of the selected Use Case. \nUse Case Type \nThe system displays the type of the selected Use Case. \nTraining Data Source \nThe system displays the training data source. The Training Data Source is the table name where the \nML Data gets pooled from the production or projection schema. \nUnique Case ID \nThe system displays the unique case Id. \nTarget Column \nThe system displays the target column. \nPartition Column \nThe system displays the partition column. \nTrain Model \nWith the click of the Train Model button, the data gets trained and gets displayed in the Model \nTraining tab for the selected Use Case Name. \nModel Name \nThe system displays the ML Use Case model name."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Batch Scoring"
+      ],
+      "summary": "This section describes how the system displays a message to the user upon clicking the Batch Scoring button.",
+      "raw_text": "12 \n \nBatch Scoring \nOn the click of the Batch Scoring button, the system displays the message to the user appropriately."
+    }
+  ]
+}

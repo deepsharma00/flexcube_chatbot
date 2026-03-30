@@ -1,0 +1,760 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/Security-Management-System-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 25,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's preface and outlines the security management section, including user limit maintenance.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual introduces the Security Management System (SMS) module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual introduces the Security Management System (SMS) module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual introduces the Security Management System (SMS) module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual introduces the Security Management System (SMS) module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This manual introduces the Security Management System (SMS) module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": [
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Abbreviations",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides an overview of abbreviations, glossary of icons, related documents, and references to chapters that discuss security management and associated functions in a user manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides an overview of abbreviations, glossary of icons, related documents, and references to chapters that discuss security management and associated functions in a user manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Related Documents",
+      "start_page": 5,
+      "end_page": 7,
+      "summary": "This page provides an overview of abbreviations, glossary of icons, related documents, and references to chapters that discuss security management and associated functions in a user manual.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Abbreviations",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "3",
+          "title": "2. Security Management",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 User Limit Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking User Limit Maintenance Screen",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Limits Button",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Tills Button",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 General Ledgers Button",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Role Branch Limits Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Role Branch Limits Maintenance Screen",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Limits Role Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Limits Role Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Multi-Factor Authentication",
+          "start_page": 13
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Logging into Oracle FLEXCUBE by Multi-Factor Authentication",
+          "start_page": 13
+        },
+        {
+          "structure": "3.5.2",
+          "title": "2.5.2 Maintaining Multi-Factor Authentication Limits",
+          "start_page": 14
+        },
+        {
+          "structure": "3.5.3",
+          "title": "2.5.3 Viewing Multi-Factor Authentication - Limit Maintenance Summary",
+          "start_page": 15
+        },
+        {
+          "structure": "4",
+          "title": "3. Associated Functions",
+          "start_page": 17
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Current Users",
+          "start_page": 17
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 View Current Users",
+          "start_page": 17
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Error Messages",
+          "start_page": 18
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Maintaining Error Messages",
+          "start_page": 18
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Branch Status",
+          "start_page": 19
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Viewing Branch Status",
+          "start_page": 19
+        },
+        {
+          "structure": "5",
+          "title": "4. Annexure A - Personally Identifiable Information",
+          "start_page": 20
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Querying Forgotten Customers",
+          "start_page": 20
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Creating/Querying Customers of Restricted Access Group",
+          "start_page": 21
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Masked/Unmasked PII",
+          "start_page": 23
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Security Management",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page introduces security management and focuses on user limit maintenance, including how to invoke and use the User Limit Maintenance screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page introduces security management and focuses on user limit maintenance, including how to invoke and use the User Limit Maintenance screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 User Limit Maintenance",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page introduces security management and focuses on user limit maintenance, including how to invoke and use the User Limit Maintenance screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Invoking User Limit Maintenance Screen",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page introduces security management and focuses on user limit maintenance, including how to invoke and use the User Limit Maintenance screen.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Abbreviations",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Limits Button",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page describes how to use the 'Limits' button and screen in a system, detailing options for setting user limits, limit roles, currency, authorization limits, transaction amounts, and branch-specific roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "2.2.3 Tills Button",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page discusses user role limits for currency operations and restrictions on using tills and posting entries to general ledgers in a financial system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.4",
+      "title": "2.2.4 General Ledgers Button",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page discusses user role limits for currency operations and restrictions on using tills and posting entries to general ledgers in a financial system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Role Branch Limits Maintenance",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page explains how to restrict or allow General Ledger (GL) usage for specific nodes and leaf GLs, and introduces a section on maintaining role branch limits.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Invoking Role Branch Limits Maintenance Screen",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes how to invoke and use the Role Branch Limits Maintenance screen for managing role branch limits in Oracle FLEXCUBE, as well as maintaining input and transaction authorization limits for user profiles.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Limits Role Maintenance",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes how to invoke and use the Role Branch Limits Maintenance screen for managing role branch limits in Oracle FLEXCUBE, as well as maintaining input and transaction authorization limits for user profiles.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Invoking Limits Role Maintenance",
+      "start_page": 11,
+      "end_page": 13,
+      "summary": "This page describes how to invoke and use the Role Branch Limits Maintenance screen for managing role branch limits in Oracle FLEXCUBE, as well as maintaining input and transaction authorization limits for user profiles.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Multi-Factor Authentication",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page discusses transaction limits and multi-factor authentication for users in a system, including how to handle transactions that exceed these limits and details on logging into Oracle FLEXCUBE using multi-factor authentication.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.1",
+      "title": "2.5.1 Logging into Oracle FLEXCUBE by Multi-Factor Authentication",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page discusses transaction limits and multi-factor authentication for users in a system, including how to handle transactions that exceed these limits and details on logging into Oracle FLEXCUBE using multi-factor authentication.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.2",
+      "title": "2.5.2 Maintaining Multi-Factor Authentication Limits",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page explains how to specify and use Multi-Factor ID and PIN for authentication purposes, as well as how to maintain MFA limits branch-wise and module-wise.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.3",
+      "title": "2.5.3 Viewing Multi-Factor Authentication - Limit Maintenance Summary",
+      "start_page": 15,
+      "end_page": 17,
+      "summary": "This page details how to specify and view multi-factor authentication limits for branches, modules, currencies, input, authorization, and provides a method to access the limit maintenance summary screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Associated Functions",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page discusses how to view current users logged into a branch through the 'Current Users' screen in an application tool bar.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Current Users",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page discusses how to view current users logged into a branch through the 'Current Users' screen in an application tool bar.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 View Current Users",
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This page discusses how to view current users logged into a branch through the 'Current Users' screen in an application tool bar.",
+      "cross_references": [
+        {
+          "structure": "3.2",
+          "title": "2.2 User Limit Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking User Limit Maintenance Screen",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Limits Button",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Tills Button",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 General Ledgers Button",
+          "start_page": 9
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Role Branch Limits Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Role Branch Limits Maintenance Screen",
+          "start_page": 11
+        }
+      ]
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Error Messages",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page discusses error messages and how to maintain them in a system, including their types and the process of updating their descriptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Maintaining Error Messages",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page discusses error messages and how to maintain them in a system, including their types and the process of updating their descriptions.",
+      "cross_references": [
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking User Limit Maintenance Screen",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Branch Status",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section explains how to view the host connectivity status of branches through a specific screen and details the criteria for querying records.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.1",
+      "title": "3.3.1 Viewing Branch Status",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This section explains how to view the host connectivity status of branches through a specific screen and details the criteria for querying records.",
+      "cross_references": [
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Role Branch Limits Maintenance Screen",
+          "start_page": 11
+        }
+      ]
+    },
+    {
+      "structure": "5",
+      "title": "4. Annexure A - Personally Identifiable Information",
+      "start_page": 20,
+      "end_page": 20,
+      "summary": "This section discusses how Oracle FLEXCUBE allows for forgetting personal identifiable information of customers who have closed their accounts and lists the screens where querying such information is not possible.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Querying Forgotten Customers",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This section discusses how Oracle FLEXCUBE allows for forgetting personal identifiable information of customers who have closed their accounts and lists the screens where querying such information is not possible.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Creating/Querying Customers of Restricted Access Group",
+      "start_page": 21,
+      "end_page": 23,
+      "summary": "This section explains how Oracle FLEXCUBE allows for granular access to customers and accounts by defining access groups and restricting them based on maintenance in the 'Access Group Restriction' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Masked/Unmasked PII",
+      "start_page": 23,
+      "end_page": 25,
+      "summary": "This section describes how unchecking the 'PII Allowed' flag in User Maintenance affects the visibility of Personal Identifiable Information (PII) on various screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Function ID Glossary",
+      "start_page": 25,
+      "end_page": 27,
+      "summary": "This page lists various function IDs and their corresponding codes without providing any additional context or explanation.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for the Security Management System of Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Security Management System User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited's Security Management System User Guide.",
+      "raw_text": "Security Management System User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Security Management"
+      ],
+      "summary": "This page introduces the document's preface and outlines the security management section, including user limit maintenance.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nAbbreviations...........................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n1.7 \nRelated Documents.................................................................................................  1-2\n2. \nSecurity Management .............................................................................. 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nUser Limit Maintenance...........................................................................................  2-1\n2.2.1  \nInvoking User Limit Maintenance Screen ...................................................  2-1\n2.2.2  \nLimits Button...............................................................................................  2-2\n2.2.3  \nTills Button..................................................................................................  2-3\n2.2.4  \nGeneral Ledgers Button .............................................................................  2-3\n2.3 \nRole Branch Limits Maintenance.............................................................................  2-4\n2.3.1  \nInvoking Role Branch Limits Maintenance Screen.....................................  2-5\n2.4 \nLimits Role Maintenance .........................................................................................  2-5\n2.4.1  \nInvoking Limits Role Maintenance..............................................................  2-5\n2.5 \nMulti-Factor Authentication......................................................................................  2-7\n2.5.1  \nLogging into Oracle FLEXCUBE by Multi-Factor Authentication................  2-7\n2.5.2  \nMaintaining Multi-Factor Authentication Limits ...........................................  2-8\n2.5.3  \nViewing Multi-Factor Authentication - Limit Maintenance Summary ..........  2-9\n3. \nAssociated Functions ............................................................................. 3-1\n3.1 \nCurrent Users ..........................................................................................................  3-1\n3.1.1  \nView Current Users ....................................................................................  3-1\n3.2 \nError Messages .......................................................................................................  3-2\n3.2.1  \nMaintaining Error Messages.......................................................................  3-2\n3.3 \nBranch Status..........................................................................................................  3-3\n3.3.1  \nViewing Branch Status ...............................................................................  3-3\n4. \nAnnexure A - Personally Identifiable Information ................................ 4-1\n4.1 \nQuerying Forgotten Customers ...............................................................................  4-1\n4.2 \nCreating/Querying Customers of Restricted Access Group ....................................  4-2\n4.3 \nMasked/Unmasked PII ............................................................................................  4-4\n5. \nFunction ID Glossary ............................................................................... 5-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This manual introduces the Security Management System (SMS) module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis Manual is designed to help you to quickly get familiar with the Security Management \nSystem (SMS) module of Oracle FLEXCUBE.\nIt provides an overview of the module and takes you through the various stages in setting- up \nand using the security features that Oracle FLEXCUBE offers.\nThis user manual is a supplement to the Core SMS user manual and contains only specific \nfunctionalities and information related to Oracle FCUBS Core SMS. Hence, this document \nshould be read in conjunction with the Core SMS user manual from the perspective of \ncompleteness in flow and understanding. \nBesides this User Manual, you can find answers to specific features and procedures in the \nOnline Help, which can be invoked, by choosing Help Contents from the Help Menu of the \nsoftware. You can further obtain information specific to a particular field by placing the cursor \non the relevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis Manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nOracle FLEXCUBE \nImplementers\nTo set up the initial startup parameters in the individual client \nworkstations.\nTo set up security management parameters for the Bank.\nSMS Administrator \nfor the Bank\nTo set the SMS bank parameters. \nTo identify the Branch level SMS Administrators.\nSMS Administrator \nfor the Branch\nTo create User and Rsddole profiles for the branches of your \nbank. Will also grant access to the various functions to the Users.\nA Oracle FLEXCUBE \nuser\nAny user of Oracle FLEXCUBE whose activities are traced by the \nSMS module.\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It \nalso lists the various chapters covered in this User Manual."
+    },
+    {
+      "page_number": 5,
+      "sections": [],
+      "summary": "This page provides an overview of abbreviations, glossary of icons, related documents, and references to chapters that discuss security management and associated functions in a user manual.",
+      "raw_text": "1-2\n1.5 \nAbbreviations\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\n1.7 \nRelated Documents\nThe Procedures User Manual\nChapter 2\nSecurity Management explains how to define and maintain the \nsecurity of the banking system in terms of users access and roles.\nChapter 3\nAssociated Functions discusses on the details pertaining to defin-\ning and maintaining additional security options such as clearing \nuser profile, changing system time level, maintaining SSO parame-\nters, error Messages, and viewing user activity, branch status, and \nso on.\nChapter 4\nAnnexure A - Personally Identifiable Information has customer’s \ninformation.\nChapter 5\nFunction ID Glossary has alphabetical listing of Function/Screen \nIDs used in the module with page references for quick navigation.\nAbbreviation\nDescription\nFC\nOracle FLEXCUBE\nAEOD\nAuto End of Day\nBOD\nBeginning of Day\nEOD\nEnd of Day\nEOTI\nEnd of Transaction Input\nEOFI\nEnd of Financial Input\nThe System\nThis term is always used to refer to Oracle FLEXCUBE\nSI\nStanding Instructions\nMM\nMoney Market\nRM\nRelationship Manager\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [],
+      "summary": "This page is part of the Common Core - Security Management System User Guide.",
+      "raw_text": "1-3\nCommon Core - Security Management System User Guide"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Security Management",
+        "User Limit Maintenance"
+      ],
+      "summary": "This page introduces security management and focuses on user limit maintenance, including how to invoke and use the User Limit Maintenance screen.",
+      "raw_text": "2-1\n2. Security Management\n2.1 \nIntroduction\nThis chapter contains the following sections:\nSection 2.2, \"User Limit Maintenance\"\nSection 2.3, \"Role Branch Limits Maintenance\"\nSection 2.4, \"Limits Role Maintenance\"\nSection 2.5, \"Multi-Factor Authentication\"\n2.2 \nUser Limit Maintenance\nThis section contains the following topics:\nSection 2.2.1, \"Invoking User Limit Maintenance Screen\"\nSection 2.2.2, \"Limits Button\"\nSection 2.2.3, \"Tills Button\"\nSection 2.2.4, \"General Ledgers Button\"\n2.2.1 \nInvoking User Limit Maintenance Screen\nYou can maintain the user limit and till details in the ‘User Limit Maintenance’ screen. You can \ninvoke this screen by typing ‘SMDLMTIL’ in the field at the top right corner of the Application \ntool bar and clicking on the adjoining arrow button.\nUser Identification\nSpecify the user identification code. Alternatively, you can select the user identification code \nfrom the option list. The list displays all valid values.\nName\nThe system displays the name of the user."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Limits Button",
+        "Limits",
+        "Limit Currency",
+        "Authorization Limit",
+        "Maximum Transaction Amount",
+        "Role of Limits"
+      ],
+      "summary": "This page describes how to use the 'Limits' button and screen in a system, detailing options for setting user limits, limit roles, currency, authorization limits, transaction amounts, and branch-specific roles.",
+      "raw_text": "2-2\n2.2.2 \nLimits Button\nClick ‘Limits’ button to invoke the Limits screen.\nLimits\nSelect the limits from the following options:\nUser Limits - Select this option to maintain user limits.\nLimits Role - Select this option to maintain the limits role.\nNo Limits - Select this option to place no restrictions on the user.\nLimit Currency\nIndicate the currency in which the limits (transactions amounts) will be expressed. If a user \ncaptures a transaction in a different currency, Oracle FLEXCUBE will convert the transaction \namount to the Limits Currency and then perform the validations.\nAuthorization Limit\nSpecify the maximum amount that a user (to which the limits role is associated) is allowed to \nprocess while authorizing a transaction.\nIf the transaction amount that the user is attempting to authorize exceeds the authorization \nlimit maintained for the Role, the system displays an override message. Selection of the ‘OK’ \nbutton in the message window will allow the user to continue with the authorization despite \nexceeding the limits. If the user selects the ‘Cancel’ button, he will not be able to continue with \nauthorizing the transaction.\nMaximum Transaction Amount\nSpecify the maximum amount that the user can enter in a single transaction.\nRole of Limits\nBranch\nFor a user, you can assign Limit Roles specific to each branch of your bank. Depending on \nthe branch in which the user operates, the relevant Limits Role will be made applicable. You \ncan select the branch from the option-list available.\nLimits Role\nAll the Limits Roles maintained at your bank will be displayed in the option-list. You can select \nthe Roles you wish to link to the user profile. On selection of the Role, the following details get \ndefaulted:"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Limits Currency",
+        "Tills Button",
+        "General Ledgers Button"
+      ],
+      "summary": "This page discusses user role limits for currency operations and restrictions on using tills and posting entries to general ledgers in a financial system.",
+      "raw_text": "2-3\nLimits Currency\nInput Limit\nAuthorization Limit\nNote\nThe role limits (input and authorization) would apply to a user with which the limits role has \nbeen associated, for operations in any of the modules listed above (that is, payment trans-\nactions, single entry journal transactions, multi-offset transactions).\n2.2.3 \nTills Button\nYou can restrict the user from using certain tills maintained at your bank. Such restrictions can \nbe specified in the ‘Tills’ screen. Click ‘Tills’ button to invoke the ‘Tills’ screen.\nYou can either allow or disallow the user from using certain tills. \nSelect the option ‘Allowed’ if you want to allow the user to manage certain tills \nSelect the option ‘Disallowed’ to disallow the user to manage certain tills\nAfter choosing either the ‘Allowed’ or ‘Disallowed’ option, click add icon to add a record under \nthe ‘Tills’ list. Into each added field select the required Till Id by clicking the adjoining option \nlist.\n2.2.4 \nGeneral Ledgers Button\nYou can restrict the user from posting entries to certain General Ledgers (GLs) maintained in \nOracle FLEXCUBE. Further, you can restrict the user from posting entries to specific node"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "GLs and Leaf GLs",
+        "Role Branch Limits Maintenance"
+      ],
+      "summary": "This page explains how to restrict or allow General Ledger (GL) usage for specific nodes and leaf GLs, and introduces a section on maintaining role branch limits.",
+      "raw_text": "2-4\nGLs and Leaf GLs. Leaf GLs maintained in the section ‘Exception Leaf GLs’ will be excluded \nfrom this restriction. Click ‘General Ledgers’ button to specify the GL restrictions.\nYou can either allow or disallow the user from using certain GLs. Select the node GLs that \nyou want to restrict. If you want to allow/disallow posting to some leaf GLs from the selected \nnode GL, specify them in the Exception Leaf GLs list.\nFor instance, if we have a node GL 100000000 and it has four leaf GLs 100000087, \n100000088, 100000089 and 100000090 and the posting is allowed only to one of the leaf GL \n100000089, then you have to select GL restriction as Disallowed and give the node GL under \nNode GLs and the leaf node GL 100000089 under Exceptional Leaf GLs.\nSimilarly, if you want to allow posting to all leaf GLs under a node GL and disallow posting to \nsome leaf GLs, then select GL Restriction as Allowed and specify the node GL under section \nnode GLs and the leaf GLs to be disallowed under the section Exception Leaf GLs.\n2.3 \nRole Branch Limits Maintenance\nThis section contains the following topics:\nSection 2.3.1, \"Invoking Role Branch Limits Maintenance Screen\""
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Invoking Role Branch Limits Maintenance Screen",
+        "Limits Role Maintenance"
+      ],
+      "summary": "This page describes how to invoke and use the Role Branch Limits Maintenance screen for managing role branch limits in Oracle FLEXCUBE, as well as maintaining input and transaction authorization limits for user profiles.",
+      "raw_text": "2-5\n2.3.1 \nInvoking Role Branch Limits Maintenance Screen\nYou can maintain role branch limits in the Role Branch Limits Maintenance screen. To invoke \nthis screen type ‘SMDRBLMT’ in the field at the top right corner of the Application toolbar and \nclick the adjoining arrow button.\nYou can link a Limits Role to the User Profile. The Limits maintained for the role will be \napplicable to the user profile to which it is linked. \nRole ID\nSpecify the role identification number. Alternatively you can select the role ID from the option \nlist. The list displays all valid values.\nRole Description\nThe system displays the role description.\nAuthorizer Role\nCheck this box to enable authorizer role.\nLimit Currency\nSpecify the limit currency. Alternatively, you can select the currency from the option list. The \nlimit displays all valid values.\nUser Limit\nSpecify the user specific limit.\n2.4 \nLimits Role Maintenance\nThis section contains the following topics:\nSection 2.4.1, \"Invoking Limits Role Maintenance\"\n2.4.1 \nInvoking Limits Role Maintenance\nOracle FLEXCUBE allows you to place restrictions on the amount specified by a user when \nprocessing a transaction. You can also restrict users with authorization rights from authorizing \ntransactions with amounts beyond a specific limit. \nTo achieve this, you can define Input Limits and Transaction Authorization Limits for a user at \nthe time of maintaining a User Profile in Oracle FLEXCUBE. The input limits and authorization \nlimits will be made applicable to the following types of transactions:"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Payment transactions (FTs)",
+        "Single Entry Journal transactions",
+        "Multi Offset transactions",
+        "Teller transactions"
+      ],
+      "summary": "This page describes various types of transactions in Oracle FLEXCUBE and how to set up role limits for users, including the process and fields involved.",
+      "raw_text": "2-6\nPayment transactions (FTs)\nSingle Entry Journal transactions\nMulti Offset transactions\nTeller transactions\nOracle FLEXCUBE allows you to maintain different Role Limits, which can then be linked to \na user profile. The limits defined for the attached role will be applicable to the user profile to \nwhich it is linked. The Role Limits are maintained in the ‘Limits Role Maintenance’ screen. You \ncan invoke this screen by typing  ‘SMDRLMNE’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button. \nRole Identification\nThe Id that you specify here will uniquely identify the Role Limit throughout the system. A Role \nLimit is distinct from the User Role, in that the Role Limit is designated for the specific purpose \nof enabling you to set transaction amount processing limits that you wish to impose on a user.\nDescription\nYou can specify a brief description for the Role Limit being defined. \nLimits Currency\nHere you will indicate the currency in which the limits (transactions amounts) will be \nexpressed. If a user captures a transaction in a different currency, Oracle FLEXCUBE will \nconvert the transaction amount to the Limits Currency and then perform the validations. \nNote\nFor currency conversions, the system will use the mid-rate of the STANDARD exchange \nrate type maintained in your system. \nInput Limit\nSpecify the maximum amount that a user (to which the limits role is associated) is allowed to \nprocess while entering a transaction."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Authorization Limit",
+        "Multi-Factor Authentication"
+      ],
+      "summary": "This page discusses transaction limits and multi-factor authentication for users in a system, including how to handle transactions that exceed these limits and details on logging into Oracle FLEXCUBE using multi-factor authentication.",
+      "raw_text": "2-7\nIf the transaction amount exceeds the input limit maintained for the Role, the system displays \nan override message. Selection of the ‘OK’ button in the message window will allow the user \nto continue despite exceeding the limits. If the user selects the ‘Cancel’ button, he will not be \nable to continue with transaction processing.\nAuthorization Limit \nSpecify the maximum amount that a user (to which the limits role is associated) is allowed to \nprocess while authorizing a transaction. \nIf the transaction amount that the user is attempting to authorize exceeds the authorization \nlimit maintained for the Role, the system displays an override message. Selection of the ‘OK’ \nbutton in the message window will allow the user to continue with the authorization despite \nexceeding the limits. If the user selects the ‘Cancel’ button, he will not be able to continue with \nauthorizing the transaction.\nNote\nThe role limits (input and authorization) would apply to a user with which the limits role has \nbeen associated, for operations in any of the modules listed above (that is, payment trans-\nactions, single entry journal transactions, multi-offset transactions).\nThe role limits maintained in the screen ‘SMDRLMNT’ are not applicable for web branch.\n2.5 \nMulti-Factor Authentication\nThis section contains the following topic:\nSection 2.5.1, \"Logging into Oracle FLEXCUBE by Multi-Factor Authentication\"\nSection 2.5.2, \"Maintaining Multi-Factor Authentication Limits\"\nSection 2.5.3, \"Viewing Multi-Factor Authentication - Limit Maintenance Summary\"\n2.5.1 \nLogging into Oracle FLEXCUBE by Multi-Factor Authentication\nMulti-Factor Authentication (MFA) is an authentication mode, which provides further level of \nauthentication apart from the regular user ID and password authentication. \nAfter successful login validation to FLEXCUBE, the system validates whether the user is \nenabled for MFA as maintained at the ‘User Maintenance’ (SMDUSRDF) screen. If you are \nMFA enabled, you are eligible for transactions greater than MFA limit and the system displays \nthe MFA login screen and defaults the user ID."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Multi-Factor Id",
+        "Maintaining Multi-Factor Authentication Limits"
+      ],
+      "summary": "This page explains how to specify and use Multi-Factor ID and PIN for authentication purposes, as well as how to maintain MFA limits branch-wise and module-wise.",
+      "raw_text": "2-8\nYou can specify the following details:\nMulti-Factor Id\nThe system displays the Multi-Factor authentication ID linked to the user ID.\nMulti-Factor PIN\nSpecify the Multi-Factor PIN for MFA. \nThe system generates the MFA PIN just before the authentication, which expires in a short \ntime. The generated MFA PIN is communicated to the user in multiple ways, such as text \nmessages sent to the user’s mobile phone or electronic devices. \nThe system prompts the user to input the MFA token as a second password and validates the \nuser’s authenticity. This process reduces the risk posed by using only user ID or password \nmechanism. If the MFA pin is validated successfully, the user’s session is marked as ‘Multi-\nFactor Authenticated’. Else, it is marked as ‘Multi-Factor Not Authenticated’.\n2.5.2 \nMaintaining Multi-Factor Authentication Limits\nYou can capture Multi-Factor Authentication (MFA) limits branch-wise and module-wise in the \n‘Multi-Factor Authentication - Limit Maintenance’ screen. MFA limit indicates the limit above \nwhich MFA is required. The process of MFA can be determined by the parameters set at the \nindividual user level. MFA limits can be used to authorize transactions above certain limit. \nYou can invoke this screen by typing ‘SMDMFALM’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Branch Code",
+        "Module Identification",
+        "Limit Currency",
+        "Input Limit",
+        "Authorization Limit",
+        "Viewing Multi-Factor Authentication - Limit Maintenance Summary"
+      ],
+      "summary": "This page details how to specify and view multi-factor authentication limits for branches, modules, currencies, input, authorization, and provides a method to access the limit maintenance summary screen.",
+      "raw_text": "2-9\nYou can specify the following details here:\nBranch Code\nSpecify the branch code for MFA limit. Alternatively, you can select the branch code from the \noption list. The list displays all the branches in the country maintained in the system and a \nvalue **, which indicates all branches. \nBranch Name\nThe system displays the name of the branch code.\nModule Identification\nSpecify the module code for MFA limit. Alternatively, you can select the module code from the \noption list. The list displays all the modules maintained in the system and a value **, which \nindicates all modules.\nModule Name\nThe system displays name of the module for the selected module code.\nLimit Currency\nSpecify the currency code in which the limit amount can be specified. Alternatively, you can \nselect the currency code from the option list. The list displays all the currencies maintained in \nthe system. \nInput Limit\nSpecify the limit amount for input.\nAuthorization Limit\nSpecify the authorization limit amount for authorizer.\n2.5.3 \nViewing Multi-Factor Authentication - Limit Maintenance Summary\nYou can view multi-factor authentication limit maintenance in the ‘Multi-Factor Authentication \n- Limit Maintenance Summary’ screen. You can invoke this screen by typing ‘SMSMFALM’ in"
+    },
+    {
+      "page_number": 16,
+      "sections": [],
+      "summary": "This text describes how to use the Application toolbar to search for records based on various parameters such as Authorization Status, Branch Code, Record Status, and Module Identification.",
+      "raw_text": "2-10\nthe field at the top right corner of the Application toolbar and clicking on the adjoining arrow \nbutton.\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nAuthorization Status\nBranch Code\nRecord Status\nModule Identification\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status\nBranch Code\nRecord Status\nModule Identification"
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Associated Functions",
+        "Current Users",
+        "View Current Users"
+      ],
+      "summary": "This page discusses how to view current users logged into a branch through the 'Current Users' screen in an application tool bar.",
+      "raw_text": "3-1\n3. Associated Functions\nThis chapter contains the following sections:\nSection 3.1, \"Current Users\"\nSection 3.2, \"Error Messages\"\nSection 3.3, \"Branch Status\"\n3.1 \nCurrent Users\nThis section contains the following topics:\nSection 3.1.1, \"View Current Users\"\n3.1.1 \nView Current Users\nThe user of a branch can view a list of all the users logged in from the current branch or from \nany other the branches through the ‘Current Users’ screen.\nYou can invoke this screen by typing ‘SMDCUUSR’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button.\nThe following details are captured here:\nBranch\nYou are allowed to view users logged in from the current branch as well as any other branch. \nSelect the any of the following options and click ‘Users’ button to view the current users of that \nbranch:\nCurrent Branch\nAll Branches\nThe following user details are displayed here:\nBranch – The branch from which the user has logged in"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Error Messages",
+        "Maintaining Error Messages"
+      ],
+      "summary": "This page discusses error messages and how to maintain them in a system, including their types and the process of updating their descriptions.",
+      "raw_text": "3-2\nTerminal – The terminal/system from which the user has logged in\nUser Identification – The name of the user \nStart Time – The time when the user logged in\nNote\nCurrent user database logs are enabled based on the work area maintained in Day 0 set-\nup.\n3.2 \nError Messages\nThis section contains the following topics:\nSection 3.2.1, \"Maintaining Error Messages\"\n3.2.1 \nMaintaining Error Messages\nError codes provide step by step support for maintenances and contract Input for a User. The \nError codes are uploaded into the system at Software installation. However the ‘Description’ \nand ‘Type’ of the error can be modified from the Oracle FLEXCUBE Menu. Each Error Code \ncan be of the following types:\nOverride(O)\nIgnore / Warning (I)\nError(E)\nYou can maintain error messages using the ‘Error Messages Maintenance’ screen. You \ninvoke this screen by typing ‘CSDERMSG’ in the field at the top right corner of the Application \ntool bar and clicking on the adjoining arrow.\nThe following details are captured here:\nError Code\nSpecify a code for the error message here."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Branch Status",
+        "Viewing Branch Status"
+      ],
+      "summary": "This section explains how to view the host connectivity status of branches through a specific screen and details the criteria for querying records.",
+      "raw_text": "3-3\nLanguage \nSpecify the language code of the error message.\nDescription\nSpecify the description for the language code.\nMessage\nSpecify the error message that has to be displayed.\n3.3 \nBranch Status\nThis section contains the following topics:\nSection 3.3.1, \"Viewing Branch Status\"\n3.3.1 \nViewing Branch Status\nYou can view the host connectivity status of various branches through the ‘Branch Status’ \nscreen. You can invoke this screen by typing ‘SMSBRNST’ in the field at the top right corner \nof the Application tool bar and clicking on the adjoining arrow button. \nThe screen is displayed as below:\nYou can query for records based on the following criteria:\nBranch Code\nBranch Name\nBranch Status\nClick ‘Search’ button. Based on your preferences, the system identifies all records satisfying \nthe criteria and displays the following details for every record:\nBranch Code\nBranch Name\nBranch Status"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "4. Annexure A - Personally Identifiable Information",
+        "4.1 Querying Forgotten Customers"
+      ],
+      "summary": "This section discusses how Oracle FLEXCUBE allows for forgetting personal identifiable information of customers who have closed their accounts and lists the screens where querying such information is not possible.",
+      "raw_text": "4-1\n4. Annexure A - Personally Identifiable Information\n4.1 \nQuerying Forgotten Customers \nOracle FLEXCUBE allows forgetting the personal identifiable information (PII) of a customer \nwho has closed an account. If the personal identification information of a customer is \nforgotten, then you cannot query the PII details of forgotten customers from the following \nscreens:\nFunction ID\nScreen Description\nIADCUSAC\nIslamic Customer \nAccounts Detailed\nIADCUSTD\nIslamic TD Accounts Main-\ntenance\nICDREDMN\nTerm Deposits Redemp-\ntion Input\nMSDCACAD\nAccount Address Mainte-\nnance\nMSDCUSAD\nCustomer Address Mainte-\nnance\nSTDCASAC\nQuick Customer Account \nInput\nSTDCIF\nCustomer Maintenance\nSTDCIFAD\nQuick Customer Addition\nSTDCIFIS\nCustomer Signature and \nImage Upload\nSTDCIFNT\nCustomer Name Mainte-\nnance\nSTDCSHIS\nCustomer Signature and \nImage History\nSTDCUSAC\nCustomer Accounts Main-\ntenance\nSTDCUSTD\nDeposit Account Booking\nSTDCUSVW\n360 Degree Corporate \nCustomer View\nSTDFIACC\nFinancial Inclusion Cus-\ntomer Account Creation\nSTDJHMNT\nJoint Holder Maintenance\nSTDSEGAS\nCustomer Segment Asso-\nciation"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "4.2 Creating/Querying Customers of Restricted Access Group"
+      ],
+      "summary": "This section explains how Oracle FLEXCUBE allows for granular access to customers and accounts by defining access groups and restricting them based on maintenance in the 'Access Group Restriction' screen.",
+      "raw_text": "4-2\n4.2 \nCreating/Querying Customers of Restricted Access \nGroup\nOracle FLEXCUBE allows granular access to customers and accounts. You can define \naccess groups for the retail and corporate customers and restrict the access to these groups \nbased on the maintenance in ‘Access Group Restriction in ‘User Maintenance’ screen.\nIf the access group is maintained as ‘Disallowed’ in the Access Group Restriction screen, then \nyou cannot create and query the customer and account details of the group from the following \nscreens:\nSVDCIFOL\nSignature Verifications\nIASCUSAC\nIslamic Customer \nAccounts Summary\nIASCUSTD\nIslamic TD Accounts Sum-\nmary\nICSREDMN\nTerm Deposits Redemp-\ntion Input - Summary\nMSSCACAD\nAccount Address Sum-\nmary\nMSSCUSAD\nCustomer Address Sum-\nmary\nSTSCASAC\nQuick Customer Account \nSummary\nSTSCIF\nCustomer Summary\nSTSCIFAD\nQuick Customer Addition \nSummary\nSTSCIFIS\nCustomer Signature and \nImage Upload\nSTSCIFNT\nCustomer Name Summary\nSTSCUSAC\nCustomer Accounts Sum-\nmary\nSTSCUSTD\nDeposit Account Summary\nSTSCUSVW\n360Degree Customer View \nEntry Point\nSTSFIACC\nFinancial Inclusion Cus-\ntomer Account Summary\nSTSJHMNT\nJoint Holder Summary\nSTSSEGAS\nCustomer Segment Asso-\nciation Summary\nSVDIMGVW\nCustomer Signature and \nImage View"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Function ID",
+        "Description"
+      ],
+      "summary": "This page lists various function IDs and their corresponding descriptions related to customer account management and maintenance in a financial system.",
+      "raw_text": "4-3\nFunction ID\nDescription\nMSDCACAD\nAccount Address Maintenance\nMSSCACAD\nAccount Address Summary\nSTDCASAC\nQuick Customer Account Input\nSTSCASAC\nQuick Customer Account Summary\nSTDCIFAD\nQuick Customer Addition\nSTSCIFAD\nQuick Customer Addition Summary\nSTDCIFIS\nCustomer Signature and Image Upload\nSTSCIFIS\nCustomer Signature and Image Uplaod\nSTDCIFNT\nCustomer Name Maintenance\nSTDCRACC\nExternal Customer Account Input\nSTSCRACC\nExternal Customer Account Input Summary\nSTDCSHIS\nCustomer Signature and Image History\nSTDFIACC\nFinancial Inclusion Customer Account Creation\nSTSFIACC\nFinancial Inclusion Customer Account Creation \nSummary\nSTDJHMNT\nJoint Holder Maintenance\nSTSJHMNT\nJoint Holder Summary\nSTDKYCMN\nKYC Maintenance\nSTSKYCMN\nKYC Maintenance Summary\nSTDSEGAS\nCustomer Segment Association\nSTSSEGAS\nCustomer Segment Association Summary\nSVDCIFOL\nSignature Verifications\nSVDIMGVW\nCustomer Signature and Image View\nACDOPTN\nAccount Statement Report\nCSDOPTN\nCustomer Interest Statement\nIADCUSAC\nIslamic Customer Accounts Detailed\nIASCUSAC\nIslamic Customer Accounts Summary\nIADCUSTD\nIslamic TD Accounts Maintenance\nIASCUSTD\nIslamic TD Accounts Summary"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Masked/Unmasked PII"
+      ],
+      "summary": "This section describes how unchecking the 'PII Allowed' flag in User Maintenance affects the visibility of Personal Identifiable Information (PII) on various screens.",
+      "raw_text": "4-4\n4.3 \nMasked/Unmasked PII\nIf ‘PII Allowed’ flag is unchecked in User Maintenance (SMDUSRDF) screen, then you will be \nable to view only the masked PII information from the following screens:\nICDCALAC\nInterest & Charges Single Account Online Calcula-\ntion\nICDLIQAC\nInterest & Charges Single Account Online Liquida-\ntion\nICDOLIQ\nInterest & Charges Multiple Account Online Liqui-\ndation\nICDREDMN\nTerm Deposits Redemption Input\nICSREDMN\nTerm Deposits Redemption Summary\nMSDCUSAD\nCustomer Address Maintenance\nMSSCUSAD\nCustomer Address Summary\nSTDACCDT\nCustomer Accounts\nSTDCIF\nCustomer Maintenance\nSTSCIF\nCustomer Summary\nSTDCUSAC\nCustomer Accounts Maintenance\nSTSCUSAC\nCustomer Accounts Summary\nSTDCUSTD\nDeposit Account Booking\nSTSCUSTD\nDeposit Account Summary\nSTDCUSVW\n360 Degree Corporate Customer View\nFunction ID\nDescription\nCSDOPTN\nCustomer Interest Statement\nIADCUSAC\nIslamic Customer Accounts Detailed\nIADCUSTD\nIslamic TD Accounts Maintenance\nICDREDMN\nTerm Deposits Redemption Input\nMSDCACAD\nAccount Address Maintenance\nMSSCACAD\nAccount Address Summary\nMSDCUSAD\nCustomer Address Maintenance\nMSSCUSAD\nCustomer Address Summary\nSTDACCDT\nCustomer Accounts\nSTDCASAC\nQuick Customer Account Input"
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page lists various customer maintenance and related functionalities without providing specific content about them.",
+      "raw_text": "4-5\nSTDCIF\nCustomer Maintenance\nSTSCIF\nCustomer Summary\nSTDCIFAD\nQuick Customer Addition\nSTSCIFAD\nQuick Customer Addition Summary\nSTDCIFCR\nExternal Customer Input\nSTSCIFCR\nCustomer Summary\nSTDCIFIS\nCustomer Signature and Image Upload\nSTSCIFIS\nCustomer Signature and Image Uplaod\nSTDCIFNT\nCustomer Name Maintenance\nSTDCRACC\nExternal Customer Account Input\nSTDCSHIS\nCustomer Signature and Image History\nSTDCUSAC\nCustomer Accounts Maintenance\nSTDCUSTD\nDeposit Account Booking\nSTDCUSVW\n360 Degree Corporate Customer View\nSTDFIACC\nFinancial Inclusion Customer Account Creation\nSTSFIACC\nFinancial Inclusion Customer Account Creation \nSummary\nSTDJHMNT\nJoint Holder Maintenance\nSTSJHMNT\nJoint Holder Summary\nSTDKYCMN\nKYC Maintenance\nSTSKYCMN\nKYC Maintenance Summary\nSTDSEGAS\nCustomer Segment Association\nSVDCIFOL\nSignature Verifications\nSVDIMGVW\nCustomer Signature and Image View\nSMDUSRDF\nUser Maintenance"
+    },
+    {
+      "page_number": 25,
+      "sections": [],
+      "summary": "This page lists various function IDs and their corresponding codes without providing any additional context or explanation.",
+      "raw_text": "5-1\n5. Function ID Glossary\nC\nCSDERMSG ......................3-2\nS\nSMDCUUSR ......................3-1\nSMDLMTIL ........................2-1\nSMDMFALM ...................... 2-8\nSMDRBLMT ...................... 2-5\nSMDRLMNE ...................... 2-6\nSMSBRNST ...................... 3-3\nSMSMFALM ...................... 2-9"
+    }
+  ]
+}

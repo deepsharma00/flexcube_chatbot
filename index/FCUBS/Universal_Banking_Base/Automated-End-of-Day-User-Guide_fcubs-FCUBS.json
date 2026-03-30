@@ -1,0 +1,569 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/Automated-End-of-Day-User-Guide_fcubs-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 20,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, structure, related documents, and icon glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This user manual provides an introduction to Oracle FLEXCUBE's functionalities and is intended for various user roles, including back office clerks, managers, product managers, and end of day operators. It also outlines the organization of the manual into specific chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This user manual provides an introduction to Oracle FLEXCUBE's functionalities and is intended for various user roles, including back office clerks, managers, product managers, and end of day operators. It also outlines the organization of the manual into specific chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This user manual provides an introduction to Oracle FLEXCUBE's functionalities and is intended for various user roles, including back office clerks, managers, product managers, and end of day operators. It also outlines the organization of the manual into specific chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This user manual provides an introduction to Oracle FLEXCUBE's functionalities and is intended for various user roles, including back office clerks, managers, product managers, and end of day operators. It also outlines the organization of the manual into specific chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This user manual provides an introduction to Oracle FLEXCUBE's functionalities and is intended for various user roles, including back office clerks, managers, product managers, and end of day operators. It also outlines the organization of the manual into specific chapters.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Viewing Unauthorized Transactions and Functions",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Viewing Unauthorized Transactions",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Viewing Branch Pending Functions",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Reverse EOD Balancing",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Reversing Automatic EOD Suspense Entry",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Viewing Reverse EOD Balancing Summary Details",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 EOTI/EOFI Stages of Batch Processing",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Generation of Automatic Suspense Entry",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Suspense Entry Reversal Check",
+          "start_page": 11
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides references to related documents and manuals, as well as a glossary of icons used in the module.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides references to related documents and manuals, as well as a glossary of icons used in the module.",
+      "cross_references": [
+        {
+          "structure": "4",
+          "title": "3. End of Previous Day",
+          "start_page": 12
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Processing End of Previous Day",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Deferred EOD Process",
+          "start_page": 14
+        },
+        {
+          "structure": "5",
+          "title": "4. Annexure A - List of End of Cycle Functions",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Mandatory Functions of EOC Cycle",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Beginning of Day (BOD) Functions for all Modules",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 End of Day (EOD) Functions for all Modules",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Pre-End of Day Functions for all Modules",
+          "start_page": 18
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Account Revaluation Batch",
+          "start_page": 18
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Viewing Unauthorized Transactions and Functions",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section explains how to view unauthorized transactions and pending functions in the application, including using specific parameters for queries.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Viewing Unauthorized Transactions",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This section explains how to view unauthorized transactions and pending functions in the application, including using specific parameters for queries.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Viewing Branch Pending Functions",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page describes how to view pending functions for a branch using the 'Pending Functions' screen and explains the parameters that can be used to fetch relevant records.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Reverse EOD Balancing",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This section explains how to reverse an automatic end-of-day (EOD) suspense entry and provides details on the process, including specifying necessary information such as branch code and suspense reference number.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Reversing Automatic EOD Suspense Entry",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This section explains how to reverse an automatic end-of-day (EOD) suspense entry and provides details on the process, including specifying necessary information such as branch code and suspense reference number.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Viewing Reverse EOD Balancing Summary Details",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page explains how to use the 'Reverse EOD Balancing Summary' screen to view and query details of reversed entries, and introduces the stages of End-of-Day Initial (EOTI) and End-of-Day Final (EOFI) batch processing validations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 EOTI/EOFI Stages of Batch Processing",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page explains how to use the 'Reverse EOD Balancing Summary' screen to view and query details of reversed entries, and introduces the stages of End-of-Day Initial (EOTI) and End-of-Day Final (EOFI) batch processing validations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Generation of Automatic Suspense Entry",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This section describes the process of generating automatic suspense entries when there is a mismatch in real and contingent credit/debit balances during the EOD at EOTI and EOFI stages, and mentions that reversal check is another topic but its content is not provided here.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 Suspense Entry Reversal Check",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This section describes the process of generating automatic suspense entries when there is a mismatch in real and contingent credit/debit balances during the EOD at EOTI and EOFI stages, and mentions that reversal check is another topic but its content is not provided here.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. End of Previous Day",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses the processing of the End of Previous Day (EOPD) and deferred end-of-day processes in a transaction system, detailing specific batches run during this stage.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Processing End of Previous Day",
+      "start_page": 12,
+      "end_page": 14,
+      "summary": "This page discusses the processing of the End of Previous Day (EOPD) and deferred end-of-day processes in a transaction system, detailing specific batches run during this stage.",
+      "cross_references": [
+        {
+          "structure": "3.2",
+          "title": "2.2 Viewing Branch Pending Functions",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Viewing Unauthorized Transactions",
+          "start_page": 6
+        }
+      ]
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Deferred EOD Process",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This section describes the EOD process in the system and explains that the end of transaction input can only be marked after the EOPD stage is completed.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Annexure A - List of End of Cycle Functions",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page details mandatory functions that must run during different stages of the End of Cycle (EOC) process, specifically focusing on Beginning of Day (BOD) functions across various modules.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Mandatory Functions of EOC Cycle",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page details mandatory functions that must run during different stages of the End of Cycle (EOC) process, specifically focusing on Beginning of Day (BOD) functions across various modules.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Beginning of Day (BOD) Functions for all Modules",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page details mandatory functions that must run during different stages of the End of Cycle (EOC) process, specifically focusing on Beginning of Day (BOD) functions across various modules.",
+      "cross_references": [
+        {
+          "structure": "4.2",
+          "title": "3.2 Deferred EOD Process",
+          "start_page": 14
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Processing End of Previous Day",
+          "start_page": 12
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 End of Day (EOD) Functions for all Modules",
+      "start_page": 16,
+      "end_page": 18,
+      "summary": "This page outlines the mandatory daily functions required for end-of-day processes across various modules.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.3",
+      "title": "4.1.3 Pre-End of Day Functions for all Modules",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page outlines pre-end-of-day functions required for various modules and describes the account revaluation batch process.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Account Revaluation Batch",
+      "start_page": 18,
+      "end_page": 20,
+      "summary": "This page outlines pre-end-of-day functions required for various modules and describes the account revaluation batch process.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Function ID Glossary",
+      "start_page": 20,
+      "end_page": 22,
+      "summary": "This page contains a glossary of Function IDs including EIDREVRS, EISREVRS, EISVWPNT, and EISWPPGM with their respective page numbers.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page provides a user guide for the Automated End of Day process in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Automated End of Day User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including details about software licensing and usage restrictions.",
+      "raw_text": "Automated End of Day User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, structure, related documents, and icon glossary.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \n Viewing Unauthorized Transactions and Functions ........................... 2-1\n2.1 \nViewing Unauthorized Transactions........................................................................  2-1\n2.2 \nViewing Branch Pending Functions.........................................................................  2-2\n2.3 \nReverse EOD Balancing..........................................................................................  2-3\n2.3.1  \nReversing Automatic EOD Suspense Entry ..............................................  2-3\n2.3.2  \nViewing Reverse EOD Balancing Summary Details...................................  2-5\n2.4 \nEOTI/EOFI Stages of Batch Processing..................................................................  2-5\n2.4.1  \nGeneration of Automatic Suspense Entry ..................................................  2-6\n2.4.2  \nSuspense Entry Reversal Check ...............................................................  2-6\n3. \nEnd of Previous Day ................................................................................ 3-1\n3.1 \nProcessing End of Previous Day.............................................................................  3-1\n3.2 \nDeferred EOD Process............................................................................................  3-3\n4. \nAnnexure A - List of End of Cycle Functions ........................................ 4-1\n4.1 \nMandatory Functions of EOC Cycle ........................................................................  4-1\n4.1.1  \nBeginning of Day (BOD) Functions for all Modules ....................................  4-1\n4.1.2  \nEnd of Day (EOD) Functions for all Modules..............................................  4-2\n4.1.3  \nPre-End of Day Functions for all Modules ..................................................  4-4\n4.2 \nAccount Revaluation Batch .....................................................................................  4-4\n5. \nFunction ID Glossary ............................................................................... 5-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This user manual provides an introduction to Oracle FLEXCUBE's functionalities and is intended for various user roles, including back office clerks, managers, product managers, and end of day operators. It also outlines the organization of the manual into specific chapters.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis user manual is designed to help you quickly get acquainted with the many functions \nroutinely executed everyday in Oracle FLEXCUBE.\nThis user manual is a supplement to the Common Core Automated End of Day User Manual \nand contains only specific functionalities and information related to Oracle FCUBS EOD. \nHence, this document should be read in conjunction with the Common Core Automated End \nof Day user manual from the perspective of completeness in flow and understanding. \nYou can obtain information specific to a particular field by placing the cursor on the relevant \nfield, and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/ Beginning of \nDay\nFinancial Controller/Product Manag-\ners\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nViewing Unauthorized Transactions and Functions gives the list of unau-\nthorized records that can be viewed.\nChapter 3\nEnd of Previous Day details the various batches run during end of previ-\nous day."
+    },
+    {
+      "page_number": 5,
+      "sections": [],
+      "summary": "This page provides references to related documents and manuals, as well as a glossary of icons used in the module.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nSettlements User Manual\nCore Services User Manual\nProcedures User Manual\nCommon Core - Automated End of Day User Manual \n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter 4\nAnnexure A - List of End of Cycle Functions contains a list of all the man-\ndatory functions run as part of the EOC cycle.\nChapter 5\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Viewing Unauthorized Transactions",
+        "Viewing Branch Pending Functions",
+        "Reverse EOD Balancing",
+        "EOTI/EOFI Stages of Batch Processing"
+      ],
+      "summary": "This section explains how to view unauthorized transactions and pending functions in the application, including using specific parameters for queries.",
+      "raw_text": "2-1\n2.  Viewing Unauthorized Transactions and Functions\nThis chapter contains the following sections:\nSection 2.1, \"Viewing Unauthorized Transactions\"\nSection 2.2, \"Viewing Branch Pending Functions\"\nSection 2.3, \"Reverse EOD Balancing\"\nSection 2.4, \"EOTI/EOFI Stages of Batch Processing\"\n2.1 \nViewing Unauthorized Transactions\nYou can view the details of the all the unauthorized transactions from the Pending \nTransactions screen. You can invoke the ‘Pending Transactions’ screen by typing \n‘EISVWPNT’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button.\nThrough this screen you can view details of the:\nMessages that are yet to be generated\nTransactions that are yet to be authorized\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nBranch\nModule\nReference Number\nEvents\nID\nSelect any or all of the above parameters for a query and click ‘Search’ button. The records \nmeeting the selected criteria are displayed."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "System displays the following details pertaining to the fetched records:",
+        "Viewing Branch Pending Functions"
+      ],
+      "summary": "This page describes how to view pending functions for a branch using the 'Pending Functions' screen and explains the parameters that can be used to fetch relevant records.",
+      "raw_text": "2-2\nSystem displays the following details pertaining to the fetched records:\nBranch\nModule\nReference Number\nEvents\nID\n2.2 \nViewing Branch Pending Functions\nYou can view the pending functions of a branch using ‘Pending Functions’ screen. You can \ninvoke the ‘Pending Functions’ screen by typing ‘EISWPPGM’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button.\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nBranch\nModule\nFunction Identification\nStatus\nFunction Name\nSelect any or all of the above parameters for a query and click ‘Search’ button. The records \nmeeting the selected criteria are displayed.\nSystem displays the following details pertaining to the fetched records:\nBranch\nModule\nFunction Identification\nStatus\nFunction Name"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Reversing Automatic EOD Suspense Entry",
+        "Viewing Reverse EOD Balancing Summary Details"
+      ],
+      "summary": "This section explains how to reverse an automatic end-of-day (EOD) suspense entry and provides details on the process, including specifying necessary information such as branch code and suspense reference number.",
+      "raw_text": "2-3\n2.3 \nReverse EOD Balancing\nThis section contains the following topics:\nSection 2.3.1, \"Reversing Automatic EOD Suspense Entry \"\nSection 2.3.2, \"Viewing Reverse EOD Balancing Summary Details\"\n2.3.1 \nReversing Automatic EOD Suspense Entry \nThe reversal of the Automatic EOD suspense entry can be done using the ‘Reverse EOD \nBalancing’ screen. \nTo invoke this screen type ‘EIDREVRS’ in the field at the top right corner of the Application \ntool bar and click the adjoining arrow button.\nSpecify the following details:\nBranch Code\nSpecify the Branch code.\nBranch Name\nSpecify the name of the Branch.\nSuspense Reference Number\nSpecify the suspense reference number.\nSuspense Entry Date\nSpecify the suspense entry date.\nSuspense Entry Details\nSpecify the following suspense entry details:"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "D/C",
+        "Local Currency",
+        "Real/Contingent",
+        "Amount",
+        "Batch Number",
+        "End of Input Status",
+        "Transaction Code",
+        "Reversal Details"
+      ],
+      "summary": "This page outlines the fields and options for inputting financial transaction details, including general ledger number, debit or credit selection, currency specification, amount, batch number, end of input status, transaction code, and reversal entry details.",
+      "raw_text": "2-4\nGeneral Ledger No\nSpecify general ledger number.\nD/C\nSelect the appropriate option to indicate whether debit or credit from the drop-down list. You \nhave the following options:\nDebit\nCredit\nLocal Currency\nSpecify the local currency.\nReal/Contingent\nSelect the appropriate option to indicate whether real or contingent from the drop-down list. \nYou have the following options:\nReal\nContingent\nAmount\nSpecify the amount in figures.\nBatch Number\nSpecify the batch number.\nEnd of Input Status\nSelect the end of input status from the drop-down list. You have the following options:\nEnd of Transaction Input\nEnd of Financial Input\nTransaction Code\nSpecify transaction code.\nReversal Details\nSpecify the following reversal entry details:\nReverse Reference Number\nSpecify the reverse reference number.\nReversal Date\nSpecify the reversal date."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Viewing Reverse EOD Balancing Summary Details",
+        "EOTI/EOFI Stages of Batch Processing"
+      ],
+      "summary": "This page explains how to use the 'Reverse EOD Balancing Summary' screen to view and query details of reversed entries, and introduces the stages of End-of-Day Initial (EOTI) and End-of-Day Final (EOFI) batch processing validations.",
+      "raw_text": "2-5\n2.3.2 \nViewing Reverse EOD Balancing Summary Details\nYou can reverse the entries which have been posted as part of Balancing during the Batch \nusing ‘Reverse EOD Balancing Summary’ screen. To invoke this screen type ‘EISREVRS’ in \nthe field at the top right corner of the Application tool bar and click the adjoining arrow button.\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nAuthorization Status\nRecord Status\nBranch Code\nSuspense Entry Date\nSuspense Reference\nReversal Reference\nReversal Date\nSelect any or all of the above parameters for a query and click ‘Search’ button. The records \nmeeting the selected criteria are displayed.\nSystem displays the following details pertaining to the fetched records:\nAuthorization Status\nRecord Status\nBranch Code\nSuspense Entry Date\nSuspense Reference\nReversal Reference\nReversal Date\n2.4 \nEOTI/EOFI Stages of Batch Processing\nThe validations and processes that take place during EOTI and EOFI processing of the EOD \nbatch are covered in this section."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Generation of Automatic Suspense Entry",
+        "Suspense Entry Reversal Check"
+      ],
+      "summary": "This section describes the process of generating automatic suspense entries when there is a mismatch in real and contingent credit/debit balances during the EOD at EOTI and EOFI stages, and mentions that reversal check is another topic but its content is not provided here.",
+      "raw_text": "2-6\nThis section contains the following topics:\nSection 2.4.1, \"Generation of Automatic Suspense Entry\"\nSection 2.4.2, \"Suspense Entry Reversal Check \"\n2.4.1 \nGeneration of Automatic Suspense Entry\nWhile running EOD at EOTI and EOFI stages system checks if the Suspense Entry Required \nis ‘Y’ at the Branch level. If it is ‘N’ further it checks if there is any mismatch between the sum \nof balances of Real/Contingent Credit/Debit values then system will display an error message \nand EOD is stopped. If Suspense Entry Required is ‘Y’ then it proceeds with the Automatic \nSuspense entry sub process. \nIn this process all the authorized accounting entries for the branch for the current processing \nday will be browsed. There is a check made to find if mismatch exists upon sum of the real dr/\nreal Credit entry or in the contingent dr/contingent Credit entry. \nIf there is a mismatch in the real Debit and real Credit entries, then the difference amount is \ncalculated and if the Debit Amount is greater than the Credit Amount then a Credit Entry for \nthe difference Amount is posted into the Real Suspense GL maintained at the Branch Level \nElse if the Credit Amount is greater than the Debit Amount then a Debit Entry for the difference \nAmount is posted into the Real Suspense GL maintained at the Branch Level, where the \nTransaction Code is the Suspense Transaction Code maintained at the Branch Level. \nSimilarly, the Suspense Entry is posted for the Contingent suspense GL when there is a \nmismatch in the contingent Debit and contingent Credit entries.\nAn equivalent entry gets posted with Suspense transaction code and Suspense Batch \nnumber maintained at Branch level. A new Transaction reference number is created to post \nthe entries.\nIn order to check the entries posted by system to overcome the misbalances during EOTI \nstage, you can check in Reverse Entry EOD screen for a given date. \nThe Branch, Branch Date, Real contingent, Branch status, Batch No, Amount, Currency, \nSuspense Entry Reference No, Reversal Entry ref no and a few other Suspense Entry details \nare stored into the database.\n2.4.2 \nSuspense Entry Reversal Check \nIn this process, the system browses through the details of the Suspense entries posted for the \nrecords which have not been reversed for the records whose branch date is greater than or \nequal to (Current date - Reverse Suspense entry days maintained at branch level). If reverse \nentries are not posted for any of those records then the system will display the error message \nas “Suspense Entries not reversed for the Branch” at EOTI and EOFI stages of EOD and EOD \nis stopped\nYou have to post the reversal entries using the ‘Reverse EOD Balancing’ screen and continue \nwith the EOD. \nYou can get the automatic suspense entry records and do the reversal on the same. You are \nallowed to perform New, F7 and F8 operations on this screen. You can query record for a \nparticular branch and date and Suspense reference number. The reversal of the entries can \nbe done by using Reverse Button. System posts equivalent negative entries for the amount \nand currency and generates a unique reversal suspense entry."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Processing End of Previous Day",
+        "Deferred EOD Process"
+      ],
+      "summary": "This page discusses the processing of the End of Previous Day (EOPD) and deferred end-of-day processes in a transaction system, detailing specific batches run during this stage.",
+      "raw_text": "3-1\n3. End of Previous Day\nYou can defer an EOD process to the next day and process it on the following day during \ntransaction input as previous day batch. This End of Previous Day (EOPD) batch is run after \nthe transaction input stage and the non critical processes like GL statement generation, \narchival, purging that are done during EOD can be moved to EOPD stage.\nThis chapter contains the following sections:\nSection 3.1, \"Processing End of Previous Day\"\nSection 3.2, \"Deferred EOD Process\"\n3.1 \nProcessing End of Previous Day\nEnd of Previous Day is run as MARKEOPD stage after the Transaction Input stage until the \nnext EOTI process.The batch for archival processes starts after the End of Previous Day and \nthe End of Transaction Input starts for the next day only once EOPD is completed. There are \nseveral batches run during EOPD. These batches will be run after the date change. All the \nperiod codes and financial codes will be based on the EOD processing date.\nDuring the MARKEOPD batch, the system processes GL Balance Consolidation, Archiving \nAccounting Entries and GL Statement Generation.\nThe following are the batches run during EOPD:\nBatch\nFunction of the Batch\nACARCHIV\nClearing all Error Log, Unmarking dormancy\nCOARCHIV\nArchival of Customer Available scheme Details for Relationship \nPricing\nDEARCHIV\nUpdates/Inserts Data Entry dispenser balance and deleting DE \nLogs\nELARCHIV\nArchival of ELCM Facility Utilization Transaction log and Facility \nutilization\nGIARCHIV\nArchival of GI upload and file log tables\nGLPURBAT\nPurging work tables of GL\nGWARCHIV\nArchives Gateway tables\nICPURBAT\nPurging Of IC accrual history\nIFPURBAT\nPurge history of Branch re-consolidation\nMSARCHIV\nArchival of Messages \nRTLARCHV\nArchival of Retail Teller Transactions\nSMARCHIV\nArchival of SMS Log\nSTARCHIV\nArchival record log, field log and notification tables\nSTPURBAT\nMoving of referral queue items to history tables for the specified \nbranch"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Deferred Archival Process"
+      ],
+      "summary": "This section describes the deferred archival processes handled during specific stages of MARKEOPD and POSTEOPD_1 to POSTEOPD_3, including archiving customer available scheme details for Relationship Pr.",
+      "raw_text": "3-2\nThe following deferred EOD processes are handled in the batch run during MARKEOPD \nstage:\nArchiving accounting entries to history table\nUpdating the document check list as expired where the expiry dates are less than or \nequal to current posting date -1. Expiry date can be passed as the previous working date \nof the branch.\nClosing all the tax limit data where the end date is less than the current posting date -1.\nUpdates/insert the FCTD statistics.\nUpdates /Inserts average balance statistics for the specific period code and financial \ncycle.\nJob submit doing IC EOFI activities\n– \nGenerates Credit/ Debit IC Advice (Liquidated)\n– \nGenerates IC Debit Interest Notice\n– \nGenerates IC charge Notice\n– \nLogging failures of the job\nIf LD Statement features (LDSTMT) installed, then the LD statement is generated.\nGeneration of consolidated tax certificates, if consolidated tax certificate parameter is \nset at branch level. \nGeneration of GL and Account Statement generations based on the GLSTHAND \nfeatures maintained flags.\nGeneration of IRA statement based on the IRASTMT features maintained.\nStatement handoff for securities.\nDeferred Archival Process\nThe deferred archival process from the EOD stage are run during POSTEOPD_1, \nPOSTEOPD_2, POSTEOPD_3 stages. You can configure this in the Mandatory Batch \nProgram Maintenance. The following are the deferred archival process from EOD handled in \nEOPD:\nArchives customer available scheme details for Relationship Pricing\nArchives Facility Utilization\nArchives IC Statement\nArchives SMS Log\nArchives ELCM Facility Utilization Transaction log\nArchives Gateway Messages (Request and Response)\nClearing all Error Log\nUpdates/Inserts Data Entry dispenser balance and deleting DE Logs\nMessages Archival\nAuthorization Messages Archival\nSwift Messages Archival\nArchives Retail Teller Transactions\nPurging Of IC accrual history\nPurging Log Record log and field log details\nPurging work tables of GL\nMoving of referral queue items to history tables for the specified branch\nIf web branch installed purge history of Branch re-consolidation"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "3.2 Deferred EOD Process"
+      ],
+      "summary": "This section describes the EOD process in the system and explains that the end of transaction input can only be marked after the EOPD stage is completed.",
+      "raw_text": "3-3\nThe archival process is based on ‘ARCHIVE_RETAIN_DAYS' parameter maintained in \nCSTB_PARAM table.\n3.2 \nDeferred EOD Process\nThe below flowchart indicates the EOD process in the system. \nThe EOPD is run parallel to the Transaction Input. The next day Mark EOTI is allowed only \nwhen the EOPD stage is completed. You cannot mark end of transaction input if the automatic \nend of day status of EOPD is ‘N’."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Mandatory Functions of EOC Cycle",
+        "Beginning of Day (BOD) Functions for all Modules"
+      ],
+      "summary": "This page details mandatory functions that must run during different stages of the End of Cycle (EOC) process, specifically focusing on Beginning of Day (BOD) functions across various modules.",
+      "raw_text": "4-1\n4. Annexure A - List of End of Cycle Functions\nThis chapter contains the following topics:\nSection 4.1, \"Mandatory Functions of EOC Cycle\"\nSection 4.2, \"Account Revaluation Batch\"\n4.1 \nMandatory Functions of EOC Cycle\nThis Annexure contains details of all the mandatory functions that should mandatorily run as \npart of the different stages of the EOC cycle.\nThis section contains the following topics:\nSection 4.1.1, \"Beginning of Day (BOD) Functions for all Modules\"\nSection 4.1.2, \"End of Day (EOD) Functions for all Modules\"\nSection 4.1.3, \"Pre-End of Day Functions for all Modules\"\nThe contents of this Annexure are organized on the basis of the module to which the function \nbelongs.\n4.1.1 \nBeginning of Day (BOD) Functions for all Modules\nThe mandatory functions for BOD are marked with a Yes under the Mandatory Column.\nModule\nFunction\nFrequency\nMandatory\nSMS\nChange time\nDaily\nCore\nPosting of tank\nDaily\nCASA\nGroup Status Change\nDaily\nDE\nTill opening\nDaily\nYes\nDE\nCash movement function\nDaily\nLD\nAuto- daily\nDaily\nLD\nAuto- initiation\nDaily\nLD\nAuto- liquidation\nDaily\nMM\nMM activation of forward contracts\nDaily\nYes\nMM\nMM auto- liquidation of contracts\nDaily\nYes\nMM\nMM auto- liquidation of interests\nDaily\nYes\nMM\nMM auto- rollover execution\nDaily\nYes\nMM\nMM maturity report\nDaily\nMM\nMM exception report\nDaily\nYes\nBC\nAccruals\nDaily\nYes\nBC\nAutoLiq\nDaily\nYes"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "End of Day (EOD) Functions for all Modules"
+      ],
+      "summary": "This page outlines the mandatory daily functions required for end-of-day processes across various modules.",
+      "raw_text": "4-2\n4.1.2 \nEnd of Day (EOD) Functions for all Modules\nThe mandatory functions for EOD are marked with a Yes under the Mandatory Column.\nBC\nAuto-change of Acceptance to Advance\nDaily\nYes\nBC\nAuto- status control\nDaily\nBC\nFloating rate change\nDaily\nBC\nTracer generation\nDaily\nLC\nLCEOD\nDaily\nYes\nSI\nSweeps\nDaily\nAEOD\nRefinance rates\nInput\nAEOD\nCurrency rates\nInput\nAEOD\nForward rates\nInput\nAEOD\nDiscount rates\nInput\nModul\ne\nFunction\nFrequency\nMandator\ny\nSMS\nLog of events\nDaily\nSMS\nSecurity violations report\nDaily\nCore\nFinancial balancing\nDaily\nCore\nDate change\nDaily\nCore\nAccounting entries history\nDaily\nCore\nCurrency position update\nDaily\nCore\nAuto- revaluation\nDaily\nCore\nAccount statement\nDaily\nCore\nBrokerage liquidation\nDaily\nCore\nBrokerage liquidation report\nDaily\nCore\nLimits updation\nDaily\nCASA\nGroup Status Change\nDaily\nCASA\nLiquidating PDC Linked Schedules\nDaily\nDE\nDaily cash movement function\nDaily\nYes\nDE\nDaily cash movement report\nDaily\nYes\nDE\nBatch totals report\nDaily\nDE\nTransaction journal\nDaily\nYes"
+    },
+    {
+      "page_number": 17,
+      "sections": [],
+      "summary": "This page lists various daily and monthly reports and transactions related to different financial operations such as FX contracts, MM contracts, and BC accruals.",
+      "raw_text": "4-3\nDE\nDaily teller transaction report\nDaily\nDE\nTill balancing exception report\nDaily\nYes\nDE\nTill closing position (history)\nDaily\nYes\nCASA\nAmount block\nDaily\nCASA\nStop payment\nDaily\nFX\nFX contract revaluation\nDaily, \nMonthly\nYes\nFX\nFX contract auto liquidation\nDaily\nYes\nFX\nFX auto- rollover\nDaily\nYes\nFX\nFX settlement message generation\nDaily\nYes\nFX\nFX fetch unauthorized\nDaily\nYes\nFX\nFX netting of (settlements amounts)\nDaily\nYes\nFX\nFX contracts purge\nOptional\nLD\nAuto- daily\nDaily\nLD\nAuto- interest liquidation\nDaily\nLD\nAuto- liquidation\nDaily\nLD\nAuto- rollover\nDaily\nMM\nMM activation forward contracts\nDaily\nYes\nMM\nAuto- liquidation of MM contracts\nDaily\nYes\nMM\nMM auto- liquidation of interests\nDaily\nYes\nMM\nGeneration of payment messages, \ndays before actual date\nDaily\nYes\nMM\nMM auto- rollover execution\nDaily\nYes\nMM\nMM interest rate revision\nDaily\nMM\nMM fetch unauthorized\nDaily\nMM\nMM maturity report\nDaily\nMM\nMM daily movement\nDaily\nYes\nMM\nMM exception report\nDaily\nYes\nBC\nAccruals\nDaily\nYes\nBC\nAuto- liq\nDaily\nYes\nBC\nAuto-change of acceptance to \nadvance\nDaily\nYes\nBC\nAuto- status control\nDaily"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Pre-End of Day Functions for all Modules",
+        "Account Revaluation Batch"
+      ],
+      "summary": "This page outlines pre-end-of-day functions required for various modules and describes the account revaluation batch process.",
+      "raw_text": "4-4\n4.1.3 \nPre-End of Day Functions for all Modules\nThe mandatory functions for BOD are marked with a Yes under the Mandatory Column.\nThe following is the list of pre-EOC functions that have to be executed after EOTI has been \nmarked:\n4.2 \nAccount Revaluation Batch\nAs part of EOD batch programs, the system will maintain the account revaluation batch \n(ACCREVAL). This program will be maintained at EOTI (Pre-EOC) stage of end of day. \nRevaluation accounting is posted in foreign currency with equivalent of LCY difference.\nLC\nLCEOD\nDaily\nYes\nLC\nLC tracer general\nDaily\nYes\nIC\nLiquidation\nDaily\nIC\nInterest advices\nDaily\nIC\nAccruals\nDaily\nSI\nSI Batch Process\nDaily\nYes\nGL\nGL report\nDaily\nGL\nCash flow report\nDaily\nMIS\nProduct profitability\nDaily\nMIS\nCustomer profitability\nDaily\nMIS\nPool profitability\nDaily\nMIS\nMS clause- wise report\nDaily\nAEOD\nChange time level\nDaily\nModule\nFunction\nFrequency\nMandatory\nBC\nAuto- status control\nDaily\nLC\nLCEOD\nDaily\nYes\nIC\nSI\nPayments\nDaily\nModule\nFunction\nFrequency\nMandatory\nBC\nAuto- status control\nDaily\nLC\nLCEOD\nDaily\nYes\nSI\nPayments\nDaily"
+    },
+    {
+      "page_number": 19,
+      "sections": [],
+      "summary": "This page describes the process of revaluation for internal GLs and customer account revaluation in the GL maintenance, including transferring foreign currency positions to a designated branch based on the revaluation setup.",
+      "raw_text": "4-5\nThis batch will do the revaluation separately for Internal GLs, Customer Account Revaluation \nis maintained for profit and loss GLs in the GL maintenance. For the GL’s maintained at the \nrevaluation setup, you need to check the ‘Revaluation’ checkbox at GL chart of accounts \nlevel.\nThis batch will also transfer the foreign currency positions to a designated branch based on \nthe revaluation/ position transfer setup maintained at the branch preferences level.\nThe system will transfer the position from the existing branch to the treasury branch. If the \nposition is negative in the given GL, then the system will choose the offset account as Position \nasset GL and if the position is positive in the given GL, then the system will choose the offset \naccount as Position liability GL. \nThe sequence of the EOD between the designated branch and all other branches are \noperationally controlled."
+    },
+    {
+      "page_number": 20,
+      "sections": [],
+      "summary": "This page contains a glossary of Function IDs including EIDREVRS, EISREVRS, EISVWPNT, and EISWPPGM with their respective page numbers.",
+      "raw_text": "5-1\n5. Function ID Glossary\nE\nEIDREVRS ........................2-3\nEISREVRS ........................ 2-5\nEISVWPNT ....................... 2-1\nEISWPPGM ...................... 2-2"
+    }
+  ]
+}

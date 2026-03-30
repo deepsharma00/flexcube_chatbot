@@ -1,0 +1,1023 @@
+{
+  "source": "FlexCube/FCUBS/Nostro_Reconciliation/Reconciliation-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 37,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This section introduces the process of defining a reconciliation class.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Reconciliation Manual of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Reconciliation Manual of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Reconciliation Manual of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Reconciliation Manual of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Reconciliation Manual of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "6",
+          "title": "5. Defining External Accounts",
+          "start_page": 22
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Introduction",
+          "start_page": 22
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Reconciliation External Account Definition Screen",
+          "start_page": 22
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Features of the External Account Definition Screen",
+          "start_page": 23
+        },
+        {
+          "structure": "3",
+          "title": "2. Reconciliation an Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features",
+          "start_page": 7
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Defining a Reconciliation Class",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Introduction",
+          "start_page": 9
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Reconciliation Class Definition screen",
+          "start_page": 9
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Invoking the ‘Reconciliation Class Maintenance screen",
+          "start_page": 9
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Assigning Reconciliation Class a Code",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Description",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Specifying the Adjustment GL",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Indicating the Reconciliation Class Type",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.6",
+          "title": "3.2.6 Indicating the Sequence in which Match Rules should be made Applicable",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.7",
+          "title": "3.2.7 Assigning Rule Sequence Number",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.8",
+          "title": "3.2.8 Specifying Parameters for the Manual Matching of Reconciled Entries",
+          "start_page": 12
+        },
+        {
+          "structure": "5",
+          "title": "4. Defining Matching Rules",
+          "start_page": 13
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Introduction",
+          "start_page": 13
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Maintaining Reconciliation Rule",
+          "start_page": 13
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Features of the Reconciliation Rule Definition Screen",
+          "start_page": 14
+        },
+        {
+          "structure": "8",
+          "title": "7. Uploading an External Statement",
+          "start_page": 30
+        },
+        {
+          "structure": "8.1",
+          "title": "7.1 Introduction",
+          "start_page": 30
+        },
+        {
+          "structure": "8.2",
+          "title": "7.2 The Procedure",
+          "start_page": 30
+        },
+        {
+          "structure": "8.3",
+          "title": "7.3 Reconciliation External Statement Upload Screen",
+          "start_page": 31
+        },
+        {
+          "structure": "8.4",
+          "title": "7.4 Features on the External Upload Screen",
+          "start_page": 31
+        },
+        {
+          "structure": "7",
+          "title": "6. Manually Entering an External Statement",
+          "start_page": 26
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 Introduction",
+          "start_page": 26
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Reconciliation External Statement Input Screen",
+          "start_page": 26
+        },
+        {
+          "structure": "7.3",
+          "title": "6.3 Features of the External Statement Input Screen",
+          "start_page": 27
+        },
+        {
+          "structure": "7.4",
+          "title": "6.4 The Statement Details Screen",
+          "start_page": 27
+        },
+        {
+          "structure": "7.5",
+          "title": "6.5 Viewing the Overrides that were Encountered",
+          "start_page": 28
+        },
+        {
+          "structure": "7.6",
+          "title": "6.6 Viewing Fields",
+          "start_page": 29
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page introduces related documents and provides a glossary of icons used in the user manual, along with references to procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page introduces related documents and provides a glossary of icons used in the user manual, along with references to procedures.",
+      "cross_references": [
+        {
+          "structure": "9",
+          "title": "8. Matching Internal and External Statements",
+          "start_page": 33
+        },
+        {
+          "structure": "9.1",
+          "title": "8.1 Introduction",
+          "start_page": 33
+        },
+        {
+          "structure": "9.2",
+          "title": "8.2 Manual Matching of Entries",
+          "start_page": 33
+        },
+        {
+          "structure": "9.3",
+          "title": "8.3 Manual Matching of the query",
+          "start_page": 35
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Reconciliation an Overview",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section provides an overview of the Reconciliation Module in Oracle FLEXCUBE and details its features for automating account reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section provides an overview of the Reconciliation Module in Oracle FLEXCUBE and details its features for automating account reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Features",
+      "start_page": 7,
+      "end_page": 9,
+      "summary": "This section provides an overview of the Reconciliation Module in Oracle FLEXCUBE and details its features for automating account reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Defining a Reconciliation Class",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page explains how to define a reconciliation class and introduces the Reconciliation Class Definition Screen, which allows setting up match rules, sequence, and other attributes for automatic matching of external entity entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Introduction",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page explains how to define a reconciliation class and introduces the Reconciliation Class Definition Screen, which allows setting up match rules, sequence, and other attributes for automatic matching of external entity entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Reconciliation Class Definition screen",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page explains how to define a reconciliation class and introduces the Reconciliation Class Definition Screen, which allows setting up match rules, sequence, and other attributes for automatic matching of external entity entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Invoking the ‘Reconciliation Class Maintenance screen",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page explains how to define a reconciliation class and introduces the Reconciliation Class Definition Screen, which allows setting up match rules, sequence, and other attributes for automatic matching of external entity entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.2",
+      "title": "3.2.2 Assigning Reconciliation Class a Code",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This section explains how to assign a unique four-character code to a reconciliation class in Oracle FLEXCUBE and how this code is used to identify the class across different branches of a bank.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.3",
+      "title": "3.2.3 Description",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page explains how to enter a description for a reconciliation class code, specify an adjustment general ledger for unreconciled entries, and choose between mirror and replication types for automatic matching in accounting systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.4",
+      "title": "3.2.4 Specifying the Adjustment GL",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page explains how to enter a description for a reconciliation class code, specify an adjustment general ledger for unreconciled entries, and choose between mirror and replication types for automatic matching in accounting systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.5",
+      "title": "3.2.5 Indicating the Reconciliation Class Type",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page explains how to enter a description for a reconciliation class code, specify an adjustment general ledger for unreconciled entries, and choose between mirror and replication types for automatic matching in accounting systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.6",
+      "title": "3.2.6 Indicating the Sequence in which Match Rules should be made Applicable",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses how to define and manage match rules, including their sequence during automatic matching, assigning sequence numbers, and setting parameters for manual reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.7",
+      "title": "3.2.7 Assigning Rule Sequence Number",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses how to define and manage match rules, including their sequence during automatic matching, assigning sequence numbers, and setting parameters for manual reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.8",
+      "title": "3.2.8 Specifying Parameters for the Manual Matching of Reconciled Entries",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page discusses how to define and manage match rules, including their sequence during automatic matching, assigning sequence numbers, and setting parameters for manual reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Defining Matching Rules",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page explains how to define and maintain matching rules for reconciling Nostro entries, focusing on the benefits of using these rules and introducing the 'Reconciliation Rule Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Introduction",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page explains how to define and maintain matching rules for reconciling Nostro entries, focusing on the benefits of using these rules and introducing the 'Reconciliation Rule Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Maintaining Reconciliation Rule",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page explains how to define and maintain matching rules for reconciling Nostro entries, focusing on the benefits of using these rules and introducing the 'Reconciliation Rule Maintenance' screen.",
+      "cross_references": [
+        {
+          "structure": "4.2",
+          "title": "3.2 Reconciliation Class Definition screen",
+          "start_page": 9
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Invoking the ‘Reconciliation Class Maintenance screen",
+          "start_page": 9
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Assigning Reconciliation Class a Code",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Description",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Specifying the Adjustment GL",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Indicating the Reconciliation Class Type",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.6",
+          "title": "3.2.6 Indicating the Sequence in which Match Rules should be made Applicable",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.7",
+          "title": "3.2.7 Assigning Rule Sequence Number",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.8",
+          "title": "3.2.8 Specifying Parameters for the Manual Matching of Reconciled Entries",
+          "start_page": 12
+        }
+      ]
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Features of the Reconciliation Rule Definition Screen",
+      "start_page": 14,
+      "end_page": 22,
+      "summary": "This page explains how to call a defined rule and details the features of the Reconciliation Rule Definition Screen in Oracle FLEXCUBE, including assigning codes and specifying parameters for matching transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Defining External Accounts",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page explains how to define external accounts for reconciliation purposes and introduces the 'Reconciliation External Account Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Introduction",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page explains how to define external accounts for reconciliation purposes and introduces the 'Reconciliation External Account Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Reconciliation External Account Definition Screen",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This page explains how to define external accounts for reconciliation purposes and introduces the 'Reconciliation External Account Maintenance' screen.",
+      "cross_references": [
+        {
+          "structure": "5.3",
+          "title": "4.3 Features of the Reconciliation Rule Definition Screen",
+          "start_page": 14
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Maintaining Reconciliation Rule",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "6.3",
+      "title": "5.3 Features of the External Account Definition Screen",
+      "start_page": 23,
+      "end_page": 26,
+      "summary": "This page explains how to define external entities and their accounts in Oracle FLEXCUBE, including assigning unique codes, specifying account details, and mapping them to reconciliation classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Manually Entering an External Statement",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page explains how to manually enter an external statement into Oracle FLEXCUBE and describes the process of invoking and using the Reconciliation External Statement Input screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 Introduction",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page explains how to manually enter an external statement into Oracle FLEXCUBE and describes the process of invoking and using the Reconciliation External Statement Input screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 Reconciliation External Statement Input Screen",
+      "start_page": 26,
+      "end_page": 27,
+      "summary": "This page explains how to manually enter an external statement into Oracle FLEXCUBE and describes the process of invoking and using the Reconciliation External Statement Input screen.",
+      "cross_references": [
+        {
+          "structure": "6.2",
+          "title": "5.2 Reconciliation External Account Definition Screen",
+          "start_page": 22
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Features of the External Account Definition Screen",
+          "start_page": 23
+        }
+      ]
+    },
+    {
+      "structure": "7.3",
+      "title": "6.3 Features of the External Statement Input Screen",
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This page describes how to call an External Statement Input record and details the features and specific fields required for entering statement details in the External Account Input screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.4",
+      "title": "6.4 The Statement Details Screen",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This page describes how to call an External Statement Input record and details the features and specific fields required for entering statement details in the External Account Input screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.5",
+      "title": "6.5 Viewing the Overrides that were Encountered",
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "This page explains how to upload and specify details of external statements in Oracle FLEXCUBE, including opening and closing balance information.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.6",
+      "title": "6.6 Viewing Fields",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This section explains how to view and input values in user-defined fields by clicking the 'Fields' button.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Uploading an External Statement",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page outlines the process for uploading external statements (MT 940, MT 950, and CAMT053) into Oracle FLEXCUBE, including steps through the Incoming Message Browser and necessary maintenance tasks.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1",
+      "title": "7.1 Introduction",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page outlines the process for uploading external statements (MT 940, MT 950, and CAMT053) into Oracle FLEXCUBE, including steps through the Incoming Message Browser and necessary maintenance tasks.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.2",
+      "title": "7.2 The Procedure",
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This page outlines the process for uploading external statements (MT 940, MT 950, and CAMT053) into Oracle FLEXCUBE, including steps through the Incoming Message Browser and necessary maintenance tasks.",
+      "cross_references": [
+        {
+          "structure": "7.3",
+          "title": "6.3 Features of the External Statement Input Screen",
+          "start_page": 27
+        },
+        {
+          "structure": "7.4",
+          "title": "6.4 The Statement Details Screen",
+          "start_page": 27
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Reconciliation External Statement Input Screen",
+          "start_page": 26
+        }
+      ]
+    },
+    {
+      "structure": "8.3",
+      "title": "7.3 Reconciliation External Statement Upload Screen",
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This page describes how to manually enter external statements into Oracle FLEXCUBE and details the steps involved in uploading such statements.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.4",
+      "title": "7.4 Features on the External Upload Screen",
+      "start_page": 31,
+      "end_page": 33,
+      "summary": "This page describes how to manually enter external statements into Oracle FLEXCUBE and details the steps involved in uploading such statements.",
+      "cross_references": []
+    },
+    {
+      "structure": "9",
+      "title": "8. Matching Internal and External Statements",
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This page explains how to manually match entries from an external statement with corresponding internal entries in Oracle FLEXCUBE for nostro reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.1",
+      "title": "8.1 Introduction",
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This page explains how to manually match entries from an external statement with corresponding internal entries in Oracle FLEXCUBE for nostro reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.2",
+      "title": "8.2 Manual Matching of Entries",
+      "start_page": 33,
+      "end_page": 35,
+      "summary": "This page explains how to manually match entries from an external statement with corresponding internal entries in Oracle FLEXCUBE for nostro reconciliation.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.3",
+      "title": "8.3 Manual Matching of the query",
+      "start_page": 35,
+      "end_page": 37,
+      "summary": "This page explains how to mirror transactions and manually match queries between internal and external entries using a specific application tool.",
+      "cross_references": []
+    },
+    {
+      "structure": "10",
+      "title": "9. Function ID Glossary",
+      "start_page": 37,
+      "end_page": 39,
+      "summary": "This page appears to list function IDs and their corresponding references without any section titles.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Nostro Reconciliation in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Nostro Reconciliation User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use for U.S. Government end users.",
+      "raw_text": "Nostro Reconciliation User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "3. Defining a Reconciliation Class"
+      ],
+      "summary": "This section introduces the process of defining a reconciliation class.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nReconciliation an Overview .................................................................... 2-1\n2.1 \nIntroduction .............................................................................................................  2-1\n2.2 \nFeatures ..................................................................................................................  2-1\n3. \nDefining a Reconciliation Class ............................................................. 3-1\n3.1 \nIntroduction..............................................................................................................  3-1\n3.2 \nReconciliation Class Definition screen ....................................................................  3-1\n3.2.1  \nInvoking the ‘Reconciliation Class Maintenance screen.............................  3-1\n3.2.2  \nAssigning Reconciliation Class a Code......................................................  3-2\n3.2.3  \nDescription..................................................................................................  3-3\n3.2.4  \nSpecifying the Adjustment GL ....................................................................  3-3\n3.2.5  \nIndicating the Reconciliation Class Type....................................................  3-3\n3.2.6  \nIndicating the Sequence in which Match Rules should be made Applicable 3-4\n3.2.7  \nAssigning Rule Sequence Number.............................................................  3-4\n3.2.8  \nSpecifying Parameters for the Manual Matching of Reconciled Entries.....  3-4\n4. \nDefining Matching Rules ......................................................................... 4-1\n4.1 \nIntroduction..............................................................................................................  4-1\n4.2 \nMaintaining Reconciliation Rule ..............................................................................  4-1\n4.3 \nFeatures of the Reconciliation Rule Definition Screen ............................................  4-2\n5. \nDefining External Accounts .................................................................... 5-1\n5.1 \nIntroduction..............................................................................................................  5-1\n5.2 \nReconciliation External Account Definition Screen..................................................  5-1\n5.3 \nFeatures of the External Account Definition Screen................................................  5-2\n6. \nManually Entering an External Statement ............................................. 6-1\n6.1 \nIntroduction..............................................................................................................  6-1\n6.2 \nReconciliation External Statement Input Screen .....................................................  6-1\n6.3 \nFeatures of the External Statement Input Screen ...................................................  6-2\n6.4 \nThe Statement Details Screen.................................................................................  6-2\n6.5 \nViewing the Overrides that were Encountered ........................................................  6-3\n6.6 \nViewing Fields .........................................................................................................  6-4\n7. \nUploading an External Statement .......................................................... 7-1\n7.1 \nIntroduction..............................................................................................................  7-1\n7.2 \nThe Procedure.........................................................................................................  7-1\n7.3 \nReconciliation External Statement Upload Screen..................................................  7-2\n7.4 \nFeatures on the External Upload Screen ................................................................  7-2\n8. \nMatching Internal and External Statements .......................................... 8-1\n8.1 \nIntroduction..............................................................................................................  8-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Manual Matching of Entries",
+        "Manual Matching of the query"
+      ],
+      "summary": "This page discusses methods for manually matching entries and queries.",
+      "raw_text": "8.2 \nManual Matching of Entries.....................................................................................  8-1\n8.3 \nManual Matching of the query .................................................................................  8-3\n9. \nFunction ID Glossary ............................................................................... 9-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This page introduces the Reconciliation Manual of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organizational structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThe Reconciliation Manual of Oracle FLEXCUBE is designed to guide you through the \nreconciliation process. To help you further understand the reconciliation process, as followed \nin our system, we have given ample examples to illustrate some of the complex features of \nthe module. \n1.2 \nAudience\nThis manual is intended for the Customer Service Representatives (CSRs) and staff in charge \nof setting up new products in your bank.\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nReconciliation an Overview familiarizes you with the features of recon-\nciliation by highlighting the major features of this module. \nChapter 3\nDefining Matching Rules explains the standard rules that need to be \ndefined and maintained while matching nostro entries. It also details \nthe parameters based on which these rules need to be devised. \nChapter 4\nDefining a Reconciliation Class explains the advantages of defining \nreconciliation classes. In addition it also talks about the types of recon-\nciliation classes and the manner in which a class can be made applica-\nble to an accounting entity. \nChapter 5\nDefining External Accounts describes the procedure to define an exter-\nnal entity or account. \nChapter 6\nManually Entering an External Statement explains how to capture the \ndetails of statements that come in through media other than SWIFT.\nChapter 7\nUploading an External Statement enumerates the steps for uploading \nmessages that come into your bank through the media types that you \nhave maintained for your bank in the Messaging sub-system. \nChapter 8\nMatching Internal and External Statements helps you understand how \nexternal statements can be matched with corresponding internal \nentries either manually or automatically."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Procedures",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces related documents and provides a glossary of icons used in the user manual, along with references to procedures.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nProcedures\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter 9\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "Features"
+      ],
+      "summary": "This section provides an overview of the Reconciliation Module in Oracle FLEXCUBE and details its features for automating account reconciliation.",
+      "raw_text": "2-1\n2. Reconciliation an Overview\n2.1 \nIntroduction \nThe Reconciliation Module of Oracle FLEXCUBE deals with the reconciliation of the entries \nof an external statement with that of the corresponding entries of an internal account. \nThe main objective in automating account reconciliation is to:\nMaximize interest revenue from external accounts\nMinimize financial exposure\nControl financial exposure to critical accounts\nIn Oracle FLEXCUBE, these objectives are realized through the automatic capture of external \nand internal statements and the automatic matching and reconciliation of these entries.\nThe reconciliation process involves several steps, which have been diagrammatically \nrepresented below.\n2.2 \nFeatures\nOracle FLEXCUBE provides you with the following features through the reconciliation \nmodule:\nFlexible Definition of Matching Rules\nYou can define the parameters based on which external entries can be matched with their \ncorresponding internal entries. The match rules that you define can be based on a variety of \ncriteria like:\nAmount\nValue date exact or with a tolerance that you can define \nTransaction reference number (internal or external)\nSimple amount or bunched amounts\nWhile matching entries, you have the option to change the sequence in which the rules should \nbe applied.\nYou can define reconciliation classes that consist of several match rules. You can further \ndefine the sequence in which the matching rules should be applied to specific accounts."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Automatic Capture of Data",
+        "Automatic Reconciliation",
+        "Information Services for Managerial and Statistical Reporting"
+      ],
+      "summary": "This page describes how Oracle FLEXCUBE automatically captures various types of data, reconciles entries between internal and external accounts, and provides tools for generating reports to assist in managerial and statistical reporting.",
+      "raw_text": "2-2\nAutomatic Capture of Data\nThe data that is handled by this module pertains to the information captured through the other \nmodules of Oracle FLEXCUBE, data generated internally by the system, data captured \nthrough S.W.I.F.T. and data that you enter manually into the system.\nIn Oracle FLEXCUBE both internal and external data can be captured electronically. This \neliminates manual capturing of entries.\nAutomatic Reconciliation\nOracle FLEXCUBE has incorporated a unique feature wherein you can automatically match \nthe entries of an external account with those of an internal account. You can generate a report \nthat gives you details of the exceptions that occurred while auto matching you can also view \ndetails of the entries that could not be matched automatically. \nAnother unique feature that has been incorporated is that you can actually match one internal \nwith several external entries and several external entries with one internal entry.\nInformation Services for Managerial and Statistical Reporting\nTo assist your bank in the important function of reconciling entries, the module enables you \nto generate various reports that can be viewed on the screen or printed. The reports that you \ncan generate include:\nThe Unmatched Items Report\nMatched Items Report\nThe Reconciliation Class Definition Report\nCapture Exception Report\nExternal Account Definition Report\nManual Matching Report\nMatch Exception Report\nMatch Items Report\nRule Definition Report\nStatement Input Report\nUpload Exception Report"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "3. Defining a Reconciliation Class",
+        "3.2 Reconciliation Class Definition screen"
+      ],
+      "summary": "This page explains how to define a reconciliation class and introduces the Reconciliation Class Definition Screen, which allows setting up match rules, sequence, and other attributes for automatic matching of external entity entries.",
+      "raw_text": "3-1\n3. Defining a Reconciliation Class\n3.1 \nIntroduction\nTo recall, you have defined Match Rules in the Matching Rule Definition screen. Several rules \nconstitute a reconciliation class. You can define a reconciliation class in the Reconciliation \nClass Definition Screen. \nYou can indicate the match rules that should constitute a class and the sequence in which the \nrules should be made applicable to an external accounting entity during automatic matching. \nA significant attribute of an account class is whether the transactions that are to be matched \nare mirrored or replicated.\nThe advantage of maintaining reconciliation classes is that at the time of automatically \nreconciling and matching external entity entries, you need to just indicate the code assigned \nto the class. All the details maintained for the class will be automatically picked up and made \napplicable to an external entity account.\n3.2 \nReconciliation Class Definition screen\nThis section contains the following topics:\nSection 3.2.1, \"Invoking the ‘Reconciliation Class Maintenance screen\"\nSection 3.2.2, \"Assigning Reconciliation Class a Code\"\nSection 3.2.3, \"Description\"\nSection 3.2.4, \"Specifying the Adjustment GL\"\nSection 3.2.5, \"Indicating the Reconciliation Class Type\"\nSection 3.2.6, \"Indicating the Sequence in which Match Rules should be made \nApplicable\"\nSection 3.2.7, \"Assigning Rule Sequence Number\"\nSection 3.2.8, \"Specifying Parameters for the Manual Matching of Reconciled Entries\"\n3.2.1 \nInvoking the ‘Reconciliation Class Maintenance screen\nYou can invoke the ‘Reconciliation Class Maintenance’ screen by typing ‘REDXCLAS’ in the \nfield at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nIf you are maintaining the details of a new class, click the new button on the Application \ntoolbar. The ‘Reconciliation Class Maintenance’ screen is displayed without any details."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Assigning Reconciliation Class a Code"
+      ],
+      "summary": "This section explains how to assign a unique four-character code to a reconciliation class in Oracle FLEXCUBE and how this code is used to identify the class across different branches of a bank.",
+      "raw_text": "3-2\nIf you are calling a Reconciliation Class Definition record that has already been defined, \ndouble-click a class record of your choice from the summary screen.\n3.2.2 \nAssigning Reconciliation Class a Code\nIn Oracle FLEXCUBE, each reconciliation class that you define is identified by a four \ncharacter code called a Class Code. You can follow your own convention for devising this \ncode.\nThe code that you assign to a class should be unique as it is used to identify the class across \nthe branches of your bank. When you need to make the class applicable to an accounting \nentity, you need to just specify the code assigned to the class. The details that you defined for \nthe class will automatically be made applicable to the accounting entity.\nAfter you assign a reconciliation class a code, you can specify the preferences based on \nwhich internal and external transactions should be matched, if the reconciliation class is made \napplicable to it. \nThe attributes that you can define for a reconciliation class are:\nThe reconciliation class type. \nThe sequence in which matching rules should be used for the automatic matching of \ntransactions.\nYou can define several classes using various combinations of the above parameters."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Description",
+        "Specifying the Adjustment GL",
+        "Indicating the Reconciliation Class Type"
+      ],
+      "summary": "This page explains how to enter a description for a reconciliation class code, specify an adjustment general ledger for unreconciled entries, and choose between mirror and replication types for automatic matching in accounting systems.",
+      "raw_text": "3-3\n3.2.3 \nDescription\nYou have to enter the Description of Recon Class Code in this field\n3.2.4 \nSpecifying the Adjustment GL\nWhen maintaining a Reconciliation Class, you can identify an Adjustment GL to which \nunreconciled entries involving the Reconciliation Class should be posted. All unreconciled \nentries, involving the Class, will automatically be posted to this GL.\n3.2.5 \nIndicating the Reconciliation Class Type\nMirroring\nA Mirror reconciliation class type is one, which when applied during automatic matching, will \ncheck that the debit or credit indicator of the external statement should mirror that of the \ninternal transaction. This means that a debit in your books will have a corresponding credit \nentry in their books and vice-versa. \nConsider the following example.\nFriendly Neighborhood Bank has placed US $100,000 with Greenville Global Banking, \nBangalore.\nThe entries passed at FNB:\nWhen GGB makes a repayment for the placement, the entries that are passed are:\nIf you have indicated mirror matching for the class, these entries will be matched as the \nexternal entries mirror the internal ones.\nReplication\nA Replication reconciliation class type is one, which when applied during automatic matching, \nwill check that the debit or credit indicator of the external statement replicates the internal \ntransaction.\nNote\nInitially, one reconciliation class will be pre-shipped. The account class is called - NOST \n(Nostro Reconciliation). This reconciliation class is needed when you want the external ac-\ncounts that have come in through SWIFT to be automatically uploaded. The MT950/\nCAMT053 has been hard coded for the reconciliation class NOST.\nAccount\nDebit / Credit\nGGB\nCr\nInternal GL\nDr\nAccount\nDebit / Credit\nGGB\nDr\nInternal GL\nCr"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Indicating the Sequence in which Match Rules should be made Applicable",
+        "Assigning Rule Sequence Number",
+        "Specifying Parameters for the Manual Matching of Reconciled Entries"
+      ],
+      "summary": "This page discusses how to define and manage match rules, including their sequence during automatic matching, assigning sequence numbers, and setting parameters for manual reconciliation.",
+      "raw_text": "3-4\n3.2.6 \nIndicating the Sequence in which Match Rules should be made \nApplicable\nAn account class is made up of several match rules. You can not only indicate the rules that \nconstitute the class but you can also indicate the sequence in which the rules should be made \napplicable during automatic matching of entries.\n3.2.7 \nAssigning Rule Sequence Number\nThe system assigns Rule sequence Number for the rules attached to Recon Class Definition.\nTo make a rule, a component of a reconciliation class, select the rule from the adjoining option \nlist that is displayed. The description of the rule is displayed. Thereafter, click add icon. To \ndelete a rule from the list, select the rule and click delete icon button.\n3.2.8 \nSpecifying Parameters for the Manual Matching of Reconciled Entries\nThe reconciliation module provides the option of defining amount tolerance limits for the \nmanual matching of reconciled entries. Using this option you can choose to reconcile entries \nwith differences within the manual matching limits. \nYou will be allowed to match reconciled entries manually when there is no difference between \nthe net amount of the external and internal entries. However, you will need to maintain a limit \nper currency in order to be able to manually match amount differences up to the limit. You can \ndo this through the Reconciliation Class Definition screen. \nYou have to maintain manual matching limits in currencies for which you would like to allow \nmanual matching. Usually, these are currencies in which you have maintained nostro \naccounts. The manual matching specifications will be made applicable for all nostro accounts \nlinked to the reconciliation class.\nAs a result of maintaining manual matching limits, you will not be allowed to manually match \nentries whose differences are not within the limits defined. \nNote\nYou have to maintain limits for all currencies in which you have maintained the nostro ac-\ncounts in the system."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "4. Defining Matching Rules",
+        "Introduction",
+        "Maintaining match rules",
+        "Section 4.2, \"Maintaining Reconciliation Rule\""
+      ],
+      "summary": "This page explains how to define and maintain matching rules for reconciling Nostro entries, focusing on the benefits of using these rules and introducing the 'Reconciliation Rule Maintenance' screen.",
+      "raw_text": "4-1\n4. Defining Matching Rules\n4.1 \nIntroduction\nThere are certain standard rules that you can apply while matching nostro entries. As match \nrules are maintained at the bank level and are common to all the branches of your bank, you \nneed not specify the details of a rule each time you need to use it. Instead, you can maintain \nits details in the Match Rule Definition screen.\nThe advantage of maintaining match rules is that at the time of automatically reconciling and \nmatching external entries, you need to just specify the code assigned to the rule. All the details \nmaintained for the rule will be automatically picked up and made applicable to the Nostro \nentries. This reduces your effort as you do not need to enter the parameters of a rule each \ntime you need to use it.\nEach match rule that you define for reconciling Nostro entries can be devised using the \nfollowing parameters:\nValue date of the transaction\nInternal reference number\nExternal reference number\nThe aggregation of internal or external entries\nYou can specify several rules using various combinations of the above parameters.\nThis chapter contains the following sections:\nSection 4.2, \"Maintaining Reconciliation Rule\"\nSection 4.3, \"Features of the Reconciliation Rule Definition Screen\"\n4.2 \nMaintaining Reconciliation Rule\nYou can invoke the ‘Reconciliation Rule Maintenance’ screen by typing ‘REDRULDF’ in the \nfield at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nIf you are maintaining details of a new rule, click the new button on the Application toolbar.\nThe ‘Reconciliation Rule Maintenance’ screen is displayed without any details."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "4-2",
+        "Features of the Reconciliation Rule Definition Screen"
+      ],
+      "summary": "This page explains how to call a defined rule and details the features of the Reconciliation Rule Definition Screen in Oracle FLEXCUBE, including assigning codes and specifying parameters for matching transactions.",
+      "raw_text": "4-2\nIf you are calling a Rule Definition record that has already been defined, double-click a rule of \nyour choice from the summary screen.\n4.3 \nFeatures of the Reconciliation Rule Definition Screen\nAssigning the Reconciliation Rule a Code\nIn Oracle FLEXCUBE, each matching rule that you define is identified by a fifteen-character \ncode called a Rule Code. You can follow your own convention for devising this code.\nThe code that you assign to a rule should be unique as it is used to identify the rule across \nthe branches of your bank. When you need to make the rule applicable while reconciling \nnostro entries, you need to just specify the code assigned to the rule. The attributes of the rule \nwill automatically become applicable for matching transactions.\nAfter you assign a matching rule a code, you can specify the parameters based on which \ninternal and external transactions should be matched when the rule is used. The parameters \nthat you can use to define a rule are the:\nThe Aggregation of internal or external entries\nValue Date of the transaction\nInternal Reference Number\nExternal Reference Number\nYou can specify several rules using various combinations of the above parameters.\nDetermining Match Type\nYou can decide whether the Automatic matching process should perform a confirmed match \nor suggested match. \nConfirmed Match (Confirmed): The automatic matching process will mark the match \nstatus as ‘Open’ and the matched entries will be in an authorized state \nSuggested Match (Suggested): The automatic matching process will mark the match \nstatus as ‘Suggested’ and the matched entries will be in an authorized state. The \nmatched entries need to be manually confirmed using manual matching in order to \ncomplete the full matching process."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "You can choose to either confirm or reject suggested matches.",
+        "Indicating that Entries should be Aggregated"
+      ],
+      "summary": "This page explains how to handle suggested matches and how internal and external entries are aggregated for matching purposes in Oracle FLEXCUBE.",
+      "raw_text": "4-3\nYou can choose to either confirm or reject suggested matches. On confirmation the match \nstatus will be changed from ‘Suggested’ to ‘Open’. If confirmed, system will pass adjustment \nentries. \nIndicating that Entries should be Aggregated\nAn internal entry is one that was passed by one of the modules of Oracle FLEXCUBE. An \nexternal entry is one passed by a correspondent bank in response to the entries originating \nfrom your side.\nInternal transactions which match certain criterion can be aggregated before they are \nmatched and reconciled by the automatic matching process. The criterion for aggregation is \nas follows:\nIdentical value date\nIdentical internal or external reference number, as the case may be\nFor a match rule that you define, you can indicate either of the following:\nThe internal entries should be aggregated and then matched\nExternal entries should be aggregated and then matched\nThat both the internal and external entries under a transaction should be aggregated \nand then matched\nThis would facilitate the matching of one or many internal transactions with one or many \nexternal transactions.\nConsider the following example.\nFriendly Neighborhood Bank (FNB) has placed US $100,000 with Greenville Global Banking \n(GGB), Bangalore.\nThe various components of the placement are:\nThe entries passed at FNB:\nComponent - Principal\nComponent\nAmount\nPrincipal\nUS $100,000\nCharges\nUS $1000\nInterest\nUS $2500\nDebit / Credit\nAccount\nDr\nLoan GL\nCr\nGGB"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Component - Interest",
+        "Component - Charges"
+      ],
+      "summary": "This page discusses how components of a transaction are aggregated and matched using value dates in Oracle FLEXCUBE, focusing on interest and charges.",
+      "raw_text": "4-4\nComponent - Interest \nComponent - Charges\nAt GGB, the following entries are passed:\nAll the components of the transaction will be contained in the external statement. Oracle \nFLEXCUBE will check for the aggregation criteria and then aggregates the external entry and \nmatches them.\nThe components of the external entry when aggregated amounts to US $103500.\nComponent - Principal\nComponent - Interest \nComponent - Charges \nUsing the Value Date as a Matching Rule Parameter\nWhile defining a rule, you can indicate preferences for the matching criterion - Value Date. \nYou have either of the option to indicate whether:\nThe value date of the internal and external transaction should be identical\nYou can define a positive and negative tolerance within which the value date of a \ntransaction should fall\nIndicating Identical Value Dates\nChoose this option to indicate that the automatic matching process should match an external \ntransaction with an internal transaction, only if the value date of the internal transaction is \nidentical with the value date of the external transaction.\nDebit / Credit\nAccount\nDr\nGGB\nCr\nINT_INC\nDebit / Credit\nAccount\nDr\nGGB\nCr\nCHG_INC\nDebit / Credit\nAccount\nDr\nFNB\nCr\nINT_GL\nDebit / Credit\nAccount\nDr\nINTERNAL GL\nCr\nFNB\nDebit / Credit\nAccount\nDr\nINTERNAL GL\nCr\nFNB"
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Indicating a Tolerance Range",
+        "Using Reference Number as a Matching Rule Parameter"
+      ],
+      "summary": "This page discusses how to specify a tolerance range for matching external transactions with internal ones and using reference numbers as parameters for transaction matching in Oracle FLEXCUBE.",
+      "raw_text": "4-5\nIndicating a Tolerance Range\nYou also have the option to specify that the automatic matching process should match an \nexternal transaction with an internal transaction, if the value date of an external transaction is \nwithin a permissible tolerance range.\nIf you choose this option you should also specify the upper (positive) and a lower (negative) \nlimit of the tolerance range.\nThe positive and negative tolerance is taken into consideration while the automatic matching \nprocess is run. This process will match those external transactions with a value date greater \nthan or lesser than the value date of the internal transaction within the tolerance range that \nyou indicate.\nUsing Reference Number as a Matching Rule Parameter\nYou can use the reference number assigned to the transaction as a parameter for matching \nand reconciling Nostro entries. You have the option to use either the internal or external \nreference number as a matching criterion or you could use both.\nIn Oracle FLEXCUBE, you can indicate whether the full reference number or a part of it should \nbe used for matching entries. \nUsing the Full Reference Number for Matching\nIf you indicate that full numbers need to be matched, you need to indicate whether the internal \nor external reference number should be matched. Your internal reference is the other entity’s \nexternal reference and their internal reference is your external reference.\nConsider the following example. \nFriendly Neighborhood Bank (FNB) has placed US $100,000 with Greenville Global Banking \n(GGB), Bangalore.\nFNB which uses Oracle FLEXCUBE has assigned the placement the following reference \nnumber:\nFNB s internal reference - 000MP01973640001 \nThis is FNB s internal reference for the transaction. When the placement is recorded at GGB \nit is assigned the following reference:\nGGB s internal reference - 2980631000 \nFNB s internal reference is GGB s external reference and GGB s internal reference is FNB s \nexternal reference.\nUsing Partial Reference Numbers for Matching\nIf you indicate partial matching, you can indicate the portion of the reference number that \nneeds to be matched. In the case of partial matching you need to indicate the:\nStarting position in the reference number.\nLength of the matching portion.\nThis will apply to both internal as well as external reference numbers.\nConsider the following example.\nThe reference numbers generated in Oracle FLEXCUBE is a combination of a three-digit \nbranch code, a four-character product code, a five-digit Julian Date and a four-digit serial \nnumber. A typical reference number would look like:"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Using Your Internal Reference Number as a Matching Parameter",
+        "Using Amount as a Matching Parameter"
+      ],
+      "summary": "This page explains how to use internal and external reference numbers, as well as transaction amounts, for matching entries in Oracle FLEXCUBE.",
+      "raw_text": "4-6\n000MP01973640001\nThe bank with which you are matching entries generates ten digit reference numbers. \nTherefore the reference numbers generated by the other bank can records only the first ten \ndigits of your reference number. \nYou have selected partial matching of reference numbers and indicated the following \npreferences:\nStart position - 1\nLength of matching position - 10\nWhen the transaction returns for matching Oracle FLEXCUBE will automatically check only \nthe first ten characters of the reference number and match the entries.\nUsing Your Internal Reference Number as a Matching Parameter\nAs a matching rule criterion you can indicate that the internal reference number you assigned \nto the transaction should be identical with the external reference number of the transaction.\nUsing the External Reference Number as a Matching Parameter\nAs a matching rule criterion you can indicate that your external reference number should \nmatch with the internal reference number assigned to the transaction assigned by the other \nentity.\nUsing Amount as a Matching Parameter\nThe two options are:\nIdentical: During auto matching of entries, the internal and external entries will be \nmatched only if amount of the entries are identical\nTolerance: During auto matching of entries, the internal entry will be matched to an \nexternal entry if the amount of external entry is within tolerance range, calculated based \non the internal amount and tolerance parameters.   \nYou can further detail Amount Tolerance as:\nAmount: The tolerance can be defined as a flat amount.\nPercentage: The tolerance can be defined as a Percentage value.\nThese parameters can be defined for each currency. When a currency amount is not defined, \ntolerance amount will be considered to be zero by default.\nCurrency\nAll valid currencies in the system will be available for selection here. The tolerance limits can \nbe different for different currencies.\nPositive Percentage Tolerance\nYou can capture the percentage of positive deviation from a possible match. This will be \nallowed if the rule definition allows a tolerance for the amount and tolerance type is defined \nas percentage.\nNegative Percentage Tolerance\nYou can capture the percentage of negative deviation from a possible match. This will be \nallowed if the rule definition allows a tolerance for the amount and tolerance type is defined \nas percentage.\nPositive Amount Tolerance\nYou can use this to capture the positive deviation in amount for a possible match. This will be \nallowed if the rule definition allows a tolerance for the amount and tolerance type is defined \nas Amount."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Negative Amount Tolerance"
+      ],
+      "summary": "This section explains how to use negative amount tolerance for capturing deviations in financial matching and provides an example of rule application.",
+      "raw_text": "4-7\nNegative Amount Tolerance \nYou can use this to capture the negative deviation in amount for a possible match. This will \nbe allowed if the rule definition allows a tolerance for the amount and tolerance type is defined \nas Amount.\nConsider the following example.\nSuppose the following are the internal entries passed by Flex cube for nostro accounts.\nThe following are the sequence of rules to be applied for Auto Matching.\nThe following are external entries sent by another bank.\nMatching Details using the above set of factors are as follows:\nRule R1 Matching Details – Matched based on Identical Amount.\nDr/Cr\nAccount\nCurrency\nAmount\nReference\nCr\nNostro\nUSD\n10000\nR1\nCr\nNostro\nUSD\n10000\nR2\nCr\nNostro\nUSD\n10000\nR3\nCr\nNostro\nUSD\n500\nR4\nCr\nNostro\nUSD\n20000\nR5\nCr\nNostro\nUSD\n30000\nR6\nRule\nMatch type\nInternal \nref\nExternal \nref\nValue \ndate\nAmount \ntype\nTolerance\nR1\nConfirmed\nIdentical\nIdentical\nIdentical\nIdentical\nNone\nR2\nConfirmed\nIdentical\nIdentical\nIdentical\nTolerance\n-100 and \n+100\nR3\nSuggested\nIdentical\nIdentical\nIdentical\nTolerance\n-5% and \n+5%\nDr/cr\nAccount\nCurrency\nAmount\nReference\nDr\nExternal A/c\nUSD\n10000\nR1\nDr\nExternal A/c\nUSD\n10000\nR2\nDr\nExternal A/c\nUSD\n9900\nR3\nDr\nExternal A/c\nUSD\n600\nR4\nDr\nExternal A/c\nUSD\n21000\nR5\nDr\nExternal A/c\nUSD\n29000\nR6\nRule\nMatch \nreference\nInternal \nentry\nExternal \nentry\nMatch \nStatus\nAdjustment \nentry"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Rule R2 Matching Details – Matched based on Amount Tolerance.",
+        "Rule R3 Matching Details – Matched based on Amount Tolerance",
+        "Validations"
+      ],
+      "summary": "This page discusses matching rules and validations for financial transactions, detailing how different match types are handled during automatic and manual matching processes.",
+      "raw_text": "4-8\nRule R2 Matching Details – Matched based on Amount Tolerance.\nSince R2 is a confirmed match, adjustment entries are posted during automatic matching.\nRule R3 Matching Details – Matched based on Amount Tolerance\nSince R3 is a suggested match, adjustment entries are not posted during automatic matching. \nRather they are posted only after the user confirms the entries during manual matching. If the \nentries matched during auto matching are rejected by the user, the entries become available \nfor re matching.\nValidations \nSuggested Match type is allowed only if the amount matching is set as Tolerance. This \nvalidation will be done during save operation of the rule definition. If the amount \nmatching set is identical and the match type is Suggested, the system will display an \nerror message as ‘For Suggested Match Type, Amount Type Cannot be Identical’.\nThe tolerance type list item will be error disabled if the amount defined is ‘identical’. It \nwill be enabled only if amount matching type is ‘Tolerance’\nThe currency and Tolerance related parameters will be enabled only if amount matching \nis ‘Tolerance’\nIf tolerance type is percentage then only percentage related fields in amount tolerance \ndetails will be enabled \nIf the tolerance type is amount then only amount related fields will be enabled in amount \ntolerance details\nDuring automatic matching using suggested rule, the negative and positive tolerance \nrange will be calculated based on the internal amount and the system fetches all the \nexternal entries whose amount is in between Negative tolerance and positive tolerance \nrange. If a record is found in this range then the system matches the internal and \nexternal entry. If multiple external records are fetched then the system will not match the \nentries\nIf Internal entry aggregation is set in the rule definition, the system calculates the sum \nof all the internal entry amounts whose internal reference, external reference and value \ndate is identical. The Negative and positive tolerance range is calculated on the \naggregated internal amount. If external entry aggregation is set then the aggregated \nRule1\nM1\nR1\nR1\nOPEN\nNone\nRule1\nM2\nR2\nR2\nOPEN\nNone\nRule\nMatch \nreference\nInternal \nentry\nExternal \nentry\nMatch \nStatus\nAdjustment \nentry\nRule2\nM3\nR3\nR3\nOPEN\n100\nRule \n2\nM4\nR4\nR4\nOPEN\n100\nRule\nMatch \nreference\nInternal \nentry\nExternal \nentry\nMatch Status\nAdjustment \nentry\nRule3\nM5\nR5\nR5\nSUGGESTED\nNone\nRule3\nM6\nR6\nR6\nSUGGESTED\nNone"
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "This page describes the process of external entry selection and matching based on tolerance ranges, and how confirmed matches are processed during automatic matching.",
+      "raw_text": "4-9\nexternal entry will be picked whose amount is a median between Negative tolerance and \npositive tolerance range. If external aggregation is not set ,then the individual entries will \nbe fetched whose amount is  a median Negative tolerance and Positive tolerance range\nThe suggested matching will be processed as authorized record during automatic \nmatching. During this matching the match indicator will be ‘Y’, authorization status will \nbe ‘authorized’ and Match status will be ‘Suggested’. If the suggested match is to be \napproved, then it has to be approved using ‘confirm action’ in the manual reconciliation \nscreen\nIn case of confirmed match type with amount tolerance, the system will pass the \nadjustment entries during automatic matching"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "5.1 Introduction",
+        "5.2 Reconciliation External Account Definition Screen"
+      ],
+      "summary": "This page explains how to define external accounts for reconciliation purposes and introduces the 'Reconciliation External Account Maintenance' screen.",
+      "raw_text": "5-1\n5. Defining External Accounts\n5.1 \nIntroduction\nNostro reconciliation deals with the matching and reconciliation of external accounts with the \ninternal ones of your bank. Therefore it is necessary for you to:\nDefine an external entity.\nIndicate the accounts that the external entity maintains with your bank.\nIndicate the internal accounts to which the external account can be matched.\nIndicate the reconciliation class that should be used whenever the external account is \ninvolved in a transaction.\nYou can define these details in the External Account Definition screen.\nThis chapter contains the following sections:\nSection 5.2, \"Reconciliation External Account Definition Screen\"\nSection 5.3, \"Features of the External Account Definition Screen\"\n5.2 \nReconciliation External Account Definition Screen\nYou can invoke the ‘Reconciliation External Account Maintenance’ screen by typing \n‘REDXTACC’ in the field at the top right corner of the Application tool bar and clicking on the \nadjoining arrow button.\nIf you are maintaining details for a new account, click the new button on the Application \ntoolbar. The ‘Reconciliation External Account Maintenance’ screen is displayed without any \ndetails.\nIf you are calling a Reconciliation Class Definition record that has already been defined, \ndouble-click a class record of your choice from the summary screen."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Features of the External Account Definition Screen",
+        "Defining an External Entity",
+        "Indicating the External Account",
+        "Indicating the Reconciliation Class to be Used"
+      ],
+      "summary": "This page explains how to define external entities and their accounts in Oracle FLEXCUBE, including assigning unique codes, specifying account details, and mapping them to reconciliation classes.",
+      "raw_text": "5-2\n5.3 \nFeatures of the External Account Definition Screen\nDefining an External Entity\nIn Oracle FLEXCUBE, a bank that is external to your bank is called an external entity. Each \nexternal entity that you define is identified by an eight character code called an External Entity \nCode. You can follow your own convention for devising this code.\nNote\nThe code that you assign to an external entity should be unique as it is used to identify the \nentity across the branches of your bank.\nIndicating the External Account\nAn external entity can have several accounts under it. You should specify details for each of \nthe accounts that the external entity maintains with your bank.\nConsider the following example.\nKuber s Saving Bank has the following accounts with your bank:\nKuber1USD.\nKuber2AUD.\nKuber3INR.\nKuber4GBP.\nKuber5YEN.\nThis leads to a two level hierarchy, wherein Kuber’s bank is the External Entity and the \naccounts that Kuber’s bank has with you are the external accounts under it.\nNote\nIf the external entity has several accounts with your bank, you will have to maintain a new \nexternal account record for each of the accounts, under the same external entity.\nIndicating the Reconciliation Class to be Used\nHaving defined an external account, you should map the external account to a reconciliation \nclass. The Reconciliation Class and External Account combination should be unique across \nthe branches of your bank. You can choose a Reconciliation Class Code from the option list \navailable.\nThe attributes that you have defined for the reconciliation class are displayed in the match rule \nsequence section of the screen. \nThe following details of the reconciliation class are displayed:\nThe match rules that constitute the reconciliation class.\nThe sequence in which the rules that constitute the class will be applied to the class.\nSubsequently, you can rearrange the sequence in which the matching rules defined for the \nclass should be used while matching transactions belonging to the external entity. You also \nhave the option to delete from or add to the list of rules defined for the reconciliation class. To \nadd a rule to a reconciliation class, select the code that identifies the rule and click add icon. \nIf you do not want to make one or more rules defined for the reconciliation class applicable to \nthe external entity, select the rule and click delete icon."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Mapping an External Account to an Internal GL or Account(s)",
+        "Setting up Manual Matching Limits"
+      ],
+      "summary": "This page explains how to map external accounts to internal general ledger accounts and set up manual matching limits for reconciliation purposes.",
+      "raw_text": "5-3\nNote\nThe reconciliation class + External account combination should be unique across the \nbranches of your bank.\nMapping an External Account to an Internal GL or Account(s)\nHaving mapped an external entity with a reconciliation class, you should map the \nreconciliation class + external account combination to one or many internal GLs or accounts \n(belonging to your branch) with which the external account should be matched and \nreconciled.\nWhen an external transaction involving the external account that you have defined comes into \nyour branch, it would be reconciled with the transactions posted internally to the \ncorresponding GL or Account(s) in your branch.\nNote\nThe mapping is a one-time maintenance. Once you save the mapping, you will not have \nan option to change it.\nSetting up Manual Matching Limits\nClick ‘Manual Matching Limits’ tab to invoke the following screen.\nThe manual-matching limit associated with a reconciliation class will be made applicable on \nthe external account as well. Click ‘Default’ button to pick up the manual matching limit of \nreconciliation class. However, you have the option of specifying separate manual matching \nlimits for a specific external account. You can do this while maintaining the details of an \nexternal account through the External Account Definition screen. \nYou can specify manual limits for individual currencies in order to be able to manually match \namount differences up to the limit. As a result of maintaining these limits you will be allowed \nto match reconciled entries manually only when there is no difference between the net amount \nof the external and internal entries."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Setting up Match Rules"
+      ],
+      "summary": "This section explains how to configure match rules and their sequence for account balance reconciliation.",
+      "raw_text": "5-4\nSetting up Match Rules \nClick ‘Match Rule Sequence’ tab to invoke the following screen.\nYou can indicate the rules and sequence in which they need to be applied while reconciling \naccount balances."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Introduction",
+        "Reconciliation External Statement Input Screen"
+      ],
+      "summary": "This page explains how to manually enter an external statement into Oracle FLEXCUBE and describes the process of invoking and using the Reconciliation External Statement Input screen.",
+      "raw_text": "6-1\n6. Manually Entering an External Statement\n6.1 \nIntroduction\nAn external statement can be entered into Oracle FLEXCUBE either manually or can be \nuploaded automatically. The details of an external account can come in through the media \ntypes set up for your bank. External statements that have come in through SWIFT can be \nautomatically uploaded. The details of an uploaded statement will be automatically displayed \nin the relevant fields of this screen.\nThe statements that come in through media types other than SWIFT should be manually \nentered into Oracle FLEXCUBE through the External Account Definition screen.\nThis chapter contains the following sections:\nSection 6.2, \"Reconciliation External Statement Input Screen\"\nSection 6.3, \"Features of the External Statement Input Screen\"\nSection 6.4, \"The Statement Details Screen\"\nSection 6.5, \"Viewing the Overrides that were Encountered\"\nSection 6.6, \"Viewing Fields\"\n6.2 \nReconciliation External Statement Input Screen\nYou can invoke the ‘Reconciliation External statement Input’ screen by typing ‘REDXSTIN’ in \nthe field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nIf you are maintaining the details of a new statement, click the new button on the Application \ntoolbar. The ‘Reconciliation External statement Input’ screen is displayed without any details."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "6-2",
+        "6.3 Features of the External Statement Input Screen",
+        "6.4 The Statement Details Screen"
+      ],
+      "summary": "This page describes how to call an External Statement Input record and details the features and specific fields required for entering statement details in the External Account Input screen.",
+      "raw_text": "6-2\nIf you are calling an External Statement Input record that has already been defined, double-\nclick a class record of your choice from the summary screen.\n6.3 \nFeatures of the External Statement Input Screen\nThe External Account Input screen is designed to contain two tabs, which correspond to the:\nStatement details screen\nEntry details screen\nIn the statement details screen you can enter details that pertain to the external statement as \na whole. Whereas in the entry details screen, you can enter details that pertain to the \nindividual entries contained in the statement.\n6.4 \nThe Statement Details Screen\nSpecifying Details of an External Account\nMost of the details that you are required to enter are contained in the external statement that \nyou have received. You are required to enter the following statement details:\nThe reconciliation class\nThe external entity and account to which the statement belongs\nThe currency of the statement\nEntering Details of the External Statement\nWhile entering the details of an external statement, you should also specify the following \ndetails:\nThe year to which the statement pertains\nThe sequence number of the statement\nThe sub-sequence number of the statement (if required)"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Upload Details",
+        "Specifying Opening Balance Details",
+        "Specifying Closing Balance Details"
+      ],
+      "summary": "This page explains how to upload and specify details of external statements in Oracle FLEXCUBE, including opening and closing balance information.",
+      "raw_text": "6-3\nThe reference number that is quoted on the external statement\nThe media through which you received the statement\nUpload Details\nIf the details of the external statement have been automatically uploaded from an external \nsource, the following upload details are displayed:\nSource: The code that identifies the source from which external statement was \nuploaded in to Oracle FLEXCUBE.\nDate: The date on which the external statement was uploaded onto Oracle FLEXCUBE.\nSource Ref No: The reference number assigned to code from which the statement was \nuploaded.\nIf you manually enter the details of an external statement, these fields will be grayed and will \nnot contain any information.\nSpecifying Opening Balance Details\nYou are also required to enter the details of the following as contained in the external \nstatement:\nThe opening book balance\nThe opening balance date\nThe opening book balance refers to the amount that was in the external account as of the \nopening balance date. The opening balance date indicates the start date of the period for \nwhich the statement was sent.\nNote\nPlease note that the opening book balance should be equal to the previous closing book \nbalance for the reconciliation class + external account + external entity combination.\nSpecifying Closing Balance Details\nYou should also enter details of the following as contained in the external statement:\nThe closing book balance\nThe closing balance date\nThe closing book balance refers to the amount that was in the external account as of the \nclosing balance date. The closing balance date indicates the end date of the period for which \nthe statement was sent.\nThe available balance refers to the amount that is currently available in the account for which \nthe statement was sent.\nNote\nThe closing book balance should be equal to the sum of the opening book balance and the \ntransactions contained in the external statement.\n6.5 \nViewing the Overrides that were Encountered\nClick ‘Override’ button to view the overrides that were encountered while the external \nstatement was uploaded. The overrides screen with a list of all the overrides that were \nencountered during the entry of the current statement is displayed."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Viewing Fields"
+      ],
+      "summary": "This section explains how to view and input values in user-defined fields by clicking the 'Fields' button.",
+      "raw_text": "6-4\n6.6 \nViewing Fields\nClick ‘Fields’ button to view the ‘User Defined Fields’. You should input values in the fields \ncorresponding to Field Names displayed."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "The Procedure",
+        "Reconciliation External Statement Upload Screen",
+        "Features on the External Upload Screen"
+      ],
+      "summary": "This page outlines the process for uploading external statements (MT 940, MT 950, and CAMT053) into Oracle FLEXCUBE, including steps through the Incoming Message Browser and necessary maintenance tasks.",
+      "raw_text": "7-1\n7. Uploading an External Statement\n7.1 \nIntroduction\nAn external statement (MT 940, MT 950 and CAMT053) can be uploaded automatically or \nentered manually into Oracle FLEXCUBE. To recall, messages can come into your bank \nthrough the media types that you have maintained for your bank in the Messaging module of \nOracle FLEXCUBE. The procedure involved in uploading an MT 940, MT 950 and CAMT053 \nto Oracle FLEXCUBE is detailed in the paragraphs that follow.\nThis chapter contains the following sections:\nSection 7.2, \"The Procedure\"\nSection 7.3, \"Reconciliation External Statement Upload Screen\"\nSection 7.4, \"Features on the External Upload Screen\"\n7.2 \nThe Procedure\nTo recall, the external statements that come in through SWIFT (MT 950 or CAMT053) can be \nautomatically uploaded onto Oracle FLEXCUBE from the Incoming Message Browser.\nStep 1\nThrough the upload facility provided in the Incoming Message Browser of the Messaging sub \nsystem you can upload an MT 940, MT 950 and CAMT053 on to Oracle FLEXCUBE. The \ndetailed procedure for this step is covered in the Messaging User Manual of Oracle \nFLEXCUBE.\nStep 2\nOnce the message is in Oracle FLEXCUBE, you should do an MT 940/950/CAMT053 hand-\noff. From the Application Browser, do maintenances and run the intraday batches RESWIFT \nand RESTMUL to upload an External Statement.In BADEODFE (Batch EOD Function Inputs \nMaintenance) make sure that the parameter SWIFT MESSAGE TYPE has a value 940/950/\n053 for MT940/MT950/CAMT053 respectively for RESWIFT batch.\nStep 3\nAfter the hand-off you should upload the statement into the Nostro subsystem. To do this you \nshould invoke the External Statement Upload screen.\nThrough the upload facility you can automatically upload statements that have come in for a \nreconciliation class + external entity + account + currency combination. To upload an external \nstatement into the nostro subsystem, you should:\nIndicate the source from which the statement should be uploaded\nIndicate the external entity and account to which the statement belongs\nIndicate the reconciliation class that should be used to match and reconcile the \ntransaction\nIndicate the details of the statement like its sequence number, sub sequence number (if \nany) and the year in which the statement was received\nThe details of an uploaded statement will be automatically displayed in the relevant fields of \nExternal Statement Input screen."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "7.3 Reconciliation External Statement Upload Screen",
+        "7.4 Features on the External Upload Screen"
+      ],
+      "summary": "This page describes how to manually enter external statements into Oracle FLEXCUBE and details the steps involved in uploading such statements.",
+      "raw_text": "7-2\nNote\nThe statements that come in through media types other than SWIFT should be manually \nentered into Oracle FLEXCUBE through the External Account Definition screen.\n7.3 \nReconciliation External Statement Upload Screen\nYou can invoke the ‘Reconciliation External Statement Input’ screen by typing ‘REDXSTIN’ in \nthe field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\n7.4 \nFeatures on the External Upload Screen\nIndicating the Upload Source\nTo upload an external statement from a source external to Oracle FLEXCUBE you should \nindicate the code assigned to the source from where the message should be uploaded.\nIndicating Details of the External Statement\nThe details of an external statement that you should specify are as follows:\nThe year in which the statement reached your branch\nThe sequence number of the statement and the subsequence number (if required)\nThe external entity and account to which the account belongs\nThe reconciliation class to be used\nThe currency of the statement\nClick to view the exceptions that occurred while the statement was being uploaded. If the \nbutton is disabled it means that no exceptions were encountered during the upload session."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "The Upload Exception report",
+        "Viewing the Exceptions that Occurred"
+      ],
+      "summary": "This page describes how to generate and view an exception report for issues encountered during file uploads.",
+      "raw_text": "7-3\nThe Upload Exception report which when generated, gives a detailed description of the \nexceptions that occurred during upload.\nViewing the Exceptions that Occurred\nClick ‘E’ button to view the exceptions that occurred while the external statement was \nuploaded. This screen will contain details of only the exceptions that occurred during the \ncurrent upload session.\nYou can retrieve information of all the exceptions that were encountered during a day by \ninvoking the Upload Exception Report."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Introduction",
+        "Manual Matching of Entries"
+      ],
+      "summary": "This page explains how to manually match entries from an external statement with corresponding internal entries in Oracle FLEXCUBE for nostro reconciliation.",
+      "raw_text": "8-1\n8. Matching Internal and External Statements\n8.1 \nIntroduction\nNostro reconciliation involves the matching of the entries of an external statement with the \ncorresponding entries of an internal statement. In Oracle FLEXCUBE entries of an external \nstatement can be matched with corresponding internal entries manually.\n8.2 \nManual Matching of Entries\nWhile manually matching Nostro entries, you will have to select the external entries that \nshould be matched and also indicate the corresponding internal entries, to which they should \nbe matched. \nThe debit and credit legs of the entries that you select will be displayed in their respective \nfields of the screen. The sum of the amounts of the internal and external entries that you select \nfor matching should be the same. This depends on whether the reconciliation class to be used \nin matching the entries requires the replication or the mirroring of entries.\nYou can invoke the ‘Reconciliation Manual Matching Input’ screen by typing ‘REDMANME’ in \nthe field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton. clicking on the adjoining arrow button.\nTo manually match the entries of an external statement with the corresponding entries of an \ninternal statement; you should specify the following:\nThe reconciliation class to be used in the matching\nThe external entity and account to which the statement belongs\nThe currency of the internal account"
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "The following details of the external and internal statement will be displayed:",
+        "Indicating Match Status"
+      ],
+      "summary": "This page explains how Oracle FLEXCUBE assigns unique reference numbers to matched entries and guides users through manually matching internal and external transactions, indicating their match status.",
+      "raw_text": "8-2\nOracle FLEXCUBE automatically assigns a unique reference number to the entries that you \nmatch. After you indicate the above details, click ‘Fetch’ button. All the external and internal \nstatements that are yet to be matched will be displayed under their respective sections \nmarked External and Internal. The following details of the external and internal statement will \nbe displayed:\nThe entry sequence number\nValue date\nThe debit or credit indicator\nThe amount that the transaction entails\nThe reference number that you assigned to the transaction (internal reference number). \nFor transactions that involve managers checks, the MCK number used in the \ntransaction\nThe reference number assigned to the transaction by the other bank (external reference \nnumber)\nThereafter, you should manually indicate the internal entry and the corresponding external \nentry which should be matched. To indicate the entries that should be matched, tick against \nthe internal entry and the corresponding external entry to which it should be matched. \nIndicating Match Status\nThis indicates the match status which can be Open, Closed or Suggested\nThe suggested entries will not be allowed for modification\nThe Suggested record will be allowed for Confirmation. The confirmation of suggested \nentries can be done using ‘confirm button’. On confirmation the system will mark the \nmatch status as ‘Open’ and the accounting entries (difference between the amount of \ninternal and external) will be passed\nThe suggested entries record can be rejected. The rejection can be done using \n‘Reverse action’ of manual matching screen. On rejection the matched status will be \n‘CLOSED’ and the match indicator will be ‘NO’\nFor manual matching (suggested entries)\nConfirm and reverse buttons will be enabled. For manual matching (other entries), \nconfirm and reverse buttons will be disabled\nNote\nYou can choose to match one internal entry to several external entries and vice versa.\nThe debit and credit indicators under the internal and external sections will display the sum of \nthe entries that you have selected. Oracle FLEXCUBE checks that before the entries are \nmatched, the totals of the amounts involved in the transactions that you want to match are the \nsame. This however depends on whether the reconciliation class to be used to match the \nentries requires mirroring or replication of entries.\nIf the reconciliation class to be used in the matching of the entries requires replication of \nentries, then, the internal debit entry should be equal to the external debit entry. Similarly, the \ninternal credit entries should be equal to the external credit entries.\nFor replication -- Dr = Dr and Cr = Cr\nIf the reconciliation class to be used in the matching of the entries requires a mirroring of \nentries, then, the internal debit entry should be equal to the external credit entry. Similarly, the \ninternal credit entry should be equal to the external debit entry."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "For mirroring -- Dr = Cr and Cr = Dr",
+        "Manual Matching of the query"
+      ],
+      "summary": "This page explains how to mirror transactions and manually match queries between internal and external entries using a specific application tool.",
+      "raw_text": "8-3\nFor mirroring -- Dr = Cr and Cr = Dr\nYou can also match an external or external entry to other internal or external entry \nrespectively. This is possible provided the sum of the debit and credit entries of the internal \ntransaction is equal to the sum of the debit and credit entries of the external transaction. For \nexample, you can match an internal; transaction to another internal transaction in case you \nhave reversed the entry. Such an entry may or may not have a corresponding external entry.\n8.3 \nManual Matching of the query\nYou can invoke the ‘Reconciliation Manual Matching Query’ screen by typing ‘REDXMNMQ’ \nin the field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nIn the ‘Reconciliation Manual Matching Query’ screen, you can view both Matched and Non-\nmatched queries. \nTo manually match the entries of an external statement with the corresponding query of an \ninternal statement, you should specify the following:\nThe reconciliation class to be used in the matching\nThe external entity and account to which the statement belongs\nThe currency of the internal account\nOnce all the necessary details have been specified, the sum of Debit/Credit can be viewed by \nclicking on the ‘Total’ button under the respective fields for Internal and External Entries.\nTo view Matched Entries, click the ‘Details’ button. The corresponding Matched Entries are \ndisplayed in the ‘Reconciliation Manual Matching Input’(REDMANME) screen for Internal and \nExternal entries.\nFor Internal Entries, by clicking on the ‘View Contract’ button you can view the ‘Contract’ \nscreen of Corporate Deposits, Standing Instructions, Retail Loans, and Data Entry modules \ndepending upon the selected contract. and through the ‘Internal Query’ button you can get \nadditional data filtering option to Query Internal Entries Data."
+    },
+    {
+      "page_number": 36,
+      "sections": [],
+      "summary": "This page explains how to view external statements and query external entries data using specific buttons on a screen.",
+      "raw_text": "8-4\nFor External Entries, by clicking the ‘View Statement’ button you can view the ‘Reconciliation \nExternal Statement Input’(REDXSTIN) screen and through the ‘External Query’ button you \ncan get additional data filtering option to Query External Entries Data"
+    },
+    {
+      "page_number": 37,
+      "sections": [],
+      "summary": "This page appears to list function IDs and their corresponding references without any section titles.",
+      "raw_text": "9-1\n9. Function ID Glossary\nR\nREDMANME ......................8-1\nREDRULDF .......................4-1\nREDXCLAS ....................... 3-1\nREDXMNMQ ..................... 8-3\nREDXSTIN ........................ 6-1\nREDXTACC ...................... 5-1"
+    }
+  ]
+}

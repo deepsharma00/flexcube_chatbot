@@ -1,0 +1,699 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base_-_Sub_Systems/Charges-and-Fees-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 32,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organization structure, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE charge and fee calculation, detailing its usage for different user roles and providing accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE charge and fee calculation, detailing its usage for different user roles and providing accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE charge and fee calculation, detailing its usage for different user roles and providing accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE charge and fee calculation, detailing its usage for different user roles and providing accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the User Manual and provides references to related documents, icons used in the manual, and a glossary of icons for quick navigation.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the User Manual and provides references to related documents, icons used in the manual, and a glossary of icons for quick navigation.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the User Manual and provides references to related documents, icons used in the manual, and a glossary of icons for quick navigation.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Processing Charges",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Steps involved in Processing Charges",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Charge Rules",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking ICCF Rule Availability Maintenance Screen",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Building Charge Rule",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 Sequence for Resolution of ICCF Rules",
+          "start_page": 14
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Defining Charge Rule Application Conditions",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Charge Class",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Defining a Charge Class",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Charge Components for a Product",
+          "start_page": 22
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 Indicating whether Advice Processing Charges Need to be Collected",
+          "start_page": 22
+        },
+        {
+          "structure": "3.4.4",
+          "title": "2.4.4 Associating a Charge Class with a Product",
+          "start_page": 22
+        },
+        {
+          "structure": "3.4.5",
+          "title": "2.4.5 Associating Several Charge Classes with a Product",
+          "start_page": 23
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Contract Charge Details",
+          "start_page": 24
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Specifying Charge Details",
+          "start_page": 25
+        },
+        {
+          "structure": "3.5.2",
+          "title": "2.5.2 Indicating whether Advice Processing Charges Need to be Collected",
+          "start_page": 26
+        },
+        {
+          "structure": "3.5.3",
+          "title": "2.5.3 Levying Charges on the Recipient of a Message",
+          "start_page": 28
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Online Charges for Products",
+          "start_page": 29
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Maintaining Online Charges for Products",
+          "start_page": 30
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Processing Charges",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses bank charges and fees, explaining how they are associated with various banking activities and how they are managed in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page discusses bank charges and fees, explaining how they are associated with various banking activities and how they are managed in Oracle FLEXCUBE.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Steps involved in Processing Charges",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page discusses the steps and details involved in processing charges, including defining charge rules, attributes, classes, and linking them to products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Charge Rules",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page discusses the steps and details involved in processing charges, including defining charge rules, attributes, classes, and linking them to products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Invoking ICCF Rule Availability Maintenance Screen",
+      "start_page": 7,
+      "end_page": 9,
+      "summary": "This page discusses the steps and details involved in processing charges, including defining charge rules, attributes, classes, and linking them to products.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Building Charge Rule",
+      "start_page": 9,
+      "end_page": 14,
+      "summary": "This section explains how to create and maintain charge rules in the 'ICCF Rule Maintenance' screen, including defining rule types, descriptions, and identification codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.3",
+      "title": "2.3.3 Sequence for Resolution of ICCF Rules",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page details various components and rules related to charge calculations, including fixed rates, charge units, flat amounts, floor basis amounts, and tenor details, along with the sequence for resolving ICCF rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.4",
+      "title": "2.3.4 Defining Charge Rule Application Conditions",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page discusses the process of defining charge rule application conditions and introduces the concept of charge classes, including how to define them and associate them with products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Charge Class",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page discusses the process of defining charge rule application conditions and introduces the concept of charge classes, including how to define them and associate them with products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Defining a Charge Class",
+      "start_page": 15,
+      "end_page": 22,
+      "summary": "This page discusses the process of defining charge rule application conditions and introduces the concept of charge classes, including how to define them and associate them with products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 Charge Components for a Product",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page discusses how to specify charge components for a product, determine if advice processing charges should be collected, and associate a charge class with the product in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.3",
+      "title": "2.4.3 Indicating whether Advice Processing Charges Need to be Collected",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page discusses how to specify charge components for a product, determine if advice processing charges should be collected, and associate a charge class with the product in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.4",
+      "title": "2.4.4 Associating a Charge Class with a Product",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This page discusses how to specify charge components for a product, determine if advice processing charges should be collected, and associate a charge class with the product in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.5",
+      "title": "2.4.5 Associating Several Charge Classes with a Product",
+      "start_page": 23,
+      "end_page": 24,
+      "summary": "This page explains how to associate charge classes with a product, stop association, set propagation requirements, and define settlement currencies in the context of financial contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Contract Charge Details",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This page discusses various settings and options related to LC (Letter of Credit) charges in a billing system, including conditions for enabling certain flags, charge collection methods, and considerations for discount accrual.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.1",
+      "title": "2.5.1 Specifying Charge Details",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page discusses how to specify charge details for contracts in Oracle FLEXCUBE, including invoking the 'Charge Details' screen and handling different currencies.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.2",
+      "title": "2.5.2 Indicating whether Advice Processing Charges Need to be Collected",
+      "start_page": 26,
+      "end_page": 28,
+      "summary": "This page explains how to manage charge components in a contract, including displaying and waiving charges, and specifying details such as event triggers and currency.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.3",
+      "title": "2.5.3 Levying Charges on the Recipient of a Message",
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "This page explains how to levy charges on message recipients in Oracle FLEXCUBE and provides instructions on defining these charges through the 'Message Charges Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Online Charges for Products",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This page explains how to define charges for all recipients of messages from a bank, identify specific combinations of receiver, media, and country for charging, and specify the currency and amount for these charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Maintaining Online Charges for Products",
+      "start_page": 30,
+      "end_page": 32,
+      "summary": "This section explains how to maintain charge products and events in Oracle FLEXCUBE using the 'Online Charge Product Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 32,
+      "end_page": 34,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking charges and fees related to Release 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Charges and Fees User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use for U.S. Government end users.",
+      "raw_text": "Charges and Fees User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organization structure, and related documents.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \n Glossary of Icons....................................................................................................  1-1\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nProcessing Charges ................................................................................ 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nSteps involved in Processing Charges....................................................................  2-2\n2.3 \nCharge Rules...........................................................................................................  2-2\n2.3.1  \nInvoking ICCF Rule Availability Maintenance Screen ................................  2-2\n2.3.2  \nBuilding Charge Rule..................................................................................  2-4\n2.3.3  \nSequence for Resolution of ICCF Rules ....................................................  2-9\n2.3.4  \nDefining Charge Rule Application Conditions...........................................  2-10\n2.4 \nCharge Class.........................................................................................................  2-10\n2.4.1  \nDefining a Charge Class...........................................................................  2-10\n2.4.2  \nCharge Components for a Product...........................................................  2-17\n2.4.3  \nIndicating whether Advice Processing Charges Need to be Collected.....  2-17\n2.4.4  \nAssociating a Charge Class with a Product..............................................  2-17\n2.4.5  \nAssociating Several Charge Classes with a Product................................  2-18\n2.5 \nContract Charge Details ........................................................................................  2-19\n2.5.1  \nSpecifying Charge Details ........................................................................  2-20\n2.5.2  \nIndicating whether Advice Processing Charges Need to be Collected ....  2-21\n2.5.3  \nLevying Charges on the Recipient of a Message .....................................  2-23\n2.6 \nOnline Charges for Products .................................................................................  2-24\n2.6.1  \nMaintaining Online Charges for Products.................................................  2-25\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility"
+      ],
+      "summary": "This page introduces a manual for Oracle FLEXCUBE charge and fee calculation, detailing its usage for different user roles and providing accessibility information.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help you get acquainted with the manner in which charges or fees \nare calculated in Oracle FLEXCUBE.\nIt takes you through the various steps involved in processing a Charge or Fee for a contract.\nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of day operators\nProcessing during end of day/ beginning of \nday\nFinancial Controller / Product Managers\nGeneration of reports"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the User Manual and provides references to related documents, icons used in the manual, and a glossary of icons for quick navigation.",
+      "raw_text": "1-2\n1.4 \nOrganization\n1.5 \n Glossary of Icons\nThis User Manual may refer to all or some of the following icons.\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nCommon Procedures\nProducts\nChapter\nDescription\nChapter 1\nAbout this Manual gives a brief introduction to the module. It also lists \nthe various chapters in the User Manual. \nChapter 2\nProcessing Charges details the procedure to set up Charge or Fee \ndetails by defining Charge rules and Charge classes. It also explains \nthe procedure for specifying charge details for a contract.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Processing Charges",
+        "Introduction"
+      ],
+      "summary": "This page discusses bank charges and fees, explaining how they are associated with various banking activities and how they are managed in Oracle FLEXCUBE.",
+      "raw_text": "2-1\n2. Processing Charges\n2.1 \nIntroduction\nA charge or fee is a payment that you levy on your customer in exchange for advices or \nservices rendered by your bank. Banks charge nominal fees for various services, such as \ncourier charges, SWIFT charges. Bank charges generally constitute a major portion of \nrevenue for the bank. These type of charges are associated with al most all the activities of \nthe bank. For instance, when a bank accepts corporate deposits, it may also recover pre-\nclosure charges or pre-payment penalty on the deposit. \nApart from charges, bank collects fees also. For example, if there are any legal proceedings \nfor any reason, banks will debit the fees associated with this to the customer. \nWhile setting up a product in Oracle FLEXCUBE, attributes for charge/fees collection also \nhave to be set up.\nIn Oracle FLEXCUBE, you can define the different types of charges or fees that apply on a \nproduct as ‘classes’. A charge class is a specific type of charge component (E.g. ‘Charges for \namending the terms of a contract’).\nA charge class is like a template, which can be associated with a product. You can modify \ncertain parameters of the charge class while associating it with a product and also at the time \nof contract processing. \nWhen defining a product, you merely have to attach the required classes. In this manner, a \ncontract processed under a particular product acquires the classes (components) associated \nwith the product.\nHowever for Funds Transfer and Foreign Exchange modules, Oracle FLEXCUBE will not use \ncharge classes for calculating charges. You need to link a charge rule while defining the \ncharge component for the product. The linking of a charge rule to a product is discussed in \nthe subsequent sections of this chapter.\nTo apply a charge or fee on a Funds Transfer, you should first define attributes for each of the \ncomponents. You can define these attributes by specifying a Rule for the charge or fee. These \ncharge rules should in turn be linked to a product through a class, so that the attributes of the \ncharge rule will be applied on all contracts linked to the product. However, while capturing the \ndetails of a contract, you can modify some of the attributes defined for a rule. Further, for a \ncontract, you can also indicate whether the application of a specific charge component should \nbe waived.\nYou cannot modify the attributes of the rule during contract input. However, you can change \nthe charge amount.\nMore than one charge or fee can be applied on a product. For example, you could link two \ncharges to an outgoing transfer product, one with 0.05% of the transfer amount as the charge \nand another with a flat amount of say 200 local currency units. The first one could be your \ncommission on the transfer and the second, for the SWIFT or cable charges incurred to affect \nthe transfer. These will be processed as two different charge components. The income \naccounts can be different for these components. The two charge components will be reported \nin all reports and in the customer correspondence regarding the transfer.\nThis chapter contains the following sections:\nSection 2.2, \"Steps involved in Processing Charges\""
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Charge Rules",
+        "Charge Class",
+        "Contract Charge Details",
+        "Online Charges for Products",
+        "Steps involved in Processing Charges"
+      ],
+      "summary": "This page discusses the steps and details involved in processing charges, including defining charge rules, attributes, classes, and linking them to products.",
+      "raw_text": "2-2\nSection 2.3, \"Charge Rules\"\nSection 2.4, \"Charge Class\"\nSection 2.5, \"Contract Charge Details\"\nSection 2.6, \"Online Charges for Products\"\n2.2 \nSteps involved in Processing Charges\nThe following steps are involved in processing charges:\n1. Defining branch restriction for ICCF rule \n2. Maintaining ICCF rule availability - Branch Specific Rules \n3. Defining charge rules and attributes - When you define a rule, you can also restrict the \nuse of the rule for the different branches of the bank.\n4. Defining charge class \n5. Link a charge class to a product \n6. Specify charge details for a contract\n2.3 \nCharge Rules\nThis section contains the following topics:\nSection 2.3.1, \"Invoking ICCF Rule Availability Maintenance Screen\"\nSection 2.3.2, \"Building Charge Rule\"\nSection 2.3.3, \"Sequence for Resolution of ICCF Rules \"\nSection 2.3.4, \"Defining Charge Rule Application Conditions\"\n2.3.1 \nInvoking ICCF Rule Availability Maintenance Screen\nA charge rule is created as under:\nThe rule is created at the head office branch, by giving it a unique identification and \ndescription, in the ‘ICCF Rule Branch Availability Maintenance’ screen. In this screen, \nthe rule is made available for use in the required branches by maintaining an allowed/\ndisallowed list of branches.\nAt the required branch, in the ‘ICCF Rule Details’ screen, the attributes for the rule are \ndefined. Maintaining the attributes in this screen is subject to whether maintenance of \nICCF rules is allowed for the branch, and also whether the rule for which attributes are \nbeing defined, is allowed for the branch.\nTo recall, at the head office of your branch, you can create appropriate ICCF rules and make \nthe rules available to the required branches.\nIn the ‘ICCF Rule Availability Maintenance’ screen, you can maintain ICCF rules, which you \ncan make available to desired branches. You can do this by maintaining a list of branches for \nwhich the use of the rule is allowed, or disallowed. You can invoke this screen by typing"
+    },
+    {
+      "page_number": 8,
+      "sections": [],
+      "summary": "This page describes how to specify information for creating an ICCF rule in the Application tool bar and details about Rule ID, description, branch restrictions, and attribute definitions.",
+      "raw_text": "2-3\n‘CFDICCFR’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button.\nIn this screen, you must specify the following information:\nRule ID and Description\nYou must specify a unique identification for the ICCF rule you are creating. If you are creating \na charge rule, specify a unique identification for the charge rule. This is the identification that \nwill be used as to identify for the rule, in all subsequent references to it. You must also specify \na unique description for the rule.\nEvery charge rule is identified by a unique ten-character code, called a Rule ID. You can link \na valid Charge Rule ID to the charge classes that you maintain in your bank. Charges or fees \nfor all products with which you associate a charge class, will be calculated on the basis of the \nRule ID that is associated with the class.\nYou must select the Rule ID to have all the bank branches listed in the Branch field list of \noptions.\nNote\nAfter the rule has been created, the attributes for the rule must be defined in the ‘ICCF Rule \nDetails’ screen.\nBranch Restrictions\nYou can maintain a list of allowed branches (that is, the rule will be available for use in the \nallowed list of branches) or disallowed branches (the rule will not be available for use in the \nbranches in the disallowed list).\nTo recall, the attributes for the rule are defined, in the ICCF Rule Maintenance screen. \nMaintaining the attributes in this screen, for a branch, is subject to whether maintenance of \nICCF rules is allowed for the branch, and also whether the rule for which attributes are being \ndefined, is allowed for the branch."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Building Charge Rule"
+      ],
+      "summary": "This section explains how to create and maintain charge rules in the 'ICCF Rule Maintenance' screen, including defining rule types, descriptions, and identification codes.",
+      "raw_text": "2-4\nFor details about the Common Branch Restrictions, refer the Security Management System \nuser manual.\n2.3.2 \nBuilding Charge Rule\nTo recall, after a charge rule has been created in the ‘ICCF Rule Availability Maintenance’ \nscreen, the attributes for the rule must be defined in the ‘ICCF Rule Maintenance’ screen.\nA charge rule is built with the logic to calculate a specific type of charge component. You can \nmaintain this logic in the ‘ICCF Rule Maintenance’ screen. You can invoke this screen by \ntyping ‘CFDRUMNE’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nIf you are defining a charge rule, click the ‘New’ button on Application toolbar. The ‘ICCF Rule \nMaintenance’ screen is displayed without any details. If you are calling a charge rule that has \nalready been defined, double-click a rule of your choice from the summary screen.\nYou can capture the following details.\nRule Type\nThe Rule Type identifies the type of component you are defining. The attributes applicable for \na component depend on the Rule Type. In this chapter, we shall discuss the procedure for \nsetting up rules for charge components.\nFor every rule that you define, you can enter a description. Specifying a description helps \nidentify a rule.\nRule Identification\nEvery charge rule is identified by a unique ten-character code, called a Rule ID. You can link \na valid Charge Rule ID to the charge classes that you maintain in your bank. Charges or fees"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Rule ID for a charge rule is specified in the ICCF Rule Branch Availability maintenance",
+        "Rule Application Conditions"
+      ],
+      "summary": "This page explains how to select the Rule ID for a charge class based on availability and restrictions, and describes the default application conditions of a charge rule that can be customized.",
+      "raw_text": "2-5\nfor all products with which you associate a charge class, will be calculated on the basis of the \nRule ID that is associated with the class.\nTo recall, the Rule ID for a charge rule is specified in the ICCF Rule Branch Availability \nmaintenance. Accordingly, in the Rule ID field in this screen, you must select the ID of the \ncharge rule that you wish to build by maintaining the attributes.\nThe option list in the Rule ID field is populated based on the following conditions: \nOnly those Rule IDs that are available for users at the current branch according to the \nICCF Rule Branch Availability maintenance are displayed\nThe maintenance of ICCF rules must be allowed for users at the current branch, \naccording to the restrictions maintained in the Common Branch Restrictions \nmaintenance for the restriction type ICCFRULE.\nIf no Common Branch Restrictions have been maintained, and the restriction type ICCFRULE \nhas not been maintained in the SMS Branch Restriction Type maintenance, the option list in \nthe Rule ID field only displays those rules that are available for users in the current branch, \naccording to the ICCF Rule Branch Availability maintenance.\nRule Application Conditions\nBy default, a charge rule that you define can be applied on transactions in\nAll currencies\nAll customers\nAll customer groups\nAll branches\nHowever, to restrict the application of a rule to transactions involving a specific customer, \ncustomer group, currency, and / or branch, you can specify the same in the respective fields.\nThus, the most generally applied condition can be that a charge rule is applicable to contracts \nin any currency, involving any customer, customer group or branch. An interim condition is \nthat a charge rule is applied on contracts in a specific currency but involving any customer, \ncustomer group or branch.\nNote\nYou will not be allowed to define an ICCF Rule for a specific combination unless you main-\ntain a record for the same Rule at the generic level. For instance, while creating the Rule \nID SPlWDCHGS for the very first time the system defaults the values in the Transaction \nCurrency, Branch, Account Category, Customer, Customer Group, Branch and Account \nfields to ‘All’. Only after saving this record you will be allowed to create a second record for \na specific combination for the same Rule ID. Defining a rule at a generic level is mandato-\nry. The significance of this can be understood by the following example:\nYou can only define the attributes for an ICCF Rule to be applicable for all branches, from \nthe head office branch.\nYou can create ICCF rules to be applicable for transactions with the following specific \ncombinations:\nA specific branch, customer category, customer and currency\nA specific branch, customer category, customer and all currencies\nA specific branch, customer category, currency and all customers\nA specific branch, currency and all customer categories and customers"
+    },
+    {
+      "page_number": 11,
+      "sections": [],
+      "summary": "This page discusses various combinations of branches, customer categories, customers, and currencies for defining attributes in a specific ICCF rule, including how to apply these rules at the head office branch level.",
+      "raw_text": "2-6\nA specific branch, customer categories and all currencies and customers\nA specific branch and all customer categories, customers and currencies\nA specific customer category, customer, currency, and all branches\nA specific customer category, customer and all currencies and branches\nA specific customer category, currency and all customers and branches\nA specific currency and all customer categories, customers and branches\nA specific customer category and all customers, currencies and branches\nAll branches, customer categories, customers and currencies\nNote\nAs mentioned earlier, the rules applicable for combinations involving all branches (the ALL \noption in the Branch Code field) can be maintained only from the head office branch.\nTransaction Currency\nIf you wish to define the attributes for all currencies, you can select the *.* option in the \nCurrency Code field to indicate this. If you are maintaining the attributes for the selected ICCF \nrule in specific currency other than the *.*, select the Transaction Currency on which the rule \nmapping maintenance is to be made applicable.\nCustomer Group\nSelect the customer group on which the rule mapping maintenance is to be made applicable.\nNote\nYou can create a generalized charge rule mapping record by selecting the ALL option in \nthe Customer Group field. This specification is defaulted to the Customer and Customer \nAccount fields. You will not be allowed to change the specification. \nCustomer\nSpecify the customer identification number (CIF) of the customer for whom you are \nmaintaining the rule mapping.\nBranch Code\nIf you are maintaining the attributes for the selected ICCF rule from the head office branch, \nyou can select the branch for which the attributes are being defined. If you wish to define the \nattributes for all branches, you can select the ALL option in the Branch Code field to indicate \nthis.\nIf you are maintaining the attributes for the selected ICCF rule from a branch other than the \nhead office, you can only select those branches that are found in the allowed list of branches \nfor:\nthe ICCF rule definition Restriction Type (ICCFRULE), in the Common Branch \nRestrictions maintenance for the current branch\nthe selected rule being built, according to the ICCF Rule Availability maintenance\nIn other words, the option list in the Branch Code field would display only those branches that \nare allowed both for the rule and the current branch.\nThe following example illustrates how the option lists in the Rule ID and Branch Code fields \nare populated:"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Rate Type"
+      ],
+      "summary": "This section explains how to determine the rate type for charges or fees based on different basis amounts and provides guidance on choosing between fixed rates and flat amounts.",
+      "raw_text": "2-7\nRate Type\nThe rate type indicates whether the charge or fee to be applied for the Rule ID is a flat amount \nor a percentage of the basis amount. Basis amount here refers to:\nPrincipal amount or commitment \nTransaction amount in the case of a teller entry\nTransfer amount in case of a Remittance\nSI Amount in case of Standing Instruction\nLC amount in the case of a Letter of Credit\nBill amount in the case of a Bill\nBuy/Sell amount in the case of an FX deal\nDeal Nominal amount for a Security Deal\nIf the Charge Rule that you are defining calculates charges on a rate basis, choose the Fixed \nRate option. To levy a flat amount as charge, say a postal charge on the products that are \nassociated with the Charge Class, choose the ‘Flat Amount’ option.\nYou can choose to indicate the Rate Code and whether the rate is Mid, Buy or Sell only when \nthe basis amount currency and the rate currency is different from the contract currency. The \nrate code is used to arrive at the exchange rate if the rate currency is different from the \ncontract currency. The system arrives at the exchange rate from the parameters specified for \nthe currency pair in the Currency Pair Definition table. \nNote\nIf the charge is based on the Flat Amount, 'Min Amount' and 'Max Amount' are not appli-\ncable.\nRefer to the chapter on ‘Currency Maintenance’ in the Core Services User Manual for more \ninformation on parameters of currency pairs. \nTenor Basis\nYou can create a charge rule that would calculate charges on the basis of Tenor slabs. Check \nthe ‘Tenor Basis’ check box if the Charge is calculated based on the Tenor.\nTiered Tenor\nCharges calculated on the basis of Charge Rates for different layers of the Tenor.\nBooking Currency\nSelect the booking currency from the drop-down list. You can choose one of the following \noptions:\nContract Currency - If you select this, the system will calculate the charge in the \ncurrency specified in the field 'Contract Currency'.\nCharge Currency - If you select this, the system will calculate the charge in the currency \nspecified in ‘Charge Currency’.\nBased on the booking currency specified, the system will decide the currency in which the \ncharge needs to be calculated.\nBasis Amount and the Charge Currencies\nThe charge currency is the currency, which will be associated with the charge that is \ncalculated or the flat charge amount."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "When building a charge rule, if the Rate Type is a Flat Amount",
+        "Charges or fees can be calculated for a transaction on the basis of tiers or slabs"
+      ],
+      "summary": "This page explains how to set up flat amount and tier-based charges in Oracle FLEXCUBE, including specifying currencies and setting maximum and minimum charge amounts.",
+      "raw_text": "2-8\nWhen building a charge rule, if the Rate Type is a Flat Amount, you have to indicate the \ncurrency of the charge or fee. The charge or fee when applied on a transaction will be \ncollected in this currency. The input to this field can be any currency that is maintained as part \nof Currency Definition in Oracle FLEXCUBE. \nThe amount itself is specified subsequently through this screen. This amount can be changed \nduring contract processing.\nCharges or fees can be calculated for a transaction on the basis of tiers or slabs. When \nbuilding a charge rule, you should also indicate the currency of the tiers or slabs based on \nwhich you levy the charge. This is the Basis Amount Currency. If the transaction is in a \ndifferent currency, then the charge is calculated after converting it to the currency of the tiers \nand slabs.\nMaximum and Minimum Charge Amount\nSpecify the following details.\nMaximum Amount\nIf the charge is based on a fixed rate, you should specify the maximum amount that can be \napplied on a contract involving the Rule ID. If the charge calculated using this Rule ID exceeds \nthis amount for a contract, the maximum amount specified in this field will be applied instead \nof the amount calculated using the fixed rate.\nMaximum Rate\nIf the charge is based on a fixed rate, you should specify the maximum rate that can be \napplied on a contract involving the Rule ID. If the charge calculated using this Rule ID falls \nabove the amount which is computed using the maximum rate defined in the rule, then the \namount which is computed using the maximum rate will be collected. \nMinimum Amount\nIf the charge is based on a fixed rate, you should specify the minimum amount that can be \napplied on a contract involving the Rule ID. If the charge calculated using this Rule ID falls \nbelow this amount for a contract, the minimum amount specified in this field will be applied \ninstead of the amount calculated using the fixed rate.\nMinimum Rate\nIf the charge is based on a fixed rate, you should specify the minimum rate that can be applied \non a contract involving the Rule ID. If the charge calculated using this Rule ID falls below the \namount which is computed using the minimum rate defined in the rule, then the amount which \nis computed using the minimum rate will be collected. \nTiered Amount\nYou can create a Charge Rule that would calculate charges on the basis of an amount \nstructure. This structure could be in tiers or in slabs. Check against ‘Tiered Amount’ if the \nBasis Amount structure will be Tiers. Leave it blank if the Basis Amount structure is Slab.\nBracket Tenor\nYou can create a Charge Rule which calculates charges on the basis of an amount structure. \nIn this table you define the different attributes of amount structure based on which the charges \nare calculated.\nBasis Amount To\nYou should specify the upper limit of the slab or tier to which a particular rate or amount should \nbe applied as a charge."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Fixed Rate",
+        "Charge Unit",
+        "Flat (CCF) Amount",
+        "Floor Basis Amount",
+        "Floor CCF Amount",
+        "Tenor Details – Tenor From and Tenor To",
+        "2.3.3 Sequence for Resolution of ICCF Rules"
+      ],
+      "summary": "This page details various components and rules related to charge calculations, including fixed rates, charge units, flat amounts, floor basis amounts, and tenor details, along with the sequence for resolving ICCF rules.",
+      "raw_text": "2-9\nFixed Rate\nIf the charge is a percentage of an amount, specify the applicable rate. This rate will be \napplied on the Basis Amount To, depending on whether you have defined the application \nbasis, as a slab or a tier.\nCharge Unit\nThe Charge Unit specifies the unit for rounding up a charge basis amount or fee basis amount \nto the nearest amount. The charge or fee will be calculated on the rounded basis amount.\nFlat (CCF) Amount\nTo levy a flat charge, specify the flat amount. This amount will be applied on the Basis \nAmount, depending on whether you have defined the application basis as a slab or a tier. \nFloor Basis Amount\nYou should specify this only if the Amount Basis is a Tier. This will be the upper limit of the \nprevious tier limit. By default, the amount specified as the ‘Basis Amount To’ for the previous \ntier limit will be displayed. For the first limit in the tier do not specify this.\nThis amount, along with the Floor CCF Amount, is used to calculate the charge.\nFloor CCF Amount\nYou should specify this only if the Rule Type is a Commission.\nTenor Details – Tenor From and Tenor To\nThe tenor is in days. For instance, If Tenor from and Tenor to are given as '0' and 91, the tenor \nslab is from '0' days to '91' days.\n2.3.3 \nSequence for Resolution of ICCF Rules \nICCF Rules that you maintain are resolved in the following sequence:\nRule\nBranch\nCustomer \nCategory\nCustomer\nCurrency\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\n*.*\nSpecific\nSpecific\nSpecific\nALL\nSpecific\nSpecific\nSpecific\nALL \nALL\nSpecific\nSpecific\nSpecific\nSpecific\nALL\n*.*\nSpecific\nSpecific\nALL\nALL\n*.*\nSpecific\nALL\nSpecific\nSpecific\nSpecific\nSpecific\nALL\nSpecific\nSpecific\n*.*\nSpecific\nALL\nSpecific\nALL\nSpecific\nSpecific\nALL\nALL \nALL\nSpecific\nSpecific\nALL\nSpecific\nALL\n*.*\nSpecific\nALL\nALL\nALL\n*.*"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Defining Charge Rule Application Conditions",
+        "Defining a Charge Class"
+      ],
+      "summary": "This page discusses the process of defining charge rule application conditions and introduces the concept of charge classes, including how to define them and associate them with products.",
+      "raw_text": "2-10\n2.3.4 \nDefining Charge Rule Application Conditions\nWhen you have built charge rules, you are ready to build Charge Classes. When creating a \nproduct, you can link it with a Charge Class you have built. Thus, the definition of charge rules \nshould precede the definition of Charge Classes and Product Definition.\n2.4 \nCharge Class\nThis section contains the following topics:\nSection 2.4.1, \"Defining a Charge Class\"\nSection 2.4.2, \"Charge Components for a Product\"\nSection 2.4.3, \"Indicating whether Advice Processing Charges Need to be Collected\"\nSection 2.4.4, \"Associating a Charge Class with a Product\"\nSection 2.4.5, \"Associating Several Charge Classes with a Product\"\n2.4.1 \nDefining a Charge Class\nA class is a specific type of component that you can build with certain attributes. You can build \na charge class, for instance, with the attributes of a specific type of charge, such as ‘Charges \nfor amending the terms of a transaction’, or ‘Charges for provision of services’. To recall, a \ncharge rule is built to calculate a specific type of charge component. \nOnce such a rule is built, you can define attributes like what should be the basis amount on \nwhich the charge rule is applied, when the charge should be associated to the contract and \nwhen the charge should be calculated and collected.\nWhen building a charge class, you define certain attributes such as:\nThe module in which you would use the class\nThe charge type (whether borne by the counter party or by the bank)\nThe association event\nThe application event\nThe liquidation event\nThe default settlement currency\nThe default charge rule\nThe basis amount on which the charge is calculated\nYou can define the attributes of a charge class in the ‘Charge Class Maintenance’ screen, \ninvoked from the Application Browser. You can invoke this screen by typing ‘CFDCHGCE’ in"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Class Code",
+        "Module",
+        "Note",
+        "Charge Type"
+      ],
+      "summary": "This section describes how to define a charge class in the Application tool bar and outlines key attributes such as Class Code, Module, Note, and Charge Type.",
+      "raw_text": "2-11\nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nThe following are the features of the Charge Class Maintenance screen.\nClass Code\nBefore defining the attributes of a charge class, you should assign the class a unique \nidentifier, called the Class Code and briefly describe the class. A description would help you \neasily identify the class.\nModule \nA charge class is built for use in a specific module. As a charge component would be applied \non different basis amounts, in different modules. In the Letters of Credit module, for instance, \nyou would apply a flat processing charge or fee on all LCs. In the Securities module, you could \nlevy a flat charge or fee on portfolios that you maintain on behalf of a customer. The basis on \nwhich the component is applied is different, in these two cases.\nNote\nThe Basis Amount Tags available would depend on the module for which you build the \nclass.\nCharge Type\nCharges can be collected from the counter party or from a third party. You can select one of \nthe following values from the adjoining drop-down list: \nCounter Party – This indicates that the customer is captured as part of the contract.\nThird Party – This indicates that the charges are levied on another entity on behalf of \ncustomer (Eg: Custodian)\nTheir Charges – This indicates that your bank is collecting other bank’s charges as in \nthe case of LC and BC contracts."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Third Party Type",
+        "Debit /Credit",
+        "Propagation Required",
+        "Net Consideration",
+        "Add/Subtract"
+      ],
+      "summary": "This page discusses various aspects of defining charge classes in financial systems, including types of charges, how they are handled during transfers, and considerations for net contract values.",
+      "raw_text": "2-12\nThe charges or fee that you levy will be recovered, typically, from the counterparty involved. \nTherefore, when building a charge class, you may indicate the charge to be of ‘Counterparty’ \ntype.\nThird Party Type\nIf a charge component that you associate with a product is of ‘third party’ type, specify the \nparty type. \nIf you are defining the charge class for FT module and the charge component is of 'Third Party' \ntype, the system will segregate the charges from the transfer amount for outgoing transfers. \nConsequently the payment message will comprise only the net amount credited to the Nostro \naccount after deducting the charge amount.\nDebit /Credit \nChoose the Debit option in this field, if the charge component associated with the product is \nto be debited to the customer. If you would bear the charge component, choose the ‘Credit’ \noption. \nThe following example illustrates how a charge could be of a ‘Credit’ type.\nPropagation Required\nCheck this option to indicate that the charge collected from the borrower must be passed on \nto the participants of the contract.\nNet Consideration\nThe sum of the different components of a contract determines the net value of the contract. \nYou can indicate that a charge component should be taken into account when determining \nthe net value of a contract by choosing the Net Consideration option. \nNote\nThe Net Consideration option is applicable if you are defining a charge class for Securities \nmodule. \nAdd/Subtract\nIf you choose to include the charge component in the net value, you should indicate if the \ncharge component is to be added, while calculating the net consideration amount, or \nsubtracted.\nSWIFT Qualifier\nYou can report the charge component of a contract in the SWIFT messages that you \ngenerate. To do this, identify the component, when building it in the ‘Charge Class \nMaintenance’ screen, with the appropriate SWIFT code.\nEvents \nA contract goes through different stages in its life cycle, such as:\nInitiation\nAmendment\nRollover\nEach of these stages is referred to as an ‘Event’ in Oracle FLEXCUBE.\nAt any of these events, you can choose to apply a charge or fee. When defining a charge \nclass, you should specify:"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "The association event",
+        "The application event",
+        "Liquidation event",
+        "Basis Amount Tag"
+      ],
+      "summary": "This page explains different events related to charge components in a contract, including association, application, and liquidation events, as well as the basis amount tag for calculating charges or fees.",
+      "raw_text": "2-13\nThe association event\nThe application event\nLiquidation event\nThe event at which you would like to associate a charge component to a contract is referred \nto as the Association Event. At this event, no accounting entry (for the charge component) is \npassed.\nThe event at which the charge component is actually calculated is referred to as the \nApplication Event. At this event, no accounting entry (for the charge component) is passed. \nThe charge or fee is liquidated at the Liquidation event that you specify.\nIf the event chosen for the liquidation of the charge component at the charge class and the \nevent chosen for liquidating the same charge component at the ‘Product Events and \nAccounting Entries’ screen are different, the charge will not be liquidated and accounting \nentries will not be posted.\nIn FX, FT and SI modules, the concept of association, application and liquidation events is not \napplicable. The charge component is liquidated at the event chosen in the product. Hence, \ncharge class for these three modules are defined under Old Charge Class (The Old Charge \nClass is found under product class. The charge classes for FX, FT and SI have to be defined \nunder this.). The charge components are linked to three different events. This mapping gives \nyou the option to change the charge amount before it is liquidated.\nBasis Amount Tag\nThe basis on which interest, charge, fee, or tax is calculated is referred to as the Basis \nAmount. (A charge or fee can be on the basis of the contract amount, for instance.) The \ndifferent basis amounts, available in a module, are associated with a unique ‘tag’. When \nbuilding a charge component, you have to specify the tag associated with the Basis Amount. \nWhen charge or fee is calculated for a contract, the basis amount corresponding to the tag \nwill be picked up automatically. \nBasis amount refers to:\nPrincipal amount or commitment \nTransaction amount in the case of a teller entry\nTransfer amount in case of a Remittance\nSI Amount in case of Standing Instruction\nLC amount in the case of a Letter of Credit\nBill amount in the case of a Bill\nBuy/Sell amount in the case of an FX deal\nDeal Nominal amount for a Security Deal\nDefault Charge Rule\nYou can link a charge rule that you have defined to the charge component that you are \nbuilding. When you link a rule to a component, the attributes that you have defined for the rule \nwill default to the component. \nTo recall, a charge rule identifies the method in which charge or fee of a particular type is to \nbe calculated. A rule is built with, amongst others, the following attributes:\nThe charge currency\nWhether the charge or fee is to be a flat amount or calculated on a rate basis\nThe minimum and maximum charge that can be applied\nThe tier or slab structure on which the charge is to be applied"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "The customer and currency restrictions, etc."
+      ],
+      "summary": "This section discusses how charge rules are applied to products, allowing for amendments under certain conditions, and explains the default settlement currency used for charges on contracts.",
+      "raw_text": "2-14\nThe customer and currency restrictions, etc.\nThe charge component to which you link a rule acquires these properties. Charges for the \nproduct with which you associate a charge component will be calculated, by default, \naccording to the rule linked to the component. However, when processing a contract, you can \nchoose to waive the rule altogether.\nWhen building a charge class, you can choose to allow the amendment of the rule linked to \nit, in the following conditions:\nYou can choose to allow amendment after the association event\nYou can choose to allow amendment after the application event\nYou can choose to allow amendment of the charge amount\nDefault Settlement Currency\nCharges or fees levied on a contract will be settled in the Settlement Currency that you specify \nfor the charge class associated with the product (under which the contract is processed). \nHowever, when processing a contract, you can choose to settle the charge in another \ncurrency.\nThe charge currency defined for the rule is used only for booking charges. The actual \nsettlement is done in the default settlement currency' maintained for the charge class. The \nfinal charge is computed based on preferences defined in the charge rule set-up. The amount \nis converted to the settlement currency in case the charge currency is different from the \ncontract currency.\nNote\n– \nFor the liquidation of charge components with a charge currency not equal to the \ncontract currency during discounting, the charge amount is calculated in the \ncontract currency based on the exchange rate between the settlement currency and \nthe contract currency as on the discounting date. The charge amount in contract \ncurrency is used for accounting. \n– \nIf the charge currency is different from the contract currency and the contract cur-\nrency is same as the settlement account currency, the exchange rate maintained \nfor the settlement account through the ‘Settlement Message Details – Account De-\ntails’ screen is used to convert the charge amount into the contract currency \namount. \nWhen you associate a charge component with a product, you can choose to allow the \namendment of the rule linked to it, under the following conditions:\nAllow Rule Amendments\nIf you would like to allow the amendment of a rule for a charge component when linked to a \ncontract, check this box.\nAmend After Association\nIf you would like to allow the amendment after association of a rule for a charge component, \ncheck this box. Once checked the system will allow you to modify the rule after the association \nevent is triggered for the linked contract.\nAllow Amount Amendment\nIf you would like to allow amendment of the charge amount calculated by the system as per \nthe charge rule, check this box."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Amend After Application",
+        "Default Waiver",
+        "Capitalize",
+        "Note",
+        "Consider as Discount"
+      ],
+      "summary": "This page discusses various options for managing charges and fees in a product or contract, including allowing amendments after application, default waiver settings, capitalization of payments, and considerations related to discounts.",
+      "raw_text": "2-15\nAmend After Application\nIf you would like to allow the amendment of the charge amount after application of a rule for \na charge component, check this box. Once checked the system will allow you to modify the \ncharge amount after the application event is triggered for the linked contract.\nDefault Waiver\nThe charge component to which you link a charge rule acquires the properties defined for the \nrule. Charges for contracts (maintained under the product with which you associate the class \nyou are building) will be calculated, by default, according to the rule linked to the component. \nHowever, when maintaining a product, you can choose to waive the rule altogether. If you \nwant to indicate that the charge rule must be deemed as waived by default, select this option.\nCapitalize \nYou can capitalize the payment of charges and fees. If the charge is not paid on a scheduled \ndate, the outstanding charge amount will be added to the outstanding principal and this \nbecomes the principal for the next schedule. If a partial payment has been made, the unpaid \namount will be capitalized (the unpaid charge is added to the unpaid principal and this \nbecomes the principal for the next schedule).\nNote\nIf the ‘Capitalize’ option is not checked for the broker, deal, product and currency combi-\nnation, then the option ‘Consider as discount’ cannot be checked for the securities module.\nConsider as Discount\nWhile defining a charge class for either the securities or the bills module, you can indicate \nwhether the charge component is to be considered for discount accrual on a constant yield \nbasis. \nIf you select this option the charge received against the component is used in the computation \nof the constant yield and subsequently amortized over the tenor of the associated contract.\nChecking this option also indicates that the component is to be used for IRR calculation.\nNote\nIRR, the Internal Rate of Return is the annualized effective compounded return rate which \ncan be earned on the invested capital, i.e. the yield on the investment.\nAccrual Required\nChecking this indicates that the charges have to be accrued. Subsequently, the charges are \naccrued using the upfront fee system.\nNote\nThis option is disabled for BC contracts. \nCollect LC Advising Charges in Bills\nCheck this box to indicate that the charge class used with an LC should be liquidated or \ntransferred as a part of the bill availed against the LC. You can check this option only for LC \nmodule. If you check this box for other modules, then system will display an error message.\nThis check box indicates whether the charge component needs to be transferred onto the bill \nor should be collected from the customer during the liquidation event of the charge component"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Discount Basis",
+        "Collect LC Charges in Bills"
+      ],
+      "summary": "This page discusses how to define discount basis for charges in the bills module and how to handle liquidation of charges related to letters of credit (LC).",
+      "raw_text": "2-16\nas a part of the LC. During authorization of charge component the system automatically \ncreates liquidation amount tags for the component for LC module.\nIf you select this option, then the system will allow for definition of accounting for the \ncomponent as a part of Bill and/or as a part of the LC. This enables to define the accounting \nentries for this component and can be recovered the same as part of Bill. Accounting roles of \nthe bills module are associated with such charges. These roles can be used to transfer the \ncharges onto Bills.\nDiscount Basis\nWhile defining a charge class for the bills module, you can define the discount basis for the \npurpose of IRR computation. You can choose either of the following as discount basis:\nInflow – If you choose Inflow, the charge will be considered as an inflow for IRR \ncomputation\nOutflow – If you choose Outflow, the charge will be treated as an outflow for IRR \ncomputation\nYou can define discount basis only if the ‘Consider as Discount’ option is enabled. If you have \nnot opted for ‘Consider as Discount’, the Discount Basis field will be disabled. If the ‘Consider \nas Discount’ option is enabled Discount basis has to be defined. On enabling the ‘Consider \nas Discount’, the default value of Discount Basis will be ‘Inflow’ and you will have to change \nit to ‘Outflow’ if required.\nCollect LC Charges in Bills\nCheck this box to indicate that the charge class, when used with an LC, needs to be liquidated \n/ transferred as a part of the bill availed against the LC .\nWhen selected, the system shall allow for definition of accounting for the component as a part \nof Bill and / or as a part of the LC. This shall enable any receivable accounting to be set up as \na part of the LC, and subsequent transfer from the receivable GL as a part of the Bill.\nThis flag is enabled only for LC module. For other modules, this is disabled with default value \nas ‘No’.\nNote\n– \nThe charge component can be marked as ‘Collect LC Charges in Bill’ or ‘Collect LC \nAdvising Charges in Bill’.Either one of theselected but not both.Both can be null.\n– \nCollect LC Charges in Bill’ and ‘Collect LC Advising Charges in Bill’ cannot be \nselected when track receivable or payable is selected at rule level.\n– \nCollect LC Charges in Bill’ and ‘Collect LC Advising Charges in Bill’ cannot be se-\nlected along with third party charge type."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Charge Components for a Product",
+        "Indicating whether Advice Processing Charges Need to be Collected",
+        "Associating a Charge Class with a Product"
+      ],
+      "summary": "This page discusses how to specify charge components for a product, determine if advice processing charges should be collected, and associate a charge class with the product in Oracle FLEXCUBE.",
+      "raw_text": "2-17\n2.4.2 \nCharge Components for a Product\nYou can specify the charge components applicable to a product. Click ‘Charges’ button in a \n‘Product Definition’ screen to invoke the ‘Charge Details’ screen.\nYou should necessarily use a charge class to indicate the charge components applicable to \na product. (A charge class is a specific type of component that you can build with certain \nattributes.) \n2.4.3 \nIndicating whether Advice Processing Charges Need to be Collected\nFor each advice that is linked to the product you can specify whether charges incurred for \nsending the relevant advices to the customer through the various media should be charged \nto the customer account or whether they should be waived. \nYour specification will be defaulted to all the contracts involving this product. However, you \nwill be allowed to change this specification while processing individual contracts. \nNote\nThis specification applies only to LC, Bills, and FT products. \n2.4.4 \nAssociating a Charge Class with a Product\nTo associate a charge class with a product, click ‘Default From Class’ button from the Charge \nDefinition screen. Select the appropriate charge class from the list of classes defined \nspecifically for the particular module of Oracle FLEXCUBE. \nThe attributes defined for the charge class are displayed. You have the option to change the \nattributes defined for the charge class to suit the requirement of the product you are creating."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Associating Several Charge Classes with a Product",
+        "Stop Association",
+        "Propagation Required",
+        "Settlement Currency"
+      ],
+      "summary": "This page explains how to associate charge classes with a product, stop association, set propagation requirements, and define settlement currencies in the context of financial contracts.",
+      "raw_text": "2-18\n2.4.5 \nAssociating Several Charge Classes with a Product\nYou can associate several charge classes with a product. To add to the list of classes \nassociated with the product click on add icon. Thereafter, click ‘Default From Class’ button to \nselect a class from the option list that is displayed. To navigate among the charge classes \nassociated with a product, you can use the icons provided for the same. To disassociate a \nclass from the product, navigate to the class, and click delete icon.\nStop Association\nYou can instruct the system not to calculate charge for a product by clicking this option. \nThe charge details specified for a product will be automatically applied on all contracts \ninvolving the product. However, while processing a contract, you can waive the application of \nall or specific charge rules for the contract.\nPropagation Required\nThis option defaults from the ‘Charge Class Maintenance’ screen but can be modified here if \nrequired. Check this option to indicate that the Charge collected from the borrower must be \npassed on to the participants of the tranche or drawdown contract.\nSettlement Currency\nCharges or fees levied on a contract are settled in the Settlement Currency that you specify \nfor the charge class associated with the product (under which the contract is processed). \nHowever, when processing a contract, you can choose to settle the charge in another \ncurrency. \nFollowing points are noteworthy for bills:\nFor the liquidation of charge components with a charge currency not equal to the \ncontract currency during discounting, the charge amount is calculated in the contract \ncurrency based on the exchange rate between the settlement currency and the contract \ncurrency as on the discounting date. The charge amount in contract currency is used \nfor accounting. This pertains to BC contracts. \nIf the charge currency is different from the contract currency and the contract currency \nis same as the settlement account currency, the exchange rate maintained for the \nsettlement account through the ‘Settlement Message Details – Account Details’ screen \nis used to convert the charge amount into the contract currency amount. \nCollect LC Advising Charges in Bills \nCheck this box to indicate that the charge component defined for the product can be collected \nas a part of a bill availed under the LC. \nYou can check this box only for Export type of LC. If this option is checked in the charge class, \nyou can modify this checkbox at product level. In case if this charge component is linked for \nImport LCs then this option gets defaulted as ‘N’.\nChecking this box ensures that the component is marked for transfer onto Bills. The LC \ncharges due are stored in a data store, which are populated only upon checking this box at \nthe selected product.\nCollect LC Charges in Bills\nCheck this box to indicate that the charge class, when used with an LC, needs to be liquidated \n/ transferred as a part of the bill availed against the LC .\nWhen selected, the system shall allow for definition of accounting for the component as a part \nof Bill and / or as a part of the LC. This shall enable any receivable accounting to be set up as \na part of the LC, and subsequent transfer from the receivable GL as a part of the Bill."
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page discusses various settings and options related to LC (Letter of Credit) charges in a billing system, including conditions for enabling certain flags, charge collection methods, and considerations for discount accrual.",
+      "raw_text": "2-19\nThis flag is enabled only for LC module. For other modules, this is disabled with default value \nas ‘No’.\nNote\n– \nThe charge component can be marked as ‘Collect LC Charges in Bill’ or ‘Collect LC \nAdvising Charges in Bill’.Either one of theselected but not both.Both can be null.\n– \nCollect LC Charges in Bill’ and ‘Collect LC Advising Charges in Bill’ cannot be \nselected when track receivable or payable is selected at rule level.\n– \nCollect LC Charges in Bill’ and ‘Collect LC Advising Charges in Bill’ cannot be se-\nlected along with third party charge type.\nConsider as Discount\nWhile associating a charge class for either securities or a bills product, you can indicate \nwhether the charge component is to be considered for discount accrual on a constant yield \nbasis. \nIf you check this box the charge received against the component is used in the computation \nof the constant yield and subsequently amortized over the tenor of the associated contract.\nAccrual Required\nThis option is defaulted from the ‘Charge Class Maintenance’ screen and cannot be modified \nduring product association.\nNote\nThis option is disabled for BC contracts. \nAdvice Charge\nThe system defaults the local currency as charge currency when this check box is checked. \nIf unchecked, then the system defaults the charge currency as per the ICCF rule. \nmaintenance.\nDiscount Basis\nWhile defining a charge product for the bills module, if you choose to associate a Charge \nClass to the Charge Product, the product will inherit all the attributes defined for the class. But \nyou can override the value of ‘Discount Basis’ from what has been defined in the charge class. \nIf you have not chosen to associate the Charge Product with a Charge Class, to define the \ndiscount basis for the purpose of IRR computation, you can choose either of the following as \ndiscount basis:\nInflow – If you choose Inflow, the charge will be considered as an inflow for IRR \ncomputation\nOutflow – If you choose Outflow, the charge will be treated as an outflow for IRR \ncomputation\nYou can define discount basis only if the ‘Consider as Discount’ option is enabled. If you have \nnot opted for ‘Consider as Discount’, the Discount Basis field will be disabled. If the ‘Consider \nas Discount’ option is enabled Discount basis has to be defined. On enabling the ‘Consider \nas Discount’, the default value of Discount Basis will be ‘Inflow’ and you will have to change \nit to ‘Outflow’ if required.\n2.5 \nContract Charge Details\nThis section contains the following topics:"
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Specifying Charge Details",
+        "Indicating whether Advice Processing Charges Need to be Collected",
+        "Levying Charges on the Recipient of a Message"
+      ],
+      "summary": "This page discusses how to specify charge details for contracts in Oracle FLEXCUBE, including invoking the 'Charge Details' screen and handling different currencies.",
+      "raw_text": "2-20\nSection 2.5.1, \"Specifying Charge Details\"\nSection 2.5.2, \"Indicating whether Advice Processing Charges Need to be Collected \"\nSection 2.5.3, \"Levying Charges on the Recipient of a Message\"\n2.5.1 \nSpecifying Charge Details\nThe charge details pertaining to the contract are specified in the ‘Charge Details’ screen. You \nneed to invoke this screen from the ‘Contract Online’ screen. The ‘Charge Details’ screen is \ninvoked as follows for the different modules of Oracle FLEXCUBE:\nClick ‘Charges’ button in the ‘Contract Input’ screen of any module.\nWhen the details of a contract are captured, the charge components defined for the product \nwill automatically apply on it. However, while processing a contract, you can change certain \nattributes of the charge component.\nNote\nIn case Charge Currency and Settlement currency are different, exchange rate is handled \nas per rate code specified in ‘Account Details’ tab in settlement button. \nReference Number\nThe contract reference number of the contract you are processing will be displayed on this \nscreen."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Charge Association",
+        "Specifying Charge Details",
+        "Waived"
+      ],
+      "summary": "This page explains how to manage charge components in a contract, including displaying and waiving charges, and specifying details such as event triggers and currency.",
+      "raw_text": "2-21\nCharge Association\nThe charge components specified for the product to which you have linked the contract will \nbe displayed in tabular columns. You can choose to waive these components for the contract \nyou are processing.\nEvent Sequence Number\nThis displays the event number which depends on the life cycle of the contract processing. \nYou cannot modify this value.\nSpecifying Charge Details\nSpecify the following details.\nComponent\nThe name given to the charge component will be displayed here. The attributes defined for \nthis component will be displayed in the subsequent fields.\nFor a charge component the following details are displayed:\nThe event that triggers the application of the charge being defined\nIf the charge is a rate, it is defaulted from the product. You cannot the change the rate \nat which the charge is calculated. However, you can modify the calculated charge \namount. \nThe currency in which the charge is specified if it is a flat amount and the flat amount \nitself\nIf the charge component is to be considered for discount accrual on a constant yield \nbasis, ‘Consider as Discount’ option will be checked. You cannot modify this value.\nWaived\nThe attributes of a charge or fee defined for a product will be applied on all contracts involving \nthe product. To waive the charge or fee on a contract you are processing, choose this option. \nThe charge or fee will be calculated but not applied.\nNote\n– \nIf you waive the charge or a fee, the system will calculate the charge but does not \naffect the collection of charge or fee \n– \nIf you opt for ‘Stop Association’, the system will NOT calculate the charge at all\nAccrual Required\nThis option is defaulted from the product charge class maintenance and cannot be modified.\nNote\nThis option is disabled for BC contracts.\n2.5.2 \nIndicating whether Advice Processing Charges Need to be Collected \nYou can choose to debit the customer account for the charges incurred for sending an advice \nto the customer through the various media types. You also have the option of waiving these \ncharges. This specification is defaulted from the product to which the contract is linked. You \nhave the option of changing this while processing an individual contract."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "AR-AP Tracking",
+        "Note"
+      ],
+      "summary": "This page describes the AR-AP tracking field and related settings for contract processing, including advice maintenance options and charge collection methods.",
+      "raw_text": "2-22\nAR-AP Tracking\nThis field is defaulted based on the track receivable preference set at the rule level for the \ncharge class. You can edit this if required. If checked, LQ contract is created for that charge \ncomponent. On unchecking, charges will be collected from the customer at the time of \ncontract processing.\nNote\nThis specification applies only to LC, Bills, and FT contracts. \nAgain at the time of saving the contract the system displays the ‘Product Event Advices \nMaintenance’ screen wherein you will be allowed to do the following:\nSuppress an advice from being sent \nChange the Priority of the advice\nIndicate that charges need to be collected from the receiving party\nSpecify the following details in this screen.\nProduct Code\nThis indicates the Product code to which you have linked the contract.\nEvent Code \nThis indicates the Event code and is defaulted from the product to which the contract is linked. \nAdvices\nThe Advices attached to the product to which you have linked the contract displays in tabular \ncolumns.\n If you indicate that the customer is the receiver of charges, the system automatically locates \nthe relevant Receiver, Media and Country combination from the available Charge \nMaintenance Details records and deducts the charge amount associated with the particular \ncombination. \nThe Charge amount is deducted from the customer account in the specified currency."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Levying Charges on the Recipient of a Message",
+        "Charges Maintenance",
+        "Defining Charges for a Specific Recipient"
+      ],
+      "summary": "This page explains how to levy charges on message recipients in Oracle FLEXCUBE and provides instructions on defining these charges through the 'Message Charges Maintenance' screen.",
+      "raw_text": "2-23\nNote\nIf you have not maintained a Charge Maintenance Details record for the particular custom-\ner, the system uses the wildcard entry type record to deduct the charge amount. \n2.5.3 \nLevying Charges on the Recipient of a Message\nOn the messages that are generated from Oracle FLEXCUBE, you can levy charges. You can \ndefine these charges for a Receiver, Media and Country combination. You can define these \ncharges in the ‘Message Charges Maintenance’ screen, which is invoked from the Application \nBrowser. You can invoke this screen by typing ‘MSDCHRMN\n’ in the field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nSpecify the following details.\nCharges Maintenance\nEnter the following details in the Message Charges Maintenance screen.\nReceiver\nMedia\nCurrency\nCountry\nAmount\nDefining Charges for a Specific Recipient\nThe message generation charges that you define in this screen are for a Recipient (customer \nor bank) + Media (SWIFT, Telex, Mail, and Fax) + Country combination. You can select the \nappropriate Receiver/Media/Country codes from the option lists available.\nFor a given combination, you can define a charge amount and specify the currency in which \nthe charge should be levied. The account of the recipient will be automatically debited for the \ncharge amount during the event at which the message is generated."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Defining Charges for All Recipients",
+        "Identifying the Receiver, Media and Country Combination",
+        "Specifying the Currency and Amount"
+      ],
+      "summary": "This page explains how to define charges for all recipients of messages from a bank, identify specific combinations of receiver, media, and country for charging, and specify the currency and amount for these charges.",
+      "raw_text": "2-24\nDefining Charges for All Recipients\nYou can define a charge that can be levied on all customers that are recipients of messages \ngenerated from your bank. To make the charge applicable to all recipients, choose the ‘ALL’ \noption in the Receiver field.\nIf you have defined a charge to be applied to all customers, and also defined a similar charge \nfor a specific customer, the customer charge takes precedence.\nIdentifying the Receiver, Media and Country Combination\nIn this screen, you need to identify the Receiver, Media and Country combination for which a \nparticular charge amount is to be debited. \nThe receiver of charges is the customer of your bank for whom you are maintaining charge \nmaintenance details. Since advices can be sent to customers through various media, you can \nchoose to maintain separate charge amounts depending on the type of media being used. \nIn addition, you have to indicate the country of the customer for whom you are specifying \ncharge maintenance details. \nEach time you process a transaction in Oracle FLEXCUBE for the respective Receiver, \nMedia, and Country combination, the system automatically deducts the charge amount \nassociated with the particular combination. The charge amount is deducted from the customer \naccount and the relevant accounting entries will be posted based on the accounting entry set-\nup defined for the product involved in the contract. \nSpecifying the Currency and Amount\nIn addition to specifying the Receiver + Media + Country combination, you have to indicate \nthe currency in which the charge amount is to be collected. Subsequently, you can specify the \namount for which the customer account is to be debited. \nMaintaining Wildcard Records\nYou have the option of using the wildcard ‘All’ in all or some of the fields to indicate that the \ncharge maintenance details are applicable for all customers, irrespective of the media type, \nthe resident country to which they belong, and the currency in which the amount is to be \ndeducted. \nLet us assume that you have maintained the following specifications in a Charge Maintenance \nrecord:\nReceiver – All\nMedia – SWIFT\nCountry – All\nCurrency Code – All\nAmount – 35.00\nThe system will by default use this record to deduct charges incurred for sending advices \nthrough SWIFT for all the customers of your bank irrespective of their resident country. \nMoreover, an amount of 35.00 will be deducted as advice processing charges in the currency \nof the customer account. \n2.6 \nOnline Charges for Products\nThis section contains the following topics:\nSection 2.6.1, \"Maintaining Online Charges for Products\""
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Maintaining Online Charges for Products"
+      ],
+      "summary": "This section explains how to maintain charge products and events in Oracle FLEXCUBE using the 'Online Charge Product Maintenance' screen.",
+      "raw_text": "2-25\n2.6.1 \nMaintaining Online Charges for Products\nOracle FLEXCUBE allows you to maintain charge products and events in the ‘Online Charge \nProduct Maintenance’ screen. You can invoke this screen by typing ‘STDCHGMN’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button.\nYou can specify the following details here:\nSource Code\nSpecify the source code. The adjoining option displays all the source code maintained in the \nsystem. You can choose the appropriate one.\nNote\nIt can be FLEXCUBE, FLEXBRANCH, ACUMEN and so on.\nCharge Details\nCharge Event\nSpecify the charge event. The adjoining option displays all the valid Oracle FLEXCUBE \nFunction ids or products available in the system. You can choose the appropriate one.\nCharge Product\nSpecify the charge product. The adjoining option displays all the valid the valid charge product \nmaintained at arc level. You can choose the appropriate one.\nAction\nSelect the action you want the system to perform from the option list. The options available \nare as follows:\nNew\nAuth\nModify\nClose"
+    },
+    {
+      "page_number": 31,
+      "sections": [],
+      "summary": "This page describes the requirements for linking a retail teller charge product to the host function ID STDCUSAC when performing account closure actions, including specific settings in the Online Charge Product Maintenance screen.",
+      "raw_text": "2-26\nNote\n– \nYou must link a retail teller charge product to the host function id STDCUSAC using \nthe Online Charge Product Maintenance screen if the action is ‘Close’.\n– \nThe RT product linked with the account closure related host and branch function ID \nin Online charge screen, should have the charge basis as \"NUM-ACC-OPN-DAYS' \nat ARC level. When this basis is used, Slab type should be maintained as \"SLAB\" \nand Rate Type as “FLAT RATE”. The main offset accounting entry check box \nshould be unchecked."
+    },
+    {
+      "page_number": 32,
+      "sections": [],
+      "summary": "",
+      "raw_text": "3-1\n3. Function ID Glossary\nC\nCFDCHGCE ....................2-10\nCFDCHGCE.....................2-10\nCFDICCFR ........................2-3\nCFDRUMNE ......................2-4\nCFDRUMNE’ .....................2-4\nM\nMSDCHGMN ................... 2-23\nMSDCHRMN ................... 2-23\nS\nSTDCHGMN ................... 2-25"
+    }
+  ]
+}

@@ -1,0 +1,820 @@
+{
+  "source": "FlexCube/FCUBS/Common_CORE/Gateway_User_Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 26,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This section introduces the document's purpose and structure, including its target audience, accessibility features, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual provides an overview of the Integration Gateway module in Oracle FLEXCUBE and is intended for IT department members responsible for integration and IT managers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual provides an overview of the Integration Gateway module in Oracle FLEXCUBE and is intended for IT department members responsible for integration and IT managers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual provides an overview of the Integration Gateway module in Oracle FLEXCUBE and is intended for IT department members responsible for integration and IT managers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual provides an overview of the Integration Gateway module in Oracle FLEXCUBE and is intended for IT department members responsible for integration and IT managers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This manual provides an overview of the Integration Gateway module in Oracle FLEXCUBE and is intended for IT department members responsible for integration and IT managers.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Gateway Maintenances",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Introduction",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 External System",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Defining an External System",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Viewing External System Details",
+          "start_page": 11
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Access Rights to an External System",
+          "start_page": 11
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Defining Access Rights to an External System",
+          "start_page": 12
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Viewing External System Function Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Upload Source Definition",
+          "start_page": 13
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Maintaining Upload Source Details",
+          "start_page": 14
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Specifying Upload Source Preferences",
+          "start_page": 14
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Gateway Maintenances",
+          "start_page": 16
+        },
+        {
+          "structure": "4.5.1",
+          "title": "3.5.1 Maintaining Gateway Details",
+          "start_page": 16
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Incoming Message Browser",
+          "start_page": 17
+        },
+        {
+          "structure": "4.6.1",
+          "title": "3.6.1 Invoking Incoming Message Browser Detailed Screen",
+          "start_page": 17
+        },
+        {
+          "structure": "4.6.2",
+          "title": "3.6.2 Viewing Incoming Message Details",
+          "start_page": 19
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Outgoing Message Browser",
+          "start_page": 20
+        },
+        {
+          "structure": "4.7.1",
+          "title": "3.7.1 Invoking Outgoing Message Browser Detailed Screen",
+          "start_page": 20
+        },
+        {
+          "structure": "4.7.2",
+          "title": "3.7.2 Querying Outgoing Message Browser",
+          "start_page": 22
+        },
+        {
+          "structure": "4.8",
+          "title": "3.8 Amendment Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "4.8.1",
+          "title": "3.8.1 Maintaining Gateway Amendment Details",
+          "start_page": 22
+        },
+        {
+          "structure": "3",
+          "title": "2. Gateway Functions - An Overview",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Inbound Application Integration",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 EJB Based Synchronous Deployment Pattern",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Web Services Based Synchronous Deployment Pattern",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 HTTP Servlet Based Synchronous Deployment Pattern",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 MDB Based Asynchronous Deployment Pattern",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Outbound Application Integration",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Responsibilities of Integration Gateway",
+          "start_page": 8
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Deployment of Oracle FLEXCUBE Integration Gateway",
+          "start_page": 8
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Deployment Patterns for Application Integration",
+          "start_page": 9
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides a glossary of icons used in the manual and lists related documents for further information on procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides a glossary of icons used in the manual and lists related documents for further information on procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Gateway Functions - An Overview",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Integration Gateway and its role in integrating external systems with Oracle FLEXCUBE through inbound and outbound application integration.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Integration Gateway and its role in integrating external systems with Oracle FLEXCUBE through inbound and outbound application integration.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Inbound Application Integration",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Integration Gateway and its role in integrating external systems with Oracle FLEXCUBE through inbound and outbound application integration.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 EJB Based Synchronous Deployment Pattern",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Integration Gateway and its role in integrating external systems with Oracle FLEXCUBE through inbound and outbound application integration.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Web Services Based Synchronous Deployment Pattern",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section describes a deployment pattern where Oracle FLEXCUBE uses web services with SOAP messages for communication between the external system and the EJB, suitable for systems that are not 'EJB literate' or prefer standards-based approaches.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "2.2.3 HTTP Servlet Based Synchronous Deployment Pattern",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section describes a deployment pattern where Oracle FLEXCUBE uses web services with SOAP messages for communication between the external system and the EJB, suitable for systems that are not 'EJB literate' or prefer standards-based approaches.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.4",
+      "title": "2.2.4 MDB Based Asynchronous Deployment Pattern",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This section describes a deployment pattern where Oracle FLEXCUBE uses web services with SOAP messages for communication between the external system and the EJB, suitable for systems that are not 'EJB literate' or prefer standards-based approaches.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Outbound Application Integration",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page discusses external system integration with Oracle FLEXCUBE through JMS queues and outbound notifications, as well as the responsibilities and deployment of the Integration Gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Responsibilities of Integration Gateway",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page discusses external system integration with Oracle FLEXCUBE through JMS queues and outbound notifications, as well as the responsibilities and deployment of the Integration Gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Deployment of Oracle FLEXCUBE Integration Gateway",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page discusses external system integration with Oracle FLEXCUBE through JMS queues and outbound notifications, as well as the responsibilities and deployment of the Integration Gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Deployment Patterns for Application Integration",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page discusses various deployment patterns and communication methods for integrating external systems with the Oracle FLEXCUBE application, including synchronous and asynchronous transactions and queries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Gateway Maintenances",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page introduces gateway maintenances and external systems, detailing how to define an external system for communication with the Oracle FLEXCUBE Integration Gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Introduction",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page introduces gateway maintenances and external systems, detailing how to define an external system for communication with the Oracle FLEXCUBE Integration Gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 External System",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page introduces gateway maintenances and external systems, detailing how to define an external system for communication with the Oracle FLEXCUBE Integration Gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Defining an External System",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page introduces gateway maintenances and external systems, detailing how to define an external system for communication with the Oracle FLEXCUBE Integration Gateway.",
+      "cross_references": [
+        {
+          "structure": "3.3",
+          "title": "2.3 Outbound Application Integration",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Responsibilities of Integration Gateway",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Inbound Application Integration",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 EJB Based Synchronous Deployment Pattern",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Web Services Based Synchronous Deployment Pattern",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 HTTP Servlet Based Synchronous Deployment Pattern",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 MDB Based Asynchronous Deployment Pattern",
+          "start_page": 7
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Deployment Patterns for Application Integration",
+          "start_page": 9
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Deployment of Oracle FLEXCUBE Integration Gateway",
+          "start_page": 8
+        }
+      ]
+    },
+    {
+      "structure": "4.2.2",
+      "title": "3.2.2 Viewing External System Details",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes how to view details of external systems using a specific screen and explains access rights related to these systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Access Rights to an External System",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page describes how to view details of external systems using a specific screen and explains access rights related to these systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.1",
+      "title": "3.3.1 Defining Access Rights to an External System",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page describes how to define and view access rights for external systems using specific screens in a system interface.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.2",
+      "title": "3.3.2 Viewing External System Function Details",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page describes how to define and view access rights for external systems using specific screens in a system interface.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Upload Source Definition",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page describes how to use the summary screen for searching external system functions and provides information on uploading source definitions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.1",
+      "title": "3.4.1 Maintaining Upload Source Details",
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This page explains how to maintain upload source details and set preferences for data uploads from external sources in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.2",
+      "title": "3.4.2 Specifying Upload Source Preferences",
+      "start_page": 14,
+      "end_page": 16,
+      "summary": "This page explains how to maintain upload source details and set preferences for data uploads from external sources in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5",
+      "title": "3.5 Gateway Maintenances",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page describes options for record authorization and data management settings, followed by instructions on maintaining gateway details for creating MT tasks.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.1",
+      "title": "3.5.1 Maintaining Gateway Details",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This page describes options for record authorization and data management settings, followed by instructions on maintaining gateway details for creating MT tasks.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6",
+      "title": "3.6 Incoming Message Browser",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page describes the process of specifying external system details and module operations, as well as setting effective dates for gateway message maintenance, and introduces the Incoming Message Browser.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.1",
+      "title": "3.6.1 Invoking Incoming Message Browser Detailed Screen",
+      "start_page": 17,
+      "end_page": 19,
+      "summary": "This page describes the process of specifying external system details and module operations, as well as setting effective dates for gateway message maintenance, and introduces the Incoming Message Browser.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.2",
+      "title": "3.6.2 Viewing Incoming Message Details",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This section explains how to view a summary of incoming messages from an external system using the 'Incoming Message Browser - Summary' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7",
+      "title": "3.7 Outgoing Message Browser",
+      "start_page": 20,
+      "end_page": 20,
+      "summary": "This page describes how to use the Outgoing Message Browser to view and manage response messages sent to external systems after processing incoming messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7.1",
+      "title": "3.7.1 Invoking Outgoing Message Browser Detailed Screen",
+      "start_page": 20,
+      "end_page": 22,
+      "summary": "This page describes how to use the Outgoing Message Browser to view and manage response messages sent to external systems after processing incoming messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7.2",
+      "title": "3.7.2 Querying Outgoing Message Browser",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page describes how to query outgoing messages using a specific screen and explains the process of maintaining gateway amendment details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.8",
+      "title": "3.8 Amendment Maintenance",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page describes how to query outgoing messages using a specific screen and explains the process of maintaining gateway amendment details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.8.1",
+      "title": "3.8.1 Maintaining Gateway Amendment Details",
+      "start_page": 22,
+      "end_page": 26,
+      "summary": "This page describes how to query outgoing messages using a specific screen and explains the process of maintaining gateway amendment details.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Function ID Glossary",
+      "start_page": 26,
+      "end_page": 28,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, released in November 2022.",
+      "raw_text": "Common Core - Gateway User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "Common Core - Gateway User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This section introduces the document's purpose and structure, including its target audience, accessibility features, organization, and related documents.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nGateway Functions - An Overview  ........................................................ 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nInbound Application Integration ..............................................................................  2-1\n2.2.1  \nEJB Based Synchronous Deployment Pattern...........................................  2-1\n2.2.2  \nWeb Services Based Synchronous Deployment Pattern ...........................  2-2\n2.2.3  \nHTTP Servlet Based Synchronous Deployment Pattern............................  2-2\n2.2.4  \nMDB Based Asynchronous Deployment Pattern........................................  2-2\n2.3 \nOutbound Application Integration ...........................................................................  2-3\n2.4 \nResponsibilities of Integration Gateway ..................................................................  2-3\n2.5 \nDeployment of Oracle FLEXCUBE Integration Gateway.........................................  2-3\n2.6 \nDeployment Patterns for Application Integration ....................................................  2-4\n3. \nGateway Maintenances ........................................................................... 3-1\n3.1 \nIntroduction..............................................................................................................  3-1\n3.2 \nExternal System ......................................................................................................  3-1\n3.2.1  \nDefining an External System ......................................................................  3-1\n3.2.2  \nViewing External System Details................................................................  3-2\n3.3 \nAccess Rights to an External System......................................................................  3-2\n3.3.1  \nDefining Access Rights to an External System ..........................................  3-3\n3.3.2  \nViewing External System Function Details.................................................  3-3\n3.4 \nUpload Source Definition.........................................................................................  3-4\n3.4.1  \nMaintaining Upload Source Details ............................................................  3-5\n3.4.2  \nSpecifying Upload Source Preferences......................................................  3-5\n3.5 \nGateway Maintenances...........................................................................................  3-7\n3.5.1  \nMaintaining Gateway Details......................................................................  3-7\n3.6 \nIncoming Message Browser ....................................................................................  3-8\n3.6.1  \nInvoking Incoming Message Browser Detailed Screen ..............................  3-8\n3.6.2  \nViewing Incoming Message Details..........................................................  3-10\n3.7 \nOutgoing Message Browser ..................................................................................  3-11\n3.7.1  \nInvoking Outgoing Message Browser Detailed Screen ............................  3-11\n3.7.2  \nQuerying Outgoing Message Browser......................................................  3-13\n3.8 \nAmendment Maintenance......................................................................................  3-13\n3.8.1  \nMaintaining Gateway Amendment Details................................................  3-13\n4. \nFunction ID Glossary ............................................................................... 4-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This manual provides an overview of the Integration Gateway module in Oracle FLEXCUBE and is intended for IT department members responsible for integration and IT managers.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help you quickly get acquainted with the Integration Gateway of \nOracle FLEXCUBE.\nIt provides an overview to the module, and provides information on using the Integration \nGateway module of Oracle FLEXCUBE. \nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\nRole\nFunction\nIT department members responsible \nfor integration\nInput functions for maintenance related \nto the gateway\nIT managers\nAuthorization functions\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nGateway Functions - An Overview explains the features of this mod-\nule.\nChapter 3\nGateway Maintenances explains the core features of this module.\nChapter 4\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation."
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page provides a glossary of icons used in the manual and lists related documents for further information on procedures.",
+      "raw_text": "1-2\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nCommon Procedures\nProducts\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Gateway Functions - An Overview",
+        "Introduction",
+        "Inbound Application Integration"
+      ],
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Integration Gateway and its role in integrating external systems with Oracle FLEXCUBE through inbound and outbound application integration.",
+      "raw_text": "2-1\n2. Gateway Functions - An Overview \n2.1 \nIntroduction\nIntegration of different applications and solutions is a key area in today’s systems. A variety \nof specialized applications deployed on disparate platforms and using different infrastructure \nneed to be able to communicate and integrate seamlessly with Oracle FLEXCUBE in order to \nexchange data. The Oracle FLEXCUBE Integration Gateway (referred to as ‘Gateway’ in the \nrest of the document) will cater to these integration needs.\nThe integration needs supported by the Gateway can be broadly categorized from the \nperspective of the Gateway as follows:\nInbound application integration – used when any external system needs to add, modify \nor query information within Oracle FLEXCUBE\nOutbound application integration – used when any external system needs to be notified \nof the various events that occur within Oracle FLEXCUBE. \n2.2 \nInbound Application Integration \nOracle FLEXCUBE Inbound Application Gateway provides XML based interfaces thus \nenhancing the need to communicate and integrate with the external systems. The data \nexchanged between Oracle FLEXCUBE and the external systems will be in the form of XML \nmessages. These XML messages are defined in FCUBS in the form of XML Schema \nDocuments (XSD) and are referred to as ‘FCUBS formats’ \nFor more information on FCUBS formats refer the Message Formats chapter in this User \nManual.\nFCUBS Inbound Application Integration Gateway uses the Synchronous and Asynchronous \nDeployment Pattern for addressing the integration needs. \nThe Synchronous Deployment Pattern is classified into the following: \nOracle FLEXCUBE EJB Based Synchronous Inbound Application Integration \nDeployment Pattern\nOracle FLEXCUBE Web Services Based Synchronous Inbound Application Integration \nDeployment Pattern\nOracle FLEXCUBE HTTP Servlet Based Synchronous Inbound Application Integration \nDeployment Pattern\nAsynchronous Deployment Pattern is:\nOracle FLEXCUBE MDB Based Asynchronous Inbound Application Integration \nDeployment Patten\n2.2.1 \nEJB Based Synchronous Deployment Pattern\nThe Enterprise Java Beans (EJB) deployment pattern will be used in integration scenarios \nwhere the external system connecting to Oracle FLEXCUBE is ‘EJB literate’, i.e., the external \nsystem is capable of interacting with Oracle FLEXCUBE based upon the EJB interface. In this \ndeployment pattern, the external system will use the RMI/IIOP protocol to communicate with \nthe Oracle FLEXCUBE EJB."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Web Services Based Synchronous Deployment Pattern"
+      ],
+      "summary": "This section describes a deployment pattern where Oracle FLEXCUBE uses web services with SOAP messages for communication between the external system and the EJB, suitable for systems that are not 'EJB literate' or prefer standards-based approaches.",
+      "raw_text": "In this deployment pattern the EJB displayed by Oracle FLEXCUBE will be a stateless \nsession bean. The actual request will be in the form of an XML message. After the necessary \nprocessing is done in Oracle FLEXCUBE based on the request, the response is returned to \nthe external system as an XML message. The transaction control for the processing will stay \nwith the Oracle FLEXCUBE EJB.\n2.2.2 \nWeb Services Based Synchronous Deployment Pattern\nThe web services deployment pattern will be used in integration scenarios where the external \nsystem connecting to Oracle FLEXCUBE wants to connect using standards-based, inter-\noperable web services. \nThis deployment pattern is especially applicable to systems which meet the following broad \nguidelines:\nSystems that are not ‘EJB literate’, i.e., such systems are not capable of establishing \nconnections with Oracle FLEXCUBE based upon the EJB interface; and/or\nSystems that prefer to use a standards-based approach\nIn this deployment pattern, the external system will use the SOAP (Simple Object Access \nProtocol) messages to communicate to the Oracle FLEXCUBE web services.\nThe services displayed by Oracle FLEXCUBE are of a ‘message based’ style, i.e., the actual \nrequest will be in the form of an XML message, but the request will be a ‘payload’ within the \nSOAP message. After the necessary processing is done in Oracle FLEXCUBE based on the \nrequest, the response is returned to the external system as an XML message which will be a \n‘payload’ within the response SOAP message. The transaction control for the processing will \nstay with the Oracle FLEXCUBE.\n2.2.3 \nHTTP Servlet Based Synchronous Deployment Pattern\nThe HTTP servlet deployment pattern will be used in integration scenarios where the external \nsystem connecting to Oracle FLEXCUBE wants to connect to Oracle FLEXCUBE using \nsimple HTTP messages. \nThis is especially applicable to systems such as the following:\nSystems that are not ‘EJB literate’, i.e., are not capable establishing a connections with \nOracle FLEXCUBE based upon the EJB interface; and/or \nSystems that prefer to use a simple http message based approach without wanting to \nuse SOAP as the standard\nIn this deployment pattern, the external system will make an HTTP request to the Oracle \nFLEXCUBE servlet.\nFor this deployment pattern, Oracle FLEXCUBE will display a single servlet. The actual \nrequest will be in the form of an XML message. This XML message is embedded into the body \nof the HTTP request sent to the Oracle FLEXCUBE servlet. After the necessary processing \nis done in Oracle FLEXCUBE based on the request, the response is returned to the external \nsystem as an XML message which is once again embedded within the body of the response \nHTTP message. The transaction control for the processing will stay with the Oracle \nFLEXCUBE.\n2.2.4 \nMDB Based Asynchronous Deployment Pattern\nThe MDB deployment pattern is used in integration scenarios where the external system \nconnecting to Oracle FLEXCUBE wants to connect to Oracle FLEXCUBE using JMS queues."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Outbound Application Integration",
+        "Responsibilities of Integration Gateway",
+        "Deployment of Oracle FLEXCUBE Integration Gateway"
+      ],
+      "summary": "This page discusses external system integration with Oracle FLEXCUBE through JMS queues and outbound notifications, as well as the responsibilities and deployment of the Integration Gateway.",
+      "raw_text": "This is especially applicable to systems such as the following:\nSystems that prefer to use JMS queues based approach without wanting to wait for the \nreply\nHere external system sends messages in XML format to request queue on which an MDB is \nlistening. When a message arrives on the queue, it is picked up for processing. After the \nnecessary processing is done in Oracle FLEXCUBE, based on the request, the response is \nsent to the response queue as an XML message \n2.3 \nOutbound Application Integration \nThe Outbound Application Integration is also called the Oracle FLEXCUBE Notify Application \nIntegration layer. This application layer sends out notification messages to the external \nsystem whenever events occur in Oracle FLEXCUBE. \nThe notification messages generated by FCUBS on the occurrence of these events will be \nXML messages. These XML messages are defined in FCUBS in the form of XML Schema \nDocuments (XSD) and are referred to as ‘FCUBS formats’\nFor more information on FCUBS formats refer the Message Formats chapter in this module.\n2.4 \nResponsibilities of Integration Gateway\nThe primary responsibilities of Oracle FLEXCUBE Integration Gateway include the following:\nAuthentication\nDuplicate recognition \nValidation \nRouting \nLogging of messages\n2.5 \nDeployment of Oracle FLEXCUBE Integration Gate-\nway\nMessage communication - incoming or outgoing from/to an external system in Oracle \nFLEXCUBE will happen only through an Oracle FLEXCUBE Integration Gateway. Hence, it \nbecomes the first point of contact or last point of contact with the database in message flow. \nThe Oracle FLEXCUBE Integration Gateway can be deployed to support both the distributed \nand single schema deployments of Oracle FLEXCUBE: \nDistributed deployment of FCUBS – In this situation the database components of the \nGateway are deployed as two or more schemas\n– \nThe messaging schema as part of SMS schema in the SMS and/or HO instance \n– \nThe business schema(s) in the various branch schemas in the branch instance(s)\nSingle schema deployment of FCUBS – In this situation the database components of \nthe Gateway (messaging and business) are both deployed as part of the single Oracle \nFLEXCUBE schema."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Deployment Patterns for Application Integration",
+        "Nature of Integration",
+        "Oracle FLEXCUBE Deployment Pattern",
+        "Inbound Transactions into Oracle FLEXCUBE",
+        "Inbound Queries into Oracle FLEX-CUBE",
+        "Handoffs from Oracle FLEX-CUBE"
+      ],
+      "summary": "This page discusses various deployment patterns and communication methods for integrating external systems with the Oracle FLEXCUBE application, including synchronous and asynchronous transactions and queries.",
+      "raw_text": "2.6 \nDeployment Patterns for Application Integration \nBusiness \nIntegration \nNeeds\nNature of \nIntegration\nOracle \nFLEXCUBE \nDeployment \nPattern\nRemarks\nInbound Transac-\ntions into Oracle \nFLEXCUBE\nSynchronous\nFLEXCUBE UBS \nEJB\nRecommended\nFLEXCUBE UBS \nHTTP Servlet \nThis can be used if the exter-\nnal system cannot communi-\ncate to Oracle FLEXCUBE \nusing EJB.\nFLEXCUBE UBS \nWeb Services \nThis can be used if the exter-\nnal system chooses to com-\nmunicate only through Web \nServices.\nAsynchro-\nnous\nFLEXCUBE UBS \nMDB\nThis can be used if the exter-\nnal system chooses to com-\nmunicate only through JMS \nqueues\nInbound Queries \ninto Oracle FLEX-\nCUBE\nSynchronous\nFLEXCUBE UBS \nEJB\nRecommended\nFLEXCUBE UBS \nIn Servlet\nThis can be used if the exter-\nnal system cannot communi-\ncate to Oracle FLEXCUBE \nusing EJB.\nFLEXCUBE UBS \nWeb Services \nThis can be used if the exter-\nnal system chooses to com-\nmunicate only through Web \nServices.\nAsynchro-\nnous\nFLEXCUBE UBS \nMDB\nThis can be used if the exter-\nnal system chooses to com-\nmunicate only through JMS \nqueues\nHandoffs from \nOracle FLEX-\nCUBE\nAsynchro-\nnous\nFLEXCUBE UBS \nNotify \nRecommended"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Gateway Maintenances",
+        "External System"
+      ],
+      "summary": "This page introduces gateway maintenances and external systems, detailing how to define an external system for communication with the Oracle FLEXCUBE Integration Gateway.",
+      "raw_text": "3-1\n3. Gateway Maintenances\n3.1 \nIntroduction\nThis chapter contains the following sections:\nSection 3.2, \"External System\"\nSection 3.3, \"Access Rights to an External System\"\nSection 3.4, \"Upload Source Definition\"\nSection 3.5, \"Gateway Maintenances\"\nSection 3.6, \"Incoming Message Browser\"\nSection 3.7, \"Outgoing Message Browser\"\nSection 3.8, \"Amendment Maintenance\"\n3.2 \nExternal System\nThis section contains the following topics:\nSection 3.2.1, \"Defining an External System\"\nSection 3.2.2, \"Viewing External System Details\"\n3.2.1 \nDefining an External System\nYou need to define an external system that will communicate with the Oracle FLEXCUBE \nIntegration Gateway. You can define an external system using the ‘External System – \nDetailed’ screen.You can invoke this screen by typing ’GWDETSYS’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Viewing External System Details",
+        "Access Rights to an External System"
+      ],
+      "summary": "This page describes how to view details of external systems using a specific screen and explains access rights related to these systems.",
+      "raw_text": "3-2\nThe various details required by the ‘External System - Detailed’ screen are described below.\n3.2.2 \nViewing External System Details\nThe details of previously defined external Systems can be viewed using the ‘External System \n- Summary’ screen as shown below. You can invoke this screen by typing ‘GWSETSYS’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nThis summary screen can be used to search for external systems which match the data \nspecified for any of the following criteria:\nAuthorization Status\nExternal System\nDead Letter Queue\nRecord Status\nDefault Response Queue\nThe ‘Result’ list shows the external systems which match your query. The search functions \navailable are: \nAdvanced\nClick Advanced to specify queries with logical operators such as AND, OR and NOT.\nReset\nClick Reset to empty the values in the criteria fields, so that you may begin a new search.\nQuery\nAfter specifying your search criteria click Query to view the list of results which match your \nsearch criteria.\nRefresh\nClick Refresh to refresh the list of results.\n3.3 \nAccess Rights to an External System\nThis section contains the following topics:"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Defining Access Rights to an External System",
+        "Viewing External System Function Details"
+      ],
+      "summary": "This page describes how to define and view access rights for external systems using specific screens in a system interface.",
+      "raw_text": "3-3\nSection 3.3.1, \"Defining Access Rights to an External System\"\nSection 3.3.2, \"Viewing External System Function Details\"\n3.3.1 \nDefining Access Rights to an External System\nYou can define access rights to an external system using the ‘External System Functions – \nDetailed’ screen.You can invoke this screen by typing ‘’GWDETFUN’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nIn the above screen, you need to specify the following details:\nExternal System\nSelect an external system for which you wish to provide access rights. The adjoining option \nlist displays all the external systems you have maintained in the ‘External Systems – Detailed’ \nscreen. \nFunction ID\nSelect a Function ID from the list of values by clicking the adjoining option list. The function \nids are invoked from Gateway Functions. \nAction\nSelect an action for the external system from the option list provided.\nService Name\nThis displays the service name based on the Function ID and Action you select.\nOperation Code\nThis displays the Operation Code based on the Function ID and Action you select.\n3.3.2 \nViewing External System Function Details\nYou can view the access rights details which have already been defined using the 'External \nSystem Functions - Summary' screen as shown below. You can invoke this screen by typing"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Summary Screen",
+        "Upload Source Definition"
+      ],
+      "summary": "This page describes how to use the summary screen for searching external system functions and provides information on uploading source definitions.",
+      "raw_text": "3-4\n‘GWSETFUN’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button.\nThis summary screen can be used to search for external system functions which match any \nof the following criteria:\nAuthorization Status\nExternal System\nRecord Status\nAction\nFunction\nThe ‘Result’ list shows the external system functions which match your query. The search \nfunctions available are: \nAdvanced\nClick Advanced to specify queries with logical operators such as AND, OR and NOT.\nReset\nClick Reset to empty the values in the criteria fields, so that you may begin a new search.\nQuery\nAfter specifying your search criteria click Query to view the list of results which match your \nsearch criteria.\nRefresh\nClick Refresh to refresh the list of results.\n3.4 \nUpload Source Definition\nThis section contains the following topics:\nSection 3.4.1, \"Maintaining Upload Source Details\"\nSection 3.4.2, \"Specifying Upload Source Preferences\""
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Maintaining Upload Source Details",
+        "Specifying Upload Source Preferences"
+      ],
+      "summary": "This page explains how to maintain upload source details and set preferences for data uploads from external sources in Oracle FLEXCUBE.",
+      "raw_text": "3-5\n3.4.1 \nMaintaining Upload Source Details\nOracle FLEXCUBE facilitates upload of data from an external source. The details of the \nsource from which data has to be uploaded need to be maintained in Oracle FLEXCUBE \nusing the ‘Upload Source Maintenance’ screen. You can invoke the ‘Upload Source \nMaintenance’ screen by typing ‘CODSORCE’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nThe following details need to be captured here:\nSource Code\nSpecify a code for the for the source from which data has to be uploaded to Oracle \nFLEXCUBE.\nDescription\nGive a small description for the source code specified.\nBase Data From FLEXCUBE\nCheck this box to indicate if base data has to be uploaded from Oracle FLEXCUBE.\n3.4.2 \nSpecifying Upload Source Preferences\nYou can set preferences for upload of data from an external source in the ‘Upload Source \nPreferences Maintenance’ screen. You can invoke the ‘Upload Source Preferences"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Source Code",
+        "Module Code",
+        "On Override",
+        "On Exception",
+        "Post Upload Status"
+      ],
+      "summary": "This page describes how to use the 'CODUPLDM' screen in Oracle FLEXCUBE for uploading data from various sources, handling exceptions and overrides, and managing post-upload statuses.",
+      "raw_text": "3-6\nMaintenance’ screen by typing ‘CODUPLDM’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nThe following details are captured here:\nSource Code\nSelect Source Code from the option list. Depending on the source code you select here data \nis uploaded from that source into Oracle FLEXCUBE.\nModule Code\nYou can choose to upload data from a source directly onto a module in FLEXCUBE. Indicate \nthe module into which you would like to upload data from a given source.\nOn Override\nOracle FLEXCUBE generates override messages in case it encounters any discrepancies \nduring data upload. You can choose to do any of the following:\nIgnore – Select this option to ignore such error messages and continue with the upload \nprocess\nPut on Hold – Select this option to put the record on hold for user intervention later\nReject – Select this option to reject the record\nOn Exception\nIn case a serious error occurs during data upload, Oracle FLEXCUBE generates an error \nmessage. You can choose to put the record with the error on hold. In such a case, choose \n‘Put on Hold’ from the list of options available. If you would like to reject the record altogether, \nchoose ‘Reject’.\nPost Upload Status\nIf you would like to automatically authorize the data that is uploaded into Oracle FLEXCUBE \nchoose the ‘Authorize’ option here.\nIf you would like the record to be put on hold choose this option in this field."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "3.5 Gateway Maintenances",
+        "3.5.1 Maintaining Gateway Details"
+      ],
+      "summary": "This page describes options for record authorization and data management settings, followed by instructions on maintaining gateway details for creating MT tasks.",
+      "raw_text": "3-7\nIf you would like the record to be unauthorized, choose the ‘Unauthorized’ option in this field. \nThe record will not be authorized automatically on upload. You will have to manually authorize \nthe data.\nPurge Days (Calendar)\nSpecify the days maintained for purging of the data uploaded.\nAllow Deferred Processing\nCheck this option to defer processing of amendment and cancellation uploads.\nAllow EOD with Deferred\nCheck this option to proceed even if the records exist in the deferred processing log.\nIf it is unchecked, then the EOD process halts until the deferred process log is cleared.\nAllow Delete\nCheck this option to delete the process log.\n3.5 \nGateway Maintenances\nThis section contains the following topics:\nSection 3.5.1, \"Maintaining Gateway Details\"\n3.5.1 \nMaintaining Gateway Details\nUsing the ‘Gateway Maintenance Detailed’ screen, you can maintain the basis for creation of \nMT tasks for Gateway message. You can invoke this screen by typing ‘STDGWINT’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button.\nIn this screen, you can specify the following details:\nBranch Code\nSpecify the branch code of the bank. This adjoining option list displays all valid branches \nmaintained in the system. You can choose the appropriate one."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "External System",
+        "Module Code",
+        "Service Name",
+        "Operation code",
+        "Effective Date",
+        "Incoming Message Browser",
+        "Section 3.6.1, \"Invoking Incoming Message Browser Detailed Screen\"",
+        "Section 3.6.2, \"Viewing Incoming Message Details\""
+      ],
+      "summary": "This page describes the process of specifying external system details and module operations, as well as setting effective dates for gateway message maintenance, and introduces the Incoming Message Browser.",
+      "raw_text": "3-8\nExternal System\nSpecify the name of the external system. This adjoining option list displays all the external \nsystems maintained in the system. You can choose the appropriate one.\nModule Code\nSpecify the module name. This adjoining option list displays all the modules maintained in the \nsystem. You can choose the appropriate one.\nService Name\nSpecify the service name of the module selected. This adjoining option list displays all the \nservice names maintained in the system. You can choose the appropriate one.\nOperation code\nSpecify the operation code of the service. This adjoining option list displays all valid operation \ncodes maintained in the system. You can choose the appropriate one. \nEffective Date\nSpecify the date from which the gateway message maintenance becomes effective. Effective \ndate should be equal to or greater than the application date.\n3.6 \nIncoming Message Browser\nThe messages received from the external system will be displayed in the Incoming Message \nBrowser. \nThis section contains the following topics:\nSection 3.6.1, \"Invoking Incoming Message Browser Detailed Screen\"\nSection 3.6.2, \"Viewing Incoming Message Details\"\n3.6.1 \nInvoking Incoming Message Browser Detailed Screen\nYou can invoke the ‘Incoming Message Browser’ screen by typing ‘GWDINBRW’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "In the ‘Incoming Message Browser’ screen you can view the details of the messages received from the external systems. You can also view the messages in the XML format or the Text format."
+      ],
+      "summary": "This section describes how to view incoming messages in the Incoming Message Browser, including options for viewing them in text or XML format.",
+      "raw_text": "3-9\nIn the ‘Incoming Message Browser’ screen you can view the details of the messages received \nfrom the external systems. You can also view the messages in the XML format or the Text \nformat. \nClick ‘Text View’ button to view the incoming messages in text format as shown below:"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Viewing Incoming Message Details"
+      ],
+      "summary": "This section explains how to view a summary of incoming messages from an external system using the 'Incoming Message Browser - Summary' screen.",
+      "raw_text": "3-10\nClick ‘XML View’ button to view the ‘Gateway Browser Window’ screen which displays the \nmessages in XML format.\n3.6.2 \nViewing Incoming Message Details\nThe summary of all messages received from the external system can be viewed using the \n‘Incoming Message Browser - Summary’ screen as shown below. You can invoke this screen \nby typing ‘GWSINBRW’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Outgoing Message Browser",
+        "Invoking Outgoing Message Browser Detailed Screen"
+      ],
+      "summary": "This page describes how to use the Outgoing Message Browser to view and manage response messages sent to external systems after processing incoming messages.",
+      "raw_text": "3-11\nThis summary screen can be used to search for incoming messages which match the criteria \n(Message Reference Number, External System, Service Name etc) you specify. The ‘Result’ \nlist shows the messages which match your query. The search functions available are: \nAdvanced\nClick Advanced to specify queries with logical operators such as AND, OR and NOT.\nReset\nClick Reset to empty the values in the criteria fields, so that you may begin a new search.\nQuery\nAfter specifying your search criteria click Query to view the list of results which match your \nsearch criteria.\nRefresh\nClick Refresh to refresh the list of results.\n3.7 \nOutgoing Message Browser\nThis section contains the following topics:\nSection 3.7.1, \"Invoking Outgoing Message Browser Detailed Screen\"\nSection 3.7.2, \"Querying Outgoing Message Browser\"\n3.7.1 \nInvoking Outgoing Message Browser Detailed Screen\nOnce the incoming messages have been processed, a response message will be sent to the \nexternal systems along with the status of the processed messages. The response messages \nwill be displayed in the ‘Outgoing Message Browser’. You can invoke the ‘Outgoing Message \nBrowser’ screen by typing ‘GWDOTBRW’ in the field at the top right corner of the Application \ntool bar and clicking on the adjoining arrow button.\nIn the ‘Outgoing Message Browser’ screen you can view the details of the messages sent to \nthe external systems. You can also view the messages in the XML format or the Text format."
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "This page describes how to view response messages in either text format or XML format using specific buttons.",
+      "raw_text": "3-12\nClick ‘Text View’ button to view the response message in text format as shown below:\nClick ‘XML View’ button to view the response messages in XML format as shown below:"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Querying Outgoing Message Browser",
+        "Amendment Maintenance",
+        "Maintaining Gateway Amendment Details"
+      ],
+      "summary": "This page describes how to query outgoing messages using a specific screen and explains the process of maintaining gateway amendment details.",
+      "raw_text": "3-13\n3.7.2 \nQuerying Outgoing Message Browser\nYou can query the list of outgoing messages using the ‘Outgoing Message Browser - \nSummary’ screen. You can invoke this screen by typing ‘GWSOTBRW’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nThis query screen can be used to search for outgoing messages which match the criteria \n(Message Reference Number, External System, Service Name etc) you specify. The ‘Result’ \nlist shows the messages which match your query. The search functions available are: \nAdvanced\nClick Advanced to specify queries with logical operators such as AND, OR and NOT.\nReset\nClick Reset to empty the values in the criteria fields, so that you may begin a new search.\nQuery\nAfter specifying your search criteria click Query to view the list of results which match your \nsearch criteria.\nRefresh\nClick Refresh to refresh the list of results.\n3.8 \nAmendment Maintenance\nThis section contains the following topics:\nSection 3.8.1, \"Maintaining Gateway Amendment Details\"\n3.8.1 \nMaintaining Gateway Amendment Details\nTo recall, you need to identify the fields that can be amended by an external system, say, a \nSiebel CRM application.\nEvery amendment request coming from such a system has the following data:"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Service Name:",
+        "Operation Name:",
+        "External Operation Name:"
+      ],
+      "summary": "This page explains the concepts of service names, operation names, and external operation names in Oracle FLEXCUBE, along with how to maintain amendable fields using the Gateway Amendment Maintenance screen.",
+      "raw_text": "3-14\nService Name: – This is a broad level grouping of similar operations within a module in \nOracle FLEXCUBE. The service names are published by Oracle FLEXCUBE. As an \nexample, you can consider FCUBSCustomerAccountService. This service is exposed \nby the FCUBS Interface Gateway to do a permissible operation on a customer account.\nOperation Name:- This is the name of the operation that the external system wishes to \nperform within the service. These operations names are published by Oracle \nFLEXCUBE. As an example, you can consider ModifyCustomer, which is for \nmodification of a customer.\nExternal Operation Name:- This is the specific area of operation that an external system \nis performing on its side within the broad context of the Oracle FLEXCUBE’s \namendment. In an external system, if the personal details of a customer are changed, \nthis has a unique name by which it is identified within Oracle FLEXCUBE. Similarly, if \nthe limits related details of a customer are modified, it also has a unique name.\nIt is through the ‘Gateway Amendment Maintenance’ screen that you maintain a set of \namendable fields, which can amend in Oracle FLEXCUBE whenever a request for the same \nwill be send from an external system. Based on this maintenance, the amendment request is \naddressed by Oracle FLEXCUBE. Invoke this screen by typing ‘GWDAMDMT’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button.\nThe screen is as shown below:\nExternal System\nSelect the relevant external system. Based on the maintenance here, only the fields that are \nselected as amendable can be modified if a request comes from the chosen external system."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Origin System",
+        "Source Operation",
+        "Service Name"
+      ],
+      "summary": "This page explains how to specify Origin System and Source Operation for amendments in external systems, as well as the Service Name for Oracle FLEXCUBE modules.",
+      "raw_text": "3-15\nNote\nThe maintenance pertaining to external systems is factory shipped for your bank. \nOrigin System\nSpecify the origin system for which the amendment details are applicable. \nFor example, if we have a record that is created by a specific external system say 'CRM', and \nthe requirement is that, for records created by this specific external system, only a set of fields \nare modifiable then, we should specify Origin System as CRM and FLEXCUBE as the \nExternal System. This Origin System field is used to identify such requirements wherein the \namendable fields can be different if the Origination and Modification of the record are of \ndifferent external sources.\nYou can specify the Origin System with the same value as the External System for Non FP \nservices. For FP module services, you can provide the value as 'FLEXCUBE' and the \nrespective External system can be specified in the External System field.\nThis feature is made available only for the FP modules with source operation as \nPMDTRONL_MODIFY.\nSource Operation\nThe free format text (without spaces) which identifies the amendment you are doing. This is \nmandatory.\nNote\nSource Operation will be defaulted as (FUNCTIONID)_MODIFY, if the Source Operation \nis not sent from an external system and the function ID will be derived from Service and \nOperation combination. \nService Name\nThe relevant service name, this is a broad level grouping of similar operations within a module \nin Oracle FLEXCUBE. The service names are published by Oracle FLEXCUBE. \nNote\nThe maintenance pertaining to service names is factory shipped for your bank\nOperation Code\nThe relevant operation code. This is the operation that the external system wishes to perform \nwithin the selected service. The operation names are published by Oracle FLEXCUBE. As an \nexample, you can take ‘ModifyCustomer’, which is for modification of a customer record. Each \noperation under different service names is identified by a unique code.\nNote\nThe maintenance pertaining to operation codes is factory shipped for your bank.\nAmendable Nodes\nNode Name\nSpecify the node name. Alternatively, you can select the node name from the option list. The \nlist displays all valid nodes maintained in the system."
+    },
+    {
+      "page_number": 25,
+      "sections": [],
+      "summary": "This page describes checkboxes for selecting 'New Allowed', 'Delete Allowed', and 'All Records' options.",
+      "raw_text": "3-16\nNew Allowed\nCheck this box if ‘New Allowed’ is applicable.\nDelete Allowed\nCheck this box if ‘Delete Allowed’ is applicable.\nAll Records\nCheck this box if all records are applicable."
+    },
+    {
+      "page_number": 26,
+      "sections": [],
+      "summary": "",
+      "raw_text": "4-1\n4. Function ID Glossary\nC\nCODSORCE ......................3-5\nCODUPLDM ......................3-6\nG\nGWDAMDMT ...................3-14\nGWDETFUN ......................3-3\nGWDETSYS ......................3-1\nGWDINBRW ..................... 3-8\nGWDOTBRW .................. 3-11\nGWSEXFUN ..................... 3-4\nGWSEXSYS ...................... 3-2\nGWSINBRW .................... 3-10\nGWSOTBRW .................. 3-13\nS\nSTDGWINT ....................... 3-7"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "source": "FlexCube/FCUBS/Current Accounts and Savings Accounts/Balance Forecasting User Guide-fcubs-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 9,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, related documents, and glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Balance Forecasting in Oracle FLEXCUBE, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Balance Forecasting in Oracle FLEXCUBE, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Balance Forecasting in Oracle FLEXCUBE, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Balance Forecasting in Oracle FLEXCUBE, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the user manual for Balance Forecasting in Oracle FLEXCUBE, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces the user manual for Balance Forecasting in Oracle FLEXCUBE, detailing its intended audience and structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Balance Forecast",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Viewing Account Forecast",
+          "start_page": 6
+        }
+      ]
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides a glossary of icons used in the User Manual and their corresponding functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Balance Forecast",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page explains how Oracle FLEXCUBE allows users to view and forecast the balances of nostro accounts based on expected future transactions, helping in identifying expenditure trends, revenue, and liquidity mismatches.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Viewing Account Forecast",
+      "start_page": 6,
+      "end_page": 9,
+      "summary": "This page explains how Oracle FLEXCUBE allows users to view and forecast the balances of nostro accounts based on expected future transactions, helping in identifying expenditure trends, revenue, and liquidity mismatches.",
+      "cross_references": [
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 9,
+      "end_page": 11,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking Balance Forecasting, version 14.7.0.0.0, released in November 2022.",
+      "raw_text": "Balance Forecasting User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited.",
+      "raw_text": "Balance Forecasting\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, related documents, and glossary.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-1\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nBalance Forecast ..................................................................................... 2-1\n2.1 \nViewing Account Forecast.......................................................................................  2-1\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Related Documents",
+        "Chapter Description"
+      ],
+      "summary": "This page introduces the user manual for Balance Forecasting in Oracle FLEXCUBE, detailing its intended audience and structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis user manual is designed to help you quickly get acquainted with Balance Forecasting in \nOracle FLEXCUBE.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\n1.5 \nRelated Documents\nCurrent and Savings Account User Manual\nNostro Reconciliation User Manual\nProcedures User Manual\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/ Beginning of \nDay\nFinancial Controller/Product Manag-\ners\nGeneration of reports\nChapter\nDescription\nChapter 1\nPreface gives information on the intended audience. It also lists the vari-\nous chapters covered in this User Manual.\nChapter 2\nAccount Forecast provides details on Account forecasting supported by \nOracle FLEXCUBE.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation."
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Glossary of Icons"
+      ],
+      "summary": "This page provides a glossary of icons used in the User Manual and their corresponding functions.",
+      "raw_text": "1-2\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Balance Forecast",
+        "Viewing Account Forecast"
+      ],
+      "summary": "This page explains how Oracle FLEXCUBE allows users to view and forecast the balances of nostro accounts based on expected future transactions, helping in identifying expenditure trends, revenue, and liquidity mismatches.",
+      "raw_text": "2-1\n2. Balance Forecast\nOracle FLEXCUBE allows you to view the current and projected nostro account balances \nbased on expected future transactions. Balance forecasting allows the user to estimate the \nbalance based on the customer’s past and current income and expenses. The projected \npositions will allow the customer in identifying the expenditure trends, future revenue and \nliquidity mismatches. This will help the user in avoiding costly overdrafts or idle balances on \nthe nostro accounts.\nYou can view the following forecasting details for each nostro account:\nNostro account balance and the corresponding mirror account balance\nReconciled and Unreconciled balances\nNostro projection balances by selecting the projection preference\nProjected nostro balance for a future date or period based on expected future dated \ntransactions\nThis chapter contains the following section:\nSection 2.1, \"Viewing Account Forecast\"\n2.1 \nViewing Account Forecast\nYou can view the account forecasting details in the ‘Account Forecast’ screen. You can \naccess this screen by typing ‘REDAPROJ’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button. The screen appears as shown below:\nYou can view the following details in this screen:\nCurrency\nSpecify the currency for which you want to view the forecast. Alternatively, you can select the \ncurrency from the option list. The list displays all valid values.\nCurrency Description\nThe system displays description of the currency.\nAccount Type\nSelect the account type from the drop-down list. The list displays the following values:\nNostro Account\nCustomer Account"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Projection Preference",
+        "Account",
+        "Account Description",
+        "To Date",
+        "From Date",
+        "Click ‘Search’ button to view the account details and date wise summary of the account.",
+        "Account Details"
+      ],
+      "summary": "This page describes how to set up projection preferences, specify accounts, and view account details for forecasting purposes.",
+      "raw_text": "2-2\nProjection Preference\nSelect the projection preference to calculate nostro projected balances from the drop-down \nlist. The list displays the following values:\nInclude Mirror Unmatched Dr and Mirror Unmatched Cr\nExclude Mirror Unmatched Dr and Mirror Unmatched Cr\nExclude Mirror Unmatched Credit\nExclude Mirror Unmatched Debit\nAccount\nSpecify the account number. Alternatively, you can select the account number from the option \nlist. The list displays all valid account numbers based on the account type selected.\nAccount Description\nThe system displays the account description.\nTo Date\nSpecify the date till when you want view the forecast.\nFrom Date\nThe system date will be displayed as ‘From Date’. You cannot modify the ‘From Date’.\nClick ‘Search’ button to view the account details and date wise summary of the account.\nAccount Details\nAccount - Indicates the account used for forecasting.\nBook Balance - Indicates the account balance available in the system. For nostro ac-\ncount book balance will be mirror account balance.\nMirror Unmatched Dr - Indicates the mirror account debit transactions which are not \nmatched with nostro account credit transaction during reconciliation.\nMirror Unmatched Cr - Indicates the mirror account credit transactions which are not \nmatched with nostro account debit transaction during reconciliation.\nNostro Balance - Indicates the nostro account balance received in last statement.\nNostro Unmatched Dr - Indicates the nostro account debit transactions which are not \nmatched with mirror account credit transaction during reconciliation.\nNostro Unmatched Cr - Indicates the nostro account credit transactions which are not \nmatched with mirror account debit transaction during reconciliation.\nProjected Nostro Balance - Indicates the nostro balance including the mirror unmatched \ndebit and credit. \nDate Wise Summary\nDue Date - Indicates the due date for the account transactions.\nOpening Balance - Indicates the opening balance on or before the forecast date. For \nnostro account it will be Nostro balance + Mirror Unmatched Dr- Mirror Unmatched Cr. \nFor customer account it will be the book balance available in the system.\nInflow - Indicates the inflow transactions for the day on mirror account and customer ac-\ncount respectively.\nOutflow - Indicates the outflow transactions for the day on mirror account and customer \naccount respectively.\nProjected Book Balance - Indicates the book balance. For nostro account it is Opening \nBalance - Inflow + Outflow. For customer account it is Opening Balance + Inflow - Out-\nflow."
+    },
+    {
+      "page_number": 8,
+      "sections": [],
+      "summary": "This page describes the projected Nostro balance and details of transaction display for customer account projections, including fields that will show zero values.",
+      "raw_text": "2-3\nProjected Nostro Balance - Indicates the book balance which is Opening Balance - In-\nflow + Outflow\nDetails - Click this button to view the Transaction Details sub screen. The following de-\ntails are displayed for the selected date:\n– \nAccount\n– \nAccount Description\n– \nCurrency\n– \nDue Date\n– \nContract Reference Number\n– \nModule\n– \nAmount\n– \nDebit/Credit\nThe system displays zero value for the following fields for customer account projections:\nMirror Unmatched Dr\nMirror Unmatched Cr\nNostro Balance\nNostro Unmatched Dr\nNostro Unmatched Cr\nProjected Nostro Balance\nProjected Nostro Balance"
+    },
+    {
+      "page_number": 9,
+      "sections": [],
+      "summary": "",
+      "raw_text": "3-1\n3. Function ID Glossary\nR\nREDAPROJ .......................2-1"
+    }
+  ]
+}

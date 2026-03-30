@@ -1,0 +1,1733 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base_-_Sub_Systems/Tax-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 47,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's purpose and structure, including its target audience, accessibility features, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for maintaining and processing taxes in Oracle FLEXCUBE, targeting bank officers setting up tax components.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for maintaining and processing taxes in Oracle FLEXCUBE, targeting bank officers setting up tax components.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for maintaining and processing taxes in Oracle FLEXCUBE, targeting bank officers setting up tax components.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for maintaining and processing taxes in Oracle FLEXCUBE, targeting bank officers setting up tax components.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for maintaining and processing taxes in Oracle FLEXCUBE, targeting bank officers setting up tax components.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces a manual for maintaining and processing taxes in Oracle FLEXCUBE, targeting bank officers setting up tax components.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Building Tax Components",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Steps Involved in Processing Tax",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Maintaining Tax Category",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Tax Category",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Tax Rules",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking the Tax Rule Maintenance Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Currency in which the Tax has to be Calculated",
+          "start_page": 12
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 Exchange Rate Type",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.4",
+          "title": "2.4.4 Rounding Details",
+          "start_page": 14
+        },
+        {
+          "structure": "3.4.5",
+          "title": "2.4.5 Tax Application Method",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.6",
+          "title": "2.4.6 Tax",
+          "start_page": 16
+        },
+        {
+          "structure": "3.4.7",
+          "title": "2.4.7 Tax Slab",
+          "start_page": 16
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 FATCA Withholding Rules",
+          "start_page": 18
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Invoking FATCA Withholding Rule Maintenance Screen",
+          "start_page": 18
+        },
+        {
+          "structure": "3.5.2",
+          "title": "2.5.2 Specifying System Data Elements",
+          "start_page": 19
+        },
+        {
+          "structure": "3.5.3",
+          "title": "2.5.3 Specifying Expression Builder",
+          "start_page": 19
+        },
+        {
+          "structure": "3.5.4",
+          "title": "2.5.4 Viewing FATCA Withholding Rules",
+          "start_page": 21
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Processing FATCA Tax for Referred Transactions",
+          "start_page": 22
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Processing FATCA Tax for Referred Transactions",
+          "start_page": 22
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Tax Components as Classes",
+          "start_page": 24
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Defining Transaction Level Taxes as Classes",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Defining Issuer Taxes as Classes",
+          "start_page": 28
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Defining the Events and the Basis Amount",
+          "start_page": 29
+        },
+        {
+          "structure": "3.7.4",
+          "title": "2.7.4 Maintaining Rate Codes and their Values",
+          "start_page": 29
+        },
+        {
+          "structure": "3.7.5",
+          "title": "2.7.5 Furnishing the Rate Values for a Code",
+          "start_page": 30
+        },
+        {
+          "structure": "3.7.6",
+          "title": "2.7.6 Associating a Rate Code with an Issuer Class",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Tax Component Groups",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Grouping Tax Components into a Scheme",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Defining Securities and Derivative Taxation Schemes",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Defining a Money Taxation scheme",
+          "start_page": 34
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Features of Tax Scheme Maintenance Screen",
+          "start_page": 36
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Tax Scheme to a Product Linkage",
+          "start_page": 36
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Linking a Tax Scheme to a Product",
+          "start_page": 37
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Features of the Product-Tax Linkage Definition screen",
+          "start_page": 37
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Specifying Currency Details",
+          "start_page": 38
+        },
+        {
+          "structure": "3.9.4",
+          "title": "2.9.4 Surcharge",
+          "start_page": 39
+        },
+        {
+          "structure": "3.9.5",
+          "title": "2.9.5 Processing Tax on a Contract",
+          "start_page": 39
+        },
+        {
+          "structure": "3.9.6",
+          "title": "2.9.6 Processing Tax on MM contracts",
+          "start_page": 40
+        },
+        {
+          "structure": "3.9.7",
+          "title": "2.9.7 Processing Tax on Customer Accounts",
+          "start_page": 41
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 A Note on Tax Processing for Rollovers",
+          "start_page": 4
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Specifying Rollover Tax Details for the product",
+          "start_page": 44
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Liquidating tax (on principal) upon rollover",
+          "start_page": 44
+        },
+        {
+          "structure": "3.10.3",
+          "title": "2.10.3 Specifying rollover tax details for the contract",
+          "start_page": 45
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Specifying Exemption of Tax on Interest Earned on Deposits",
+          "start_page": 4
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Features of Application of DIRT",
+          "start_page": 45
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Exempting DIRT on Interest on Deposits",
+          "start_page": 46
+        }
+      ]
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides references to Oracle FLEXCUBE manuals for common procedures and products related to the discussed procedures in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Building Tax Components",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page explains the processing of tax to be paid to the Government and outlines the steps involved, including defining tax rules and maintaining tax categories.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page explains the processing of tax to be paid to the Government and outlines the steps involved, including defining tax rules and maintaining tax categories.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Steps Involved in Processing Tax",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page explains the processing of tax to be paid to the Government and outlines the steps involved, including defining tax rules and maintaining tax categories.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Maintaining Tax Category",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page explains the processing of tax to be paid to the Government and outlines the steps involved, including defining tax rules and maintaining tax categories.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Maintaining Tax Category",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This section describes how to maintain tax categories in a system, including entering descriptions, setting aggregation requirements, and determining if consolidated tax certificates are needed.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Tax Rules",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page discusses various aspects of tax rules, including how to invoke the maintenance screen, the currencies involved, exchange rates, rounding details, application methods, and tax slabs.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Invoking the Tax Rule Maintenance Screen",
+      "start_page": 10,
+      "end_page": 12,
+      "summary": "This page discusses various aspects of tax rules, including how to invoke the maintenance screen, the currencies involved, exchange rates, rounding details, application methods, and tax slabs.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 Currency in which the Tax has to be Calculated",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page explains how to define tax rules for customers based on their category, country of residence, and specific tax categories, along with the effective dates for these rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.3",
+      "title": "2.4.3 Exchange Rate Type",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page explains how to define calculation and tax currencies, as well as exchange rate types for tax rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.4",
+      "title": "2.4.4 Rounding Details",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page explains how to configure rounding options and methods when converting amounts to calculation currency in a financial system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.5",
+      "title": "2.4.5 Tax Application Method",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page explains how to configure rounding methods and settings for tax currency in a specific calculation context.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.6",
+      "title": "2.4.6 Tax",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page explains how to calculate tax as a flat amount, specify the tax rate, manage DIRT exemptions for certain customer categories, and choose between cumulative and non-cumulative tax application methods.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.7",
+      "title": "2.4.7 Tax Slab",
+      "start_page": 16,
+      "end_page": 18,
+      "summary": "This page explains how to calculate tax as a flat amount, specify the tax rate, manage DIRT exemptions for certain customer categories, and choose between cumulative and non-cumulative tax application methods.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 FATCA Withholding Rules",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page discusses the FATCA withholding rules and provides instructions on invoking the maintenance screen for these rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.1",
+      "title": "2.5.1 Invoking FATCA Withholding Rule Maintenance Screen",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page discusses the FATCA withholding rules and provides instructions on invoking the maintenance screen for these rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.2",
+      "title": "2.5.2 Specifying System Data Elements",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page explains how to define a FATCA Withholding rule by specifying the withholding rule code, description, default value, system data elements, and expression builder.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.3",
+      "title": "2.5.3 Specifying Expression Builder",
+      "start_page": 19,
+      "end_page": 21,
+      "summary": "This page explains how to define a FATCA Withholding rule by specifying the withholding rule code, description, default value, system data elements, and expression builder.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.4",
+      "title": "2.5.4 Viewing FATCA Withholding Rules",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page explains how to identify if a beneficiary customer account is held by a financial institution that has requested withholding and describes how to view FATCA withholding rules using specific parameters.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Processing FATCA Tax for Referred Transactions",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This section explains how the system evaluates tax rules and processes FATCA taxes for referred transactions based on specific expressions and flags.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Processing FATCA Tax for Referred Transactions",
+      "start_page": 22,
+      "end_page": 24,
+      "summary": "This section explains how the system evaluates tax rules and processes FATCA taxes for referred transactions based on specific expressions and flags.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 Tax Components as Classes",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This page describes the process of authorizing un-authorized referral records and updating related financial transactions, as well as handling canceled referrals.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.1",
+      "title": "2.7.1 Defining Transaction Level Taxes as Classes",
+      "start_page": 25,
+      "end_page": 28,
+      "summary": "This section explains how to define tax and charge classes with specific attributes and categorizes them into transaction level taxes and issuer taxes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.2",
+      "title": "2.7.2 Defining Issuer Taxes as Classes",
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "This page explains how to include tax components in SWIFT messages and defines how issuer taxes are processed and maintained in the system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.3",
+      "title": "2.7.3 Defining the Events and the Basis Amount",
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This page explains how to define events and basis amounts for tax classes in Oracle FLEXCUBE, as well as maintaining rate codes for issuer taxes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.4",
+      "title": "2.7.4 Maintaining Rate Codes and their Values",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This page explains how to define events and basis amounts for tax classes in Oracle FLEXCUBE, as well as maintaining rate codes for issuer taxes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.5",
+      "title": "2.7.5 Furnishing the Rate Values for a Code",
+      "start_page": 30,
+      "end_page": 32,
+      "summary": "This page explains how to define tax rate codes and their descriptions, as well as how to input actual rate values using specific screens within an application.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.6",
+      "title": "2.7.6 Associating a Rate Code with an Issuer Class",
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This page explains how to associate rate codes with issuer classes for tax calculations and introduces different aspects of tax component groups including grouping into schemes and defining taxation schemes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8",
+      "title": "2.8 Tax Component Groups",
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This page explains how to associate rate codes with issuer classes for tax calculations and introduces different aspects of tax component groups including grouping into schemes and defining taxation schemes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.1",
+      "title": "2.8.1 Grouping Tax Components into a Scheme",
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This page explains how to associate rate codes with issuer classes for tax calculations and introduces different aspects of tax component groups including grouping into schemes and defining taxation schemes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.2",
+      "title": "2.8.2 Defining Securities and Derivative Taxation Schemes",
+      "start_page": 32,
+      "end_page": 34,
+      "summary": "This page explains how to associate rate codes with issuer classes for tax calculations and introduces different aspects of tax component groups including grouping into schemes and defining taxation schemes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.3",
+      "title": "2.8.3 Defining a Money Taxation scheme",
+      "start_page": 34,
+      "end_page": 36,
+      "summary": "This page discusses tax classes and their application, putting components on hold in a tax scheme, and defining money taxation schemes for transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.4",
+      "title": "2.8.4 Features of Tax Scheme Maintenance Screen",
+      "start_page": 36,
+      "end_page": 36,
+      "summary": "This page discusses the features of the Tax Scheme Maintenance screen and how tax schemes are linked to products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9",
+      "title": "2.9 Tax Scheme to a Product Linkage",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page discusses the features of the Tax Scheme Maintenance screen and how tax schemes are linked to products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.1",
+      "title": "2.9.1 Linking a Tax Scheme to a Product",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page discusses how tax schemes are linked to products and defines key concepts such as Tax Rules and Tax Schemes, explaining their application in processing taxes for different components of a product.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.2",
+      "title": "2.9.2 Features of the Product-Tax Linkage Definition screen",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page discusses how tax schemes are linked to products and defines key concepts such as Tax Rules and Tax Schemes, explaining their application in processing taxes for different components of a product.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.3",
+      "title": "2.9.3 Specifying Currency Details",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This page explains how tax is applied based on different components, events, types, and provides notes on automatic application and specific fields for product maintenance.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.4",
+      "title": "2.9.4 Surcharge",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page describes how to set up and process tax-related fields in product maintenance, including interest period units, minimum interest amounts for tax waiver, surcharges, and tax processing on contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.5",
+      "title": "2.9.5 Processing Tax on a Contract",
+      "start_page": 39,
+      "end_page": 40,
+      "summary": "This page describes how to set up and process tax-related fields in product maintenance, including interest period units, minimum interest amounts for tax waiver, surcharges, and tax processing on contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.6",
+      "title": "2.9.6 Processing Tax on MM contracts",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This page discusses the tax waiver options for contracts under different Tax Rules and provides specific conditions for waiving tax on MM (Material Management) contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.7",
+      "title": "2.9.7 Processing Tax on Customer Accounts",
+      "start_page": 41,
+      "end_page": 4,
+      "summary": "This page describes the tax computation process when Waiver parameters are not defined for a Tax category linked to a Tax Rule, focusing on Deposit and Borrowing type products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10",
+      "title": "2.10 A Note on Tax Processing for Rollovers",
+      "start_page": 4,
+      "end_page": 44,
+      "summary": "This page discusses various aspects of tax processing, including handling taxes on contracts, MM contracts, customer accounts, rollovers, and interest earned on deposits.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Building Tax Components",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Steps Involved in Processing Tax",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Maintaining Tax Category",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Tax Category",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Tax Rules",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking the Tax Rule Maintenance Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Currency in which the Tax has to be Calculated",
+          "start_page": 12
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 Exchange Rate Type",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.4",
+          "title": "2.4.4 Rounding Details",
+          "start_page": 14
+        },
+        {
+          "structure": "3.4.5",
+          "title": "2.4.5 Tax Application Method",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.6",
+          "title": "2.4.6 Tax",
+          "start_page": 16
+        },
+        {
+          "structure": "3.4.7",
+          "title": "2.4.7 Tax Slab",
+          "start_page": 16
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 FATCA Withholding Rules",
+          "start_page": 18
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Invoking FATCA Withholding Rule Maintenance Screen",
+          "start_page": 18
+        },
+        {
+          "structure": "3.5.2",
+          "title": "2.5.2 Specifying System Data Elements",
+          "start_page": 19
+        },
+        {
+          "structure": "3.5.3",
+          "title": "2.5.3 Specifying Expression Builder",
+          "start_page": 19
+        },
+        {
+          "structure": "3.5.4",
+          "title": "2.5.4 Viewing FATCA Withholding Rules",
+          "start_page": 21
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Processing FATCA Tax for Referred Transactions",
+          "start_page": 22
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Processing FATCA Tax for Referred Transactions",
+          "start_page": 22
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Tax Components as Classes",
+          "start_page": 24
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Defining Transaction Level Taxes as Classes",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Defining Issuer Taxes as Classes",
+          "start_page": 28
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Defining the Events and the Basis Amount",
+          "start_page": 29
+        },
+        {
+          "structure": "3.7.4",
+          "title": "2.7.4 Maintaining Rate Codes and their Values",
+          "start_page": 29
+        },
+        {
+          "structure": "3.7.5",
+          "title": "2.7.5 Furnishing the Rate Values for a Code",
+          "start_page": 30
+        },
+        {
+          "structure": "3.7.6",
+          "title": "2.7.6 Associating a Rate Code with an Issuer Class",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Tax Component Groups",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Grouping Tax Components into a Scheme",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Defining Securities and Derivative Taxation Schemes",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Defining a Money Taxation scheme",
+          "start_page": 34
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Features of Tax Scheme Maintenance Screen",
+          "start_page": 36
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Tax Scheme to a Product Linkage",
+          "start_page": 36
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Linking a Tax Scheme to a Product",
+          "start_page": 37
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Features of the Product-Tax Linkage Definition screen",
+          "start_page": 37
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Specifying Currency Details",
+          "start_page": 38
+        },
+        {
+          "structure": "3.9.4",
+          "title": "2.9.4 Surcharge",
+          "start_page": 39
+        },
+        {
+          "structure": "3.9.5",
+          "title": "2.9.5 Processing Tax on a Contract",
+          "start_page": 39
+        },
+        {
+          "structure": "3.9.6",
+          "title": "2.9.6 Processing Tax on MM contracts",
+          "start_page": 40
+        },
+        {
+          "structure": "3.9.7",
+          "title": "2.9.7 Processing Tax on Customer Accounts",
+          "start_page": 41
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Specifying Rollover Tax Details for the product",
+          "start_page": 44
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Liquidating tax (on principal) upon rollover",
+          "start_page": 44
+        },
+        {
+          "structure": "3.10.3",
+          "title": "2.10.3 Specifying rollover tax details for the contract",
+          "start_page": 45
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Specifying Exemption of Tax on Interest Earned on Deposits",
+          "start_page": 4
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Features of Application of DIRT",
+          "start_page": 45
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Exempting DIRT on Interest on Deposits",
+          "start_page": 46
+        }
+      ]
+    },
+    {
+      "structure": "3.10.1",
+      "title": "2.10.1 Specifying Rollover Tax Details for the product",
+      "start_page": 44,
+      "end_page": 44,
+      "summary": "This page discusses tax processing for rollovers, including specifying tax details for products and contracts, as well as liquidating taxes upon rollover.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10.2",
+      "title": "2.10.2 Liquidating tax (on principal) upon rollover",
+      "start_page": 44,
+      "end_page": 45,
+      "summary": "This page discusses tax processing for rollovers, including specifying tax details for products and contracts, as well as liquidating taxes upon rollover.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10.3",
+      "title": "2.10.3 Specifying rollover tax details for the contract",
+      "start_page": 45,
+      "end_page": 4,
+      "summary": "This page discusses how to specify tax details for rolled-over contracts and deposit interest retention tax (DIRT) exemptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11",
+      "title": "2.11 Specifying Exemption of Tax on Interest Earned on Deposits",
+      "start_page": 4,
+      "end_page": 45,
+      "summary": "This page discusses various aspects of tax processing, including handling taxes on contracts, MM contracts, customer accounts, rollovers, and interest earned on deposits.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Building Tax Components",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Steps Involved in Processing Tax",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Maintaining Tax Category",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Tax Category",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Tax Rules",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking the Tax Rule Maintenance Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Currency in which the Tax has to be Calculated",
+          "start_page": 12
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 Exchange Rate Type",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.4",
+          "title": "2.4.4 Rounding Details",
+          "start_page": 14
+        },
+        {
+          "structure": "3.4.5",
+          "title": "2.4.5 Tax Application Method",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.6",
+          "title": "2.4.6 Tax",
+          "start_page": 16
+        },
+        {
+          "structure": "3.4.7",
+          "title": "2.4.7 Tax Slab",
+          "start_page": 16
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 FATCA Withholding Rules",
+          "start_page": 18
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Invoking FATCA Withholding Rule Maintenance Screen",
+          "start_page": 18
+        },
+        {
+          "structure": "3.5.2",
+          "title": "2.5.2 Specifying System Data Elements",
+          "start_page": 19
+        },
+        {
+          "structure": "3.5.3",
+          "title": "2.5.3 Specifying Expression Builder",
+          "start_page": 19
+        },
+        {
+          "structure": "3.5.4",
+          "title": "2.5.4 Viewing FATCA Withholding Rules",
+          "start_page": 21
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Processing FATCA Tax for Referred Transactions",
+          "start_page": 22
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Processing FATCA Tax for Referred Transactions",
+          "start_page": 22
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Tax Components as Classes",
+          "start_page": 24
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Defining Transaction Level Taxes as Classes",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Defining Issuer Taxes as Classes",
+          "start_page": 28
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Defining the Events and the Basis Amount",
+          "start_page": 29
+        },
+        {
+          "structure": "3.7.4",
+          "title": "2.7.4 Maintaining Rate Codes and their Values",
+          "start_page": 29
+        },
+        {
+          "structure": "3.7.5",
+          "title": "2.7.5 Furnishing the Rate Values for a Code",
+          "start_page": 30
+        },
+        {
+          "structure": "3.7.6",
+          "title": "2.7.6 Associating a Rate Code with an Issuer Class",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Tax Component Groups",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Grouping Tax Components into a Scheme",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Defining Securities and Derivative Taxation Schemes",
+          "start_page": 32
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Defining a Money Taxation scheme",
+          "start_page": 34
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Features of Tax Scheme Maintenance Screen",
+          "start_page": 36
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Tax Scheme to a Product Linkage",
+          "start_page": 36
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Linking a Tax Scheme to a Product",
+          "start_page": 37
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Features of the Product-Tax Linkage Definition screen",
+          "start_page": 37
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Specifying Currency Details",
+          "start_page": 38
+        },
+        {
+          "structure": "3.9.4",
+          "title": "2.9.4 Surcharge",
+          "start_page": 39
+        },
+        {
+          "structure": "3.9.5",
+          "title": "2.9.5 Processing Tax on a Contract",
+          "start_page": 39
+        },
+        {
+          "structure": "3.9.6",
+          "title": "2.9.6 Processing Tax on MM contracts",
+          "start_page": 40
+        },
+        {
+          "structure": "3.9.7",
+          "title": "2.9.7 Processing Tax on Customer Accounts",
+          "start_page": 41
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 A Note on Tax Processing for Rollovers",
+          "start_page": 4
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Specifying Rollover Tax Details for the product",
+          "start_page": 44
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Liquidating tax (on principal) upon rollover",
+          "start_page": 44
+        },
+        {
+          "structure": "3.10.3",
+          "title": "2.10.3 Specifying rollover tax details for the contract",
+          "start_page": 45
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Features of Application of DIRT",
+          "start_page": 45
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Exempting DIRT on Interest on Deposits",
+          "start_page": 46
+        }
+      ]
+    },
+    {
+      "structure": "3.11.1",
+      "title": "2.11.1 Features of Application of DIRT",
+      "start_page": 45,
+      "end_page": 46,
+      "summary": "This page discusses how to specify tax details for rolled-over contracts and deposit interest retention tax (DIRT) exemptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.2",
+      "title": "2.11.2 Exempting DIRT on Interest on Deposits",
+      "start_page": 46,
+      "end_page": 47,
+      "summary": "This page discusses the DIRT (Depositors Interest Retention Tax) exemption certificate issued by The Sisters of Charity and provides instructions on how to exempt interest on deposits from DIRT.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 47,
+      "end_page": 49,
+      "summary": "This page lists various Function IDs and their corresponding page numbers in a glossary.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking Release 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Tax User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited.",
+      "raw_text": "Tax User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the document's purpose and structure, including its target audience, accessibility features, organization, and related documents.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-1\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nBuilding Tax Components ...................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nSteps Involved in Processing Tax ...........................................................................  2-1\n2.3 \nMaintaining Tax Category........................................................................................  2-1\n2.3.1  \nMaintaining Tax Category...........................................................................  2-2\n2.4 \nTax Rules ................................................................................................................  2-4\n2.4.1  \nInvoking the Tax Rule Maintenance Screen...............................................  2-4\n2.4.2  \nCurrency in which the Tax has to be Calculated ........................................  2-6\n2.4.3  \nExchange Rate Type..................................................................................  2-7\n2.4.4  \nRounding Details ........................................................................................  2-8\n2.4.5  \nTax Application Method..............................................................................  2-9\n2.4.6  \nTax ...........................................................................................................  2-10\n2.4.7  \nTax Slab ...................................................................................................  2-10\n2.5 \nFATCA Withholding Rules.....................................................................................  2-12\n2.5.1  \nInvoking FATCA Withholding Rule Maintenance Screen .........................  2-12\n2.5.2  \nSpecifying System Data Elements ...........................................................  2-13\n2.5.3  \nSpecifying Expression Builder..................................................................  2-13\n2.5.4  \nViewing FATCA Withholding Rules ..........................................................  2-15\n2.6 \nProcessing FATCA Tax for Referred Transactions ...............................................  2-16\n2.6.1  \nProcessing FATCA Tax for Referred Transactions ..................................  2-16\n2.7 \nTax Components as Classes.................................................................................  2-18\n2.7.1  \nDefining Transaction Level Taxes as Classes..........................................  2-19\n2.7.2  \nDefining Issuer Taxes as Classes ............................................................  2-22\n2.7.3  \nDefining the Events and the Basis Amount ..............................................  2-23\n2.7.4  \nMaintaining Rate Codes and their Values ................................................  2-23\n2.7.5  \nFurnishing the Rate Values for a Code ....................................................  2-24\n2.7.6  \nAssociating a Rate Code with an Issuer Class.........................................  2-26\n2.8 \nTax Component Groups ........................................................................................  2-26\n2.8.1  \nGrouping Tax Components into a Scheme ..............................................  2-26\n2.8.2  \nDefining Securities and Derivative Taxation Schemes.............................  2-26\n2.8.3  \nDefining a Money Taxation scheme .........................................................  2-28\n2.8.4  \nFeatures of Tax Scheme Maintenance Screen ........................................  2-30\n2.9 \nTax Scheme to a Product Linkage ........................................................................  2-30\n2.9.1  \nLinking a Tax Scheme to a Product..........................................................  2-31\n2.9.2  \nFeatures of the Product-Tax Linkage Definition screen ...........................  2-31\n2.9.3  \nSpecifying Currency Details .....................................................................  2-32\n2.9.4  \nSurcharge.................................................................................................  2-33"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Processing Tax on a Contract",
+        "Processing Tax on MM contracts",
+        "Processing Tax on Customer Accounts",
+        "A Note on Tax Processing for Rollovers",
+        "Specifying Rollover Tax Details for the product",
+        "Liquidating tax (on principal) upon rollover",
+        "Specifying rollover tax details for the contract",
+        "Specifying Exemption of Tax on Interest Earned on Deposits",
+        "Features of Application of DIRT",
+        "Exempting DIRT on Interest on Deposits"
+      ],
+      "summary": "This page discusses various aspects of tax processing, including handling taxes on contracts, MM contracts, customer accounts, rollovers, and interest earned on deposits.",
+      "raw_text": "2.9.5  \nProcessing Tax on a Contract ..................................................................  2-33\n2.9.6  \nProcessing Tax on MM contracts .............................................................  2-34\n2.9.7  \nProcessing Tax on Customer Accounts ...................................................  2-35\n2.10 A Note on Tax Processing for Rollovers................................................................  2-38\n2.10.1  Specifying Rollover Tax Details for the product........................................  2-38\n2.10.2  Liquidating tax (on principal) upon rollover...............................................  2-38\n2.10.3  Specifying rollover tax details for the contract..........................................  2-39\n2.11 Specifying Exemption of Tax on Interest Earned on Deposits ..............................  2-39\n2.11.1  Features of Application of DIRT ...............................................................  2-39\n2.11.2  Exempting DIRT on Interest on Deposits .................................................  2-40\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces a manual for maintaining and processing taxes in Oracle FLEXCUBE, targeting bank officers setting up tax components.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help you maintain and process taxes on the contracts you process \nin Oracle FLEXCUBE. \nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the officers at your bank who set up tax components.\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It \nalso lists the various chapters covered in this User Manual.\nChapter 2\nBuilding Tax Components explains the process of maintaining the \ntax details which arise due to the transactions handled with custom-\ners. Building Tax Components explains how tax rules, tax classes, \nand tax schemes are defined in Oracle FLEXCUBE.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "1.6 Related Documents"
+      ],
+      "summary": "This page provides references to Oracle FLEXCUBE manuals for common procedures and products related to the discussed procedures in the manual.",
+      "raw_text": "1-2\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nCommon Procedures\nProducts"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Building Tax Components",
+        "Steps Involved in Processing Tax",
+        "Maintaining Tax Category"
+      ],
+      "summary": "This page explains the processing of tax to be paid to the Government and outlines the steps involved, including defining tax rules and maintaining tax categories.",
+      "raw_text": "2-1\n2. Building Tax Components\n2.1 \nIntroduction\nThis chapter explains the processing of tax to be paid to the Government due to the \ntransactions that you enter into with your customers. This type of tax is processed as an \nExpense type of tax, whereby you book the tax component into a Tax Expense account, to be \npaid to the Government.\nYou can also process tax as a Withholding type of tax, where you debit the customer account, \nand credit the tax component into a Tax Payable account (to be paid to the Government on \nthe customer’s behalf).\nDepending on the laws in your country, you can define tax as an expense type of tax or a \nwithholding type of tax.\nSection 2.2, \"Steps Involved in Processing Tax\"\nSection 2.3, \"Maintaining Tax Category\"\nSection 2.4, \"Tax Rules\"\nSection 2.5, \"FATCA Withholding Rules\"\nSection 2.6, \"Processing FATCA Tax for Referred Transactions\"\nSection 2.7, \"Tax Components as Classes\"\nSection 2.8, \"Tax Component Groups\"\nSection 2.9, \"Tax Scheme to a Product Linkage\"\nSection 2.10, \"A Note on Tax Processing for Rollovers\"\nSection 2.11, \"Specifying Exemption of Tax on Interest Earned on Deposits\"\n2.2 \nSteps Involved in Processing Tax\nThe following steps are involved in processing tax:\nDefining Tax Rules\nDefining Tax Classes\nDefining Tax Schemes\nAssociating a Product with a tax scheme\n2.3 \nMaintaining Tax Category\nThis section contains the following topics:\nSection 2.3.1, \"Maintaining Tax Category\""
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Maintaining Tax Category",
+        "Tax category",
+        "Description",
+        "Aggregation Required",
+        "Consolidated Certificate Required"
+      ],
+      "summary": "This section describes how to maintain tax categories in a system, including entering descriptions, setting aggregation requirements, and determining if consolidated tax certificates are needed.",
+      "raw_text": "2-2\n2.3.1 \nMaintaining Tax Category\nYou need to maintain valid Tax Categories in the system in order to apply tax on products or \ncontracts. You can invoke the ‘Tax Category Maintenance’ screen by typing ‘TADCATG in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button. \nTax Category\nTax category needs to be maintained only if tax rules of your country require maintenance of \ntax allowances and tax waivers for customers\nDescription\nEnter a tax category along with a description. This becomes a valid tax category maintained \nin the system. \nAggregation Required\nYou need to indicate whether or not aggregation of tax for all transactions under the selected \nTax category is required. If this option is checked, the entire tax allowance utilized by the \ncustomer is calculated even if it exceeds the allowable limit for that tax period. If this option is \nunchecked, the tax allowance utilized by the customer is calculated only till the maximum \namount of the allowable limit is reached.\nConsolidated Certificate Required\nYou need to indicate whether or not Consolidated Tax Certificate is required for all \ntransactions in a given tax cycle. This option would work in conjunction with a similar option \nin the Customer Information Maintenance screen and the Tax Details screen accessed from \nthe Branch Parameters Details screen. The message type for consolidated tax certificate \nwould be CONSOL_TAX_CERT.\nDepending on the periodicity maintained at the branch level, the system will generate the \nConsolidated Tax Certificate for a customer if Consolidated Tax Certificate Generation is \nrequired at the Customer level and the same is maintained at the Tax Category level. There \nis a pre-shipped advice format for generating a Consolidated Tax Certificate. The certificate \nwill be printed on a Year to Date basis. The Certificate would include tax due on transactions \nfor LD/MM and IC products."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Individual Certificate Required"
+      ],
+      "summary": "This section describes the process and requirements for generating individual tax certificates based on customer transactions and account interest income.",
+      "raw_text": "2-3\nFollowing elements will be available for advice generation for tax summary.\nIndividual Certificate Required\nYou need to indicate whether or not Individual Tax Certificate is required for individual \ntransactions. This option would work in conjunction with a similar option in the Customer \nInformation Maintenance screen and the Tax Details screen accessed from the Branch \nParameters Details screen. The message type for individual tax certificate would be \nIND_TAX_CERT.\nFor contracts that have tax defined on interest liquidation, an individual tax certificate will be \ngenerated by the system if the Tax Certificate is mapped as an advice for the event and the \nIndividual Tax Certificate is required for the Customer. The tax certificate will be generated \nonly if the Individual Certificate Required option is checked at the Customer and Branch levels \nand maintained in Tax Category.\nFor income other than through interest on customer accounts, the advice format can be \nmaintained. This advice format can be mapped to the products.\nFor income through interest on customer accounts, there is a pre-shipped advice format from \nthe system. The format of the advice can be modified. However, the name of the advice format \nis pre-shipped and cannot be modified. \nThe following tags will be available for advice generation for individual transactions:\nElement Name\nDescription\nData Type\nCUSTOMERNO\nThe customer number for which the \ntax summary certificate is printed\nAlphanumeric\nCUSTOMER-\nNAME\nThe customer name\nAlphanumeric\nFROMDATE\nThe from date for which the certifi-\ncate is generated\nDate\nTODATE\nThe to date for which the certificate \nis generated\nDate\nTXNNUMBER\nThe contract reference number\nAlphanumeric 16 charac-\nters\nCALCDATE\nThe tax calculation date\nDate\nTAXCCY\nThe tax currency\nAlphanumeric 3 charac-\nters\nTAXAMTIN-\nTAXCCY\nThe tax amount in tax currency\nNumber\nINTERESTAMT\nThe interest amount (basis amount \non which the tax has been calcu-\nlated\nNumber\nTag Name\nDescription\nData Type\nTXNNUMBER\nThe contract reference number\nAlphanumeric 16 char-\nacters"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Invoking the Tax Rule Maintenance Screen",
+        "Currency in which the Tax has to be Calculated",
+        "Exchange Rate Type",
+        "Rounding Details",
+        "Tax Application Method",
+        "Tax",
+        "Tax Slab"
+      ],
+      "summary": "This page discusses various aspects of tax rules, including how to invoke the maintenance screen, the currencies involved, exchange rates, rounding details, application methods, and tax slabs.",
+      "raw_text": "2-4\n2.4 \nTax Rules\nThis section contains the following topics:\nSection 2.4.1, \"Invoking the Tax Rule Maintenance Screen\"\nSection 2.4.2, \"Currency in which the Tax has to be Calculated\"\nSection 2.4.3, \"Exchange Rate Type\"\nSection 2.4.4, \"Rounding Details\"\nSection 2.4.5, \"Tax Application Method\"\nSection 2.4.6, \"Tax \"\nSection 2.4.7, \"Tax Slab\"\n2.4.1 \nInvoking the Tax Rule Maintenance Screen\nA tax rule identifies the method in which a tax component (a Stock Exchange tax, a Local tax, \netc.) is calculated. \nCALCDATE\nThe tax calculation date\nDate\nCOMPCCY\nThe interest component currency\nAlphanumeric 3 char-\nacters\nTAXCCY\nThe tax currency\nAlphanumeric 3 char-\nacters\nTAXAMTIN-\nTAXCCY\nThe tax amount in tax currency\nNumber\nINTERESTAMT\nThe interest amount (basis amount on \nwhich the tax has been calculated\nNumber"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Rule Code"
+      ],
+      "summary": "This section explains how to define and manage tax rules in the 'Tax Rule Maintenance' screen, including operations such as modifying, deleting, copying, closing, and reopening them.",
+      "raw_text": "2-5\nYou can build tax rules in the ‘Tax Rule Maintenance’ screen. You can invoke this screen by \ntyping ‘TADRULEM’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nRule Code\nThis is the code by which the tax rule is identified. If you are defining a new tax rule, enter its \ncode in this field. You can specify the attributes for this tax rule in the rest of the fields.\nIf you select an existing tax rule from the Tax Rule Summary View table, the code is displayed \nin this field. You can select an existing tax rule if you want to perform any of the following \noperations:\nOperation\nDescription\nModify\nAll the details of the selected tax rule are displayed. Except for the Tax Rule \nCode, you can modify the input in any of the fields. \nDelete\nAll the details of the selected tax rule are displayed. You can delete the \nrecord only if its addition has not been authorized.\nCopy\nExcept for the Tax Rule Code, the other details related to the tax rule are \ndisplayed which can be changed. Enter the Code for the new rule before \nyou save the tax rule.\nClose\nAll the details of the selected tax rule are displayed. If you confirm the clo-\nsure, the tax rule record will be closed. A closed record will continue to exist \nin the system but cannot be used. To use a closed record, you should reo-\npen it. \nReopen\nAll the details of the selected tax rule are displayed. If you confirm the reo-\npening of the record, it will become available for use again."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Customer Category",
+        "Country Code",
+        "Tax Category",
+        "Effective Date",
+        "FATCA Tax Rule"
+      ],
+      "summary": "This page explains how to define tax rules for customers based on their category, country of residence, and specific tax categories, along with the effective dates for these rules.",
+      "raw_text": "2-6\nCustomer Category\nCustomer categories are maintained by your bank in the customer maintenance module. \nThese could be categories like banking, corporate, brokers, financial institutions etc. You can \nchoose the customer category for which the tax rule is being defined. You could also choose \nto define the tax rule for all categories of customers.\nCountry Code\nYou can apply specific tax rules based on the country of residence of the customer. Thus \nindividual tax rules for each combination of customer category, country code with an effective \ndate can be maintained. Select the country code for the customer from the option list. Based \non the country of residence of the customer, specific tax rules can be applied.\nTax Category\nVarious Tax categories (open and authorized) are maintained in the system. Specify the tax \ncategory from the option list provided for the given Tax Rule. If the tax category is not \nmaintained, then the tax booked under this Tax Rule will not be considered for tax waiver/tax \nallowance processing. However, normal tax processing, as it happens today in Oracle \nFLEXCUBE, will continue to happen.\nEffective Date \nEvery tax rule is associated with an Effective Date. On the specified Effective Date, the rule \nbecomes applicable. When more than one rule is linked to a Tax Scheme, a rule will be \napplied till the next rule for the same component, with a different Effective Date, is \nencountered. \nFATCA Tax Rule\nCheck this box to indicate that the tax rule maintained is a FATCA tax rule.\nThis field is enabled only if the ‘FATCA Applicable’ field at bank level is enabled. \nIf the tax rule is marked as a FATCA tax rule, then the system will create a FATCA withholding \nrule using FATCA withholding rule maintenance which will be linked to the tax rule. At the time \nof tax computation, the system will first evaluate the withholding rule. Based on the outcome \nof the withholding rule, the system will compute the tax.\nFATCA Rule\nSpecify the FATCA validation rule that needs to be applied to evaluate the FATCA tax.\n2.4.2 \nCurrency in which the Tax has to be Calculated\nThis can be the local currency or the currency of the contract. When a rule for which the tax \nshould be calculated in local currency is applied on a contract involving a foreign currency, \nthe local currency equivalent of the contract amount is considered. \nPrint\nThe details of the selected tax rule are displayed on the screen and then \ndirected to the printer.\nAuthorize\nThe details of the tax rule will be displayed. You can authorize the record if \nthe following conditions are true:\nThe record has some activity unauthorized.\nYou have rights for authorization.\nYou did not initiate the activity that is pending authorization."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Currency Details",
+        "Exchange Rate Type"
+      ],
+      "summary": "This page explains how to define calculation and tax currencies, as well as exchange rate types for tax rules.",
+      "raw_text": "2-7\n2.4.2.1 \nCurrency Details\nCalculation Currency Basis \nCalculation currency is the currency in which the Basis Amounts slabs are defined.\nYou need to specify whether the calculation currency for the Basis Amount should be Specific \nor Deal. \nSpecific indicates that the Basis Amount will be defined as per the currency selected in the \nCurrency field.\nDeal indicates that the Basis Amount will be defined in the currency of the transaction. \nCurrency for Calculation Currency \nYou need to specify the currency to be used for conversion of the taxable amount. This option \nis enabled only if the Calculation Currency Basis is selected as Specific.\nTax Currency Basis\nYou need to specify the currency in which the final tax should be computed by the tax \nsubsystem. This could either be Specific, Deal or Local currency.\n Specific indicates that the final tax would be reported in the currency defined in the Tax \nCurrency field of Tax Rule Maintenance. Deal indicates that the final tax reported by the tax \nsubsystem would be in the currency of the transaction. Local Currency indicates that the final \ntax would be computed in the local currency of the Branch.\nCurrency for Tax Currency \nThis is enabled only if the basis for the Tax Currency is selected as Specific.\n2.4.3 \nExchange Rate Type\nRate Type\nWhen maintaining a tax rule, you must specify the type of exchange rate that you would like \nto use to compute tax. At your bank, you may have defined different types of exchange rates. \nFor example, you may have defined a ‘Central Bank Rate’, a ‘Standard Rate’, a ‘Cash Rate’, \na Travelers Check Rate, etc. In Oracle FLEXCUBE, these rates are referred to as ‘Rate \nTypes’.\nRate Code\nIf you have specified that tax is to be computed as a percentage of the taxable amount, you \nshould also specify if the rate to be used is:\nBuy Rate\nSell Rate\nMid Rate\nThe rate value, corresponding to the Rate Type, will be applied to the Basis Amount as per \nthe application basis defined (slab or tier).\nBasis Percentage\nYou need to specify the factor for computation of the taxable amount. The basis percentage \nshould be greater than 0 and less than or equal to 100. The basis amount would first be \nmultiplied by this percentage to arrive at the actual basis amount on which tax needs to be \ncomputed. The reciprocal of the same factor would then be applied to the calculated tax \namount to arrive at the actual tax amount."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Rounding Option for Calculation Currency",
+        "Rounding Method for Calculation Currency",
+        "Decimals for Rounding for Calculation Currency"
+      ],
+      "summary": "This page explains how to configure rounding options and methods when converting amounts to calculation currency in a financial system.",
+      "raw_text": "2-8\n2.4.4 \nRounding Details\nRounding Option for Calculation Currency\nYou need to specify the rounding option to be used for conversion of the amount to calculation \ncurrency. It could either be Currency Default or Specific.\nCurrency Default indicates that the rounding details should be taken from the rounding \nparameters defined in Currency Maintenance.\nSpecific indicates that the rounding parameter should be defined/picked up from the Tax Rule.\nRounding Method for Calculation Currency\nYou need to specify the rounding method to be used for conversion of the amount to \ncalculation currency. This field would be enabled only if the calculation currency rounding \noption is ‘Specific’. Select one of the following options:\nTruncate\nRound Up\nRound` Down\nRound Near\nTruncate indicates that the amount should be truncated to the number of decimals specified \nfor the currency\nRound Up indicates that the amount should be rounded up based on the number of decimals \nand the nearest rounding unit for the currency \nRound Down indicates that the amount should be rounded down based on the number of \ndecimals and the nearest rounding unit. \nRound Near indicates that the amount will rounded either up or down to the specified number \nof decimal places amd units, depending on whether the next decimal place exceeds or is less \nthan 5.\nDecimals for Rounding for Calculation Currency\nThis field is enabled only if the calculation currency rounding option is selected as ‘Specific’. \nYou need to specify the decimal up to which the rounding/truncation needs to be done. The \nrounding decimal defined here should be less that or equal to the decimal defined in Currency \nMaintenance.\nUnits for Rounding for Calculation Currency \nThis field is enabled only if the calculation currency rounding option is selected as ‘Specific’. \nYou need to specify the unit up to which the amount needs to be rounded. The unit defined \nhere should be a multiple of the unit defined in Currency Maintenance.\nRounding Option for Tax Currency\nYou need to specify the rounding option for conversion of the amount to tax currency. It could \neither be Currency Default or Specific. \nCurrency Default indicates that the rounding details would be taken from the rounding \nparameters defined in Currency Maintenance.\nSpecific indicates that the rounding parameter would be defined/picked up from the Tax Rule."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Rounding Method for Tax Currency",
+        "Decimals for Rounding Tax Currency",
+        "Units for Rounding Tax Currency"
+      ],
+      "summary": "This page explains how to configure rounding methods and settings for tax currency in a specific calculation context.",
+      "raw_text": "2-9\nRounding Method for Tax Currency\nThis field is enabled only if the Calculation Currency Rounding Option is selected as ‘Specific’. \nYou need to specify the rounding method to be used for the defining the tax amount. The \navailable methods are:\nTruncate\nRound Up\nRound Down\nRound Near\nTruncate indicates that the amount should be truncated to the number of decimals specified \nfor the currency\nRound Up indicates that the amount should be rounded up based on the number of decimals \nand the nearest rounding unit for the currency \nRound Down indicates that the amount is rounded down based on the number of decimals \nand the nearest rounding unit.\nRound Near indicates that the amount will rounded either up or down to the specified number \nof decimal places and units, depending on whether the next decimal place exceeds or is less \nthan 5.\nDecimals for Rounding Tax Currency\nThis field is enabled only if the Calculation Currency Rounding Option is selected as ‘Specific’.\nYou need to specify the decimal up to which the rounding/truncation needs to be done. The \nrounding decimals defined here should be less that or equal to the decimals defined in \nCurrency Maintenance.\nUnits for Rounding Tax Currency\nThis field is enabled only if the Calculation Currency Rounding Option is selected as ‘Specific’. \nYou need to specify the unit up to which the amount should be rounded. The unit defined here \nshould be a multiple of the unit defined in Currency Maintenance.\n2.4.5 \nTax Application Method\nA tax can be a percentage of the component that is to be taxed (such as the principal, \nbrokerage, etc.), or a flat amount. If you opt to calculate tax as a flat amount, choose the Flat \noption. If, instead, you opt to calculate tax as a percentage of the transaction amount, choose \nthe Rate option. If tax is to be calculated as a flat amount, specify the flat amount.\nAmount Limits for a Tax Rate\nIf you have specified a percentage of tax for the rule, you should also specify the maximum \nand minimum amounts, in the local currency, within which the amount calculated using the \ntax rate should fall.\nIf you have specified a flat amount for the tax rule, then you need not specify the minimum \nand maximum amount limits.\nNote\nThe minimum and maximum limits apply for specific rules linked to a Tax Scheme, and not \nfor the entire scheme."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Flat",
+        "Rate",
+        "Exemption Allowed",
+        "Cumulative"
+      ],
+      "summary": "This page explains how to calculate tax as a flat amount, specify the tax rate, manage DIRT exemptions for certain customer categories, and choose between cumulative and non-cumulative tax application methods.",
+      "raw_text": "2-10\n2.4.6 \nTax \nFlat \nIf you opt to calculate tax as a flat amount, choose the Flat option.\nRate\nYou can specify the percentage in the Rate field. This Rate is applied on the amount to be \ntaxed to calculate the tax amount. \nExemption Allowed\nDeposit Interest Retention Tax (DIRT) is payable on interest on deposits and accounts. \nCustomers belonging to certain customer categories can be exempt from paying DIRT. \nAs part of the DIRT exemption maintenance, you need to indicate such deposits and accounts \nwhich will not attract DIRT. While doing so, you will have to mark off specific tax components \nwhich you do not wish to be applicable to the account / deposit. \nIn order that a particular tax component is available for marking off as non-applicable during \nDIRT exemption maintenance, you will have to select the ‘exemption allowed’ option for that \ncomponent while maintaining its tax rule. \nCumulative\nThere are two ways of applying tax:\nCumulative\nNon-cumulative\nIn a cumulative structure, the rate of tax will be calculated in a cumulative manner, where the \ntax of the previous slab is added to the tax of the next.\nIn a non-cumulative structure, the tax of the previous slab will not be added to the tax of the \nnext slab. Only the rate applicable to that particular slab will be applied.\nIf you check this field the cumulative method of applying tax will be used. if you leave this field \nblank, the non-cumulative type of tax will be used while calculating the tax. By default, non-\ncumulative processing is done for tax. \n2.4.7 \nTax Slab\nYou can define the tax that you would like to apply to a contract, in terms of a tier or a slab \nstructure.\nThrough this screen, first specify if the Basis Amount (on which tax is calculated) should be \ntaken as a slab or a tier. Indicate Cumulative (by checking the box), if the Basis Amount \nstructure is a Tier. Leave it blank if the Basis Amount structure is a Slab.\nBasis Amount To\nYou should specify the upper limit of the slab or tier to which a particular rate or amount should \nbe applied as tax.\nFlat Amount and Rate\nIf the tax is in the form of a flat amount, you should specify the actual amount. This amount \nwill be applied on the corresponding Basis Amount To, depending on whether you have \nspecified the application basis as a slab or a tier.\nIf the tax rule computes tax on the basis of a rate, you have to specify the actual (rate) value. \nThe rule uses the rate, entered against each slab or tier, to calculate tax for contracts on which \nthe rule is applied."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Floor Amount",
+        "Floor Charge"
+      ],
+      "summary": "This page explains how to specify floor amounts and charges in a tiered tax structure and provides an example of their application.",
+      "raw_text": "2-11\nFloor Amount\nThe floor amount should be specified only if the Amount Basis (Cumulative) is a tier. This will \nbe the upper limit of the previous tier. By default, the amount specified as the Basis Amount \nTo for the previous tier limit will be displayed. This need not be specified for the first limit in \nthe tier.\nThis amount is used to calculate the tax, along with the Floor Charge.\nFloor Charge\nThe Floor Charge is applicable only if the Amount Basis is a tier. This is the tax amount to be \nconsidered for the previous tier limit. This amount is used along with the Floor Amount that \nyou specify to arrive at the tax.\nThe floor charge need not be specified for the first limit in the tier. This amount may not always \nbe the same as the amount calculated, using the Basis Amount To and the Rate for the \nprevious slab. However, if not specified, the Floor charge is calculated based on the rate for \nthe previous tier and the Floor amount for the current tier.\nAn example for the calculation of tax based on a tier structure\nTax is applied on the deal amount of a deal based on the following structure:\n> 0 <= 10,000 - 0.05%\n> 10,000 <= 20,000 - 0.06%\n> 20,000 - 0.08%\nThe following will be the specifications in the Tax Rule Maintenance screen:\nWhen this tax rule is applied on a deal, tax will be calculated, depending on the component \namount (example, brokerage paid), as follows:\nIf the component amount is USD 5,000, it falls in the first tier. The tax amount will be \ncalculated in the following manner:\nAmount = USD 5,000 \nTax 0.05% of USD 5,000 = USD 2.5\nIf the component amount is USD 15,000, it falls in the second tier. The tax will be calculated \nin the following manner:\nAmount = USD 15,000\nBasis Amount\nRate \n(%)\nFloor Amount\nFloor Charge\n10,000 (upper limit of the first \ntier)\n0.05\n0\n0\n20,000\n0.06\n10,000 (upper \nlimit of the first \ntier)\nX (tax amount that will be \nconsidered for the first \ntier)\n999999999 (a big amount \nsince there is no upper limit for \nthe third slab).\n0.08\n20,000 (upper \nlimit of the sec-\nond tier).\nY (tax amount that will be \nconsidered for the earlier \nslabs)."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "FATCA Withholding Rules",
+        "Section 2.5.1, \"Invoking FATCA Withholding Rule Maintenance Screen\""
+      ],
+      "summary": "This page discusses the FATCA withholding rules and provides instructions on invoking the maintenance screen for these rules.",
+      "raw_text": "2-12\nFloor Charge (X)= 5.0\nAmount to be taxed at 0.06% = USD 5,000 (Component Amount - the floor amount of the \nsecond tier)\nTax = USD 3+ 5 = USD 8\nIf the Component Amount is USD 30,000, it falls in the third slab. The tax amount will be \ncalculated in the following manner:\nComponent Amount = USD 30,000\nFloor Charge (Y)= 11.0\nAmount to be taxed at 0.08% = USD 10,000 (Component Amount - the floor amount for the \nsecond tier)\nTax Amount = USD 8+ 11 = USD 19\n2.5 \nFATCA Withholding Rules\nThis section contains the following topics:\nSection 2.5.1, \"Invoking FATCA Withholding Rule Maintenance Screen\"\nSection 2.5.2, \"Specifying System Data Elements\"\nSection 2.5.3, \"Specifying Expression Builder\"\nSection 2.5.4, \"Viewing FATCA Withholding Rules\"\n2.5.1 \nInvoking FATCA Withholding Rule Maintenance Screen\nIf a with-holdable payment is to be made to a recalcitrant customer or to a non participating \nforeign financial institution, it is necessary to withhold 30% of the with-holdable payment and \ntransmit the rest to the beneficiary."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Withholding Rule Code",
+        "Withholding Rule Description",
+        "Default",
+        "Specifying System Data Elements",
+        "Specifying Expression Builder"
+      ],
+      "summary": "This page explains how to define a FATCA Withholding rule by specifying the withholding rule code, description, default value, system data elements, and expression builder.",
+      "raw_text": "2-13\nYou can define the unique rule using ‘FATCA Withholding Rule Maintenance’ screen. To \ninvoke this screen, type ‘TADFATTX’ in the field at the top right corner of the Application tool \nbar and click the adjoining arrow button.\nWithholding Rule Code\nSpecify the withholding rule code.\nWithholding Rule Description\nSpecify the description for the selected withholding rule code.\nDefault\nSelect the default value to be returned if no expression is satisfied from the drop-down list. \nFollowing are the options available in the drop-down list:\nRefer\nWithhold\nNo Withhold\n2.5.2 \nSpecifying System Data Elements\nSystem Data Elements\nSpecify the system data elements. You can also select the valid SDE from the adjoining \noption list.\n2.5.3 \nSpecifying Expression Builder\nExpr No\nSpecify the expression number.\nAn expression is built up using the SDEs, operations (>, <, =, <>) and logical operators (AND, \nOR).  The expressions will be evaluated in increasing order of expression number. Thus the \nsystem will evaluate the expression number 1 first, if it is not satisfied, then expression \nnumber 2 will be evaluated. If expression number 1 is satisfied, then the system will not \nevaluate expression 2."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Condition",
+        "Return Value",
+        "System Data Elements",
+        "Operators"
+      ],
+      "summary": "This page describes how to set up a rule for determining FATCA withholding based on specific conditions and system data elements.",
+      "raw_text": "2-14\nIf none of the expressions are satisfied, then the rule will return the result maintained at the \nELSE part. This will be the default return value for the rule.\nCondition\nSpecify the condition for the rule.\nFor instance, If module is MM and the amount tag is MMCRINT_LIQD and transaction code \nis INT and currency code is USD then FATCA withholding is required, then the condition \nshould be as follows:\nIF MODULE_CODE = ‘MM’ AND AMOUNT_TAG = ‘MMCRINT_LIQD’ AND CCY_CODE = \n‘USD’ and TXN_CODE = ‘INT’ and DRCR_IND = ‘D’\nReturn Value\nSelect the return value from the drop-down list. Following are the options available in the drop-\ndown list:\nWithhold\nNo Withhold\nRefer\nSystem Data Elements\nSelect the SDEs from the drop-down list. you can select one or more SDEs to be used in the \nrule.\nEach system data element must appear only once in the list. \nOperators\nSelect the type of operator from the drop-down list.\nThe rule would use the following elements:\nCustomer Type: The customer type for beneficiary customer. This will return values I \n(Individual), C (Corporate) or B (Bank). The system data element will be \nFATCA_CUST_TYPE which will be returned from the customer type in the entity \nFATCA classification record. \nRecalcitrant Status: The recalcitrant status of the beneficiary customer. The value will \nbe returned from the Customer FATCA classification record. The system data element \nwill be FATCA_RECALCITRANT. \nUS Sourced Status: This will be the US Sourced status of the obligation. This value will \nbe returned from the FATCA Obligation record for the obligation number (contract \nreference number or portfolio ID). The system data element will be \nFATCA_US_SOURCED. \nGrandfathered Status: This will be the grandfathered status of the obligation. This value \nwill be returned from the FATCA Obligation record for the obligation number (Contract \nReference Number or Portfolio ID). The system data element will be \nFATCA_GRANDFATHERED. \nModule Code: The module from where the tax is being evaluated. This value will be \nreturned by a system data element called FATCA_MODULE_CODE\nAmount Tag: The basis amount’s amount tag. Basically the amount tag which appears \nas the basis amount when the tax rule is linked in the product. This value will be returned \nby a system data element called FATCA_AMOUNT_TAG\nTransaction Code: The transaction code of the basis amount tag transaction. This value \nwill be returned by a system data element called FATCA_TXN_CODE\nCurrency: The currency in which the transaction is being posted. This value will be \nreturned by a system data element called FATCA_CCY_CODE"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "External Customer Indicator",
+        "Viewing FATCA Withholding Rules"
+      ],
+      "summary": "This page explains how to identify if a beneficiary customer account is held by a financial institution that has requested withholding and describes how to view FATCA withholding rules using specific parameters.",
+      "raw_text": "2-15\nExternal Customer Indicator: This indicates if the beneficiary customer account is held \nby a financial institution that has asked to be withheld against. This value will be \nreturned by a system data element called FATCA_EXT_CUST. \n2.5.4 \nViewing FATCA Withholding Rules\nYou can view the FATCA withholding rules in the ‘FATCA Withholding Rule Maintenance \nSummary’ screen. You can invoke this screen by typing ‘TASFATTX’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button.\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nAuthorization Status\nRecord Status\nWithholding Rule Code\nWithholding Rule Description\nSelect any or all of the above parameters for a query and click ‘Search’ button. The records \nmeeting the selected criteria are displayed.\nThe system displays the following details pertaining to the fetched records:\nAuthorization Status\nRecord Status\nWithholding Rule Code\nWithholding Rule Description"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Processing FATCA Tax for Referred Transactions"
+      ],
+      "summary": "This section explains how the system evaluates tax rules and processes FATCA taxes for referred transactions based on specific expressions and flags.",
+      "raw_text": "2-16\n2.6 \nProcessing FATCA Tax for Referred Transactions\nThis section contains the following topics:\nSection 2.6.1, \"Processing FATCA Tax for Referred Transactions\"\n2.6.1 \nProcessing FATCA Tax for Referred Transactions\nThe system will evaluate the tax rule applicable at the product level. The rule evaluation \nprocess is as follows:\nThe FATCA evaluation will be triggered by the transaction to which the tax rule ID is linked. \nWhile evaluating the tax rule, its FATCA flag will be checked. If the tax rule has a FATCA flag, \nthen the associated FATCA rule will be evaluated before the tax is computed by the tax rule.\nThe system will evaluate the expression number 1 first, if it is not satisfied, then expression \nnumber 2 will be evaluated. If expression number 1 is satisfied, then the system will not \nevaluate expression 2. If none of the expressions are satisfied, then the rule will return the \nresult maintained at the ELSE part. \nThe result of the evaluation of FATCA Rule will be as follows:\nIf ‘Withhold’ option is returned, then the tax will be withheld. Thus the tax rule will \nproceed to calculate the tax and liquidate the tax during the linked event using the \nFATCA Tax Payable GL maintained in the role to head mapping of the product, for \ncredit. The tax entries cannot be netted as the customer has to be aware that FATCA \ntax is being charged to him. \nIf ‘No Withhold’ option is returned, then FATCA withhold is required. The tax rule will not \ncompute the tax and 0 (zero) should be returned as the tax. While no accounting entry \nis posted for the tax. In this case the tax amount will be zero and decision would have \nNO WITHHOLD. \nIf ‘Referral’ option is returned, then the system will not be able to take decision on \nwithholding. The system will compute the tax amount but will be credited to the escrow \nGL maintained in the role to head mapping of the product, instead of the tax payable GL.\nYou can process FATCA tax for referred Transactions using ‘FATCA Tax - Referred \nTransactions Processing’ screen, invoked from the Application Browser. You can invoke this"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Fetch and Decide",
+        "Fetch and Delete"
+      ],
+      "summary": "This page describes how to fetch and decide on a referral record in an application tool, including actions for withholding or canceling, and how to delete un-authorized referral records without affecting the actual records.",
+      "raw_text": "2-17\nscreen by typing ‘TADFATRF’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nYou can perform the following actions from the above screen:\nFetch and Decide\nYou can fetch a referral record which is in E – ESCROW and P – PENDING status to make \na decision for withholding or not withholding. Once the decision is made, the record will be \nsaved. At the time of saving, only the referral record will be saved in an un-authorized mode. \nthe system will not pass any actual accounting entries. The following fields will be editable \nwhile saving the record: \nDecision: You can select any of the values from the drop-down list, namely, Y – \nWITHHOLD, N – NO WITHHOLD or C - CANCELLED. \nYou can use C – CANCELLED to cancel a referral before any further processing. In this \ncase there will be no FT contract booked. The contract that produced the referral record \nwould not be check for reversal at this stage. \nJustification: You need to enter the mandatory justification for the decision taken. \nOn saving the record, the referral status will be updated to C – CLOSED and the authorization \nstatus of the referral record will be updated to U – Unauthorized. The checker ID and Checker \nDate stamp will be null. \nFetch and Delete\nYou can delete an un-authorized referral record to the referral. On deleting the un-authorized \nreferral record, the system will not delete the actual referral record. However, it will go back \nto the original condition before the changes were done. The Decision status will go back to E \n– ESCROW, the referral status will be P – PENDING, the justification field will be made null. \nThe system will change the authorization status to A."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Fetch and Authorize",
+        "Fetch and Cancel"
+      ],
+      "summary": "This page describes the process of authorizing un-authorized referral records and updating related financial transactions, as well as handling canceled referrals.",
+      "raw_text": "2-18\nFetch and Authorize\nAn un-authorized referral record can be authorized by another user. At the time of \nauthorization, the following changes will happen:\nIf the decision status is WITHHOLD/NO WITHHOLD, a FT contract will be booked using one \nof the FT product maintained at the bank parameter level. The various parameters for the FT \ncontract to be booked will b:\nIf the decision is N – NO WITHHOLD, the debit account will be the Escrow GL and Credit \nAccount will be the Beneficiary Account. \n– \nIf the beneficiary account is within the bank, then the Referral Internal FT product \nmaintained at the bank parameter level will be used to book the FT contract. \n– \nIf the beneficiary account is in another bank, then the Referral Outgoing FT product \nmaintained at the bank parameter level will be used to book the FT contract. \nIf the decision is Y – WITHHOLD, the debit account will be the Escrow GL and the Credit \nAccount will be Tax Payable GL. \n– \nThe Referral Internal FT product maintained at the bank parameter level will be \nused to book the FT contract. \nThe authorization status of the FT contract will be A - authorized. \nThe contract reference number of the FT contract will be updated in the referral records, \ntransfer reference number field. \n– \nIf the decision status is C – CANCELLED and the referral status is CLOSED, then \non authorization, only authorization status will change to A and checker ID and date \nstamp will be updated. \nFetch and Cancel\nOnly authorized referral records that have decision status as WITHHOLD/NO \nWITHHOLD can be unlocked. If an authorized referral record has decision status as \nCANCELLED and referral status as CLOSED, it cannot be unlocked for further \nchanges. \nAn authorized referral record that has decision as WITHHOLD/NO WITHHOLD and \nreferral status as CLOSED can be unlocked and the decision status changed to C – \nCANCELLED. No other decision (WITHHOLD to NO WITHHOLD or vice-versa) is \npermitted. On saving the change, following steps will be followed:\n– \nIf the referral record has a transfer reference number and the decision status and \nreferral status are WITHHOLD/NO WITHHOLD and CLOSED respectively, then a \ncheck will be made to see that the associated FT will be raised and record cannot \nbe saved. \n– \nIf the associated FT contract is reversed, then it will be possible to save the referral \nrecord in a cancelled state.\n– \nThe referral record will be in an un-authorized state. \n2.7 \nTax Components as Classes\nThe section contains the following topics:\nSection 2.7.1, \"Defining Transaction Level Taxes as Classes\"\nSection 2.7.2, \"Defining Issuer Taxes as Classes\"\nSection 2.7.3, \"Defining the Events and the Basis Amount\"\nSection 2.7.4, \"Maintaining Rate Codes and their Values\"\nSection 2.7.5, \"Furnishing the Rate Values for a Code\""
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Defining Transaction Level Taxes as Classes",
+        "Transaction Level Tax classes",
+        "Issuer Tax classes"
+      ],
+      "summary": "This section explains how to define tax and charge classes with specific attributes and categorizes them into transaction level taxes and issuer taxes.",
+      "raw_text": "2-19\nSection 2.7.6, \"Associating a Rate Code with an Issuer Class\"\n2.7.1 \nDefining Transaction Level Taxes as Classes\nA class is a specific type of component that you can build with certain attributes. For instance, \nyou can build a tax class, with the attributes of a specific type of tax component, such as an \nIssuer Tax. Similarly, you can build a charge class, with the attributes of a specific type of \ncharge, such as Charges for provision of services.\nWhen building a tax class, certain attributes such as the following can be defined:\nThe module in which you would use the class\nThe tax type (whether a withholding or an expense type of tax)\nThe association event\nThe application event\nThe liquidation event\nThe default tax rule\nTax classes can be categorized into:\nTransaction Level Tax classes\nIssuer Tax classes\nTransaction level taxes are those that would be levied, on the portfolios you maintain and the \ncontracts that you enter into. Issuer taxes are those that are withheld by the Issuer (of a \nsecurity) when disbursing cash dividends and coupons.\nYou can define the attributes of a transaction level tax under the corresponding section of the \n‘Tax Class Maintenance’ screen. You can invoke this screen by typing ‘TADTAXCL’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Module",
+        "Tax Type"
+      ],
+      "summary": "This page discusses the setup of a Transaction Tax Class by assigning a unique identifier and describing its use in different modules, as well as defining the type of tax and how it is applied.",
+      "raw_text": "2-20\nBefore defining the attributes of a Transaction Tax Class, assign the class a unique identifier, \ncalled the Class Code, and briefly describe the class. A description would help easily identify \na class.\nModule\nA tax class is built for use in a specific module. This is because the basis amounts on which \nthe tax is applied could vary with the modules. In the Foreign Exchange module, for instance, \nyou might want to levy tax on the brokerage paid. In the Securities module, you might have to \npay a tax on the value of a security that you purchase. The basis on which the tax component \nis calculated is different in these two cases.\nNote\nThe Basis Amount Tags available, in this screen, would depend on the module for which \nyou build the class.\nTax Type\nThe type of tax indicates who bears the tax, whether the bank or the customer. \nWithholding\nWithholding type tax is borne by the beneficiary on an income (either the bank or the \ncustomer). For example, the tax on the brokerage paid would be borne by the broker. You \nwithhold this component in a Tax Payable account, by debiting the customer account (since \nbrokers are defined as Customers in Oracle FLEXCUBE) and later paying the tax to the \ngovernment on behalf of the broker.\nThe Net Consideration\nThe sum of the different components of a contract determines the net value of the contract. \nTo indicate that a transaction level tax component should be taken into account when \ndetermining the net value of a contract, choose the Net Consideration option.\nIf you choose to include the tax component in the net value of the contract, you should also \nindicate if the tax component is to be added or subtracted, while calculating the net \nconsideration amount. \nAssume you buy securities from a counterparty. The different components of the deal are:\nThe value of the securities USD 50,000\nThe applicable tax USD 1,000\nThe accrued interest USD 1,500\nThe applicable charge USD 50\nIf you choose to include the tax component when calculating the value of the deal, choose the \nNet Consideration option. Indicate if the component is to be Added or Subtracted.\nResult\nIf you choose the Net Consideration option and decide to add the tax component to the value \nof the deal, the net value of the deal would be USD 52,550.\nIf you choose the Net Consideration option and decide to subtract the tax component from the \nvalue of the deal, the net value of the deal would be USD 50,550.\nIf you do not choose the Net Consideration option, the net value of the deal would be: USD \n51,550."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Defining the Events and the Basis Amount"
+      ],
+      "summary": "This section explains how different stages of a securities deal are referred to as events in Oracle FLEXCUBE and introduces concepts such as Association Event, Application Event, and Liquidation Event, along with the basis amount for tax calculation.",
+      "raw_text": "2-21\nDefining the Events and the Basis Amount\nEach contract that your bank enters into goes through different stages, each of which is \nreferred to as an Event in Oracle FLEXCUBE.\nA securities deal, for instance, goes through different stages in its life cycle, such as:\nDeal Booking\nMoney Settlement of Securities Deal\nSettlement of Securities Deal\nReversal of Securities Deal\nCancellation of Securities Deal\nEach of these stages is referred to as an Event in Oracle FLEXCUBE.\nThe following are examples of the events for a portfolio that you maintain:\nBooking of Contingent Asset\nAccrual of Discount Earned\nAccrual of Interest Earned\nForward Profit and Loss Accrual\nAt any of these events, you can choose to apply a tax. The event at which you would like to \nassociate a tax component, is referred to as the Association Event. At this event, no \naccounting entry (for the tax component) is passed.\nThe event at which the tax component is actually computed is referred to as the Application \nEvent. The tax is liquidated at the Liquidation Event.\nThe basis on which a tax is calculated is referred to as the Basis Amount. A tax can be on the \nbasis of the principal, the brokerage paid and so on. When building a tax class, you have to \nspecify the tag associated with the Basis Amount.\nChoosing the Default Tax Rule\nA tax rule can be linked to the tax component that you are building. When you link a rule to a \ncomponent, the attributes that you have defined for the rule, will default to the component.\nA tax rule identifies the method in which tax, is to be calculated. A rule is built with attributes \nsuch as the following:\nThe tax currency\nWhether the tax is to be a flat amount or calculated on a rate basis\nThe minimum and maximum tax that can be applied\nThe tier or slab structure on which the tax is to be applied\nThe currency restrictions, etc.\nThe tax component to which you link a rule acquires ITS properties. Tax for the contracts with \nwhich you associate a tax component will, by default, be calculated according to the rule \nlinked to the component. However, when processing a contract, you can choose to waive the \nrule.\nWhen building a tax class, you can choose to allow the amendment of the rule linked to it, \nunder the following conditions:\nYou can choose to allow amendment after the association event\nYou can choose to allow amendment after the application event"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Including a Component in SWIFT Messages",
+        "Defining Issuer Taxes as Classes"
+      ],
+      "summary": "This page explains how to include tax components in SWIFT messages and defines how issuer taxes are processed and maintained in the system.",
+      "raw_text": "2-22\nYou can choose to allow amendment of the tax amount\nIncluding a Component in SWIFT Messages\nTo report a component of a contract in the SWIFT messages that you generate, identify the \ncomponent with the appropriate SWIFT code. You can identify a tax component with its \nSWIFT code when building the component.\nFor example, you would like to report the details of a contract to a customer, over SWIFT. \nAssume you would like to report the tax component (amongst others) in the message that you \ngenerate. Each component is identified in SWIFT by a unique code. Even while building the \ntax component in the Tax Class Maintenance screen, you can identify it with its SWIFT Code. \nIn the SWIFT Qualifier field of the Tax Class Maintenance screen, you can enter the \ncomponent identifier, as follows:\n2.7.2 \nDefining Issuer Taxes as Classes\nAn issuer tax can be levied on the coupon paid, or on a cash dividend. The issuer of a security \ndetermines the tax. To process the tax levied on a security, you have to maintain Issuer Tax \nclasses.\nAn Issuer Tax class can be maintained in its corresponding section of the Tax Class \nMaintenance screen invoked from the Application Browser.\nNote\nIt is not necessary to associate tax rules to an Issuer Tax class. For an Issuer Tax compo-\nnent, you only have to furnish the following details:\n– \nThe Association Event\n– \nThe Basis Amount\n– \nThe Rate Code\n– \nOther operational controls\nIf the tax component you are building \nis…\nEnter\na Country, National, Federal tax\nCOUN\na Payment Levy sort of tax\nLEVY\na Local tax\nLOCL\na Stock Exchange tax\nSTEX\na Transfer tax \nTRANSAC-\nTION\na Transaction tax\nTRAX\na Value Added tax\nVATA\na Withholding tax\nWITH"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Defining the Events and the Basis Amount",
+        "Maintaining Rate Codes and their Values"
+      ],
+      "summary": "This page explains how to define events and basis amounts for tax classes in Oracle FLEXCUBE, as well as maintaining rate codes for issuer taxes.",
+      "raw_text": "2-23\n2.7.3 \nDefining the Events and the Basis Amount\nA security goes through different stages in its life cycle, such as:\nBooking\nInterest Accrual\nLiquidation, etc.\nEach stage is referred to as an Event, in Oracle FLEXCUBE. When defining an Issuer Tax \nclass, you should specify the following:\nThe Association Event\nBasis Amount\nThe event at which you would like to associate a tax component to a security is referred to as \nthe Association Event.\nThe basis on which interest, charge or tax is calculated or levied is referred to as the Basis \nAmount. (An Issuer Tax can be on the basis of the coupon paid, or on a cash dividend.) The \ndifferent basis amounts available in the Securities module are associated with a unique ‘tag’. \nWhen building a tax component, you have to specify the tag associated with the Basis \nAmount. When tax is calculated for a security, the basis amount corresponding to the tag will \nbe picked up automatically.\n2.7.4 \nMaintaining Rate Codes and their Values\nA Tax Rate Code identifies the rate that applies on an issuer tax. For instance, you can create \na rate code and specify the rate values for different Effective Dates, in the ‘Tax Rate \nMaintenance’ screen. When building an Issuer Tax component, say Issuer_01, in the ‘Tax \nClass Maintenance’ screen, you only need to specify the Rate Code that should apply. For all \nsecurities associated with Issuer_01, the rates corresponding to the code will be picked up."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "You can define a rate code, and enter a brief description for it, in the ‘Tax Rate Code Maintenance’ screen.",
+        "Furnishing the Rate Values for a Code"
+      ],
+      "summary": "This page explains how to define tax rate codes and their descriptions, as well as how to input actual rate values using specific screens within an application.",
+      "raw_text": "2-24\nYou can define a rate code, and enter a brief description for it, in the ‘Tax Rate Code \nMaintenance’ screen. You can invoke this screen by typing ‘TADRTCD in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nSince tax rates would vary across markets, you can define rate codes specific to markets \n(countries).\n2.7.5 \nFurnishing the Rate Values for a Code\nThe actual rate values for a rate code can be maintained in the ‘Tax Rates Input’ screen. You \ncan invoke this screen by typing ‘TADRATE’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "The Basis",
+        "The Beneficiary Country",
+        "The Beneficiary CIF",
+        "The Effective Date",
+        "The Tax Currency",
+        "The Exchange Rate Type and Category",
+        "The Tax Rate"
+      ],
+      "summary": "This page explains the details required for entering a rate code, including the basis of taxation, beneficiary country, unique tax rates for issuers, effective date, currency specifications, exchange rate types, and the actual tax rate value.",
+      "raw_text": "2-25\n \nFor a rate code, you can enter the following details:\nRate code\nDetails\nThe Basis \nAmount Cur-\nrency\nThe basis (the coupon amount, the cash dividend amount, etc.) on \nwhich a tax is calculated, is referred to as the Basis Amount. You can \nspecify the currency of the Basis Amount.\nThe Benefi-\nciary Country\nIssuer Tax Rates are specific to markets. When maintaining a rate \nvalue for a code, you have to identify the market for which you are \ndefining the rate.\nThe Benefi-\nciary CIF\nYou can maintain unique tax rates for issuers of securities. When \nyou maintain a security, the system applies the tax rate defined for \nthe issuer. If you have not maintained a rate for an issuer, the system \napplies the rate maintained for the country to which issuer belongs.\nThe Effective \nDate\nThe date on which a rate becomes effective is referred to as the \nEffective Date. For a code and Effective Date, you can maintain a \nrate.\nThe Tax Cur-\nrency\nYou can specify the currency in which the tax should be applied.\nThe Exchange \nRate Type and \nCategory\nIf you specify a Basis Amount Currency that is different from the Tax \nCurrency, you have to indicate the type of rate (standard, spot, cash, \netc.), and the rate category (mid, buy, or sell rate) that should be \nused in the currency conversion. \nThe Tax Rate\nIn this field, you can enter the actual rate value for a Code, for an \nEffective Date. When you associate a rate code with an issuer tax \nclass, the rates corresponding to Effective Dates will be picked up \nand applied."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Associating a Rate Code with an Issuer Class",
+        "Tax Component Groups"
+      ],
+      "summary": "This page explains how to associate rate codes with issuer classes for tax calculations and introduces different aspects of tax component groups including grouping into schemes and defining taxation schemes.",
+      "raw_text": "2-26\n2.7.6 \nAssociating a Rate Code with an Issuer Class\nThe tax that applies on a coupon would be calculated at a specific rate. When building an \nissuer tax component, you have to specify the rate at which tax should be computed for a \ncoupon. When you associate a rate code that you have maintained with a component, the \nrates corresponding to the component will be picked up. A rate code identifies the rate that \napplies on a tax. A rate code is built with attributes such as the following:\nThe tax currency\nThe basis amount currency\nThe Effective Date\nThe Exchange Rate Type and Category\nTax for the component to which you link a rate code will be computed by default, on the basis \nof these properties.\nWhen maintaining a security, however, you can choose to waive the rate code altogether.\n2.8 \nTax Component Groups\nThis section contains the following topics:\nSection 2.8.1, \"Grouping Tax Components into a Scheme\"\nSection 2.8.2, \"Defining Securities and Derivative Taxation Schemes\"\nSection 2.8.3, \"Defining a Money Taxation scheme\"\nSection 2.8.4, \"Features of Tax Scheme Maintenance Screen\" \n2.8.1 \nGrouping Tax Components into a Scheme\nA Tax Scheme consists of a set of Tax Rules that will be made applicable on a product. Tax \nschemes can be two types:\nSchemes, which cater to Money Taxation. These tax schemes involve a combination of \ntax rules only. In Oracle FLEXCUBE, money taxation schemes are made applicable on \ndeposit, funds transfer, foreign exchange, money market and trade finance \ntransactions. \nSchemes, which cater to Securities and Derivative taxation. These tax schemes involve \na combination of tax classes. For instance a security could consist of one or more issuer \ntax components (a tax on coupons and a tax on redemption). You can define these \ncomponents as tax classes. Since a Securities/Derivatives tax scheme is composed of \none or more tax classes; by associating a tax scheme with a market, you can compute \nall the tax components for the securities used from the market. \nThe manner in which you can maintain Money and Security/Derivative scheme types has \nbeen discussed in detail in the subsequent sections.\n2.8.2 \nDefining Securities and Derivative Taxation Schemes\nA contract that you enter into could consist of one or more tax components (a Stock Exchange \ntax, a Local tax, etc.). You can define each of these components as a tax class, and associate \neach with a tax rule. A tax rule identifies the method in which a tax component is calculated.\nA tax scheme is composed of one or more tax classes. For instance, a Transaction Level Tax \nScheme would be composed of one or more transaction level tax classes. By associating a"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Tax Scheme Maintenance",
+        "How a Scheme Works"
+      ],
+      "summary": "This page explains how to create and use tax schemes in Oracle FLEXCUBE for calculating taxes on products, and describes how tax classes within a scheme are applied.",
+      "raw_text": "2-27\nTax Scheme with a product, you can calculate all the tax components for the contracts \nentered under the product at one stroke.\nTax schemes can be built in the ‘Tax Scheme Maintenance’ screen. You can invoke this \nscreen by typing ‘TADSCHEM’ in the field at the top right corner of the Application tool bar \nand clicking the adjoining arrow button.\nYou must identify a Tax Scheme that you build with a unique Code and a brief Description.\nA tax scheme is built specifically for a module in Oracle FLEXCUBE. For example, a scheme \nwith Stock Exchange tax classes would only be relevant to the Securities module. When you \ndefine a product in a module, only those tax schemes that you have built specifically for the \nmodule, will be available to you.\n2.8.2.1 \nHow a Scheme Works\nA class in a scheme will remain effective till another class for the same component, but with \na different Effective Date, is encountered. \nThe following example illustrates how the different classes in a tax scheme, defined for the \nsame component is applied.\nFor example,\nYou have defined the following Tax classes (only the fields relevant to the example are \ndiscussed):\nTax Class 1\nClass Code\nBrok_clas1\nEffective \nDate\n1 January 1999 (defined for the associated tax rule)"
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Tax Class 2",
+        "2.8.2.2 Putting a Component in a Scheme on hold",
+        "2.8.3 Defining a Money Taxation scheme"
+      ],
+      "summary": "This page discusses tax classes and their application, putting components on hold in a tax scheme, and defining money taxation schemes for transactions.",
+      "raw_text": "2-28\nTax Class 2\nWhen these classes are linked to a single tax scheme, the tax will be applied in the following \nmanner:\nFrom 1 January 1999 to 31 March 1999, the brokerage paid on contracts will be taxed \nat 0.5%. From 1 April 1999 onwards, the brokerage paid will be taxed at 0.75%.\nBrokerage will continue to be taxed at 0.75% till another class with a different Effective \nDate is added to the scheme.\n2.8.2.2 \nPutting a Component in a Scheme on hold\nYou can choose to keep one or more tax components in a scheme, on hold. When you \nassociate the scheme with a product, those tax components that are on hold, will not apply \non contracts entered under the product. This status can be changed at any time.\n2.8.3 \nDefining a Money Taxation scheme\nAny transaction on which tax is applicable is linked to a Tax Scheme. A Tax Scheme \ndescribes the method in which the tax has to be applied on a transaction. \nA tax scheme can have a number of Tax Rules linked to it. The attributes of all these rules will \nbe applied on the transaction. Thus, a Tax Rule is made applicable on a contract through the \nTax Scheme. For instance, let us assume we are building a tax scheme, which should be used \nfor the Funds Transfer module of Oracle FLEXCUBE. \nYou have defined the following Tax Rules (only the fields relevant to the example are \ndiscussed):\nBasis \nAmount\nBrokerage Amount\nTax Rate\n0.5% (defined for the associated tax rule)\nClass Code\nBrok_clas2\nEffective \nDate\n1 April 1999 (defined for the associated tax rule)\nBasis \nAmount\nBrokerage Amount \nTax Rate\n0.75% (defined for the associated tax rule)"
+    },
+    {
+      "page_number": 35,
+      "sections": [],
+      "summary": "This page outlines tax rules and rates applicable to transfer amounts and charges earned, effective from January 1, 2002, with different rates for transfers initiated before and after April 1, 2002.",
+      "raw_text": "2-29\nTax Rule 1\nTax Rule 2\nTax Rule 3\nTax Rule 4 \nWhen all these rules are linked to a single tax scheme, the tax will be applied in the following \nmanner:\nFor the Transfer Amount\nIf you initiate a transfer from 1 Jan 2002 to 31 Mar 2002, the transfer amount will be charged \nat 10%. If you initiate a transfer from 1 April 2002 onwards, the transfer amount will be \ncharged at 12%. This is because, after Tax Rule 1, Tax Rule 2 is for transfer and it has an \nRule Code\nTaxP1\nEffective \nDate\n1 Jan 2002\nComponent\nTransfer \namount\nTax Rate\n10\nRule Code\nTaxP2\nEffective \nDate\n1 April 2002\nComponent\nTransfer \namount\nTax Rate\n12\nRule Code\nTaxI1\nEffective \nDate\n1 Jan 2002\nComponent\nCharges \nEarned \nTax Rate\n10\nRule Code\nTaxI2\nEffective \nDate\n1 April 2002\nComponent\nCharges \nEarned\nTax Rate\n12"
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Features of Tax Scheme Maintenance Screen",
+        "Tax Scheme to a Product Linkage"
+      ],
+      "summary": "This page discusses the features of the Tax Scheme Maintenance screen and how tax schemes are linked to products.",
+      "raw_text": "2-30\nEffective Date of 1 April 2002. All transfers will continue to be taxed at 12% till another rule for \nthe transfer amount with a different Effective Date is added to the scheme.\nFor the Charges Earned\nThe charges will also be taxed in the same manner as the transfer amount as two rules have \nbeen linked to the Tax Scheme that have exactly the same Effective Date and rates as the \nones for the transfer amount.\nNote\nThe basis component on which the tax should be applied (principal, interest, transfer \namount etc) is specified through the ‘Tax Scheme Maintenance’ screen. Tax Schemes too \nare linked to a product through this screen. \nYou can invoke this screen by typing ‘TADSCHEM’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\n2.8.4 \nFeatures of Tax Scheme Maintenance Screen\nScheme Code\nIdentify the Tax Scheme that you are maintaining with a unique code. A scheme consists of \nseveral tax components (classes). You can indicate the components that you would like to \ninclude in the scheme in the Component field.\n2.9 \nTax Scheme to a Product Linkage\nThe section contains the following topics:\nSection 2.9.1, \"Linking a Tax Scheme to a Product\"\nSection 2.9.2, \"Features of the Product-Tax Linkage Definition screen\"\nSection 2.9.3, \"Specifying Currency Details\"\nSection 2.9.4, \"Surcharge\"\nSection 2.9.5, \"Processing Tax on a Contract\""
+    },
+    {
+      "page_number": 37,
+      "sections": [],
+      "summary": "This page discusses how tax schemes are linked to products and defines key concepts such as Tax Rules and Tax Schemes, explaining their application in processing taxes for different components of a product.",
+      "raw_text": "2-31\nSection 2.9.6, \"Processing Tax on MM contracts\"\nSection 2.9.7, \"Processing Tax on Customer Accounts\"\n2.9.1 \nLinking a Tax Scheme to a Product\nA tax scheme is linked to a product, only if tax is applicable to the product. This linkage is \nestablished through the tax screen, of product definition. The tax scheme thus linked will be \napplicable on a contract processed under the product by default. However, you have the \noption of waiving the application of tax, for a specific contract\nA Tax Rule represents the method in which a specific tax has to be calculated. The amount \nbased on which the tax has to be applied is not specified for a Tax Rule. This is specified only \nwhen the Tax Scheme is linked to a product.\nThe system thus offers you flexibility in terms of the method in which tax has to be calculated. \nFor example, for one type of product, you could use a Tax Rule to apply tax on interest \nearned, while for another product, the same rule could be used to apply tax on the principal \n(if the method of tax calculation is the same for both the components).\nA Tax Scheme is applicable on a product by linking the two rates mentioned above. Once the \nTax Scheme is specified for linkage, you should indicate the component on which the two \nrules are applicable, the event when the tax should be liquidated and the type of tax - \nwithholding or expense.\nTo specify the linkage of a tax scheme to a product you have to invoke the Product-Tax \nLinkage Definition screen from the LD/MM Product Definition screen. Click ‘Tax’ button in the \nrespective ‘Product Definition’ screen.\n2.9.2 \nFeatures of the Product-Tax Linkage Definition screen\nThe following are the features of the Product-Tax Linkage definition screen."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Tax Component and Basis Component",
+        "Event",
+        "Tax Type",
+        "Note",
+        "Minimum Interest Rate Code for Tax"
+      ],
+      "summary": "This page explains how tax is applied based on different components, events, types, and provides notes on automatic application and specific fields for product maintenance.",
+      "raw_text": "2-32\nTax Component and Basis Component\nTax can be applied on the basis of any component that is taxable according to the laws in your \ncountry. This component is called the Basis Component. The method of tax application \ndefined for the Tax Rule will be applied on this component.\nEvent \nYou should specify the event for which the tax is applicable. For example, if you specify that \nthe tax is to be applied upon initiation of the contract, then the liquidation entries for tax will \nbe passed when the contract is initiated. If you specify the event as the Maturity of the \ncontract, the tax will be liquidated upon Maturity of the contract.\nSimilarly, if you specify that the tax be to be applied at the time the commissions are collected \nfrom the customer, then the entries for tax will be passed when the commission is paid.\nTax Type \nThe type of tax, decides the bearer the tax. It could be the bank or the customer. \nA customer bears withholding type of tax and the tax component is debited to the customer’s \naccount. The bank bears an expense type of tax and the tax component is booked to a tax \nexpense account.\nNote\nThe tax details specified for a product will be automatically applied on all contracts involv-\ning the product. However, while processing a contract, you can waive the application of all \nor specific tax rules for the contract. \nMinimum Interest Rate Code for Tax\nThis field is appears only for LD and MM product maintenance.\nYou need to specify the rate code that will be used to determine the minimum interest rate for \nthe tax to be applicable. If the rate code is not defined, then the minimum interest rate will be \ntaken as 0. \n2.9.3 \nSpecifying Currency Details\nCurrency \nThis field appears only for LD and MM product maintenance.\nYou need to specify the currency for which the tax waiver rules (maximum interest period and \nminimum interest amount) should be defined. \nMaximum Interest Period for Tax\nThis field appears only for LD and MM product maintenance.\nYou need to specify the interest period beyond which tax on the interest amount liquidated \nwould be waived.\nThe maximum interest period would be applicable only for Deposit type of products for LD and \nBorrowing type of products for the MM module.\nIf the tax rule has a tax category linked to it, then the currency details will be mandatory. A \nvalidation for this would be done during tax processing. In case the tax rule does not contain \nthe tax category, and the currency details have not been defined, then the maximum interest \nperiod would be ignored and the minimum interest amount would be considered as 0 \nindicating that the tax would always be computed."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Period Unit",
+        "Minimum Interest Amount for Tax",
+        "Surcharge",
+        "Processing Tax on a Contract"
+      ],
+      "summary": "This page describes how to set up and process tax-related fields in product maintenance, including interest period units, minimum interest amounts for tax waiver, surcharges, and tax processing on contracts.",
+      "raw_text": "2-33\nPeriod Unit\nThis field appears only for LD and MM product maintenance.\nYou need to specify the unit for the interest period. The available options are as follows:\nDays (D)\nMonths (M)\nYears (Y)\nMinimum Interest Amount for Tax\nThis field appears only for LD and MM product maintenance.\nYou need to specify interest amount up to which tax will be waived. The minimum interest \namount would be applicable only for the Deposit type of products for LD and Borrowing type \nof products for MM module.\nIf the tax rule has tax category linked to it, then the currency details will be mandatory. A \nvalidation for this would be done during tax processing. In case the tax rule does not contain \nthe tax category, and the currency details have not been defined, then the maximum interest \nperiod would be ignored and minimum interest amount would be considered as 0 indicating \nthat the tax would always be computed.\nIf the interest amount being liquidated is less than the minimum interest amount, tax will be \nwaived completely for that transaction\n2.9.4 \nSurcharge\nIf a surcharge is to be applied on the final tax amount, then the surcharge should be created \nas a separate rule in the Tax Rule maintenance screen. This Rule should be included in the \nsame Tax Scheme as the primary tax rule. In the Product Tax Linkage screen, the Basis \nAmount for the surcharge should be the tax component of the primary tax rule.\n2.9.5 \nProcessing Tax on a Contract\nThe taxes that apply on a contract can be of two types: ‘Expense’ and ‘Withholding’. The tax \nthat your bank bears on a contract is referred to as an expense type of tax, whereby you book \nthe tax component to a Tax Expense account. The tax that is borne by counter party of a \ncontract is referred to as a withholding tax, whereby you debit the counter party’s account, \nand credit the tax component into a Tax Payable account (to be paid to the government on \nthe counter party’s behalf).\nFor example,\nA tax on a Letter of Credit (LC) can be levied either on the:\nOutstanding LC amount. \nOn the commissions and charges that you earn to process the LC.\nIn both cases, it is the bank that bears the tax - this is an Expense type of tax. The tax expense \naccount should be debited and the tax payable account should be credited. From this liability \naccount, the tax should be later on, paid to the government.\nYou can invoke the ‘Contract Tax Details’ screen while you are processing a contract. Click \n‘Tax’ button in the contract details screen."
+    },
+    {
+      "page_number": 40,
+      "sections": [],
+      "summary": "This page discusses the tax waiver options for contracts under different Tax Rules and provides specific conditions for waiving tax on MM (Material Management) contracts.",
+      "raw_text": "2-34\nYou have a choice of waiving tax due to all the Tax Rule(s) linked to the Tax Scheme \napplicable to the product (and hence the contract) or that which is only due to specific Tax \nRule(s). \nNote\nOnly the tax that has not yet been liquidated can be waived. \n2.9.6 \nProcessing Tax on MM contracts\nThe tax processing for MM contracts would occur as follows:\nFirst, the Waiver maintenance for Interest Rate/Period/Amount defined at the at the LD/\nMM product level would be checked. The tax would be fully waived if any one of the \nfollowing conditions was satisfied.\nThe Interest rate pertaining to Interest Rate Code defined in the Tax Definition of LD/MM \nproduct is more than the contract interest rate for the Basis Amount.\nThe interest period for the current interest being liquidated is more than the interest period \ndefined in the Tax definition of LD/MM product. This would be applicable only for deposit and \nborrowing type of products.\n– \nThe total interest amount on which tax has to be computed is less than the minimum \ninterest amount defined in the Tax Definition of LD/MM product. This is also \napplicable for deposit and borrowing type of products."
+    },
+    {
+      "page_number": 41,
+      "sections": [],
+      "summary": "This page describes the tax computation process when Waiver parameters are not defined for a Tax category linked to a Tax Rule, focusing on Deposit and Borrowing type products.",
+      "raw_text": "2-35\nIf a Tax category is linked to a Tax Rule and the Waiver parameters have not been \ndefined, then a configurable override would be shown\nIn case the Waiver conditions defined are not satisfied, the tax computation would be \ndone as follows. This computation would be done only for Deposit (LD) and Borrowing \n(MM) type of products.\n– \nFirst, the actual basis amount would be arrived at based on the Basis Percentage \ndefined in Tax Rule Maintenance.\n– \nThis Basis Amount would be rounded using the currency rounding parameters.\n– \nThen the availability of Tax Free Allowance at the contract level would be verified. \nIf the Limit has been defined, then availability of the same would be verified in the \nsequence in which it has been defined. In case the Tax Free Allowance has not \nbeen defined at the contract level, the same would be verified at the Customer level. \nIf the Tax Free Allowance is available, the same would be reduced from the taxable \namount (Basis Amount) to arrive at the Net Taxable Amount. If the contract currency \nand the tax-free allowance currency are different, the Basis Amount would be \nconverted to the Tax-free Amount currency.\n– \nThe Net Taxable Amount arrived at here would again be rounded up using the \nCurrency Rounding Parameters. \n– \nThe taxable amount (Basis Amount) would then be converted into the Calculation \nCurrency (Basis Amount Currency) in case the Calculation Currency defined in the \nTax Rule is different from the contract currency.\n– \nThe Taxable Amount (Basis Amount) thus computed would be rounded using the \nrounding parameters defined for the Calculation Currency. Even if the taxable \namount is in the same currency as Calculation Currency, rounding would be done \nusing the Calculation Currency rounding parameters defined in the Tax Rule.\n– \nThe appropriate Tax Rate would be picked up based on the slabs defined in the Tax \nRule and the tax would be computed on the rounded taxable amount.\n– \nThe tax amount thus computed would then be converted into Tax Currency if the \ntax currency is different from the Calculation Currency.\n– \nThe converted amount would then be rounded using the Tax Currency Rounding \nparameters.\n– \nThe Basis Percentage defined in the Tax Rule would be applied again to the tax \namount to compute the actual tax amount. The inverse of Basis Percentage would \nbe applied to get the Actual Tax Amount. Thus if the Basis Percentage is 50 and the \ntax computed by the system is USD 125, the actual tax amount would be\n– \nUSD 125 * (100/50) = USD 250.\n– \nThe tax amount computed after application of the Basis Percentage would again be \nrounded using the Tax Currency rounding parameters.\n– \nNow, the Customer-group Tax Waiver Maintenance would be verified to check if \nsome waiver has been maintained for the Customer Group-Customer-Tax \nCategory-Product combination. If a Waiver Rule has been maintained, then the \nwaiver amount would be computed by applying the waiver percentage to the tax \namount.\n– \nThe waiver amount would be subtracted from the tax amount\n– \nThe net tax amount post waiver would again be rounded using the tax currency \nrounding parameters to arrive at the final tax amount to be charged to the customer \naccount.\n2.9.7 \nProcessing Tax on Customer Accounts\nIn order to process tax in customer accounts, the tax formula has to be maintained in \nthe IC Rule Maintenance screen. The Periodicity in the Tax formula (Formula2) should \nalways be set to Periodic. The tax rounding parameters would be maintained at the Rule"
+    },
+    {
+      "page_number": 42,
+      "sections": [],
+      "summary": "This page describes the parameters and rules for maintaining an IC Rule related to tax calculations on credit interest, including rounding parameters, basis amount percentage, currency specifications, and conditions under which tax is waived.",
+      "raw_text": "2-36\nlevel. An IC Rule would also be maintained for a Tax Category. The parameters \nmaintained in the IC Rule Maintenance would be as follows: \n– \nTax Category\n– \nRounding parameters for Basis Amount and Tax Amount\n– \nBasis Amount Percentage\n– \nLocal Currency Basis ( to specify whether the Basis Amount should be in local \ncurrency or account currency)\n– \nTax Payable Currency\n– \nWhether to Book Tax to Expense Account or not\nThe tax amount on the credit interest for the account would be calculated based on the \nRule Maintenance. \nTax would be waived in the following cases:\n– \nIf the interest rate is less than 1%\n– \nIf the interest period is more than one year\n– \nIf the amount is less than 10 EUR\nTo achieve the above defined waivers, UDE’s would have to be created and used in the \nconditional clause for Tax Formula. \nFor the Waiver Rule where the Interest Period should be more than one year, the liquidation \nfrequency would have to be set to one year. Also, the Rule attached to the Product Tax \nFormula should not be defined. For the other two options, the UDEs would have to be created.\nFor example, consider if an IC Rule RUL1 is defined with two formulas. FORMULA1 with \nnormal book formula that calculates the credit interest, and FORMULA2, the tax formula. In \nsuch a case, the following UDE’s would have to be defined for this Rule \nRATE -- The credit interest rate\nTAX_RATE – Tax rate\nTAX_RATE_CAP – Value of this can be 1% (For checking the interest rate)\nTAX_AMT – Value of this can be 10 EUR (For checking the amount)\nThe Tax Formula FORMULA2 would be defined as follows:\nThis maintenance would have to be controlled operationally by the Bank. \nIf the interest amount does not fall under the above waivers, then the system will start \nthe calculation process for the tax amount\nThe system will apply the % of the Basis Amount for tax calculation. This would give the \namount on which tax has to be calculated. The % would be arrived at from the \nmaintenance at the tax formula level. After computing this amount, the system would \napply the rounding rules defined for the Basis Amount for this amount. \nOnce the Basis % is arrived at, the system would look into the Customer Account/\nCustomer Level Allowance Limit for the Tax Cycle defined. This would be in the system \nas a separate Maintenance. The System would first look into the table where the \nCustomer Account Limit is maintained for the customers. If this is not found, then the \nCondition\nResult\nRATE > TAX_RATE_CAP AND FORMULA1 > TAX-\n_AMT\nFORMULA1 * TAX_RATE"
+    },
+    {
+      "page_number": 43,
+      "sections": [],
+      "summary": "This page describes the process of calculating and applying tax to a taxable amount derived from a customer's allowance limit in a financial system.",
+      "raw_text": "2-37\nsystem would look into the Customer Allowance Limit Maintenance and get the \nCustomer Level Limit maintained. Once the value of the Allowance Limit is arrived at, \nthe system would deduct this from the Basis Amount obtained after applying the Basis \n% , and arrive at the Taxable Amount. \nThe system would update the Amount Utilized in a separate data store for Utilization of \nthe Limit. This would happen online\nOn this amount only, the system would apply the Tax Rate and compute the Tax \nAmount\nAfter calculating the Tax Amount, the system would round the Tax Amount based on the \nrounding parameters for the Tax Amount\nNext, the Inverse Basis % would be applied on the Tax Amount\nAfter computing this amount, the system would apply the Customer Level Waiver. This \nwaiver would be maintained again as a separate maintenance in Oracle FLEXCUBE. \nThis is the % Tax Amount to be waived. First, the Waiver Amount from the original \namount would be calculated. Then, this would be subtracted from the original amount \nto arrive at the Tax Amount.\nAfter applying the Customer Level Waiver %, the system would round the Tax Amount again \nbased on the rounding parameters at the Tax Amount level. This would be the final tax amount \nto be deducted from the Account.\nFor example,\nConsider the following scenario:\nA deposit/account yields an interest of USD 152.\nTax rate is 30%\nBasis Percentage is 50%\nAvailable Tax Free Allowance Limit is USD 50\nCalculation and Tax Currency are EUR and 1 EUR = 1.13 USD.\nRounding Rule for both Calculation and Tax Currency is Truncate.\nCustomer Tax Group Waiver is defined as 20%\nThe tax computation would be as follows:\nTotal Interest Amount (Basis Amount) = USD 152\nAfter application of Basis Percentage, the Basis Amount would be USD 152 * (50/100) = USD \n76.\nAfter application of the Tax Free Allowance, the Basis Amount would be USD 76 – 50 = USD \n26.\nNow the Basis Amount would be converted into the Calculation Currency. Thus, the Basis \nAmount in EUR is USD 26 * 1.13 = EUR 29.38.\nSince the Rounding Rule is Truncate, the actual taxable amount would be EUR 29.\nThe tax amount computed would be EUR 29 * (30/100) = EUR 8.7"
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "2.10 A Note on Tax Processing for Rollovers",
+        "2.10.1 Specifying Rollover Tax Details for the product"
+      ],
+      "summary": "This page discusses tax processing for rollovers, including specifying tax details for products and contracts, as well as liquidating taxes upon rollover.",
+      "raw_text": "2-38\nOn applying the rounding rule (Truncate), the tax amount would be EUR 8.\nNow the Inverse of Basis Percentage would be applied to get the final tax amount. The final \ntax amount thus would be EUR 8 * (100/50) = EUR 16.\nNow the Customer Tax Group Waiver of 20% would be applied on the net tax amount. The \nwaived amount would thus be EUR 16 * (20/100) = EUR 3.2\nThus, the Net Tax Amount = EUR 16 – 3.2 = EUR 12.8.\nThis is the final tax amount. This tax amount would again be rounded using the tax currency \nrounding rule (Truncate). Thus the final tax amount to be charged to the customer would be \nequivalent of EUR 12.\n2.10 A Note on Tax Processing for Rollovers\nThis section contains the following topics:\nSection 2.10.1, \"Specifying Rollover Tax Details for the product\"\nSection 2.10.2, \"Liquidating tax (on principal) upon rollover\"\nSection 2.10.3, \"Specifying rollover tax details for the contract\"\n2.10.1 \nSpecifying Rollover Tax Details for the product\nInstead of liquidating a contract on maturity, you can roll it over into a new contract. The \noutstanding principal of the old contract can be rolled over with or without the interest \noutstanding on it. When a contract is rolled over (renewed), it is processed in the following \nmanner:\nOriginal contract is liquidated\nA new contract is initiated\nIn the Product Rollover Details screen, you should specify the following tax details:\nWhether tax has to be applied on the rolled-over contract\nFor tax to be applicable on a rolled-over contract:\nIt should be applicable to the product involving the contract \nIt should not have been waived for the original contract\nYou have to indicate whether tax has to be applied on the rolled-over contract also.\n2.10.2 \nLiquidating tax (on principal) upon rollover\nIf tax is applied on the principal of a contract at the time of its initiation, when you roll over the \ncontract you have two choices in the treatment of tax.\nApply tax on the principal (outstanding principal + outstanding interest, or, only the \noutstanding principal depends on your specifications) of the new contract.\nSince the principal of the old contract has already been taxed, you can choose to waive \ntax on the principal of the rolled-over contract. However, if this principal has an \noutstanding interest, from the old contract incorporated in it, then only this portion (the \noutstanding interest portion which is now a part of the principal), will be taxed.\nThis option applies only to tax on principal and not to tax on interest\nThis field assumes importance only under the following circumstances:\nTax (for principal as well as interest) has not been waived on the old contract"
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "Specifying rollover tax details for the contract",
+        "Specifying Exemption of Tax on Interest Earned on Deposits"
+      ],
+      "summary": "This page discusses how to specify tax details for rolled-over contracts and deposit interest retention tax (DIRT) exemptions.",
+      "raw_text": "2-39\nTax, has not been waived on the rolled-over contract\n2.10.3 \nSpecifying rollover tax details for the contract\nWhile specifying rollover details for the contract, you should indicate the following:\nWhether tax has to be applied on the contract\nYou have specified for the product whether tax has to be applied on a rolled-over contract. \nIf you have opted to apply tax on the rolled-over contract, through this screen, you can waive \nit for the rolled-over contract.\nLiquidating Tax on Rollover\nIf you have specified for the product that tax on the principal of rolled-over contracts should \nbe liquidated, then this attribute applies to all the contracts involving the product. But through \nthis screen, you can specify that tax (on the entire principal) should not be liquidated for a \ncontract that you are processing. \nIf you have specified, for the product, that tax on the principal of rolled-over contracts should \nnot be liquidated, then this attribute applies to all the contracts (involving the product). \nThrough this screen, you can make tax applicable on the principal of the rolled-over contract.\n2.11 Specifying Exemption of Tax on Interest Earned on \nDeposits\nThis section contains the following topics:\nSection 2.11.1, \"Features of Application of DIRT\"\nSection 2.11.2, \"Exempting DIRT on Interest on Deposits\"\n2.11.1 \nFeatures of Application of DIRT\nDeposit Interest Retention Tax (DIRT) is payable on interest earned on deposits. This is \ndeducted by the bank in the form of withholding tax. \nNormally, you will deduct DIRT for all customers. However, regulations may require you to \nwaive DIRT for deposits held by certain customer categories. Customers belonging to such \ncategories will typically produce relevant exemption certificates from tax authorities.\nDIRT is to be deducted by you for a deposit till such time as the customer produces the \nexemption certificate and again beyond the validity of the exemption certificate. Therefore, it \nis possible for a deposit to keep moving in and out of DIRT exempt status. Such movements \nare tracked by Oracle FLEXCUBE’s audit trail.\nNote\nDIRT exemption is always with prospective, and not retrospective, effect.\nFor example,\nThe Sisters of Charity, a customer belonging to the DIRT exempt category opens a three-year \nterm deposit on 01-Jan-2003, but does not produce the exemption certificate immediately. \nAt the time of yearly capitalization, on 31-Dec-2003, DIRT is deducted from the interest on the \ndeposit and the net amount (Principal + Accrued Interest – DIRT) is capitalized."
+    },
+    {
+      "page_number": 46,
+      "sections": [],
+      "summary": "This page discusses the DIRT (Depositors Interest Retention Tax) exemption certificate issued by The Sisters of Charity and provides instructions on how to exempt interest on deposits from DIRT.",
+      "raw_text": "2-40\nThe Sisters of Charity produces the exemption certificate on 15-Jan-2004, the certificate \nbeing valid from 01-Jul-2003. The DIRT deducted for the year ended 31-Dec-2003 is not \nrolled back. DIRT exemption applies for the period starting 15-Jan-2004.\nThe exemption certificate produced by The Sisters of Charity is valid up to 15-Aug-2004. DIRT \nbecomes applicable once again from 16-Aug-2004. So, the amount rolled over during yearly \ncapitalization on 31-Dec-2004 is:\nRolled-over amount as on 31-Dec-2003 + Interest for the year 2004 – DIRT for the period 01-\nJan-2004 to 14-Jan-2004 – DIRT for the period 16-Aug-2004 to 31-Dec-2004.\n2.11.2 \nExempting DIRT on Interest on Deposits\nFor marking term deposit contracts as DIRT exempt, invoke the ‘DIRT Exemption Details’ \nscreen from the Application Browser. You can invoke this screen by typing ‘TADACMNT’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nFrom the list of values, select the contract that you wish to specify as DIRT exempt. Those \ntax components attached to the contract, for which the ‘exemption allowed’ option has been \nselected while maintaining tax rules, are displayed. \nRefer to the Specifying Tax Exemption section earlier in this chapter for details on marking \ntax components for exemption.\nSelect the components that you wish to be waived for the deposit. For each component that \nyou mark off as waived, you can select a reason from the pre-shipped list of values and also \nenter additional information as text."
+    },
+    {
+      "page_number": 47,
+      "sections": [],
+      "summary": "This page lists various Function IDs and their corresponding page numbers in a glossary.",
+      "raw_text": "3-1\n3. Function ID Glossary\nT\nTADACMNT ....................2-40\nTADCATG .........................2-2\nTADFATTX ......................2-13\nTADRATE .......................2-24\nTADRTCD ....................... 2-24\nTADRULEM ...................... 2-5\nTADSCHEM ...........2-27, 2-30\nTADTAXCL ..................... 2-19\nTASFATTX ...................... 2-15"
+    }
+  ]
+}

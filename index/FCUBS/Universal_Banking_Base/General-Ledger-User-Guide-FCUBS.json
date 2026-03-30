@@ -1,0 +1,1688 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/General-Ledger-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 63,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's preface and outlines the general ledger overview and chart of accounts setup sections.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's General Ledger sub-system, detailing its purpose, target audience, and organization structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's General Ledger sub-system, detailing its purpose, target audience, and organization structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's General Ledger sub-system, detailing its purpose, target audience, and organization structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's General Ledger sub-system, detailing its purpose, target audience, and organization structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's General Ledger sub-system, detailing its purpose, target audience, and organization structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. General Ledger - An Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features of GL Sub-system",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Need to Invoke GL Sub-system",
+          "start_page": 8
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page outlines the related documents, glossaries, and chapters that cover various procedures such as maintaining reporting lines, defining alternate reporting structures, and handling error codes in a user manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page outlines the related documents, glossaries, and chapters that cover various procedures such as maintaining reporting lines, defining alternate reporting structures, and handling error codes in a user manual.",
+      "cross_references": [
+        {
+          "structure": "10",
+          "title": "9. Error Codes and Messages",
+          "start_page": 55
+        },
+        {
+          "structure": "9",
+          "title": "8. Maintaining GL Balance Transfer",
+          "start_page": 51
+        },
+        {
+          "structure": "9.1",
+          "title": "8.1 GL Balance Transfer Maintenance",
+          "start_page": 51
+        },
+        {
+          "structure": "9.1.1",
+          "title": "8.1.1 Maintaining GL Balance Transfer Details",
+          "start_page": 51
+        },
+        {
+          "structure": "9.2",
+          "title": "8.2 Balance Transfer Batch GL",
+          "start_page": 52
+        },
+        {
+          "structure": "9.2.1",
+          "title": "8.2.1 Querying GL Balances",
+          "start_page": 52
+        },
+        {
+          "structure": "6",
+          "title": "5. Defining Alternate Reporting Lines",
+          "start_page": 34
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Alternate Reporting Line",
+          "start_page": 34
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Maintaining Alternate Reporting Line",
+          "start_page": 34
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 GL Central Bank Line Linkage Maintenance",
+          "start_page": 35
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Linking GL to CB Line",
+          "start_page": 35
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Operations on GL Code to CB Line Linkage Record",
+          "start_page": 36
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 GL MIS Linkages",
+          "start_page": 36
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Linking GL to MIS Class",
+          "start_page": 36
+        },
+        {
+          "structure": "6.3.2",
+          "title": "5.3.2 Operations on GL MIS Linkages Record",
+          "start_page": 37
+        },
+        {
+          "structure": "11",
+          "title": "10. Glossary",
+          "start_page": 4
+        },
+        {
+          "structure": "11.1",
+          "title": "10.1 General Ledger Terms",
+          "start_page": 4
+        },
+        {
+          "structure": "4",
+          "title": "3. Setting up Chart of Accounts",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Chart of Account Maintenance",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Chart of Account",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 GL Details Tab",
+          "start_page": 11
+        },
+        {
+          "structure": "4.1.3",
+          "title": "3.1.3 GL Linkages Tab",
+          "start_page": 18
+        },
+        {
+          "structure": "4.1.4",
+          "title": "3.1.4 GL Lines Tab",
+          "start_page": 19
+        },
+        {
+          "structure": "4.1.5",
+          "title": "3.1.5 Other GL Linked to this Parent Button",
+          "start_page": 21
+        },
+        {
+          "structure": "4.1.6",
+          "title": "3.1.6 Statement Button",
+          "start_page": 24
+        },
+        {
+          "structure": "4.1.7",
+          "title": "3.1.7 IBAN Account Number Button",
+          "start_page": 27
+        },
+        {
+          "structure": "4.1.8",
+          "title": "3.1.8 Position GL Maintenance Button",
+          "start_page": 27
+        },
+        {
+          "structure": "4.1.9",
+          "title": "3.1.9 BIC Button",
+          "start_page": 28
+        },
+        {
+          "structure": "4.1.10",
+          "title": "3.1.10 Viewing Chart of Accounts Maintenance Details",
+          "start_page": 28
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Reposting of FCY Entries for Realized P&L GLs in LCY",
+          "start_page": 30
+        },
+        {
+          "structure": "5",
+          "title": "4. Maintaining Reporting Line Structure",
+          "start_page": 32
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Reporting Line",
+          "start_page": 32
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Maintaining Reporting Line",
+          "start_page": 32
+        },
+        {
+          "structure": "8",
+          "title": "7. Enterprise GL Integration",
+          "start_page": 44
+        },
+        {
+          "structure": "8.1",
+          "title": "7.1 Enterprise GL Extraction Infrastructure",
+          "start_page": 44
+        },
+        {
+          "structure": "8.1.1",
+          "title": "7.1.1 Processing Data Extraction",
+          "start_page": 44
+        },
+        {
+          "structure": "8.1.2",
+          "title": "7.1.2 Maintaining Enterprise GL Parameters",
+          "start_page": 44
+        },
+        {
+          "structure": "8.2",
+          "title": "7.2 Enterprise GL Mapping Parameters",
+          "start_page": 46
+        },
+        {
+          "structure": "8.2.1",
+          "title": "7.2.1 Specifying Enterprise GL Mapping Parameters",
+          "start_page": 46
+        },
+        {
+          "structure": "8.2.2",
+          "title": "7.2.2 Defining Enterprise GL Master",
+          "start_page": 47
+        },
+        {
+          "structure": "8.2.3",
+          "title": "7.2.3 Specifying Values for Mapping Parameters",
+          "start_page": 49
+        },
+        {
+          "structure": "8.2.4",
+          "title": "7.2.4 Data Extraction Processing",
+          "start_page": 49
+        },
+        {
+          "structure": "8.2.5",
+          "title": "7.2.5 Handoff Generation",
+          "start_page": 50
+        },
+        {
+          "structure": "7",
+          "title": "6. GL Report Classification on MIS Class",
+          "start_page": 38
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 MIS Class Maintenance",
+          "start_page": 39
+        },
+        {
+          "structure": "7.1.1",
+          "title": "6.1.1 Maintaining MIS Class",
+          "start_page": 39
+        },
+        {
+          "structure": "7.1.2",
+          "title": "6.1.2 Saving the record",
+          "start_page": 40
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 General Ledger Branch Parameters",
+          "start_page": 40
+        },
+        {
+          "structure": "7.2.1",
+          "title": "6.2.1 Maintaining GL Branch Parameters",
+          "start_page": 41
+        },
+        {
+          "structure": "7.3",
+          "title": "6.3 General Ledger Class Maintenance",
+          "start_page": 42
+        },
+        {
+          "structure": "7.3.1",
+          "title": "6.3.1 Maintaining GL Class",
+          "start_page": 42
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. General Ledger - An Overview",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the General Ledger sub-system in Oracle FLEXCUBE, explaining its structure and functionality.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the General Ledger sub-system in Oracle FLEXCUBE, explaining its structure and functionality.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Features of GL Sub-system",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page provides an overview of the General Ledger sub-system in Oracle FLEXCUBE, explaining its structure and functionality.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Need to Invoke GL Sub-system",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page discusses the categorization of information into Multi-Instance System (MIS) classes for reporting purposes and provides options for information retrieval through various report definitions and consolidation at different branch levels.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Setting up Chart of Accounts",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page discusses the multilevel structure of the Chart of Accounts in Oracle FLEXCUBE and outlines sections related to its maintenance and reposting of entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Chart of Account Maintenance",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page discusses the multilevel structure of the Chart of Accounts in Oracle FLEXCUBE and outlines sections related to its maintenance and reposting of entries.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features of GL Sub-system",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Maintaining Chart of Account",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page discusses how to maintain chart of accounts in Oracle FLEXCUBE, including entering GL code, external code, description, and alternate GL code.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 GL Details Tab",
+      "start_page": 11,
+      "end_page": 18,
+      "summary": "This section explains how to define details for a GL using the GL Details tab and specifies the fields that can be captured depending on the type of GL being created.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.3",
+      "title": "3.1.3 GL Linkages Tab",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page discusses reconciliation preferences for GL entries and how to define linkages for a GL in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.4",
+      "title": "3.1.4 GL Lines Tab",
+      "start_page": 19,
+      "end_page": 21,
+      "summary": "This page explains how to set up parent general ledger (GL) relationships, specify year-end profit and loss accounts for posting income and expenses, and identify previous year adjustment GLs for unrealized income and expense entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.5",
+      "title": "3.1.5 Other GL Linked to this Parent Button",
+      "start_page": 21,
+      "end_page": 24,
+      "summary": "This page explains how to associate general ledger accounts with debit and credit reporting lines for both central bank and head office reporting purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.6",
+      "title": "3.1.6 Statement Button",
+      "start_page": 24,
+      "end_page": 27,
+      "summary": "This page discusses how to generate a periodic statement of accounts for transactions involving newly defined General Ledger (GL) in the Chart of Accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.7",
+      "title": "3.1.7 IBAN Account Number Button",
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This page discusses how to manage account statement details and maintain clearing account numbers and position GLs in a chart of accounts for statutory reporting and payment processing purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.8",
+      "title": "3.1.8 Position GL Maintenance Button",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This page discusses how to manage account statement details and maintain clearing account numbers and position GLs in a chart of accounts for statutory reporting and payment processing purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.9",
+      "title": "3.1.9 BIC Button",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page explains how to maintain Position General Ledger (GL) settings and link SWIFT BICs for leaf GL accounts in the Chart of Accounts screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.10",
+      "title": "3.1.10 Viewing Chart of Accounts Maintenance Details",
+      "start_page": 28,
+      "end_page": 30,
+      "summary": "This page explains how to maintain Position General Ledger (GL) settings and link SWIFT BICs for leaf GL accounts in the Chart of Accounts screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Reposting of FCY Entries for Realized P&L GLs in LCY",
+      "start_page": 30,
+      "end_page": 32,
+      "summary": "This page discusses the reposting of foreign currency (FCY) entries for realized profit and loss general ledger accounts in local currency (LCY), including the necessary batch processes and conditions under which revaluation occurs.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Maintaining Reporting Line Structure",
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This page explains how to set up reporting lines for Head Office and Central Bank purposes in Oracle FLEXCUBE, allowing a different structure from the regular GL structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Reporting Line",
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This page explains how to set up reporting lines for Head Office and Central Bank purposes in Oracle FLEXCUBE, allowing a different structure from the regular GL structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Maintaining Reporting Line",
+      "start_page": 32,
+      "end_page": 34,
+      "summary": "This page explains how to set up reporting lines for Head Office and Central Bank purposes in Oracle FLEXCUBE, allowing a different structure from the regular GL structure.",
+      "cross_references": [
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Chart of Account",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Chart of Account Maintenance",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 GL Details Tab",
+          "start_page": 11
+        },
+        {
+          "structure": "4.1.3",
+          "title": "3.1.3 GL Linkages Tab",
+          "start_page": 18
+        },
+        {
+          "structure": "4.1.4",
+          "title": "3.1.4 GL Lines Tab",
+          "start_page": 19
+        },
+        {
+          "structure": "4.1.5",
+          "title": "3.1.5 Other GL Linked to this Parent Button",
+          "start_page": 21
+        },
+        {
+          "structure": "4.1.6",
+          "title": "3.1.6 Statement Button",
+          "start_page": 24
+        },
+        {
+          "structure": "4.1.7",
+          "title": "3.1.7 IBAN Account Number Button",
+          "start_page": 27
+        },
+        {
+          "structure": "4.1.8",
+          "title": "3.1.8 Position GL Maintenance Button",
+          "start_page": 27
+        },
+        {
+          "structure": "4.1.9",
+          "title": "3.1.9 BIC Button",
+          "start_page": 28
+        },
+        {
+          "structure": "4.1.10",
+          "title": "3.1.10 Viewing Chart of Accounts Maintenance Details",
+          "start_page": 28
+        }
+      ]
+    },
+    {
+      "structure": "6",
+      "title": "5. Defining Alternate Reporting Lines",
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "This page explains how to define alternate reporting lines for Head Office and Central Bank purposes in Oracle FLEXCUBE, including the process of maintaining these lines through the 'Reporting Line Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Alternate Reporting Line",
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "This page explains how to define alternate reporting lines for Head Office and Central Bank purposes in Oracle FLEXCUBE, including the process of maintaining these lines through the 'Reporting Line Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.1",
+      "title": "5.1.1 Maintaining Alternate Reporting Line",
+      "start_page": 34,
+      "end_page": 35,
+      "summary": "This page explains how to define alternate reporting lines for Head Office and Central Bank purposes in Oracle FLEXCUBE, including the process of maintaining these lines through the 'Reporting Line Maintenance' screen.",
+      "cross_references": [
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Maintaining Reporting Line",
+          "start_page": 32
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Reporting Line",
+          "start_page": 32
+        }
+      ]
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 GL Central Bank Line Linkage Maintenance",
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "This page explains how to specify details for Head Office and Central Bank reporting lines, including codes, descriptions, types, categories, and parent line codes, and provides instructions on linking general ledger (GL) accounts to Central Bank (CB) lines.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.1",
+      "title": "5.2.1 Linking GL to CB Line",
+      "start_page": 35,
+      "end_page": 36,
+      "summary": "This page explains how to specify details for Head Office and Central Bank reporting lines, including codes, descriptions, types, categories, and parent line codes, and provides instructions on linking general ledger (GL) accounts to Central Bank (CB) lines.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.2",
+      "title": "5.2.2 Operations on GL Code to CB Line Linkage Record",
+      "start_page": 36,
+      "end_page": 36,
+      "summary": "This page discusses operations that can be performed on GL code to CB line linkage records and introduces the concept of linking general ledger codes to management information (MIS) classes for generating reports.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3",
+      "title": "5.3 GL MIS Linkages",
+      "start_page": 36,
+      "end_page": 36,
+      "summary": "This page discusses operations that can be performed on GL code to CB line linkage records and introduces the concept of linking general ledger codes to management information (MIS) classes for generating reports.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.1",
+      "title": "5.3.1 Linking GL to MIS Class",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page discusses operations that can be performed on GL code to CB line linkage records and introduces the concept of linking general ledger codes to management information (MIS) classes for generating reports.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.2",
+      "title": "5.3.2 Operations on GL MIS Linkages Record",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page describes how to invoke and operate on the 'GL MIS Linkage Maintenance' screen, including methods for creating, amending, authorizing, copying, closing, reopening, printing, and deleting records.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. GL Report Classification on MIS Class",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This page explains how to manage and classify information in a Management Information System (MIS) by using classes and categories, specifically for loan disbursement reports.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 MIS Class Maintenance",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This section explains how to maintain MIS classes in Oracle FLEXCUBE by using the 'MIS Class Maintenance' screen and provides details on maintaining class codes and descriptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.1",
+      "title": "6.1.1 Maintaining MIS Class",
+      "start_page": 39,
+      "end_page": 40,
+      "summary": "This section explains how to maintain MIS classes in Oracle FLEXCUBE by using the 'MIS Class Maintenance' screen and provides details on maintaining class codes and descriptions.",
+      "cross_references": [
+        {
+          "structure": "6.2",
+          "title": "5.2 GL Central Bank Line Linkage Maintenance",
+          "start_page": 35
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Linking GL to CB Line",
+          "start_page": 35
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Operations on GL Code to CB Line Linkage Record",
+          "start_page": 36
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 GL MIS Linkages",
+          "start_page": 36
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Linking GL to MIS Class",
+          "start_page": 36
+        },
+        {
+          "structure": "6.3.2",
+          "title": "5.3.2 Operations on GL MIS Linkages Record",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Maintaining Alternate Reporting Line",
+          "start_page": 34
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Alternate Reporting Line",
+          "start_page": 34
+        }
+      ]
+    },
+    {
+      "structure": "7.1.2",
+      "title": "6.1.2 Saving the record",
+      "start_page": 40,
+      "end_page": 40,
+      "summary": "This page explains the different types of MIS classes in Oracle FLEXCUBE and their characteristics, including transaction class, customer class, composite class, fund class, mandatory entry requirement, and sub-divisions through MIS codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 General Ledger Branch Parameters",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This page explains the different types of MIS classes in Oracle FLEXCUBE and their characteristics, including transaction class, customer class, composite class, fund class, mandatory entry requirement, and sub-divisions through MIS codes.",
+      "cross_references": [
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Linking GL to CB Line",
+          "start_page": 35
+        }
+      ]
+    },
+    {
+      "structure": "7.2.1",
+      "title": "6.2.1 Maintaining GL Branch Parameters",
+      "start_page": 41,
+      "end_page": 42,
+      "summary": "This page explains how to maintain General Ledger branch parameters in Oracle FLEXCUBE, including setting up branch identification details and batch processing specifics.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3",
+      "title": "6.3 General Ledger Class Maintenance",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page discusses settings for data retention and processing in a GL-MIS system, including account statement retention days, automatic batch process scheduling, and average balance computation methods.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.1",
+      "title": "6.3.1 Maintaining GL Class",
+      "start_page": 42,
+      "end_page": 44,
+      "summary": "This page discusses settings for data retention and processing in a GL-MIS system, including account statement retention days, automatic batch process scheduling, and average balance computation methods.",
+      "cross_references": [
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Linking GL to MIS Class",
+          "start_page": 36
+        }
+      ]
+    },
+    {
+      "structure": "8",
+      "title": "7. Enterprise GL Integration",
+      "start_page": 44,
+      "end_page": 44,
+      "summary": "This page discusses the infrastructure and process for extracting accounting data from Oracle FLEXCUBE to an external enterprise GL system.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1",
+      "title": "7.1 Enterprise GL Extraction Infrastructure",
+      "start_page": 44,
+      "end_page": 44,
+      "summary": "This page discusses the infrastructure and process for extracting accounting data from Oracle FLEXCUBE to an external enterprise GL system.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1.1",
+      "title": "7.1.1 Processing Data Extraction",
+      "start_page": 44,
+      "end_page": 44,
+      "summary": "This page discusses the infrastructure and process for extracting accounting data from Oracle FLEXCUBE to an external enterprise GL system.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1.2",
+      "title": "7.1.2 Maintaining Enterprise GL Parameters",
+      "start_page": 44,
+      "end_page": 46,
+      "summary": "This page discusses the infrastructure and process for extracting accounting data from Oracle FLEXCUBE to an external enterprise GL system.",
+      "cross_references": [
+        {
+          "structure": "7.1",
+          "title": "6.1 MIS Class Maintenance",
+          "start_page": 39
+        },
+        {
+          "structure": "7.1.1",
+          "title": "6.1.1 Maintaining MIS Class",
+          "start_page": 39
+        },
+        {
+          "structure": "7.1.2",
+          "title": "6.1.2 Saving the record",
+          "start_page": 40
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 General Ledger Branch Parameters",
+          "start_page": 40
+        },
+        {
+          "structure": "7.2.1",
+          "title": "6.2.1 Maintaining GL Branch Parameters",
+          "start_page": 41
+        }
+      ]
+    },
+    {
+      "structure": "8.2",
+      "title": "7.2 Enterprise GL Mapping Parameters",
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This page discusses external suspense GLs used for invalid accounting entries and enterprise GL mapping parameters including how to specify mappings and invoke the relevant screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.2.1",
+      "title": "7.2.1 Specifying Enterprise GL Mapping Parameters",
+      "start_page": 46,
+      "end_page": 47,
+      "summary": "This page discusses external suspense GLs used for invalid accounting entries and enterprise GL mapping parameters including how to specify mappings and invoke the relevant screen.",
+      "cross_references": [
+        {
+          "structure": "7.2.1",
+          "title": "6.2.1 Maintaining GL Branch Parameters",
+          "start_page": 41
+        }
+      ]
+    },
+    {
+      "structure": "8.2.2",
+      "title": "7.2.2 Defining Enterprise GL Master",
+      "start_page": 47,
+      "end_page": 49,
+      "summary": "This page discusses how to specify and define mapping parameters for effective date, branch code, transaction MIS, customer MIS, composite MIS, and enterprise GL master in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.2.3",
+      "title": "7.2.3 Specifying Values for Mapping Parameters",
+      "start_page": 49,
+      "end_page": 49,
+      "summary": "This page explains how to specify values for mapping parameters in a system, including selecting branch codes and defining transaction, customer, and composite MIS codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.2.4",
+      "title": "7.2.4 Data Extraction Processing",
+      "start_page": 49,
+      "end_page": 50,
+      "summary": "This page explains how to specify values for mapping parameters in a system, including selecting branch codes and defining transaction, customer, and composite MIS codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.2.5",
+      "title": "7.2.5 Handoff Generation",
+      "start_page": 50,
+      "end_page": 51,
+      "summary": "This page describes processes for identifying and mapping internal and customer accounting entries to external general ledger codes, emphasizing the importance of running these processes during specific windows.",
+      "cross_references": []
+    },
+    {
+      "structure": "9",
+      "title": "8. Maintaining GL Balance Transfer",
+      "start_page": 51,
+      "end_page": 51,
+      "summary": "This page discusses how to maintain balance transfers between branches and head office GLs, including details on using a specific screen for this process.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.1",
+      "title": "8.1 GL Balance Transfer Maintenance",
+      "start_page": 51,
+      "end_page": 51,
+      "summary": "This page discusses how to maintain balance transfers between branches and head office GLs, including details on using a specific screen for this process.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.1.1",
+      "title": "8.1.1 Maintaining GL Balance Transfer Details",
+      "start_page": 51,
+      "end_page": 52,
+      "summary": "This page discusses how to maintain balance transfers between branches and head office GLs, including details on using a specific screen for this process.",
+      "cross_references": [
+        {
+          "structure": "8.1.1",
+          "title": "7.1.1 Processing Data Extraction",
+          "start_page": 44
+        },
+        {
+          "structure": "8.1",
+          "title": "7.1 Enterprise GL Extraction Infrastructure",
+          "start_page": 44
+        },
+        {
+          "structure": "8.1.2",
+          "title": "7.1.2 Maintaining Enterprise GL Parameters",
+          "start_page": 44
+        },
+        {
+          "structure": "8.2",
+          "title": "7.2 Enterprise GL Mapping Parameters",
+          "start_page": 46
+        },
+        {
+          "structure": "8.2.1",
+          "title": "7.2.1 Specifying Enterprise GL Mapping Parameters",
+          "start_page": 46
+        },
+        {
+          "structure": "8.2.2",
+          "title": "7.2.2 Defining Enterprise GL Master",
+          "start_page": 47
+        },
+        {
+          "structure": "8.2.3",
+          "title": "7.2.3 Specifying Values for Mapping Parameters",
+          "start_page": 49
+        },
+        {
+          "structure": "8.2.4",
+          "title": "7.2.4 Data Extraction Processing",
+          "start_page": 49
+        },
+        {
+          "structure": "8.2.5",
+          "title": "7.2.5 Handoff Generation",
+          "start_page": 50
+        }
+      ]
+    },
+    {
+      "structure": "9.2",
+      "title": "8.2 Balance Transfer Batch GL",
+      "start_page": 52,
+      "end_page": 52,
+      "summary": "This page describes how to select transaction codes and GL codes for transferring balances between branches and head office, and outlines the process of querying GL balances as part of a balance transfer batch.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.2.1",
+      "title": "8.2.1 Querying GL Balances",
+      "start_page": 52,
+      "end_page": 55,
+      "summary": "This page describes how to select transaction codes and GL codes for transferring balances between branches and head office, and outlines the process of querying GL balances as part of a balance transfer batch.",
+      "cross_references": [
+        {
+          "structure": "8.2.1",
+          "title": "7.2.1 Specifying Enterprise GL Mapping Parameters",
+          "start_page": 46
+        }
+      ]
+    },
+    {
+      "structure": "10",
+      "title": "9. Error Codes and Messages",
+      "start_page": 55,
+      "end_page": 4,
+      "summary": "This page lists various error codes and their corresponding messages related to GL (General Ledger) operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "11",
+      "title": "10. Glossary",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page discusses various aspects of maintaining general ledger (GL) classes, enterprise GL integration, extraction infrastructure, mapping parameters, and balance transfer details.",
+      "cross_references": []
+    },
+    {
+      "structure": "11.1",
+      "title": "10.1 General Ledger Terms",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page discusses various aspects of maintaining general ledger (GL) classes, enterprise GL integration, extraction infrastructure, mapping parameters, and balance transfer details.",
+      "cross_references": []
+    },
+    {
+      "structure": "12",
+      "title": "11. Function ID Glossary",
+      "start_page": 4,
+      "end_page": 6,
+      "summary": "This page discusses various aspects of maintaining general ledger (GL) classes, enterprise GL integration, extraction infrastructure, mapping parameters, and balance transfer details.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. General Ledger - An Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features of GL Sub-system",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Need to Invoke GL Sub-system",
+          "start_page": 8
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking General Ledger, version 14.7.0.0.0, released in November 2022.",
+      "raw_text": "General Ledger User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "General ledger User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "General Ledger - An Overview",
+        "Setting up Chart of Accounts"
+      ],
+      "summary": "This page introduces the document's preface and outlines the general ledger overview and chart of accounts setup sections.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nGeneral Ledger - An Overview ............................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nFeatures of GL Sub-system.....................................................................................  2-1\n2.3 \nNeed to Invoke GL Sub-system...............................................................................  2-2\n3. \nSetting up Chart of Accounts ................................................................. 3-1\n3.1 \nChart of Account Maintenance ................................................................................  3-1\n3.1.1  \nMaintaining Chart of Account .....................................................................  3-2\n3.1.2  \nGL Details Tab............................................................................................  3-3\n3.1.3  \nGL Linkages Tab ......................................................................................  3-10\n3.1.4  \nGL Lines Tab............................................................................................  3-11\n3.1.5  \nOther GL Linked to this Parent Button......................................................  3-13\n3.1.6  \nStatement Button......................................................................................  3-16\n3.1.7  \nIBAN Account Number Button..................................................................  3-19\n3.1.8  \nPosition GL Maintenance Button..............................................................  3-19\n3.1.9  \nBIC Button ................................................................................................  3-20\n3.1.10  Viewing Chart of Accounts Maintenance Details......................................  3-20\n3.2 \nReposting of FCY Entries for Realized P&L GLs in LCY.......................................  3-22\n4. \nMaintaining Reporting Line Structure ................................................... 4-1\n4.1 \nReporting Line .........................................................................................................  4-1\n4.1.1  \nMaintaining Reporting Line.........................................................................  4-1\n5. \nDefining Alternate Reporting Lines  ...................................................... 5-1\n5.1 \nAlternate Reporting Line..........................................................................................  5-1\n5.1.1  \nMaintaining Alternate Reporting Line .........................................................  5-1\n5.2 \nGL Central Bank Line Linkage Maintenance...........................................................  5-2\n5.2.1  \nLinking GL to CB Line.................................................................................  5-2\n5.2.2  \nOperations on GL Code to CB Line Linkage Record..................................  5-3\n5.3 \nGL MIS Linkages.....................................................................................................  5-3\n5.3.1  \nLinking GL to MIS Class.............................................................................  5-3\n5.3.2  \nOperations on GL MIS Linkages Record....................................................  5-4\n6. \nGL Report Classification on MIS Class ................................................. 6-1\n6.1 \nMIS Class Maintenance...........................................................................................  6-2\n6.1.1  \nMaintaining MIS Class................................................................................  6-2\n6.1.2  \nSaving the record .......................................................................................  6-3\n6.2 \nGeneral Ledger Branch Parameters........................................................................  6-3\n6.2.1  \nMaintaining GL Branch Parameters ...........................................................  6-4\n6.3 \nGeneral Ledger Class Maintenance........................................................................  6-5"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Maintaining GL Class",
+        "Enterprise GL Integration",
+        "Enterprise GL Extraction Infrastructure",
+        "Processing Data Extraction",
+        "Maintaining Enterprise GL Parameters",
+        "Enterprise GL Mapping Parameters",
+        "Specifying Enterprise GL Mapping Parameters",
+        "Defining Enterprise GL Master",
+        "Specifying Values for Mapping Parameters",
+        "Data Extraction Processing",
+        "Handoff Generation",
+        "Maintaining GL Balance Transfer",
+        "GL Balance Transfer Maintenance"
+      ],
+      "summary": "This page discusses various aspects of maintaining general ledger (GL) classes, enterprise GL integration, extraction infrastructure, mapping parameters, and balance transfer details.",
+      "raw_text": "6.3.1  \nMaintaining GL Class .................................................................................  6-5\n7. \nEnterprise GL Integration ....................................................................... 7-1\n7.1 \nEnterprise GL Extraction Infrastructure ...................................................................  7-1\n7.1.1  \nProcessing Data Extraction ........................................................................  7-1\n7.1.2  \nMaintaining Enterprise GL Parameters ......................................................  7-1\n7.2 \nEnterprise GL Mapping Parameters........................................................................  7-3\n7.2.1  \nSpecifying Enterprise GL Mapping Parameters .........................................  7-3\n7.2.2  \nDefining Enterprise GL Master ...................................................................  7-4\n7.2.3  \nSpecifying Values for Mapping Parameters ..............................................  7-6\n7.2.4  \nData Extraction Processing ........................................................................  7-6\n7.2.5  \nHandoff Generation ...................................................................................  7-7\n8. \n Maintaining GL Balance Transfer .......................................................... 8-1\n8.1 \nGL Balance Transfer Maintenance..........................................................................  8-1\n8.1.1  \nMaintaining GL Balance Transfer Details...................................................  8-1\n8.2 \nBalance Transfer Batch GL .....................................................................................  8-2\n8.2.1  \nQuerying GL Balances ...............................................................................  8-2\n9. \nError Codes and Messages .................................................................... 9-1\n10. Glossary ................................................................................................. 10-1\n10.1 General Ledger Terms ..........................................................................................  10-1\n11. Function ID Glossary ............................................................................. 11-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE's General Ledger sub-system, detailing its purpose, target audience, and organization structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis Manual is designed to help you quickly get acquainted with the General Ledger (GL) sub-\nsystem of Oracle FLEXCUBE.\nIt provides an overview to the module and takes you through the various steps involved in \nsetting up a GL structure and reporting details of the GLs maintained at your bank.\nThis user manual is a supplement to the Common Core - Core Entities and Services User \nManual and contains only specific functionalities and information related to Oracle FCUBS \nGeneral Ledger. Hence, this document should be read in conjunction with the Common Core \n- Core Entities and Services User Manual from the perspective of completeness in flow and \nunderstanding.\nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis Manual is organized into the following chapters:\nRole\nFunction\nOperations\nTo define the GL structure\nOperations Managers/Officers\nAuthorization functions\nFinancial Control\nTo generate reports on GLs\nMIS Operators\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nGeneral Ledger - An Overview is a snapshot of the features and \nfunctionality that the module provides.\nChapter 3\nSetting up Chart of Accounts details the procedure to set up a GL \nstructure for your bank."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Related Documents",
+        "Glossary of Icons",
+        "Chapter 4: Maintaining Reporting Line Structure",
+        "Chapter 5: Defining Alternate Reporting Lines",
+        "Chapter 6: GL Report Classification on MIS Class",
+        "Chapter 7: Enterprise GL Integration",
+        "Chapter 8: Maintaining GL Balance Transfer",
+        "Chapter 9: Error Codes and Messages for General Ledger",
+        "Chapter 10: Glossary",
+        "Chapter 11: Function ID Glossary"
+      ],
+      "summary": "This page outlines the related documents, glossaries, and chapters that cover various procedures such as maintaining reporting lines, defining alternate reporting structures, and handling error codes in a user manual.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nProcedures User Manual\nOperations User Manual\nCore Services User Manual\nCore Entities User Manual\nCommon Core - Core Entities and Services User Manual\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter 4\nMaintaining Reporting Line Structure describes the procedure for \ndefining an alternate reporting structure for your Head Office and \nCentral bank.\nChapter 5\nDefining Alternate Reporting Lines deals with the setting up of alter-\nnate reporting lines for GLs when a branch is located abroad.\nChapter 6\nGL Report Classification on MIS Class gives details on reports that \nbe generated based on MIS classes.\nChapter 7\nEnterprise GL Integration deals with extraction of accounting data \nfrom Oracle FLEXCUBE core GL system and mapping of the same \nto an enterprise GL external to the system.\nChapter 8\nMaintaining GL Balance Transfer explains about the process of \nmaintaining sweep instructions for transferring balance from branch \n“Stamp duty payable GL” to the head office GL.\nChapter 9\nError Codes and Messages for General Ledger deals with the vari-\nous error codes and messages that can be generated for the GL \nmodule.\nChapter 10\nGlossary defines the terms used in this manual.\nChapter 11\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "Feature"
+      ],
+      "summary": "This page provides an overview of the General Ledger sub-system in Oracle FLEXCUBE, explaining its structure and functionality.",
+      "raw_text": "2-1\n2. General Ledger - An Overview\n2.1 \nIntroduction\nThe General Ledger (GL) sub-system is the pillar on which the various functional components \nof Oracle FLEXCUBE rest. Through this single entity, you can consolidate and maintain \nbalances and turnovers of all types of accounts your bank holds. In addition, the module \nenables you to retrieve on-line information on the GLs maintained for your bank.\nIn Oracle FLEXCUBE, GLs have been structurally fashioned as a tree, bearing a multi-level \nstructure (like a tree’s main branch and sub-branches). On the head stands the Head GL that \ndoes not report to any other GL. The subsequent levels consist of Nodes and Leaves. A Node \nGL is one that reports to another GL and has other GLs reporting to it. A Leaf GL is one that \nreports to another GL but does not have any GL reporting to it.\nThe number of levels in the tree structure, and the various constituents of the head, nodes, \nand leaves have been left open to your choice, the only restriction being that a report will be \nrestricted to the number of levels that a 132-column paper can hold.\nThe GL structure for your bank has to be created at the bank level and maintained by different \nbranches. Using this structure, you can consolidate the GL balances and turnovers across \nmodules and products and retrieve on-line information on the same.\nThis chapter contains the following sections:\nSection 2.2, \"Features of GL Sub-system\"\nSection 2.3, \"Need to Invoke GL Sub-system\"\n2.2 \nFeatures of GL Sub-system\nFlexible GL structure\nKeeping in mind the different type of accounts maintained in your bank, GL has been broadly \nclassified into the following categories:\nAsset\nLiability\nExpense\nIncome\nContingent Asset\nContingent Liability\nMemo\nPosition\nPosition Equivalent\nA Head GL can be assigned any of the above categories. Two Head GLs can have the same \ncategory. All GLs that fall under a Head GL will essentially belong to the category defined for \nthe Head. Each category can have any number of GLs under it, but the category allocated to \na GL should be assigned at the head of any GL stream. All nodes and leaves by default take \nthe category of the Head GL to which they report. At no other level can you assign a category.\nLeaf GLs are merely points of contact through which all entries are passed to the nodes. It is \nat the nodes that consolidation of all accounting takes place. Therefore, any specification like \nthe Currency type or GL type though specified at the leaf GL will be applicable only for the"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Categorization into MIS Classes",
+        "Information Retrieval"
+      ],
+      "summary": "This page discusses the categorization of information into Multi-Instance System (MIS) classes for reporting purposes and provides options for information retrieval through various report definitions and consolidation at different branch levels.",
+      "raw_text": "2-2\nrespective node of that leaf. Peripheral activities like linking a customer account to a GL or \nposting to a GL can be done only at the leaf.\nAll your profit and loss entries can be passed in LCY only; however, for reporting purposes \nyou can also maintain a record of these in any FCY or even in all currencies. This makes it \npossible to have multi-currency GLs. Along with this, revaluation of currencies has also been \nprovided for.\nCategorization into MIS Classes\nThe sub-system enables you to categorize information into MIS Classes, which are \nexclusively for reporting purposes. This feature serves not only your need for classified \ninformation, but also helps simplify the GL structure of the bank.\nFor instance, you can categorize information by the defined Customer/Transaction MIS Class. \nUnder each type — Customer or Transaction you can create several MIS Classes and Sub-\nclasses. This is done at the Bank level and used by the different branches.\nInformation Retrieval\nYou have been provided with various report definition options, so that you can tailor your \nreport to suit your needs. In addition, the report generator helps you prepare reports in the \nformat of the Head Office and Central Bank debit/credit lines, which may be at variance with \nthe existing GL structure at the branch level.\nConsolidation of GLs can take place at different branch levels. That is, at the Regional Office \nor Head Office levels depending upon the branch structure that you have defined in the Core \nEntities Module. The final consolidation of all GLs is done at the Head Office where the total \nconsolidated GL is provided in a report. Even during consolidation, the break-up based on \nMIS Classes will be provided.\n2.3 \nNeed to Invoke GL Sub-system\nYou will need to invoke the General Ledger (GL) sub-system to:\nMaintain a General Ledger structure for your bank\nAvail of services provided by GL to different modules like EOD update of GL etc.\nInterface with the MIS System\nSet up Reporting lines and associate GLs to these debit and credit lines\nSpecify break up of GLs by either customer or transaction MIS Class\nRun Year-end P/L account on book closure\nExtract reports on GL data history\nObtain reports of General Ledgers for specific periods"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Chart of Account Maintenance",
+        "Reposting of FCY Entries for Realized P&L GLs in LCY"
+      ],
+      "summary": "This page discusses the multilevel structure of the Chart of Accounts in Oracle FLEXCUBE and outlines sections related to its maintenance and reposting of entries.",
+      "raw_text": "3-1\n3. Setting up Chart of Accounts\nOracle FLEXCUBE supports a multilevel structure for your bank’s Chart of Accounts. You can \ncreate broad groups of accounts in the categories of assets, liabilities, income, expenses, \netc., and further divide these groups into several levels. The groups at each of these levels \nare referred to as GLs. For instance, you can create a three level GL structure as follows:\nThe GLs at the lowermost level are referred to as Leaf GLs. The balances and turnovers of \nleaf GLs are consolidated at higher level GLs called Node GLs. The GL at the top of the \nstructure is referred to as the Head GL.\nIn the GL reporting hierarchy, a GL is a parent GL for GLs reporting to it. For instance, GL2 is \nthe parent of GL 5 and 6, and GL1 is the parent GL for GLs 2, 3, and 4. The reporting GLs, \nGLs 5 and 6 in the first instance, are referred to as child GLs of GL 2. Similarly, GLs 2, 3, and \n4 are child GLs with respect to GL1.\nThis multilevel GL structure can be maintained in the Chart of Accounts screen by the branch \nmarked as the Head Office of your bank.\nIn Oracle FLEXCUBE, the GL balances are stored as currency wise balances as well as \noverall balance in LCY on GL level. This enables currency-wise break up of each GL account. \nHowever overall balance in local currency is also available. \nThis chapter contains the following sections:\nSection 3.1, \"Chart of Account Maintenance\"\nSection 3.2, \"Reposting of FCY Entries for Realized P&L GLs in LCY\"\n3.1 \nChart of Account Maintenance\nThis section contains the following topics:\nSection 3.1.1, \"Maintaining Chart of Account\"\nSection 3.1.2, \"GL Details Tab\"\nSection 3.1.3, \"GL Linkages Tab\"\nSection 3.1.4, \"GL Lines Tab\"\nSection 3.1.5, \"Other GL Linked to this Parent Button\"\nSection 3.1.6, \"Statement Button\"\nSection 3.1.7, \"IBAN Account Number Button\""
+    },
+    {
+      "page_number": 10,
+      "sections": [],
+      "summary": "This page discusses how to maintain chart of accounts in Oracle FLEXCUBE, including entering GL code, external code, description, and alternate GL code.",
+      "raw_text": "3-2\nSection 3.1.8, \"Position GL Maintenance Button\"\nSection 3.1.9, \"BIC Button\"\nSection 3.1.10, \"Viewing Chart of Accounts Maintenance Details\"\n3.1.1 \nMaintaining Chart of Account\nYou can invoke the ‘Chart of Accounts Maintenance’ screen by typing ‘GLDCHACC’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button. \nTo define the details of a new GL, click new icon.\nGL Code\nIn Oracle FLEXCUBE, a GL is identified by a Code. The length and composition of the code \ndepends upon the GL Mask defined in the ‘Bank-wide Parameters’ Screen. The code that you \nenter can have a maximum of nine alphanumeric characters.\nExternal Code\nUsing External Code, you can upload the existing record into Oracle FLEXCUBE, when the \nrecord is loaded for the first time. The old GL code will be defaulted as external code and you \ncan enter new code and save it as well. External Code has to do nothing while entering new \nGL entries after installation of Oracle FLEXCUBE.\nDescription \nYou can enter a brief description to help identify the GL in this field. You can use this \ndescription for the internal reference of your bank.\nAlternate GL Code\nSpecify the Alternate GL code along with the GL code.\nThe system will check the GL nodes for it uniqueness and will not allow you to have more than \none node GL with the same alternate GL code. Special characters are not allowed in alternate \nGL code. You can specify the alternate GL code only if ALTGLNO feature is enabled.\nLeaf GL\nIn Oracle FLEXCUBE, a GL that you create can be one of the following:"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "GL Details Tab"
+      ],
+      "summary": "This section explains how to define details for a GL using the GL Details tab and specifies the fields that can be captured depending on the type of GL being created.",
+      "raw_text": "3-3\nNode GL\nLeaf GL\nA Node GL is one that reports to another GL and has other GLs reporting to it. In the reporting \nrelationship, if a GL reports to another GL, but no GLs report to it, then it is a Leaf GL. A Head \nGL is a Node that does not report to another GL.\nThe Chart of Accounts detailed screen is designed with four tabs. By invoking the screens that \ncorrespond with these tabs you can create GLs and maintain a GL structure of your bank.\nGL Details — In this screen, you can set up a GL, indicate its type, assign a category \nto the Head GL.\nGL Linkages — Click this tab to define the GLs that constitute your Chart of Accounts.\nReporting Lines — In this screen, you can define the debit and credit reporting lines \nfor leaf GLs. This helps to organize reports on the lines of your Head Office and Central \nBank.\n3.1.2 \nGL Details Tab\nTo define details for a GL, click on the tab titled GL Details. The details that you can specify \nfor a GL depend on the type of GL that you create. If a particular field is disabled, it means \nthat the field is not relevant to the type of GL that you are creating.\nYou can capture the GL Details in the following fields: \nGL Type\nFor both customer and internal GLs that you create, you should indicate the type. The GL type \nis indicative of the type of accounting entries that are posted into the GL. For a customer GL, \nthe GL type could be Normal, Misc. Debit, Misc. Credit, and Nostro. For an Internal GL, the \nGL type could be Normal, Misc. Debit, misc. Credit, cash, and inter-branch.\nThose GLs in which a debit entry is to be offset with multiple credit entries or a credit entry to \nbe offset with multiple debit entries should be assigned the Misc. Debit and Misc. Credit type \nrespectively."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "GL Category",
+        "Customer/Internal GL"
+      ],
+      "summary": "This page discusses how to categorize and define general ledger (GL) entries for bank accounts, including miscellaneous debit and credit entries, and specifies categories and types of GLs.",
+      "raw_text": "3-4\nMiscellaneous debit and credit entries should be associated with an instrument number. This \nwill ensure proper reconciliation of the debit and credit entries made to the GL. Choose this \noption to indicate that the GL should cater only to entries related to your bank s account with \nanother bank. All cash transactions, like in the Data Entry module, are posted directly into a \nGL by linking the GL with the Till ID. Choose this option to indicate that only interbranch \nrelated accounting entries can be posted to the GL.\nThe debit or credit entries of accounts that do not fall into any of the other types can be \nassigned to the Normal Type GL. The leaf GLs that you create will be taken as Normal Type \nby default.\nGL Category\nGL category can be specified only for a GL head. A Head GL can be assigned any of the \nfollowing categories:\nAsset\nLiability\nExpense\nIncome\nContingent Asset\nContingent Liability\nMemo\nPosition\nPosition Equivalent\nTwo Head GLs can have the same category. All GLs that fall under a Head GL will essentially \nbelong to the category defined for the Head. Each category can have any number of GLs \nunder it. But, the category allocated to a GL should be assigned at the head of any GL stream; \nall nodes and leaves by default take the category of the Head GL to which they report.\nCustomer/Internal GL\nA GL that you create in Oracle FLEXCUBE can be defined as a Customer or an Internal GL. \nInternal GLs are accounts that are internal to the bank, such as cash accounts, interest \nincome and expense accounts, and so on. These also comprise of customer account \nbalances from the front-end modules - Loans, Deposits, Money Market, etc. The customer \nsavings, current, and nostro accounts of your bank are opened under GLs designated as \ncustomer GLs. \nThe GL combinations that you can have include:\nAs indicated above, you can post direct entries (i.e., link it to your bank’s internal accounts) \nonly to internal leaf GLs. For internal and customer node GLs and customer leaf GLs, you \nwould associate accounts with them.\nGL type\nDirect posting of entries\nInternal Node\nNo\nCustomer Node\nNo\nInternal Leaf\nYes\nCustomer Leaf\nNo"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Avg Bal Required"
+      ],
+      "summary": "This section explains how Oracle FLEXCUBE computes and stores average balances for customer GLs, including considerations for holidays and backdated transactions.",
+      "raw_text": "3-5\nAvg Bal Required\nOracle FLEXCUBE will compute and store average balances for customer GLs on a daily \nbasis. However, the average balance computation is performed on the basis of transaction \ndated balance and any value dated adjustment will not be considered for this computation. \nIf a working day is followed by any holiday(s), the average balance computation will be done \nas per the specifications defined in the GL Branch Parameter Maintenance screen. That is, \nthe balance will either include the accumulated balance for the number of days inclusive of \nthe following holidays or the system will compute the balance on the next working day.\nNote\nThe system will compute and store average balances for customer GLs only if you select \nthe Avg Bal Required option. You will not be allowed to modify this option at a later date. \nThe balances will be computed on a daily basis and will be based only on booking dated \ntransactions.\nThe system will store debit, credit and net average balances in FCY as well as in LCY. \nNote\nIn the case of back dated transactions, the system will not update the average balances \nof previous periods.\nYou can query the average balances of customer GLs in the GL Average Balances screen. \nThe query can be done using the following, either individually or in combination:\nGL Code\nCurrency Code\nBranch\nFinancial Year\nPeriod Code\nNote\n– \nThe computation can be enabled only for internal leaf GLs. If you enable this option \nthe system will compute average balance for GLs as part of EOD processing. The \naverage balance will be computed on the Book-Dated balance. The Debit, Credit \nand Net average balances in FCY as well as LCY will be stored. \n– \nBack-period entries do not affect average balance retrospectively. \n– \nComputation includes the effect of revaluation entries and fin-closure entries. \n– \nData is stored and displayed as Period-to-Date and Year-to-Date figures. \n– \nComputation can be based on the Next Working Day-1 or System Date as specified \nin the GL Branch Parameters screen. If the average balance calculation basis is \n‘NWD-1’, the balances of holidays will be included in the previous working day. If \nthe calculation basis is System Date, the balances of holidays will be included on \nthe next working day provided the next working day is in the same period. If the ba-\nsis is System Date but the next working day is in the next period, the holidays will \nbe considered during the current run."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Report As Accrual",
+        "Revaluation",
+        "Transfer Balance on MIS Reclassification",
+        "Blocked"
+      ],
+      "summary": "This page describes settings for GL (General Ledger) configurations in a financial system, including accrual reporting, revaluation of balances, transfer of balances during reclassification, and blocking of GL entries.",
+      "raw_text": "3-6\nReport As Accrual\nCheck against this field if you want the system to calculate the accrual entries posted to this \nGL independently for displaying during the online query of FX positions. Depending on your \nselection in this field, system will arrive at the cash and accrual positions. \nRevaluation\nSpecify whether currency revaluation is applicable to the GL. Check against the Revaluation \noption to indicate that the GL should be revalued. Leave it unchecked to indicate otherwise. \nYou can revalue the balances of asset, liability, contingent asset, and contingent liability GLs. \nYou can also revalue the balances in Income / Expense GLs. If you indicate that revaluation \nis applicable, Oracle FLEXCUBE will revalue the GL when the End of Day (EOD) process is \nrun.\nNote\nIf transaction entry happens on STANDARD rate then the system does not post any reval-\nuation, even though you have enabled revaluation for the GL002C\nTransfer Balance on MIS Reclassification\nIndicate whether the MIS balances in the GL must be transferred, upon MIS reclassification, \ninto the new MIS code.\nA batch process performs the transfer of balances upon reclassification, for each GL for which \nthis option has been set.\nBlocked\nOracle FLEXCUBE offers you the option to temporarily mark the status of the GL as Blocked. \nDuring this period, no entries can be passed into the GL. You can open a GL marked with \nblocked status by unchecking the blocked status box.\nThis feature is useful as you need not close the GL. Blocking is temporary whereas closure is \npermanent.\nReval Split Required\nYou can choose to break-up revaluation profit/loss for the GL you are defining into:\nTrading P&L – P&L due to revaluation of foreign currency transactions during the day.\nRevaluation P&L – P&L due to revaluation of opening balances (balances without \ncurrent day’s turnover).\nThe following example compares the accounting entries posted when you do not choose to \nsplit revaluation profit/loss and when you do. \nNote\nThe revaluation splitting is done for revaluation-into GL’s also.\nRefer the chapter ‘Account Revaluation Maintenance’ in the Core Services User Manual for \nfurther details about revaluation.\n3.1.2.1 \nIndicating Profit and Loss Revaluation Details\nEOD Reval Of FCY Entries (Single Entry)\nJournal entries that do not have an offset entry cannot be revalued using the EOD revaluation \nof FCY entries option. Enable this option if such journal entries are to be revalued."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "EOD Reval Of FCY Entries (Entry Pair)",
+        "EOD Reval Of FCY Reversals",
+        "Repost FCY Entries in LCY"
+      ],
+      "summary": "This page describes the processes for revaluating foreign currency entries at the end of the day, including entry-based revaluation, revaluation of reversals, and reposting entries in local currency.",
+      "raw_text": "3-7\nEOD Reval Of FCY Entries (Entry Pair)\nAs part of the End of Day processes, before the account revaluation batch process executes \non a given business day, the revaluation batch process for performing accounting entry-based \nrevaluation for FCY entries in Income/Expense GLs is run.\nThis process performs entry-based revaluation for those Income/Expense GLs for which such \nrevaluation has been indicated in the Chart of Accounts. You can enable this option to indicate \nthat the entry wise revaluation of FCY entries posted during the day should be performed \nduring the EOD processes, for each entry pair in the same FCY.\nEOD Reval Of FCY Reversals\nEnable this option if the revaluation of reversal entries has to be performed as part of the EOD \nprocesses. If you leave this box unchecked, the reversal entries will be posted with the \nExchange Rate as of event date. \nAs mentioned earlier, if entry-based revaluation is indicated for a GL, the FCY Entries \nRevaluation batch, which executes before the normal revaluation batch, will perform the \nrevaluation for the GL. \nRefer the Entry-based Revaluation of Income/Expense GLs section for detailed information \non the entry-based revaluation batch. \nRepost FCY Entries in LCY\nWhile defining Income or Expense type of Leaf GL’s you can indicate whether FCY entries \nhave to be reposted as LCY entries during the EOD processes by checking this option. \nIf you enable this option, you must trigger the GL Reporting Batch (ACIDPRVL) as part of the \nEOD processes to post FCY entries in LCY. While doing this you should consider the logical \norder of revaluation as well as intraday posting processes.\nThe exchange rate at which the original FCY entry was posted is used for reposting in LCY.\nRefer the Reposting of FCY entries for Realized P&L GL’s in LCY section for detailed \ninformation on the batch. \nNote\nThe revaluation parameters that you set for a GL cannot be modified after it is authorized.\nIntraday Posting GL\nYou can choose to post FCY income/expenses booked during the day into a balance sheet \nGL and have them transferred to the P & L GL after revaluation at the EOD exchange rate. \nProfit or loss due to this revaluation is posted in LCY equivalent with ‘0’ FCY postings. \nWhile defining an Income/Expense GL in the Chart of Accounts screen, you can specify an \nintra-day GL into which FCY entries posted into this GL are to be transferred. This designated \nIntraday GL should be of Asset/Liability type. \nThe option of specifying an intra-day GL is allowed only for Income/Expense GLs. Another \npre-condition is that either or both of EOD Reval of FCY Entries options should be enabled.\nGiven below is an example that illustrates the entries that are posted if you choose to post \nincome/expense entries into an intra-day GL. \nProcessing features\nYou need to run a batch process at EOD from the following functions:"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Revaluation of the entry/entries posted into the intra-day GL using the EOD exchange rate.",
+        "Moving the intra-day GL balances into the actual income/expense GLs."
+      ],
+      "summary": "This page describes the process of revaluing entries in the intra-day general ledger and moving them to the actual income/expense GL, including the use of specific event codes for posting.",
+      "raw_text": "3-8\n– \nRevaluation of the entry/entries posted into the intra-day GL using the EOD \nexchange rate.\n– \nMoving the intra-day GL balances into the actual income/expense GLs. \nIf you have defined an intra-day posting GL for the Income/Expense GL that you are \ndefining, then all entries meant for the latter throughout the day (starting with the BOD \nbatch processes) are transferred into the intra-day GL. This continues till you run the \nbatch process to post intra-day entries into the actual Income/Expense GL. Subsequent \nentries get posted directly into the actual Income/Expense GL. \nThe revaluation entries are posted with the same Contract Reference and Event \nSequence as that of the original entry.\nThe entries are posted with respective event codes for entry-pair and single entry. Thus, \nfor entry-pair the entries are posted using the event RVEP whereas for single entry, \nentries are posted using the event RVSE.\nThe revaluation accounting entries for the contract can be seen from the accounting entry \nview in the contract online.\nCurrency Restrictions\nYou can specify currency restrictions only for Internal GLs. In effect, you indicate the \ncurrencies in which postings can be made to the GL. The options available are:\nSingle currency\nAll foreign currencies\nAll currencies\nBy default, you will be able to post entries of transactions in all currencies into a GL. If you \nindicate Single currency then you should also indicate the specific currency in which \ntransactions can be posted to the GL. \nIf you indicate ‘All’ foreign currencies then you can post entries of all transactions in any \ncurrency other than the local currency of your bank.\nIf you select ‘All’ currencies then no currency based restriction is applicable for transactions \nposted to the GL.\n3.1.2.2 \nIndicating Position Account Details\nPositioning Required\nYou can retrieve the position of a foreign currency, any time, by opting for Position Accounting \nin your bank. When you opt for position accounting, you maintain a Position GL and a Position \nEquivalent GL for every foreign currency maintained in your bank. The Position GL reflects \nthe current position in the currency. You can opt for position accounting while indicating your \npreferences in the Bank-Wide Parameters screen.\nIf you opt for position accounting while defining Bank-Wide Parameters, you can maintain \nPosition GLs and Position Equivalent GLs for every foreign currency that your bank deals in. \nWhen maintaining the GLs in your bank, you can opt to link the different currencies, \nassociated with the GL, to:\nThe Position GLs that you have specified for the currency (Your specifications in the \nCurrency Definition screen will default here), or\nPosition GLs of your choice \nIn the GL Category field, indicate if you are maintaining a Position GL or a Position Equivalent \nGL."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Example",
+        "Display on Report With",
+        "Branch Restrictions"
+      ],
+      "summary": "This page explains how position accounting handles currency mismatches in financial transactions and provides options for reporting and branch restrictions in a GL.",
+      "raw_text": "3-9\nThe position accounting happens event and entry pair-wise. Each entry is considered. If any \ncurrency mismatch is found then position accounting for each posting pairs are considered for \nposition accounting.\nExample\nYou have initiated an FT transaction where account is denominated in USD but the transfer amount is \nEUR. Charge is calculated in USD. In this case, the system will pass position entries for transfer amount \nas well as charge amount. \nIf transfer happens in USD from an USD account while charge is settled in EUR from an EUR \naccount number position entry will be posted as no currency mismatch exists.\nDisplay on Report With\nWhen you maintain a Position GL, you can define the manner in which you would like the \ncurrency position to be reported in the Currency-Wise Position report.\nIn the Display on Report With field, under Position Accounting Details, indicate if you would \nlike the currency position to be reported under one of the following:\nThe head Asset\nThe head Liability\nUnder a separate head (that is, separately, as Currency Position)\nBranch Restrictions\nYou have the option to indicate branch restrictions for an internal leaf GL. By default, both the \nHead Office and the branches of your bank can post and view entries made to a GL.\nYou can allow the Head Office, the branches of your bank or both to post entries to a GL. If \nyou indicate Branch GL, only the branches of your bank can post entries to the GL. The Head \nOffice can however view the accounting entries passed to Branch GLs. If you specify Head \nOffice GL then only the Head Office can post entries to the GL. The branches can however \nview the entries posted to a Head Office GL.\nNote\nIt is important to note that you cannot restrict specific branches from posting entries to a \nGL.\nPosting Restrictions\nPosting restrictions, like branch restrictions, can be specified only for internal leaf GLs. This \nis because, in Oracle FLEXCUBE, you can post entries only to internal leaf GLs.\nThe posting of entries to an internal leaf GL can be direct or indirect. In the case of direct \nposting, accounting entries are posted directly to the Internal GL through Data Entry Module \nof Oracle FLEXCUBE. In case of indirect posting, accounting entries are passed into the GL \nfrom the various modules of Oracle FLEXCUBE, for example - a loan or a money market \ncontract.\nBack Period Entry Allowed\nYou can also choose to post back period entries to the GL by enabling the Back Period Entry \nAllowed option. If you choose not to restrict back period entries, you will be allowed to post \njournal entry transactions for the GL as long as the period is open. \nNote\nWhile posting back-valued transactions, the System verifies whether the Back Period En-\ntry Allowed option has been enabled for the GL. If the option has not been enabled an error"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Reconciliation",
+        "GL Linkages Tab"
+      ],
+      "summary": "This page discusses reconciliation preferences for GL entries and how to define linkages for a GL in Oracle FLEXCUBE.",
+      "raw_text": "3-10\nmessage is displayed. This check is also performed while uploading journal entry transac-\ntions.\nReconciliation\nIf the GL that you are creating belongs to the miscellaneous debit or credit type, you should \nindicate reconciliation preferences. The method in which entries posted to a GL can be \nreconciled could be one of the following:\nDirect\nSplit\nIn the case of direct reconciliation, each debit entry is offset by the corresponding credit entry \nand vice versa (e.g. Manager’s Check). For Split reconciliation, one debit entry can be offset \nagainst multiple credit entries and vice versa (e.g. Sundry Debtors and Creditors).\nRevaluing unrealized P&L GLs in Oracle FLEXCUBE\nUsing Oracle FLEXCUBE, you can compute and book the due income earned not collected \nand the expense incurred not paid into unrealised (memo) income/expense accounts in a \nspecified currency. \nThe revaluation process that performs revaluation of the total balance in the GL can be used \nto revalue unrealised Income/Expense GLs.\nThe movement of entries from unrealized to realized GLs is performed at the contract level.\n3.1.3 \nGL Linkages Tab\nClick the tab titled GL Linkages from the Chart of Accounts screen to define linkages for the \nGL that you are defining.\nIn the GL Linkages screen you maintain the following:\nthe parent to which a GL should report\nthe year-end profit and loss accounts into which balances would be posted"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Indicating Parent GL",
+        "Indicating Year-End Profit & Loss Accounts",
+        "Identifying Previous Year Adjustment GL"
+      ],
+      "summary": "This page explains how to set up parent general ledger (GL) relationships, specify year-end profit and loss accounts for posting income and expenses, and identify previous year adjustment GLs for unrealized income and expense entries.",
+      "raw_text": "3-11\n3.1.3.1 \nIndicating Parent GL\nParent GL\nYou can indicate the GL to which the current GL should report. This GL in effect becomes the \nparent of the current GL. You can select a parent GL from the option list available. The option \nlist will contain only a list of Node GLs that you have already created.\nCategory\nYou can assign a Category only to a Head GL (a GL that does not report to another GL). If \nthe GL that you indicated as the parent GL, is a Head GL the category assigned to it is also \ndisplayed.\n3.1.3.2 \nIndicating Year-End Profit & Loss Accounts\nProfit A/C\nYou can specify the accounts into which the year-end profit or loss entries for the GL should \nbe posted.\nThe profit account is the account into which all income GL account balances are posted at the \nend of the year. On the last day of the financial cycle all balances from the account are posted \ninto the year-end profit account. You can select an account code from the option list available.\nLoss A/C\nThe Loss account is the account into which all expense GL account balances are posted at \nthe end of the year. On the last day of the financial cycle, all balances from the loss accounts \nare posted into the year-end loss account.\nYou can specify the same GL for posting both your profits and losses.\n3.1.3.3 \nIdentifying Previous Year Adjustment GL\nPrev Yr Adj GL\nYou can indicate the GL to which the previous year’s adjustment entries for unrealized income \nand expense are to be posted. As a result the system automatically posts adjustment entries \nbetween Unrealised Income/Expense GL and an Adjustment GL for the interest/commission \naccrued in the Previous year, as these would already have moved to the year-end P and L \nGL during financial closure. \nAdjustment entries are passed at the contract level to the effect that the improper balances \non Revaluation Income/Expense GL’s on account of Reversal of Previous Day’s Revaluation \nentries (if there was a financial movement in between), get corrected. \nNote\nRevaluation of unrealized P and L GLs is performed only for interest and commission en-\ntries and is therefore applicable for the Money Markets, Trade Finance (LC, BC), Securi-\nties and Derivatives modules of Oracle FLEXCUBE. \n3.1.4 \nGL Lines Tab\nTo understand the sequence of steps involved in creating a new reporting line structure, let \nus take the following example:\nRequirement\nAssume you need to create a reporting line for your Head Office, representing investments of \nyour bank. Under the head Investments, your Head Office wants information classified under \nfinancial investments and business investments."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Solution"
+      ],
+      "summary": "This page explains how to set up a new reporting structure for business investments by using the Reporting Lines Maintenance screen and describes the hierarchical structure of the lines.",
+      "raw_text": "3-12\nFurther, under business investments, you require to report holdings in subsidiaries and \nholdings in associates.\nSolution\nTo create this new reporting structure, invoke the Reporting Lines Maintenance screen. First \ncreate the Head Reporting Line. In our example, it is Investments and assign it a description \nand a category - asset. Leave the parent details blank, since this does not report to another \nline.\nThen create the lines at the second level, Financial investments, and Business investments. \nIndicate Investments as the Parent line for both these lines. \nThereafter, create the third level of GLs holdings in subsidiaries and holdings in associates \nrespectively. Specify their parent line as Business investments. The category assigned to the \nParent Line is defaulted. \nThe hierarchical structure of this Head Office reporting line would be as follows:\nAfter you have defined Central Bank and Head Office lines, you can indicate the leaf GLs that \nshould report to the line. While creating a GL, you can indicate the Central Bank or Head \nOffice line to which it should report. \nClick on the ‘Reporting Lines’ tab on the ‘Chart of Accounts Maintenance’ screen to indicate \nthe reporting lines to which leaf GLs should report. A GL that you create can report to Central \nBank and Head Office reporting lines."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "3.1.4.1 Associating GL with Central Bank Reporting Line",
+        "3.1.4.2 Associating GL with Head Office Reporting Line"
+      ],
+      "summary": "This page explains how to associate general ledger accounts with debit and credit reporting lines for both central bank and head office reporting purposes.",
+      "raw_text": "3-13\n3.1.4.1 \nAssociating GL with Central Bank Reporting Line\nFor Central Bank reporting purposes, you should associate a GL with a debit and credit \nreporting line.\nDebit Line\nThe Central Bank debit line indicates the line to which an account under a GL should report, \nif in debit.\nCredit Line \nSimilarly, you can indicate the line to which an account under a GL should report, if in credit.\nYou can select a reporting line from the option list. The option list will contain a list of all the \nlines maintained in the Reporting Line Maintenance screen. The description of each specified \nreporting line appears alongside the line number. The debit and credit reporting lines you \ndefine for a leaf can be the same.\n3.1.4.2 \nAssociating GL with Head Office Reporting Line\nIn order to include a GL under a Head Office reporting line, you should associate it with debit \nand credit reporting line.\nDebit Line\nThe Head Office debit line indicates the line to which an account under a GL should report, if \nin debit. \nCredit Line\nSimilarly, you can indicate the line to which an account under a GL should report, if in credit.\nYou can select a reporting line from the option list. The option list will contain a list of all the \nlines maintained in the Reporting Line Maintenance screen. The description of each specified \nreporting line appears alongside the line number. The debit and credit reporting lines you \ndefine for a leaf can be the same. After you have made the required entries save the entries. \n3.1.5 \nOther GL Linked to this Parent Button\nClick ‘Other GL Linked to this Parent’ button from the ‘Chart of Accounts’ screen to view the \nhierarchical position of any GL."
+    },
+    {
+      "page_number": 22,
+      "sections": [],
+      "summary": "This page explains how to view the structural hierarchy of a General Ledger (GL) based on two criteria: GLs at the same level and those that report to it.",
+      "raw_text": "3-14\nYou can view the structural hierarchy of a GL based on two criteria:\nThe GLs that are at the same level as the GL you are creating\nThe GLs that report to the GL you are creating\nFor example, let us assume that your GL Head of Overdrafts is structured as follows: \nSuppose AS190100 is on display in the field GL Code. On choosing the other GLs linked to \nthis parent option, the following list will be displayed:\nIf you click on Child GLs for the Current GL the following list will be displayed:\nGL Code\nGL Description\nAS190200\nOD Retail Lending\nAS190300\nOD Clean\nAS190400\nOD Others\nGL Code\nGL Description\nAS190101\nOD Stocks\nAS190102\nOD Book Debts"
+    },
+    {
+      "page_number": 23,
+      "sections": [],
+      "summary": "This page explains how to create a new General Ledger (GL) structure by defining GL codes and creating sub-GLs under a head GL.",
+      "raw_text": "3-15\nThus by clicking on the second option under hierarchy level, you can view the list of GLs that \nreport to the current GL.\nTo understand the sequence of steps involved in creating a new GL structure, let us take an \nexample:\nFor example, assume you are creating an asset Head GL for bank balances held with other \nbanks.\nYour GL mask is defined as NNNNNAAAD in the Bank-wide Parameters screen. You assign \na GL code 50000ASS D to the Head GL. D is the last element of the code, which is system \ngenerated and is called the check digit. It will be an alphabet of the English language if it is \nrepresented in the mask as d and will be numeric if it is represented as D.\nUnder GL 50000ASS, you want to create two sub-GLs - 50100ASS representing balances \nwith Federal Reserve Bank and 50200ASS representing balances with Commercial banks.\nUnder sub-GL 50200ASS stand two GLs -- 50201ASS and 50202ASS representing balances \nwith commercial banks in local currency and foreign currency respectively.\nThe hierarchical structure of this GL tree is as follows: \nTo create this new GL structure, invoke the 'Chart of Accounts' screen, the 'GL Linkages' \nscreen is displayed. Click new icon. A new screen with no prior inputs will be invoked. \nYou can click on any of the four broad heads listed atop the screen to activate that screen. \nFollow the given sequence of steps:\nStep 1:"
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page discusses how to generate a periodic statement of accounts for transactions involving newly defined General Ledger (GL) in the Chart of Accounts.",
+      "raw_text": "3-16\nStep 2: \nStep 3:\n and so on...\n3.1.6 \nStatement Button\nFor each new GL that you define in the Chart of Accounts, you may need to generate a \nperiodic statement of accounts for transactions involving the GL. \nYou can indicate whether a periodic statement of accounts needs to be generated for \ntransactions involving the GL through the Statement Details sub-screen in the GL Chart of \nAccounts screen."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Account Statement",
+        "Cycle"
+      ],
+      "summary": "This section explains how to configure account statements and their generation frequency in the Chart of Accounts screen.",
+      "raw_text": "3-17\nTo specify the statement related details click on the ‘Statement’ button in the Chart of \nAccounts screen. The ‘Statements Detail’ screen will be displayed. \nAccount Statement \nIndicate that an account statement is to be generated periodically by the system for the \nparticular account by specifying the format in which the statement is to be generated. \nThe options available are:\nDetailed – indicating that the statement should be a detailed account of all the \ntransactions tracked against the particular GL Code\nSummary - indicating that only a summary of the transaction details is enough\nNote\nIf you do not want a periodic statement of transactions involving the account, you can \nspecify so by selecting the None option. \nCycle\nSelect the frequency at which the account statement should be generated from the adjoining \ndrop-down list. This list displays the following values:\nAnnual\nSemi-annual\nQuarterly\nMonthly\nFortnightly\nWeekly\nDaily"
+    },
+    {
+      "page_number": 26,
+      "sections": [],
+      "summary": "This page explains how to set up the generation of account statements based on frequency and specific dates, including handling days that do not exist in all months.",
+      "raw_text": "3-18\nOn\nSelect the start date and month for the generation of the statement based on the frequency \nthat you specify from the adjoining drop-down list. For a weekly generation of the account \nstatement, specify the day of the week on which account statements should be generated. \nFor a monthly generation of statement you can specify the day of month. To specify the day \nof the month for the monthly generation of statements enter a number between 1 and 31 \n(corresponding to the system date).\nIf you set the statement date to 30, then account statements will be generated on:\nThe last working day for months with less than 30 days\nFor months with 30 days on the 30th day. If the 30th day is a holiday, it will be generated \non the next working day\nIf you set the statement date to the 31st of the month, account statements will be generated \non:\nThe 31st, for months with 31 days\nThe last working day for months for months with less than 31 days\nNote\nFor all other cycles, the account statement will be generated on the last day of that cycle. \nBased on the preferences that you specify, the system generates a statement of accounts \nautomatically, as part of the end of cycle processing. \nGenerate\nChoose to generate the statement of accounts only when there has been a movement of \nfunds into the account or when funds have been transferred out of the account. \nFor instance, let us assume that on the 21st of August 2001, you have set the account \nstatement generation frequency as Daily for the account LI0202308. On the 5th of September \n2001, there has been no movement of funds in the particular account. If you have opted for \nthe Generate Only on Movement option the system will not generate a statement message \nfor 5th Sept 2001. \nYou can also choose to generate the statement of accounts regardless of whether or not there \nhas been a movement of funds to and from the account. \nStatement Required\nThere may be times when you would have maintained the relevant account statement details \nfor a particular GL. However, you would like to generate the account statements only a month \nor two later. You can choose to stall the generation of account statement for a temporary \nperiod of time by keeping the statement required check box unchecked. \nTo enable the generation of account statements you can unlock the contract and uncheck this \nbox to re-start the generation of messages. \nMedia \nIdentify the media through which the account statement is to be sent to the receiver. A list of \nall the different types of media maintained in the Media Maintenance screen will be displayed \nin the option list positioned next to this field. You can select the appropriate media from the \navailable choices."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Address",
+        "IBAN Account Number Button",
+        "Position GL Maintenance Button"
+      ],
+      "summary": "This page discusses how to manage account statement details and maintain clearing account numbers and position GLs in a chart of accounts for statutory reporting and payment processing purposes.",
+      "raw_text": "3-19\nAddress \nYou may need to send account statement details to your central bank for statutory reporting \npurposes. While maintaining account statement details for a GL you can capture the mailing \naddress of the receiver of the account statement details. The address that you specify in the \nfirst line will be used for correspondence with the party concerned. \n3.1.7 \nIBAN Account Number Button\nFor an internal Leaf GL you can maintain the Clearing Account number to be used for \noutgoing payments where the internal GL is the remitter account. Click ‘IBAN Account \nNumber’ button in the ‘Chart of Accounts’ screen.\n The ‘Additional Information’ screen is displayed. \nIn this screen, you can specify the Clearing Account Number for the GLand the Bank Code of \nthe GL. If a Clearing Account maintained for a GL is found in an uploaded incoming payment \nthe System resolves the actual GL for the payment as per your maintenance in this screen. \nClick 'Populate' button to default the IBAN Account Number based on bank code and account \nnumber. If the IBAN Number maintained for a GL is found in the incoming payment the \nSystem resolves the actual GL as per your maintenance in this screen. \n3.1.8 \nPosition GL Maintenance Button\nWhen defining a GL in the Chart of Accounts, you must link all the foreign currencies linked \nto a GL to a Position GL, and a Position Equivalent GL if you have opted for position \naccounting in the Bank Wide Parameters screen.\nIf you do not want position accounting for a particular GL, do not choose the Positioning \nrequired option under Position Accounting Details in the Chart of Accounts. Click ‘Position GL"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Position GL Maintenance",
+        "BIC Button"
+      ],
+      "summary": "This page explains how to maintain Position General Ledger (GL) settings and link SWIFT BICs for leaf GL accounts in the Chart of Accounts screen.",
+      "raw_text": "3-20\nMaintenance’ button in the ‘Chart of Accounts’ screen. The ‘Position GL Maintenance’ screen \nis displayed.\nIn this screen, you can:\nChoose the currency of the GL\nIndicate the corresponding Position GL and the Position Equivalent GL defined for the \nCurrency, or a Position GL of your choice. \nYou can choose to retain the Position GL that defaults (according to your specifications in the \nCurrency Maintenance screen), or indicate a Position GL of your choice.\nNote\nYou should maintain Position GLs before you can identify one for a GL that you are main-\ntaining.\n3.1.9 \nBIC Button\nFor a leaf GL, you can link the SWIFT BICs representing the sender entities that are \nauthorized to specify the GL account as the debit account for a funds transfer transaction.\nWhile uploading an incoming SWIFT payment message, and deriving the debit and credit \naccounts, the Oracle FLEXCUBE Straight Through Processing (STP) process checks \nwhether the given Sender SWIFT BIC is authorized to specify a the Leaf GL as the Debit \nAccount for incoming SWIFT payment messages.\nTo specify the Sender SWIFT BIC information for a leaf GL, click ‘BIC’ button in the ‘Chart of \nAccounts’ screen. The WIN BIC screen is opened, where you can specify the SWIFT BICs of \nthe Sender entities that are authorized to specify the leaf GL as the Debit Account as the Debit \nAccount for incoming SWIFT payment messages.\nFor details about how Oracle FLEXCUBE processes incoming SWIFT payment message \ntransactions and for details about the STP process, consult the Funds Transfer user manual.\n3.1.10 \nViewing Chart of Accounts Maintenance Details\nYou can view the chart of accounts maintenance details in the ‘Chart of Accounts \nMaintenance Summary’ screen. You can invoke the ‘Chart of Accounts Maintenance’ screen"
+    },
+    {
+      "page_number": 29,
+      "sections": [],
+      "summary": "This page describes how to query records in an application using specific criteria such as authorization status and GL code, and lists the details displayed for matching records.",
+      "raw_text": "3-21\nby typing ‘GLSCHACC’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nYou can query records based on one or more of the following criteria:\nAuthorization Status\nGL Code\nParent GL\nGL Type\nAlternate GL Code\nRecord Status\nGeneral Ledger Description\nLeaf\nCategory\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status\nRecord Status\nGL Code\nGeneral Ledger Description\nParent GL\nLeaf\nGL Type\nCategory\nCurrency Restrictions\nCurrency\nCustomer/Internal GL\nBranch Restriction\nRevaluation\nProfit Account\nLoss Account"
+    },
+    {
+      "page_number": 30,
+      "sections": [],
+      "summary": "This page discusses the reposting of foreign currency (FCY) entries for realized profit and loss general ledger accounts in local currency (LCY), including the necessary batch processes and conditions under which revaluation occurs.",
+      "raw_text": "3-22\nBlocked\nPosting Restrictions\nReconciliation\nPositioning Required\nDisplay On Report With\nStatement Required\nGenerate Statement Only On Movement\nAlternate GL Code\nDouble click on a record to invoke the detailed screen for that record.\n3.2 \nReposting of FCY Entries for Realized P&L GLs in LCY\nIf you have indicated that the entries posted to realized income and expense GL’s in FCY are \nto be posted in LCY, you must trigger the Batch Program during the EOD processes whereby \nall FCY entries for such GLs are reposed as LCY entries. \nThe reposted entries are posted against the RPOS event but they will have the same \nTransaction Reference and Event Sequence number as that of the original transaction.\nTo trigger the batch process invoke common batch function and choose GLREPDLY as the \nfunction id and execute, which will post FCY entries in LCY for those GL for which the Repost \nFCY entries in LCY option has been enabled.\nAs part of the End of Day processes, before the account revaluation batch process executes \non a given business day, the revaluation batch process for performing accounting entry-based \nrevaluation for FCY entries in Income/Expense GLs is run.\nThis process performs entry-based revaluation for those Income/Expense GLs for which such \nrevaluation has been indicated in the Chart of Accounts. \nNote\nIf transaction entry happens on STANDARD rate then the system does not post any reval-\nuation, even though you have enabled revaluation for the GL,\n It executes according to the sequence of processes as shown below:\nEntry-pair revaluation\nSingle entry revaluation\nReversal revaluation\nEntry-pair Revaluation\nFirst, the FCY accounting entries passed during the day into Income/Expense marked for \nentry-based revaluation are revalued, using the revaluation rate for the rate type defined in \nthe Account Revaluation Maintenance for entry-based revaluation. The revaluation is done \nonly for entry pairs in respect of which:\nboth the main and offset entries are in the same FCY\nthe FCY amount is greater than zero\nThe revaluation offset entry is posted to the Account/GL of the actual offset entry of the \ntransaction in respect of which the FCY entries were passed. The offset Account/GL is \nidentified based on the Contract Reference Number, Event Sequence Number and Amount"
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Single Entry Revaluation",
+        "Reversal Revaluation"
+      ],
+      "summary": "This page describes the process of revaluing financial entries in a specific order and using particular event codes, focusing on single entry revaluation and reversal revaluation.",
+      "raw_text": "3-23\nTag combination, and the revaluation entries are posted with the same Contract Reference \nNumber and Event Sequence Number as the original entry. The event code RVEP is used to \npass the entries. Appropriate position entries are also passed.\nSingle Entry Revaluation\nAfter the entry-pair revaluation, the journal FCY accounting entries (that is, entries without \ncorresponding offset entries) passed during the day are revalued, using the revaluation rate \nfor the rate type defined in the Account Revaluation Maintenance for entry-based revaluation. \nOnly those entries with FCY amounts greater than zero are revalued.\nThe revaluation offset entry is posted to the Profit/Loss GL maintained for the revalued GL in \nthe Account Revaluation Maintenance, with the same Contract Reference Number and Event \nSequence Number as the original entry. The event code RVSE is used to pass the entries. \nAppropriate position entries are also passed.\nReversal Revaluation\nRevaluation of FCY reversal entries into Income/Expense GLs is done for those GLs for which \nsuch revaluation has been indicated, in the Chart of Accounts.\nIf an entry is posted into an Income/Expense GL’s with a negative amount, it is considered a \nreversal entry.\nAll reversal entries are ordered according to:\nContract Reference Number\nEvent Sequence Number (Reversal event sequence number)\nDebit / Credit Indicator\nAmount Tag\nAccount\nThe entries are consolidated according to amount tags, and the resultant net amounts are \nrevalued using the revaluation rate for the rate type defined in the Account Revaluation \nMaintenance for entry-based revaluation. The revaluation offset entry is posted into the FX \nProfit/Loss GL defined for the revalued GL in the Account Revaluation Maintenance, with the \nsame reference number and the event sequence number of the reversal event, with the event \ncode RVRL.\nSince the revaluation offset entry in each case is passed with the reference number of the \noriginal transaction, the relevant MIS updates are also made just as is done for the original \ntransaction.\nThe reversal revaluation entries can be viewed in the LCY statement for the revalued Income/\nExpense GLs."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Reporting Line",
+        "Maintaining Reporting Line"
+      ],
+      "summary": "This page explains how to set up reporting lines for Head Office and Central Bank purposes in Oracle FLEXCUBE, allowing a different structure from the regular GL structure.",
+      "raw_text": "4-1\n4. Maintaining Reporting Line Structure\nTo recall, in the Chart of Accounts screen, you define a GL and set up a GL hierarchy for your \nbank. We shall call this hierarchy the regular GL structure of the bank. Your Head Office or \nCentral Bank may desire to have the balance sheet and profit and loss account categorized \nin a structure that is different from the regular GL structure of your bank. Oracle FLEXCUBE \noffers you the flexibility of defining an alternate reporting structure for Head Office and Central \nBank reporting purposes.\nThis is achieved by setting up reporting lines. The heads of financial information required for \nyour Head Office and Central bank are defined as Reporting Lines. Each of these lines is \nassigned a unique code. After you have set up reporting lines, you can indicate the GLs that \nshould report to the line.\nNote\nIdeally, you should first set up the Head Office and Central Bank lines and then define the \nregular GL structure for the bank. The advantage is that when defining the regular GL \nstructure, you can indicate the Head Office or Central Bank line to which a GL should re-\nport.\nThis chapter contains the following section:\nSection 4.1, \"Reporting Line\"\n4.1 \nReporting Line\nThis section contains the following topic:\nSection 4.1.1, \"Maintaining Reporting Line\"\n4.1.1 \nMaintaining Reporting Line\nIn the Reporting Line Maintenance screen, you can define reporting lines (heads of financial \ninformation) and indicate an alternate reporting structure for your Head Office and Central \nBank.\nTo invoke this screen, click on General Ledger in the Application Browser, select Reporting \nLines and click on Detailed under it. You can also invoke this screen by typing ‘GLDXLINE’ in \nthe field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "To create a new reporting line structure",
+        "The order in which the GL categories appear in the balance sheet cannot be changed"
+      ],
+      "summary": "This page explains how to set up new reporting lines for Head Office and Central Bank, including the fields to capture, and notes on the fixed order of General Ledger (GL) categories in the balance sheet.",
+      "raw_text": "4-2\nTo create a new reporting line structure, click new icon. \nIn this table, you capture the following for your Head Office and the Central bank reporting \nlines:\nThe branch code\nA code to identify the reporting line\nA description of the line\nThe type of line — Head Office or Central Bank\nCategory specified for this line — asset, liability, income, expense, etc.\nThe type of line – Node or Leaf\nThe parent line code for this reporting line\nThe reporting lines that you create are, for alternate reporting. Alternate reporting is required \nwhen the GL structure defined for the balance sheet of the Head Office or the Central Bank \nare different from the GL structure created by your bank.\nThe order in which the GL categories - Asset, Liability, Expense, Income, Contingent Asset, \nContingent Liability appear in the balance sheet cannot be changed. However, under a \ncategory you can redefine the position of the various GL heads and shift a head from one GL \ncategory to another, if required.\nFor all practical purposes, GL heads appear in order of their numeric sequence number \nassigned.\nNote\nCentral Bank and Head Office reporting lines can be created only at the Head Office of \nyour bank."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Alternate Reporting Line",
+        "Maintaining Alternate Reporting Line"
+      ],
+      "summary": "This page explains how to define alternate reporting lines for Head Office and Central Bank purposes in Oracle FLEXCUBE, including the process of maintaining these lines through the 'Reporting Line Maintenance' screen.",
+      "raw_text": "5-1\n5. Defining Alternate Reporting Lines \nOracle FLEXCUBE offers you the flexibility to define alternate reporting lines for Head Office \nand Central Bank reporting purposes. If your bank has a network of branches spread over \nseveral countries, you can opt to maintain Central Bank (CB) lines at the branch level. This \nmeans all branches or Regional Offices can maintain CB lines. \nIn the Reporting Line Maintenance screen you can define reporting lines (heads of financial \ninformation) and indicate an alternate reporting structure for your Head Office or Central Bank \ndepending on which branch of the bank you are working at. For instance, if you are operating \nfrom the Head Office (HO) level, you will be allowed to define both HO and CB lines. However, \nif you are working at the branch level, you can only define CB lines. \nThis chapter contains the following sections:\nSection 5.1, \"Alternate Reporting Line\"\nSection 5.2, \"GL Central Bank Line Linkage Maintenance\"\nSection 5.3, \"GL MIS Linkages\"\n5.1 \nAlternate Reporting Line\nThis section contains the following topic:\nSection 5.1.1, \"Maintaining Alternate Reporting Line\"\n5.1.1 \nMaintaining Alternate Reporting Line\nYou can invoke the ‘Reporting Line Maintenance’ screen by typing ‘GLDXLINE’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button. \nTo create a new reporting line structure, click new icon. The ‘Reporting Line Maintenance’ \nscreen will be displayed without any details except for the ‘Branch Code’ field. Here the code \nassigned to the branch where you are currently working will be defaulted. You will not be \nallowed to change the branch code."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "5-2",
+        "GL Central Bank Line Linkage Maintenance",
+        "Section 5.2.1, \"Linking GL to CB Line\"",
+        "Section 5.2.2, \"Operations on GL Code to CB Line Linkage Record\"",
+        "5.2.1",
+        "5.2.1.1"
+      ],
+      "summary": "This page explains how to specify details for Head Office and Central Bank reporting lines, including codes, descriptions, types, categories, and parent line codes, and provides instructions on linking general ledger (GL) accounts to Central Bank (CB) lines.",
+      "raw_text": "5-2\nThe other details that you need to specify for your Head Office and Central Bank reporting \nlines are as follows:\na code to identify the reporting line\na description of the line\nthe type of line - Head Office or Central Bank\ncategory specified for this line - asset, liability, income, expense etc\nthe parent line code for this reporting line\nFor detailed information on how to create a new reporting line structure, refer to the chapter \non Maintaining a Reporting Line Structure of the General ledger module. \n5.2 \nGL Central Bank Line Linkage Maintenance\nThis section contains the following topics:\nSection 5.2.1, \"Linking GL to CB Line\"\nSection 5.2.2, \"Operations on GL Code to CB Line Linkage Record\"\n5.2.1 \nLinking GL to CB Line\nOnce you define Central Bank lines, you can indicate the leaf GL that should report to the line. \nIf you are working at the Head Office, you can specify this linkage under the Reporting Lines \nsection of the Chart of Accounts screen. At the branch level you need to indicate this linkage \nin the GL Code to CB Line Linkage screen. \nYou can invoke the ‘GL Central Bank Line Linkage Maintenance’ screen by typing \n‘GLDXGLLN’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button.\n5.2.1.1 \nIndicating CB Debit Line and CB Credit Line\nThe CB Debit Line indicates the line to which an account under a GL should report, if in debit.\nSimilarly, you can indicate the line to which an account under a GL should report, if in credit.\nYou can select a reporting line from the option list. The option list will contain a list of all the \nlines maintained in the Reporting Line Maintenance screen. The description of each specified"
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "5.2.2 Operations on GL Code to CB Line Linkage Record",
+        "5.3 GL MIS Linkages",
+        "5.3.1 Linking GL to MIS Class"
+      ],
+      "summary": "This page discusses operations that can be performed on GL code to CB line linkage records and introduces the concept of linking general ledger codes to management information (MIS) classes for generating reports.",
+      "raw_text": "5-3\nreporting line appears alongside the line number. The debit and credit reporting lines you \ndefine for a leaf can be the same.\n5.2.2 \nOperations on GL Code to CB Line Linkage Record\nApart form defining a new linkage you can perform any of the following operations (if any icon \nis disabled in the application toolbar, it means that the function is not allowed for the record) \non an existing record. \nAmend the details of a record\nAuthorize a record\nClose the record\nReopen the record\nPrint the details of the record\nDelete the details of the record\nFor details on these operations refer to the Oracle FLEXCUBE User Manual on Common \nProcedures. \n5.3 \nGL MIS Linkages\nThis section contains the following topics:\nSection 5.3.1, \"Linking GL to MIS Class\"\nSection 5.3.2, \"Operations on GL MIS Linkages Record\"\n5.3.1 \nLinking GL to MIS Class\nBy linking a GL code to an MIS class you can generate GL reports in which the balances are \nreported against the entries defined in the linkage. The advantage of a GL to MIS linkage is \nthat it helps you group information under different MIS entities.\nThe advantage in linking a GL to an MIS class is that the reported information will be grouped \nbased on the MIS Class specified during linkage."
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "5-4",
+        "5.3.2 Operations on GL MIS Linkages Record"
+      ],
+      "summary": "This page describes how to invoke and operate on the 'GL MIS Linkage Maintenance' screen, including methods for creating, amending, authorizing, copying, closing, reopening, printing, and deleting records.",
+      "raw_text": "5-4\nYou can invoke the ‘GL MIS Linkage Maintenance’ screen by typing ‘GLDREP’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button.\nIf you are maintaining a new GL-MIS Linkage, click new icon. The ‘GL MIS Linkages’ screen \nwill be displayed without any values. \n5.3.2 \nOperations on GL MIS Linkages Record\nOn an existing GL MIS Linkages record, you can perform any of the following operations (if \nany icon is disabled in the application toolbar, it means that the function is not allowed for the \nrecord):\nAmend the details\nAuthorize the addition or amendment of a record\nCopy the details record to another\nClose the record\nReopen the record\nPrint the details of a record\nDelete the addition of a record\nRefer to the manual on common procedures for details of these operations."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "6. GL Report Classification on MIS Class"
+      ],
+      "summary": "This page explains how to manage and classify information in a Management Information System (MIS) by using classes and categories, specifically for loan disbursement reports.",
+      "raw_text": "6-1\n6. GL Report Classification on MIS Class\nIn order to manage cumbersome information, you can classify it under broad heads called \nclasses. An MIS Class is an entity based on which you can classify information relating to \ncustomer and internal general ledgers. Based on your requirement, you can categorize \ninformation under MIS classes. Each class is assigned a code based on which you can \nretrieve information.\nA class can have several categories under it, for example, under a class called business \nsegment you can have further sub-classifications represented by categories, like, big \nbusiness, small-scale industries, business for charity etc. This classification into MIS classes \nhelps to manage efficiently information related to GLs.\nRequirement:\nIf you want to have a consolidated report of all the loans disbursed from your bank. You also \nwant to classify the loans into short term, medium term, and long term loans.\nHowever, for information management purposes you want to further classify information of \nthese GLs and sub-ledgers based on:\nThe type of customer to whom the loan disbursed are categorized, could be:\n– \nIndividual\n– \nCorporate\n– \nBanks and\n– \nFinancial Institutions\nThe industry to which the customer belongs, for instance,\n– \nFisheries\n– \nAgriculture\n– \nManufacturing\n– \nSoftware\nThe aim is to see that the GL structure does not become unwieldy and difficult to work with.\nSolution\nYou can set up a GL called Loans. All loans disbursed from your bank will be consolidated at \nthis GL. You should further set up sub-GLs to classify loans into short term, medium term, and \nlong term loans.\nWe have already defined two GL levels. Instead of adding more GLs and making the structure \ncomplex, you can use the MIS class categorization to further classify information.\nTherefore, you should set up two MIS classes called Customer Type and Industry type. You \ncan have the MIS Codes Individuals, Banks, Corporate, Financial Institutions reporting to the \nclass Customer Type. You can associate the MIS codes, Fisheries, Agriculture, \nManufacturing, and Software to the class Industry Type.\nThis helps simplify the GL structure of the bank and serves the purpose of providing you the \nclassified information that you require.\nNote\nMIS classes can be created only at the Head Office of your bank."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "MIS Class Maintenance",
+        "Maintaining MIS Class"
+      ],
+      "summary": "This section explains how to maintain MIS classes in Oracle FLEXCUBE by using the 'MIS Class Maintenance' screen and provides details on maintaining class codes and descriptions.",
+      "raw_text": "6-2\nThis chapter contains the following sections:\nSection 6.1, \"MIS Class Maintenance\"\nSection 6.2, \"General Ledger Branch Parameters\"\nSection 6.3, \"General Ledger Class Maintenance\"\n6.1 \nMIS Class Maintenance\nThis section contains the following topics:\nSection 6.1.1, \"Maintaining MIS Class\"\nSection 6.1.2, \"Saving the record\"\n6.1.1 \nMaintaining MIS Class\nIn order to maintain MIS classes, you need to invoke the ‘MIS Class Maintenance’ screen by \ntyping ‘GLDCLSMT’ in the field at the top right corner of the Application tool bar and clicking \non the adjoining arrow button. In this screen, you can define various categories based on \nwhich reports on general ledgers should be classified. To maintain details of a new MIS class, \nclick new icon. \nHere you can maintain the following details:\nMIS class\nIn Oracle FLEXCUBE, each MIS class that you maintain is identified by a unique nine-\ncharacter code called a Class Code. You can follow your own convention for devising this \ncode.\nDescription\nYou can specify a short description that will enable you to identify the MIS class quickly. The \nshort description that you specify is for information purposes only and will not be printed on \nany customer correspondence."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "MIS Type",
+        "Mandatory",
+        "MIS Codes"
+      ],
+      "summary": "This page explains the different types of MIS classes in Oracle FLEXCUBE and their characteristics, including transaction class, customer class, composite class, fund class, mandatory entry requirement, and sub-divisions through MIS codes.",
+      "raw_text": "6-3\nMIS Type\nAn important detail in defining an MIS class is to specify the type of class that you are creating. \nThe MIS class type identifies the basic nature of the class. In Oracle FLEXCUBE you can set \nup the following type of MIS classes:\nTransaction class — A transaction class refers to all transactions that have taken place \nthrough any of the front-end modules like foreign exchange, money market etc. \nCustomer Class relates to customer accounts.\nCustomer class — Select this option if you are defining a customer-based classification.\nComposite class — Choose this option to indicate that the MIS class can be used both \nat customer definition and at the time of processing a transaction.\nFund class — Refer to the Core Services User manual for details on setting up a Fund \nMIS class\nThis is the basic feature of a class and will determine the type of MIS codes that can constitute \nthe class. For each of these MIS types you can create a maximum of ten classes.\nMandatory\nUsing this field, you can indicate whether entering an MIS code is mandatory for a particular \nMIS class or not. Whenever any transaction is stored, the system checks if an MIS code is \nsupplied for this MIS class invoked in the transaction.\nMIS Codes \nUnder a class, you can indicate the sub-divisions that should be reported under the class. \nEach of the sub-classes is given unique code identifiers.\nThe MIS codes that you associate with a class will fall under the class at the time of reporting \nor consolidation.\nClick add icon to associate an MIS code to a class. To remove an MIS class from the list, place \nyour cursor in that row and click delete icon.\nThe MIS codes that you associate will depend on the Type of MIS Class that you are creating. \nWhile setting up the details of a customer, you can associate the customer to a customer type \nMIS Code. Therefore the set up serves more for management purposes and makes the \nmanagement of GLs simple and easy.\n6.1.2 \nSaving the record\nClick save icon to save the record. Click delete icon to exit without saving the details that you \nentered. An MIS Class that you have created will be available for use only after it has been \nauthorized by a user bearing another ID. \nSimilarly, you cannot make any modifications to a Class or Category until the previous \nmodification made, has been authorized. \nAfter you have made the required entries, click ‘Exit’ button to exit the screen. You will be \nreturned to the Application Browser.\n6.2 \nGeneral Ledger Branch Parameters\nThis section contains the following topic:\nSection 6.2.1, \"Maintaining GL Branch Parameters\""
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Maintaining GL Branch Parameters",
+        "Defining Branch Identification Details",
+        "Defining Batch Processing Details"
+      ],
+      "summary": "This page explains how to maintain General Ledger branch parameters in Oracle FLEXCUBE, including setting up branch identification details and batch processing specifics.",
+      "raw_text": "6-4\n6.2.1 \nMaintaining GL Branch Parameters\nYou can maintain branch level parameters that govern the processing of GL in a particular \nbranch of your bank through the General Ledger Branch Parameters screen. You can invoke \nthe ‘General Ledger Branch Parameters Maintenance’ screen by typing ‘GLDBRPRM’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button.\nThe General Ledger Branch Parameter screen will be displayed.\nYou will need to maintain the following branch details:\nDefining Branch Identification Details\nBranch Code\nIn Oracle FLEXCUBE, each branch of your bank is identified by a unique three-character \ncode called the branch code. This code will be displayed upon invoking the screen. \nDescription \nThe description of the branch will be displayed by default when the screen is invoked. You \ncan also specify the name that identifies the branch.\nDefining Batch Processing Details\nYou can define Batch Processing Details in way detailed below.\nMIS Average Balance Retention Days\nThe MIS average balance details will be retained in the system only for those numbers of days \nyou mention in this field. The Retention day is entered always in terms of days and is greater \nthan the system date.\nGeneral Ledger Average Balance Retention Days\nThe GL average balance details will be retained in the system only for those numbers of days \nyou mention in this field. The Retention day is entered always in terms of days and is greater \nthan the system date."
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Account Statement Retention Days",
+        "General Ledger MIS Process Days",
+        "General Ledger Average Balance Process Days"
+      ],
+      "summary": "This page discusses settings for data retention and processing in a GL-MIS system, including account statement retention days, automatic batch process scheduling, and average balance computation methods.",
+      "raw_text": "6-5\nNote\nWhen a GL-MIS average balance report is requested for a date beyond the retention date, \nthe system will display an error message stating that the data is not available. \nAccount Statement Retention Days\nThe Customer Account Statistics will be retained in the system only for those numbers of days \nyou mention in this field. Specify the retention days in terms of days and which is greater than \nthe system date.\nAll records older than the period that you specify are purged as part of the purge process. The \npurge process should be initiated manually. The current period data is not purged. \nGeneral Ledger MIS Process Days\nThose events, which have to be triggered automatically, will be processed accordingly during \nbatch process. You have the option to specify whether the batch process should be \nprocessed as part of the EOD process till the next working date - 1 day or not.\nCheck the box to indicate that the processing has to be done till the next working date - 1 day. \nLeave the box unchecked to indicate otherwise.\nGeneral Ledger Average Balance Process Days\nComputation of Average Balance can be based on the Next Working Day-1 or System Date. \nIf the average balance calculation basis is NWD-1, the balances of holidays are included in \nthe previous working day. If the calculation basis were System Date, the balances of holidays \nare included on the next working day provided the next working day is in the same period. If \nthe basis is System Date but the next working day is in the next period, the holidays are \nconsidered during the current run. \n6.3 \nGeneral Ledger Class Maintenance\nThis section contains the following topic:\nSection 6.3.1, \"Maintaining GL Class\"\n6.3.1 \nMaintaining GL Class\nYou can group GL charts of accounts that belong to the particular business entities through \nthe ‘General Ledger Class Maintenance’ screen. You can invoke the ‘General Ledger Branch"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "GL Class Code",
+        "GL Class Name",
+        "GL Code",
+        "GL Description"
+      ],
+      "summary": "This section describes how to maintain GL classes and accounts in a system by specifying codes, names, and descriptions.",
+      "raw_text": "6-6\nParameters Maintenance’ screen by typing ‘STDGLCMT’ in the field at the top right corner of \nthe Application tool bar and clicking the adjoining arrow button.\nGL Class Code\nSpecify the unique code given to the specific group of GLs. You can enter a maximum of 3 \nalphanumeric characters.\nGL Class Name\nSpecify the GL Class Code name. You can enter a maximum of 255 alphanumeric characters.\nGL Code \nSpecify the GL code. The adjoining list displays all the GL codes maintained in the system. \nYou can choose the appropriate one.\nGL Description\nThe system displays the GL account description."
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Enterprise GL Extraction Infrastructure",
+        "Processing Data Extraction"
+      ],
+      "summary": "This page discusses the infrastructure and process for extracting accounting data from Oracle FLEXCUBE to an external enterprise GL system.",
+      "raw_text": "7-1\n7. Enterprise GL Integration\nOracle FLEXCUBE when deployed in a bank as a product processor allows extraction of \naccounting data from its core GL system and mapping of the same to an enterprise GL which \nis external to the system. Oracle FLEXCUBE GL collates the accounting entries from all the \nmodules within Oracle FLEXCUBE and transmits the relevant information to the Data \nExtraction layer. This layer further interfaces with the external adapter which processes the \ndata as per the requirements of the external GL and transmits the same to it.\nThis chapter contains the following sections:\nSection 7.1, \"Enterprise GL Extraction Infrastructure\"\nSection 7.2, \"Enterprise GL Mapping Parameters\"\n7.1 \nEnterprise GL Extraction Infrastructure\nThis section contains the following topics:\nSection 7.1.1, \"Processing Data Extraction\"\nSection 7.1.2, \"Maintaining Enterprise GL Parameters\"\n7.1.1 \nProcessing Data Extraction\nData extraction process is an End of Day process which is executed during the End of \nFinancial Input stage. In this stage the system consolidates the accounting entries from \ndifferent modules and passes them on to the extraction layer.\nAccounting entries related to revaluation and the year end profit and loss transfer are not \nincluded in the data extraction process. All the other accounting entries are transmitted. \nAfter the data extraction is complete, a notification is triggered in Oracle FLEXCUBE to \nindicate that the data is ready to be processed by the Adapter Layer. On receiving this \nnotification the Adapter Layer would start process the accounting data provided by the \nextraction layer, according to the requirement of the enterprise GL. \n7.1.2 \nMaintaining Enterprise GL Parameters\nEnterprise GL parameters can be captured in the ‘Enterprise GL Parameters’ screen. This is \na head office (HO) level maintenance screen where only one set of Enterprise GL Parameters \nis allowed. Hence, this screen allows you to maintain only one record at the HO Branch level."
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "You can invoke the ‘Enterprise GL Parameters’ screen",
+        "HO Branch",
+        "Reversal Indicator",
+        "Consider Position Accounting",
+        "Bank Level Consol Handoff",
+        "Note",
+        "Default Transaction Code"
+      ],
+      "summary": "This page describes how to access and use the 'Enterprise GL Parameters' screen, detailing various options and their purposes for configuring enterprise general ledger settings.",
+      "raw_text": "7-2\nYou can invoke the ‘Enterprise GL Parameters’ screen by typing ‘EGDGLPRM’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button.\nThe following information can be captured in this screen.\nHO Branch\n Head Office branch code is defaulted to this field. You can not modify the value.\nReversal Indicator\nIn cases where Enterprise GL systems are not able to accept negative numbers in the amount \nfield, the reversal entries will be handled by flipping the accounting entry indicator (Dr/Cr) and \nalways quoting an absolute number in the amount fields. Reversal Indicator provides an \noption to choose among flipping the accounting entry indicator or providing negative amounts.\nConsider Position Accounting\nChoose this option if you want the position accounting entries to be included for reporting.\nBank Level Consol Handoff\nIf you choose this option, the handoff creation process will be triggered only after the data \nextraction is completed in all the branches.\nNote\nData extraction in Oracle FLEXCUBE will always be performed at branch level.\nDefault Transaction Code\nSpecify the transaction code that should be used to handle report accounting entries when \nthere is a change in the customer account reporting GL. This change could be due to current \nbalance movement or account status change or reporting GL maintenance change. \nA brief description of the chosen transaction code is displayed alongside."
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "External Suspense GL",
+        "Enterprise GL Mapping Parameters",
+        "Specifying Enterprise GL Mapping Parameters"
+      ],
+      "summary": "This page discusses external suspense GLs used for invalid accounting entries and enterprise GL mapping parameters including how to specify mappings and invoke the relevant screen.",
+      "raw_text": "7-3\nExternal Suspense GL\nDuring data extraction the system validates whether the accounting entries posted to the GLs \nare valid or not based on the branch and currency restrictions specified in the EGL Master \nscreen. In case such violations are found the system will have to post those accounting \nentries in a separate suspense GL.\nYou can specify the suspense GL that should be used to report such accounting entries, here \nThis should be a valid external GL.\nYou can select the appropriate suspense GL from the adjoining option list which displays all \nthe GLs defined in the ‘EGL Master’ screen.\n7.2 \nEnterprise GL Mapping Parameters\nThis section contains the following topics:\nSection 7.2.1, \"Specifying Enterprise GL Mapping Parameters\"\nSection 7.2.2, \"Defining Enterprise GL Master\"\nSection 7.2.3, \"Specifying Values for Mapping Parameters \"\nSection 7.2.4, \"Data Extraction Processing\"\nSection 7.2.5, \"Handoff Generation \"\n7.2.1 \nSpecifying Enterprise GL Mapping Parameters\nYou can map different combinations like the GL code and currency in Oracle FLEXCUBE to \na GL in the Enterprise GL system. These parameters can be maintained for a given effective \ndate and any modification made will be effective from corresponding business date. Change \nin the mapping will not have any effect on the historical information that has been already \nextracted or handed off.\nYou can invoke the ‘Enterprise GL Mapping Parameters’ screen by typing ‘EGDMAPRM’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton."
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "Mapping parameters can be chosen as any of the following fields:",
+        "Specifying Mapping Parameters",
+        "Defining Enterprise GL Master"
+      ],
+      "summary": "This page discusses how to specify and define mapping parameters for effective date, branch code, transaction MIS, customer MIS, composite MIS, and enterprise GL master in a system.",
+      "raw_text": "7-4\nMapping parameters can be chosen as any of the following fields:\nEffective Date\nThe date from which mapping is effective is displayed here. This field is always defaulted to \nthe application date and you can not change it.\n7.2.1.1 \nSpecifying Mapping Parameters\nBranch Code\nCheck this option if you wish to include branch as on of the mapping parameters\nTransaction MIS \nThe system displays all the transaction MIS classes defined in Oracle FLEXCUBE. However \nonly the ones that have been defined as ‘mandatory’ in the MIS Class Maintenance screen \nwill be enabled. Choose the class that you want to include in the mapping parameters.\nCustomer MIS \nThe system displays all the customer MIS classes defined in Oracle FLEXCUBE. However \nonly the ones that have been defined as ‘mandatory’ in the MIS Class Maintenance screen \nwill be enabled. Choose the class that you want to include in the mapping parameters\nComposite MIS \nThe system displays all the composite MIS classes defined in Oracle FLEXCUBE. However \nonly the ones that have been defined as ‘mandatory’ in the MIS Class Maintenance screen \nwill be enabled. Choose the class that you want to include in the mapping parameters\n7.2.2 \nDefining Enterprise GL Master\nYou can define External GLs for a combination of Oracle FLEXCUBE attributes in the ‘EGL \nMaster’ screen. This maintenance is effective date based and any modification made to the \nexisting data will be effective from the date of modification. This screen is also a Head Office \nfunction."
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Effective Date",
+        "GL Code",
+        "Enterprise GL",
+        "Currency"
+      ],
+      "summary": "This page describes how to invoke and use the 'Enterprise GL Master Maintenance' screen in Oracle FLEXCUBE for mapping GL codes and currencies.",
+      "raw_text": "7-5\nYou can invoke the ‘Enterprise GL Master Maintenance’ screen by typing ‘EGDEGMST’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button.\nEffective Date\nThe application date of the Head Office is defaulted here on creation of any new record or \nmodification to the existing data.\nGL Code\nSpecify the Oracle FLEXCUBE GL Code which should be mapped to the External GL. The \nadjoining option list displays all the GL codes maintained in Oracle FLEXCUBE. You can \nchoose the appropriate one.\nEnterprise GL \nEnter a GL code to which you wish to map a Oracle FLEXCUBE GL. You can specify a GL \nmaintained in the Enterprise GL system or a GL code to represent suspense GL (for posting \nviolated accounting entries). \nRefer the section titled ‘External Suspense GL’ under ‘Maintaining Enterprise GL’ Parameters \nfor further details on violated accounting entries.\nCurrency\nChoose the currency that should be mapped along with the chosen Oracle FLEXCUBE GL to \nthe External GL. The adjoining option list displays all the currency codes maintained in Oracle \nFLEXCUBE. You can choose the appropriate one. You can also choose or the wildcard ‘***’."
+    },
+    {
+      "page_number": 49,
+      "sections": [
+        "Specifying Values for Mapping Parameters",
+        "Branch Code",
+        "Transaction MIS",
+        "Customer MIS",
+        "Composite MIS"
+      ],
+      "summary": "This page explains how to specify values for mapping parameters in a system, including selecting branch codes and defining transaction, customer, and composite MIS codes.",
+      "raw_text": "7-6\n7.2.3 \nSpecifying Values for Mapping Parameters \nHere you can select different MIS codes for the relevant MIS classes to be mapped to the \nExternal GL Code.\nBranch Code\nSelect the appropriate branch code from the adjoining option list which displays all the branch \ncodes defined in the system.\nTransaction MIS \nThe system displays all the transaction MIS codes for the relevant transaction MIS classes \ndefined in Oracle FLEXCUBE. You need to specify the appropriate MIS code against every \nMIS class listed. The adjoining option list displays all the MIS codes coming under the MIS \nclass. Only the MIS classes selected in the ‘Enterprise GL Mapping Parameters’ screen will \nbe enabled for selection. \nCustomer MIS \nThe system displays all the customer MIS codes for the relevant transaction MIS classes \ndefined in Oracle FLEXCUBE. You need to specify the appropriate MIS code against every \nMIS class listed. The adjoining option list displays all the MIS codes coming under the MIS \nclass. Only the MIS classes selected in the ‘Enterprise GL Mapping Parameters’ screen will \nbe enabled for selection. \nComposite MIS \nThe system displays all the composite MIS codes for the relevant transaction MIS classes \ndefined in Oracle FLEXCUBE. You need to specify the appropriate MIS code against every \nMIS class listed. The adjoining option list displays all the MIS codes coming under the MIS \nclass. Only the MIS classes selected in the ‘Enterprise GL Mapping Parameters’ screen will \nbe enabled for selection. \n7.2.3.1 \nSpecifying Restrictions\nPosting Allowed\nBy default this option will be selected. Uncheck this option if you want to impose a restriction.\nBranch Allowed/Disallowed\nFrom the set of available branches, you can maintain a list of Branches which are either \nallowed or disallowed for the external GL.\nSelect the required branch from the option list. You can add additional branches by clicking \nadd icon.\nAccounting entries can be posted to this GL only from the branches selected here.\nCurrencies Allowed/Disallowed\nFrom the set of available currencies, you can maintain a list of currencies which are either \nallowed or disallowed for the external GL.\nSelect the required currency from the option list. You can add additional currencies by clicking \nadd icon.\nAccounting entries can be posted to this GL only in the currencies selected here.\n7.2.4 \nData Extraction Processing\nInformation mapping and data extraction can be performed using a batch process. This batch \nprocess should be triggered during End of Financial Input stage in EOD. This process will \ncontain two major portions to it - one, to handle accounting entries to internal type GLs and"
+    },
+    {
+      "page_number": 50,
+      "sections": [
+        "7.2.4.1 Identification of Internal GL’s",
+        "7.2.4.2 Identification of Customer Accounts & Customer GL’s"
+      ],
+      "summary": "This page describes processes for identifying and mapping internal and customer accounting entries to external general ledger codes, emphasizing the importance of running these processes during specific windows.",
+      "raw_text": "7-7\nthe second to handle accounting entries to customer accounts and building fictitious \naccounting entries to customer GLs in order to represent the balance movement when ever \nthere is a change in reporting GL mapped to them.\nYou can also invoke this batch by typing ‘EGBEGLEX’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\n7.2.4.1 \nIdentification of Internal GL’s\nSystem will pick up the values of different attributes defined to be mapped to an External GL \nfor all the accounting entries posted to Internal GLs. Then the External GL Code will be \nidentified using these attributes. Failure to identify an External GL will terminate the process. \nIdentified External GL for each accounting entry will logged in an intermediary data store.\nYou can run this process as an intra-day job to reduce the processing time required during \nEnd of Day.\n7.2.4.2 \nIdentification of Customer Accounts & Customer GL’s\nIdentification of reporting Customer GL for a Customer Account requires the closing balance \nin the customer account. Since account balances are reconciled at EOD, this process relating \nto entries to Customer should be run only during End of Financial Input window. As a first step, \nthe system will identify the reporting Customer GL for each Customer Account and the \nExternal GL mapped to such a Customer GL. It will also identify the corresponding Oracle \nCCID mapped. \nIf there is a change in the reporting GL the system will automatically create fictitious \naccounting entries to Customer GL to report the balance movement. \nThe following example illustrate this process\n7.2.5 \nHandoff Generation \nA daily handoff data store will be provided which would contain all the basic accounting entry \nrelated information to the external GL mapped. While providing this data system will identify \nwhether there are any violations to the restrictions defined in the EGL Master screen. If found \nthese accounting entries will be reported to using the External Suspense GL maintained in the \n‘Enterprise GL Parameters’ screen.\nSuccessful completion of this process will mark the end of the process."
+    },
+    {
+      "page_number": 51,
+      "sections": [
+        "GL Balance Transfer Maintenance",
+        "Maintaining GL Balance Transfer Details"
+      ],
+      "summary": "This page discusses how to maintain balance transfers between branches and head office GLs, including details on using a specific screen for this process.",
+      "raw_text": "8-1\n8.  Maintaining GL Balance Transfer\nYou can maintain sweep instructions for transferring balance from branch “Stamp duty \npayable GL” to the head office GL. \nThis chapter contains the following sections:\nSection 8.1, \"GL Balance Transfer Maintenance\"\nSection 8.2, \"Balance Transfer Batch GL\"\n8.1 \nGL Balance Transfer Maintenance\nThis section contains the following topic:\nSection 8.1.1, \"Maintaining GL Balance Transfer Details\"\n8.1.1 \nMaintaining GL Balance Transfer Details\nYou can maintain it through ‘GL Balance Transfer Maintenance’ screen. You can invoke this \nscreen by typing ‘STDGLTRF’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nSpecify the following details:\nBranch Code\nSpecify the current branch code from where the sweep would take place.\nGroup Code \nSpecify the code to group the GL’s to be transferred. \nDescription \nEnter the description for the group."
+    },
+    {
+      "page_number": 52,
+      "sections": [
+        "8.2 Balance Transfer Batch GL",
+        "8.2.1 Querying GL Balances"
+      ],
+      "summary": "This page describes how to select transaction codes and GL codes for transferring balances between branches and head office, and outlines the process of querying GL balances as part of a balance transfer batch.",
+      "raw_text": "8-2\nTransaction Code\nSelect a transaction code to be used for posting transfer entries from the list of values \nprovided.\nFrom GL\nSelect the GL code to transfer funds from the list of values provided.\nNote\nThis is the inter branch GL used for parking stamp duty collected.\nTo Branch\nSelect the branch code from the list of values provided to transfer the balances. \nTo GL\nSelect the GL code from the list of values provided to be used for posting sweep entries by \nthe system.\nNote\nAfter this batch is executed, the balance on the source GL (stamp duty payable GL) is 0 \nfor the branch. The system then transfers the balances of GL in each currency to the target \nGL in head office in the same currency.\n8.2 \nBalance Transfer Batch GL\nThis section contains the following topic:\nSection 8.2.1, \"Querying GL Balances\"\n8.2.1 \nQuerying GL Balances\nGL balance transfer batch posts transfer entries and is scheduled as part of AEOD post EOTI. \nIt sweeps the balance if any from the branch GL’s to the head office GL. If the branch GL has \nbalances in multiple currencies, system transfers the balance for each currency to the head \noffice GL in the same currency. When this batch is executed, system checks for any sweep \ninstruction maintenance available for the current branch and then generates and post entries \nto sweep balance from branch GL to head office GL.\nYou can invoke the ‘GL Balances Query’ screen by typing ‘GLDXWBAL’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button."
+    },
+    {
+      "page_number": 53,
+      "sections": [],
+      "summary": "This page describes the criteria that can be entered into the 'GL Balances Query' screen to retrieve specific general ledger balance information.",
+      "raw_text": "8-3\nThe ‘GL Balances Query’ screen is shown below:\nClick the Enter Query button to enter the following query criteria.\nGeneral Ledger Code\nSpecify the code used to identify the general ledger.\nBranch\nSpecify the branch code. The adjoining option list displays all valid branch codes maintained \nin the system. You can select the appropriate one.\nFinancial Year\nSpecify the financial year.\nGeneral Ledger Description\nThe system displays the appropriate general ledger description for the general ledger code \nselected.\nPeriod Code\nSpecify the period code.The adjoining option list displays all valid period codes maintained in \nthe system. You can select the appropriate one.\nCurrency Code\nSpecify the currency code for the transaction. The adjoining option list displays all valid \ncurrency codes maintained in the system. You can select the appropriate one.\nAlternate GL Code\nSpecify the Alternate GL code along with the GL code.The adjoining option list displays all \nvalid alternate GL codes maintained in the system. You can select the appropriate one.\nBranch\nSpecify the branch code. The adjoining option list displays all valid branch codes maintained \nin the system. You can select the appropriate one."
+    },
+    {
+      "page_number": 54,
+      "sections": [
+        "Year",
+        "Period",
+        "Currency",
+        "FCY Balance",
+        "LCY Balance",
+        "Debit Movement",
+        "Credit Movement",
+        "Net Movement",
+        "Debit Movement LCY",
+        "Credit Movement LCY",
+        "Net Movement LCY"
+      ],
+      "summary": "This page describes the fields and options for specifying financial details such as year, period, currency, and movements in both foreign and local currencies.",
+      "raw_text": "8-4\nYear\nSpecify the financial year. The adjoining drop-down list displays all valid financial year codes \nmaintained in the system. You can select the appropriate one. \nPeriod\nSpecify the period code.The adjoining option list displays all valid period codes maintained in \nthe system. You can select the appropriate one.\nCurrency\nSpecify the currency code for the transaction. The adjoining option list displays all valid \ncurrency codes maintained in the system. You can select the appropriate one.\nFCY Balance\nSpecify the balance in foreign currency.\nLCY Balance\nSpecify the balance in local currency.\nDebit Movement\nIndicate whether the debit amount should be moved or not.\nCredit Movement\nIndicate whether the credit amount should be moved or not.\nNet Movement\nIndicate whether the net amount should be moved or not.\nDebit Movement LCY\nSpecify the debit amount moved in local currency.\nCredit Movement LCY\nSpecify the credit amount moved in local currency.\nNet Movement LCY\nSpecify the net amount moved in local currency."
+    },
+    {
+      "page_number": 55,
+      "sections": [],
+      "summary": "This page lists various error codes and their corresponding messages related to GL (General Ledger) operations.",
+      "raw_text": "9-1\n9. Error Codes and Messages\nThis chapter contains the Error Code and Error Messages pertaining to GL.\nError Code\nMessage\nFMS-0001\nDuplicate FMS value\nFMS-0002\nMapping already exists\nGL-0001\nLine code cannot be null\nGL-0002\nLine code length cannot be less than three characters\nGL-0003\nLine description cannot null\nGL-0004\nCannot change the line type\nGL-0005\nThe line type of the parent does not match with that of the line\nGL-0006\nThe category of the parent does not match with that of the child\nGL-0007\n$1 is the consolidation point for $2\nGL-0008\nRecord already exists\nGL-0009\nFirst authorize the lines above the current line in the hierarchy\nGL-0010\nEnter valid parent\nGL-0011\nMandatory fields not input\nGL-0012\nThe length of the GL code cannot be lesser than three characters\nGL-0013\nDuplicate GL code, customer account or account short code\nGL-0014\nThe GL code does not match with the GL Mask\nGL-0015\nCheck digit could not be generated for the current GL code\nGL-0016\nThe scope of currency restriction cannot be reduced\nGL-0017\nThe scope of the branch restriction cannot be reduced\nGL-0018\nA head office or branch Restriction can be modified to both only\nGL-0019\nRecord already exists\nGL-0020\nSome branches are not at End of Day\nGL-0021\nClosure disallowed. Customer Accounts linked to the GL at following \nnodes: $1\nGL-0022\nThe type does not allow Modification\nGL-0023\nBalance for the current GL is not zero at following nodes: $1\nGL-0024\nFirst authorize the GL above the current GL in the hierarchy\nGL-0025\nEnter the currency"
+    },
+    {
+      "page_number": 56,
+      "sections": [],
+      "summary": "This page lists various error codes and constraints related to GL (General Ledger) management in a financial system, including requirements for GL code, parent GL status, customer classes, transaction classes, and mandatory fields.",
+      "raw_text": "9-2\nGL-0026\nCurrent GL is a parent of some open GLs\nGL-0027\nThe parent GL for the current GL has been modified to a leaf - cannot \nopen this GL\nGL-0028\nSpaces not allowed in GL code\nGL-0029\nLength of the field cannot be less than three characters\nGL-0030\nA maximum of ten customer classes and ten transaction classes \nallowed\nGL-0031\nA maximum of two classes can be maintained for budget for each \ncustomer/transaction class\nGL-0032\nInput mandatory\nGL-0033\nGl_Code cannot be null\nGL-0034\nMIS_Class cannot be null\nGL-0035\nInvalid record\nGL-0036\nThe Parent_GL for the current GL is unauthorized - cannot open this \nGL\nGL-0037\nThe Parent_GL for the current GL is closed - cannot open this GL\nGL-0038\nBefore running the consolidated report run the GL report for the \nbranch - $1\nGL-0039\nCould not generate the report\nGL-0040\nFailed to perform the consolidation for the nodes\nGL-0041\nGL code already used\nGL-0042\nFailed to update the Balances for the customer GLs\nGL-0043\nBudget name cannot be empty\nGL-0044\nInvalid budget description\nGL-0045\nFinancial year cannot be empty\nGL-0046\nPeriod code cannot be empty\nGL-0047\nM I S class cannot be empty\nGL-0048\nM I S code cannot be empty\nGL-0049\nCurrency code cannot be empty\nGL-0050\nAmount cannot be empty\nGL-0051\nBranch cannot be empty\nGL-0052\nNo records available\nGL-0053\nGL code cannot be empty"
+    },
+    {
+      "page_number": 57,
+      "sections": [],
+      "summary": "This page lists various error codes and their descriptions related to data input validation and system operations in a financial management software.",
+      "raw_text": "9-3\nGL-0054\nAll (AL) option cannot be selected, when a currency has been \nalready selected\nGL-0055\nInput a valid date\nGL-0056\nSpaces not allowed in report name\nGL-0057\nFailed to perform consolidation\nGL-0058\nSpaces are not allowed in MIS class\nGL-0059\nSpaces are not allowed in MIS code\nGL-0060\nChange of MIS type is not allowed\nGL-0061\nCannot delete the last detail record\nGL-0062\nDetail records cannot be empty\nGL-0063\nDuplicate record\nGL-0064\nAll (AL) option has been selected, other currencies not allowed\nGL-0065\nEnter a valid category\nGL-0066\nEnter a valid category group\nGL-0067\nCannot change the category of the line\nGL-0068\nCurrent line is a parent of some open lines\nGL-0070\nThe parent line for the current line is closed - cannot open this line\nGL-0071\nThe parent line for the current line is unauthorized - cannot reopen \nthis line\nGL-0072\nBudgeting is being done for this GL. Closure disallowed\nGL-0073\nReporting is being done for this GL. Closure disallowed\nGL-0074\nMIS update failed\nGL-0075\nBudget update failed\nGL-0076\nThis report is being run by another user. Please wait\nGL-0077\nType not allowed for customer GL\nGL-0078\nType not allowed for internal GL\nGL-0079\nCategory not allowed for customer GL\nGL-0080\nFinancial year/period code cannot be null\nGL-0081\nDate cannot be null\nGL-0082\nReport name mandatory\nGL-0083\nDays cannot be greater than 27 if months present\nGL-0084\nDays cannot be greater than 364 if years present"
+    },
+    {
+      "page_number": 58,
+      "sections": [],
+      "summary": "This page lists various error codes and conditions related to financial year, period, MIS class, budget, and product combination validations in a system.",
+      "raw_text": "9-4\nGL-0085\nMonths cannot be greater than 11 if years present\nGL-0086\nTenor cannot be negative\nGL-0087\nPeriod code cannot be null\nGL-0088\nFinancial year cannot be null\nGL-0089\nCannot change leaf to a node\nGL-0090\nDo you want to close the financial year?\nGL-0091\nDo you want to close the period?\nGL-0092\nCould not close financial year\nGL-0093\nCould not close period\nGL-0094\nEnter the financial year before the period\nGL-0095\nCannot use this MIS class for further allocation order\nGL-0096\nInterbranch GL - only one MIS group allowed\nGL-0097\nMandatory field MIS group cannot be null\nGL-0098\nA position GL or position eqv. GL cannot be defined as node GLs.\nGL-0099\nThis process can be run only between end of financial input and End \nof Day\nGL-0100\nThis process has already been run\nGL-BUD01\nPeriod code is not maintained for the budget\nGL-BUD02\nThe MIS class 1 for the budget is not maintained\nGL-BUD03\nThe MIS code 1 for the budget is not maintained\nGL-BUD04\nThe MIS class 2 for the budget is not maintained\nGL-BUD05\nThe MIS code 2 for the budget is not maintained.\nGL-CPT01\nThis combination of product, allocation code, transaction type and \nMIS code for the given financial cycle and period code is already \nmaintained\nGL-CPT02\nProduct or allocation code or transaction type cannot be null\nGL-CPT03\nBoth cost code and cost per transaction cannot be null\nGL-CPT04\nFinancial cycle or period code cannot be null\nGL-CPT05\nThe selected period code is not for the chosen financial cycle\nGL-CPT06\nSegment code cannot be null\nGL-CTG1\nAsset accounts should be of debit category\nGL-CTG2\nLiability accounts should be of credit category\nGL-CTG3\nIncome accounts should be of credit category"
+    },
+    {
+      "page_number": 59,
+      "sections": [],
+      "summary": "This page lists various GL and FMS account-related error codes and messages.",
+      "raw_text": "9-5\nGL-CTG4\nExpense accounts should be of debit category\nGL-CTG5\nInvalid FMS account code\nGL-DEBUG\n1\nGL-FIN-\nCL001\nFinance closure successful\nGL-FIN-\nCL002\nFinance closure unsuccessful\nGL-FMS1\nThe legal vehicle of the FMS account is not valid\nGL-FMS2\nIncorrect length of FMS account\nGL-FMS3\nThe currency is not valid\nGL-FMS4\nThe FMS account exists\nGL-FMS5\nThe GL code is a new GL. Do you want to auto-maintain it?\nGL-FMS6\nThe RC code is new. Do you want to auto-maintain it?\nGL-\nFMUP001\nFailed to get commit frequency for process ZDWU\nGL-\nFMUP002\nNo data found in cotms_source_pref for source $1\nGL-\nFMUP003\nFailed to get upload ID for process ZDWU\nGL-\nFMUP004\nFailed to translate external entity $1 for $2 - check if it is authorized/\nopen or not maintained\nGL-\nFMUP005\nGL - $1 closed\nGL-\nFMUP006\nGL - $1 unauthorized\nGL-\nFMUP007\n$1 duplicate GL\nGL-\nFMUP008\n$1 - failed to insert in GLTMS_GLMASTER\nGL-\nFMUP009\n$1 - failed to insert in STTBS_ACCOUNT\nGL-\nFMUP010\nMIS group - $1 closed\nGL-\nFMUP011\nMIS group - $1 unauthorized\nGL-\nFMUP012\nFailed to get the Maximum class number for transaction class"
+    },
+    {
+      "page_number": 60,
+      "sections": [],
+      "summary": "This page lists various error codes and messages related to issues encountered during the FMS upload process in a financial management system.",
+      "raw_text": "9-6\nGL-\nFMUP013\nRC01 - failed to insert into GLTMS_MIS_Class\nGL-\nFMUP014\n$1 - RC01 - failed to insert into GLTMS_MIS_Code\nGL-\nFMUP015\n$1 - $2 - failed to insert into GLTMS_GL_MIS_Group\nGL-\nFMUP016\nFailed to insert in GLTBS_FMS_Details\nGL-\nFMUP017\nRecord already exists in GLTBS_FMS_Details\nGL-\nFMUP018\n$1 - $2 - failed to get start and end date\nGL-\nFMUP019\nEOM balances not sent by FMS\nGL-\nFMUP020\nAVG balances not sent by FMS\nGL-\nFMUP021\nLCY balance not sent but the currency is local currency\nGL-\nFMUP022\nNo MIS head maintained for transaction code $1\nGL-\nFMUP023\n$1 - MIS group not maintained\nGL-\nFMUP024\nFailed to insert in MITBS_Class_Mapping\nGL-\nFMUP025\nFailed to update processed flag\nGL-\nFMUP026\nGeneral failure in FMS upload process\nGL-\nFMUP027\nNo records to process\nGL-\nFMUP028\nThe record is already processed\nGL-\nFMUP029\n$1 cannot be null\nGL-\nFMUP030\nFMS upload successful\nGL-\nFMUP031\nFailed to insert in GLTBS_FMS_Master\nGL-\nFMUP032\nFMS and ISO currency should be same"
+    },
+    {
+      "page_number": 61,
+      "sections": [],
+      "summary": "This page lists various error codes and their descriptions related to general ledger (GL) maintenance in a financial system.",
+      "raw_text": "9-7\n\nGL-\nFMUP035\nAccount code invalid\nGL-GRP01\nSource group name cannot be null\nGL-GRP02\nSource group name should be unique\nGL-GRP03\nPlease maintain at least one GL code for this group\nGL-POS01\nCurrency field cannot be null\nGL-POS02\nAt least one of the fields (position GL or position eqv. GL) has to be \npopulated\nGL-POS03\nGL is linked for positioning in GL maintenance - cannot be closed\nGL-POS04\nGL is linked for positioning in currency maintenance - cannot be \nclosed"
+    },
+    {
+      "page_number": 62,
+      "sections": [
+        "General Ledger Terms"
+      ],
+      "summary": "This section defines various terms related to the General Ledger in Oracle FLEXCUBE, including GL types, currencies used, and categories of head GLs.",
+      "raw_text": "10-1\n10. Glossary\nThis chapter contains the following section:\nSection 10.1, \"General Ledger Terms\"\n10.1 General Ledger Terms\nThe following terms have been used in this manual.\nGL\nThis module forms the single repository in Oracle FLEXCUBE for financial information and \naccounting for all types of accounts held by the bank. Balances, turnovers and so on for any \naccount or type of account can be maintained and consolidated. \nLeaf GL\nA GL that reports to a node GL and is not itself reported to by any other GL.\nNode GL\nA GL that reports to a main head GL above it and is itself reported to by leaf GLs’ under it.\nMIS Class\nAn identifier for the kind of entity that is identified as the basis for MIS reporting\nLCY\nThe local currency in which profit and loss entries can be posted to a GL. Reporting will obtain \ndetails in this currency.\nFCY\nA foreign currency in which record of the profit and loss entries posted to a GL can be \nmaintained.\nChart of Accounts\nThe structure or framework in which the different GL’s are maintained, in the bank\nContingent Asset\nOne of the categories of head GLs that can be maintained in the structure, for the posting of \nentries related to contingent assets.\nContingent Liability\nOne of the categories of head GLs that can be maintained in the structure, for the posting of \nentries related to contingent liabilities.\nPosition Accounting\nMaintaining the position of a foreign currency, by setting up a Position GL and a Position \nEquivalent GL for each foreign currency\nReporting Lines\nUnique codes assigned to each financial information head required for the Head Office and \nCentral Bank. Reporting lines can be associated with the appropriate GL’s that would report \nto them."
+    },
+    {
+      "page_number": 63,
+      "sections": [],
+      "summary": "",
+      "raw_text": "11-1\n11. Function ID Glossary\nSymbols\nGLSCHACC ....................3-21\nE\nEGDEGMST ......................7-5\nEGDGLPRM ......................7-2\nEGDMAPRM .....................7-3\nG\nGLDBRPRM ......................6-4\nGLDCHACC ......................3-2\nGLDCLSMT ...................... 6-2\nGLDREP ........................... 5-4\nGLDXGLLN ....................... 5-2\nGLDXLINE .................4-1, 5-1\nGLDXWBAL ...................... 8-2\nGLSCHACC ...............3-21–??\nS\nSTDGLCMT ...................... 6-6\nSTDGLTRF ....................... 8-1"
+    }
+  ]
+}

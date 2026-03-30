@@ -1,0 +1,1673 @@
+{
+  "source": "FlexCube/FCUBS/Reference Documents/Dashboard User Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 48,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's preface and provides an overview of its content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a document designed to help users understand the Dashboard feature in Oracle FLEXCUBE, detailing its functionality and providing information for different user roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a document designed to help users understand the Dashboard feature in Oracle FLEXCUBE, detailing its functionality and providing information for different user roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a document designed to help users understand the Dashboard feature in Oracle FLEXCUBE, detailing its functionality and providing information for different user roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a document designed to help users understand the Dashboard feature in Oracle FLEXCUBE, detailing its functionality and providing information for different user roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces a document designed to help users understand the Dashboard feature in Oracle FLEXCUBE, detailing its functionality and providing information for different user roles.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Acronyms and Abbreviations",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintenances",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Origination Dashboard Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Origination Dashboard Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Specifying the Mapping Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Maintaining Origination Dashboard Role Details",
+          "start_page": 13
+        },
+        {
+          "structure": "3",
+          "title": "2. An Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Dashboard Organization",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Acronyms and Abbreviations",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides information on acronyms, related documents, a glossary of icons, and references to function IDs and abbreviations used in the User Manual for the XP module.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides information on acronyms, related documents, a glossary of icons, and references to function IDs and abbreviations used in the User Manual for the XP module.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides information on acronyms, related documents, a glossary of icons, and references to function IDs and abbreviations used in the User Manual for the XP module.",
+      "cross_references": [
+        {
+          "structure": "5",
+          "title": "4. Dashboards",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Loan Officer (Maker) Dashboard",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 My Transaction Event Status",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Parked Loans",
+          "start_page": 17
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 EOD Exceptions",
+          "start_page": 17
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Bulletin Board",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1.5",
+          "title": "4.1.5 Watch List Accounts",
+          "start_page": 19
+        },
+        {
+          "structure": "5.1.6",
+          "title": "4.1.6 Wakala to Murabaha Conversion",
+          "start_page": 20
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Loan Authorizer Dashboard",
+          "start_page": 21
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Pending New Loans",
+          "start_page": 21
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Pending Life Cycle Events",
+          "start_page": 22
+        },
+        {
+          "structure": "5.2.3",
+          "title": "4.2.3 EOD Exceptions",
+          "start_page": 23
+        },
+        {
+          "structure": "5.2.4",
+          "title": "4.2.4 Bulletin Board",
+          "start_page": 23
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Loan Supervisor Dashboard",
+          "start_page": 23
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Loan User Event Wise Report",
+          "start_page": 23
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 EOD Exceptions",
+          "start_page": 25
+        },
+        {
+          "structure": "5.3.3",
+          "title": "4.3.3 Bulletin Board",
+          "start_page": 25
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Trade Maker Dashboard",
+          "start_page": 26
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 My Transaction Event Status",
+          "start_page": 26
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Parked Transactions",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.3",
+          "title": "4.4.3 EOD Exceptions",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.4",
+          "title": "4.4.4 Bulletin Board",
+          "start_page": 28
+        },
+        {
+          "structure": "5.5",
+          "title": "4.5 Trade Authorizer Dashboard",
+          "start_page": 28
+        },
+        {
+          "structure": "5.5.1",
+          "title": "4.5.1 Pending New Contracts",
+          "start_page": 28
+        },
+        {
+          "structure": "5.5.2",
+          "title": "4.5.2 Pending Life Cycle Events",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.3",
+          "title": "4.5.3 EOD Exceptions",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.4",
+          "title": "4.5.4 Bulletin Board",
+          "start_page": 30
+        },
+        {
+          "structure": "5.6",
+          "title": "4.6 Trade Supervisor Dashboard",
+          "start_page": 30
+        },
+        {
+          "structure": "5.6.1",
+          "title": "4.6.1 Trade User Event Wise Report",
+          "start_page": 30
+        },
+        {
+          "structure": "5.6.2",
+          "title": "4.6.2 Trade Re-assignment",
+          "start_page": 32
+        },
+        {
+          "structure": "5.6.3",
+          "title": "4.6.3 EOD Exceptions",
+          "start_page": 33
+        },
+        {
+          "structure": "5.6.4",
+          "title": "4.6.4 Bulletin Board",
+          "start_page": 33
+        },
+        {
+          "structure": "5.7",
+          "title": "4.7 Branch Manager Dashboard",
+          "start_page": 33
+        },
+        {
+          "structure": "5.7.1",
+          "title": "4.7.1 TDs Maturing Details",
+          "start_page": 34
+        },
+        {
+          "structure": "5.7.2",
+          "title": "4.7.2 Loans Maturing Details",
+          "start_page": 34
+        },
+        {
+          "structure": "5.7.3",
+          "title": "4.7.3 Business Opportunities",
+          "start_page": 35
+        },
+        {
+          "structure": "5.7.4",
+          "title": "4.7.4 Watch List Accounts",
+          "start_page": 35
+        },
+        {
+          "structure": "5.7.5",
+          "title": "4.7.5 Pending Authorization Contracts",
+          "start_page": 36
+        },
+        {
+          "structure": "5.7.6",
+          "title": "4.7.6 Bulletin Board",
+          "start_page": 36
+        },
+        {
+          "structure": "5.8",
+          "title": "4.8 Relationship Manager Dashboard",
+          "start_page": 37
+        },
+        {
+          "structure": "5.8.1",
+          "title": "4.8.1 Business Opportunities",
+          "start_page": 37
+        },
+        {
+          "structure": "5.8.2",
+          "title": "4.8.2 Business Done for the Month – Self",
+          "start_page": 38
+        },
+        {
+          "structure": "5.8.3",
+          "title": "4.8.3 Business Done for the Month – Team",
+          "start_page": 38
+        },
+        {
+          "structure": "5.8.4",
+          "title": "4.8.4 Customer Upgrade/Downgrade",
+          "start_page": 39
+        },
+        {
+          "structure": "5.8.5",
+          "title": "4.8.5 Loans & TDs Maturing",
+          "start_page": 39
+        },
+        {
+          "structure": "5.8.6",
+          "title": "4.8.6 Bulletin Board",
+          "start_page": 40
+        },
+        {
+          "structure": "5.9",
+          "title": "4.9 Origination Dashboards",
+          "start_page": 40
+        },
+        {
+          "structure": "5.10",
+          "title": "4.10 Organizing Dashboards",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. An Overview",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page explains what dashboards are in Oracle FLEXCUBE and how they are organized to provide quick access to information for bank staff.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Dashboard Organization",
+      "start_page": 7,
+      "end_page": 10,
+      "summary": "This page explains what dashboards are in Oracle FLEXCUBE and how they are organized to provide quick access to information for bank staff.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Maintenances",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page details how to maintain and specify dashboard-related information using the 'Origination Dashboard Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Origination Dashboard Details",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page details how to maintain and specify dashboard-related information using the 'Origination Dashboard Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Maintaining Origination Dashboard Details",
+      "start_page": 10,
+      "end_page": 12,
+      "summary": "This page details how to maintain and specify dashboard-related information using the 'Origination Dashboard Maintenance' screen.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Dashboard Organization",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Specifying the Mapping Details",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This section explains how to specify mapping details for a dashboard by selecting fields and actions using the 'Mapping Details' button in the 'Origination Dashboard Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Maintaining Origination Dashboard Role Details",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This section explains how to define roles and users for each dashboard using the 'Origination Dashboard Role Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Dashboards",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page describes the various dashboards available in Oracle FLEXCUBE based on user roles and provides an overview of sections detailing each dashboard for different roles.",
+      "cross_references": [
+        {
+          "structure": "4.1",
+          "title": "3.1 Origination Dashboard Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Origination Dashboard Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Specifying the Mapping Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Maintaining Origination Dashboard Role Details",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Loan Officer (Maker) Dashboard",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page describes the various dashboards and sections available to a Loan Officer at a bank, including tools for monitoring transaction statuses, parked loans, EOD exceptions, bulletin messages, watch list accounts, and conversions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 My Transaction Event Status",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This page describes the various dashboards and sections available to a Loan Officer at a bank, including tools for monitoring transaction statuses, parked loans, EOD exceptions, bulletin messages, watch list accounts, and conversions.",
+      "cross_references": [
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Origination Dashboard Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Specifying the Mapping Details",
+          "start_page": 12
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Parked Loans",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page describes how to navigate through different loan transaction screens based on authorization status and provides details about two dashboards: one for parked loans and another for EOD exceptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.3",
+      "title": "4.1.3 EOD Exceptions",
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This page describes how to navigate through different loan transaction screens based on authorization status and provides details about two dashboards: one for parked loans and another for EOD exceptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.4",
+      "title": "4.1.4 Bulletin Board",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page describes the validation process for the 'Show Dashboard' check box and details on how to access exception query screens and bulletin board messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.5",
+      "title": "4.1.5 Watch List Accounts",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This page describes the details displayed in the Dashboard for policies and notices, as well as the actions taken by loan officers regarding watch list accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.6",
+      "title": "4.1.6 Wakala to Murabaha Conversion",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This page describes the details displayed on 'Watch List Accounts' and 'Wakala to Murabaha Conversion' Dashboards, including customer information and transaction specifics.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Loan Authorizer Dashboard",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This page describes various dashboards available to Loan Authorizers for approving loans and managing loan transactions, including pending new loans, life cycle events, EOD exceptions, and bulletin board messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.1",
+      "title": "4.2.1 Pending New Loans",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page describes various dashboards available to Loan Authorizers for approving loans and managing loan transactions, including pending new loans, life cycle events, EOD exceptions, and bulletin board messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.2",
+      "title": "4.2.2 Pending Life Cycle Events",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This section describes a dashboard that displays details of pending authorization for specific types of loan contracts and lists various transaction details such as customer ID, account number, currency, amount, branch code, etc.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.3",
+      "title": "4.2.3 EOD Exceptions",
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This page describes various dashboards and their functionalities for loan officers and supervisors, including EOD exceptions, bulletin board messages, and a report for loan user events.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.4",
+      "title": "4.2.4 Bulletin Board",
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This page describes various dashboards and their functionalities for loan officers and supervisors, including EOD exceptions, bulletin board messages, and a report for loan user events.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Loan Supervisor Dashboard",
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This page describes various dashboards and their functionalities for loan officers and supervisors, including EOD exceptions, bulletin board messages, and a report for loan user events.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.1",
+      "title": "4.3.1 Loan User Event Wise Report",
+      "start_page": 23,
+      "end_page": 25,
+      "summary": "This page describes various dashboards and their functionalities for loan officers and supervisors, including EOD exceptions, bulletin board messages, and a report for loan user events.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.2",
+      "title": "4.3.2 EOD Exceptions",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page describes the 'EOD Exceptions' and 'Bulletin Board' dashboards within the Loan Officer (Maker) Dashboard, detailing their functionalities and contents.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.3",
+      "title": "4.3.3 Bulletin Board",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page describes the 'EOD Exceptions' and 'Bulletin Board' dashboards within the Loan Officer (Maker) Dashboard, detailing their functionalities and contents.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4",
+      "title": "4.4 Trade Maker Dashboard",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page describes various dashboards available to Trade Makers for managing and monitoring trade transactions, including transaction statuses, parked applications, EOD exceptions, and bulletin messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.1",
+      "title": "4.4.1 My Transaction Event Status",
+      "start_page": 26,
+      "end_page": 27,
+      "summary": "This page describes various dashboards available to Trade Makers for managing and monitoring trade transactions, including transaction statuses, parked applications, EOD exceptions, and bulletin messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.2",
+      "title": "4.4.2 Parked Transactions",
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This page describes how to access contract details via hyperlinks and explains the functionality of two dashboards: one for parked transactions and another for end-of-day exceptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.3",
+      "title": "4.4.3 EOD Exceptions",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This page describes how to access contract details via hyperlinks and explains the functionality of two dashboards: one for parked transactions and another for end-of-day exceptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.4",
+      "title": "4.4.4 Bulletin Board",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page describes different dashboards available for a Trade Authorizer, including the Bulletin Board and other specific dashboards like Pending New Contracts and EOD Exceptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5",
+      "title": "4.5 Trade Authorizer Dashboard",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page describes different dashboards available for a Trade Authorizer, including the Bulletin Board and other specific dashboards like Pending New Contracts and EOD Exceptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5.1",
+      "title": "4.5.1 Pending New Contracts",
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "This page describes different dashboards available for a Trade Authorizer, including the Bulletin Board and other specific dashboards like Pending New Contracts and EOD Exceptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5.2",
+      "title": "4.5.2 Pending Life Cycle Events",
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This page describes the 'Pending Life Cycle Events' and 'EOD Exceptions' Dashboards, detailing their functionalities and displayed transaction details.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5.3",
+      "title": "4.5.3 EOD Exceptions",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This page describes the 'Pending Life Cycle Events' and 'EOD Exceptions' Dashboards, detailing their functionalities and displayed transaction details.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5.4",
+      "title": "4.5.4 Bulletin Board",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page describes the 'Bulletin Board' and 'Trade Supervisor Dashboard', including their sub-sections and functionalities related to trade transactions and bank communications.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6",
+      "title": "4.6 Trade Supervisor Dashboard",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page describes the 'Bulletin Board' and 'Trade Supervisor Dashboard', including their sub-sections and functionalities related to trade transactions and bank communications.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6.1",
+      "title": "4.6.1 Trade User Event Wise Report",
+      "start_page": 30,
+      "end_page": 32,
+      "summary": "This page describes the 'Bulletin Board' and 'Trade Supervisor Dashboard', including their sub-sections and functionalities related to trade transactions and bank communications.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6.2",
+      "title": "4.6.2 Trade Re-assignment",
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This section describes a dashboard that displays on-hold trade contracts and allows the Trade Supervisor to reassign them to different users, showing transaction details such as User ID, Contract Reference, Currency, and Amount.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6.3",
+      "title": "4.6.3 EOD Exceptions",
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This page describes different dashboards available to bank employees for managing daily operations and monitoring exceptions, including EOD exceptions, bulletin messages, and branch manager-specific dashboards.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6.4",
+      "title": "4.6.4 Bulletin Board",
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This page describes different dashboards available to bank employees for managing daily operations and monitoring exceptions, including EOD exceptions, bulletin messages, and branch manager-specific dashboards.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7",
+      "title": "4.7 Branch Manager Dashboard",
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This page describes different dashboards available to bank employees for managing daily operations and monitoring exceptions, including EOD exceptions, bulletin messages, and branch manager-specific dashboards.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7.1",
+      "title": "4.7.1 TDs Maturing Details",
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "This page describes two dashboards for branch managers: 'TDs Maturing Details' and 'Loans Maturing Details', which display maturing transactions and loans in the next X days, respectively, based on parameters set at the RM Report Parameter level.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7.2",
+      "title": "4.7.2 Loans Maturing Details",
+      "start_page": 34,
+      "end_page": 35,
+      "summary": "This page describes two dashboards for branch managers: 'TDs Maturing Details' and 'Loans Maturing Details', which display maturing transactions and loans in the next X days, respectively, based on parameters set at the RM Report Parameter level.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7.3",
+      "title": "4.7.3 Business Opportunities",
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "This page describes features related to telephone links, business opportunities dashboard, and watch list accounts dashboard in a banking system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7.4",
+      "title": "4.7.4 Watch List Accounts",
+      "start_page": 35,
+      "end_page": 36,
+      "summary": "This page describes features related to telephone links, business opportunities dashboard, and watch list accounts dashboard in a banking system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7.5",
+      "title": "4.7.5 Pending Authorization Contracts",
+      "start_page": 36,
+      "end_page": 36,
+      "summary": "This page describes sections for monitoring and managing bank accounts, including pending authorization contracts and a bulletin board for messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7.6",
+      "title": "4.7.6 Bulletin Board",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page describes sections for monitoring and managing bank accounts, including pending authorization contracts and a bulletin board for messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.8",
+      "title": "4.8 Relationship Manager Dashboard",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section outlines various dashboards available to Relationship Managers to assist them in their tasks, including viewing business opportunities and monthly business details.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.8.1",
+      "title": "4.8.1 Business Opportunities",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This section outlines various dashboards available to Relationship Managers to assist them in their tasks, including viewing business opportunities and monthly business details.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.8.2",
+      "title": "4.8.2 Business Done for the Month – Self",
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This page describes how to navigate through different screens related to customer and scheme details, as well as two dashboards displaying business done by a relationship manager and their team for the month.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.8.3",
+      "title": "4.8.3 Business Done for the Month – Team",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This page describes how to navigate through different screens related to customer and scheme details, as well as two dashboards displaying business done by a relationship manager and their team for the month.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.8.4",
+      "title": "4.8.4 Customer Upgrade/Downgrade",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page describes two dashboards: one for displaying customers who have had a change in credit rating and another for showing loans and term deposits that are maturing within specified days.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.8.5",
+      "title": "4.8.5 Loans & TDs Maturing",
+      "start_page": 39,
+      "end_page": 40,
+      "summary": "This page describes two dashboards: one for displaying customers who have had a change in credit rating and another for showing loans and term deposits that are maturing within specified days.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.8.6",
+      "title": "4.8.6 Bulletin Board",
+      "start_page": 40,
+      "end_page": 40,
+      "summary": "This page discusses loan-related dashboard features including loan amounts, bulletin messages, and origination dashboards with their functionalities.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.9",
+      "title": "4.9 Origination Dashboards",
+      "start_page": 40,
+      "end_page": 4,
+      "summary": "This page discusses loan-related dashboard features including loan amounts, bulletin messages, and origination dashboards with their functionalities.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.10",
+      "title": "4.10 Organizing Dashboards",
+      "start_page": 4,
+      "end_page": 48,
+      "summary": "This page discusses various dashboard features and functionalities, including trade re-assignment, EOD exceptions, bulletin boards, and details specific to branch manager and relationship manager dashboards.",
+      "cross_references": [
+        {
+          "structure": "4.2",
+          "title": "3.2 Maintaining Origination Dashboard Role Details",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Origination Dashboard Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Origination Dashboard Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Specifying the Mapping Details",
+          "start_page": 12
+        },
+        {
+          "structure": "5",
+          "title": "4. Dashboards",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Loan Officer (Maker) Dashboard",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 My Transaction Event Status",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Parked Loans",
+          "start_page": 17
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 EOD Exceptions",
+          "start_page": 17
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Bulletin Board",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1.5",
+          "title": "4.1.5 Watch List Accounts",
+          "start_page": 19
+        },
+        {
+          "structure": "5.1.6",
+          "title": "4.1.6 Wakala to Murabaha Conversion",
+          "start_page": 20
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Loan Authorizer Dashboard",
+          "start_page": 21
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Pending New Loans",
+          "start_page": 21
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Pending Life Cycle Events",
+          "start_page": 22
+        },
+        {
+          "structure": "5.2.3",
+          "title": "4.2.3 EOD Exceptions",
+          "start_page": 23
+        },
+        {
+          "structure": "5.2.4",
+          "title": "4.2.4 Bulletin Board",
+          "start_page": 23
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Loan Supervisor Dashboard",
+          "start_page": 23
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Loan User Event Wise Report",
+          "start_page": 23
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 EOD Exceptions",
+          "start_page": 25
+        },
+        {
+          "structure": "5.3.3",
+          "title": "4.3.3 Bulletin Board",
+          "start_page": 25
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Trade Maker Dashboard",
+          "start_page": 26
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 My Transaction Event Status",
+          "start_page": 26
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Parked Transactions",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.3",
+          "title": "4.4.3 EOD Exceptions",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.4",
+          "title": "4.4.4 Bulletin Board",
+          "start_page": 28
+        },
+        {
+          "structure": "5.5",
+          "title": "4.5 Trade Authorizer Dashboard",
+          "start_page": 28
+        },
+        {
+          "structure": "5.5.1",
+          "title": "4.5.1 Pending New Contracts",
+          "start_page": 28
+        },
+        {
+          "structure": "5.5.2",
+          "title": "4.5.2 Pending Life Cycle Events",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.3",
+          "title": "4.5.3 EOD Exceptions",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.4",
+          "title": "4.5.4 Bulletin Board",
+          "start_page": 30
+        },
+        {
+          "structure": "5.6",
+          "title": "4.6 Trade Supervisor Dashboard",
+          "start_page": 30
+        },
+        {
+          "structure": "5.6.1",
+          "title": "4.6.1 Trade User Event Wise Report",
+          "start_page": 30
+        },
+        {
+          "structure": "5.6.2",
+          "title": "4.6.2 Trade Re-assignment",
+          "start_page": 32
+        },
+        {
+          "structure": "5.6.3",
+          "title": "4.6.3 EOD Exceptions",
+          "start_page": 33
+        },
+        {
+          "structure": "5.6.4",
+          "title": "4.6.4 Bulletin Board",
+          "start_page": 33
+        },
+        {
+          "structure": "5.7",
+          "title": "4.7 Branch Manager Dashboard",
+          "start_page": 33
+        },
+        {
+          "structure": "5.7.1",
+          "title": "4.7.1 TDs Maturing Details",
+          "start_page": 34
+        },
+        {
+          "structure": "5.7.2",
+          "title": "4.7.2 Loans Maturing Details",
+          "start_page": 34
+        },
+        {
+          "structure": "5.7.3",
+          "title": "4.7.3 Business Opportunities",
+          "start_page": 35
+        },
+        {
+          "structure": "5.7.4",
+          "title": "4.7.4 Watch List Accounts",
+          "start_page": 35
+        },
+        {
+          "structure": "5.7.5",
+          "title": "4.7.5 Pending Authorization Contracts",
+          "start_page": 36
+        },
+        {
+          "structure": "5.7.6",
+          "title": "4.7.6 Bulletin Board",
+          "start_page": 36
+        },
+        {
+          "structure": "5.8",
+          "title": "4.8 Relationship Manager Dashboard",
+          "start_page": 37
+        },
+        {
+          "structure": "5.8.1",
+          "title": "4.8.1 Business Opportunities",
+          "start_page": 37
+        },
+        {
+          "structure": "5.8.2",
+          "title": "4.8.2 Business Done for the Month – Self",
+          "start_page": 38
+        },
+        {
+          "structure": "5.8.3",
+          "title": "4.8.3 Business Done for the Month – Team",
+          "start_page": 38
+        },
+        {
+          "structure": "5.8.4",
+          "title": "4.8.4 Customer Upgrade/Downgrade",
+          "start_page": 39
+        },
+        {
+          "structure": "5.8.5",
+          "title": "4.8.5 Loans & TDs Maturing",
+          "start_page": 39
+        },
+        {
+          "structure": "5.8.6",
+          "title": "4.8.6 Bulletin Board",
+          "start_page": 40
+        },
+        {
+          "structure": "5.9",
+          "title": "4.9 Origination Dashboards",
+          "start_page": 40
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Dashboard Organization",
+          "start_page": 7
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Acronyms and Abbreviations",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintenances",
+          "start_page": 10
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. An Overview",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "6",
+      "title": "5. Function ID Glossary",
+      "start_page": 48,
+      "end_page": 50,
+      "summary": "This page appears to list function IDs and their corresponding codes without providing any additional context or explanation.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking Dashboard version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Dashboard User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "Dashboard User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "An Overview"
+      ],
+      "summary": "This page introduces the document's preface and provides an overview of its content structure.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nAcronyms and Abbreviations...................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n1.7 \nGlossary of Icons.....................................................................................................  1-2\n2. \nAn Overview  ............................................................................................ 2-1\n2.1 \nDashboard Organization..........................................................................................  2-1\n3. \nMaintenances ........................................................................................... 3-1\n3.1 \nOrigination Dashboard Details.................................................................................  3-1\n3.1.1  \nMaintaining Origination Dashboard Details ................................................  3-1\n3.1.2  \nSpecifying the Mapping Details ..................................................................  3-3\n3.2 \nMaintaining Origination Dashboard Role Details.....................................................  3-4\n4. \nDashboards .............................................................................................. 4-1\n4.1 \nLoan Officer (Maker) Dashboard.............................................................................  4-2\n4.1.1  \nMy Transaction Event Status......................................................................  4-2\n4.1.2  \nParked Loans .............................................................................................  4-3\n4.1.3  \nEOD Exceptions .........................................................................................  4-3\n4.1.4  \nBulletin Board .............................................................................................  4-4\n4.1.5  \nWatch List Accounts ...................................................................................  4-5\n4.1.6  \nWakala to Murabaha Conversion ...............................................................  4-6\n4.2 \nLoan Authorizer Dashboard.....................................................................................  4-7\n4.2.1  \nPending New Loans ...................................................................................  4-7\n4.2.2  \nPending Life Cycle Events..........................................................................  4-8\n4.2.3  \nEOD Exceptions .........................................................................................  4-9\n4.2.4  \nBulletin Board .............................................................................................  4-9\n4.3 \nLoan Supervisor Dashboard....................................................................................  4-9\n4.3.1  \nLoan User Event Wise Report ....................................................................  4-9\n4.3.2  \nEOD Exceptions .......................................................................................  4-11\n4.3.3  \nBulletin Board ...........................................................................................  4-11\n4.4 \nTrade Maker Dashboard........................................................................................  4-12\n4.4.1  \nMy Transaction Event Status....................................................................  4-12\n4.4.2  \nParked Transactions.................................................................................  4-13\n4.4.3  \nEOD Exceptions .......................................................................................  4-13\n4.4.4  \nBulletin Board ...........................................................................................  4-14\n4.5 \nTrade Authorizer Dashboard .................................................................................  4-14\n4.5.1  \nPending New Contracts............................................................................  4-14\n4.5.2  \nPending Life Cycle Events........................................................................  4-15\n4.5.3  \nEOD Exceptions .......................................................................................  4-15\n4.5.4  \nBulletin Board ...........................................................................................  4-16\n4.6 \nTrade Supervisor Dashboard ................................................................................  4-16\n4.6.1  \nTrade User Event Wise Report.................................................................  4-16"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Trade Re-assignment",
+        "EOD Exceptions",
+        "Bulletin Board",
+        "Branch Manager Dashboard",
+        "TDs Maturing Details",
+        "Loans Matting Details",
+        "Business Opportunities",
+        "Watch List Accounts",
+        "Pending Authorization Contracts",
+        "Bulletin Board",
+        "Relationship Manager Dashboard",
+        "Business Opportunities",
+        "Business Done for the Month – Self"
+      ],
+      "summary": "This page discusses various dashboard features and functionalities, including trade re-assignment, EOD exceptions, bulletin boards, and details specific to branch manager and relationship manager dashboards.",
+      "raw_text": "4.6.2  \nTrade Re-assignment...............................................................................  4-18\n4.6.3  \nEOD Exceptions .......................................................................................  4-19\n4.6.4  \nBulletin Board ...........................................................................................  4-19\n4.7 \nBranch Manager Dashboard .................................................................................  4-19\n4.7.1  \nTDs Maturing Details................................................................................  4-20\n4.7.2  \nLoans Maturing Details.............................................................................  4-20\n4.7.3  \nBusiness Opportunities.............................................................................  4-21\n4.7.4  \nWatch List Accounts .................................................................................  4-21\n4.7.5  \nPending Authorization Contracts ..............................................................  4-22\n4.7.6  \nBulletin Board ...........................................................................................  4-22\n4.8 \nRelationship Manager Dashboard ........................................................................  4-23\n4.8.1  \nBusiness Opportunities.............................................................................  4-23\n4.8.2  \nBusiness Done for the Month – Self.........................................................  4-24\n4.8.3  \nBusiness Done for the Month – Team......................................................  4-24\n4.8.4  \nCustomer Upgrade/Downgrade................................................................  4-25\n4.8.5  \nLoans & TDs Maturing..............................................................................  4-25\n4.8.6  \nBulletin Board ...........................................................................................  4-26\n4.9 \nOrigination Dashboards.........................................................................................  4-26\n4.10 Organizing Dashboards.........................................................................................  4-27\n5. \nFunction ID Glossary ............................................................................... 5-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter Description"
+      ],
+      "summary": "This page introduces a document designed to help users understand the Dashboard feature in Oracle FLEXCUBE, detailing its functionality and providing information for different user roles.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis document is designed to help acquaint you with the features of Dashboard, which is the \nlanding page of Oracle FLEXCUBE. Information from multiple products is integrated and \ndisplayed as Dashboard on the home page of the application.\nThis manual explains the functionality of Dashboard facility and the various Dashboards \npresent in the system. Besides providing these details, the manual also provides a list of \nDashboards mapped to the role of the bank staff logged on to the system. \n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nLoan/Trade Officers\nTo view a summary of the transactions assigned to them, \nmessages and EOD exceptions, if any\nLoan/Trade Authorizers\nTo view unauthorized transactions assigned to them, mes-\nsages and EOD exceptions, if any\nLoan/Trade Supervisors\nTo view subordinate wise summary report of the transac-\ntions, messages and EOD exceptions, if any\nBranch/Relationship \nManagers\nTo view details of the transactions completed by them and \ntheir team  \nChapter \nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.. \nChapter 2\nAn Overview gives an overview of the Dashboard facility in Oracle FLEX-\nCUBE\nChapter 3\nMaintenance gives information on the general maintenances required for \nthe successful functioning of Dashboard.\nChapter 4\nDashboards gives detailed information on Dashboards assigned to each \n‘User Role’ and also about the organization of these Dashboards"
+    },
+    {
+      "page_number": 6,
+      "sections": [],
+      "summary": "This page provides information on acronyms, related documents, a glossary of icons, and references to function IDs and abbreviations used in the User Manual for the XP module.",
+      "raw_text": "1-2\n1.5 \nAcronyms and Abbreviations\n1.6 \nRelated Documents\nYou may need to refer to any or all of the User Manuals while working on the XP module:\nProcedures\n1.7 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter 5\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nAbbreviation\nDescription\nSystem\nUnless and otherwise specified, it shall always refer to Oracle \nFLEXCUBE \nEOD\nEnd of Day\nDFI\nDashboard Function ID\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "An Overview",
+        "Dashboard Organization"
+      ],
+      "summary": "This page explains what dashboards are in Oracle FLEXCUBE and how they are organized to provide quick access to information for bank staff.",
+      "raw_text": "2-1\n2. An Overview \nDashboards are the tiny windows displayed on the landing page of the Application. \nDashboard renders quick and crisp information of specific transactions or tasks mapped to \nthe ‘User Role’ of the Bank staff, who logs on to the system. \n2.1 \nDashboard Organization\nOracle FLEXCUBE facilitates integration of Information from multiple products and displays it \nas Dashboard on the home page, also called the landing page of the application; however, \nyou can view these dashboards, only if the ‘Show Dashboard’ field value is maintained as ‘Y’ \nat the ‘User Settings’ level.\nOracle FLEXCUBE organizes Dashboards to provide comprehensive and consolidate \nsnapshot in tiny windows, to access information easily. Thus, helping the bank staff to; \nanalyze, monitor, and make better decisions which in turn help save time and cost.\nLanding page is designed to display six Dashboards distributed in three rows with two \nDashboards per row, without vertical scroll bar."
+    },
+    {
+      "page_number": 8,
+      "sections": [],
+      "summary": "This page explains how Dashboards are displayed and navigated when there are fewer than six of them, focusing on the limitations in record viewing and navigation options available.",
+      "raw_text": "2-2\n  \nNote\n– \nIf less than six Dashboards are mapped, then the unfilled frames are blank.\nThe height and width of all Dashboards are fixed; however, the number of columns per \nDashboard varies based on the size and name of the columns specified at Dashboard design \nlevel. Since the height of each Dashboard is fixed, only the first 5 records can be viewed at a \ntime. If the Dashboard contains more than 5 records, then the following buttons and links at \nthe top of each Dashboard aid in viewing them:\nThe following hyperlink facilities are also available in each Dashboard:\nColumn-wise link – Each column in the Dashboard can be mapped to a different \nFunction ID to provide column-wise hyperlinks. Click the hyperlink in a particular column \nto launch the corresponding Function ID. A link to a particular column is limited only to \nthat column.\nButton/Link\nFunctionality\nPrevious\nClick the button to view the previous set of 5 records.\nNext\nClick the button to view the next set of records. However, if there \nare more than 5 entries then only the next five can be viewed.\nRefresh\nClick the button to manually refresh and view the first five records.\nMore\nClick this link to launch a screen with more information similar to \nthat of the current Dashboard."
+    },
+    {
+      "page_number": 9,
+      "sections": [],
+      "summary": "This page explains how Dashboard function IDs can be mapped to different roles and users, highlighting row-wise hyperlinks for easy navigation.",
+      "raw_text": "2-3\nRow wise link – Each row in the Dashboard can be mapped to a different Function ID \nto provide row-wise hyperlinks. Click the hyperlink in a particular row to launch the \ncorresponding Function ID. A link to a particular row is the same across all fields in that \nrow.\nNote\nHyperlinked rows and columns are highlighted to distinguish them from others. When a \nrow/column link is clicked, the clicked row/column gets highlighted respectively. \nYou can map any number of Dashboard function IDs (DFI) to a specific ‘Role’ or ‘User’ at Role \nMapping and Dashboard Mapping level. If DFIs are mapped at ‘Dashboard Mapping’ level, \nthen to enable Dashboards you need to map the corresponding functions/assigned roles at \n‘Role Mapping’ level. You can also specify sequence order of DFIs at ‘Dashboard Mapping’ \nlevel, however, you can specify the same at ‘Role Mapping’ level. If multiple roles are added \nand the sequence is not specified, then the system will sort and display the DFIs \nalphabetically. If DFIs are mapped to ‘User’, then you can specify the display order for each \nDFI individually."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Origination Dashboard Details",
+        "Maintaining Origination Dashboard Role Details"
+      ],
+      "summary": "This page details how to maintain and specify dashboard-related information using the 'Origination Dashboard Maintenance' screen.",
+      "raw_text": "3-1\n3. Maintenances\nAs part of general maintenance required for the successful functioning of Dashboard, you \nshould maintain the following in the system:\nOrigination Dashboard Maintenance\nOrigination Dashboard Role Maintenance\nThis chapter contains the following sections\nSection 3.1, \"Origination Dashboard Details\"\nSection 3.2, \"Maintaining Origination Dashboard Role Details\"\n3.1 \nOrigination Dashboard Details\nThis section contains the following topics\nSection 3.1.1, \"Maintaining Origination Dashboard Details\"\nSection 3.1.2, \"Specifying the Mapping Details\"\n3.1.1 \nMaintaining Origination Dashboard Details\nYou can maintain dashboard related information using the ‘Origination Dashboard \nMaintenance’ screen. You can invoke this screen by typing ‘ORDDSHMT’ in the field at the \ntop right corner of the Application tool bar and clicking the adjoining arrow button.\nSpecify the following details:\nDashboard Id\nSpecify the dashboard id here.\nDashboard Description\nThe system displays the dashboard description in the task pane.\nMain Menu\nSpecify the main menu name here,\nLanguage Code\nSpecify the language code of the dashboard."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Sequence Number",
+        "Queue Type",
+        "Queue ID",
+        "Report Id",
+        "Fields",
+        "Actions",
+        "Note"
+      ],
+      "summary": "This page describes the configuration options for a dashboard, including sequence number, queue type, queue ID, report ID, fields, actions, and note on frame limits.",
+      "raw_text": "3-2\nSequence Number\nSpecify the sequence number for the dashboard. It is used to sequence the order in which the \nframes are displayed in dashboard.\nQueue Type\nSelect the queue type from the adjoining drop-down list. This list displays the following values:\nQueue - If you select this option, then system displays all valid queue ids in the ‘Queue \nId’ option list.\nCount - If you select this option, then system displays the title for the frame selected.This \nis used when you want to configure a summary dashboard having multiple queue and \ntheir corresponding count.\nQueue ID\nIf the ‘Queue Type’ is ‘Queue’, then the adjoining option list displays all valid queue ids \nmaintained in the system. If the ‘Queue Type’ is ‘Count’, then the adjoining option list displays \nthe title for the view.\nReport Id\nSelect the report id for the dashboard from the adjoining option list. This list displays all valid \nreport ids maintained in the system.\nFields\nSystem displays the fields of the dashboard here, based on the fields selected from the \n‘Mapping Details’ screen.\nActions\nSystem displays the fields of the dashboard here, based on the fields selected from the \n‘Mapping Details’ screen.\nNote\nEach dashboard should have minimum one and maximum six frames. If more than six \ndashboards are mapped to the main menu dashboard, then system displays the error \nmessage, “Cannot map more than 6 Queues for a Dashboard.”"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Specifying the Mapping Details"
+      ],
+      "summary": "This section explains how to specify mapping details for a dashboard by selecting fields and actions using the 'Mapping Details' button in the 'Origination Dashboard Maintenance' screen.",
+      "raw_text": "3-3\n3.1.2 \nSpecifying the Mapping Details\nYou can select the fields and actions by clicking the ‘Mapping Details’ button in the \n‘Origination Dashboard Maintenance’ screen. This screen is used to select the action and \ncolumns that you want to perform on a particular frame of the dashboard .. \nIn this screen, you can select the required fields and actions for the dashboard from the \nAvailable Fields and Available Actions. Available fields displays all the queues maintained \nfrom SMDQUEMT screen, if the option selected is Count in queue type. Available action \ndisplays all the actions listed in the header of the task bar. On clicking the right-arrow button, \nsystem moves the selected fields and actions to the Selected Fields and Selected Actions \nsections respectively. Similarly, to de-select an action or a field, click the left-arrow button. \nAvailable fields displays blank if the queue type is selected queue and if the option is selected \nas ‘Queue’.The mapping details are not allowed if the queue type is selected as BAM. The \nsystem displays an error message as “No field mappings available for selected queue \ncriteria”."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Maintaining Origination Dashboard Role Details"
+      ],
+      "summary": "This section explains how to define roles and users for each dashboard using the 'Origination Dashboard Role Maintenance' screen.",
+      "raw_text": "3-4\n3.2 \nMaintaining Origination Dashboard Role Details\nYou can define the role and user for each dashboard using the ‘Origination Dashboard Role \nMaintenance’ screen. You can invoke this screen by typing ‘ORDDSHRL’ in the field at the \ntop-right corner of the Application tool bar and clicking the adjoining arrow button.\nSpecify the following details:\nDashboard Id\nSelect the dashboard id from the adjoining option list. This list displays all valid dashboard ids \nmaintained in the system.\nDescription\nSystem displays the description for the selected dashboard ID/alert ID.\nMap To\nSelect the dashboard mapping from the adjoining drop-down list. This list displays the \nfollowing values:\nRole - f you select this option, then you can map the dashboard user with specific roles.\nUser - If you select this option, then you can map the dashboard to a user.\nUser/Role Id\nSelect the user id or role id (based on the mapping type) from the adjoining option list. This \nlist displays all valid user ids and roe ids maintained in the system. You can select the \nappropriate one.\nDefault\nCheck this box to indicate that the dashboard should be included in the Quick View frame for \na specific user or role.\nIf a dashboard is mapped as default for a role or user id, then you cannot map another \ndashboard as default. The system displays an error as “User /Role already has default \ndashboard” in such case."
+    },
+    {
+      "page_number": 14,
+      "sections": [],
+      "summary": "This page explains the precedence rule for dashboards in a role-based system, where a dashboard mapped to a specific user ID takes priority over the default dashboard assigned to their role.",
+      "raw_text": "3-5\nIf there are different dashboards mapped to role and user id having the same role, then \ndashboard mapped to the user id will take precedence over the dashboard mapped as default \nfor the role."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Section 4.1, 'Loan Officer (Maker) Dashboard'",
+        "Section 4.2, 'Loan Authorizer Dashboard'",
+        "Section 4.3, 'Loan Supervisor Dashboard'",
+        "Section 4.4, 'Trade Maker Dashboard'",
+        "Section 4.5, 'Trade Authorizer Dashboard'",
+        "Section 4.6, 'Trade Supervisor Dashboard'",
+        "Section 4.7, 'Branch Manager Dashboard'",
+        "Section 4.8, 'Relationship Manager Dashboard '",
+        "Section 4.9, 'Origination Dashboards'",
+        "Section 4.10, 'Organizing Dashboards'"
+      ],
+      "summary": "This page describes the various dashboards available in Oracle FLEXCUBE based on user roles and provides an overview of sections detailing each dashboard for different roles.",
+      "raw_text": "4-1\n4. Dashboards\nOracle FLEXCUBE facilitates the availability of the following Dashboards based on the ‘User \nRole’ you are mapped to:\nMy Transaction Event Status\nParked Loan/Transactions\nEOD Exceptions\nBulletin Board\nWatch List Accounts\nWakala To Murabaha\nPending New Loans/Contracts\nPending Life Cycle Events\nTD’s Maturing details\nLoan’s Maturing Details\nBusiness Opportunities\nWatch List Accounts\nPending Authorization transactions\nLoan/Trade User Event Wise Report\nTrade Re-assignment\nBusiness Done for the Month \n– \nSelf\n– \nTeam\nCustomer Upgrade / Downgrade\nLoan & TD Account Maturing\nOrigination Dashboards\nEach ‘User Role’ would not require all of the above, hence the system enables grouping of these \nDashboards based on the ‘User Role’.\nThe following sections explain, in detail, the features associated with each Dashboard, the \ngroups, and the ‘User Role’ associated with each group.\nThis chapter contains the following sections\nSection 4.1, \"Loan Officer (Maker) Dashboard\"\nSection 4.2, \"Loan Authorizer Dashboard\"\nSection 4.3, \"Loan Supervisor Dashboard\"\nSection 4.4, \"Trade Maker Dashboard\"\nSection 4.5, \"Trade Authorizer Dashboard\"\nSection 4.6, \"Trade Supervisor Dashboard\"\nSection 4.7, \"Branch Manager Dashboard\"\nSection 4.8, \"Relationship Manager Dashboard \"\nSection 4.9, \"Origination Dashboards\"\nSection 4.10, \"Organizing Dashboards\""
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Loan Officer (Maker) Dashboard",
+        "My Transaction Event Status",
+        "Parked Loans",
+        "EOD Exceptions",
+        "Bulletin Board",
+        "Watch List Accounts",
+        "Wakala to Murabaha conversion"
+      ],
+      "summary": "This page describes the various dashboards and sections available to a Loan Officer at a bank, including tools for monitoring transaction statuses, parked loans, EOD exceptions, bulletin messages, watch list accounts, and conversions.",
+      "raw_text": "4-2\n4.1 \nLoan Officer (Maker) Dashboard\nLoan Officer of a Bank generates loans for the bank and maintains complete details related \nto loan transactions. Also, monitors, analyzes, and assess the credit worthiness of the \nborrowers. The following Dashboards are made available to assist a Loan Officers in their \nassignments:\nMy Transaction Event Status – To view the status of the authorized and unauthorized \nloan transactions event wise.\nParked Loans – To view the status of the loan applications put on hold for pending \ninformation.\nEOD Exceptions – To view the list of EOD exceptions of the loan accounts encountered \nfor previous and current working day.\nBulletin Board – To view the list of Bulletin messages received.\nWatch List Accounts – To keep watch on their overdue loan transactions.\nWakala to Murabaha conversion – To view the list of loan transactions which needs to \nbe converted to Murabaha on the current date, based on Wakala mature days \nconfigured at ‘RM Report Parameterization’ level.\nThis section contains the following topics\nSection 4.1.1, \"My Transaction Event Status\"\nSection 4.1.2, \"Parked Loans\"\nSection 4.1.3, \"EOD Exceptions\"\nSection 4.1.4, \"Bulletin Board\"\nSection 4.1.5, \"Watch List Accounts\"\nSection 4.1.6, \"Wakala to Murabaha Conversion\"\n4.1.1 \nMy Transaction Event Status\n‘My Transaction Event Status’ Dashboard displays the event status of authorized and \nauthorized transactions of CL, LE, CI, and MO accounts; processed by the Maker for the \ncurrent date and event wise. The Dashboard displays the following transaction details, after \nverifying the DFI mapped and validating if the ‘Show Dashboard’ check box is checked. The \nsystem also validates if the current user has multi-branch/centralized access to display other \nbranch accounts.\nCustomer ID\nAccount Number\nCurrency\nAmount – Amount Financed\nAuth Status\nProduct Code\nModule Code"
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Event Code",
+        "Parked Loans",
+        "EOD Exceptions"
+      ],
+      "summary": "This page describes how to navigate through different loan transaction screens based on authorization status and provides details about two dashboards: one for parked loans and another for EOD exceptions.",
+      "raw_text": "4-3\nEvent Code \nA hyperlink is provided to the ‘Account Number’ column. Click the link to invoke the \ncorresponding contract detailed screen based on the module of the account and the event of \nthe contract. However; \nIf you click an unauthorized transaction, the system will display the corresponding \ncurrent event screen processed.\nIf you click an authorized transaction, the system will display the module contract \nscreen.\n4.1.2 \nParked Loans\n‘Parked Loans’ Dashboard displays the loan transactions of CL, LE, CI, and MO; which are \nput on hold for pending information. This Dashboard facilitates working on the pending \ninformation required in completing the transactions without any delay. The Dashboard \ndisplays the following details of the transactions on hold, after verifying the DFI mapped and \nvalidating if the ‘Show Dashboard’ check box is checked. The system also validates if the \ncurrent user has multi-branch/centralized access to display other branch accounts. \nCustomer ID\nAccount Number\nCurrency\nAmount – Amount Financed\nLast Updated Date\nProduct Code\nModule code \nA hyperlink is provided to the ‘Account Number’ column. Click the link to invoke the \ncorresponding contract detail screen. \n4.1.3 \nEOD Exceptions\n‘EOD Exceptions’ Dashboard lists the EOD exceptions of the loan accounts encountered for \nprevious and current working day. The Dashboard displays the following details, after"
+    },
+    {
+      "page_number": 18,
+      "sections": [],
+      "summary": "This page describes the validation process for the 'Show Dashboard' check box and details on how to access exception query screens and bulletin board messages.",
+      "raw_text": "4-4\nverifying the DFI mapped and validating if the ‘Show Dashboard’ check box is checked. The \nsystem also validates if the current user has multi-branch/centralized access to display other \nbranch accounts.\nAccount Number – Loan Account No or Reference No\nProcessing Date – Date on which the exception is logged\nOperation – Event for which the exception occurred\nMaker ID\nA hyperlink is provided to the account number column. Click the link to invoke the ‘EOD \nException Query’ screen. \nThis screen displays the following, EOD message and event details, for the contract event \nscreen:\nContract Reference\nBranch\nModule\nEvent Code\nMessage\n4.1.4 \nBulletin Board\n‘Bulletin Board’ Dashboard lists all or any of the following bulletin messages configured to you \nacross all branches:\nPublic news or messages\nProduct information"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Policies and Notices of the bank",
+        "Watch List Accounts"
+      ],
+      "summary": "This page describes the details displayed in the Dashboard for policies and notices, as well as the actions taken by loan officers regarding watch list accounts.",
+      "raw_text": "4-5\nPolicies and Notices of the bank\nSystem messages\nAdhoc or unplanned messages, if any.\nThe following details of the message are displayed in the Dashboard:\nReference Number – Bulletin Reference No\nMessage Description – Bulletin concise description\nA hyperlink is provided to the Message ID column. Click the link to invoke the ‘Bulletin Detail’ \nscreen. \nFor further details about Bulletin Board, refer ‘Bulletin_Board’ User Manual.\n4.1.5 \nWatch List Accounts\nA loan officer of the Bank will have a watch on loan transactions;\nTo advise borrowers on the management of their finances, if the loan becomes \ndelinquent\nTo take action to collect outstanding amounts"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Watch List Accounts' Dashboard",
+        "Wakala to Murabaha Conversion"
+      ],
+      "summary": "This page describes the details displayed on 'Watch List Accounts' and 'Wakala to Murabaha Conversion' Dashboards, including customer information and transaction specifics.",
+      "raw_text": "4-6\n‘Watch List Accounts’ Dashboard displays this watch list of authorized loan accounts; \nassigned to the Maker for the current date and latest event. The Dashboard displays the \nfollowing transaction details after verifying the DFI mapped and validating if the ‘Show \nDashboard’ check box is checked. The system also validates if the current user has multi-\nbranch/centralized access to display other branch accounts. \nCustomer ID – Customer Id of the loan borrower\nName – Customer Name\nAccount Number – Loan Account No or Reference No\nCurrency – Currency in which the loan is availed\nOverdue Amount – Overdue Amount of all the components\nRM ID – Relationship Manager Id\nProduct Code – Loan Product\nModule Code\nEvent Code\nA hyperlink is provided to the account number column. Click the link to invoke the \ncorresponding contract detailed screen.\n4.1.6 \nWakala to Murabaha Conversion\n‘Wakala to Murabaha Conversion’ Dashboard displays a list of Wakala transaction to be \nconverted to Murabaha on the current day, based on Wakala mature days configured at ‘RM \nReport Parameterization’ level. The Dashboard displays the following transaction details after \nverifying the DFI mapped and validating if the ‘Show Dashboard’ check box is checked. The \nsystem also validates if the current user has multi-branch/centralized access to display other \nbranch accounts.\nCustomer ID – Customer Id of the loan borrower\nAccount No – Loan Account No\nCCY – Currency in which the loan is availed"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Loan Authorizer Dashboard",
+        "Pending New Loans",
+        "Pending Life Cycle Events",
+        "EOD Exceptions",
+        "Bulletin Board"
+      ],
+      "summary": "This page describes various dashboards available to Loan Authorizers for approving loans and managing loan transactions, including pending new loans, life cycle events, EOD exceptions, and bulletin board messages.",
+      "raw_text": "4-7\nAmount – Loan Amount \nA hyperlink is provided to the account number column. Click the link to invoke the \ncorresponding ‘Wakala Contract Detailed’ screen\n4.2 \nLoan Authorizer Dashboard\nLoan Authorizer of a Bank approves loans for the bank and evaluates credit records and \npayment histories of the customer, to decide on approving the loans. The following \nDashboards are made available to assist a Loan Authorizers in their assignments:\nPending New Loans – To view the list of new loan transactions, which are pending for \napproval for the current date.\nPending Life Cycle Events – To view a list of VAMI, Rollover, Payment, and Re-\nNegotiation loan contracts, which are pending for authorization.\nEOD Exceptions – To view the list of EOD exceptions of the loan accounts encountered \nfor previous and current working day.\nBulletin Board – To view the list of Bulletin messages received.\nThis section contains the following topics\nSection 4.2.1, \"Pending New Loans\"\nSection 4.2.2, \"Pending Life Cycle Events\"\nSection 4.2.3, \"EOD Exceptions\"\nSection 4.2.4, \"Bulletin Board\"\n4.2.1 \nPending New Loans\n‘Pending New Loans’ Dashboard displays the list of new CL, CI, MO, and LE loan \ntransactions, which are pending for approval; assigned to the role. The Dashboard displays \nthe following transaction details, after verifying the DFI mapped and validating if the ‘Show \nDashboard’ check box is checked. The system also validates if the current user has multi-\nbranch/centralized access to display other branch accounts. \nCustomer ID – Customer ID of the loan borrower\nAccount Number – Loan Account No or Reference No\nCurrency – Currency in which the loan is availed\nAmount – Loan Financed\nBranch Code"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Pending Life Cycle Events"
+      ],
+      "summary": "This section describes a dashboard that displays details of pending authorization for specific types of loan contracts and lists various transaction details such as customer ID, account number, currency, amount, branch code, etc.",
+      "raw_text": "4-8\nMaker ID – Loan Officer who booked\nProduct Code\nModule Code\nEvent Code \nA hyperlink is provided to the ‘Account Number’ column. Click the link to invoke the \ncorresponding contract detailed screen, based on the module of the account and the event of \nthe contract. \nNote\nAccounts with current event as Book/INIT are listed.\n4.2.2 \nPending Life Cycle Events\n‘Pending Life Cycle Events’ Dashboard displays a list of VAMI, Rollover, Payment, and Re-\nNego loan contracts of CL, CI, MO, and LE; which are pending for authorization. The \nDashboard displays the following details of the transactions on hold, after verifying the DFI \nmapped and validating if the ‘Show Dashboard’ check box is checked. The system also \nvalidates if the current user has multi-branch/centralized access to display other branch \naccounts.\nCustomer ID – Customer ID of the loan borrower\nAccount Number – Loan Account No or Reference No\nCurrency – Currency in which the loan is availed\nAmount – Loan Amount\nBranch Code\nMaker ID – Loan Officer who booked\nProduct Code\nModule Code\nEvent Code"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "EOD Exceptions",
+        "Bulletin Board",
+        "Loan Supervisor Dashboard"
+      ],
+      "summary": "This page describes various dashboards and their functionalities for loan officers and supervisors, including EOD exceptions, bulletin board messages, and a report for loan user events.",
+      "raw_text": "4-9\nA hyperlink is provided to the ‘Account Number’ column. Click the link to invoke the \ncorresponding contract event screen or current event authorization screen. \nNote\nAccounts with current event other than Book/INIT are listed.\n4.2.3 \nEOD Exceptions\n‘EOD Exceptions’ Dashboard lists the EOD exceptions of the loan accounts encountered for \nprevious and current working day. The system also validates if the current user has multi-\nbranch/centralized access to display other branch accounts. \nFor further details on ‘EOD Exceptions’ Dashboard, refer ‘EOD Exceptions’ section under \n‘Loan Officer (Maker) Dashboard’ section of this chapter.\n4.2.4 \nBulletin Board\n‘Bulletin Board’ Dashboard lists all or any of the following bulletin messages configured to you \nacross all branches:\nPublic news or messages\nProduct information\nPolicies and Notices of the bank\nSystem messages\nAdhoc or unplanned messages, if any.\nFor further details on Bulletin Board Dashboard, refer ‘Bulletin Board’ section under ‘Loan \nOfficer (Maker) Dashboard’ section of this chapter.\n4.3 \nLoan Supervisor Dashboard\nLoan Supervisor of a Bank manages the Loan Servicing Department of the bank. Also, \ndirectly supervisors the duties of department staff, coordinates with the staff for coverage in \nrelated areas of the department. The following Dashboards are made available to assist a \nLoan Supervisors in their assignments:\nLoan User Event Wise Report – To view the user event wise report for the loan \ntransactions.\nEOD Exceptions – To view the list of EOD exceptions of the loan accounts encountered \nfor previous and current working day.\nBulletin Board – To view the list of Bulletin messages received.\nThis section contains the following topics\nSection 4.3.1, \"Loan User Event Wise Report\"\nSection 4.3.2, \"EOD Exceptions\"\nSection 4.3.3, \"Bulletin Board\"\n4.3.1 \nLoan User Event Wise Report\n‘Loan User Event Wise Report’ Dashboard displays the user event wise report for; \nunauthorized and authorized loan transactions of the current date and all on-hold loan \ntransactions of the Users. The Dashboard displays the following transaction details, after \nverifying the DFI mapped and validating if the ‘Show Dashboard’ check box is checked. The"
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page describes various user access and account details validation features, including authorized accounts, submitted accounts, parked accounts, and a detailed view of loan transactions processed by the current user.",
+      "raw_text": "4-10\nsystem also validates if the current user has multi-branch/centralized access to display other \nbranch accounts.\nUser ID – User list based on the supervisor mapped at ‘User Maintenance’ level\nAuthorized – Provides count of event wise accounts authorized by the current ‘User’ for \nthe current date. \nSubmitted – Provides count of event wise accounts processed by the current ‘User’ for \nthe current date\nParked – This provides count of accounts on-hold by the current ‘User’\nA hyperlink is provided to the ‘User ID’ column. Click the link to invoke the corresponding \n‘Loan Transaction Query Status’ screen with the contract details processed by the user. The \nfollowing details are displayed:\nAccount Number \nModule\nCCY\nAmount\nProduct\nEvent Code\nESN\nStatus - (‘A’,’U’,’H’)"
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "EOD Exceptions",
+        "Bulletin Board"
+      ],
+      "summary": "This page describes the 'EOD Exceptions' and 'Bulletin Board' dashboards within the Loan Officer (Maker) Dashboard, detailing their functionalities and contents.",
+      "raw_text": "4-11\n4.3.2 \nEOD Exceptions\n‘EOD Exceptions’ Dashboard lists the EOD exceptions of the loan accounts encountered for \nprevious and current working day. The system also validates if the current user has multi-\nbranch/centralized access to display other branch accounts.\nFor further details on ‘EOD Exceptions’ Dashboard, refer ‘EOD Exceptions’ section under \n‘Loan Officer (Maker) Dashboard’ section of this chapter.\n4.3.3 \nBulletin Board\nBulletin Board’ Dashboard lists all or any of the following bulletin messages configured to you \nacross all branches:\nPublic news or messages\nProduct information\nPolicies and Notices of the bank\nSystem messages\nAdhoc or unplanned messages, if any.\nFor further details on Bulletin Board Dashboard, refer ‘Bulletin Board’ section under ‘Loan \nOfficer (Maker) Dashboard’ section of this chapter."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "My Transaction Event Status",
+        "Parked Transactions",
+        "EOD Exceptions",
+        "Bulletin Board"
+      ],
+      "summary": "This page describes various dashboards available to Trade Makers for managing and monitoring trade transactions, including transaction statuses, parked applications, EOD exceptions, and bulletin messages.",
+      "raw_text": "4-12\n4.4 \nTrade Maker Dashboard\nTrade Maker of a Bank generates Trade contracts for the bank and maintains complete \ndetails related to Trade transactions. Also, monitors, analyzes, and assess the credit \nworthiness of the transactions. The following Dashboards are made available to assist a \nTrade Makers in their assignments:\nMy Transaction Event Status – To view the status of the authorized and unauthorized \ntrade transactions.\nParked Transactions – To view the status of the trade applications put on hold for \npending information.\nEOD Exceptions – To view the list of EOD exceptions that Trade Maker has \nencountered for previous and current working day transactions.\nBulletin Board – To view the list of Bulletin messages received.\nThis section contains the following topics\nSection 4.4.1, \"My Transaction Event Status\"\nSection 4.4.2, \"Parked Transactions\"\nSection 4.4.3, \"EOD Exceptions\"\nSection 4.4.4, \"Bulletin Board\"\n4.4.1 \nMy Transaction Event Status\n‘My Transaction Event Status’ Dashboard displays the status of authorized and unauthorized \nTrade transactions; assigned to the role for the current date and event wise processed by the \n‘User’. The Dashboard displays the following transaction details after verifying the ‘DFI \nmapped, validating if the ‘Show Dashboard’ check box is checked, and verifying the multi-\nbranch accessibility:\nCustomer ID\nContract Reference – Trade reference No\nCurrency\nAmount – Trade amount\nAuth Status\nModule\nProduct Code\nEvent code\nNote\n– \nIf more than one event is initiated on a single stage, then the system displays all \nevents initiated on that day.\n– \nOn-hold contracts are not listed."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "4-13",
+        "4.4.2 Parked Transactions",
+        "4.4.3 EOD Exceptions"
+      ],
+      "summary": "This page describes how to access contract details via hyperlinks and explains the functionality of two dashboards: one for parked transactions and another for end-of-day exceptions.",
+      "raw_text": "4-13\n \nA hyperlink is provided to the ‘Contract Reference Number’ column. Click the link to invoke \nthe corresponding contract detailed screen based on the module of the account and the event \nof the contract. However; \nIf you click an unauthorized transaction, the system will display the corresponding \ncurrent event screen processed.\nIf you click an authorized transaction, the system will display the module contract detail \nscreen.\n4.4.2 \nParked Transactions\n‘Parked Loans’ Dashboard displays the trade transactions, which are put on hold for pending \ninformation for the current date and latest event. This Dashboard facilitates working on the \npending information required in completing the transactions without any delay. The \nDashboard displays the following details of the transactions on hold, after verifying the DFI \nmapped, validating if the ‘Show Dashboard’ check box is checked, and verifying the multi-\nbranch accessibility:\nCustomer ID\nContract Reference – Trade reference No\nCurrency\nAmount – Trade amount\nLast Updated\nStatus\nModule\nProduct Code \nA hyperlink is provided to the ‘Reference Number’ column. Click the link to invoke the \ncorresponding contract detail screen. \n4.4.3 \nEOD Exceptions\n‘EOD Exceptions’ Dashboard lists the EOD exceptions that Trade Maker has encountered for \nprevious and current working day for a particular branch or based on Multibranch role \nmapping for that User. \nFor further details on ‘EOD Exceptions’ Dashboard, refer ‘EOD Exceptions’ section under \n‘Loan Officer (Maker) Dashboard’ section of this chapter."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Bulletin Board",
+        "Trade Authorizer Dashboard",
+        "Pending New Contracts",
+        "Pending Life Cycle Events",
+        "EOD Exceptions",
+        "Bulletin Board"
+      ],
+      "summary": "This page describes different dashboards available for a Trade Authorizer, including the Bulletin Board and other specific dashboards like Pending New Contracts and EOD Exceptions.",
+      "raw_text": "4-14\n4.4.4 \nBulletin Board\n‘Bulletin Board’ Dashboard lists all or any of the following bulletin messages configured to you \nacross all branches:\nPublic news or messages\nProduct information\nPolicies and Notices of the bank\nSystem messages\nAdhoc or unplanned messages, if any.\nFor further details on Bulletin Board Dashboard, refer ‘Bulletin Board’ section under ‘Loan \nOfficer (Maker) Dashboard’ section of this chapter.\n4.5 \nTrade Authorizer Dashboard\nTrade Authorizer of a Bank approves trades for the bank and evaluates he contract details \nand checks the credit worthiness, to decide on approving the contracts. The following \nDashboards are made available to assist a Loan Authorizers in their assignments:\nPending New Contracts – To view the list of new contract transactions, which are \npending for approval for the current date.\nPending Life Cycle Events – To view a list of AMND, Rollover, AVAL, and Liquidation \netc of trade contracts, which are pending for authorization.\nEOD Exceptions – To view the list of EOD exceptions that Trade Authorizer has \nencountered for previous and current working day.\nBulletin Board – To view the list of Bulletin messages received.\nThis section contains the following topics\nSection 4.5.1, \"Pending New Contracts\"\nSection 4.5.2, \"Pending Life Cycle Events\"\nSection 4.5.3, \"EOD Exceptions\"\nSection 4.5.4, \"Bulletin Board\"\n4.5.1 \nPending New Contracts\n‘Pending New Contracts’ Dashboard displays the list of new Trade transactions, which are \npending for approval; assigned to the role. The Dashboard displays the following transaction \ndetails, after verifying the DFI mapped, validating if the ‘Show Dashboard’ check box is \nchecked, and verifying the multi-branch accessibility:\nCustomer ID – Customer ID of the loan borrower\nContract Reference – Trade Reference No\nCurrency – Currency in which the loan is availed\nAmount – Trade amount\nMaker ID – Trade Officer who booked\nModule\nProduct Code"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Pending Life Cycle Events",
+        "EOD Exceptions"
+      ],
+      "summary": "This page describes the 'Pending Life Cycle Events' and 'EOD Exceptions' Dashboards, detailing their functionalities and displayed transaction details.",
+      "raw_text": "4-15\nEvent Code \nA hyperlink is provided to the ‘Reference Number’ column. Click the link to invoke the \ncorresponding contract detailed screen. \n4.5.2 \nPending Life Cycle Events\n‘Pending Life Cycle Events’ Dashboard displays a list of AMND, Rollover, AVAL, Liquidation \netc, of trade contracts; which are pending for authorization. The Dashboard displays the \nfollowing details of the transactions on hold, after verifying the DFI mapped, validating if the \n‘Show Dashboard’ check box is checked, and verifying the multi-branch accessibility:\nCustomer ID – Customer ID of the loan borrower\nContract Reference – Trade Reference No\nCurrency – Currency in which the trade contract is availed\nAmount – Trade Amount\nMaker ID – Trade Maker who booked\nModule \nProduct Code\nEvent Code\nA hyperlink is provided to the ‘Reference Number’ column. Click the link to invoke the \ncorresponding contract event screen or current event authorization screen.\n4.5.3 \nEOD Exceptions\n‘EOD Exceptions’ Dashboard lists the EOD exceptions that Trade Authorizer has \nencountered for previous and current working day for a particular branch or based on \nMultibranch role mapping for that User. \nFor further details on ‘EOD Exceptions’ Dashboard, refer ‘EOD Exceptions’ section under \n‘Loan Officer (Maker) Dashboard’ section of this chapter."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Bulletin Board",
+        "Trade Supervisor Dashboard",
+        "Trade User Event Wise Report",
+        "Trade Re-assignment",
+        "EOD Exceptions",
+        "Bulletin Board"
+      ],
+      "summary": "This page describes the 'Bulletin Board' and 'Trade Supervisor Dashboard', including their sub-sections and functionalities related to trade transactions and bank communications.",
+      "raw_text": "4-16\n4.5.4 \nBulletin Board\n‘Bulletin Board’ Dashboard lists all or any of the following bulletin messages configured to you \nacross all branches:\nPublic news or messages\nProduct information\nPolicies and Notices of the bank\nSystem messages\nAdhoc or unplanned messages, if any.\nFor further details on Bulletin Board Dashboard, refer ‘Bulletin Board’ section under ‘Loan \nOfficer (Maker) Dashboard’ section of this chapter.\n4.6 \nTrade Supervisor Dashboard\nTrade Supervisor of a Bank manages the Trade Servicing Department of the bank. Also, \ndirectly supervisors the duties of department staff, coordinates with the staff for coverage in \nrelated areas of the department. The following Dashboards are made available to assist a \nTrade Officers in their assignments:\nTrade User Event Wise Report – To view the user event wise report for the trade \ntransactions.\nRe-assignment – To view the list of contracts which are on-hold.\nEOD Exceptions – To view the list of EOD exceptions that Trade Supervisor has \nencountered for previous and current working day.\nBulletin Board – To view the list of Bulletin messages received.\nThis section contains the following topics\nSection 4.6.1, \"Trade User Event Wise Report\"\nSection 4.6.2, \"Trade Re-assignment\"\nSection 4.6.3, \"EOD Exceptions\"\nSection 4.6.4, \"Bulletin Board\"\n4.6.1 \nTrade User Event Wise Report\n‘Trade User Event Wise Report’ Dashboard displays the user event wise report for the trade \ntransactions which are unauthorized, authorized, or on-hold, for the current date. The \nDashboard displays the following transaction details, after verifying the DFI mapped and \nvalidating if the ‘Show Dashboard’ check box is checked:\nUser ID – User list based on the supervisor mapped at ‘User Maintenance’ level\nAuthorized – Provides count of authorized contracts initiated and modified for the \ncurrent date. \nSubmitted – Provides count of contracts processed by the current ‘User’ for the current \ndate"
+    },
+    {
+      "page_number": 31,
+      "sections": [],
+      "summary": "This page describes a feature that provides a count of contracts on hold and allows users to view detailed information about these contracts through a hyperlink.",
+      "raw_text": "4-17\nParked – Provides count of contracts on-hold initiated and modified \nA hyperlink is provided to the ‘User ID’ column. Click the link to invoke the corresponding ‘New \nTrade Transaction Query Status’ screen with the contract details processed by the user. The \nfollowing details are displayed:\nContract Reference No\nAccount Number \nModule\nCCY\nAmount\nProduct\nEvent Code\nESN\nStatus - (‘A’,’U’,’H’)"
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Trade Re-assignment"
+      ],
+      "summary": "This section describes a dashboard that displays on-hold trade contracts and allows the Trade Supervisor to reassign them to different users, showing transaction details such as User ID, Contract Reference, Currency, and Amount.",
+      "raw_text": "4-18\n \n4.6.2 \nTrade Re-assignment\n‘Trade Re-assignment’ Dashboard displays the list of trade contracts, which are on-hold. The \nTrade Supervisor of the bank can checks the number of contracts available with each User \nand can reassign the contracts to a different User, if needed. The Dashboard displays the \nfollowing transaction details, after verifying the DFI mapped and validating if the ‘Show \nDashboard’ check box is checked:\nUser Id\nContract Reference \nAccount\nModule\nCurrency\nAmount\nProduct\nA hyperlink is provided to the ‘Contract Reference’ column. Click the link to invoke the \ncorresponding ‘Trade Re-assignment’ screen with the contract details processed by the user."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "EOD Exceptions",
+        "Bulletin Board",
+        "Branch Manager Dashboard"
+      ],
+      "summary": "This page describes different dashboards available to bank employees for managing daily operations and monitoring exceptions, including EOD exceptions, bulletin messages, and branch manager-specific dashboards.",
+      "raw_text": "4-19\n4.6.3 \nEOD Exceptions\n‘EOD Exceptions’ Dashboard lists the EOD exceptions that Trade Supervisor has \nencountered for previous and current working day for a particular branch or based on \nMultibranch role mapping for that User. \nFor further details on ‘EOD Exceptions’ Dashboard, refer ‘EOD Exceptions’ section under \n‘Loan Officer (Maker) Dashboard’ section of this chapter.\n4.6.4 \nBulletin Board\n‘Bulletin Board’ Dashboard lists all or any of the following bulletin messages configured to you \nacross all branches:\nPublic news or messages\nProduct information\nPolicies and Notices of the bank\nSystem messages\nAdhoc or unplanned messages, if any.\nFor further details on Bulletin Board Dashboard, refer ‘Bulletin Board’ section under ‘Loan \nOfficer (Maker) Dashboard’ section of this chapter.\n4.7 \nBranch Manager Dashboard\nBranch Manager supervises the daily operations of the Bank. Also, directs the bank branches \nand department, resolves the customer issues and ensures maintenance of service \nstandards. The following Dashboards are made available to assist Branch Managers in their \nassignments:\nTDs maturing details – To view list of TDs which are maturing in next ‘X’ days, based on \nthe mature days\nLoans maturing details – To view list of loans which are maturing in next ‘X’ days, based \non the mature days\nBusiness Opportunities – To view list of customers who are eligible for the schemes in \nthe current branch\nWatch list accounts – To keep watch on the accounts with available amount less than \nthe threshold amount\nPending Authorization contracts – To monitor the transactions which are pending for \nauthorization\nBulletin board – To view the list of Bulletin messages received\nThis section contains the following topics\nSection 4.7.1, \"TDs Maturing Details\"\nSection 4.7.2, \"Loans Maturing Details\"\nSection 4.7.3, \"Business Opportunities\"\nSection 4.7.4, \"Watch List Accounts\"\nSection 4.7.5, \"Pending Authorization Contracts\"\nSection 4.7.6, \"Bulletin Board\""
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "TDs Maturing Details",
+        "Loans Maturing Details"
+      ],
+      "summary": "This page describes two dashboards for branch managers: 'TDs Maturing Details' and 'Loans Maturing Details', which display maturing transactions and loans in the next X days, respectively, based on parameters set at the RM Report Parameter level.",
+      "raw_text": "4-20\n4.7.1 \nTDs Maturing Details\n‘TDs Maturing Details’ Dashboard displays a list of TDs which are maturing in next ‘X’ days, \nbased on the mature days maintained at ‘RM Report Parameter’ level, for the ‘Branch \nmanager’ role. Both multi branch access and centralized role are supported for this \nDashboard. The Dashboard displays the following transaction details, after verifying the DFI \nmapped, validating if the ‘Show Dashboard’ check box is checked, and verifying the multi-\nbranch accessibility:\nCustomer ID\nAccount No\nAccount Class\nMaturity Date\nCurrency\nAmount – Maturity Amount\nTelephone\nA hyperlink is provided to the ‘Account Number’ column. Click the link to invoke the \ncorresponding ‘TD Account’ screen. The ‘RM Report Parameters’ facilitates configuration of \nthe TD mature days.\n4.7.2 \nLoans Maturing Details\n‘Loans Maturing Details’ Dashboard displays a list of loans which are maturing in next ‘X’ \ndays, based on the mature days maintained at ‘RM Report Parameter’ level, for the ‘Branch \nmanager’ role. Both multi branch access and centralized role are supported for this \nDashboard. The Dashboard displays the following CL, LE, CI, COM and MO contract details, \nafter verifying the DFI mapped, validating if the ‘Show Dashboard’ check box is checked, and \nverifying the multi-branch accessibility:\nCustomer ID\nAccount Number\nMaturity Date\nCurrency\nAmount\nMaturity Date\nModule Code\nDescription"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Telephone",
+        "Business Opportunities",
+        "Watch List Accounts"
+      ],
+      "summary": "This page describes features related to telephone links, business opportunities dashboard, and watch list accounts dashboard in a banking system.",
+      "raw_text": "4-21\nTelephone \nA hyperlink is provided to the ‘Account Number’ column. Click the link to invoke the \ncorresponding ‘Loan Account’ screen. The ‘RM Report Parameters’ facilitates configuration \nof the Loan mature days.\n4.7.3 \nBusiness Opportunities\n‘Business Opportunities’ Dashboard displays list of customers who are eligible for the \nschemes in the current branch for the current date. Both multi branch access and centralized \nrole are supported for this Dashboard. The Dashboard displays the following details, after \nverifying the DFI mapped and validating if the ‘Show Dashboard’ check box is checked:\nCustomer ID\nCustomer Name\nScheme\nScheme Description\nScheme End Date\nTelephone\nA hyperlink is provided to the ‘Customer ID’ and ‘Scheme’ column. Click ‘Customer ID’ link to \ninvoke the corresponding ‘Customer Scheme Linkages’ screen. Click ‘Scheme’ link to invoke \nthe corresponding ‘Scheme Details’ screen. Click ‘More’ to invoke the ‘Scheme Summary’ \nscreen.\n4.7.4 \nWatch List Accounts\nBank Manager of the bank monitors the accounts with available amount less than the \nthreshold amount and then informs the customer to maintain the minimum threshold amount \nin the account. Both multi branch access and centralized role are supported for this \nDashboard. The Dashboard displays the following details based on the negative balance \nthreshold parameter maintained at ‘RM Report parameterization’ level, after verifying the DFI \nmapped, validating if the ‘Show Dashboard’ check box is checked, and verifying the multi-\nbranch accessibility:\nCustomer ID"
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Pending Authorization Contracts",
+        "Bulletin Board"
+      ],
+      "summary": "This page describes sections for monitoring and managing bank accounts, including pending authorization contracts and a bulletin board for messages.",
+      "raw_text": "4-22\nAccount Number – CASA Account No\nAccount Description\nCurrency – Account Currency\nAmount – Available balance \nA hyperlink is provided to the ‘Account Number’ column. Click ‘Account Number’ link to invoke \nthe corresponding ‘Account Maintenance’ screen.\n4.7.5 \nPending Authorization Contracts\nBank Manager of the bank monitors the accounts which are pending for authorization. The \nDashboard displays the following details of loan, CASA, and TD accounts for the current \nbranch, which are pending for approval, after verifying the DFI mapped and validating if the \n‘Show Dashboard’ check box is checked:\nCustomer ID\nAccount Number – Loan/CASA/TD\nCurrency\nAmount\nModule Code\nEvent \nA hyperlink is provided to the ‘Account Number’ column. Click ‘Account Number’ link to invoke \nthe corresponding ‘Account Maintenance’ screen.\n4.7.6 \nBulletin Board\n‘Bulletin Board’ Dashboard lists all or any of the following bulletin messages configured to you \nacross all branches:\nPublic news or messages"
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Section 4.8.1, Business Opportunities",
+        "Section 4.8.2, Business Done for the Month – Self",
+        "Section 4.8.3, Business Done for the Month – Team"
+      ],
+      "summary": "This section outlines various dashboards available to Relationship Managers to assist them in their tasks, including viewing business opportunities and monthly business details.",
+      "raw_text": "4-23\nProduct information\nPolicies and Notices of the bank\nSystem messages\nAdhoc or unplanned messages, if any.\nFor further details on Bulletin Board Dashboard, refer ‘Bulletin Board’ section under ‘Loan \nOfficer (Maker) Dashboard’ section of this chapter.\n4.8 \nRelationship Manager Dashboard \nRelationship Manager is the contact point for a customer within the bank. They communicate \namong different groups of people for complaints and to resolve problems. They also help the \nbank in improving trade by promoting the products, services, and solutions to the customers. \nThe following Dashboards are made available to assist Relationship Managers in their \nassignments:\nBusiness Opportunities – To view list of RM customers who are eligible for the schemes\nBusiness done for the month–Self – To view the details of the business done by the \nRelationship Manager for the month \nBusiness done for the month–Team – To view the details of the business done by the \ntheir sub-ordinates for the month\nCustomer Upgrade/Downgrade – To view the list of customers who had a change in the \ncredit rating on the current date\nLoans & TD’s maturing – To view the list of Loans and TD accounts which will mature \nwithin the specified days \nBulletin Board – To view the list of Bulletin messages received\nThis section contains the following topics\nSection 4.8.1, \"Business Opportunities\"\nSection 4.8.2, \"Business Done for the Month – Self\"\nSection 4.8.3, \"Business Done for the Month – Team\"\nSection 4.8.4, \"Customer Upgrade/Downgrade\"\nSection 4.8.5, \"Loans & TDs Maturing\"\nSection 4.8.6, \"Bulletin Board\"\n4.8.1 \nBusiness Opportunities\n‘Business Opportunities’ Dashboard displays list of RM customers who are eligible for the \nschemas in the current branch for the current date. The Dashboard displays the following \ndetails, after verifying the DFI mapped and validating if the ‘Show Dashboard’ check box is \nchecked:\nCustomer ID\nCustomer Name\nScheme ID\nScheme Description\nScheme End Date"
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "4-24 Telephone",
+        "4.8.2 Business Done for the Month – Self",
+        "4.8.3 Business Done for the Month – Team"
+      ],
+      "summary": "This page describes how to navigate through different screens related to customer and scheme details, as well as two dashboards displaying business done by a relationship manager and their team for the month.",
+      "raw_text": "4-24\nTelephone\nA hyperlink is provided to the ‘Customer ID’ and ‘Scheme’ column. Click ‘Customer ID’ link to \ninvoke the corresponding ‘Customer Scheme Linkages’ screen. Click ‘Scheme’ link to invoke \nthe corresponding ‘Scheme Details’ screen. Click ‘More’ to invoke the ‘Scheme Summary’ \nscreen.\n4.8.2 \nBusiness Done for the Month – Self\n‘Business Done for the Month – Self’ Dashboard displays the details of the business done by \nthe relationship manager for the month. It also lists the current local branch customers \nmapped to RM, the active accounts, and the sum of amount grouped based on the module, \ncustomer, product and currency. The Dashboard displays the following details for the loan, \nCASA, and TD accounts, after verifying the DFI mapped and validating if the ‘Show \nDashboard’ check box is checked:\nModule Code\nCustomer ID\nProduct Code – Transaction product code\nCurrency\nAmount – Transaction Amount (Loan - Amount Financed/TD amount deposited/ CASA \nAvailable balance)\n4.8.3 \nBusiness Done for the Month – Team\n‘Business Done for the Month – Team’ Dashboard displays the details of the business done \nby the RM and their sub-ordinates for the month. It also lists the current local branch \ncustomers mapped to RM’s sub-ordinates, the active accounts, and the sum of amount \ngrouped based on the module, customer, product, currency, and maker ID. The Dashboard \ndisplays the following details for the loan, CASA, and TD accounts, after verifying the DFI \nmapped and validating if the ‘Show Dashboard’ check box is checked:\nModule Code\nCustomer ID\nProduct Code – Transaction product code\nCurrency"
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Customer Upgrade/Downgrade",
+        "Loans & TDs Maturing"
+      ],
+      "summary": "This page describes two dashboards: one for displaying customers who have had a change in credit rating and another for showing loans and term deposits that are maturing within specified days.",
+      "raw_text": "4-25\nAmount – Transaction Amount (Loan - Amount Financed/TD amount deposited/ CASA \nAvailable balance)\nMaker Id – RM’s sub-ordinate’s ID\n4.8.4 \nCustomer Upgrade/Downgrade\n‘Customer Upgrade/Downgrade’ Dashboard displays list of customers who had a change in \nthe credit rating, on the current date. It lists the current local branch customers mapped to RM. \nThis Dashboard lists customers mapped to logged RM, whose credit rating changed as on the \ncurrent date. The Dashboard displays the following, after verifying the DFI mapped and \nvalidating if the ‘Show Dashboard’ check box is checked:\nCustomer Id\nPrevious Credit Rating\nLatest Credit Rating\n4.8.5 \nLoans & TDs Maturing\n‘Loans & TD’s Maturing’ Dashboard displays list of Loans and TD accounts which will mature \nwithin the specified days, based on the parameters maintained at ‘RM Report \nParameterization’ level.  It lists Loan and TD accounts in current branch, for customers \nmapped to logged RM. The Dashboard displays the following details for the CL, MO, CI, LE \nloan accounts, and TD accounts for the current branch, after verifying the DFI mapped and \nvalidating if the ‘Show Dashboard’ check box is checked:\nCustomer ID\nAccount No – Loan/TD account No\nModule code\nMaturity Date – TD maturity date/Loan Maturity date\nCurrency"
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Amount – Loan Amount Financed/TD amount",
+        "Bulletin Board",
+        "Origination Dashboards"
+      ],
+      "summary": "This page discusses loan-related dashboard features including loan amounts, bulletin messages, and origination dashboards with their functionalities.",
+      "raw_text": "4-26\nAmount – Loan Amount Financed/TD amount\nMaker ID\nA hyperlink is provided to the ‘Account Number’ column. Click the link to invoke the \ncorresponding ‘Loan/TD Account Details’ screen.\n4.8.6 \nBulletin Board\n‘Bulletin Board’ Dashboard lists all or any of the following bulletin messages configured to you \nacross all branches:\nPublic news or messages\nProduct information\nPolicies and Notices of the bank\nSystem messages\nAdhoc or unplanned messages, if any.\nFor further details on Bulletin Board Dashboard, refer ‘Bulletin Board’ section under ‘Loan \nOfficer (Maker) Dashboard’ section of this chapter.\n4.9 \nOrigination Dashboards\nOracle FLEXCUBE allows you to configure dashboards with multiple queues, count various \nqueues and map dashboards to specific user roles or users.\nFollowing are the features of Origination Dashboards:\nBlow Up - On clicking the ‘Blow Up’ button, system gives a detailed view of the particular \nframe in the dashboard."
+    },
+    {
+      "page_number": 41,
+      "sections": [],
+      "summary": "This page describes various functionalities and pre-configured dashboards available in a system, including refresh options, filter search, actions, tool tips, and details of different dashboard configurations.",
+      "raw_text": "4-27\nRefresh - On clicking the ‘Refresh’ button, system refreshes the particular frame in the \ndashboard.\nFilter Search - On checking the ‘Filter’ box, system displays the filter criteria. Using the \nfilter option, you can search a particular task in a particular queue dashboard as well as \nin all queue dashboards. \nActions - You can select task-specific actions such as Acquire, Copy, Release, Status, \nResume, etc, on the dashboard queues.\nTool Tip - You can view the details of the task when you place the cursor on the \nWorkflow Reference Number of a particular task in the queue frames of the dashboard.\nNote\nEach dashboard has minimum one to maximum six frames.\nFollowing are the pre-configured dashboards available in the system:\nDefault Dashboard - This dashboard lists the Assigned, Acquired, Pending, Completed, \nHigh Priority tasks along with the Action List which lists the Escalated, Expired, Aging, \nHigh Priority and Today queue count.\nCancelled Applications - This dashboard lists the cancelled Applications in Retail \nLending, Corporate Lending, CASA and Trade.\nHigh Priority - This dashboard lists the high priority Applications in Retail Lending, \nCorporate Lending, CASA and Trade.\nHigh Value - This dashboard lists the high value Applications in Retail Lending, \nCorporate Lending, CASA and Trade.\nQuick View - This dashboard can be mapped to the Quick View frame. It displays details \nsuch as task count in each category (Escalated, Expired, Aging, High Priority and Today \nqueue count) and Assigned, Acquired and High Priority Queue Dashboard.\nYou can click on workflow reference number to launch the application. The system launches \nthe queue on click of the queue name in the count dashboards.\nIn addition to the pre-configured dashboards, you can create additional dashboards using the \n‘Origination Dashboard Maintenance’ screen.\nFor more details on Origination Dashboard Maintenance’, refer section titled, ‘Maintaining \nOrigination Dashboard Details’ in chapter, ‘Maintenances’ in this User Manual.\n4.10 Organizing Dashboards\nAs mentioned earlier, you can position and sequence individual dashboards based on DFI \nmapping. The system facilitates filtering of Dashboards. The function ID assigned to each \ndashboard and the criteria based on which each Dashboard is filtered is detailed in the \nfollowing table:\nFunction ID\nDashboard \nname\nFilter Criteria\nOrder Criteria\nLoan Maker"
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "My Transaction Event status",
+        "Parked Loans",
+        "EOD Exceptions",
+        "Bulletin Board",
+        "Watch list transactions",
+        "Wakala to Murabaha"
+      ],
+      "summary": "This page describes various transaction statuses and accounts including event-wise commitment, parked loans, EOD exceptions, bulletin board messages, watch list transactions, and Wakala to Murabaha accounts.",
+      "raw_text": "4-28\nCLSLNTXS\nMy Transac-\ntion Event sta-\ntus\nCL, LE, MO, CI, Commit-\nment Authorised/Unauthor-\nised Event wise Accounts \nfor the Maker.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by  Account \nNumber in ascending \norder, Event Sequence \nNumber in descending \norder\nCLSLNPKD\nParked Loans\nCL, LE, MO, CI, Commit-\nment On-Hold Accounts for \nthe Maker.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by Last updated \ndate aged one first\nCSSEODEX\nEOD Excep-\ntions\nCL, LE, MO, CI, Commit-\nment Accounts gone into \nEOD exception from last \nworking day to current \nbranch date.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by Account \nNumber in ascending \norder\nCSSBULBD\nBulletin Board\nBulletin messages mapped \nto the required role and are \nactive.\nOrder by Message Ref-\nerence Number\nCLSLNWAT \nWatch list \ntransactions\nCL, LE, MO, CI, Commit-\nment Authorised Accounts \nof latest event for the \nMaker ,which has overdue \nof any components equal \nto or greater than one day.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by Account \nNumber in ascending \norder\nCLSLNWTM \nWakala to \nMurabaha\nCI Authorised Accounts of \nlatest event for the Maker \nbased on the Wakala \nexpiry days set at RM \nParameterisation Mainte-\nnance (includes from and \nto date).\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by Account \nNumber in ascending \norder\nLoan Authorizer"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "CLSLNPEN",
+        "CLSPNLCE",
+        "CSSEODEX",
+        "CSSBULBD",
+        "CLSLNURP"
+      ],
+      "summary": "This page describes various dashboard and event tracking systems for loan and commitment accounts, including pending loans, lifecycle events, EOD exceptions, bulletin board messages, and user-wise event counts.",
+      "raw_text": "4-29\nCLSLNPEN\nPending New \nLoans\nCL, LE, MO, CI, Commit-\nment Accounts of latest \nevent wise to the assigned \nuser as per the operational \nhierarchy.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by Account \nNumber in ascending \norder\nCLSPNLCE \nPending Life \ncycle events\nCL, LE, MO, CI, Commit-\nment Accounts of latest \nevent wise to the assigned \nuser as per the operational \nhierarchy.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nAll events other than \nBOOK and INIT.\nOrder by Account \nNumber in ascending \norder\nCSSEODEX\nEOD Excep-\ntions\nCL, LE, MO, CI, Commit-\nment Accounts gone into \nEOD exception from last \nworking day to current \nbranch date.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by Account \nNumber in ascending \norder\nCSSBULBD\nBulletin Board\nBulletin messages mapped \nto the required role and are \nactive.\nOrder by Message Ref-\nerence Number\nLoan Supervisor\nCLSLNURP\nLoan User \nEvent Wise \nDashboard\nEvent wise Count of the \nSubmitted/Authorised/\nParked CL, LE, MO, CI, \nand Commitment Accounts \nof the Maker, Authoriser \nand Supervisor User Id.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by User ID"
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "EOD Exceptions",
+        "Bulletin Board",
+        "My Transaction Event status",
+        "Parked Transactions",
+        "EOD Exceptions"
+      ],
+      "summary": "This page details various sections including EOD exceptions and bulletin board messages for different roles, ordered by specific criteria.",
+      "raw_text": "4-30\nCSSEODEX\nEOD Excep-\ntions\nCL, LE, MO, CI, Commit-\nment Accounts gone into \nEOD exception from last \nworking day to current \nbranch date.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by Account \nNumber in ascending \norder\nCSSBULBD\nBulletin Board\nBulletin messages mapped \nto the required role and are \nactive\nOrder by Message Ref-\nerence Number\nTrade Maker\nLCSTMSTS\nMy Transac-\ntion Event sta-\ntus\nLC, BC, LI and IB Author-\nised/Unauthorised Event \nwise contracts for the \nMaker.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by  contract ref-\nerence Number in \nascending order, Event \nSequence Number in \ndescending order\nLCSTMPAT\nParked Trans-\nactions\nLC, BC, LI and IB contracts \nPut on hold for the maker. \nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized\nOrder by Last updated \ndate aged first\nLCSEODTX\nEOD Excep-\ntions\nLC, BC, LI and IB contracts \ngone into EOD exception \nfrom last working day to \ncurrent branch date. Based \non branch access permis-\nsions Current branch/Multi \nBranch/Centralized\nOrder by contract refer-\nence Number in \nascending order\nCSSBULBD\nBulletin Board\nBulletin messages mapped \nto  the Trade maker role, \nActive\nOrder by Message Ref-\nerence Number\nTrade Authorizer"
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "LCSTAPEN",
+        "LCSTAPLC",
+        "LCSEODTX",
+        "CSSBULBD",
+        "CSSTRURP",
+        "CSSTRRAS"
+      ],
+      "summary": "This page outlines various pending statuses and reports for contracts, including new contract authorizations, life cycle events, EOD exceptions, bulletin messages, trade user event counts, and reassigned contracts.",
+      "raw_text": "4-31\nLCSTAPEN\nPending new \ncontracts\nLC, BC, LI, IB contracts \nwith  BISS, INIT, BOOK, \nBCFM, BADV and BPRE \ntriggered pending for \nauthorization.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized and to the \nassigned user as per the \noperational hierarchy\nOrder by contract refer-\nence Number in \ndescending order.\nLCSTAPLC\nPending Life \ncycle events\nLC, BC, LI, IB with Latest \nEvent other than new con-\ntracts pending for authori-\nzation. Based on branch \naccess permissions Cur-\nrent branch/Multi Branch/\nCentralized and to the \nassigned user as per the \noperational hierarchy\nOrder by contract refer-\nence Number in \ndescending order.\nLCSEODTX\nEOD Excep-\ntions\nLC, BC, LI and IB contracts \ngone into EOD exception \nfrom last working day to \ncurrent branch date. Based \non branch access permis-\nsions Current branch/Multi \nBranch/Centralized\nOrder by contract refer-\nence Number in \nascending order\nCSSBULBD\nBulletin Board\nBulletin messages mapped \nto  the Trade Authoriser \nrole, Active\nOrder by Message Ref-\nerence Number\nTrade Supervisor\nCSSTRURP \nTrade User \nEvent wise \nReport \nEvent wise Count for the \nSubmitted/Authorised/\nParked LC, BC, LI, IB con-\ntracts of the Maker, Author-\niser and Supervisor User \nId.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder By User ID\nCSSTRRAS\nTrade Reas-\nsignment\nLC, BC, LI and IB contracts \nPut on hold in the system. \nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized and as per the \noperational hierarchy \nmaintained.\nOrder by contract refer-\nence Number in \nascending order"
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "EOD Exceptions",
+        "Bulletin Board",
+        "Branch Manager",
+        "TD’s Maturing Details",
+        "Loans Maturings Details",
+        "Business Opportunities",
+        "Watch List Accounts",
+        "Pending Authorization transactions"
+      ],
+      "summary": "This page details various sections in a system, including EOD exceptions, bulletin messages, maturing financial instruments, business opportunities, watch list accounts, and pending authorization transactions, all organized based on specific criteria.",
+      "raw_text": "4-32\nLCSEODTX\nEOD Excep-\ntions\nLC, BC, LI and IB contracts \ngone into EOD exception \nfrom last working day to \ncurrent branch date.\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by contract refer-\nence Number in \nascending order\nCSSBULBD\nBulletin Board\nBulletin messages mapped \nto  the Trade Supervisor \nrole, Active\nOrder by Message Ref-\nerence Number\nBranch Manager\nCLSBTDMD \nTD’s Maturing \nDetails \nAll TDs (Normal, Recurrent \nDeposit, Auto Deposit) that \nare getting matured in next \nX days (RM Param) includ-\ning from and to date. \nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nNearest Maturity first\nCLSBLNMD \nLoan’s Matur-\ning Details \nAll Loans (CL, LE, MO, CI, \nCOM) Active accounts, \nthat are getting matured in \nnext X days (RM Param) \nincluding from and to date\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nNearest Maturity first\nCLSBBOPP\nBusiness \nOpportunities\nRelation ship pricing Open \n& Active scheme with \nactive linkage to RP Cus-\ntomer for logged in branch\nOrder by Cust ID\nCLSBWLST\nWatch List \nAccounts\nAccounts having account \ncurrency available bal-\nance below negative \nthreshold balance set at \nRM Param\nBased on branch access \npermissions Current \nbranch/Multi Branch/Cen-\ntralized.\nOrder by account num-\nber\nCLSBPNAU\nPending \nAuthorization \ntransactions\nPending auth transactions \nof CASA, TD (Normal, \nRecurrent Deposit, Auto \nDeposit), Loans(CL, LE, \nMO, CI) accounts for the \nCurrent branch.\nGroup by module code, \norder by customer ID"
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "Bulletin Board",
+        "CSSRM-BOP",
+        "CSSRMBS",
+        "CSSRMBT",
+        "CSDRMCU",
+        "CSSRMTD"
+      ],
+      "summary": "This page describes various bulletin messages and reports related to business operations, customer management, and loan/maturity tracking for Relationship Managers.",
+      "raw_text": "4-33\nCSSBULBD\nBulletin Board\nBulletin messages mapped \nto the required role and are \nactive.\nOrder by Message Ref-\nerence Number\nRelationship Manager\nCSSRM-\nBOP\nBusiness \nOpportunities \nRelation ship pricing Open \n& Active scheme with \nactive linkage to RP Cus-\ntomer of the RM\nOrder by Cust ID\nCSSRMBS\nBusiness done \nfor the month - \nself \nArithmetic sum of contract \namount (TD-Deposit, \nLoan-Amount Financed, \nCASA- Account CCY avail-\nable balance) grouped by \nModule, Customer, Prod-\nuct and Currency. CL, LE, \nMO, CI/TDs (Normal, \nRecurrent Deposit, Auto \nDeposit)/CASA booked for \ncustomer attached with \nlogged in RM for the cur-\nrent branch and month\nGrouped by Module, \nCustomer, Product and \nCurrency and Order by \nCust ID\nCSSRMBT\nBusiness done \nfor the month - \nTeam\nArithmetic sum of contract \namount (TD-Deposit, \nLoan-Amount Financed, \nCASA- Account CCY avail-\nable balance) grouped by \nModule, Customer, Prod-\nuct and Currency. CL, LE, \nMO, CI/TDs (Normal, \nRecurrent Deposit, Auto \nDeposit)/CASA booked for \ncustomer attached with \nlogged in RM and subordi-\nnate RM for the current \nbranch and month\nGrouped by Module, \nCustomer, Product and \nCurrency and Order by \nCust ID\nCSDRMCU\nCustomer \nUpgrade / \nDowngrade\nCREDIT_RATING modi-\nfied on current date, cur-\nrent branch for the \ncustomer attached to \nlogged in RM\nOrder by Cust ID\nCSSRMTD\nLoan & TD \naccount matur-\ning\nCL, LE, MO, CI or TDs \n(Normal, Recurrent \nDeposit, Auto Deposit) get-\nting matured within next X \ndays (RM report parame-\nter) including from and to \ndate  for the  customer \nattached to logged in RM\nOrder by Cust ID\nCSSBULBD\nBulletin Board\nBulletin messages mapped \nto the required role and are \nactive.\nOrder by Message Ref-\nerence Number"
+    },
+    {
+      "page_number": 48,
+      "sections": [],
+      "summary": "This page appears to list function IDs and their corresponding codes without providing any additional context or explanation.",
+      "raw_text": "5-1\n5. Function ID Glossary\nO\nORDDSHMT ......................3-1\nORDDSHRL ...................... 3-4"
+    }
+  ]
+}

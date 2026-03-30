@@ -1,0 +1,2282 @@
+{
+  "source": "FlexCube/FCUBS/Retail and Small and Medium Enterprise Loans/Islamic Fixed Assets User Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 79,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's preface and outlines sections on Islamic fixed assets, including an overview of the module and attributes of such assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Islamic Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Islamic Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Islamic Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Islamic Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Abbreviations",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page introduces abbreviations and organization of the manual, as well as related documents that may be referenced.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Organization",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page introduces abbreviations and organization of the manual, as well as related documents that may be referenced.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page introduces abbreviations and organization of the manual, as well as related documents that may be referenced.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Abbreviations",
+          "start_page": 6
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Organization",
+          "start_page": 6
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Glossary of Icons",
+          "start_page": 7
+        },
+        {
+          "structure": "6",
+          "title": "5. Processing Islamic Fixed Assets",
+          "start_page": 36
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Islamic Fixed Asset Details",
+          "start_page": 36
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Invoking the Islamic Assets - Asset Capture Screen",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Asset Details Tab",
+          "start_page": 38
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Depreciation Details Tab",
+          "start_page": 40
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Inventory Details Tab",
+          "start_page": 41
+        },
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Linkage Details Button",
+          "start_page": 41
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Asset Details Button",
+          "start_page": 42
+        },
+        {
+          "structure": "6.1.7",
+          "title": "5.1.7 Adhoc Schedule Button",
+          "start_page": 44
+        },
+        {
+          "structure": "6.1.8",
+          "title": "5.1.8 Events Button",
+          "start_page": 45
+        },
+        {
+          "structure": "6.1.9",
+          "title": "5.1.9 Settlement Button",
+          "start_page": 45
+        },
+        {
+          "structure": "6.1.10",
+          "title": "5.1.10 MIS Button",
+          "start_page": 46
+        },
+        {
+          "structure": "6.1.11",
+          "title": "5.1.11 Charges Button",
+          "start_page": 47
+        },
+        {
+          "structure": "6.1.12",
+          "title": "5.1.12 Fields Button",
+          "start_page": 48
+        },
+        {
+          "structure": "6.1.13",
+          "title": "5.1.13 Advice Button",
+          "start_page": 48
+        },
+        {
+          "structure": "6.1.14",
+          "title": "5.1.14 Viewing Summary for Islamic Fixed Asset Contracts",
+          "start_page": 48
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Reassign an Islamic Asset Contract to another User",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Invoking the Islamic Reassign Contract Screen",
+          "start_page": 49
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Islamic Asset Transfer Details",
+          "start_page": 50
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Invoking Islamic Assets Transfer Details Screen",
+          "start_page": 50
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Islamic Asset Write Off details",
+          "start_page": 53
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 Invoking the Islamic Assets - Write Off Details Screen",
+          "start_page": 53
+        },
+        {
+          "structure": "6.4.2",
+          "title": "5.4.2 Events Button",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4.3",
+          "title": "5.4.3 Settlement Instructions Button",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4.4",
+          "title": "5.4.4 MIS Button",
+          "start_page": 56
+        },
+        {
+          "structure": "6.4.5",
+          "title": "5.4.5 Charges Button",
+          "start_page": 57
+        },
+        {
+          "structure": "6.4.6",
+          "title": "5.4.6 Fields Button",
+          "start_page": 58
+        },
+        {
+          "structure": "6.4.7",
+          "title": "5.4.7 Advices Button",
+          "start_page": 58
+        },
+        {
+          "structure": "6.5",
+          "title": "5.5 Islamic Asset Sale Details",
+          "start_page": 58
+        },
+        {
+          "structure": "6.5.1",
+          "title": "5.5.1 Invoking Islamic Asset Sale Details",
+          "start_page": 59
+        },
+        {
+          "structure": "6.5.2",
+          "title": "5.5.2 Events Button",
+          "start_page": 61
+        },
+        {
+          "structure": "6.5.3",
+          "title": "5.5.3 Settlement Button",
+          "start_page": 61
+        },
+        {
+          "structure": "6.5.4",
+          "title": "5.5.4 MIS Button",
+          "start_page": 62
+        },
+        {
+          "structure": "6.5.5",
+          "title": "5.5.5 Charges Button",
+          "start_page": 62
+        },
+        {
+          "structure": "6.5.6",
+          "title": "5.5.6 Fields Button",
+          "start_page": 63
+        },
+        {
+          "structure": "6.5.7",
+          "title": "5.5.7 Advices Button",
+          "start_page": 64
+        },
+        {
+          "structure": "6.6",
+          "title": "5.6 Fixed Asset Delivered but not Inspected",
+          "start_page": 64
+        },
+        {
+          "structure": "6.6.1",
+          "title": "5.6.1 Invoking Islamic Assets Delivered but not Inspected Screen",
+          "start_page": 64
+        },
+        {
+          "structure": "6.7",
+          "title": "5.7 Fixed Asset Drill Down Query",
+          "start_page": 65
+        },
+        {
+          "structure": "6.7.1",
+          "title": "5.7.1 Invoking Islamic Assets Drill Down Query Screen",
+          "start_page": 65
+        },
+        {
+          "structure": "6.8",
+          "title": "5.8 Fixed Asset Inspected but not Capitalized",
+          "start_page": 66
+        },
+        {
+          "structure": "6.8.1",
+          "title": "5.8.1 Invoking Islamic Fixed Assets Inspected Not Capitalized",
+          "start_page": 66
+        },
+        {
+          "structure": "6.9",
+          "title": "5.9 Batch Process",
+          "start_page": 67
+        },
+        {
+          "structure": "6.9.1",
+          "title": "5.9.1 Invoking the Mandatory Batch Program Maintenance Screen",
+          "start_page": 67
+        },
+        {
+          "structure": "3",
+          "title": "2. Islamic Fixed Assets - An Overview",
+          "start_page": 8
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features of the Module",
+          "start_page": 8
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Defining Attributes of an Islamic Fixed Asset Product",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Islamic Asset Product",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Invoking Islamic Asset Product Maintenance",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Accounting Roles Button",
+          "start_page": 12
+        },
+        {
+          "structure": "4.1.3",
+          "title": "3.1.3 Events Button",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1.4",
+          "title": "3.1.4 Branch Currency Button",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1.5",
+          "title": "3.1.5 MIS Details Button",
+          "start_page": 14
+        },
+        {
+          "structure": "4.1.6",
+          "title": "3.1.6 Preferences Button",
+          "start_page": 15
+        },
+        {
+          "structure": "4.1.7",
+          "title": "3.1.7 Category Restrictions Button",
+          "start_page": 16
+        },
+        {
+          "structure": "4.1.8",
+          "title": "3.1.8 Instrument Restrictions",
+          "start_page": 17
+        },
+        {
+          "structure": "4.1.9",
+          "title": "3.1.9 Charges Button",
+          "start_page": 18
+        },
+        {
+          "structure": "4.1.10",
+          "title": "3.1.10 Fields Button",
+          "start_page": 19
+        },
+        {
+          "structure": "4.1.11",
+          "title": "3.1.11 Viewing Summary for Islamic Fixed Asset Products",
+          "start_page": 20
+        },
+        {
+          "structure": "5",
+          "title": "4. Maintenance for Islamic Fixed Asset",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Asset Category Details",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Invoking Islamic Asset Category Maintenance Screen",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Inventory Details Tab",
+          "start_page": 24
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Codes for Asset Locations",
+          "start_page": 25
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Invoking the Location Code Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Branch Parameters Setup for the Product",
+          "start_page": 25
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Invoking the Branch Parameters Islamic Fixed Assets Screen",
+          "start_page": 26
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Location Restrictions for Islamic Fixed Assets",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Invoking the Islamic Fixed Assets Location Restriction Class Maintenance",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Viewing the Summary for Location Restrictions",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5",
+          "title": "4.5 Category Restriction for Islamic Fixed Assets",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.1",
+          "title": "4.5.1 Invoking the Islamic Fixed Assets Category Restriction Class Maintenance",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.2",
+          "title": "4.5.2 Viewing the Summary for Islamic Fixed Asset Category Restriction",
+          "start_page": 30
+        },
+        {
+          "structure": "5.6",
+          "title": "4.6 Asset Rules",
+          "start_page": 31
+        },
+        {
+          "structure": "5.6.1",
+          "title": "4.6.1 Invoking the Rule Definition- Islamic Fixed Assets",
+          "start_page": 31
+        },
+        {
+          "structure": "5.7",
+          "title": "4.7 Asset Category and Location Rule Mapping",
+          "start_page": 33
+        },
+        {
+          "structure": "5.7.1",
+          "title": "4.7.1 Invoking Asset Category-Rule Mapping Screen",
+          "start_page": 33
+        },
+        {
+          "structure": "7",
+          "title": "6. Annexure A - Accounting Entries and Advices",
+          "start_page": 70
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 Events",
+          "start_page": 70
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Amount Tags",
+          "start_page": 70
+        },
+        {
+          "structure": "7.3",
+          "title": "6.3 Accounting Roles",
+          "start_page": 72
+        },
+        {
+          "structure": "7.4",
+          "title": "6.4 Event-wise Accounting Entries and Advices",
+          "start_page": 72
+        }
+      ]
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Glossary of Icons",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page provides a glossary of icons used in the User Manual along with their functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Islamic Fixed Assets - An Overview",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page provides an overview of the Islamic Fixed Assets module in Oracle FLEXCUBE, detailing its features and how it manages the lifecycle of Islamic fixed assets through product definitions and classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page provides an overview of the Islamic Fixed Assets module in Oracle FLEXCUBE, detailing its features and how it manages the lifecycle of Islamic fixed assets through product definitions and classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Features of the Module",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page provides an overview of the Islamic Fixed Assets module in Oracle FLEXCUBE, detailing its features and how it manages the lifecycle of Islamic fixed assets through product definitions and classes.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "4",
+      "title": "3. Defining Attributes of an Islamic Fixed Asset Product",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page discusses how to define attributes for an Islamic Fixed Assets product and provides instructions on accessing the 'Islamic Asset Product Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Islamic Asset Product",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page discusses how to define attributes for an Islamic Fixed Assets product and provides instructions on accessing the 'Islamic Asset Product Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Invoking Islamic Asset Product Maintenance",
+      "start_page": 9,
+      "end_page": 12,
+      "summary": "This page discusses how to define attributes for an Islamic Fixed Assets product and provides instructions on accessing the 'Islamic Asset Product Maintenance' screen.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 8
+        }
+      ]
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Accounting Roles Button",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page explains how to maintain rates for currency pairs and types, specify rate types for cross-currency transactions, and define accounting roles through a button.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.3",
+      "title": "3.1.3 Events Button",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page describes how to use the 'Events' and 'Branch Currency' buttons to define events and maintain branch currency for a product.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.4",
+      "title": "3.1.4 Branch Currency Button",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page describes how to use the 'Events' and 'Branch Currency' buttons to define events and maintain branch currency for a product.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.5",
+      "title": "3.1.5 MIS Details Button",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This section explains how to use the 'MIS' button to access and manage MIS details through the 'MIS Details' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.6",
+      "title": "3.1.6 Preferences Button",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This section explains how to set up preferences for an asset in the Fixed Assets Product Preferences screen, including specifying if purchase orders and depreciation processing are required.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.7",
+      "title": "3.1.7 Category Restrictions Button",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This page discusses the requirements for maintaining inventory tracking and accounting entries for depreciation, as well as the rekeying process during asset authorization in an Islamic fixed asset contract.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.8",
+      "title": "3.1.8 Instrument Restrictions",
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This page explains how to set up asset category restrictions for products in a fixed asset management system, either by associating them with a class or defining specific restrictions, and also mentions the use of location codes for identifying different physical locations of assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.9",
+      "title": "3.1.9 Charges Button",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page explains how to use the 'Charges' button to manage charge details through the 'Charge Details' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.10",
+      "title": "3.1.10 Fields Button",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This section explains how to use the 'Fields' button to manage user defined field details in the 'Product User Defined Fields' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.11",
+      "title": "3.1.11 Viewing Summary for Islamic Fixed Asset Products",
+      "start_page": 20,
+      "end_page": 22,
+      "summary": "This section explains how to view the summary of Islamic fixed asset products using a specific screen and details the criteria for querying records.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Maintenance for Islamic Fixed Asset",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page details the maintenance of asset categories and how to invoke the maintenance screen for Islamic fixed assets in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Asset Category Details",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page details the maintenance of asset categories and how to invoke the maintenance screen for Islamic fixed assets in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Invoking Islamic Asset Category Maintenance Screen",
+      "start_page": 22,
+      "end_page": 24,
+      "summary": "This page details the maintenance of asset categories and how to invoke the maintenance screen for Islamic fixed assets in Oracle FLEXCUBE.",
+      "cross_references": [
+        {
+          "structure": "4.1",
+          "title": "3.1 Islamic Asset Product",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Invoking Islamic Asset Product Maintenance",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Accounting Roles Button",
+          "start_page": 12
+        },
+        {
+          "structure": "4.1.3",
+          "title": "3.1.3 Events Button",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1.4",
+          "title": "3.1.4 Branch Currency Button",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1.5",
+          "title": "3.1.5 MIS Details Button",
+          "start_page": 14
+        },
+        {
+          "structure": "4.1.6",
+          "title": "3.1.6 Preferences Button",
+          "start_page": 15
+        },
+        {
+          "structure": "4.1.7",
+          "title": "3.1.7 Category Restrictions Button",
+          "start_page": 16
+        },
+        {
+          "structure": "4.1.8",
+          "title": "3.1.8 Instrument Restrictions",
+          "start_page": 17
+        },
+        {
+          "structure": "4.1.9",
+          "title": "3.1.9 Charges Button",
+          "start_page": 18
+        },
+        {
+          "structure": "4.1.10",
+          "title": "3.1.10 Fields Button",
+          "start_page": 19
+        },
+        {
+          "structure": "4.1.11",
+          "title": "3.1.11 Viewing Summary for Islamic Fixed Asset Products",
+          "start_page": 20
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Inventory Details Tab",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This page describes how to set up the useful life unit and calculation criteria for depreciation in asset management, as well as details on the inventory tracking tab.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Codes for Asset Locations",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page describes how to assign unique location codes and set up branch parameters for fixed assets in an application system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.1",
+      "title": "4.2.1 Invoking the Location Code Maintenance Screen",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page describes how to assign unique location codes and set up branch parameters for fixed assets in an application system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Branch Parameters Setup for the Product",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page describes how to assign unique location codes and set up branch parameters for fixed assets in an application system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.1",
+      "title": "4.3.1 Invoking the Branch Parameters Islamic Fixed Assets Screen",
+      "start_page": 26,
+      "end_page": 27,
+      "summary": "This page explains how to invoke and use the 'Branch Parameters-Islamic Fixed Assets' screen to define parameters such as depreciation period, residual value, and processing date for fixed assets at the branch level.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4",
+      "title": "4.4 Location Restrictions for Islamic Fixed Assets",
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This page explains how to set up depreciation parameters, including choosing the depreciation period and specifying cutoff dates, as well as options for amortization and location restrictions for fixed assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.1",
+      "title": "4.4.1 Invoking the Islamic Fixed Assets Location Restriction Class Maintenance",
+      "start_page": 27,
+      "end_page": 29,
+      "summary": "This page explains how to set up depreciation parameters, including choosing the depreciation period and specifying cutoff dates, as well as options for amortization and location restrictions for fixed assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.2",
+      "title": "4.4.2 Viewing the Summary for Location Restrictions",
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This page discusses how to view location restrictions for Islamic fixed assets and introduces the process of maintaining category restrictions for these assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5",
+      "title": "4.5 Category Restriction for Islamic Fixed Assets",
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This page discusses how to view location restrictions for Islamic fixed assets and introduces the process of maintaining category restrictions for these assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5.1",
+      "title": "4.5.1 Invoking the Islamic Fixed Assets Category Restriction Class Maintenance",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This page discusses how to view location restrictions for Islamic fixed assets and introduces the process of maintaining category restrictions for these assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5.2",
+      "title": "4.5.2 Viewing the Summary for Islamic Fixed Asset Category Restriction",
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This section explains how to view the summary of Islamic fixed asset category restrictions using the 'Islamic Fixed Asset Category Restriction Class Summary' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6",
+      "title": "4.6 Asset Rules",
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This page describes how to invoke screens for defining asset rules and specifically for setting depreciation rates for Islamic fixed assets in an application tool.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6.1",
+      "title": "4.6.1 Invoking the Rule Definition- Islamic Fixed Assets",
+      "start_page": 31,
+      "end_page": 33,
+      "summary": "This page describes how to invoke screens for defining asset rules and specifically for setting depreciation rates for Islamic fixed assets in an application tool.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7",
+      "title": "4.7 Asset Category and Location Rule Mapping",
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This section explains how to map depreciation rules to asset categories and locations, including invoking the relevant screen and setting up parameters such as depreciation method and frequency.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7.1",
+      "title": "4.7.1 Invoking Asset Category-Rule Mapping Screen",
+      "start_page": 33,
+      "end_page": 36,
+      "summary": "This section explains how to map depreciation rules to asset categories and locations, including invoking the relevant screen and setting up parameters such as depreciation method and frequency.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Processing Islamic Fixed Assets",
+      "start_page": 36,
+      "end_page": 36,
+      "summary": "This page explains how to process Islamic fixed assets in Oracle FLEXCUBE, including capturing details and various functions for managing these assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Islamic Fixed Asset Details",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page explains how to process Islamic fixed assets in Oracle FLEXCUBE, including capturing details and various functions for managing these assets.",
+      "cross_references": [
+        {
+          "structure": "5.3",
+          "title": "4.3 Branch Parameters Setup for the Product",
+          "start_page": 25
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Invoking the Branch Parameters Islamic Fixed Assets Screen",
+          "start_page": 26
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Codes for Asset Locations",
+          "start_page": 25
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Invoking the Location Code Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Asset Category Details",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Invoking Islamic Asset Category Maintenance Screen",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Inventory Details Tab",
+          "start_page": 24
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Location Restrictions for Islamic Fixed Assets",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Invoking the Islamic Fixed Assets Location Restriction Class Maintenance",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Viewing the Summary for Location Restrictions",
+          "start_page": 29
+        },
+        {
+          "structure": "5.7",
+          "title": "4.7 Asset Category and Location Rule Mapping",
+          "start_page": 33
+        },
+        {
+          "structure": "5.7.1",
+          "title": "4.7.1 Invoking Asset Category-Rule Mapping Screen",
+          "start_page": 33
+        },
+        {
+          "structure": "5.6",
+          "title": "4.6 Asset Rules",
+          "start_page": 31
+        },
+        {
+          "structure": "5.6.1",
+          "title": "4.6.1 Invoking the Rule Definition- Islamic Fixed Assets",
+          "start_page": 31
+        },
+        {
+          "structure": "5.5",
+          "title": "4.5 Category Restriction for Islamic Fixed Assets",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.1",
+          "title": "4.5.1 Invoking the Islamic Fixed Assets Category Restriction Class Maintenance",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.2",
+          "title": "4.5.2 Viewing the Summary for Islamic Fixed Asset Category Restriction",
+          "start_page": 30
+        }
+      ]
+    },
+    {
+      "structure": "6.1.1",
+      "title": "5.1.1 Invoking the Islamic Assets - Asset Capture Screen",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This section describes how to access and use the 'Islamic Fixed Asset Capture Online' screen to capture details of Islamic fixed assets and link them to product codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.2",
+      "title": "5.1.2 Asset Details Tab",
+      "start_page": 38,
+      "end_page": 40,
+      "summary": "This page describes how to display and manage various reference numbers in a system for Islamic Fixed Asset contracts, including automatically generated contract references, user-defined references, loan account numbers, and asset details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.3",
+      "title": "5.1.3 Depreciation Details Tab",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This page explains how to indicate the duration of an asset's useful life and manage depreciation details, including suspension options and viewing accumulated depreciation.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.4",
+      "title": "5.1.4 Inventory Details Tab",
+      "start_page": 41,
+      "end_page": 41,
+      "summary": "This page describes fields and buttons related to asset details in a system, including current written-down value, inventory capture details, and linking assets to contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.5",
+      "title": "5.1.5 Linkage Details Button",
+      "start_page": 41,
+      "end_page": 42,
+      "summary": "This page describes fields and buttons related to asset details in a system, including current written-down value, inventory capture details, and linking assets to contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.6",
+      "title": "5.1.6 Asset Details Button",
+      "start_page": 42,
+      "end_page": 44,
+      "summary": "This page describes how to access and use a screen for adding or deleting records, including steps for entering asset details such as reference numbers, vendor codes, contract amounts, and linked amounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.7",
+      "title": "5.1.7 Adhoc Schedule Button",
+      "start_page": 44,
+      "end_page": 45,
+      "summary": "This page discusses various aspects of asset management in a financial system, including entering remarks, defining ad-hoc depreciation rates, displaying asset reference numbers, and maintaining depreciation schedules.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.8",
+      "title": "5.1.8 Events Button",
+      "start_page": 45,
+      "end_page": 45,
+      "summary": "This page describes how to access the 'Events' and 'Settlement Details' screens through buttons in the 'Islamic Assets – Asset Capture' screen for managing events and viewing fund accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.9",
+      "title": "5.1.9 Settlement Button",
+      "start_page": 45,
+      "end_page": 46,
+      "summary": "This page describes how to access the 'Events' and 'Settlement Details' screens through buttons in the 'Islamic Assets – Asset Capture' screen for managing events and viewing fund accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.10",
+      "title": "5.1.10 MIS Button",
+      "start_page": 46,
+      "end_page": 47,
+      "summary": "This page describes how to invoke the 'MIS' screen by clicking the 'MIS' button in the 'Islamic Assets – Asset Capture' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.11",
+      "title": "5.1.11 Charges Button",
+      "start_page": 47,
+      "end_page": 48,
+      "summary": "This section describes how to access and use the 'Charge Details' screen by clicking the 'Charges' button for managing charge details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.12",
+      "title": "5.1.12 Fields Button",
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "This page describes how to use buttons and screens in a software application to manage fields and view summaries of Islamic fixed asset contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.13",
+      "title": "5.1.13 Advice Button",
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "This page describes how to use buttons and screens in a software application to manage fields and view summaries of Islamic fixed asset contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.14",
+      "title": "5.1.14 Viewing Summary for Islamic Fixed Asset Contracts",
+      "start_page": 48,
+      "end_page": 49,
+      "summary": "This page describes how to use buttons and screens in a software application to manage fields and view summaries of Islamic fixed asset contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Reassign an Islamic Asset Contract to another User",
+      "start_page": 49,
+      "end_page": 49,
+      "summary": "This section explains how to reassign an Islamic asset contract to another user so that it can be deleted, typically when the original inputter is unavailable.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.1",
+      "title": "5.2.1 Invoking the Islamic Reassign Contract Screen",
+      "start_page": 49,
+      "end_page": 50,
+      "summary": "This section explains how to reassign an Islamic asset contract to another user so that it can be deleted, typically when the original inputter is unavailable.",
+      "cross_references": [
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Invoking the Location Code Maintenance Screen",
+          "start_page": 25
+        }
+      ]
+    },
+    {
+      "structure": "6.3",
+      "title": "5.3 Islamic Asset Transfer Details",
+      "start_page": 50,
+      "end_page": 50,
+      "summary": "This page explains how to reassign users for Islamic fixed asset contracts and introduces the process of transferring Islamic fixed assets to different branches or locations.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.1",
+      "title": "5.3.1 Invoking Islamic Assets Transfer Details Screen",
+      "start_page": 50,
+      "end_page": 53,
+      "summary": "This page explains how to reassign users for Islamic fixed asset contracts and introduces the process of transferring Islamic fixed assets to different branches or locations.",
+      "cross_references": [
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Invoking the Branch Parameters Islamic Fixed Assets Screen",
+          "start_page": 26
+        }
+      ]
+    },
+    {
+      "structure": "6.4",
+      "title": "5.4 Islamic Asset Write Off details",
+      "start_page": 53,
+      "end_page": 53,
+      "summary": "This page outlines the process and details for transferring an asset to a new location, including how reference numbers, depreciation, schedules, acquisition date, capitalization date, and effective depreciation date are handled during the transfer.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.1",
+      "title": "5.4.1 Invoking the Islamic Assets - Write Off Details Screen",
+      "start_page": 53,
+      "end_page": 55,
+      "summary": "This page outlines the process and details for transferring an asset to a new location, including how reference numbers, depreciation, schedules, acquisition date, capitalization date, and effective depreciation date are handled during the transfer.",
+      "cross_references": [
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Invoking the Islamic Fixed Assets Location Restriction Class Maintenance",
+          "start_page": 27
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Viewing the Summary for Location Restrictions",
+          "start_page": 29
+        }
+      ]
+    },
+    {
+      "structure": "6.4.2",
+      "title": "5.4.2 Events Button",
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "This page outlines the process for specifying values, identifying officers, making remarks, and navigating buttons related to write-offs of assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.3",
+      "title": "5.4.3 Settlement Instructions Button",
+      "start_page": 55,
+      "end_page": 56,
+      "summary": "This page outlines the process for specifying values, identifying officers, making remarks, and navigating buttons related to write-offs of assets.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.4",
+      "title": "5.4.4 MIS Button",
+      "start_page": 56,
+      "end_page": 57,
+      "summary": "This page instructs users on how to access the 'MIS' screen by clicking the 'MIS' button in the 'Islamic Assets - Write Off Details' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.5",
+      "title": "5.4.5 Charges Button",
+      "start_page": 57,
+      "end_page": 58,
+      "summary": "This section describes how to access and use the 'Charge Details' screen by clicking the 'Charges' button for managing charge details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.6",
+      "title": "5.4.6 Fields Button",
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This page describes how to use buttons to invoke different screens for managing user-defined field details and provides an overview of sections related to Islamic asset sale details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.7",
+      "title": "5.4.7 Advices Button",
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This page describes how to use buttons to invoke different screens for managing user-defined field details and provides an overview of sections related to Islamic asset sale details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5",
+      "title": "5.5 Islamic Asset Sale Details",
+      "start_page": 58,
+      "end_page": 59,
+      "summary": "This page describes how to use buttons to invoke different screens for managing user-defined field details and provides an overview of sections related to Islamic asset sale details.",
+      "cross_references": [
+        {
+          "structure": "5.5.1",
+          "title": "4.5.1 Invoking the Islamic Fixed Assets Category Restriction Class Maintenance",
+          "start_page": 29
+        },
+        {
+          "structure": "5.5.2",
+          "title": "4.5.2 Viewing the Summary for Islamic Fixed Asset Category Restriction",
+          "start_page": 30
+        }
+      ]
+    },
+    {
+      "structure": "6.5.1",
+      "title": "5.5.1 Invoking Islamic Asset Sale Details",
+      "start_page": 59,
+      "end_page": 61,
+      "summary": "This page describes how to sell an Islamic fixed asset using the 'Islamic Asset – Sales Details' screen and details the fields for capturing asset sale information.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.2",
+      "title": "5.5.2 Events Button",
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This page describes how to access the 'Events' and 'Settlement Details' screens through buttons in the 'Islamic Asset – Sales Details' screen for managing events and viewing fund accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.3",
+      "title": "5.5.3 Settlement Button",
+      "start_page": 61,
+      "end_page": 62,
+      "summary": "This page describes how to access the 'Events' and 'Settlement Details' screens through buttons in the 'Islamic Asset – Sales Details' screen for managing events and viewing fund accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.4",
+      "title": "5.5.4 MIS Button",
+      "start_page": 62,
+      "end_page": 62,
+      "summary": "This page describes how to use the 'MIS' and 'Charges' buttons to invoke respective screens for managing Islamic asset sales details and charge management.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.5",
+      "title": "5.5.5 Charges Button",
+      "start_page": 62,
+      "end_page": 63,
+      "summary": "This page describes how to use the 'MIS' and 'Charges' buttons to invoke respective screens for managing Islamic asset sales details and charge management.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.6",
+      "title": "5.5.6 Fields Button",
+      "start_page": 63,
+      "end_page": 64,
+      "summary": "This section explains how to access and manage user-defined field details through the 'Fields' screen by clicking the 'Fields' button.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.7",
+      "title": "5.5.7 Advices Button",
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This page describes how to use the 'Fields' screen and the 'Advices' button, as well as details on viewing Islamic fixed assets delivered but not inspected.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.6",
+      "title": "5.6 Fixed Asset Delivered but not Inspected",
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This page describes how to use the 'Fields' screen and the 'Advices' button, as well as details on viewing Islamic fixed assets delivered but not inspected.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.6.1",
+      "title": "5.6.1 Invoking Islamic Assets Delivered but not Inspected Screen",
+      "start_page": 64,
+      "end_page": 65,
+      "summary": "This page describes how to use the 'Fields' screen and the 'Advices' button, as well as details on viewing Islamic fixed assets delivered but not inspected.",
+      "cross_references": [
+        {
+          "structure": "5.6.1",
+          "title": "4.6.1 Invoking the Rule Definition- Islamic Fixed Assets",
+          "start_page": 31
+        }
+      ]
+    },
+    {
+      "structure": "6.7",
+      "title": "5.7 Fixed Asset Drill Down Query",
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This section explains how to invoke and use the 'Islamic Assets Drill Down Query' screen to query details for GL at category level.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.7.1",
+      "title": "5.7.1 Invoking Islamic Assets Drill Down Query Screen",
+      "start_page": 65,
+      "end_page": 66,
+      "summary": "This section explains how to invoke and use the 'Islamic Assets Drill Down Query' screen to query details for GL at category level.",
+      "cross_references": [
+        {
+          "structure": "5.7.1",
+          "title": "4.7.1 Invoking Asset Category-Rule Mapping Screen",
+          "start_page": 33
+        }
+      ]
+    },
+    {
+      "structure": "6.8",
+      "title": "5.8 Fixed Asset Inspected but not Capitalized",
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This page describes operations that can be performed on a screen and provides instructions for invoking a specific screen related to Islamic fixed assets that have been inspected but not capitalized.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.8.1",
+      "title": "5.8.1 Invoking Islamic Fixed Assets Inspected Not Capitalized",
+      "start_page": 66,
+      "end_page": 67,
+      "summary": "This page describes operations that can be performed on a screen and provides instructions for invoking a specific screen related to Islamic fixed assets that have been inspected but not capitalized.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.9",
+      "title": "5.9 Batch Process",
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "This page describes operations that can be performed on a screen displaying details of fixed assets inspected but not delivered, and provides information on invoking a mandatory batch program maintenance screen for automatic batch processing.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.9.1",
+      "title": "5.9.1 Invoking the Mandatory Batch Program Maintenance Screen",
+      "start_page": 67,
+      "end_page": 70,
+      "summary": "This page describes operations that can be performed on a screen displaying details of fixed assets inspected but not delivered, and provides information on invoking a mandatory batch program maintenance screen for automatic batch processing.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Annexure A - Accounting Entries and Advices",
+      "start_page": 70,
+      "end_page": 70,
+      "summary": "This section details the accounting entries and advices for various events in the lifecycle of an Islamic Fixed Asset contract within Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 Events",
+      "start_page": 70,
+      "end_page": 70,
+      "summary": "This section details the accounting entries and advices for various events in the lifecycle of an Islamic Fixed Asset contract within Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 Amount Tags",
+      "start_page": 70,
+      "end_page": 72,
+      "summary": "This section details the accounting entries and advices for various events in the lifecycle of an Islamic Fixed Asset contract within Oracle FLEXCUBE.",
+      "cross_references": [
+        {
+          "structure": "6.2",
+          "title": "5.2 Reassign an Islamic Asset Contract to another User",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Invoking the Islamic Reassign Contract Screen",
+          "start_page": 49
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Islamic Asset Write Off details",
+          "start_page": 53
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 Invoking the Islamic Assets - Write Off Details Screen",
+          "start_page": 53
+        },
+        {
+          "structure": "6.4.2",
+          "title": "5.4.2 Events Button",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4.3",
+          "title": "5.4.3 Settlement Instructions Button",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4.4",
+          "title": "5.4.4 MIS Button",
+          "start_page": 56
+        },
+        {
+          "structure": "6.4.5",
+          "title": "5.4.5 Charges Button",
+          "start_page": 57
+        },
+        {
+          "structure": "6.4.6",
+          "title": "5.4.6 Fields Button",
+          "start_page": 58
+        },
+        {
+          "structure": "6.4.7",
+          "title": "5.4.7 Advices Button",
+          "start_page": 58
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Islamic Asset Transfer Details",
+          "start_page": 50
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Invoking Islamic Assets Transfer Details Screen",
+          "start_page": 50
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Islamic Fixed Asset Details",
+          "start_page": 36
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Invoking the Islamic Assets - Asset Capture Screen",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Asset Details Tab",
+          "start_page": 38
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Depreciation Details Tab",
+          "start_page": 40
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Inventory Details Tab",
+          "start_page": 41
+        },
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Linkage Details Button",
+          "start_page": 41
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Asset Details Button",
+          "start_page": 42
+        },
+        {
+          "structure": "6.1.7",
+          "title": "5.1.7 Adhoc Schedule Button",
+          "start_page": 44
+        },
+        {
+          "structure": "6.1.8",
+          "title": "5.1.8 Events Button",
+          "start_page": 45
+        },
+        {
+          "structure": "6.1.9",
+          "title": "5.1.9 Settlement Button",
+          "start_page": 45
+        },
+        {
+          "structure": "6.1.10",
+          "title": "5.1.10 MIS Button",
+          "start_page": 46
+        },
+        {
+          "structure": "6.1.11",
+          "title": "5.1.11 Charges Button",
+          "start_page": 47
+        },
+        {
+          "structure": "6.1.12",
+          "title": "5.1.12 Fields Button",
+          "start_page": 48
+        },
+        {
+          "structure": "6.1.13",
+          "title": "5.1.13 Advice Button",
+          "start_page": 48
+        },
+        {
+          "structure": "6.1.14",
+          "title": "5.1.14 Viewing Summary for Islamic Fixed Asset Contracts",
+          "start_page": 48
+        }
+      ]
+    },
+    {
+      "structure": "7.3",
+      "title": "6.3 Accounting Roles",
+      "start_page": 72,
+      "end_page": 72,
+      "summary": "This page outlines various accounting roles for use in the Islamic Fixed Asset module and provides a list of suggested accounting entries and advices for different events in the asset's lifecycle.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.4",
+      "title": "6.4 Event-wise Accounting Entries and Advices",
+      "start_page": 72,
+      "end_page": 79,
+      "summary": "This page outlines various accounting roles for use in the Islamic Fixed Asset module and provides a list of suggested accounting entries and advices for different events in the asset's lifecycle.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Function ID Glossary",
+      "start_page": 79,
+      "end_page": 81,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Islamic fixed assets in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Islamic Fixed Assets User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited's Islamic Fixed Assets User Guide.",
+      "raw_text": "Islamic Fixed Assets User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Islamic Fixed Assets - An Overview",
+        "Defining Attributes of an Islamic Fixed Asset Product"
+      ],
+      "summary": "This page introduces the document's preface and outlines sections on Islamic fixed assets, including an overview of the module and attributes of such assets.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nAbbreviations...........................................................................................................  1-2\n1.5 \nOrganization ............................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n1.7 \nGlossary of Icons.....................................................................................................  1-3\n2. \nIslamic Fixed Assets - An Overview ...................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nFeatures of the Module............................................................................................  2-1\n3. \nDefining Attributes of an Islamic Fixed Asset Product ........................ 3-1\n3.1 \nIslamic Asset Product..............................................................................................  3-1\n3.1.1  \nInvoking Islamic Asset Product Maintenance.............................................  3-1\n3.1.2  \nAccounting Roles Button ............................................................................  3-4\n3.1.3  \nEvents Button .............................................................................................  3-5\n3.1.4  \nBranch Currency Button .............................................................................  3-5\n3.1.5  \nMIS Details Button......................................................................................  3-6\n3.1.6  \nPreferences Button.....................................................................................  3-7\n3.1.7  \nCategory Restrictions Button......................................................................  3-8\n3.1.8  \nInstrument Restrictions...............................................................................  3-9\n3.1.9  \nCharges Button.........................................................................................  3-10\n3.1.10  Fields Button.............................................................................................  3-11\n3.1.11  Viewing Summary for Islamic Fixed Asset Products ................................  3-12\n4. \nMaintenance for Islamic Fixed Asset ..................................................... 4-1\n4.1 \nAsset Category Details............................................................................................  4-1\n4.1.1  \nInvoking Islamic Asset Category Maintenance Screen ..............................  4-1\n4.1.2  \nInventory Details Tab..................................................................................  4-3\n4.2 \nCodes for Asset Locations.......................................................................................  4-4\n4.2.1  \nInvoking the Location Code Maintenance Screen......................................  4-4\n4.3 \nBranch Parameters Setup for the Product...............................................................  4-4\n4.3.1  \nInvoking the Branch Parameters Islamic Fixed Assets Screen ..................  4-5\n4.4 \nLocation Restrictions for Islamic Fixed Assets ........................................................  4-6\n4.4.1  \nInvoking the Islamic Fixed Assets Location Restriction Class Maintenance 4-6\n4.4.2  \nViewing the Summary for Location Restrictions .........................................  4-8\n4.5 \nCategory Restriction for Islamic Fixed Assets.........................................................  4-8\n4.5.1  \nInvoking the Islamic Fixed Assets Category Restriction Class Maintenance 4-8\n4.5.2  \nViewing the Summary for Islamic Fixed Asset Category Restriction..........  4-9\n4.6 \nAsset Rules ...........................................................................................................  4-10\n4.6.1  \nInvoking the Rule Definition- Islamic Fixed Assets...................................  4-10\n4.7 \nAsset Category and Location Rule Mapping .........................................................  4-12\n4.7.1  \nInvoking Asset Category-Rule Mapping Screen.......................................  4-12\n5. \nProcessing Islamic Fixed Assets ........................................................... 5-1\n5.1 \nIslamic Fixed Asset Details......................................................................................  5-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Invoking the Islamic Assets - Asset Capture Screen",
+        "Asset Details Tab",
+        "Depreciation Details Tab",
+        "Inventory Details Tab",
+        "Linkage Details Button",
+        "Asset Details Button",
+        "Adhoc Schedule Button",
+        "Events Button",
+        "Settlement Button",
+        "MIS Button",
+        "Charges Button",
+        "Fields Button",
+        "Advice Button"
+      ],
+      "summary": "This page details various tabs and buttons within the Islamic Assets - Asset Capture screen, including their locations and functions.",
+      "raw_text": "5.1.1  \nInvoking the Islamic Assets - Asset Capture Screen..................................  5-2\n5.1.2  \nAsset Details Tab .......................................................................................  5-3\n5.1.3  \nDepreciation Details Tab ............................................................................  5-5\n5.1.4  \nInventory Details Tab..................................................................................  5-6\n5.1.5  \nLinkage Details Button................................................................................  5-6\n5.1.6  \nAsset Details Button ...................................................................................  5-7\n5.1.7  \nAdhoc Schedule Button..............................................................................  5-9\n5.1.8  \nEvents Button ...........................................................................................  5-10\n5.1.9  \nSettlement Button.....................................................................................  5-10\n5.1.10  MIS Button................................................................................................  5-11\n5.1.11  Charges Button.........................................................................................  5-12\n5.1.12  Fields Button.............................................................................................  5-13\n5.1.13  Advice Button ...........................................................................................  5-13\n5.1.14  Viewing Summary for Islamic Fixed Asset Contracts ..............................  5-13\n5.2 \nReassign an Islamic Asset Contract to another User............................................  5-14\n5.2.1  \nInvoking the Islamic Reassign Contract Screen .......................................  5-14\n5.3 \nIslamic Asset Transfer Details...............................................................................  5-15\n5.3.1  \nInvoking Islamic Assets Transfer Details Screen .....................................  5-15\n5.4 \nIslamic Asset Write Off details...............................................................................  5-18\n5.4.1  \nInvoking the Islamic Assets - Write Off Details Screen ............................  5-18\n5.4.2  \nEvents Button ...........................................................................................  5-20\n5.4.3  \nSettlement Instructions Button..................................................................  5-20\n5.4.4  \nMIS Button................................................................................................  5-21\n5.4.5  \nCharges Button.........................................................................................  5-22\n5.4.6  \nFields Button.............................................................................................  5-23\n5.4.7  \nAdvices Button..........................................................................................  5-23\n5.5 \nIslamic Asset Sale Details .....................................................................................  5-23\n5.5.1  \nInvoking Islamic Asset Sale Details..........................................................  5-24\n5.5.2  \nEvents Button ...........................................................................................  5-26\n5.5.3  \nSettlement Button.....................................................................................  5-26\n5.5.4  \nMIS Button................................................................................................  5-27\n5.5.5  \nCharges Button.........................................................................................  5-27\n5.5.6  \nFields Button.............................................................................................  5-28\n5.5.7  \nAdvices Button..........................................................................................  5-29\n5.6 \nFixed Asset Delivered but not Inspected...............................................................  5-29\n5.6.1  \nInvoking Islamic Assets Delivered but not Inspected Screen...................  5-29\n5.7 \nFixed Asset Drill Down Query................................................................................  5-30\n5.7.1  \nInvoking Islamic Assets Drill Down Query Screen....................................  5-30\n5.8 \nFixed Asset Inspected but not Capitalized ............................................................  5-31\n5.8.1  \nInvoking Islamic Fixed Assets Inspected Not Capitalized ........................  5-31\n5.9 \nBatch Process .......................................................................................................  5-32\n5.9.1  \nInvoking the Mandatory Batch Program Maintenance Screen .................  5-32\n6. \nAnnexure A - Accounting Entries and Advices .................................... 6-1\n6.1 \nEvents......................................................................................................................  6-1\n6.2 \nAmount Tags ...........................................................................................................  6-1\n6.3 \nAccounting Roles.....................................................................................................  6-3\n6.4 \nEvent-wise Accounting Entries and Advices ...........................................................  6-3\n7. \nFunction ID Glossary ............................................................................... 7-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility"
+      ],
+      "summary": "This page introduces the Islamic Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis user manual is designed to help you quickly get acquainted with the Islamic Fixed Assets \nmodule of Oracle FLEXCUBE.\nThe manual gives you an overview of the Islamic Fixed Assets module, and takes you through \nthe various steps involved in setting up and maintaining a fixed asset.\nYou can obtain information specific to a particular field by placing the cursor on the relevant \nfield, and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/ Beginning of Day\nFinancial Controller/Product Manag-\ners\nGeneration of reports"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Abbreviations",
+        "Organization",
+        "Related Documents"
+      ],
+      "summary": "This page introduces abbreviations and organization of the manual, as well as related documents that may be referenced.",
+      "raw_text": "1-2\n1.4 \nAbbreviations\n1.5 \nOrganization\nThis manual is organized into the following chapters:\n1.6 \nRelated Documents\nYou may need to refer to any or all of the User Manuals while working on the Funds Transfer \nmodule:\nProcedures\nSettlements\nUser Defined Fields\nAbbreviation\nDescription\nFCC\nOracle FLEXCUBE \nFI\nIslamic Fixed Assets\nBOD\nBeginning of Day\nEOD\nEnd of Day\nPO\nPurchase Order\nMIS\nManagement Information Sys-\ntem\nSLM\nStraight Line Method\nWDV\nWritten Down Value method\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also lists \nthe various chapters covered in this User Manual\nChapter 2\nIslamic Fixed Assets - An Overview is a snapshot of the features that the \nmodule provides.\nChapter 3\nDefining Attributes of an Islamic Fixed Asset Product gives the details of \nthe procedure to set up Islamic Fixed Asset products.\nChapter 4\nMaintenance for Islamic Fixed Asset gives the details of the maintenances \nrequired for Islamic fixed assets.\nChapter 5\nProcessing Islamic Fixed Assets discusses the processing of the Islamic \nfixed asset.\nChapter 6\nAnnexure A - Accounting Entries and Advices for the Islamic Fixed Asset \nModule contains an event-wise list of suggested accounting entries and \nadvices.\nChapter 7\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Glossary of Icons"
+      ],
+      "summary": "This page provides a glossary of icons used in the User Manual along with their functions.",
+      "raw_text": "1-3\n1.7 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Introduction",
+        "Features of the Module"
+      ],
+      "summary": "This page provides an overview of the Islamic Fixed Assets module in Oracle FLEXCUBE, detailing its features and how it manages the lifecycle of Islamic fixed assets through product definitions and classes.",
+      "raw_text": "2-1\n2. Islamic Fixed Assets - An Overview\n2.1 \nIntroduction\nThe Islamic Fixed Assets module is a complete front-end module of Oracle FLEXCUBE that \ncaptures and tracks the characteristics of the Islamic fixed asset of your bank. Using this \nmodule you can clearly identify the various applicable events and manage all the activities \nduring the assets’ useful lifecycle. \nThe product definition function, the mainstay of Oracle FLEXCUBE’s design, enables you to \ncreate products for specific Islamic fixed asset that you set up. The module gives you the \nflexibility to define components (charge), restrictions (branch), preferences, events and \naccounting entries into ‘Classes’. When defining a product, you merely need to associate it \nwith the different classes that you have built.\nThis chapter contains the following sections:\nSection 2.2, \"Features of the Module\"\n2.2 \nFeatures of the Module\nDefinition of Classes\nIn Oracle FLEXCUBE, a ‘Class’ embodies a generic set of attributes. A class could represent \nany one of the following:\na set of restrictions (branch, locations, asset category)\na set of events and the corresponding accounting roles and heads\na component (charge)\nAs part of your one-time set up, you can define several sets of classes of a particular type. In \nOracle FLEXCUBE, therefore, you do not have to specify restrictions, preferences, and \ncomponents every time you create a product. You only need to associate the different set of \nclasses that you have already maintained.\nThis feature eliminates redundancy, and saves processing time. \nThe process to create a class is discussed in the Procedures User Manual of Oracle \nFLEXCUBE.\nCreating Islamic Fixed Asset Products\nWhen setting up the module, you can define the various parameters for the assets. For each \nproduct, you can also define ‘attributes’, or in other words, the terms and conditions. When a \nuser at the bank actually processes a fixed asset, it can be associated with a product. The \nasset acquires the terms defined for the product that it involves. (However, you can allow a \nuser to change the inherited attributes of an asset for specific transactions.)\nProcessing Depreciation\nThe depreciation charge processing will be done as part of the End of Day and Beginning of \nDay processing. This will process all the assets for depreciation depending on frequency of \nthe depreciation that you specify in the Asset Category - Rule mapping maintenance screen."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Islamic Asset Product",
+        "Invoking Islamic Asset Product Maintenance"
+      ],
+      "summary": "This page discusses how to define attributes for an Islamic Fixed Assets product and provides instructions on accessing the 'Islamic Asset Product Maintenance' screen.",
+      "raw_text": "3-1\n3. Defining Attributes of an Islamic Fixed Asset Prod-\nuct\nIn this chapter, we shall discuss the manner in which you can define attributes specific to the \nIslamic Fixed Assets product.\nThis chapter contains the following sections:\nSection 3.1, \"Islamic Asset Product\"\n3.1 \nIslamic Asset Product\nThis section contains the following topics:\nSection 3.1.1, \"Invoking Islamic Asset Product Maintenance\"\nSection 3.1.2, \"Accounting Roles Button\"\nSection 3.1.3, \"Events Button\"\nSection 3.1.4, \"Branch Currency Button\"\nSection 3.1.5, \"MIS Details Button\"\nSection 3.1.6, \"Preferences Button\"\nSection 3.1.7, \"Category Restrictions Button\"\nSection 3.1.8, \"Instrument Restrictions\"\nSection 3.1.9, \"Charges Button\"\nSection 3.1.10, \"Fields Button\"\nSection 3.1.11, \"Viewing Summary for Islamic Fixed Asset Products\"\n3.1.1 \nInvoking Islamic Asset Product Maintenance\nYou can access the ‘Islamic Asset Product Maintenance’ screen, from the Application \nBrowser. In this screen, you can enter basic information relating to a product such as the \nProduct Code, Product type, the Description, etc."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Product Code",
+        "Product Description"
+      ],
+      "summary": "This page explains how to define product attributes and codes in Oracle FLEXCUBE, including generic attributes, specific product definitions, and unique product identification.",
+      "raw_text": "3-2\nYou can invoke this screen by typing ‘FIDPRMNT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nFor any product you create in Oracle FLEXCUBE, you can define generic attributes, such as \nbranch, location, and category, etc., by clicking on the appropriate icon in the horizontal array \nof icons in this screen. \nYou can define the attributes specific to the product in the ‘Islamic Fixed Asset Product \nDefinition’ screen and the ‘Islamic Fixed Asset Product Preferences’ screen. In these screens, \nyou can specify the product type and set the product preferences respectively.\nFor further information on the generic attributes that you can define for a product, please refer \nthe following Oracle FLEXCUBE User Manuals:\nProducts\nCharges\nUser Defined Fields\nProduct Code\nThe code you assign to a product will identify the product throughout the module. The code \nshould contain four characters. You can follow your own convention for devising the code, \nhowever, at least one of the characters should be a letter of the English alphabet.\nSince the code that you define is used to identify the product, it should be unique across the \nmodules of Oracle FLEXCUBE. For instance, if you have assigned the code ‘LC01’ to a \nparticular product in this module, you cannot use it as a code in any other module. \nProduct Description\nYou can enter a brief description of the product, which will be associated with the product for \ninformation retrieval purposes."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Product Type",
+        "Description",
+        "Slogan",
+        "Product Group",
+        "Product Group description",
+        "Start Date and End Date",
+        "Remarks"
+      ],
+      "summary": "This page explains how to define an Islamic product by specifying its type, entering a description, slogan, product group, start and end dates, and adding remarks for internal reference.",
+      "raw_text": "3-3\nProduct Type\nAn important detail in defining a Islamic product is to specify the type of product you are \ncreating. The product type identifies the basic nature of a product. In this module, you can \ncreate Portfolio funds only.\nThe accounting entries that are passed, the messages that are generated, and the processing \nof funds involving this product are determined by the type of product that you create.\nDescription\nYou can enter a brief description \nSlogan\nYou can specify a marketing punch-line to be associated with the product. This slogan will be \nprinted on all the advices that are sent to the customer, for an LC involving this product.\nProduct Group\nEach product is classified under a specific group. The different groups are defined in the \nProduct Group Definition table.\nProduct Group description\nA brief description of the product group is displayed in the Product Group description field.\nStart Date and End Date\nA product can be set up for use over a specific period, by defining a start and an end date. \nThe Issue Date of an LC involving a product should be:\nThe same as or later than the Start Date.\nThe same as or earlier than the End Date.\nThe start and end dates of a product come in handy when you are defining a product for a \nscheme, which is open for a specific period.\nRemarks\nYou can enter information about the product, intended for the internal reference of your bank. \nThe remarks are displayed when the details of the LC are displayed or printed. However, this \ninformation will not be printed on any correspondence with the customer.\nExchange Rate Variance (in %)\nFor a special customer, or in special cases, you may want to use an exchange rate (a special \nrate) that is greater than the exchange rate maintained for a currency pair. The variance is \nreferred to as the Exchange Rate Variance.\nWhen creating a product, you can express an Exchange Rate Variance Limit in terms of a \npercentage. This variance limit would apply to all funds associated with the product.\nOverride Limit \nIf the variance between the default rate and the rate input varies by a percentage that is \nbetween the Override Limit and the Rate Stop Limit, you can save the transaction (involving \nthe fund) by providing an override.\nStop Limit\nIf the variance between the default rate and the rate input varies by a percentage greater than \nor equal to the Rate Stop Limit, you cannot save the transaction involving the fund."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Rate Code",
+        "Rate Type Preffered",
+        "Accounting Roles Button"
+      ],
+      "summary": "This page explains how to maintain rates for currency pairs and types, specify rate types for cross-currency transactions, and define accounting roles through a button.",
+      "raw_text": "3-4\nRate Code\nFor every Currency Pair and Rate Type combination you are required to maintain Buy, Sell, \nand Mid Rates. \nYou need to specify whether the Mid Rate should be used for all Cross Currency transactions \nor whether the Buy/Sell Rate should be used depending upon the nature of the transaction by \nselecting the appropriate rate from the option list available.\nRate Type Preffered\nYou have to specify the Rate Type that should be used for Cross Currency transactions. Click \non the option list for a display of all the Rate Types maintained through the Rate Type \nDefinition screen. \n3.1.2 \nAccounting Roles Button\nClick the ‘Accounting Roles’ button to invoke the ‘Accounting Roles’ screen. Through this \nscreen you can define accounting rules for the product you are creating.\nFor more information on specifying Accounting Roles, refer ‘Products’ User Manual under \n‘Modularity’."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Events Button",
+        "Branch Currency Button"
+      ],
+      "summary": "This page describes how to use the 'Events' and 'Branch Currency' buttons to define events and maintain branch currency for a product.",
+      "raw_text": "3-5\n3.1.3 \nEvents Button\nClick the ‘Events’ button to invoke the ‘Events’ screen. Through this screen you can define \nevents for the product you are creating.\nFor more information on specifying Event Details, refer ‘Product Definition’ User Manual \nunder ‘Modularity’.\n3.1.4 \nBranch Currency Button\nClick the ‘Branch Currency’ button to invoke the ‘Branch/Currency Restriction’ screen. \nThrough this screen you can maintain branch currency for the product you are creating."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "3.1.5 MIS Details Button"
+      ],
+      "summary": "This section explains how to use the 'MIS' button to access and manage MIS details through the 'MIS Details' screen.",
+      "raw_text": "3-6\nFor more information on specifying Branch Details, refer ‘Products’ User Manual under \n‘Modularity’.\n3.1.5 \nMIS Details Button\nClick the ‘MIS’ button to invoke the ‘MIS Details’ screen. Through this screen you can manage \nMIS details you are creating."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Preferences Button"
+      ],
+      "summary": "This section explains how to set up preferences for an asset in the Fixed Assets Product Preferences screen, including specifying if purchase orders and depreciation processing are required.",
+      "raw_text": "3-7\nFor more information on specifying MIS Details, refer ‘Products’ User Manual under \n‘Modularity’.\n3.1.6 \nPreferences Button\nThe attributes specific to an asset are defined in the Preferences screen. \nYou can invoke ‘Fixed Assets Product Preferences’ screen from the ‘Islamic Assets Product \nMaintenance’ screen by clicking on the ’Preferences’ button.\nDisplaying the Product Code\nThis is the code for the product that you are defining here. The code is defaulted from the \nproduct definition screen.\nDisplaying the Product Description\nThis is the description of the product that is being defined. This is defaulted from the product \ndefinition screen.\nSpecifying if Purchase Order (PO) is Required\nYou have to indicate whether a purchase order is required or not for procuring a new asset. \nChoose your preference by clicking on ‘Yes’ or ‘No’ accordingly.\nNote\nIf your preference for PO is ‘Yes’ then you will have to link the asset to an XP (Expense \nProcessing) contract using ‘XP Linkage’ screen invoked from the ‘Islamic Asset Capture \nOnline screen’.\nSpecifying if Depreciation Processing is Required for the Asset\nYou have to mention if you want the depreciation process to be carried out for the asset. \nChoose your preference by clicking on ‘Yes’ or ‘No’ accordingly.\nIf you choose ‘No’, then the depreciation will not be charged for the assets which come under \nthis product.\nThis data is maintained for both books of account as well as tax purposes."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Specifying if Rekey is Required for the Asset",
+        "Specifying the Rekey Parameters"
+      ],
+      "summary": "This page discusses the requirements for maintaining inventory tracking and accounting entries for depreciation, as well as the rekeying process during asset authorization in an Islamic fixed asset contract.",
+      "raw_text": "3-8\nNote\n– \nAccounting entries will be passed only for book type of depreciation\n– \nIn order to achieve the inventory tracking you need to select depreciation as ‘No’ \nand only BOOK and SALE events can be maintained\nSpecifying if Rekey is Required for the Asset\nIndicate if you require any parameters to be keyed in, at the time of authorization, for the \nasset.\nSpecifying the Rekey Parameters\nAll operations on a Islamic fixed asset contract have to be authorized by a user other than the \none who carried out the operation. Authorization is a cross checking mechanism to ensure \nthat the entries made by a user are correct. All operations on a contract except placing it on \nhold, should be authorized before the beginning the End of Day operations. \nYou have the option of specifying whether certain important details of the contract need to be \nrekeyed, at the time of authorization. If you enable this option you should also specify the field \nthat will have to be rekeyed at the time of contract authorization. You can specify any one of \nthe following rekey fields:\nAsset Cost\nCapitalization Date\nDepreciation Effective Date \nWhen you invoke a contract for authorization, the complete details of the contract will be \ndisplayed only after the values to the rekey fields are entered. Suppose you choose not to \ndefine any rekey fields the details of the contract will be displayed immediately once the \nauthorizer calls the contract for authorization. The re-key option also serves as a means of \nensuring the accuracy of inputs.\nFinancing By Loan\nCheck this box to indicate that the financing for the asset is done through a loan. This is \nmaintained as ‘Yes’ for the ijarah asset products.\n3.1.7 \nCategory Restrictions Button\nYou can define few specific restrictions for an asset at the product level. They are:\nAsset category restrictions\nLocations restrictions\nYou have already categorized assets that share similar attributes in the ‘Asset Category \nMaintenance’ screen. The categorization of assets is useful for charging a common \ndepreciation rate, generating MIS reports etc. You can also define the useful life for different \ncategories of assets. \nWhile creating an Islamic Fixed Asset product, you may want to establish certain controls by \nrestricting the usage of the product to select asset categories only. You can achieve this \ncontrol by maintaining restriction lists when creating a product."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Fixed Asset Product Category Details",
+        "Instrument Restrictions"
+      ],
+      "summary": "This page explains how to set up asset category restrictions for products in a fixed asset management system, either by associating them with a class or defining specific restrictions, and also mentions the use of location codes for identifying different physical locations of assets.",
+      "raw_text": "3-9\nClick ‘Category Restrictions’ button to display the ‘Fixed Asset Product Category Details’ \nscreen.\nYou can choose to specify Asset Category Restrictions either by:\nAssociating the product with a Asset Category Restriction class\nBy defining these restrictions specifically for the product\nIf you would like to associate a restrictions class to a product that you are defining, choose \nthe ‘Default From Class’ button in the ‘Islamic Fixed Asset Category Restriction’ screen. A list \nof the restrictions classes that you have defined specifically for the Islamic Fixed Assets will \nbe displayed. Choose a suitable Restrictions class.\nAlternatively, you can choose to define asset category restrictions specifically for the product. \nIn this case, you would choose not to associate restriction classes with the product. You would \ndefine restrictions for the product by:\nSpecifying the List type – wherein you restrict the usage of an asset category (or asset \ncategories as the case may be) to the product by maintaining an Allowed or Disallowed \nlist. \nMove a Category to the Allowed/Disallowed column depending on the list type that you \nchoose to maintain. \n3.1.8 \nInstrument Restrictions\nThrough the Location Code maintenance you have assigned unique location codes to identify \ndifferent locations where the asset physically exists. Using the ‘Fixed Assets Location"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "3.1.9 Charges Button"
+      ],
+      "summary": "This page explains how to use the 'Charges' button to manage charge details through the 'Charge Details' screen.",
+      "raw_text": "3-10\nRestrictions’ screen you can restrict the usage of a product to specific locations. Click \n‘Instrument Restrictions’ button to invoke the ‘Fixed Assets Product Location Details’ screen.\nThe details of all the locations that you have maintained will be displayed here. You can \nchoose to specify the Location Restrictions either by associating the product with a Location \nRestriction class or by defining these restrictions specifically for the product.\n3.1.9 \nCharges Button\nClick the ‘Charges’ button to invoke the ‘Charge Details’ screen. Through this screen you can \nmanage charge details you are creating."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "3.1.10 Fields Button"
+      ],
+      "summary": "This section explains how to use the 'Fields' button to manage user defined field details in the 'Product User Defined Fields' screen.",
+      "raw_text": "3-11\nThe steps involved in processing charges for a contract, i.e. defining charge rules, defining \ncharge classes, associating charge classes with a product, and amending charge details to \nsuit a contract are explained in the Building Charge Components User Manual.\n3.1.10 \nFields Button\nClick the ‘Fields’ button to invoke the ‘Product User Defined Fields’ screen. Through this \nscreen you can manage user defined field details you are creating."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "3.1.11 Viewing Summary for Islamic Fixed Asset Products"
+      ],
+      "summary": "This section explains how to view the summary of Islamic fixed asset products using a specific screen and details the criteria for querying records.",
+      "raw_text": "3-12\nFrom the list of all the fields that you created, you can choose specific fields and make them \napplicable to the product. Besides, you can also specify the values that should be defaulted \nfor the field.\nThe list of fields and the default values that you select for a product will be apply to all \ntransactions associated with the product.\nRefer to the User Manual ‘User Defined Fields’ under ‘Modularity for more details.\n3.1.11 \nViewing Summary for Islamic Fixed Asset Products\nYou can view the summary of the Islamic fixed assets products using ‘Islamic Fixed Asset \nProduct Summary’ screen. You can invoke this screen by typing ‘FISPRMNT’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button. A screen \ngiving all the details of the products is displayed.\nYou can query on records based on all or any of the following criteria:\nAuthorization Status\nRecord Status\nProduct Code\nProduct Description\nEnd Date\nProduct Group\nStart Date\nProduct Type\nClick ‘Search’ button. The system identifies all records satisfying the specified criteria and \ndisplays the following details for each one of them:\nAuthorization Status\nRecord Status\nProduct Code\nEnd Date\nProduct Group"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Start Date",
+        "Product Description"
+      ],
+      "summary": "This page discusses the start date and product description.",
+      "raw_text": "3-13\nStart Date\nProduct Description"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Asset Category Details",
+        "Invoking Islamic Asset Category Maintenance Screen"
+      ],
+      "summary": "This page details the maintenance of asset categories and how to invoke the maintenance screen for Islamic fixed assets in Oracle FLEXCUBE.",
+      "raw_text": "4-1\n4. Maintenance for Islamic Fixed Asset\nYou need to maintain certain details before you start entering the details of the assets. \nTherefore, you need to maintain the following information as part of processing Islamic fixed \nassets:\nAsset category maintenance\nLocations maintenance\nBranch Parameters\nClass(es) for locations restrictions \nClass(es) for category restrictions \nAsset category restrictions\nRule definition\nThe above mentioned maintenances are separate for both Islamic Fixed Assets and Fixed \nAssets module.\nThis chapter enumerates the maintenance of the above mentioned parameters used by the \nIslamic Fixed Assets module in Oracle FLEXCUBE.\nThis chapter contains the following sections:\nSection 4.1, \"Asset Category Details\"\nSection 4.2, \"Codes for Asset Locations\"\nSection 4.3, \"Branch Parameters Setup for the Product\"\nSection 4.4, \"Location Restrictions for Islamic Fixed Assets\"\nSection 4.5, \"Category Restriction for Islamic Fixed Assets\"\nSection 4.6, \"Asset Rules\"\nSection 4.7, \"Asset Category and Location Rule Mapping\"\n4.1 \nAsset Category Details\nThis section contains the following topics\nSection 4.1.1, \"Invoking Islamic Asset Category Maintenance Screen\"\n4.1.1 \nInvoking Islamic Asset Category Maintenance Screen\nIn the ‘Asset Category Maintenance’ screen, you can group all the assets that are similar \nunder one category. This will be useful for charging a common depreciation rate, generating \nMIS reports etc. You can also define the useful life for different categories of assets."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Category Code",
+        "Note",
+        "Category Description",
+        "Main Category",
+        "Useful Life"
+      ],
+      "summary": "This page explains how to use the 'Islamic Asset Category Maintenance' screen and details on fields such as category code, description, main category, and useful life.",
+      "raw_text": "4-2\nYou can invoke ‘Islamic Asset Category Maintenance’ screen by typing ‘FIDACAT’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button.\nCategory Code\nYou have to specify the unique code to identify the category for the asset. You will not be able \nto modify the category code once it is authorized.\nNote\nYou can restrict usage of any asset category by disallowing the category in ‘Islamic Fixed \nAsset Category Restriction Class Maintenance’ screen.\nCategory Description\nYou have to capture a brief description about the asset category that you are defining. For \nexample you could create a category called Land and categorize all immovable assets under \nthis category. You could assign a description called Lands and Buildings to this category. \nMain Category\nYou can choose the main category code for the asset from the drop down list. For example \nfor an asset like car, you can have Vehicle as your main category. This is meant for \ninformation purposes only. \nUseful Life\nMention the useful life of the asset in this field. If you select the ‘Year ‘as your useful life unit \nin the next field then you have to mention the number of years the asset will be active.\nIf your preference is ‘Month’ then mention the number of months for which the asset is useful.\nThe significance of capturing this information is that if the depreciation is adhoc, the rates \ncaptured at the contract level should cover the useful life of the asset. Also, the sum of the \ndepreciation rates should add up to hundred percent for the useful life period. However, if the \ndepreciation is rule based, this will have no effect on the depreciation calculation."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Useful Life Unit",
+        "Calculation Criteria for Depreciation",
+        "Inventory Details Tab"
+      ],
+      "summary": "This page describes how to set up the useful life unit and calculation criteria for depreciation in asset management, as well as details on the inventory tracking tab.",
+      "raw_text": "4-3\nUseful Life Unit\nThis is where you can mention the unit for measuring the useful life of an asset. The useful \nlife unit can be Year or Month and this will determine the useful life mentioned in the previous \nfield.\nCalculation Criteria for Depreciation\nHere you can mention whether you want to calculate the depreciation on the capitalization \namount or on capitalization amount minus the residual value. You can indicate your \npreference by clicking against the option.\n4.1.2 \nInventory Details Tab\nClick ‘Inventory Details’ tab in the ‘Islamic Asset Category Maintenance’ screen:\nAllow Inventory\nSelect this option to identify category which will be used for inventory tracking.\nThe following details can be entered only if this option is selected.\nUnit of Measurement\nSpecify the unit of measurement. \nThreshold Level\nSpecify the level of threshold. \nMinimum Trade Quantity\nSpecify the number of minimum trade quantity. \nAvailable Quantity\nThe system displays the available quantity for the category.\nAverage Cost per Unit\nThe system displays the average cost per unit for the category."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Codes for Asset Locations",
+        "Branch Parameters Setup for the Product"
+      ],
+      "summary": "This page describes how to assign unique location codes and set up branch parameters for fixed assets in an application system.",
+      "raw_text": "4-4\n4.2 \nCodes for Asset Locations\nThis section contains the following topics:\nSection 4.2.1, \"Invoking the Location Code Maintenance Screen\"\n4.2.1 \nInvoking the Location Code Maintenance Screen\nThrough the ‘Location Code Maintenance’ screen you can assign a unique location code to \nidentify different locations where the asset physically exists.\nYou can invoke this screen by typing ‘FIDLOCN’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nSpecifying the Code for the Location\nYou have to capture a code to identify the particular location. You will not be able to modify it \nonce it is authorized. You can pick this code from the ‘Islamic Asset Capture’ screen and the \nsystem will default the description for the location.\nNote\nYou can restrict usage of any location by disallowing the location in ‘Islamic Fixed Asset \nLocation Restriction Class Maintenance’ screen.\nSpecifying the Description for the Location\nIn this field, you can specify any general information of the location such as the name of the \ncity, pin code etc. \n4.3 \nBranch Parameters Setup for the Product\nThis section contains the following topics:\nSection 4.3.1, \"Invoking the Branch Parameters Islamic Fixed Assets Screen\""
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Invoking the Branch Parameters Islamic Fixed Assets Screen",
+        "Identifying the Branch Code",
+        "Specifying the Date for Processing Depreciation"
+      ],
+      "summary": "This page explains how to invoke and use the 'Branch Parameters-Islamic Fixed Assets' screen to define parameters such as depreciation period, residual value, and processing date for fixed assets at the branch level.",
+      "raw_text": "4-5\n4.3.1 \nInvoking the Branch Parameters Islamic Fixed Assets Screen\nYou can define parameters at the branch level for functions such as depreciation period, \nresidual value for writing off an asset, the cut off date for an asset to be included for \ndepreciation for the particular period, etc.\nYou can invoke ‘Branch Parameters-Islamic Fixed Assets’ screen by typing ‘FIDBRMNT’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nIdentifying the Branch Code\nSelect the code for the branch, for which you want to define the parameters, from the option \nlist. Once you select the branch code, the description of the branch is defaulted in the next \nfield.\nSpecifying the Date for Processing Depreciation\nHere you have to mention the date on which the depreciation has to be processed. It can be \neither the System date or the Next Working Day – 1.\nIf you select the System date, the depreciation will be processed only till the day on which \nEOD is run. If your choice is Next Working Day – 1, then the depreciation will be processed \ntill the last day before the next working day when the batch process is run during EOD. This \nis applicable only for working days within a month. For instance, if Today’s Date is 10th June \nand the Next Working Date is 15th June, the system will pass accounting entries for contracts \nfalling due up to 14th June during the EOD processes executed on 10th June. But, if Today’s \nDate were 28th June and the Next Working Date happens to be 3rd July, the processing will \nbe done only upto the 30th of June since it is the month end. The system will post the \naccounting entries for the first and second of July during the BOD process executed on the \n3rd of July. \nNote\nThis is with the assumption that the Accounting Period is Monthly. If it were to be Quarterly, \nthe processing will be done till the end of the period which is the corresponding quarter."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Indicating the Depreciation Period",
+        "Depreciation Parameters",
+        "Specifying the Depreciation Period",
+        "Indicating whether Amortization is Required",
+        "Location Restrictions for Islamic Fixed Assets"
+      ],
+      "summary": "This page explains how to set up depreciation parameters, including choosing the depreciation period and specifying cutoff dates, as well as options for amortization and location restrictions for fixed assets.",
+      "raw_text": "4-6\nIndicating the Depreciation Period\nThe calculation of depreciation for the year is based on the depreciation period, considering \nthe cutoff period and date. You can choose the period from the option list positioned next to \nthis field. The choices are:\nMonthly\nQuarterly\nHalf-yearly\nYearly \nDepreciation Parameters\nSpecifying the Depreciation Period \nYou need to mention the cut off date and cut off month for calculating the depreciation for the \nasset. If the asset is acquired before the mentioned cutoff date and cut off month, the \ndepreciation is calculated for the full period. \nIf the depreciation period chosen in the previous field is Quarterly, Half Yearly or Yearly, you \nhave to specify the cut off date and cut off month.\nIf the depreciation frequency chosen in the previous field is Monthly, then you need to mention \nonly the cut off date. \nThe depreciation is calculated from the next period if the asset is acquired before the cut off \nperiod.\nIndicating whether Amortization is Required\nSpecify if you want to amortize over the full period by checking the box. When an asset is \nacquired after the specified cut off date and month, the depreciation will be calculated from \nthe next period and it will amortize the depreciation over the period of acquisition also. \nIf you leave this box unchecked, then the amortization will be done from the next period.\n4.4 \nLocation Restrictions for Islamic Fixed Assets\nThis section contains the following topics:\nSection 4.4.1, \"Invoking the Islamic Fixed Assets Location Restriction Class \nMaintenance\"\nSection 4.4.2, \"Viewing the Summary for Location Restrictions\"\n4.4.1 \nInvoking the Islamic Fixed Assets Location Restriction Class Mainte-\nnance\nYou can define restrictions for certain locations that can be defaulted at the product level."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Identifying a Class",
+        "Choosing the Restriction Type",
+        "Moving a location to the Allowed/Disallowed List"
+      ],
+      "summary": "This page explains how to use the 'Islamic Fixed Assets Location Restriction Class Maintenance' screen to manage location restrictions for fixed assets, including identifying classes, specifying restriction types, and moving locations between allowed and disallowed lists.",
+      "raw_text": "4-7\nYou can invoke ‘Islamic Fixed Assets Location Restriction Class Maintenance’ screen by \ntyping ‘FIDLOCCL’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nIdentifying a Class\nYou can identify a location restriction class that you build with a unique ten character class \ncode and a brief description.\nYou can follow your own convention for devising the code. The description that you specify is \nfor information purposes only and will not be printed on any customer correspondence.\nChoosing the Restriction Type\nYou can specify location restrictions either in the form of an ‘Allowed’ list, or in the form of a \n‘Disallowed’ list.\nWhen you associate a restriction class, defined as an allowed list, with a product, those \nlocations that do not figure in the list cannot offer the service. If you have maintained a \ndisallowed list for a class, locations that do not figure in it can offer the service.\nMoving a location to the Allowed/Disallowed List\nUnder Location Restriction, two columns are displayed. They are\nAvailable\nAllowed /Disallowed based on the restriction type selected\nThe allowed or disallowed list that you view depends on the list that you choose to maintain \nfor a class. For example, if you choose to maintain an allowed list, the column would display \nthe location that you choose to allow.\nIn the ‘Available ‘column, the location codes of all the locations that you have defined for \nIslamic fixed assets will be displayed. You can move a location to the allowed/disallowed \ncolumn that you have maintained, using the arrow keys."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Viewing the Summary for Location Restrictions",
+        "Category Restriction for Islamic Fixed Assets",
+        "Invoking the Islamic Fixed Assets Category Restriction Class Maintenance"
+      ],
+      "summary": "This page discusses how to view location restrictions for Islamic fixed assets and introduces the process of maintaining category restrictions for these assets.",
+      "raw_text": "4-8\n4.4.2 \nViewing the Summary for Location Restrictions\nYou can view all the restricted locations for Islamic fixed assets using ‘Islamic Assets Location \nRestriction Class Summary’. You can invoke the ‘Islamic Assets Location Restriction Class \nSummary’ screen by typing ‘FISLOCCL’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button.\n4.5 \nCategory Restriction for Islamic Fixed Assets\nThis section contains the following topics:\nSection 4.5.1, \"Invoking the Islamic Fixed Assets Category Restriction Class \nMaintenance\"\nSection 4.5.2, \"Viewing the Summary for Islamic Fixed Asset Category Restriction\"\n4.5.1 \nInvoking the Islamic Fixed Assets Category Restriction Class Mainte-\nnance\nAn Islamic fixed asset category restriction class identifies a unique list of allowed or \ndisallowed categories. At your head office, you can associate a product that you propose to \noffer with any asset category restriction class that you have maintained. The asset category \nrestrictions defined for the class will apply to the service. \nNote\nAny Islamic fixed asset product that your bank offers is available to all asset categories, \nby default, unless you specifically restrict its availability.\nYou will be able to define asset category restriction classes through the ‘Fixed Asset Category \nRestriction Class Maintenance ‘screen. The asset category restriction classes that you define \nand authorize in this screen are the ones which can be used while creating the Islamic Fixed \nAssets products."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Viewing the Summary for Islamic Fixed Asset Category Restriction"
+      ],
+      "summary": "This section explains how to view the summary of Islamic fixed asset category restrictions using the 'Islamic Fixed Asset Category Restriction Class Summary' screen.",
+      "raw_text": "4-9\nYou can invoke ‘Islamic Fixed Assets Category Restriction Class Maintenance’ screen by \ntyping ‘FIDCATCL’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nAn asset category restriction class is identified by a unique code and a description. \nThe asset category classes that you maintain have to be specific to a module in Oracle \nFLEXCUBE. This is because, a class maintained for one module would be unsuitable for \nanother. \nAfter specifying a code to identify the class, you will have to specify the Category restrictions \neither in the form of an Allowed List or i a Disallowed List. Subsequently, you can move a \nlocation codes to the allowed/disallowed column (depending on your specification) that you \nhave maintained, using the arrow keys. \n4.5.2 \nViewing the Summary for Islamic Fixed Asset Category Restriction\nYou can view the Islamic restricted asset categories by using ‘Islamic Fixed Asset Category \nRestriction Class Summary’ screen."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Asset Rules",
+        "Invoking the Rule Definition- Islamic Fixed Assets"
+      ],
+      "summary": "This page describes how to invoke screens for defining asset rules and specifically for setting depreciation rates for Islamic fixed assets in an application tool.",
+      "raw_text": "4-10\nYou can invoke this screen by typing ‘FISCATCL’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\n4.6 \nAsset Rules\nThis section contains the following topics:\nSection 4.6.1, \"Invoking the Rule Definition- Islamic Fixed Assets\"\n4.6.1 \nInvoking the Rule Definition- Islamic Fixed Assets\nFor every asset and category combination, you can maintain different rates for depreciation. \nYou can record the depreciation rates for the asset category and the location combination.\nYou can invoke ‘Rule Definition – Islamic Fixed Assets’ screen by typing ‘FIDRULDF’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Specifying the Rule Code",
+        "Indicating the Rate for Calculating Depreciation",
+        "Defining the Rate Type for Calculating Depreciation",
+        "Specifying the Start and End Dates over Periods"
+      ],
+      "summary": "This page explains how to specify a unique code, rate, and type for calculating depreciation, as well as defining start and end dates for different periods.",
+      "raw_text": "4-11\nSpecifying the Rule Code\nGive a unique code to identify the rule you are going to define. This code cannot be modified \nlater. You can give a brief description for the code in the description field.\nIndicating the Rate for Calculating Depreciation\nYou have to specify rate for calculating the depreciation for the asset. This rate can be \nspecified for time period in case the asset is dependent on capitalization. In this case, different \nrates have to be maintained for the first year and subsequent years.\nIf you have selected Independent of capitalization as your rate type, then the rate will be set \nfor the whole useful period of the asset. \nNote\nThe depreciation rate has to be mentioned in percentage.\nDefining the Rate Type for Calculating Depreciation\nIf you want to have a different depreciation rates for different periods of acquisition in the first \nyear of the asset life then chose Dependent on capitalization. In contradiction to this, you can \nchoose Independent of capitalization to keep a single rate type through out the life of the \nasset. \nSpecifying the Start and End Dates over Periods\nIf the rule type is dependent on capitalization, and if the effective depreciation date falls \nbetween the Start and End date, the rates that you specify in this section of the screen will be \nconsidered for computing depreciation. Else, the value that you have specified in the Rate \nfield will be considered."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Asset Category and Location Rule Mapping",
+        "Invoking Asset Category-Rule Mapping Screen"
+      ],
+      "summary": "This section explains how to map depreciation rules to asset categories and locations, including invoking the relevant screen and setting up parameters such as depreciation method and frequency.",
+      "raw_text": "4-12\nNote\nThis is applicable for the first year only. \n4.7 \nAsset Category and Location Rule Mapping\nThis section contains the following topics:\nSection 4.7.1, \"Invoking Asset Category-Rule Mapping Screen\"\n4.7.1 \nInvoking Asset Category-Rule Mapping Screen\nThrough the asset category – location rule mapping screen, you can map predefined \ndepreciation rules to a combination of asset category and location. You can also define \nvarious depreciation parameters such as depreciation method for book and tax purposes, \nfrequency of depreciation, depreciation rate type etc.\nYou can invoke ‘Asset Category - Rule Mapping’ screen by typing ‘FIDRULMP’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button.\nIdentifying the Category for the Asset\nChose the category code for the asset from the option list available. Once you choose the \nasset category code, the description for the category will be displayed in the next field. \nIndicating the Location Code for the Asset\nYou can select the location code for the asset from the given option list. \nIndicating the Method for Depreciation \nHere you have to indicate if you want SLM (Straight Line Method) or WDV (Written Down \nValue Method) as your depreciation method. Chose the method of depreciation by clicking the \nappropriate option."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Specifying the Frequency for Depreciation",
+        "Indicating the Rule for Depreciation",
+        "Specifying the Depreciation Type"
+      ],
+      "summary": "This page describes how to set up depreciation parameters including frequency, rule selection, and type of depreciation for accounting and tax purposes.",
+      "raw_text": "4-13\nThis data is maintained for both book of accounts and tax purposes.\nSpecifying the Frequency for Depreciation\nYou need to mention the start date and the start month to determine when the first cycle of \nthe depreciation accounting entries are to be posted. \nSelect the frequency for calculating of depreciation from the option list. This data is recorded \nfor both book of accounts and tax purposes.\nIndicating the Rule for Depreciation\nSelect the rule to be used for depreciation from the option list. This data is recorded for both \nbook of accounts and tax purpose. \nSpecifying the Depreciation Type\nYou have to mention the type of depreciation required for the asset. The options available are \nRule based, Ad-hoc and External. \nIf you select Rule based type of depreciation, then a fixed percentage is depreciated every \nyear.\nIf you chose ad-hoc as the depreciation type then you have to maintain depreciation rates in \nthe Depreciation Maintenance screen at the Asset Capture level. In such a scenario, the fields \nfor rule are not applicable.\nIf you choose the external as depreciation type then the depreciation is processed as an \nexternal push feed from the consumer lending module, for every principal schedule on the due \ndate.\nRefer the section on Depreciation Maintenance for details on maintaining depreciation \npercentage for each period.\nIf the depreciation type is maintained as ‘External’ in the asset category rule mapping \nmaintenance for the fixed asset contracts, then the system skips the depreciation processing \nfor the asset. Instead it will process as an upload of depreciation data. This is used to upload \nthe depreciation details for the fixed asset product which is not ‘Financed by Loan’.\nYou can invoke ‘Depreciation Input’ screen by typing ‘FIDEDEPRFIDEDEPR’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button.\nThe following information will be accepted for the depreciation upload:\nContract Ref. No\nDepreciation Type  Book or Tax\nDepreciation Amount\nDepreciation Date\nThe screen will be as given below:"
+    },
+    {
+      "page_number": 35,
+      "sections": [],
+      "summary": "This page discusses the source of required information for depreciation processing, which is obtained from category-location level rule maintenance.",
+      "raw_text": "4-14\nNote\nThe other required information for depreciation processing is picked up from the category-\nlocation level rule maintenance."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Section 5.1, \"Islamic Fixed Asset Details\"",
+        "Section 5.1.1"
+      ],
+      "summary": "This page explains how to process Islamic fixed assets in Oracle FLEXCUBE, including capturing details and various functions for managing these assets.",
+      "raw_text": "5-1\n5. Processing Islamic Fixed Assets\nIn Islamic Fixed Assets module of Oracle FLEXCUBE you can capture static details such as \nAsset Code, Asset Cost, Date of Acquisition, Date of capitalization, Location, Asset category \ncode etc. You cannot change the Islamic fixed asset product associated with the contract \nduring the entire life cycle of the asset. \nIslamic Fixed Assets purchase/acquisition online processing function enables you to perform \nthe following functions:\nCopy the details of a new asset\nAmend/change the copied asset details\nCopy existing asset details for recording details of new fixed asset\nDelete/Undo of a asset record from one user to another\nRecording of individual items for an Asset\nRecording of Islamic Fixed Asset-XP contract linkages\nAny other fields may be captured using UDF\nThis chapter explains the processing of purchase or acquisition of an Islamic Fixed Asset.\nThis chapter contains the following sections:\nSection 5.1, \"Islamic Fixed Asset Details\"\nSection 5.2, \"Reassign an Islamic Asset Contract to another User\"\nSection 5.3, \"Islamic Asset Transfer Details\"\nSection 5.4, \"Islamic Asset Write Off details\"\nSection 5.5, \"Islamic Asset Sale Details\"\nSection 5.6, \"Fixed Asset Delivered but not Inspected\"\nSection 5.7, \"Fixed Asset Drill Down Query\"\nSection 5.8, \"Fixed Asset Inspected but not Capitalized\"\nSection 5.9, \"Batch Process\"\n5.1 \nIslamic Fixed Asset Details\nThis section contains the following topics:\nSection 5.1.1, \"Invoking the Islamic Assets - Asset Capture Screen\"\nSection 5.1.2, \"Asset Details Tab\"\nSection 5.1.3, \"Depreciation Details Tab\"\nSection 5.1.4, \"Inventory Details Tab\"\nSection 5.1.5, \"Linkage Details Button\"\nSection 5.1.6, \"Asset Details Button\"\nSection 5.1.7, \"Adhoc Schedule Button\"\nSection 5.1.8, \"Events Button\"\nSection 5.1.9, \"Settlement Button\"\nSection 5.1.10, \"MIS Button\"\nSection 5.1.11, \"Charges Button\"\nSection 5.1.12, \"Fields Button\"\nSection 5.1.13, \"Advice Button\""
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "5.1.14, 'Viewing Summary for Islamic Fixed Asset Contracts'"
+      ],
+      "summary": "This section describes how to access and use the 'Islamic Fixed Asset Capture Online' screen to capture details of Islamic fixed assets and link them to product codes.",
+      "raw_text": "5-2\nSection 5.1.14, \"Viewing Summary for Islamic Fixed Asset Contracts \"\n5.1.1 \nInvoking the Islamic Assets - Asset Capture Screen\nTo access the ‘Islamic Fixed Asset Capture Online’ screen, choose Islamic Fixed Assets from \nthe Application Browser and then select the Detail option under Asset Capture.\nThe Asset capture screen consists of the following screens:\nIslamic Fixed Asset Main details\nIslamic Fixed Asset Items\nDepreciation details\nIslamic Fixed Asset-XP contract linkage\nIslamic Fixed Asset depreciation view\nEach of the above mentioned screens and the data captured in each screen are explained in \ndetail in this chapter.\nYou can capture the various details of the Islamic fixed asset such as asset code, asset cost, \ndate of acquisition, date of capitalization, location, asset category code etc. \nThrough this screen you can associate the Islamic fixed asset to an Islamic product code and \nall the restrictions maintained at the product level will be enforced while you record the new \nasset. \nYou are not allowed to change the product associated with the asset during the life cycle of \nthe asset once you have associated the product to the asset. \nYou can invoke ‘Islamic Assets – Asset Capture’ screen by typing ‘FIDTRONL’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button.\nIdentifying a Product Code\nChoose a product code from the option list. This option list provides all the valid products \nmaintained through the ‘Islamic Fixed Assets Product’ screen. All the preferences defined at \nthe product level will be defaulted. Once you specify the product code, the system will create \nthe reference number in the next field for the asset."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Displaying the Contract Reference Number",
+        "Description of the Product",
+        "Displaying the User Reference number",
+        "Displaying Loan Account Number",
+        "Asset Details Tab"
+      ],
+      "summary": "This page describes how to display and manage various reference numbers in a system for Islamic Fixed Asset contracts, including automatically generated contract references, user-defined references, loan account numbers, and asset details.",
+      "raw_text": "5-3\nDisplaying the Contract Reference Number\nThe system automatically creates the reference number for the asset.\nThe reference number generated is a combination of branch code, product code, the Julian \ndate of transaction input and a running serial number.\nDescription of the Product \nOnce you have selected the product code, the product description is displayed. \nDisplaying the User Reference number\nYou can enter any reference number for a Islamic Fixed Asset contract that you process. The \ncontract will be identified through this number in addition to the contract reference number \ngenerated by the system. Two contracts cannot have the same user reference number. By \ndefault, the contract reference number generated by the system will be taken as the user \nreference number. You can use this number, to retrieve information relating to a contract.\nDisplaying Loan Account Number\nThe system displays the reference number of the financed finance account. You can not \nmodify this field.\n5.1.2 \nAsset Details Tab\nIdentifying the Category of the Asset\nYou can link the asset to an existing Islamic fixed asset category that is not restricted for the \nbranch. Choose the category of the asset from the option list.\nIndicating Fund Id\nThe fund Id will be visible only if the current branch is a fund branch. Select the Fund Id of the \nasset from the option list. By default, the value of ‘Default Mudarabah Fund’ is displayed as \nthe Fund Id. \nThe settlements processing is enabled only if ‘Allow Corporate Access’ is checked in the \n‘Branch Parameters – Detail View’ screen.\nIf ‘Allow Corporate Access’ is not checked, then the settlement account would be the \nfund bank accounts linked to fund id.\nIf ‘Allow Corporate Access’ is checked, then the settlement account is fetched from the \nsettlement instruction maintenance for the counterparty.\nIndicating the Vendor Code of the Asset \nSpecify the vendor code of the asset from the option list. The list displays all the customer \ncodes maintained in the system.\nIndicating the Location of the Asset\nIdentify the location at which the asset is currently stationed. The adjoining option list provides \nall the valid locations maintained through the ‘Islamic Fixed Assets Location Restrictions’ \nscreen for Islamic fixed assets. \nDescribing the Asset\nIn this field, you can enter the description of the asset stating whether the asset is an office \nbuilding or computers etc.\nSpecifying the Cost of the Asset\nEnter the value of the asset in this field.\nIdentifying the Currency\nThis is the local currency of the branch. You will not be allowed to modify this data."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Describing the Status of the Asset",
+        "Specifying the Booking Date for the Asset",
+        "Specifying the Acquisition Date of the Asset",
+        "Specifying the Acquired Depreciation",
+        "Residual Value",
+        "Specifying the Capitalization Date",
+        "Indicating the Effective Depreciation Date"
+      ],
+      "summary": "This page details how to input and specify various attributes related to an asset's status, including its booking date, acquisition date, depreciation, residual value, capitalization date, and effective depreciation date.",
+      "raw_text": "5-4\nDescribing the Status of the Asset\nHere you have to mention the status of the asset your branch is holding. The available options \nare:\nCapitalized\nWork in progress\nSpecifying the Booking Date for the Asset\nThe system date is defaulted as the booking date of the asset. You will not be allowed to \nmodify this date. \nSpecifying the Acquisition Date of the Asset\nMention the date on which the asset is acquired in the date/month/year format.\nSpecifying the Acquired Depreciation\nYou can specify the acquired depreciation in case of the asset being transferred from a \nprevious branch. The system arrives at the accumulated depreciation based on the acquired \ndepreciation that you specify as well as the depreciation calculated. The acquired \ndepreciation is considered to track depreciation on books and not for tax purposes. \nYou will not be allowed to specify the acquired depreciation once you save and authorize a \ncontract. \nResidual Value \nThe Residual Value is taken into account for the purpose of computing the depreciation of the \nasset. However, you must ensure to enable the ‘Asset Cost – Residual Value’ option in the \nAsset Category screen. \nNote\nThe total depreciation for the asset will not exceed the residual value. \nSpecifying the Capitalization Date\nIf you have selected the status of the asset as ‘Capitalized’ then you have to specify the date \non which the asset was capitalized. \nIndicating the Effective Depreciation Date\nIn this field, you have to mention the date from which the depreciation should be charged for \nthe asset. The capitalization date will be taken as the default date if you do not mention the \ndate. You can choose to change this but this date cannot be less than the capitalization date. \nAlso this date cannot be a future date.\nIndicating the Original Reference Number\nThis field is updated only during Islamic Fixed Asset Transfers. Transferred asset is \nautomatically created in the branch/location on Save of transfer.  This field displays the \noriginal reference number of the asset in the old branch/location. You cannot modify this \nnumber. \nAll other details of the transferred asset will remain the same as before except for a few \nconditions. \nPlease refer the section Asset Transfer Process for more details.\nIndicating the Useful Life of the Asset\nThis is the unit to measure the useful life of asset (months/years). The data is defaulted from \nasset category maintenance. You can choose to change this unit."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Indicating the Duration of the Useful Life",
+        "Depreciation Details Tab"
+      ],
+      "summary": "This page explains how to indicate the duration of an asset's useful life and manage depreciation details, including suspension options and viewing accumulated depreciation.",
+      "raw_text": "5-5\nIndicating the Duration of the Useful Life \nThis is the useful life of the asset. The data is defaulted from asset category maintenance \nhowever you can choose to change this.\nIndicating Suspend Depreciation\nBy choosing this preference you can stop the depreciation calculation for an asset. If there is \na negotiation for sale or change in RV for the asset, then choose this option to suspend the \ndepreciation. Otherwise you can leave it unchecked.  \nSpecifying the Depreciation Suspension Date\nIf you choose to suspend the depreciation then the system takes the application date as the \nsuspension date. You will not be allowed to modify this date.\nNote\nIjarah fixed asset product with preference ‘Financed by Loan’ is not allowed.\n5.1.3 \nDepreciation Details Tab\nYou can view the depreciation charged for the asset from this screen. Depreciation view \nscreen displays the depreciation details of the asset recorded for book and tax purposes.\nYTD Depreciation\nThis field displays the depreciation charged on an asset from the start of the current financial \nyear till the last depreciation date. This data is recorded for book and tax purpose.\nNo modification is allowed in this field.\nAccumulated Depreciation\nThis field displays the depreciation charged on an asset for account book and tax purpose. \nThe depreciation is calculated from the effective date of depreciation till the system date.\nNo modification is allowed in this field.\nYear Open WDV\nThe field displays the value of the asset that was written down at the beginning of the financial \nyear for book and tax purpose.\nNo modification is allowed in this field."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Current WDV",
+        "Inventory Details Tab",
+        "Linkage Details Button"
+      ],
+      "summary": "This page describes fields and buttons related to asset details in a system, including current written-down value, inventory capture details, and linking assets to contracts.",
+      "raw_text": "5-6\nCurrent WDV\nThis field displays the value of the asset that was written down on the system date for book \nand tax purpose.\nNo modification is allowed in this field.\n5.1.4 \nInventory Details Tab\nYou can view the inventory details for the asset from this screen. Click ‘Inventory Details’ tab \nin the ‘Islamic Assets- Asset Capture’ screen.\nIn this screen you can capture the following details:\nAsset Reference Number\nThe system displays the asset reference number.\nQuantity\nSpecify the number of quantities. \nProcurement Unit Price\nSpecify the price for procurement unit. \nAvailable Quantity\nThe system displays the available quantity based on the quantity available for the contract. \nInitially the system will default it with Value of Quantity.\n5.1.5 \nLinkage Details Button\nWhen an asset is purchased against a purchase order, you can link the asset to the contracts \nin Expense Processing contract."
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Indicating the Reference Number for the Asset",
+        "Specifying the Reference Number for the XP Contract",
+        "Displaying the Code for the Vendor",
+        "Indicating the Contract Amount",
+        "Note",
+        "Specifying the Linked Amount",
+        "Note",
+        "Asset Details Button"
+      ],
+      "summary": "This page describes how to access and use a screen for adding or deleting records, including steps for entering asset details such as reference numbers, vendor codes, contract amounts, and linked amounts.",
+      "raw_text": "5-7\nTo access this screen, click ’Linkage Details’ button in the ‘Islamic Assets – Asset Capture’ \nscreen. \nThis screen enables you to add or delete a record. \nIndicating the Reference Number for the Asset\nThe reference number of the asset is defaulted from the ‘Islamic Assets – Asset Capture’ \nscreen. You will not be able to change this number.\nSpecifying the Reference Number for the XP Contract\nHere you have to mention the reference number of the contract in the XP. You can pick the \nreference number from the option list available or you can mention the number which will be \nvalidated against the XP contract.\nDisplaying the Code for the Vendor\nOnce you choose the XP contract, the code for the vendor will be defaulted automatically.\nIndicating the Contract Amount\nOnce you choose the XP contract, the contract amount will be defaulted automatically in this \nfield. \nNote\nThe XP contract amount is displayed in asset currency.\nSpecifying the Linked Amount\nYou have to specify the amount of the XP contract that has been used for the purchase of the \nasset. \nNote\nMake sure that the sum of the linked amounts for all the linked contracts is less than or \nequal to the actual cost of the asset.\n5.1.6 \nAsset Details Button\nThis screen is used to record individual item details under a single asset code in cases where \nmany similar assets are grouped under one category."
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Indicating the Reference Number for the Asset",
+        "Specifying the Item Identification Number",
+        "Indicating the Cost of the Asset",
+        "Describing the Asset",
+        "Specifying the Delivery Date for the Asset",
+        "Indication the Status of Inspection"
+      ],
+      "summary": "This page describes how to input details about an asset in a specific screen, including reference number, identification number, cost, description, delivery date, and inspection status.",
+      "raw_text": "5-8\nTo access this screen, click ‘Asset Details’ button in the ‘Islamic Assets – Asset Capture’ \nscreen.\nIn this screen you are allowed to add or delete an asset from the asset group.\nIndicating the Reference Number for the Asset\nThe reference number of the asset is defaulted from the ‘Islamic Assets – Asset Capture’ \nscreen. You will not be able to change this number.\nSpecifying the Item Identification Number\nYou need to enter a unique number for the asset to identify the particular asset. \nIndicating the Cost of the Asset\nYou need to specify the cost of the individual item. \nNote\nTake care that the sum of all item costs does not exceed the asset cost.\nDescribing the Asset\nYou can record the general information regarding the asset in the description field.\nSpecifying the Delivery Date for the Asset \nMention the date on which the item is scheduled for delivery. \nNote\nEnsure that the delivery date is not less than the capitalization date.\nIndicating the Delivery Status of the Item\nCheck the box if the delivery of the asset has been carried out. Keep the box unchecked to \nindicate that the asset has not been delivered.\nIndication the Status of Inspection\nIf the asset has been inspected then check the box. Leave it unchecked to indicate that the \nasset has not undergone inspection."
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Specifying the Remarks for the Asset",
+        "Adhoc Schedule Button",
+        "Displaying the Asset Reference Number",
+        "Maintaining Depreciation Schedule for the Asset"
+      ],
+      "summary": "This page discusses various aspects of asset management in a financial system, including entering remarks, defining ad-hoc depreciation rates, displaying asset reference numbers, and maintaining depreciation schedules.",
+      "raw_text": "5-9\nNote\nYou will also be able to perform queries about assets delivered but not inspected and as-\nsets inspected but not capitalized, based on the delivery date and status. \nSpecifying the Remarks for the Asset\nIn this field you can enter general remarks for the asset for future reference.\n5.1.7 \nAdhoc Schedule Button\nYou will be able to define different rates for depreciation. This is exclusively done for adhoc \ntype of depreciation. \nTo access this screen, click on ‘Adhoc Schedule’ button in the ‘Islamic Assets – Asset \nCapture’ screen.\nDisplaying the Asset Reference Number\nThe reference number of the asset and its description is defaulted from the contract input \nscreen. You will not be able to modify this number.\nMaintaining Depreciation Schedule for the Asset\nYou need to maintain the depreciation rate for the asset across the useful life of the asset. \nNote\nThe depreciation rate will always be in percentage terms per annum.\nYou have to maintain the depreciation schedule for the asset if you have chosen ‘AD-HOC’ \nas the’ Depreciation Type’ in the ‘Asset Category Rule Mapping’ screen.\nIf the useful life is in months, then also, the adhoc depreciation schedule needs to be recorded \nin terms of years. \nAdditionally, you have to ensure that you have maintained depreciation rates for all the years \nof Useful Life."
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "Events Button",
+        "Settlement Button"
+      ],
+      "summary": "This page describes how to access the 'Events' and 'Settlement Details' screens through buttons in the 'Islamic Assets – Asset Capture' screen for managing events and viewing fund accounts.",
+      "raw_text": "5-10\n5.1.8 \nEvents Button\nEvents are maintained through the ‘Events’ screen. Click the ‘Events’ button in the ‘Islamic \nAssets – Asset Capture’ screen to invoke this screen.\nFor more information on specifying Event Details, refer ‘Products’ User Manual under \n‘Modularity’.\n5.1.9 \nSettlement Button\nThrough the settlement screens, you can view the fund accounts to which entries for the \napplicable charges and taxes are posted. These details are available in the ‘Settlement \nDetails’ screen. \nClick the ‘Settlement’ button in the ‘Islamic Assets – Asset Capture’ screen to invoke the \n‘Settlement Details’ screen.I"
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "5.1.10 MIS Button"
+      ],
+      "summary": "This page describes how to invoke the 'MIS' screen by clicking the 'MIS' button in the 'Islamic Assets – Asset Capture' screen.",
+      "raw_text": "5-11\nFor more information on specifying Settlement Details, refer ‘Settlements’ User Manual under \n‘Modularity’.\n5.1.10 \nMIS Button\nClick the ‘MIS’ button in the ‘Islamic Assets – Asset Capture’ screen to invoke the ‘MIS’ \nscreen."
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "5.1.11 Charges Button"
+      ],
+      "summary": "This section describes how to access and use the 'Charge Details' screen by clicking the 'Charges' button for managing charge details.",
+      "raw_text": "5-12\n5.1.11 \nCharges Button\nClick the ‘Charges’ button to invoke the ‘Charge Details’ screen. Through this screen you can \nmanage charge details you are creating."
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Fields Button",
+        "Advice Button",
+        "Viewing Summary for Islamic Fixed Asset Contracts"
+      ],
+      "summary": "This page describes how to use buttons and screens in a software application to manage fields and view summaries of Islamic fixed asset contracts.",
+      "raw_text": "5-13\n5.1.12 \nFields Button\nClick the ‘Fields’ button to invoke the ‘Fields’ screen. Through this screen you can manage \nuser defined field details you are creating.\nIn the ‘Fields’ screen, you can specify the Field Name. Select the Field Name from the option \nlist provided.\n5.1.13 \nAdvice Button\nClick the ‘Advices’ button to invoke the ‘Advice Details’ screen. Through this screen you can \nmanage user defined field details you are creating.\n5.1.14 \nViewing Summary for Islamic Fixed Asset Contracts \nYou can view the summary of all the Islamic fixed assets contracts using ‘Islamic Fixed Asset \nCapture Summary’ screen. You can invoke this screen by typing ‘FISTRONL’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button. \nA screen giving all the details of the contracts is displayed."
+    },
+    {
+      "page_number": 49,
+      "sections": [
+        "5.2 Reassign an Islamic Asset Contract to another User",
+        "5.2.1 Invoking the Islamic Reassign Contract Screen"
+      ],
+      "summary": "This section explains how to reassign an Islamic asset contract to another user so that it can be deleted, typically when the original inputter is unavailable.",
+      "raw_text": "5-14\n5.2 \nReassign an Islamic Asset Contract to another User\nThis section contains the following topics:\nSection 5.2.1, \"Invoking the Islamic Reassign Contract Screen\"\n5.2.1 \nInvoking the Islamic Reassign Contract Screen\nA contract can be deleted only by the user who entered it. If a contract has to be deleted and \nthe user who input it is not around to do it, you can reassign the contract to another user so \nthat the other user can delete it. Typically, this situation may arise during End of Day \noperations when a contract that is not authorized has to be deleted and the user who input it \nhas left office for the day. The access rights to reassign a contract are usually allotted to a \nsenior user in the department."
+    },
+    {
+      "page_number": 50,
+      "sections": [
+        "5-15",
+        "5.3",
+        "5.3.1"
+      ],
+      "summary": "This page explains how to reassign users for Islamic fixed asset contracts and introduces the process of transferring Islamic fixed assets to different branches or locations.",
+      "raw_text": "5-15\nYou can perform the reassigning operation through the ‘Islamic Reassign Contract’ screen. \nYou can invoke this screen by typing ‘IBDTREAS’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button. The screen is displayed below.\nProduct\nSpecify the product for which you want to reassign the user. The adjoining option list displays \nall the products maintained for Islamic fixed assets through the ‘Islamic Fixed Assets Product \nMaintenance’ screen.\nContract Ref No\nSpecify the contract reference number for which you wan to reassign the user. The adjoining \noption list displays all the contracts maintained for the product selected.\nCurrent User Id\nCurrent user ID is displayed in this field.\nNew User Id\nSpecify the new user to whom you want to reassign the contract.\nClick ‘Ok’ button to save the details you entered. Click ‘Delete’ button if you do not want to \nsave the details.\n5.3 \nIslamic Asset Transfer Details\nThis section contains the following topics:\nSection 5.3.1, \"Invoking Islamic Assets Transfer Details Screen\"\n5.3.1 \nInvoking Islamic Assets Transfer Details Screen\nThrough the Transfer of Fixed Asset screens you can transfer a Islamic fixed asset to a \ndifferent branch/ location. All the necessary details such as date of sale/transfer/write off, sale \nprice, transfer details etc is captured through these screens."
+    },
+    {
+      "page_number": 51,
+      "sections": [],
+      "summary": "This page describes how to invoke and use the 'Islamic Assets - Transfer Details' screen in an application tool for transferring Islamic assets, detailing the process of transfer, book value calculation, and asset capturing.",
+      "raw_text": "5-16\nYou can invoke ‘Islamic Assets –Transfer Details’ screen by typing ‘FIDTRTFR’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button. The \nscreen is displayed below:\nThe process of transfer is automated and the transferred Islamic asset is automatically \ncreated in the branch/location on saving the transfer. \nTransfer value of the asset will be the current book value of the asset itself and cannot be \nmodified. Book Value is arrived by subtracting the accumulated depreciation from the asset \ncost. \nNote\nAt least one of the two (new location and branch) must be different than current location \nand branch of the asset. Oracle FLEXCUBE will display an error message if this condition \nis not met.\nThe reference number of the asset is defaulted from the ‘Islamic Fixed Asset Capture Online’ \nscreen. You will not be able to modify this number. To move to the next asset or previous \nasset, use the Up and Down arrow keys in the keyboard.\nCapturing the Asset Details\nSelect ‘New’ from the Actions menu in the Application tool bar or click new icon to make a new \nentry for sale/write off. \nDepending on the reference number you choose, the details for the asset will be defaulted in \nthe following fields:\nAsset Description – the general information regarding the asset in this free format text \nfield\nAsset Cost  – the cost of the individual item"
+    },
+    {
+      "page_number": 52,
+      "sections": [
+        "Category",
+        "Location",
+        "Accumulated Depreciation",
+        "Current Book Value",
+        "Note",
+        "Capturing the Transfer Details",
+        "Indicating the New Reference Number",
+        "Specifying the New Branch",
+        "Specifying the New Location",
+        "Asset Transfer Process"
+      ],
+      "summary": "This page details the process of transferring assets, including necessary information to be captured and conditions that must be met during the transfer.",
+      "raw_text": "5-17\nCategory – the code of the category under which the asset is placed\nLocation – the location code where the asset is currently stationed\nAccumulated Depreciation – the accumulated depreciation from previous branch in \ncase of transfer\nCurrent Book Value – the written down value of the asset as on date for books of \naccounts\nNote\nAny transfer has to be authorized before the end of day. \nCapturing the Transfer Details\nIndicating the New Reference Number\nThis is the asset reference number of the asset created in the new branch/location and you \nwill not be allowed to modify the number. \nThis number is automatically generated by the system when you save the contract. \nSpecifying the New Branch\nThis is the branch where the asset is to be transferred. This field is mandatory for asset \ntransfer. Select the branch from the option list.\nSpecifying the New Location\nThis is the location to which the asset is to be transferred. This field is mandatory for asset \ntransfer. Select the branch from the option list.\nAsset Transfer Process\nThe following conditions are mandatory for asset transfer –\nThe category - location rule mapping for the new location should be rule based \nIf only the branch is being changed and not the location, the existing category – location \ndepreciation type can be ad hoc. In this case ad hoc schedules will be copied from the \nold asset to the new asset. \nIf the location is being changed, then the new category – location combination should \nhave depreciation type as rule based. Old category – location combination can have ad \nhoc depreciation. Transfer is possible only if the new category location rule mapping has \nthe same rule type as the old category.  \nIn branch parameters, depreciation period, cut off date and cut off period fields should \nhave the same value in both the old and the new branches.\nIf the asset is being transferred to a new branch, the new branch should have exactly \nthe same definition of financial year and financial periods. If not, it might result in \nerroneous depreciation calculation. \nWhile doing an asset transfer, system will check the preferences maintained at the \nbranch parameters level to complete or reverse depreciation for the period in which the \nasset is being transferred to a new branch/location. \nIf the asset is being transferred after the cut off date, then depreciation will be completed \nfor the current period in the transferor branch. Further depreciation will happen in the \ntransferee branch for rest of the depreciation period in the current financial year.\nIf the asset is being transferred on or before the cut off date, any depreciation which \nmight have happened in the current period will be reversed out for the transferor branch. \nFurther depreciation from the current period onwards will happen in the transferor"
+    },
+    {
+      "page_number": 53,
+      "sections": [],
+      "summary": "This page outlines the process and details for transferring an asset to a new location, including how reference numbers, depreciation, schedules, acquisition date, capitalization date, and effective depreciation date are handled during the transfer.",
+      "raw_text": "5-18\nbranch according to the category –location rule maintenance for the new location (in \ncase the location has changed).\nThe original reference number for the transferred asset will be the original reference \nnumber of the asset in the old branch/location.\nAll other details of the asset will be the same as they were before transfer except for the \nfollowing:\nAcquired depreciation – This will be updated with the total depreciation amount \n(Accumulated depreciation) for the asset in the previous branch/location\nAd hoc Schedules – The new asset created will not have ad hoc depreciation schedules \nif the asset is transferred to a new location as the new category – location combination \nmust allow for rule based depreciation. If the location is the same, then the original ad \nhoc schedules will be replicated to the new asset.\nAsset Acquisition date will be the transfer date\nIn case a capitalized asset is transferred, capitalization date will be the transfer date else \nit will not be updated (if asset is transferred in WIP stage)\nIn case a capitalized asset is transferred, effective depreciation date will be the transfer \ndate else it will not be updated (if asset is transferred in WIP stage)\nThe new asset created will be automatically authorized once the transfer of the asset is \nauthorized. Till such time, the new asset cannot be modified independently. After \nauthorization of the transfer, the new asset created will be independent of the original \ntransferred asset. \nOn deletion of the transfer, the new asset created will also be deleted.\nNote\n– \nTransfer of asset is not allowed for fixed assets ‘Financed by Loan’\n– \nIf you have selected ‘Allow Inventory’ option in the ‘Islamic Fixed Asset Category \nMaintenance’ screen then the transferring of asset will not be allowed for the con-\ntracts.\nRefer the examples in the accounting entry process in the Appendix manual for the above two \nscenarios.\n5.4 \nIslamic Asset Write Off details\nThis section contains the following topics:\nSection 5.4.1, \"Invoking the Islamic Assets - Write Off Details Screen\"\nSection 5.4.2, \"Events Button\"\nSection 5.4.3, \"Settlement Instructions Button\"\nSection 5.4.4, \"MIS Button\"\nSection 5.4.5, \"Charges Button\"\nSection 5.4.6, \"Fields Button\"\nSection 5.4.7, \"Advices Button\"\n5.4.1 \nInvoking the Islamic Assets - Write Off Details Screen\nYou can write off the bad assets using the ‘Islamic Assets - Write Off Details’ screen."
+    },
+    {
+      "page_number": 54,
+      "sections": [
+        "Indicating the Reference Number of the Asset",
+        "Asset Details",
+        "Transaction Details"
+      ],
+      "summary": "This page explains how to invoke a screen for entering asset details and write-off transactions, including fields for reference number, asset description, cost, category, location, depreciation, and book value, as well as transaction date.",
+      "raw_text": "5-19\nYou can invoke this screen by typing ‘FIDTRWRF’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nIndicating the Reference Number of the Asset\nThe reference number of the asset is defaulted from the ‘Islamic Fixed Asset Capture Online’ \nscreen. You will not be able to modify this number. To move to the next asset or previous \nasset, use the Up and Down arrow keys in the keyboard.\nAsset Details\nClick on the ‘New’ icon in the toolbar or select ‘New’ from the Actions menu to make a new \nentry for sale/write off. \nDepending on the reference number you choose, the details for the Islamic fixed asset will be \ndefaulted in the following fields:\nAsset Description - the general information regarding the asset in this free format text \nfield\nAsset Cost  - the cost of the individual item\nCategory – the code of the category under which the asset is placed\nLocation – the location code where the asset is currently stationed\nAccumulated Depreciation – the accumulated depreciation from previous branch in \ncase of transfer\nCurrent Book Value – the written down value of the asset as on date for books of \naccounts\nTransaction Details\nYou can specify the following details here:\nIndicating the Value Date\nThis is the date on which the asset is written off. This date will always be the system date and \nyou will not be allowed to modify this date."
+    },
+    {
+      "page_number": 55,
+      "sections": [
+        "Specifying the Value of the Sale/Write-off",
+        "Identifying the Officer in Charge",
+        "Remarks",
+        "Note",
+        "5.4.2 Events Button",
+        "5.4.3 Settlement Instructions Button"
+      ],
+      "summary": "This page outlines the process for specifying values, identifying officers, making remarks, and navigating buttons related to write-offs of assets.",
+      "raw_text": "5-20\nSpecifying the Value of the Sale/Write-off\nFor a Write off, this value will be the current book value and is not modifiable.\nIdentifying the Officer in Charge\nFor write off, you have to mention the name of the officer in charge of the sale or transfer of \nthe asset. This data is recorded for general information purpose.\nRemarks\nYou can enter general remarks for the asset in this free format text field for information \npurposes. \nNote\nAny write off has to be authorized before the end of day and Write off is not allowed for \nfixed assets ‘Financed by Loan’.\n5.4.2 \nEvents Button\nEvents are maintained through the ‘Events’ screen. Click the ‘Events’ button in the ‘Islamic \nAssets - Write Off Details’ screen to invoke this screen.\n5.4.3 \nSettlement Instructions Button\nThrough the settlement screens, you can view the fund accounts to which entries for the \napplicable charges and taxes are posted. These details are available in the ‘Settlement \nDetails’ screen. \nClick the ‘Settlement’ button in the ‘Islamic Assets - Write Off Details’ screen to invoke the \n‘Settlement Details’ screen."
+    },
+    {
+      "page_number": 56,
+      "sections": [
+        "5.4.4 MIS Button"
+      ],
+      "summary": "This page instructs users on how to access the 'MIS' screen by clicking the 'MIS' button in the 'Islamic Assets - Write Off Details' screen.",
+      "raw_text": "5-21\nFor more information on specifying Settlement Details, refer ‘Settlements’ User Manual under \n‘Modularity’.\n5.4.4 \nMIS Button\nClick the ‘MIS’ button in the ‘Islamic Assets - Write Off Details’ screen to invoke the ‘MIS’ \nscreen."
+    },
+    {
+      "page_number": 57,
+      "sections": [
+        "Charges Button"
+      ],
+      "summary": "This section describes how to access and use the 'Charge Details' screen by clicking the 'Charges' button for managing charge details.",
+      "raw_text": "5-22\n5.4.5 \nCharges Button\nClick the ‘Charges’ button to invoke the ‘Charge Details’ screen. Through this screen you can \nmanage charge details you are creating."
+    },
+    {
+      "page_number": 58,
+      "sections": [
+        "Fields Button",
+        "Advices Button",
+        "Islamic Asset Sale Details"
+      ],
+      "summary": "This page describes how to use buttons to invoke different screens for managing user-defined field details and provides an overview of sections related to Islamic asset sale details.",
+      "raw_text": "5-23\n5.4.6 \nFields Button\nClick the ‘Fields’ button to invoke the ‘Fields’ screen. Through this screen you can manage \nuser defined field details you are creating.\n5.4.7 \nAdvices Button\nClick the ‘Advices’ button to invoke the ‘Advice Details’ screen. Through this screen you can \nmanage user defined field details you are creating.\n5.5 \nIslamic Asset Sale Details\nThis section contains the following topics:\nSection 5.5.1, \"Invoking Islamic Asset Sale Details\"\nSection 5.5.2, \"Events Button\"\nSection 5.5.3, \"Settlement Button\"\nSection 5.5.4, \"MIS Button\"\nSection 5.5.5, \"Charges Button\""
+    },
+    {
+      "page_number": 59,
+      "sections": [],
+      "summary": "This page describes how to sell an Islamic fixed asset using the 'Islamic Asset – Sales Details' screen and details the fields for capturing asset sale information.",
+      "raw_text": "5-24\nSection 5.5.6, \"Fields Button\"\nSection 5.5.7, \"Advices Button\"\n5.5.1 \nInvoking Islamic Asset Sale Details\nYou can sell the Islamic fixed asset by using ‘Islamic Asset – Sales Details’ screen. You can \ninvoke this screen by typing ‘FIDTRSLE’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button.\nIndicating the Reference Number of the Asset\nThe reference number of the asset is defaulted from the ‘Islamic Fixed Asset Capture Online’ \nscreen. You will not be able to modify this number. To move to the next asset or previous \nasset, use the Up and Down arrow keys in the keyboard.\nCapturing the Asset Details\nClick on the ‘New’ icon in the toolbar or select ‘New’ from the Actions menu to make a new \nentry for sale/write off. \nDepending on the reference number you choose, the details for the Islamic fixed asset will be \ndefaulted in the following fields:\nAsset Description - the general information regarding the asset in this free format text \nfield\nQuantity To Sell – the selling quantity of the asset for the contracts which are created \nfor categories with ‘Allow Inventory’ option is selected in the ‘Islamic Fixed Asset \nCategory Maintenance’ screen.\nAsset Cost - the cost of the individual item\nCategory – the code of the category under which the asset is placed\nLocation – the location code where the asset is currently stationed"
+    },
+    {
+      "page_number": 60,
+      "sections": [],
+      "summary": "This page details the transaction process for selling an asset, including fields such as customer ID, sale date, value of the sale, officer in charge, and remarks, along with some notes on authorization and status changes.",
+      "raw_text": "5-25\nAccumulated Depreciation – the accumulated depreciation from previous branch in \ncase of transfer\n Current Book Value – the written down value of the asset as on date for books of \naccounts\nCapturing the Transaction Details\nCustomer\nSpecify the CIF id of the customer to whom the asset is sold and the SALE event will be fired \nfor selected customer.\nValue Date\nThis is the date on which the asset is sold. In case of a sale, the default date will be the system \ndate and you can choose to change this date. \nValue of the Sale/Write-off\nThis is the net sale value of the asset. This field is mandatory if the asset is being sold.\nOfficer in Charge\nFor sale of an asset, you have to mention the name of the officer in charge of the sale or \ntransfer of the asset. This data is recorded for general information purpose.\nRemarks\nYou can enter general remarks for the asset in this free format text field for information \npurposes. \nNote\n– \nAny sale has to be authorized before the end of day and Sale of asset is not allowed \nfor fixed assets ‘Financed by Loan’\n– \nSALE event will be fired only for the cost of selected quantity and not for the full \nasset cost\n– \nThe status of the asset contract will be changed to ‘S- Sold’ only when the full quan-\ntity is sold out. However it will remain in ‘W-In Stock’ status if partial quantity is sold \nout."
+    },
+    {
+      "page_number": 61,
+      "sections": [
+        "Events Button",
+        "Settlement Button"
+      ],
+      "summary": "This page describes how to access the 'Events' and 'Settlement Details' screens through buttons in the 'Islamic Asset – Sales Details' screen for managing events and viewing fund accounts.",
+      "raw_text": "5-26\n5.5.2 \nEvents Button\nEvents are maintained through the ‘Events’ screen. Click the ‘Events’ button in the ‘Islamic \nAsset – Sales Details’ screen to invoke this screen.\nFor more information on specifying Event Details, refer ‘Products’ User Manual under \n‘Modularity’.\n5.5.3 \nSettlement Button\nThrough the settlement screens, you can view the fund accounts to which entries for the \napplicable charges and taxes are posted. These details are available in the ‘Settlement \nDetails’ screen. Click the ‘Settlement’ button in the ‘Islamic Asset – Sales Details’ screen to \ninvoke the ‘Settlement Details’ screen."
+    },
+    {
+      "page_number": 62,
+      "sections": [
+        "MIS Button",
+        "Charges Button"
+      ],
+      "summary": "This page describes how to use the 'MIS' and 'Charges' buttons to invoke respective screens for managing Islamic asset sales details and charge management.",
+      "raw_text": "5-27\n5.5.4 \nMIS Button\nClick the ‘MIS’ button in the ‘Islamic Asset – Sales Details’ screen to invoke the ‘MIS’ screen.\n5.5.5 \nCharges Button\nClick the ‘Charges’ button to invoke the ‘Charge Details’ screen. Through this screen you can \nmanage charge details you are creating."
+    },
+    {
+      "page_number": 63,
+      "sections": [
+        "Fields Button"
+      ],
+      "summary": "This section explains how to access and manage user-defined field details through the 'Fields' screen by clicking the 'Fields' button.",
+      "raw_text": "5-28\n5.5.6 \nFields Button\nClick the ‘Fields’ button to invoke the ‘Fields’ screen. Through this screen you can manage \nuser defined field details you are creating."
+    },
+    {
+      "page_number": 64,
+      "sections": [
+        "Advices Button",
+        "Fixed Asset Delivered but not Inspected"
+      ],
+      "summary": "This page describes how to use the 'Fields' screen and the 'Advices' button, as well as details on viewing Islamic fixed assets delivered but not inspected.",
+      "raw_text": "5-29\nIn the ‘Fields’ screen, you can specify the Field Name. Select the Field Name from the option \nlist provided.\n5.5.7 \nAdvices Button\nClick the ‘Advices’ button to invoke the ‘Advice Details’ screen. Through this screen you can \nmanage user defined field details you are creating.\n5.6 \nFixed Asset Delivered but not Inspected\nThis section contains the following topics:\nSection 5.6.1, \"Invoking Islamic Assets Delivered but not Inspected Screen\"\n5.6.1 \nInvoking Islamic Assets Delivered but not Inspected Screen\nYou can view the details of the Islamic fixed assets delivered but which are not yet inspected \nusing ‘Islamic Assets Delivered but not inspected’ screen."
+    },
+    {
+      "page_number": 65,
+      "sections": [
+        "Invoking Islamic Assets Drill Down Query Screen"
+      ],
+      "summary": "This section explains how to invoke and use the 'Islamic Assets Drill Down Query' screen to query details for GL at category level.",
+      "raw_text": "5-30\nYou can invoke this screen by typing ‘FISQDLIN’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button. The screen giving all the details \nof the fixed assets which are delivered but not inspected is displayed.\nYou can perform the following operations using this screen:\nUnlock\nModify\nCopy\nDelete\nClose\n5.7 \nFixed Asset Drill Down Query\nThis section contains the following topics:\nSection 5.7.1, \"Invoking Islamic Assets Drill Down Query Screen\"\n5.7.1 \nInvoking Islamic Assets Drill Down Query Screen\nYou can query the details for GL at category level by using ‘Islamic Assets Drill Down Query’ \nscreen. \nYou can invoke this screen by typing ‘FIDQDRIL’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 66,
+      "sections": [
+        "Fixed Asset Inspected but not Capitalized",
+        "Invoking Islamic Fixed Assets Inspected Not Capitalized"
+      ],
+      "summary": "This page describes operations that can be performed on a screen and provides instructions for invoking a specific screen related to Islamic fixed assets that have been inspected but not capitalized.",
+      "raw_text": "5-31\n You can perform the following operations using this screen:\nUnlock\nModify\nCopy\nDelete\nClose\n5.8 \nFixed Asset Inspected but not Capitalized\nThis section contains the following topics:\nSection 5.8.1, \"Invoking Islamic Fixed Assets Inspected Not Capitalized\"\n5.8.1 \nInvoking Islamic Fixed Assets Inspected Not Capitalized\nYou can view a summary of the Islamic fixed assets which are inspected but are not \ncapitalized using ‘Islamic Fixed Assets Inspected Not Capitalized’ screen. \nYou can invoke this screen by typing ‘FISQINCP’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 67,
+      "sections": [
+        "5-32",
+        "5.9 Batch Process",
+        "5.9.1 Invoking the Mandatory Batch Program Maintenance Screen"
+      ],
+      "summary": "This page describes operations that can be performed on a screen displaying details of fixed assets inspected but not delivered, and provides information on invoking a mandatory batch program maintenance screen for automatic batch processing.",
+      "raw_text": "5-32\n The screen giving all the details of the fixed assets which are inspected but not delivered is \ndisplayed.\nYou can perform the following operations using this screen:\nUnlock\nModify\nCopy\nDelete\nClose\n5.9 \nBatch Process\nThis section contains the following topics:\nSection 5.9.1, \"Invoking the Mandatory Batch Program Maintenance Screen\"\n5.9.1 \nInvoking the Mandatory Batch Program Maintenance Screen\nBatches are run automatically. In the mandatory programs, all batches whichever are required \nwill be maintained in sequence and that is triggered automatically as based on the \nmaintenance in the ‘Mandatory Batch Program Maintenance’ screen. \nYou can invoke this screen by typing ‘EIDMANPE’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 68,
+      "sections": [
+        "Module",
+        "Function Identification"
+      ],
+      "summary": "This page describes how to choose a module code and function ID for batch processes, as well as configuring when these batches will run.",
+      "raw_text": "5-33\nModule\nChoose the module code from the adjoining option list.\nFunction Identification\nChoose the function ID of batch that you wish to run. The adjoining option list displays all \nbatch processes available for the module.\nSelect the appropriate one.\nYou can configure the batch to be run at various stages of day like EOD, EOTI etc."
+    },
+    {
+      "page_number": 69,
+      "sections": [],
+      "summary": "This page provides a reference to the chapter 'Setting-up Mandatory Programs for EOD' in the AEOD User Manual for further details about a specific screen.",
+      "raw_text": "5-34\nFor further details about this screen, refer the chapter ‘Setting- up Mandatory Programs for \nEOD’ in the AEOD User Manual"
+    },
+    {
+      "page_number": 70,
+      "sections": [
+        "Events",
+        "Amount Tags"
+      ],
+      "summary": "This section details the accounting entries and advices for various events in the lifecycle of an Islamic Fixed Asset contract within Oracle FLEXCUBE.",
+      "raw_text": "6-1\n6. Annexure A - Accounting Entries and Advices\nThis section contains details of the suggested accounting entries that can be set up, for the \nIslamic Fixed Asset module of Oracle FLEXCUBE. The details of the suggested accounting \nentries are listed event-wise.\nThis chapter contains the following sections:\nSection 6.1, \"Events\"\nSection 6.2, \"Amount Tags\"\nSection 6.3, \"Accounting Roles\"\nSection 6.4, \"Event-wise Accounting Entries and Advices\"\n6.1 \nEvents\nThe following is an exhaustive list of events that can take place during the lifecycle of a \ncontract. In the subsequent paragraphs we shall examine the accounting entries and advices \nfor each of the events listed below.\n6.2 \nAmount Tags\nThe amount tags listed below are hard-coded in Oracle FLEXCUBE. \nEvent \nCode\nEvent Description\nRemarks\nBOOK\nBooking an Islamic Fixed Asset contract \n(Mandatory)\nAll Types\nCAPT\nCapitalization of an asset\nAll Types\nDEPR\nDepreciation Processing for Booking\nAll Types\nAMND\nAmendment of a contract\nAll Types\nSALE\nSale of an asset\nAll Types\nWROF\nIslamic Fixed Asset Write off\nAll Types\nDPTX\nDepreciation for Tax purposes (no accounting \nentries are passed for this event)\nAll Types\nREVC\nReversal of a contract\nAll Types\nTSFR\nTransfer of Asset\nDEAW\nDepreciation Wash\nDEWR\nDepreciation Wash Reversal\nAmount Tag\nDescription\nFA_CAPT_AMT\nAsset Cost Capitalized\nFA_DEPR_ACC\nAccumulated depreciation"
+    },
+    {
+      "page_number": 71,
+      "sections": [
+        "Amount Tags and their Usage during Various Events"
+      ],
+      "summary": "This page details various financial events and the corresponding amount tags used for charging or recording transactions related to assets in a financial system.",
+      "raw_text": "6-2\nIn addition to these you can define amount tags as per your requirements for charges that will \nbe attached to the product. \nAmount Tags and their Usage during Various Events\nListed below are the various Events along with the Amount Tags that would be used during \nthe respective events. \nFA_DEPR_ADD\nAdditional depreciation to be charged\nFA_DEPR_RED\nReduction in depreciation amount already charged\nFA_SALE_AMT\nNet Sale Value\nFA_SALE_LOS\nLoss on account of sale (Book Value-Sale Value)\nFA_SALE_PFT\nProfit on account of Sale\nFA_WRTO_AMT\nAmount Written Off (Book Value)\nFA_TSFR_AMT\nTransfer Amount (Asset Amount – Accumulated \nDepreciation)\nFA_ASST_AMT\nAsset Cost Capitalized\nFA_DEPR_ACQ\nAcquired depreciation to be charged\nFA_-\nDEPR_WASH\nDepreciation Wash Amount\nEvent\nAmount Tag\nExplanation of the Amount Tags\nBOOK\nFA_CAP-\nT_AMT\nAsset Cost\nDEPR\nFA_-\nDEPR_ADD\nAdditional depreciation to be charged on account of \nincrease in depreciation rate or change in depreciation \nmethod or change in capitalization date\nFA_-\nDEPR_RED\nReduction in cumulative depreciation on account of \nreduction in rate, change in capitalization date or change \nin depreciation method\nCAPT\nFA_CAP-\nT_AMT\nAsset Cost capitalized\nAMND\n-\n-\nSALE\nFA_-\nSALE_AMT\nNet Sale Value\nFA_-\nSALE_LOS\nLoss on Account of Sale (Book Value-Net Sale Value)\nFA_-\nSALE_PFT\nProfit on Account of Sale (Net Sale Value-Book Value)\nFA_-\nDEPR_ACC\nAccumulated depreciation"
+    },
+    {
+      "page_number": 72,
+      "sections": [
+        "Accounting Roles",
+        "Event-wise Accounting Entries and Advices"
+      ],
+      "summary": "This page outlines various accounting roles for use in the Islamic Fixed Asset module and provides a list of suggested accounting entries and advices for different events in the asset's lifecycle.",
+      "raw_text": "6-3\n6.3 \nAccounting Roles\nIn this section we have provided a list of sample accounting roles that can be used for all types \nof products in the Islamic Fixed Asset module:\n6.4 \nEvent-wise Accounting Entries and Advices\nIn the subsequent sections we have defined suggested accounting entries and advices for \neach of the events in the life-cycle of a contract. \nWRTO\nFA_WR-\nTO_AMT\nAmount Written off (Book Value)\nFA_CAP-\nT_AMT\nAsset Cost capitalized\nFA_-\nDEPR_ACC\nAccumulated depreciation\nTSFR\nFA_-\nDEPR_ACC\nAccumulated depreciation\nFA_TS-\nFR_AMT\nTransfer Amount (Asset Amount – Accumulated Depre-\nciation)\nAccounting Role\nDescription\nRole Type\nFAASSETACC\nAsset Account\nAsset\nFAWIPACC\nWork-In-Progress Account\nLiability\nFACUSTACC\nCustomer Account\nCustomer\nFADEPREXP\nDepreciation Account\nExpense\nFAACCDEPRLIB\nAccumulated depreciation Acct\nLiability\nFASALEEXP\nLoss on Sale Account\nExpense\nFASALEINC\nProfit on Sale Account\nIncome\nFAWRTOEXP\nAsset Written Off Account\nExpense\nFATSFRACC\nTransfer Account\nAsset"
+    },
+    {
+      "page_number": 73,
+      "sections": [
+        "BOOK: Booking Accounting Entries",
+        "CAPT: Capitalization of Asset Accounting Entries",
+        "DEPR: Depreciation Processing",
+        "DEAW: Depreciation Wash"
+      ],
+      "summary": "This page details the accounting entries for booking, capitalization of assets, depreciation processing, and depreciation wash in an Islamic inventory tracking system.",
+      "raw_text": "6-4\nBOOK: Booking\nAccounting Entries\nThe following accounting entries are passed for this event for Islamic inventory tracking:\nCAPT: Capitalization of Asset\nAccounting Entries\nDEPR: Depreciation Processing\nDEAW: Depreciation Wash\nThis event is used to wash off the depreciation that has been accumulated because of the \ndepreciation entries posted during every principal payment schedule in the loan transaction \nand this event would be triggered from Manual or auto liquidation of a loan resulting in the final \nliquidation of the loan account.\nThe following accounting entries are passed for this event:\nCondition\nAccounting Role\nAmount Tag\nDr/Cr \nNo PO \nrequired\nFAWIPACC\nFA_ASST_AMT\nDr \nfor Pur-\nchase\nFACUSTACC\nFA_ASST_AMT\nCr\nAccounting Role\nAmount Tag\nDr/Cr \nFAWIPACC\nFA_ASST_AMT\nDr\nFACUSTACC\nFA_ASST_AMT\nCr\nCondition\nAccounting Role\nAmount Tag\nDr/Cr \nNone\nFAASSETACC\nFA_CAPT_AMT\nDr\nFAWIPACC\nFA_CAPT_AMT\nCr\nCondition\nAccounting Role\nAmount Tag\nDr/Cr\nIncrease in \ndepreciation\nFADEPREXP\nFA_DEPR_ADD\nDr\nFAACCDEPRLIB\nFA_DEPR_ADD\nCr\nDecrease in \ndepreciation\nFAACCDEPRLIB\nFA_DEPR_RED\nDr\nFADEPREXP\nFA_DEPR_RED\nCr\nIf Acquired \ndepreciation is \nentered\nFAWIPACC\nFA_DEPR_ACQ\nDr\nFAACCDEPRLIB\nFA_DEPR_ACQ\nCr"
+    },
+    {
+      "page_number": 74,
+      "sections": [
+        "DEWR: Depreciation Wash Reversal",
+        "AMND: Amendment of the Contract",
+        "SALE: Sale of Asset"
+      ],
+      "summary": "This page describes the accounting entries for reversing depreciation wash during loan final settlement and the related financial transactions in Oracle FLEXCUBE.",
+      "raw_text": "6-5\nDEWR: Depreciation Wash Reversal\nThis event is used to reverse the wash entries posted during the final settlement of the loan. \nThis will be invoked when we reverse the final payment of the loan and this event would be \ntriggered from on reversing of the liquidation of a loan which had resulted in the final \nliquidation of the loan.\nThe following accounting entries are passed for this event:\nAMND: Amendment of the Contract\nNo Accounting Entries need to be captured at this stage since all the adjustments to be done \nwill be taken care of by the depreciation processing event.\nSALE: Sale of Asset\nIn Oracle FLEXCUBE, all Credit and Debit entries have to be paired up. So the entries will be \nas follows:\nAccounting Role\nAmount Tag\nDr /Cr\nFAACCDEPRLIB WASH (Accumulated \nLeasing Depreciation Account)\nFA_DEPR\nDr\nFAASSETACC\nFAASSETACC\nCr\nAccounting Role\nAmount Tag\nDr /Cr\nFAACCDEPRLIB(Accumulated \nLeasing Depreciation Account)\n-FA_DEPR_WASH\nDr\nFAASSETACC\n-FA_DEPR_WASH\nCr\nCondition\nAccounting Role\nAmount Tag\nDr/Cr\nLoss on Sale\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nFACUSTACC\nFA_SALE_AMT\nDr\nFASALEEXP\nFA_SALE_AMT\nDr\nFAASSETACC\nFA_CAPT_AMT\nCr\nProfit on Sale\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nFACUSTACC\nFA_SALE_AMT\nDr\nFASALEINC\nFA_SALE_AMT\nCr\nFAASSETACC\nFA_CAPT_AMT\nCr"
+    },
+    {
+      "page_number": 75,
+      "sections": [],
+      "summary": "This page details accounting entries for the sale of an asset in Islamic inventory tracking, including write-off and profit/loss calculations.",
+      "raw_text": "6-6\nThe following accounting entries are passed for this event for Islamic inventory tracking:\nAdvices\nA Payment message would be generated for the customer to whom the asset is sold. \nWRTO: Islamic Fixed Asset Write off\nSince all debit and credit entries have to paired up in Oracle FLEXCUBE, the entries will be \nreflected as follows:\nConditio\nn\nAccounting Role\nAmount Tag\nDr/Cr\nLoss on \nSale\nFACUSTACC\nFA_CAPT_AMT\nDr\nFAASSETACC\nFA_CAPT_AMT\nCr\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nFACUSTACC\nFA_DEPR_ACC\nCr\nFASALEEXP\nFA_SALE_AMT\nDr\nFACUSTACC\nFA_SALE_AMT\nCr\nProfit on \nSale\nFACUSTACC\nFA_CAPT_AMT\nDr\nFAASSETACC\nFA_CAPT_AMT\nCr\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nFACUSTACC\nFA_DEPR_ACC\nCr\nFACUSTACC\nFA_SALE_AMT\nDr\nFASALEINC\nFA_SALE_AMT\nCr\nAccounting Role\nAmount Tag\nDr/Cr \nFACUSTACC\nFA_SALE_AMT\nDr\nFAWIPACC\nFA_SALE_AMT\nCr\nCondition\nAccounting Role\nAmount Tag\nDr/Cr\nNone\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nFAWRTOEXP\nFA_WRTO_AMT\nDr\nFAASSETACC\nFA_CAPT_AMT\nCr\nCondition\nAccounting \nRole\nAmount Tag\nDr/Cr"
+    },
+    {
+      "page_number": 76,
+      "sections": [],
+      "summary": "This page describes the accounting entries for transferring an asset from one branch to another during its WIP stage, including the roles and descriptions of various accounts involved.",
+      "raw_text": "6-7\nTSFR: Transfer of Asset from One Branch/Location to another\nThe Transfer event is automated and the transferred asset will be automatically created in the \nbranch/location on save of transfer.\nThis event will be triggered when the asset is transferred from one branch/ location to another.\nThe Accounting entry setup for the asset in Transferor and Transferee branch will be as \ndescribed below.\n1) Asset still in WIP stage\nTransferor branch – Event TSFR\nTransferee Branch – Event BOOK\n Only the second set of entries will be passed in case of an asset transfer.\nNone\nFAWRTOEXP\nFA_CAPT_AMT\nDr\nFAASSETACC\nFA_CAPT_AMT\nCr\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nFAWRTOEXP\nFA_DEPR_ACC\nCr\nDR/\nCR\nAccounting Role\nAmount Tag\nRole\nDescription\nTag\nDescription\nDR\nFATS-\nFRACC\nTransfer Account \n(Transferee Branch)\nFA_ASST_AMT\nOriginal Asset cost\nCR\nFAWI-\nPACC\nWork in Progress \nAccount  (Transferor \nBranch)\nFA_ASST_AMT\nOriginal Asset cost\nDR/CR\nAccounting Role\nAmount Tag\nRole\nDescription\nTag\nDescription\nDR\nFAWIPACC\nWork in Progress \nAccount (Trans-\nferee Branch)\nFA_ASST_AMT\nOriginal Asset \ncost\nCR\nFACUSTACC\nCustomer \nAccount\nFA_ASST_AMT\nOriginal Asset \ncost\nDR\nFAWIPACC\nWork in Progress \nAccount (Trans-\nferee Branch)\nFA_TSFR_AMT\nOriginal Asset \ncost\nCR\nFATSFRACC\nTransfer Account \n(Transferor \nBranch)\nFA_TSFR_AMT\nOriginal Asset \ncost"
+    },
+    {
+      "page_number": 77,
+      "sections": [],
+      "summary": "This page details various accounting entries and roles related to asset transfers, including depreciation accounts and work in progress account entries.",
+      "raw_text": "6-8\n1) Capitalized Asset  \nTransferor branch – Event TSFR\nTransferor Branch – Event DEPR (Along with TSFR)\nTransferee Branch – Event BOOK\nDR/CR\nAccounting Role\nAmount Tag\nRole\nDescription\nTag\nDescrip\ntion\nDR\nFATSFRACC\nTransfer Account \n(Transferee \nBranch)\nFA_ASST_AMT\nOriginal \nAsset \ncost\nCR\nFASSTACC\nAsset Account \n(Transferor \nBranch)\nFA_ASST_AMT\nOriginal \nAsset \ncost\nDR\nFAACCDEPRLIB\nAccumulated \ndepreciation \nAccount\nFA_DEPR_ACC\nAccu-\nmulated \nDep.\nCR\nFATSFRACC\nTransfer Account \n(Transferee \nBranch)\nFA_DEPR_ACC\nAccu-\nmulated \nDep.\nDR/ CR\nAccounting Role\nAmount Tag\nRole\nDescription\nTag\nDescription\nDR\nFADEPREXP\nDep. Expense\nFA_DEPR_ADD\nDepreciation Addi-\ntion\nCR\nFAAC-\nCDEPRLIB\nAccumulated \ndepreciation \nAccount\nFA_DEPR_ADD\nDepreciation Addi-\ntion\nDR\nFAAC-\nCDEPRLIB\nAccumulated \ndepreciation \nAccount\nFA_DEPR_RED\nDepreciation \nReduction\nCR\nFADEPREXP\nDep. Expense\nFA_DEPR_RED\nDepreciation \nReduction\nDR/ CR\nAccounting Role\nAmount Tag\nRole\nDescription\nTag\nDescription\nDR\nFAWI-\nPACC\nWork in Progress \nAccount (Trans-\nferee Branch)\nFA_ASST_AMT\nOriginal Asset cost\nCR\nFACUST\nACC\nCustomer \nAccount\nFA_ASST_AMT\nOriginal Asset cost"
+    },
+    {
+      "page_number": 78,
+      "sections": [],
+      "summary": "This page details the handling of accounting entries and advices during an asset transfer, including specific advice generated on book and sale events, as well as the accounts involved in the transaction.",
+      "raw_text": "6-9\n Only the second set of entries will be passed in case of an asset transfer.\nTransferee Branch – Event DEPR (Along with BOOK)\nCapitalization entries will be passed as usual for the new asset.\nAdvices\nThe following details the possible advices and the stage at which the advices are generated \nfor the Accounting entries:\nThis advice is generated on Book Event (If PO required is ‘N” at product level) and on Sale \nEvent.\nOn transfer of an asset, a transfer advice called FA_TRANSFER will be generated. Following \ndetails will be available in the transfer advice –\nOriginal asset reference\nTransferor Branch\nTransferee Branch\nAccumulated depreciation\nAsset Cost\nCurrent Book Value\nDate of Transfer\nThe receiver of the advice will be the Walk in Customer for the Transferor Branch.\nDR\nFAWI-\nPACC\nWork in Progress \nAccount (Trans-\nferee Branch)\nFA_TSFR_AMT\nOriginal Asset cost – \nAcquired Deprecia-\ntion\nCR\nFATS-\nFRACC\nTransfer Account \n(  Transferor \nBranch)\nFA_TSFR_AMT\nOriginal Asset cost - \nAcquired Deprecia-\ntion\nDR/ CR\nAccounting Role\nAmount Tag\nRole\nDescription\nTag\nDescription\nDR\nFAWIPACC\nWork in Progress \nAccount (Transferee \nBranch)\nFA_-\nDEPR_ACQ\nAcquired \nDepreciation\nCR\nFAACCDEPRLIB\nAccumulated depreci-\nation Account\nFA_-\nDEPR_ACQ\nAcquired \nDepreciation\nAdvice Code\nAdvice Description \nReceiver \nPAYMENT_MESSAGE\nPayment Message\nCounterparty"
+    },
+    {
+      "page_number": 79,
+      "sections": [],
+      "summary": "",
+      "raw_text": "7-1\n7. Function ID Glossary\nE\nEIDMANPE ......................5-32\nF\nFIDACAT ...........................4-2\nFIDBRMNT ........................4-5\nFIDCATCL .........................4-9\nFIDLOCCL ........................4-7\nFIDLOCN ..........................4-4\nFIDPRMNT ........................3-2\nFIDQDRIL .......................5-30\nFIDRULDF ......................4-10\nFIDRULMP ......................4-12\nFIDTRONL ........................ 5-2\nFIDTRSLE ...................... 5-24\nFIDTRTFR ...................... 5-16\nFIDTRWRF ..................... 5-19\nFISCATCL ...................... 4-10\nFISLOCCL ........................ 4-8\nFISPRMNT ...................... 3-12\nFISQDLIN ....................... 5-30\nFISQINCP ....................... 5-31\nFISTRONL ...................... 5-13\nI\nIBDTREAS ...................... 5-15"
+    }
+  ]
+}

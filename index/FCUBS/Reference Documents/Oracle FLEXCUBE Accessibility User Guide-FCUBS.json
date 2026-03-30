@@ -1,0 +1,354 @@
+{
+  "source": "FlexCube/FCUBS/Reference Documents/Oracle FLEXCUBE Accessibility User Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 12,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces various aspects of document accessibility and organization, including keyboard navigation features for Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to help users understand Oracle FLEXCUBE's accessibility features and provides information on related documents and icons used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to help users understand Oracle FLEXCUBE's accessibility features and provides information on related documents and icons used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to help users understand Oracle FLEXCUBE's accessibility features and provides information on related documents and icons used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to help users understand Oracle FLEXCUBE's accessibility features and provides information on related documents and icons used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Related Documents",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to help users understand Oracle FLEXCUBE's accessibility features and provides information on related documents and icons used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces a manual designed to help users understand Oracle FLEXCUBE's accessibility features and provides information on related documents and icons used in the manual.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Related Documents",
+          "start_page": 4
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Oracle FLEXCUBE Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page describes keyboard navigation techniques in Oracle FLEXCUBE and provides links to detailed information on common operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Keyboard Navigation",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page describes keyboard navigation techniques in Oracle FLEXCUBE and provides links to detailed information on common operations.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.1.1",
+      "title": "2.1.1 Hot keys for Detail Screen Operations",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page details hotkeys for performing various operations on records in a detail screen and viewing or entering more information about specific fields.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.2",
+      "title": "2.1.2 Hot Keys to View/Enter More Information When a Field is in Focus",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page details hotkeys for performing various operations on records in a detail screen and viewing or entering more information about specific fields.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.3",
+      "title": "2.1.3 Hot Keys for Summary Screen Operations",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page describes hot keys and navigation methods for operations on a summary screen and landing page, including specific key combinations for different browsers.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.4",
+      "title": "2.1.4 Navigation Keys for Accessing Tabs in Landing Page",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page describes hot keys and navigation methods for operations on a summary screen and landing page, including specific key combinations for different browsers.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.5",
+      "title": "2.1.5 Hot Keys to Access Dashboards",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page describes navigation keys for a landing page and hotkeys to access various dashboards and tabs within the application.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.6",
+      "title": "2.1.6 Calendar Navigation Keys",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page describes various navigation keys and hotkeys used for calendar operations, closing windows, and performing additional screen-level tasks.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.7",
+      "title": "2.1.7 Hot Keys for Close Operations",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page describes various navigation keys and hotkeys used for calendar operations, closing windows, and performing additional screen-level tasks.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.8",
+      "title": "2.1.8 Other Operations",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page describes various navigation keys and hotkeys used for calendar operations, closing windows, and performing additional screen-level tasks.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.9",
+      "title": "2.1.9 Grid Operations Navigation Keys",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page describes navigation keys for multiple entry table grids and summary screens in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.10",
+      "title": "2.1.10 Summary Screen or LOV Grid Navigation Keys",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page describes navigation keys for multiple entry table grids and summary screens in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.11",
+      "title": "2.1.11 Layout Table Navigation Keys",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes navigation keys for layout tables and customer landing pages, as well as providing links to detailed information on Oracle FLEXCUBE Accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.12",
+      "title": "2.1.12 Navigation Keys for Customer Landing Page",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes navigation keys for layout tables and customer landing pages, as well as providing links to detailed information on Oracle FLEXCUBE Accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Links to Detailed Information",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes navigation keys for layout tables and customer landing pages, as well as providing links to detailed information on Oracle FLEXCUBE Accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Documentation Accessibility",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page describes navigation keys for layout tables and customer landing pages, as well as providing links to detailed information on Oracle FLEXCUBE Accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Access to Oracle Support",
+      "start_page": 12,
+      "end_page": 14,
+      "summary": "This section provides information on how Oracle customers can access electronic support through My Oracle Support and includes a link for hearing-impaired users.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is an accessibility user guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0 released in November 2022.",
+      "raw_text": "Oracle FLEXCUBE Accessibility User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including copyright details and usage restrictions for U.S. government end users.",
+      "raw_text": "Accessibility User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Documentation Accessibility",
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces various aspects of document accessibility and organization, including keyboard navigation features for Oracle FLEXCUBE.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nDocumentation Accessibility....................................................................................  1-1\n1.3 \nOrganization ............................................................................................................  1-1\n1.4 \nRelated Documents.................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-1\n2. \nOracle FLEXCUBE Accessibility ............................................................ 2-1\n2.1 \nKeyboard Navigation ...............................................................................................  2-1\n2.1.1  \nHot keys for Detail Screen Operations .......................................................  2-2\n2.1.2  \nHot Keys to View/Enter More Information When a Field is in Focus ..........  2-2\n2.1.3  \nHot Keys for Summary Screen Operations ................................................  2-3\n2.1.4  \nNavigation Keys for Accessing Tabs in Landing Page...............................  2-3\n2.1.5  \nHot Keys to Access Dashboards ................................................................  2-4\n2.1.6  \nCalendar Navigation Keys..........................................................................  2-5\n2.1.7  \nHot Keys for Close Operations...................................................................  2-5\n2.1.8  \nOther Operations........................................................................................  2-5\n2.1.9  \nGrid Operations Navigation Keys ...............................................................  2-6\n2.1.10  Summary Screen or LOV Grid Navigation Keys.........................................  2-6\n2.1.11  Layout Table Navigation Keys....................................................................  2-7\n2.1.12  Navigation Keys for Customer Landing Page.............................................  2-7\n2.2 \nLinks to Detailed Information...................................................................................  2-7\n2.2.1  \nDocumentation Accessibility.......................................................................  2-7\n2.2.2  \nAccess to Oracle Support...........................................................................  2-8"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces a manual designed to help users understand Oracle FLEXCUBE's accessibility features and provides information on related documents and icons used in the manual.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help you quickly get acquainted with the basic accessibility \nfeatures in Oracle FLEXCUBE.\n1.2 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.3 \nOrganization\nThis manual is organized into the following chapters:\n1.4 \nRelated Documents\nThe Procedures User Manual\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\nChapter \nDescription\nChapter 1\nAbout this Manual lists the chapters covered in this User Manual with \nadditional references.\nChapter 2\nOracle FLEXCUBE Accessibility lists all the available keyboard shortcuts \nfor accessibility.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Keyboard Navigation",
+        "Links to Detailed Information"
+      ],
+      "summary": "This page describes keyboard navigation techniques in Oracle FLEXCUBE and provides links to detailed information on common operations.",
+      "raw_text": "2-1\n2. Oracle FLEXCUBE Accessibility\nThis chapter contains the following sections\nSection 2.1, \"Keyboard Navigation\"\nSection 2.2, \"Links to Detailed Information\"\n2.1 \nKeyboard Navigation\nIn Oracle FLEXCUBE, the following keys are used for navigation.\nTab key\nYou can use the tab key to move to the next control, such as, navigation tree, menu or tab in \na page. Tab traverses the page left to right, top to bottom. Use Shift +Tab to move to the \nprevious control.\nUp and Down Arrow keys\nYou can use the up arrow and down arrow keys to move to the previous or next item in the \nnavigation tree, menu or table. \nLeft and Right Arrow keys\nYou can use the left arrow and right arrow keys to expand and collapse an item in the \nnavigation tree.\nSpacebar\nYou can use the spacebar to activate a control.\nFor example, in a check box, spacebar toggles the state, checking or un-checking the box. \nOn a link, spacebar navigates to the target of the link.\nEnter\nYou can use the enter key to activate a button in selection.\nThe common tasks and the keyboard navigation used in Oracle FLEXCUBE are discussed \nunder the following headings.\nFor more information on the common operations in Oracle FLEXCUBE, refer to the \n‘Procedures’ user manual.\nThis section contains the following topics\nSection 2.1.1, \"Hot keys for Detail Screen Operations\"\nSection 2.1.2, \"Hot Keys to View/Enter More Information When a Field is in Focus\"\nSection 2.1.3, \"Hot Keys for Summary Screen Operations\"\nSection 2.1.4, \"Navigation Keys for Accessing Tabs in Landing Page\"\nSection 2.1.5, \"Hot Keys to Access Dashboards\"\nSection 2.1.6, \"Calendar Navigation Keys\"\nSection 2.1.7, \"Hot Keys for Close Operations\"\nSection 2.1.8, \"Other Operations\"\nSection 2.1.9, \"Grid Operations Navigation Keys\"\nSection 2.1.10, \"Summary Screen or LOV Grid Navigation Keys\"\nSection 2.1.11, \"Layout Table Navigation Keys\"\nSection 2.1.12, \"Navigation Keys for Customer Landing Page\""
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Hot keys for Detail Screen Operations",
+        "Hot Keys to View/Enter More Information When a Field is in Focus"
+      ],
+      "summary": "This page details hotkeys for performing various operations on records in a detail screen and viewing or entering more information about specific fields.",
+      "raw_text": "2-2\n2.1.1 \nHot keys for Detail Screen Operations\nYou can use the following navigation keys to perform the basic operations on the new or \nexisting records in a details screen:\n2.1.2 \nHot Keys to View/Enter More Information When a Field is in Focus\nUse of the following navigation keys pop up separate windows that contain the respective \ndetails for a selected field on a detail screen.\nTask\nNavigation Keys\nDescription\nNew\nCtrl+N\nTo create a new record.\nSave\nCtrl+S\nTo save a record.\nCopy\nCtrl+Shift+C\nTo copy the selected record.\nClose\nCtrl+Shift+Y\nTo close a record.\nAuthorize\nCtrl+Shift+Z\nTo authorize the selected record.\nDelete\nCtrl+D\nTo delete the selected record.\nUnlock\nCtrl+U\nTo unlock the selected record.\nReopen\nCtrl+R\nTo reopen the selected record.\nReverse\nCtrl+E\nTo reverse the selected record.\nRollover\nCtrl+Shift+V\nTo rollover the selected record.\nLiquidate\nCtrl+Q\nTo liquidate the selected record.\nHold\nCtrl+H\nTo hold the selected record.\nGenerate\nCtrl+B\nTo generate the selected record.\nPrint\nCtrl+P\nTo print the selected record.\nView\nCtrl+J\nTo view the selected record.\nEnter Query\nF7\nTo enter query in a detail screen.\nExecute Query\nF8\nTo execute an entered query.\nTask\nNavigation \nKeys\nDescription\nField Level Help\nF1\nTo open the field level help window.\nOpen LOV/Calender/\nPopup-Edit\nF4\nTo open an LOV, Calender or popup-edit \nwindow.\nCustomer Instructions\nF6\nTo open a customer instructions win-\ndow.\nCustomer Image\nF10\nTo open a customer image window.\nCustomer Balance\nF11\nTo open a customer balance window."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Hot Keys for Summary Screen Operations",
+        "Navigation Keys for Accessing Tabs in Landing Page"
+      ],
+      "summary": "This page describes hot keys and navigation methods for operations on a summary screen and landing page, including specific key combinations for different browsers.",
+      "raw_text": "2-3\n2.1.3 \nHot Keys for Summary Screen Operations\nYou can use the following navigation keys to perform the basic operations on the selected \nrecords in a summary screen:\n2.1.4 \nNavigation Keys for Accessing Tabs in Landing Page\nThe navigation keys are used in different browsers in combination with a specific browser \nmodifier key/key combination. You can navigate between the tabs and links on the landing \npage using the respective navigation key along with the browser modifier key.\nBrowser Modifier Keys\nThe following table lists out the modifier keys for different browsers. Depending on the \nbrowser, prefix the respective modifier key to the specific navigation keys.\nCustomer Signature\nF12\nTo open a customer signature window.\nDisplay Till Content\nCtrl+Shift+T\nTo open a till content window.\nTask\nNavigation \nKeys\nDescription\nExport\nCtrl+E\nTo export the data in an excel format.\nReset\nCtrl+R\nTo reset the fields to enter a new criteria.\nAdvance Search\nCtrl+Q\nTo open the advance search window.\nClear All\nCtrl+L\nTo clear all the data entered for search cri-\nteria.\nRefresh\nCtrl+H\nTo refresh the record with the same criteria.\nSaved Queries\nF7\nTo get the list of saved queries.\nExecute Query\nF8\nTo execute query.\nBrowser \nModifier Keys\nDescription\nInternet Explorer\nAlt\nPrefix ‘Alt’ key to the navigation key to exe-\ncute the required task.\nMozilla Firefox\nAlt+Shift\nPrefix ‘Alt+Shift’ key to the navigation key to \nexecute the required task.\nOpera\nShift+Esc\nPrefix ‘Shift+Esc’ key to the navigation key \nto execute the required task.\nGoogle Chrome\nAlt or Alt+Shift\nPrefix ‘Alt or Alt+Shift’ key to the navigation \nkey to execute the required task.\nSafari\nAlt or Alt+Shift\nPrefix ‘Alt or Alt+Shift’ key to the navigation \nkey to execute the required task."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Landing Page Tab Navigation Keys",
+        "Hot Keys to Access Dashboards"
+      ],
+      "summary": "This page describes navigation keys for a landing page and hotkeys to access various dashboards and tabs within the application.",
+      "raw_text": "2-4\nLanding Page Tab Navigation Keys\nDepending on your browser, you need to prefix the browser modifier key to the navigation key. \nThe navigation keys are listed in the following table. \nNote\nOnce the focus is on the home tab, you can navigate the tabs using right or left arrows \nkeys.\n2.1.5 \nHot Keys to Access Dashboards\nThe dashboards are arranged in specific order. You can shift the focus by using the respective \nnavigation keys.\nTask\nNavigation \nKey\nDescription\nAccess Keys Information\n0\nTo view access keys information.\nRefresh Landing Page\n1 \nTo refresh landing page.\nMinimize or Maximize Menu\n2\nTo minimize or maximize the menu.\nDrill down Main Navigation\n3 \nTo drill down the main navigation.\nMinimize\n6\nTo minimize the selected window.\nClose\n7\nTo close the selected window.\nBranch\nB\nTo change branch drop-down\nCustomer\nC\nTo access the customer tab.\nField Level Help\nE\nTo open a field level help.\nFast Path\nF\nTo access this field to provide the \nfunction id.\nSign Off\nG\nTo sign off from the application.\nHome\nH\nTo shift focus to the home page.\nInteractions\nI\nTo shift focus to the interactions tab.\nWindow\nN\nTo access the window option.\nPreferences\nP \nTo shift focus to the preferences tab.\nTasks\nT\nTo shift focus to the tasks tab.\nWorkflow\nW\nTo shift focus to the workflow tab.\nTask\nNavigation Keys\nDescription\nDashboard1\nCtrl+Shift+1\nTo shift the focus on the dashboard-1.\nDashboard2\nCtrl+Shift+2\nTo shift the focus on the dashboard-2.\nDashboard3\nCtrl+Shift+3\nTo shift the focus on the dashboard-3."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Calendar Navigation Keys",
+        "Hot Keys for Close Operations",
+        "Other Operations"
+      ],
+      "summary": "This page describes various navigation keys and hotkeys used for calendar operations, closing windows, and performing additional screen-level tasks.",
+      "raw_text": "2-5\n2.1.6 \nCalendar Navigation Keys\nThe fields denoting dates will have the adjoining calendar to select the date from. You can \nnavigate in the calendar using the following respective keys.\n2.1.7 \nHot Keys for Close Operations\nThe LOV, calendar, popup-edit, screens or sub-screens open a different window. You can \nclose such window using the following navigation keys.\n2.1.8 \nOther Operations\nYou can perform some more screen level operations using the following navigation keys.\nDashboard4\nCtrl+Shift+4\nTo shift the focus on the dashboard-4.\nDashboard5\nCtrl+Shift+5\nTo shift the focus on the dashboard-5.\nDashboard6\nCtrl+Shift+6\nTo shift the focus on the dashboard-6.\nTask\nNavigation Keys\nDescription\nPrevious Year\nHome\nTo go to the previous year in the calen-\ndar.\nPrevious Month\nPage Up\nTo go to the previous month in the cal-\nendar.\nNext Month\nPage Down\nTo go to the next month in the calendar.\nNext Year\nEnd\nTo go to the next year in the calendar.\nTask\nNavigation \nKeys\nDescription\nLOV/Calendar/Popup-Edit\nEsc\nTo close the LOV, Calendar, or \nPopup-Edit window\nScreen/Sub Screen\nCtrl+W\nTo close the open screen or sub \nscreen.\nTask\nNavigation \nKeys\nDescription\nSwitch between Windows\nF2\nTo switch between the open win-\ndows.\nOk\nCtrl+K\nTo focus on ‘Ok’ button on a \nselected window.\nCancel\nCtrl+L\nTo focus on ‘cancel’ button on a \nselected window.\nConfirm\nCtrl+M\nTo focus on ‘Confirm’ button on a \nselected window.\nNext Tab\nCtrl+Page Down\nTo go to the next tab."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Grid Operations Navigation Keys",
+        "Summary Screen or LOV Grid Navigation Keys"
+      ],
+      "summary": "This page describes navigation keys for multiple entry table grids and summary screens in Oracle FLEXCUBE.",
+      "raw_text": "2-6\n2.1.9 \nGrid Operations Navigation Keys\nA multiple entry table grid in Oracle FLEXCUBE refers to a set of fields in tabular format where \nyou can add more rows or delete existing rows as required to capture the details. In a multiple \nentry table grid on a given screen, you can use the following hot-keys to navigate between \nrows and columns. These hot-keys can be used when the multiple entry table grid is in edit \nmode \n2.1.10 \nSummary Screen or LOV Grid Navigation Keys\nYou can view the queried records in summery screen. You can navigate using the following \nnavigation keys.\nPrevious Tab\nCtrl+Page Up\nTo go the previous tab.\nTask\nNavigation Keys\nDescription\nNavigate Between Rows\nUp & Down keys\nTo navigate between rows.\nNavigate between cells\nTab & Shift+Tab\nTo navigate between cells.\nFirst Page\nHome\nTo go to the first page.\nPrevious Page\nPage Up\nTo go to the previous page.\nNext Page\nPage Down\nTo go to the next page.\nLast Page\nEnd\nTo go to the last page.\nAdd Row\nCtrl+Insert\nTo add a row.\nDelete Row\nCtrl+Delete\nTo delete a row.\nSingle Record View\nCtrl+I\nTo view a single record.\nFocus Shifted Outside the \nTable\nCtrl+Tab\nTo shift the focus outside the \ntable.\nNavigate to the Frame \nabove the Table\nCtrl+Shift+Tab\nTo navigate to the frame on the \nscreen above the multiple entry \ntable grid.\nTask\nNavigation \nKeys\nDescription\nFirst Page\nHome\nTo go to the first page.\nPrevious Page\nPage Up\nTo go to the previous page.\nNext Page\nPage Down\nTo go to the next page.\nLast Page\nEnd\nTo go to the last page."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Layout Table Navigation Keys",
+        "Navigation Keys for Customer Landing Page",
+        "Links to Detailed Information",
+        "Documentation Accessibility",
+        "Access to Oracle Support"
+      ],
+      "summary": "This page describes navigation keys for layout tables and customer landing pages, as well as providing links to detailed information on Oracle FLEXCUBE Accessibility.",
+      "raw_text": "2-7\n2.1.11 \nLayout Table Navigation Keys\nYou can navigate in the layout table using the following navigation keys to shift the focus \nbetween rows, cells or pages.\n2.1.12 \nNavigation Keys for Customer Landing Page\nYou can navigate within the customer landing page using the following navigation keys:\n2.2 \nLinks to Detailed Information\nThe following sections provide you with the relevant links for detailed information on Oracle \nFLEXCUBE Accessibility.\nThis section contains the following topics\nSection 2.2.1, \"Documentation Accessibility\"\nSection 2.2.2, \"Access to Oracle Support\"\n2.2.1 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\nTask\nNavigation Keys\nDescription\nNavigate Between Rows\nUp & Down keys\nTo navigate between rows.\nNavigate between cells\nTab & Shift+Tab\nTo Navigate between cells.\nFirst Page\nHome\nTo go to the first page.\nPrevious Page\nPage Up\nTo go to the previous page.\nNext Page\nPage Down\nTo go to the next page.\nLast Page\nEnd\nTo go to the last page.\nNavigation to Cells on Left\nLeft Arrow\nTo navigate to cells on left.\nNavigation to Cells on Right\nRight Arrow\nTo navigate to cells on right.\nTask\nNavigation Keys\nDescription\nMoving to next Account Tab \nor Customer Details Tab\nCtrl+Shift+Page-\nDown\nTo navigate to the next \naccounting tab within the cus-\ntomer landing page if account \ntabs are open. If last tab is \nreached, next navigation will \nbe to the customer detail tab.\nMoving to previous Account \nTab or Customer Details Tab\nCtrl+Shift+PageUp\nTo navigate to the previous \nopened tab within the cus-\ntomer landing page if account \ntabs are open. If first tab is \nreached, next navigation will \nbe to the last account tab."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "2.2.2 Access to Oracle Support"
+      ],
+      "summary": "This section provides information on how Oracle customers can access electronic support through My Oracle Support and includes a link for hearing-impaired users.",
+      "raw_text": "2-8\n2.2.2 \nAccess to Oracle Support\nOracle customers have access to electronic support through My Oracle Support. For \ninformation, visit http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info or visit http://\nwww.oracle.com/pls/topic/lookup?ctx=acc&id=trs if you are hearing impaired."
+    }
+  ]
+}

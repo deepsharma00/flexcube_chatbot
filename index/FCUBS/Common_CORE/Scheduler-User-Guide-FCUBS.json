@@ -1,0 +1,417 @@
+{
+  "source": "FlexCube/FCUBS/Common_CORE/Scheduler-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 16,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE job scheduling, detailing its purpose, target audience, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE job scheduling, detailing its purpose, target audience, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE job scheduling, detailing its purpose, target audience, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE job scheduling, detailing its purpose, target audience, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Acronyms and Abbreviations",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE job scheduling, detailing its purpose, target audience, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE job scheduling, detailing its purpose, target audience, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 4,
+      "end_page": 6,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE job scheduling, detailing its purpose, target audience, and structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Acronyms and Abbreviations",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Job Scheduling",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Defining Jobs",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Scheduling Jobs",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Controlling Jobs",
+          "start_page": 9
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Notification Process",
+          "start_page": 11
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Viewing Notification Parameters",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 EMS Process with Scheduling Architecture",
+          "start_page": 15
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 EMS Process:",
+          "start_page": 15
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Approach",
+          "start_page": 15
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Job Scheduling",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses job scheduling in Oracle FLEXCUBE FCJ architecture, focusing on defining and scheduling jobs using the 'Job Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Defining Jobs",
+      "start_page": 6,
+      "end_page": 9,
+      "summary": "This page discusses job scheduling in Oracle FLEXCUBE FCJ architecture, focusing on defining and scheduling jobs using the 'Job Maintenance' screen.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Acronyms and Abbreviations",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Scheduling Jobs",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page describes how to specify job-specific parameters and details about scheduling jobs in a static data store using application server schedulers like Quartz or Flux.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Controlling Jobs",
+      "start_page": 9,
+      "end_page": 11,
+      "summary": "This page describes how to specify job-specific parameters and details about scheduling jobs in a static data store using application server schedulers like Quartz or Flux.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Notification Process",
+      "start_page": 11,
+      "end_page": 13,
+      "summary": "This page describes different states of message processing and job triggers in a scheduler system, along with the notification process involving jobs and an MDB for sending notifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Viewing Notification Parameters",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This section explains how to view and amend notification parameters in Oracle FLEXCUBE using the 'Gateway Notification Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 EMS Process with Scheduling Architecture",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page describes the EMS process for both incoming and outgoing messages, detailing how jobs in FCJ scheduler poll specific tables or folders to send minimal data to an internal JMS queue, which is then processed by MDBs to finalize and deliver the messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 EMS Process:",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page describes the EMS process for both incoming and outgoing messages, detailing how jobs in FCJ scheduler poll specific tables or folders to send minimal data to an internal JMS queue, which is then processed by MDBs to finalize and deliver the messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 Approach",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page describes the EMS process for both incoming and outgoing messages, detailing how jobs in FCJ scheduler poll specific tables or folders to send minimal data to an internal JMS queue, which is then processed by MDBs to finalize and deliver the messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 16,
+      "end_page": 18,
+      "summary": "This page provides a glossary of Function IDs including IFDNOTIF, SMSJBBRW, and STDJOBMT.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for the Common Core Scheduler version compatible with Oracle FLEXCUBE Universal Banking Release 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Common Core - Scheduler User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "Common Core - Scheduler User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [],
+      "summary": "",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nAcronyms and Abbreviations...................................................................................  1-1\n1.5 \nOrganization ............................................................................................................  1-1\n1.6 \nGlossary of Icons.....................................................................................................  1-1\n2. \nJob Scheduling ........................................................................................ 2-1\n2.1 \nDefining Jobs...........................................................................................................  2-1\n2.2 \nScheduling Jobs ......................................................................................................  2-4\n2.3 \n Controlling Jobs......................................................................................................  2-4\n2.4 \nNotification Process.................................................................................................  2-6\n2.5 \n Viewing Notification Parameters.............................................................................  2-8\n2.6 \nEMS Process with Scheduling Architecture ..........................................................  2-10\n2.6.1  \n EMS Process:..........................................................................................  2-10\n2.7 \nApproach ...............................................................................................................  2-10\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Acronyms and Abbreviations",
+        "Organization",
+        "Glossary of Icons",
+        "Chapter 1 About this Manual",
+        "Chapter 2 Job Scheduling",
+        "Chapter 3 Function ID Glossary"
+      ],
+      "summary": "This page introduces the manual for Oracle FLEXCUBE job scheduling, detailing its purpose, target audience, and structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help acquaint you with the Job scheduling process in Oracle \nFLEXCUBE.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nAcronyms and Abbreviations\n1.5 \nOrganization\nThis manual is organized as follows:\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nRole\nFunction\nBack office data entry Clerks\nInput functions for maintenance related to the interface.\nBack office Managers/Officers\nAuthorization functions. \nAbbreviation\nDescription\nSystem\nUnless and otherwise specified, it shall always refer to Oracle FLEX-\nCUBE system\nChapter \nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also lists \nthe various chapters covered in this User Manual.\nChapter 2\nJob Scheduling explains about the process of defining, scheduling, and \nmaintaining Jobs within the module.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation.\nIcons\nFunction\nExit"
+    },
+    {
+      "page_number": 5,
+      "sections": [],
+      "summary": "",
+      "raw_text": "1-2\nAdd row\nDelete row\nOption List\nIcons\nFunction"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Defining Jobs",
+        "Scheduling Jobs"
+      ],
+      "summary": "This page discusses job scheduling in Oracle FLEXCUBE FCJ architecture, focusing on defining and scheduling jobs using the 'Job Maintenance' screen.",
+      "raw_text": "2-1\n2. Job Scheduling\nJob scheduling is the process where different tasks get executed at pre-determined time or \nwhen the right event happens. A job scheduler is a system that can be integrated with other \nsoftware systems for the purpose of executing or notifying other software components when \na pre-determined, scheduled time arrives. The two types of job schedulers used in Oracle \nFLEXCUBE FCJ architecture are as follows:\nQuartz - provides scheduler interface to enable operations such as scheduling and un-\nscheduling of jobs and starting, stopping, pausing the scheduler\nFlux - software component used for performing enterprise job scheduling\nThis chapter contains the following sections\nSection 2.1, \"Defining Jobs\"\nSection 2.2, \"Scheduling Jobs\"\nSection 2.3, \"Controlling Jobs\"\nSection 2.4, \"Notification Process\"\nSection 2.5, \"Viewing Notification Parameters\"\nSection 2.6, \"EMS Process with Scheduling Architecture\"\nSection 2.7, \"Approach\"\n2.1 \nDefining Jobs\nA job is a business activity which the system performs repeatedly on timely basis. Oracle \nFLEXCUBE enables you to define a job and schedule it using ‘Job Maintenance’ screen. You \ncan invoke this screen by typing ‘STDJOBMT’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Job Code",
+        "Job Description",
+        "Job Group",
+        "Job Type",
+        "Max Number Instances",
+        "Example",
+        "Scheduler",
+        "Trigger Type"
+      ],
+      "summary": "This page describes various fields and settings for configuring a job in a system, including job identification, description, grouping, type, scheduling, and triggering options.",
+      "raw_text": "2-2\nYou can specify the following fields in this screen.\nJob Code\nSpecify the unique code to identify the Job.\nJob Description\nSpecify a brief description of what the job is supposed to do.\nJob Group\nSpecify the job group name to represent the same group of jobs for identification.\nJob Type\nSelect the type of job from the drop-down list. The following options are available for selection:\nPL/SQL\nJAVA \nMax Number Instances \nSpecify the maximum number of instances that needs to be queued up.\nExample\nIf a job runs for more than the duration defined, the next instance of the same job will be ready for \nprocessing. This parameter defines the job’s behavior in such cases,\nIf you maintain the job as ‘STATEFUL’, then the number of such missed instances will be queued up so \nthat it would start executing once this long running job ends. This field specifies the number of such job \ninstances that needs to be queued up. \nIf you maintain the job as ‘STATELESS’, it indicates the number of threads that can be executed in \nparallel.\nIf you maintain the max number instances as ‘0’,no instances are queued or parallel \nprocessed till the current running instance is completed.\nScheduler\nSpecify the name of the scheduler. The system defaults the name to ‘SchedulerFactory’. \nHowever, you can modify this name. This signifies the scheduler name which is configured as \npart of infra.\nTrigger Type\nSelect the type of the trigger from the drop-down list. The following options are available:\nSimple - Interval based jobs.(i.e., every one hour)\nCron - Time based jobs.(i.e., Friday 4:30PM)\nNote\nWhen scheduler trigger type is set to ‘CRON’, and the parameter is ‘TIMEZONE’, then the \nsystem triggers the jobs based on the time zone set. If the ‘TIMEZONE’ property is not \navailable, then the server time zone will be used to trigger the scheduler job.\nScheduler Type\nSelect the type of scheduler from the drop-down list. The following options are available:\nQuartz\nFlux"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Priority",
+        "Message Queue",
+        "Cron Expression",
+        "Class or Procedure",
+        "Number of Submissions",
+        "Interval",
+        "Trigger Listener",
+        "Active",
+        "Ds Name"
+      ],
+      "summary": "This page describes various configuration options for job scheduling, including priority settings, message queues, cron expressions, and trigger types.",
+      "raw_text": "2-3\nPriority\nSelect the priority on which the system should execute the jobs in the scheduler from the drop-\ndown list. The following options are available. \nNormal\nHigh\nLow\nIf two jobs with different priorities fire at the same time, then system gives preference to the \njob with higher priority.\nMessage Queue\nSpecify the default JMS queue to which a job needs to send message. You can specify this \nonly if the job has to send messages to JMS.\nCron Expression\nSpecify the corresponding Cron expression for a job with trigger type as ‘Cron’. You need to \ndo this to determine the time and interval of job firing. \nClass or Procedure\nSpecify the Java class file name if job type is ‘Java’ or the PL/SQL procedure name if the job \ntype is ‘PL/SQL’. This denotes which java class or pl/sql procedure the system should call \nwhen a job fires. \nNumber of Submissions\nSpecify the number of times a job can fire before it is unscheduled from scheduler. This \napplies only to trigger types maintained as ‘Simple’.\nInterval\nSpecify the time interval between jobs. This applies only to trigger types maintained as \n‘Simple’.\nTrigger Listener\nSpecify a java class as a trigger listener which will be notified of events such as before job \nfired, after job completed, misfired jobs.\nActive\nCheck this box to set the job as active.  The scheduler does not pick the inactive jobs for \nscheduling.\nDs Name \nSpecify the name of the database schema to which the job has to connect. This attribute is \nused in case of multi instance deployment of Oracle FLEXCUBE application.\nLogging Required \nCheck this box to indicate that system should log each firing of job. This helps in logging the \nfiring time of job and key log info as part of that firing. This also enables tracking of each job’s \nfiring times and helps in identifying miss-fired jobs.\nStartup Mode\nSpecify start up mode of the job from the drop-down list. The following options are available:\nAuto - The job starts automatically when Oracle FLEXCUBE application starts\nManual - You should start the job manually in job controller by resuming the job."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Parameter Details",
+        "Scheduling Jobs"
+      ],
+      "summary": "This page describes how to specify job-specific parameters and details about scheduling jobs in a static data store using application server schedulers like Quartz or Flux.",
+      "raw_text": "2-4\nParameter Details\nYou can specify the job specific parameters, which are passed to job class or procedure at \nruntime. The following details are captured here:\nParameter Name\nSpecify the name of the job parameter. The parameter name you specify here is passed to \njob class or procedure at run time.\nData Type \nSpecify the data type of the parameter.\nParameter Value\nSpecify the value of the parameter.\n2.2 \nScheduling Jobs\nAll jobs for scheduling are stored in a static data store and each job is associated with a name \nindicating where the job has to execute. Jobs are created in the Application Server and are \nscheduled based on this data.\nNote\n The job name should be unique across the schedulers available in the system.\nWhen the application server starts, the job details from static data store will get cached. These \ncached jobs will then be scheduled using either the quartz or flux scheduler.\nFor example, the notification process can be handled by the job schedulers as follows:\n1. When a contract is created in Oracle FLEXCUBE, a database level trigger acting on the \ncontract main table inserts details like base table name, primary key fields, primary key \nvalues and branch code into a notification log table and sets the process status of the \ninserted record as ‘U’ (unprocessed).\n2. The scheduled job polls the notification log table for unprocessed records and validates \nwhether notification is required.\n3. If notification is not required, then the process status is set to ‘N’ (not required) in \nnotification log table.\n4. If notification is required then notifications are sent to the respective destination and the \nprocess status of the record is changed to ‘P’ (Processed) in notification log table.\n2.3 \n Controlling Jobs\nThe details of jobs that are scheduled can be viewed using the ‘Job Details’ screen. In this \nscreen you can pause or resume a job that has been scheduled. You can submit the records \nas a job for replication in the branch database through this screen. You can invoke the ‘Job"
+    },
+    {
+      "page_number": 10,
+      "sections": [],
+      "summary": "This page describes how to search for a scheduled job in an application by specifying various criteria such as job name, state, scheduler, and group, and provides instructions on pausing and resuming jobs.",
+      "raw_text": "2-5\nDetails’ screen by typing ‘SMSJBBRW’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button.\nYou can search for a scheduled job by specifying any of the following:\nJob Name\nSelect the name of the job that you want to search for from the option list provided.\nState\nSelect the state of the job you want to search for from the option list provided. The following \noptions are possible for Quartz schedulers:\nAcquired\nWaiting\nBlocked\nPaused\n\nScheduler\nSelect the scheduler to which the job you want to search for has been assigned.\nJob Group\nSelect the group to which the job you want to search for belongs, from the option list provided.\nNext Fire Time\nSelect the time when the job is scheduled to be run next.\nClick ‘Search’ button to view the details related to the job. You can pause a job by selecting it \nand clicking the ‘Pause’ button.\nYou can resume a paused job by clicking ‘Resume’ button and the job is scheduled for its next \nfire time.\nA job can take any of the following states."
+    },
+    {
+      "page_number": 11,
+      "sections": [],
+      "summary": "This page describes different states of message processing and job triggers in a scheduler system, along with the notification process involving jobs and an MDB for sending notifications.",
+      "raw_text": "2-6\nSCHEDULED -This indicates that the message is processed.\nNOT SCHEDULED -This indicates that the message processing is not scheduled.\nPAUSED - This indicates that the job is manually paused from executing.\nERROR - A job trigger arrives at the ‘Internal Server Error’ state when the scheduler \nattempts to fire it, but cannot due to an error creating and executing its related job, \nhence pausing the job. Also, a job arrives at ERROR state for the following reasons.:\n– \nWhen the associated class for the job is not present in class path\n– \nIf during setup, the queue has not been created, but a job has been created for that \nqueue.\n– \nIf call to the Scheduler EJB has failed.\n– \nIf job related pooling tables are invalid.\nNote\nEach job is created with the location code maintained in the table sttm_flexbranch_loc runs \nfor the respective branch location.\nIf a new branch is added to the bank for branch replication then the application should be \nrestarted to add that particular branch in the ‘Job Details’ screen.\n2.4 \nNotification Process\nThe notification process is in two layers. In the first layer the notification process as part of \njobs in FCJ scheduler sends minimal data required for notification to an internal JMS queue. \nIn the second layer the notification process as part of an MDB that listens on internal JMS \nqueue builds final notifications and sends them to their intended destinations.\nThe Notification Process in Oracle FLEXCUBE using the jobs scheduler is as follows:\n1. The trigger on the base table inserts key details into a static notification log table instead \nof Oracle AQ.\n2. Once Job is triggered, a request is sent to EJB layer from job execution class and the \nnotification log table is polled for unprocessed records.\n3. Each unprocessed record is locked.\n4. The record is verified against the notification maintenance and checked whether \nnotification is to be sent or not.\n5. If notification is to be sent, pre notification message xml is built and it is sent to internal \nnotify_queue(JMS queue).\n6. The job is then rescheduled to fire next time based on the previous execution.\nThe notification process in MDB is as follows:\n1. The Notification MDB listens on the internal notify JMS queue.\n2. On any message received, the MDB identifies which schema to connect using the JNDI \nname being present as part of the message xml.\n3. Gateway notification processing package is called from MDB in order to build the actual \nnotifications.\n4. In MDB the notifications built is processed and sent to the destination specified in \ncorresponding notification.\n5. In case of any exception the whole transaction is rolled back.\n6. If all notifications are successfully processed then transaction is committed."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "The flow chart of notification process in scheduler:",
+        "The flow chart for notification process in MDB:"
+      ],
+      "summary": "This page describes the flow charts for the notification processes in both the scheduler and MDB.",
+      "raw_text": "2-7\nThe flow chart of notification process in scheduler:\nThe flow chart for notification process in MDB:"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Viewing Notification Parameters"
+      ],
+      "summary": "This section explains how to view and amend notification parameters in Oracle FLEXCUBE using the 'Gateway Notification Maintenance' screen.",
+      "raw_text": "2-8\n2.5 \n Viewing Notification Parameters\nYou can view and amend certain notification parameters in Oracle FLEXCUBE using \n‘Gateway Notification Maintenance’ screen. You can invoke this screen by typing ‘IFDNOTIF’ \nin the field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Notification Code",
+        "Description",
+        "Operation",
+        "Gateway Operation",
+        "Gateway Service",
+        "IO Request Node",
+        "Specific Notification",
+        "Full Screen Reply Required",
+        "Head Office"
+      ],
+      "summary": "This page describes various fields and options related to notification settings, including code display, operation types, gateway services, and specific notification requirements.",
+      "raw_text": "2-9\nNotification Code\nThe system displays a unique code to identify a notification.\nDescription\nThe system displays a brief description of the notification. However, you can modify the \ndescription in this screen.\nOperation\nSelect the type of operation for the notification from the following.\nInsert - to indicate a new operation of notification function\nUpdate - To indicate a modification operation of  notification\nGateway Operation\nSpecify the gateway operation name to execute query for the mentioned service.\nGateway Service\nSpecify the gateway service to be used to get the full screen response.\nIO Request Node\nSpecify the gateway IO request node to be used in querying operation.\nSpecific Notification\nCheck this box to indicate the system to send specific notification. The system handles any \ndeviation from generic notification process by creating specific triggers once you check this \nfield.\nFull Screen Reply Required\nCheck this box to indicate that the full screen notification response has to be sent. Otherwise, \nthe primary key response notification is sent.\nHead Office\nCheck this box to send notification only from head office."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "EMS Process with Scheduling Architecture",
+        "Approach"
+      ],
+      "summary": "This page describes the EMS process for both incoming and outgoing messages, detailing how jobs in FCJ scheduler poll specific tables or folders to send minimal data to an internal JMS queue, which is then processed by MDBs to finalize and deliver the messages.",
+      "raw_text": "2-10\n2.6 \nEMS Process with Scheduling Architecture\n2.6.1 \n EMS Process:\nIncoming EMS Process \nA job is scheduled to poll the incoming folder on timely basis. Once a message is received in \nthe folder, the job picks the message and sends it to an internal JMS queue. An MDB listening \non the queue will read the message and identifies the media and processes the message.\nOutgoing EMS Process\nA job is scheduled to poll the outgoing messages that are generated but not handed off. Each \nmessages polled will be sent to an internal JMS queue.\nA MDB, acting upon the internal JMS queue will pick the message from queue and sends the \nmessage to appropriate destination (Folder, or e-mail, or JMS queue).\n2.7 \nApproach\nThe Outgoing EMS Process happens in two layers.\nThe EMS process as part of jobs in FCJ scheduler, polls the outgoing message table of \nFLEXCUBE for generated and un-send messages. The job then sends minimal data about \nthe message to be handed off, to an internal JMS queue.\nThe EMS process as part of an MDB that listens on internal JMS queue to build final message \nand to send to their intended destinations.\nThe Incoming EMS Process happens in two layers.\nThe EMS process as part of jobs in FCJ scheduler, which polls the pre configured folder for \nmessages and sends the messages read, to EMS internal queue.\nThe EMS process as part of an MDB, that listens on internal JMS queue identifies the \nmessage from queue and calls the incoming messages service package in backend to \nprocess the message. Additionally, the MDB can be made an independent unit to listen on \nexternal JMS to process incoming messages.\nThe Incoming EMS Process as part of jobs scheduler is as follows:\nOnce job is triggered, it polls for messages in a folder (Configured for incoming messages).\nEach message is then sent to an internal JMS queue.\nThe job is then rescheduled to fire next time.\nEMS processes in MDB are as follows:\nAn MDB that listens on the internal EMS incoming queue will receive the message.\nThe media details are identified and incoming message processing package in backend is \ncalled to process the message. \nIn case of any exception while processing, message will be sent to a deferred queue.\nIn case of messages directly arrive to JMS queue instead of a folder; the same MDB will be \nconfigured to listen on specific queue."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Function ID Glossary"
+      ],
+      "summary": "This page provides a glossary of Function IDs including IFDNOTIF, SMSJBBRW, and STDJOBMT.",
+      "raw_text": "3-1\n3. Function ID Glossary\nI\nIFDNOTIF ..........................2-8\nS\nSMSJBBRW ...................... 2-5\nSTDJOBMT ....................... 2-1"
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/Performance-Diagnostic-Plugin-Batch-Processing-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 15,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the preface and an overview of PDP (Batch) functionality, including maintenance screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to assist users in understanding and utilizing the Performance Diagnostic Plugin (Batch Processing) of Oracle FLEXCUBE Universal Banking, detailing its intended audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to assist users in understanding and utilizing the Performance Diagnostic Plugin (Batch Processing) of Oracle FLEXCUBE Universal Banking, detailing its intended audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to assist users in understanding and utilizing the Performance Diagnostic Plugin (Batch Processing) of Oracle FLEXCUBE Universal Banking, detailing its intended audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual designed to assist users in understanding and utilizing the Performance Diagnostic Plugin (Batch Processing) of Oracle FLEXCUBE Universal Banking, detailing its intended audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces a manual designed to assist users in understanding and utilizing the Performance Diagnostic Plugin (Batch Processing) of Oracle FLEXCUBE Universal Banking, detailing its intended audience, organization, and content structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Abbreviations",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "3",
+          "title": "2. PDP (Batch) Functionality",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 PDP (Batch) Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking PDP Maintenance Screen – Batch Processing",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 EOC Run",
+          "start_page": 9
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Results",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 TKPROF",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 HPROF",
+          "start_page": 11
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Error Code and Messages",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Error Codes",
+          "start_page": 13
+        },
+        {
+          "structure": "5",
+          "title": "4. FAQ’s",
+          "start_page": 14
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Abbreviations",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page defines abbreviations and icons used in the user manual for database administration and performance diagnostics.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page defines abbreviations and icons used in the user manual for database administration and performance diagnostics.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Related Documents",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This section provides references to Oracle Database manuals for further information on specific procedures discussed in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. PDP (Batch) Functionality",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP-Batch) tool for capturing performance lag reports during batch processing in FCUBS and provides instructions on how to invoke and use it.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP-Batch) tool for capturing performance lag reports during batch processing in FCUBS and provides instructions on how to invoke and use it.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 PDP (Batch) Maintenance",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP-Batch) tool for capturing performance lag reports during batch processing in FCUBS and provides instructions on how to invoke and use it.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Invoking PDP Maintenance Screen – Batch Processing",
+      "start_page": 7,
+      "end_page": 9,
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP-Batch) tool for capturing performance lag reports during batch processing in FCUBS and provides instructions on how to invoke and use it.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 EOC Run",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page outlines various record statuses and parameters such as Branch Code, EOC Stage, and Process No, and describes the process of running EOC to capture performance lag reports.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Results",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page discusses the capture and conversion of trace files into readable formats for performance analysis in database systems, focusing on HPROF and TKPROF.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 TKPROF",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page discusses the capture and conversion of trace files into readable formats for performance analysis in database systems, focusing on HPROF and TKPROF.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 HPROF",
+      "start_page": 11,
+      "end_page": 13,
+      "summary": "This page explains how to convert a trace file generated by Oracle into a TKPROF file using a specific command and introduces HPROF as a tool for identifying performance bottlenecks in PL/SQL applications.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Error Code and Messages",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This section details error codes and their corresponding messages for specific functions, including Process Number constraints for CLBATCH operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Error Codes",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This section details error codes and their corresponding messages for specific functions, including Process Number constraints for CLBATCH operations.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "5",
+      "title": "4. FAQ’s",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page addresses frequently asked questions regarding the SMTM_EOC_BATCH_TRACE table and related functionalities in the context of Performance Diagnostic Plugin (Batch) for FCUBS.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "6",
+      "title": "5. Function ID Glossary",
+      "start_page": 15,
+      "end_page": 17,
+      "summary": "This page provides a glossary of Function IDs including AEDSTART and STSEDPDP with their respective codes.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [
+        "Performance Diagnostic Plugin (Batch Processing) User Guide",
+        "Oracle FLEXCUBE Universal Banking Release 14.7.0.0.0"
+      ],
+      "summary": "This document is a user guide for the Performance Diagnostic Plugin in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, released in November 2022.",
+      "raw_text": "Performance Diagnostic Plugin (Batch Processing)\nUser Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains information about a Performance Diagnostic Plugin User Guide for batch processing and includes contact details and legal notices.",
+      "raw_text": "Performance Diagnostic Plugin (Batch Processing) User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "PDP (Batch) Functionality"
+      ],
+      "summary": "This page introduces the preface and an overview of PDP (Batch) functionality, including maintenance screens.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nAbbreviations...........................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n1.7 \nRelated Documents.................................................................................................  1-3\n2. \nPDP (Batch) Functionality ....................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nPDP (Batch) Maintenance.......................................................................................  2-1\n2.2.1  \nInvoking PDP Maintenance Screen – Batch Processing............................  2-1\n2.2.1.1 Viewing PDP Summary Screen – Batch...................................................... 2-2\n2.3 \nEOC Run .................................................................................................................  2-3\n2.4 \nResults.....................................................................................................................  2-4\n2.4.1  \nTKPROF.....................................................................................................  2-4\n2.4.2  \nHPROF .......................................................................................................  2-5\n3. \nError Code and Messages ...................................................................... 3-1\n3.1 \nError Codes .............................................................................................................  3-1\n4. \nFAQ’s ........................................................................................................ 4-1\n5. \nFunction ID Glossary ............................................................................... 5-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Preface",
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter"
+      ],
+      "summary": "This page introduces a manual designed to assist users in understanding and utilizing the Performance Diagnostic Plugin (Batch Processing) of Oracle FLEXCUBE Universal Banking, detailing its intended audience, organization, and content structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is been designed to help you quickly get acquainted with the Performance \nDiagnostic Plugin (Batch Processing) of Oracle FLEXCUBE Universal Banking.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\nRole\nFunction\nDatabase Administrator\nTo provide the necessary Execute grants \nfor TKPROF & HPROF file generation.\nEnd of Day operators\nProcessing during End of Day/ Begin-\nning of Day\nSystem Technical Analyst\nTo analyze the Performance lag issue \nfaced by bank user.\nOracle FLEXCUBE user\nAny user of Oracle FLEXCUBE facing \nperformance issues in the system\nChapter\nDescription\nChapter 1\nPreface gives information on the intended audience. It also lists \nthe various chapters covered in this User Manual.\nChapter 2\nFunctionality and Maintenance of various parameters for Perfor-\nmance Diagnostic Plugin - Batch Processing\nChapter 3\nError Code and Message\nChapter 4\nFrequently Asked Question’s (FAQ’s)\nChapter 5\nFunction ID Glossary"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Abbreviations",
+        "Glossary of Icons"
+      ],
+      "summary": "This page defines abbreviations and icons used in the user manual for database administration and performance diagnostics.",
+      "raw_text": "1-2\n1.5 \nAbbreviations\n1.6 \nGlossary of Icons\nThis User Manual refers to the following icons.\nAbbreviation\nDescription\nDBA\nDatabase Administrator\nEOC\nEnd of Cycle\nEOD\nEnd of Day\nHPROF\nHierarchical Profiler\nPDP\nPerformance Diagnostic Plugin\nPLSQL\nProcedural Language for SQL\nSQL\nStructured Query Language\nTKPROF\nTransient Kernel Profiler\nIcons\nFunction\nExit\nOption list\nDropdown List\nPrevious\nNext\nFirst\nLast\nMinimize"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Related Documents"
+      ],
+      "summary": "This section provides references to Oracle Database manuals for further information on specific procedures discussed in the manual.",
+      "raw_text": "1-3\n1.7 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle Database \nmanuals on:\nEnabling SQL Tracing and Using TKPROF\nUsing the PL/SQL Hierarchical Profiler\nCommon Core - Automated End of Day User Guide"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "PDP (Batch) Maintenance",
+        "Invoking PDP Maintenance Screen – Batch Processing"
+      ],
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP-Batch) tool for capturing performance lag reports during batch processing in FCUBS and provides instructions on how to invoke and use it.",
+      "raw_text": "2-1\n2. PDP (Batch) Functionality\n2.1 \nIntroduction\nPerformance Diagnostic Plugin (PDP-Batch) is a tool to capture the performance lag reports\nlike TKPROF and Hierarchical profiling (HPROF) during batch processing in FCUBS.\nExisting methods of capturing these reports at a very high level causing difficulties in\nanalyzing the precise point of issue and involves DBA’s. PDP helps to get the report precisely\nat the issue level i.e., for a particular batch configured. This tool is applicable only for batch\nconfigured in EOC under POST stages.\n2.2 \nPDP (Batch) Maintenance\nPerformance Diagnostic Plugin tool depends on the initial maintenance of the performance\nissue faced by the user to generate the performance bottleneck reports for analysis.\nThis section contains the following topics:\nSection 2.2.1, \"Invoking PDP Maintenance Screen – Batch Processing\"\nSection 2.2.1.1, \"Viewing PDP Summary Screen – Batch\"\n2.2.1 \nInvoking PDP Maintenance Screen – Batch Processing\nYou can invoke the ‘Performance Diagnostic Plugin (Batch) Maintenance’ screen by typing\n‘STDEDPDP’ in the field at the top right corner of the Application tool bar and clicking on the\nadjoining arrow button.\nYou can specify the following fields:\nBranch Code\nSpecify the Branch code details for branch facing the performance issue.\nBranch Name\nThis displays the name of the Branch selected.\nEOC Batch\nSpecify the EOC Batch that is causing the performance issue."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Batch Description",
+        "EOC Stage",
+        "Trace Value",
+        "Process No.",
+        "Note",
+        "2.2.1.1 Viewing PDP Summary Screen – Batch"
+      ],
+      "summary": "This page describes various fields and options in a batch management system, including batch selection, report types, process settings, and how to view performance diagnostics summary.",
+      "raw_text": "2-2\nBatch Description\nThis displays the name of the Batch selected.\nEOC Stage\nBased on the Batch selected, the stage will be auto-populated.\nTrace Value\nProvides the options for users to choose the type of reports required for analysis. Below are\nthe options to choose from:\nProcess No.\nSpecify the number of parallel processes maintained for the selected batch.\nNote\nThis field is applicable only if the EOC Batch is selected as “CLBATCH” and hence is dis-\nabled by default. Field value is auto-populated as ‘0’ for all other batch’s except “CL-\nBATCH”.\n2.2.1.1 \nViewing PDP Summary Screen – Batch\nYou can view the summary details of PDP in the ‘Performance Diagnostics Plugin (Batch)\nSummary’ screen. You can invoke this screen by typing ‘STSEDPDP’ in the field at the top\nright corner of the application tool bar and clicking on the adjoining arrow button.\nIn the Performance Diagnostics Plugin (Batch) Summary screen, you can base your queries\non any or all of the following parameters and fetch the records:\nAuthorization Status\nUI Option Name\nDescription\nHierarchical Profiling (HPROF) File\nHierarchical profiling (HPROF) file gen-\neration\nTrace (TKPROF) File\nTrace file generation"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Record Status",
+        "Branch Code",
+        "EOC Stage",
+        "EOC Batch",
+        "Process No",
+        "Trace Value"
+      ],
+      "summary": "This page outlines various record statuses and parameters such as Branch Code, EOC Stage, and Process No, and describes the process of running EOC to capture performance lag reports.",
+      "raw_text": "2-3\nRecord Status\nBranch Code\nEOC Stage\nEOC Batch\nProcess No\nTrace Value\nClick on the ‘Search’ button. The system identifies all records satisfying the specified criteria\nand displays the same.\n2.3 \nEOC Run\nAfter the maintenance in STDEDPDP, run EOC to capture the performance lag reports. Below\nsections, depict a sample performance issue faced during EOC process.\nProblem Description:\nAssume “ACCREVAL” is taking more time during its execution at Post End of Transaction\nInput (sub-stage 1) stage. In-order to analyze the issue, support team has requested user to\nshare the HPROF.\nProblem Simulation:\n1. In order to capture the performance lag reports, user needs to maintain these details in \nsystem under STDEDPDP as specified under Section 2.2.1, \"Invoking PDP Maintenance \nScreen – Batch Processing\".\nBranch Code: PD1\nEOC Stage: Post End of Transaction Input 1\nEOC Batch: ACCREVAL\nProcess No: 0\nAs per the requirement, user needs to capture HPROF; the trace value to select would be\n“Hierarchical Profiler (HPROF) File“.\n2. Once the above maintenance is completed, launch End Of Cycle Operations screen \n(AEDSTART), preform the EOC for branch “PD1”."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Results",
+        "TKPROF"
+      ],
+      "summary": "This page discusses the capture and conversion of trace files into readable formats for performance analysis in database systems, focusing on HPROF and TKPROF.",
+      "raw_text": "2-4\n3. Due to the performance issue, batch execution might take some time and required \nperformance lag report are captured into their respective folders as configured.\nResults Captured:\nHPROF: During EOC, the system captures the HPROF file under database servers – \nWORK_AREA directory as configured under CSTB_PARAM. Below is the HPROF file \ncaptured that can be converted into human readable html file.\nMore details on the configuration of output directories are provides under Section 2.4,\n\"Results\"\n2.4 \nResults\nResults captured by the system are subjected to the maintenance of Trace value. All files\ncaptured are placed under configured directories.\nThis section contains the following topics:\nSection 2.4.1, \"TKPROF\"\nSection 2.4.2, \"HPROF\"\n2.4.1 \nTKPROF\nA Trace file is a file containing a trace of certain events that happen (or will happen) during\nthe process. SQL trace files are more concentrated towards SQL queries taking more time\nduring execution in database. Examining a raw trace file can be overwhelming. To gather\nuseful information from it quickly, trace files are converted into a readable format that can be\ncan easily interpreted.\nOracle Database provides a tool called tkprof for conversion of trace file into a more readable\nformat file also referred as TKPROF file. PDP (Batch) functionality capture the trace file into\nthe destination folder configured in init.ora file. Trace file path can also be obtained by value\nreturned from query - SELECT VALUE FROM V$DIAG_INFO WHERE NAME = 'Default\nTrace File'. It is the responsibility of user/analyst to convert this trace file to TKPROF file for\nfurther analysis. Trace file generated by system is of below format."
+    },
+    {
+      "page_number": 11,
+      "sections": [],
+      "summary": "This page explains how to convert a trace file generated by Oracle into a TKPROF file using a specific command and introduces HPROF as a tool for identifying performance bottlenecks in PL/SQL applications.",
+      "raw_text": "2-5\n<ORACLE_SID>_ora_<SERVER_PROCESSID>_<BRANCH_CODE>_<EOC_STAGE>_<EOC_\nBATCH>_<PROCESS_NO>.trc\nInitial parts of the file name until server process id is Oracle defined naming convention based\non the Database setup and later is PDP (Batch) defined naming convention. Conversion of\ntrace file to TKPROF is achieved via below generic command. Please run the command in\ncommand prompt window.\nSyntax:\nTKPROF \n<PDP_GENERATED_TRACE_FILE><SPACE><USER_DEFINED_FILE_NAME>EXPLAIN=SC\nHEMA_USER/\nPASSWORD@HOST_NAME:PORT<SPACE>SORT=FCHELA,EXEELA,PRSELA<SPACE>WAITS\n=YES\nExample\nPDP generated trace file: DEV1900_ora_12349_PD1_POSTEOTI_1_ACCREVAL_0.trc\nUser desired TKPROF file: TKP_ PD1_POSTEOTI_1_ACCREVAL_0\nTKPROF DEV1900_ora_12349_PD1_POSTEOTI_1_ACCREVAL_0.trc \nTKP_PD1_POSTEOTI_1_ACCREVAL_0 EXPLAIN=UBS141WLY/\nUBS141WLY@WHF00GJK.IN.ORACLE.COM:1521 SORT=FCHELA,EXEELA,PRSELA \nWAITS=YES\n2.4.2 \nHPROF\nHierarchical profiler (HPROF) is used to identify bottlenecks and performance-tuning\nopportunities in PL/SQL applications. HPROF is similar to trace files but is more concentrated\ntowards PLSQL blocks to capture the timings during execution. This file reports the dynamic\nexecution profile of your PL/SQL program, organized by sub program calls.\nSimilar to trace file, HPROF provides plshprof command-line utility to convert HPROF file into\nhuman-readable html format. HPROF generated by the system is of the below format,\nmatching the PDP (Batch) naming convention standards. The generated file are under\nWORK_AREA path defined under CSTB_PARAM.\nhprof_<BRANCH_CODE>_<EOC_STAGE>_<EOC_BATCH>_<PROCESS_NO>\nConversion of HPROF file to human readable html format achieved via below generic\ncommand. Please run in command prompt window.\nSyntax:\nPLSHPROF<SPACE> -\nOUTPUT<SPACE><USER_DEFINED_FILE_NAME><SPACE><PDP_GENERATED_HPROF_FI\nLE>\nExample:\nPDP Generated HPROF file: hprof_PD1_POSTEOTI_1_ACCREVAL_0\nUser desired HPROF html file: hp_PD1_POSTEOTI_1_ACCREVAL_0.html\nPLSHPROF -OUTPUT hp_PD1_POSTEOTI_1_ACCREVAL_0 \nhprof_PD1_POSTEOTI_1_ACCREVAL_0"
+    },
+    {
+      "page_number": 12,
+      "sections": [],
+      "summary": "This page lists some sample files attached for reference, including TKPROF and HPROF files.",
+      "raw_text": "2-6\nNote   \nBelow are some of the sample files attached for reference.\nTKPROF\nTKP_AK1_POSTEOTI_1_CLBATCH_0.prf\nHPROF\nhp_PD1_POSTEOTI_1_ACCREVAL_0.html"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Error Codes"
+      ],
+      "summary": "This section details error codes and their corresponding messages for specific functions, including Process Number constraints for CLBATCH operations.",
+      "raw_text": "3-1\n3. Error Code and Messages\nThis chapter contains the following section:\nSection 3.1, \"Error Codes\"\n3.1 \nError Codes\nFunction ID\nError Code\nMessage\nSTDEDPDP\nST-PDP-002\nProcess Number can be greater than 0 only for \nCLBATCH\nSTDEDPDP\nST-PDP-003\nProcess Number for CLBATCH cannot be greater \nthan $1 for Branch $2"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "FAQ’s"
+      ],
+      "summary": "This page addresses frequently asked questions regarding the SMTM_EOC_BATCH_TRACE table and related functionalities in the context of Performance Diagnostic Plugin (Batch) for FCUBS.",
+      "raw_text": "4-1\n4. FAQ’s\n1. What is SMTM_EOC_BATCH_TRACE Table? How are values inserted into it?\nSMTM_EOC_BATCH_TRACE is a data store for capturing the EOC batch related \nmaintenance for Performance Diagnostic Plugin (Batch) functionality i.e. it will store, \nBranch Code, EOC Stage, EOC Batch, Process No and Trace Value. Based on these \nparameters- Time Lag Report will be generated. The data can be captured using the newly \ndesigned function id STDEDPDP.\n2. What is the use of the CSTB_PARAM flag? When will the CSTB_PARAM be set to \n‘Y’ (Enabled)\nCSTB_PARAM table will have a Performance Diagnostic Plugin (PDP-Batch) specific flag \ncalled TIME_LOG_BATCH, which is used to enable or disable the functionality of PDP \n(Batch) i.e. capturing of any performance lag reports in the system. By default, the value \nis set as ‘N’. \n3. Who is expected to convert the generated Trace / Hierarchical Profiling files to \nreadable format?\nBank IT team or Support Teams or any particular analyst who might be working on that \nissue as it is a generic command.\n4. Is this PDP (Batch) functionality specific to any product?\nPDP functionality related to Batch processing is specific to FCUBS as of now.\n5. What are all Batches under EOC applicable for this functionality?\nAll batches maintained under Mandatory Batch Program Maintenance (EIDMANPE) i.e. \nPOST Stages are applicable for PDP (Batch) functionality.\n6. Provide details on destination folder for the performance lag reports generated?\nBoth the Trace file and HPROF file are generated into different folder as explained in \nSection 2.4, \"Results\". \nBelow table, provides quick access to the destination path:\nResult File\nDestination\nTrace File\nPath returned by below Query -\nSELECT VALUE FROM V$DIAG_INFO WHERE NAME = \n'Default Trace File'\nHPROF File\nWORK_AREA path as configured under CSTB_PARAM"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Function ID Glossary"
+      ],
+      "summary": "This page provides a glossary of Function IDs including AEDSTART and STSEDPDP with their respective codes.",
+      "raw_text": "5-1\n5. Function ID Glossary\nA\nAEDSTART ......................... 2-3\nS\nSTDEDPDP ......................... 2-1\nSTSEDPDP ......................... 2-2"
+    }
+  ]
+}

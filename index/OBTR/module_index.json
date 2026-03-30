@@ -1,0 +1,110 @@
+{
+  "product": "OBTR",
+  "module_count": 13,
+  "modules": [
+    {
+      "name": "Collateral Margin and Settlement Netting",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Common CORE",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Core Entities and Services User Guide",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Derivatives",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Exchange Traded Derivatives for Commodities Futures and Options",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Foreign Exchange",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Money Markets",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Over the Counter Options",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Pre-Settlements",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Securities",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Sub Systems",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Treasury - Automated End of the Day",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Treasury - Sample Reports",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    }
+  ]
+}

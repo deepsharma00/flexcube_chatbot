@@ -1,0 +1,1331 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base_-_Sub_Systems/User-Defined-Fields-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 31,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This section provides an overview and accessibility information for a document, followed by details on its organization, glossary of icons, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for defining and using User Defined Fields (UDFs) in Oracle FLEXCUBE, including how to associate UDFs with products and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for defining and using User Defined Fields (UDFs) in Oracle FLEXCUBE, including how to associate UDFs with products and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for defining and using User Defined Fields (UDFs) in Oracle FLEXCUBE, including how to associate UDFs with products and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Organization",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for defining and using User Defined Fields (UDFs) in Oracle FLEXCUBE, including how to associate UDFs with products and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for defining and using User Defined Fields (UDFs) in Oracle FLEXCUBE, including how to associate UDFs with products and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 5,
+      "end_page": 7,
+      "summary": "This page introduces a manual for defining and using User Defined Fields (UDFs) in Oracle FLEXCUBE, including how to associate UDFs with products and functions.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Custom Fields in Oracle FLEXCUBE",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 User Defined Field Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Basic Details of User Defined Field Maintenance Screen",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Scope of the Field",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Numeric Field",
+          "start_page": 8
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Text Field",
+          "start_page": 9
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Specifying Text Fields",
+          "start_page": 9
+        },
+        {
+          "structure": "3.5.2",
+          "title": "2.5.2 Validation Type — LOV (List of Values)",
+          "start_page": 10
+        },
+        {
+          "structure": "3.5.3",
+          "title": "2.5.3 Derivation",
+          "start_page": 10
+        },
+        {
+          "structure": "3.5.4",
+          "title": "2.5.4 Derivation Rule",
+          "start_page": 11
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Date Field",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Validations that you can Specify for Date Fields",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Marking the Field as Unique",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Specifying the Default Value",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Allowing the Modification of Values after Population",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.5",
+          "title": "2.6.5 Factory Shipped Fields",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.6",
+          "title": "2.6.6 Defining Additional Validation Rules",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.7",
+          "title": "2.6.7 Validation Rule",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.8",
+          "title": "2.6.8 Cube Entity",
+          "start_page": 17
+        },
+        {
+          "structure": "3.6.9",
+          "title": "2.6.9 Enabling the Update Allowed Option for a UDF",
+          "start_page": 18
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Making a Field Applicable to a Product",
+          "start_page": 18
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 UDF to a Function ID Linkage",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Linking UDF to Function ID",
+          "start_page": 19
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Populating the Values of UDF",
+          "start_page": 20
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Population of UDF Values at the Contract Level",
+          "start_page": 20
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Creating a New User Defined Field – an Example",
+          "start_page": 22
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Indicating the Value of a User Defined Field for a Customer",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.4",
+          "title": "2.9.4 Using the Value of the UDF for Creating a Customer Account",
+          "start_page": 24
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Uploading User Defined Fields",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Contract Upload",
+          "start_page": 24
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Function Upload",
+          "start_page": 25
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 User Defined Fields for Account Statements",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Detailed Account Statement Fields Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Defining User Defined Fields for Customers",
+          "start_page": 26
+        },
+        {
+          "structure": "3.11.3",
+          "title": "2.11.3 Making the UDF part of the Customer Maintenance screen",
+          "start_page": 27
+        },
+        {
+          "structure": "3.11.4",
+          "title": "2.11.4 Defining UDFs for SSIA",
+          "start_page": 29
+        },
+        {
+          "structure": "3.11.5",
+          "title": "2.11.5 Maintaining UDF for the Cheque Book Details screen",
+          "start_page": 30
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Creating Custom Fields in Oracle FLEXCUBE",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page introduces how to create custom fields in Oracle FLEXCUBE and provides details on maintaining user-defined fields including field types and basic screen information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page introduces how to create custom fields in Oracle FLEXCUBE and provides details on maintaining user-defined fields including field types and basic screen information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 User Defined Field Maintenance",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page introduces how to create custom fields in Oracle FLEXCUBE and provides details on maintaining user-defined fields including field types and basic screen information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Basic Details of User Defined Field Maintenance Screen",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page introduces how to create custom fields in Oracle FLEXCUBE and provides details on maintaining user-defined fields including field types and basic screen information.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Organization",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Scope of the Field",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page explains how to mark a field as mandatory and defines the scope of a user-defined field at either product or maintenance level in an Oracle FLEXCUBE system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Numeric Field",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page explains how to mark a field as mandatory and defines the scope of a user-defined field at either product or maintenance level in an Oracle FLEXCUBE system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Text Field",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page describes different validation types for numeric fields in a system, including range, length, and list of values validations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.1",
+      "title": "2.5.1 Specifying Text Fields",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page describes different validation types for numeric fields in a system, including range, length, and list of values validations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.2",
+      "title": "2.5.2 Validation Type — LOV (List of Values)",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page describes different validation types for fields in a system, including masked fields and list of values fields, as well as the derivation process for populating user-defined field values.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.3",
+      "title": "2.5.3 Derivation",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page describes different validation types for fields in a system, including masked fields and list of values fields, as well as the derivation process for populating user-defined field values.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.4",
+      "title": "2.5.4 Derivation Rule",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This section explains how to set up and implement derivation rules for user-defined fields in Oracle FLEXCUBE, including writing PL/SQL code to populate field values based on specific conditions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Date Field",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses how to define and validate date fields in PL/SQL code, including specifying validation types and allowing or disallowing back/future dates.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Validations that you can Specify for Date Fields",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses how to define and validate date fields in PL/SQL code, including specifying validation types and allowing or disallowing back/future dates.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.2",
+      "title": "2.6.2 Marking the Field as Unique",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page discusses how to define and validate date fields in PL/SQL code, including specifying validation types and allowing or disallowing back/future dates.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.3",
+      "title": "2.6.3 Specifying the Default Value",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page discusses how to specify default values for user-defined fields and allows modification of these values after population in specific screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.4",
+      "title": "2.6.4 Allowing the Modification of Values after Population",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page discusses how to specify default values for user-defined fields and allows modification of these values after population in specific screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.5",
+      "title": "2.6.5 Factory Shipped Fields",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page discusses how to specify default values for user-defined fields and allows modification of these values after population in specific screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.6",
+      "title": "2.6.6 Defining Additional Validation Rules",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page discusses how to specify default values for user-defined fields and allows modification of these values after population in specific screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.7",
+      "title": "2.6.7 Validation Rule",
+      "start_page": 14,
+      "end_page": 17,
+      "summary": "This section explains how to set up validation rules for user-defined fields in a system, specifically using PL/SQL code to ensure data consistency during transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.8",
+      "title": "2.6.8 Cube Entity",
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This page explains how to use the 'Cube Entity' field type in PL/SQL code and describes the process of populating values for such fields in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.9",
+      "title": "2.6.9 Enabling the Update Allowed Option for a UDF",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page describes how to configure and use cube entities in a system, including selecting or dynamically populating values, specifying conditions, and writing queries.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 Making a Field Applicable to a Product",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page describes how to configure and use cube entities in a system, including selecting or dynamically populating values, specifying conditions, and writing queries.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8",
+      "title": "2.8 UDF to a Function ID Linkage",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section explains how to link user-defined fields to function IDs in Oracle FLEXCUBE for product definition and contract input screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.1",
+      "title": "2.8.1 Linking UDF to Function ID",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This section explains how to link user-defined fields to function IDs in Oracle FLEXCUBE for product definition and contract input screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9",
+      "title": "2.9 Populating the Values of UDF",
+      "start_page": 20,
+      "end_page": 20,
+      "summary": "This page explains how to populate user-defined field values in Oracle FLEXCUBE and provides examples at different levels such as contract and customer.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.1",
+      "title": "2.9.1 Population of UDF Values at the Contract Level",
+      "start_page": 20,
+      "end_page": 22,
+      "summary": "This page explains how to populate user-defined field values in Oracle FLEXCUBE and provides examples at different levels such as contract and customer.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.2",
+      "title": "2.9.2 Creating a New User Defined Field – an Example",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This page explains how the value of a user-defined field (UDF) UDF2 is derived from UDF1 and describes the process of creating a new UDF for customer account numbers.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.3",
+      "title": "2.9.3 Indicating the Value of a User Defined Field for a Customer",
+      "start_page": 23,
+      "end_page": 24,
+      "summary": "This section explains how to enter and display values for user-defined fields when creating new customer accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.4",
+      "title": "2.9.4 Using the Value of the UDF for Creating a Customer Account",
+      "start_page": 24,
+      "end_page": 3,
+      "summary": "This section explains how to include the value of a specific user-defined field in customer account numbers by informing the implementer and configuring Oracle FLEXCUBE accordingly.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10",
+      "title": "2.10 Uploading User Defined Fields",
+      "start_page": 3,
+      "end_page": 24,
+      "summary": "This section provides an overview and accessibility information for a document, followed by details on its organization, glossary of icons, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Custom Fields in Oracle FLEXCUBE",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 User Defined Field Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Basic Details of User Defined Field Maintenance Screen",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Scope of the Field",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Numeric Field",
+          "start_page": 8
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Text Field",
+          "start_page": 9
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Specifying Text Fields",
+          "start_page": 9
+        },
+        {
+          "structure": "3.5.2",
+          "title": "2.5.2 Validation Type — LOV (List of Values)",
+          "start_page": 10
+        },
+        {
+          "structure": "3.5.3",
+          "title": "2.5.3 Derivation",
+          "start_page": 10
+        },
+        {
+          "structure": "3.5.4",
+          "title": "2.5.4 Derivation Rule",
+          "start_page": 11
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Date Field",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Validations that you can Specify for Date Fields",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Marking the Field as Unique",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Specifying the Default Value",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Allowing the Modification of Values after Population",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.5",
+          "title": "2.6.5 Factory Shipped Fields",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.6",
+          "title": "2.6.6 Defining Additional Validation Rules",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.7",
+          "title": "2.6.7 Validation Rule",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.8",
+          "title": "2.6.8 Cube Entity",
+          "start_page": 17
+        },
+        {
+          "structure": "3.6.9",
+          "title": "2.6.9 Enabling the Update Allowed Option for a UDF",
+          "start_page": 18
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Making a Field Applicable to a Product",
+          "start_page": 18
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 UDF to a Function ID Linkage",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Linking UDF to Function ID",
+          "start_page": 19
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Populating the Values of UDF",
+          "start_page": 20
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Population of UDF Values at the Contract Level",
+          "start_page": 20
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Creating a New User Defined Field – an Example",
+          "start_page": 22
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Indicating the Value of a User Defined Field for a Customer",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.4",
+          "title": "2.9.4 Using the Value of the UDF for Creating a Customer Account",
+          "start_page": 24
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Contract Upload",
+          "start_page": 24
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Function Upload",
+          "start_page": 25
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 User Defined Fields for Account Statements",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Detailed Account Statement Fields Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Defining User Defined Fields for Customers",
+          "start_page": 26
+        },
+        {
+          "structure": "3.11.3",
+          "title": "2.11.3 Making the UDF part of the Customer Maintenance screen",
+          "start_page": 27
+        },
+        {
+          "structure": "3.11.4",
+          "title": "2.11.4 Defining UDFs for SSIA",
+          "start_page": 29
+        },
+        {
+          "structure": "3.11.5",
+          "title": "2.11.5 Maintaining UDF for the Cheque Book Details screen",
+          "start_page": 30
+        }
+      ]
+    },
+    {
+      "structure": "3.10.1",
+      "title": "2.10.1 Contract Upload",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This section explains how to include the value of a specific user-defined field in customer account numbers by informing the implementer and configuring Oracle FLEXCUBE accordingly.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10.2",
+      "title": "2.10.2 Function Upload",
+      "start_page": 25,
+      "end_page": 3,
+      "summary": "This page explains how to upload values from MM transactions into Oracle FLEXCUBE and describes the process of defining user-defined fields for account statements in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11",
+      "title": "2.11 User Defined Fields for Account Statements",
+      "start_page": 3,
+      "end_page": 25,
+      "summary": "This section provides an overview and accessibility information for a document, followed by details on its organization, glossary of icons, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Custom Fields in Oracle FLEXCUBE",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 User Defined Field Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Basic Details of User Defined Field Maintenance Screen",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Scope of the Field",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Numeric Field",
+          "start_page": 8
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Text Field",
+          "start_page": 9
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Specifying Text Fields",
+          "start_page": 9
+        },
+        {
+          "structure": "3.5.2",
+          "title": "2.5.2 Validation Type — LOV (List of Values)",
+          "start_page": 10
+        },
+        {
+          "structure": "3.5.3",
+          "title": "2.5.3 Derivation",
+          "start_page": 10
+        },
+        {
+          "structure": "3.5.4",
+          "title": "2.5.4 Derivation Rule",
+          "start_page": 11
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Date Field",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Validations that you can Specify for Date Fields",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Marking the Field as Unique",
+          "start_page": 12
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Specifying the Default Value",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Allowing the Modification of Values after Population",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.5",
+          "title": "2.6.5 Factory Shipped Fields",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.6",
+          "title": "2.6.6 Defining Additional Validation Rules",
+          "start_page": 13
+        },
+        {
+          "structure": "3.6.7",
+          "title": "2.6.7 Validation Rule",
+          "start_page": 14
+        },
+        {
+          "structure": "3.6.8",
+          "title": "2.6.8 Cube Entity",
+          "start_page": 17
+        },
+        {
+          "structure": "3.6.9",
+          "title": "2.6.9 Enabling the Update Allowed Option for a UDF",
+          "start_page": 18
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Making a Field Applicable to a Product",
+          "start_page": 18
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 UDF to a Function ID Linkage",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Linking UDF to Function ID",
+          "start_page": 19
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Populating the Values of UDF",
+          "start_page": 20
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Population of UDF Values at the Contract Level",
+          "start_page": 20
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Creating a New User Defined Field – an Example",
+          "start_page": 22
+        },
+        {
+          "structure": "3.9.3",
+          "title": "2.9.3 Indicating the Value of a User Defined Field for a Customer",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.4",
+          "title": "2.9.4 Using the Value of the UDF for Creating a Customer Account",
+          "start_page": 24
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Uploading User Defined Fields",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Contract Upload",
+          "start_page": 24
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Function Upload",
+          "start_page": 25
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Detailed Account Statement Fields Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Defining User Defined Fields for Customers",
+          "start_page": 26
+        },
+        {
+          "structure": "3.11.3",
+          "title": "2.11.3 Making the UDF part of the Customer Maintenance screen",
+          "start_page": 27
+        },
+        {
+          "structure": "3.11.4",
+          "title": "2.11.4 Defining UDFs for SSIA",
+          "start_page": 29
+        },
+        {
+          "structure": "3.11.5",
+          "title": "2.11.5 Maintaining UDF for the Cheque Book Details screen",
+          "start_page": 30
+        }
+      ]
+    },
+    {
+      "structure": "3.11.1",
+      "title": "2.11.1 Invoking Detailed Account Statement Fields Maintenance Screen",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page explains how to upload values from MM transactions into Oracle FLEXCUBE and describes the process of defining user-defined fields for account statements in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.2",
+      "title": "2.11.2 Defining User Defined Fields for Customers",
+      "start_page": 26,
+      "end_page": 27,
+      "summary": "This page describes how to maintain user-defined fields for a product in the Detailed Account Statement Fields Maintenance screen, including details on selecting product codes and defining field names.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.3",
+      "title": "2.11.3 Making the UDF part of the Customer Maintenance screen",
+      "start_page": 27,
+      "end_page": 29,
+      "summary": "This page explains how to define and validate a 'Personal Identification Number' and a 'Tax Number' as User Defined Fields in a banking system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.4",
+      "title": "2.11.4 Defining UDFs for SSIA",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This section explains how to define User Defined Fields (UDFs) for a Special Savings Account for Income Accounting (SSIA), including their usage in specific screens and the information they need to communicate to the Revenue department.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.5",
+      "title": "2.11.5 Maintaining UDF for the Cheque Book Details screen",
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This section explains how to define and use a User Defined Field (UDF) 'Cheque Type' for managing cheque book reordering in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 31,
+      "end_page": 33,
+      "summary": "This page appears to list function IDs and their corresponding pages in a glossary.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for defining fields in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "User Defined Fields User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including details about their user guide copyright and usage terms.",
+      "raw_text": "User Defined Fields User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This section provides an overview and accessibility information for a document, followed by details on its organization, glossary of icons, and related documents.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nDocumentation Accessibility....................................................................................  1-1\n1.3 \nOrganization ............................................................................................................  1-1\n1.4 \nGlossary of Icons.....................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-1\n2. \nCreating Custom Fields in Oracle FLEXCUBE ...................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nUser Defined Field Maintenance .............................................................................  2-1\n2.2.1  \nBasic Details of User Defined Field Maintenance Screen..........................  2-1\n2.3 \nScope of the Field....................................................................................................  2-2\n2.4 \nNumeric Field ..........................................................................................................  2-2\n2.5 \nText Field.................................................................................................................  2-3\n2.5.1  \nSpecifying Text Fields ................................................................................  2-3\n2.5.2  \nValidation Type — LOV (List of Values).....................................................  2-4\n2.5.3  \nDerivation ...................................................................................................  2-4\n2.5.4  \nDerivation Rule...........................................................................................  2-5\n2.6 \nDate Field ................................................................................................................  2-6\n2.6.1  \nValidations that you can Specify for Date Fields ........................................  2-6\n2.6.2  \nMarking the Field as Unique.......................................................................  2-6\n2.6.3  \nSpecifying the Default Value ......................................................................  2-7\n2.6.4  \nAllowing the Modification of Values after Population..................................  2-7\n2.6.5  \nFactory Shipped Fields...............................................................................  2-7\n2.6.6  \nDefining Additional Validation Rules...........................................................  2-7\n2.6.7  \nValidation Rule ...........................................................................................  2-8\n2.6.8  \nCube Entity ...............................................................................................  2-11\n2.6.9  \nEnabling the Update Allowed Option for a UDF .......................................  2-12\n2.7 \nMaking a Field Applicable to a Product .................................................................  2-12\n2.8 \nUDF to a Function ID Linkage ...............................................................................  2-13\n2.8.1  \nLinking UDF to Function ID ......................................................................  2-13\n2.9 \nPopulating the Values of UDF ...............................................................................  2-14\n2.9.1  \nPopulation of UDF Values at the Contract Level......................................  2-14\n2.9.2  \nCreating a New User Defined Field – an Example ...................................  2-16\n2.9.3  \nIndicating the Value of a User Defined Field for a Customer ...................  2-17\n2.9.4  \nUsing the Value of the UDF for Creating a Customer Account ................  2-18\n2.10 Uploading User Defined Fields..............................................................................  2-18\n2.10.1  Contract Upload........................................................................................  2-18\n2.10.2  Function Upload .......................................................................................  2-19\n2.11 User Defined Fields for Account Statements.........................................................  2-19\n2.11.1  Invoking Detailed Account Statement Fields Maintenance Screen..........  2-19\n2.11.2  Defining User Defined Fields for Customers ............................................  2-20\n2.11.3  Making the UDF part of the Customer Maintenance screen ....................  2-21\n2.11.4  Defining UDFs for SSIA............................................................................  2-23\n2.11.5  Maintaining UDF for the Cheque Book Details screen.............................  2-24"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Function ID Glossary"
+      ],
+      "summary": "This page defines Function ID terms and concepts.",
+      "raw_text": "3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents",
+        "Chapter 1",
+        "Chapter 2",
+        "Chapter 3"
+      ],
+      "summary": "This page introduces a manual for defining and using User Defined Fields (UDFs) in Oracle FLEXCUBE, including how to associate UDFs with products and functions.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is intended as a guide to help you define User Defined Fields (UDFs) and \nassociate the UDFs with products (and therefore on contracts involving the products) and on \nspecific Functions in Oracle FLEXCUBE. You can further obtain information specific to a \nparticular field by placing the cursor on the relevant field and striking <F1> on the keyboard.\n1.2 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.3 \nOrganization\nThis manual is organized as follows:\n1.4 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\n1.5 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also lists \nthe various chapters covered in this User Manual.\nChapter 2\nCreating Custom Fields in Oracle FLEXCUBE explains how UDFs can be \ndefined and used. It details the procedure involved in defining UDFs and \nassociating them with Products, so that the UDF is associated with con-\ntracts associated with all contracts involving the product. It also explains \nhow to define UDFs and associating them with specific functions in Oracle \nFLEXCUBE.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Core Entities",
+        "Core Services",
+        "Common Procedures",
+        "Products"
+      ],
+      "summary": "This page outlines core entities, services, common procedures, and products.",
+      "raw_text": "1-2\nCore Entities\nCore Services\nCommon Procedures\nProducts"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "User Defined Field Maintenance",
+        "Basic Details of User Defined Field Maintenance Screen"
+      ],
+      "summary": "This page introduces how to create custom fields in Oracle FLEXCUBE and provides details on maintaining user-defined fields including field types and basic screen information.",
+      "raw_text": "2-1\n2. Creating Custom Fields in Oracle FLEXCUBE\n2.1 \nIntroduction\nWhile working with Oracle FLEXCUBE Corporate, there are additional fields that you would \nlike to use either for your convenience or to suit the requirements of your bank. Adding to its \nflexibility, Oracle FLEXCUBE now provides you the option to add fields based on your \nspecifications to meet your needs. \nThis chapter contains the following sections:\nSection 2.2, \"User Defined Field Maintenance\"\nSection 2.3, \"Scope of the Field\"\nSection 2.4, \"Numeric Field\"\nSection 2.5, \"Text Field\"\nSection 2.6, \"Date Field\"\nSection 2.7, \"Making a Field Applicable to a Product\"\nSection 2.8, \"UDF to a Function ID Linkage\"\nSection 2.9, \"Populating the Values of UDF\"\nSection 2.10, \"Uploading User Defined Fields\"\nSection 2.11, \"User Defined Fields for Account Statements\"\n2.2 \nUser Defined Field Maintenance\nThis section contains the following topic:\nSection 2.2.1, \"Basic Details of User Defined Field Maintenance Screen\"\n2.2.1 \nBasic Details of User Defined Field Maintenance Screen\nField\nField Name and Description\nYou can identify a field that you create with a unique identifier, and a brief description.\nEach field that you define in Oracle FLEXCUBE should be assigned a unique code. You can \nbriefly describe the field in Description field. The description is for your information only. It will \nnot be printed on any customer correspondence.\nField Type\nThe type of field that you can create in Oracle FLEXCUBE can be of the following formats:\nNumber - Chose this option to create a Numeric field\nText - Chose this option to create a Text field\nDate - Chose this option to create a Date field\nCube Entity - Should you need to reuse any of the existing fields of Oracle FLEXCUBE, \nto enter additional details you can indicate the Field Type as Cube Entity. The Cube \nEntity can be any of the existing fields in Oracle FLEXCUBE like customer, currency, \naccount, etc"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Marking a Field as Mandatory",
+        "Scope of the Field"
+      ],
+      "summary": "This page explains how to mark a field as mandatory and defines the scope of a user-defined field at either product or maintenance level in an Oracle FLEXCUBE system.",
+      "raw_text": "2-2\nMarking a Field as Mandatory\nYou can make entry to a field mandatory. To do so, check against the Mandatory option. A \nuser of the field will be forced to make an entry to the field. Leave it unchecked to indicate that \nthe field is not mandatory.\nNote\nWhen a UDF is created, you have to first map it to the corresponding function ID and then \nprovide the validation rule for the UDF.\n2.3 \nScope of the Field\nWhile defining a new user defined field, you need to specify whether the new field has to be \nused at the product or maintenance level. The scope or usage of the field that is being defined \ncan be specified as ‘Usage Allowed’.\nIf the new field that is being defined has to be used at the product level, select usage as \n‘Product’\nIf the new field is to be used in any of the maintenance screens (screens related to Core \nMaintenance like Currency Definition screen, Customer Accounts maintenance screen \netc), select usage as ‘Function Id’.\nNote\nIn Oracle FLEXCUBE, every screen has a unique function Id. However to differentiate be-\ntween product and maintenance levels, the scope of a user defined has been classified as \nProduct and Function Id. \nIf the new field that is being defined is for a maintenance screen (Usage Allowed is ‘Function \nId’), you can specify the function Id of the screen in which the new field has to be used. This \nhas to be indicated in the ‘Function Id’ field. Click on the option list positioned next to this field. \nThe function Ids of all the maintenance screens will be displayed. Select the appropriate \nfunction Id. \nFor example, if you want to use the new field in the ‘Chart Of Accounts - Detailed’ screen, \nselect the Function Id GLDCHACT, thus allowing the usage of the field in the Chart of \naccounts screen only. \nNote\nIf you want the Field to be made available for all the Functions, you will have to leave it \nblank.\n2.4 \nNumeric Field\nTo define a numeric field, choose the number option at the Field Type field. You can set up \nvalidation rules for a numeric field. The validation types applicable to a numeric field are:\nRange\nLength\nLOV\nNone"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Validation Type — Range",
+        "Validation Type — Length",
+        "Validation Type — LOV (List of Values)"
+      ],
+      "summary": "This page describes different validation types for numeric fields in a system, including range, length, and list of values validations.",
+      "raw_text": "2-3\nYou can indicate your preference at the Validation type field of this screen. Choose None to \nindicate that no validation should be performed on entries made to this field.\nValidation Type — Range\nYou can specify the range validation type only for Numeric fields. In this case the entry to the \nfield should be within a permissible range. \nOn choosing this validation type, you should indicate either the maximum or minimum values \nor both values allowed for the field. Any valid entry to the field should be within the range that \nyou specify.\nValidation Type — Length\nFor a numeric field you can indicate that the entry should be of a certain length. You have the \noption to indicate,\na fixed length\nthe maximum and minimum length for the field\nDepending on the option you select, indicate the fixed field length or indicate the maximum \nand minimum length for valid entries to the field.\nValidation Type — LOV (List of Values)\nChoose LOV to indicate that the entry to this field can be chosen from a predefined list. On \nchoosing this option you can define the items that should be displayed on this list.\nClick ‘LOV’ button and define the list of values and their description. The items that you define \nfor the list are displayed whenever the field is used in Oracle FLEXCUBE.\n2.5 \nText Field\nThis section contains the following topics:\nSection 2.5.1, \"Specifying Text Fields\"\nSection 2.5.2, \"Validation Type — LOV (List of Values)\"\nSection 2.5.3, \"Derivation\"\nSection 2.5.4, \"Derivation Rule\"\n2.5.1 \nSpecifying Text Fields\nTo define a text field, choose the text option at the Field Type field. A text field can contain \nalphabets of the English language or a combination of alphabets and numeric values.\nYou can specify validation rules for a text field. The validation types applicable to a text field \ninclude:\nLength\nMask\nLOV\nNone\nYou can indicate your preference at the Validation type field of this screen. Choose None to \nindicate that no validation should be performed on entries made to this field.\nValidation Type — Length\nFor a text field you can indicate that a valid entry to the field should be of a certain length. You \nhave the option to indicate,"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Validation Type — Mask",
+        "Validation Type — LOV (List of Values)",
+        "Derivation"
+      ],
+      "summary": "This page describes different validation types for fields in a system, including masked fields and list of values fields, as well as the derivation process for populating user-defined field values.",
+      "raw_text": "2-4\nA fixed length\nThe maximum and minimum length for the field\nDepending on the option that you select, indicate the fixed field length or indicate the \nmaximum and minimum length of entries made to the field.\nValidation Type — Mask\nTo indicate a field as a masked field, choose Mask as the field type. This option allows you to \ndefine a broad field structure to which all entries to the field should conform.\nThe mask structure can consist solely of ‘a’ or ‘n’ or a combination of these. An ‘a’ would \nindicate an alphabet of the English language and ‘n’ a numeric value.\nAll entries made to the field will be validated against the format that you specify for the mask.\n2.5.2 \nValidation Type — LOV (List of Values)\nChoose LOV to indicate that the entry to this field can be chosen from a predefined list. On \nchoosing this option you can define the items to be displayed on this list.\nClick ‘LOV’ button and define the list of values and their description. The items that you define \nfor the list are displayed whenever the field is used in Oracle FLEXCUBE.\n2.5.3 \nDerivation\nThis indicates the procedure for populating the values of a field. When you are processing a \ntransaction that would use the user defined field, the value of the UDF can be populated in \nthe ‘User Defined Field/Field Name to Value Definition’ screen that is invoked from the \nContract Input screen or the Function Id screen. The value for the field can be populated \nbased on certain conditions, which can be defined as statements of code by the user. Check"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "2.5.4 Derivation Rule"
+      ],
+      "summary": "This section explains how to set up and implement derivation rules for user-defined fields in Oracle FLEXCUBE, including writing PL/SQL code to populate field values based on specific conditions.",
+      "raw_text": "2-5\nagainst ‘Derivation Allowed’ to specify that the value of a field has to be populated based on \ncertain conditions.\n2.5.4 \nDerivation Rule\nCheck against the option ‘Derivation Allowed’ if you want to the values of a UDF to be \npopulated based on certain conditions. According to the requirements of the bank, the \nimplementer of Oracle FLEXCUBE will write a PL/SQL code to populate the values of the user \ndefined field. The values of the UDF will be displayed in the ‘User Defined Field/Field Name \nto Value Definition’ screens of Contract Input or Function Id screen. \nClick ‘Derivation’ button to write the PL/SQL code.\nAfter writing the PL/SQL code, click ‘X’ button to execute the code. The derivation code will \nbe validated by the system. If any checks fail, you must alter the statement so that the \nvalidation can be made successfully. Click ‘E’ button to view the errors.\nFor example, the bank wants to have a new field to display the Euro equivalent of the contract \namount in the ‘User Defined Field’ screen of Contract Input screen. To do this, you need to:\nDefine a field of type ‘Number’,\nSpecify ‘Usage Allowed’ as ‘Product’,\nCheck against ‘Derivation Allowed’, and\nWrite a code to display the Euro equivalent of the contract amount. \nSubsequently, you will link the UDF to a product and process transactions under it. In the \n‘User Defined Field’ screen of Contract Online screen, system will execute the derivation rule \nto convert the transaction amount to Euro equivalent and displays the Euro equivalent of the \ntransaction amount."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Date Field",
+        "Validations that you can Specify for Date Fields"
+      ],
+      "summary": "This page discusses how to define and validate date fields in PL/SQL code, including specifying validation types and allowing or disallowing back/future dates.",
+      "raw_text": "2-6\nAfter writing the PL/SQL code, click ‘X’ button to execute the code. The derivation code will \nbe validated by the system. If any checks fail, you must alter the statement so that the \nvalidation can be made successfully. Click ‘E’ button to view the errors.\n2.6 \nDate Field\nThis section contains the following topics:\nSection 2.6.1, \"Validations that you can Specify for Date Fields\"\nSection 2.6.2, \"Marking the Field as Unique\"\nSection 2.6.3, \"Specifying the Default Value\"\nSection 2.6.4, \"Allowing the Modification of Values after Population\"\nSection 2.6.5, \"Factory Shipped Fields\"\nSection 2.6.6, \"Defining Additional Validation Rules\"\nSection 2.6.7, \"Validation Rule\"\nSection 2.6.8, \"Cube Entity\"\nSection 2.6.9, \"Enabling the Update Allowed Option for a UDF\"\n2.6.1 \nValidations that you can Specify for Date Fields\nTo define a date field, choose Date as the Field Type. For a date field, you can indicate \nvalidations like whether back and future dates can be entered into the field and the back or \nfuture period applicable to the field.\n2.6.1.1 \nIndicating the Validation Type\nYou can specify the validation type for a date field. The validation types applicable to a date \nfield include:\nLOV\nNone\nIf you indicate LOV then an entry to the field can be made only from the predefined list that \nyou maintain for the field. Choose None to indicate that no validation should be made for the \nfield.\nBack/Future Date Allowed\nFor a date field you can indicate whether back or future dates can be entered. Check against \nthe relevant options to indicate your preference. \nIf you choose the back or future date options, you should also indicate a future or back period \npermissible for the field. The back or future period should be represented as a number.\nFor example, if you indicate ‘3’ as the back date period, the field will accept dates upto three \ndays before the current system date as a valid entry.\nNote\nIf you do not choose any of these options, the field will only accept the current system date \nas a valid entry.\n2.6.2 \nMarking the Field as Unique\nCheck against ‘Unique’ if the field that is being defined has to be unique. Consequently,"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "2.6.3 Specifying the Default Value",
+        "2.6.4 Allowing the Modification of Values after Population"
+      ],
+      "summary": "This page discusses how to specify default values for user-defined fields and allows modification of these values after population in specific screens.",
+      "raw_text": "2-7\nIf the usage allowed for the field is ‘Product’, the new field will be unique across modules\nIf the usage allowed is ‘Function Id’, it will be unique for the particular function id i.e., if \nyou have specified a function ID, the new field can be used only in the specified Function \nID screen).\n2.6.3 \nSpecifying the Default Value\nYou can specify a default value for a user-defined field. The option list positioned next to this \nfield will be enabled only if the field is a cube entity. Else the option list will be disabled. \nFor example, assume that your bank wants to capture an additional currency field for \nprocessing certain transactions and the default value for this additional field has to be USD. \nTherefore, your selections will be as follows:\nField Type –Cube Entity\nCube Entity Type- Currency\nThe option list in the ‘Default Value’ field displays all the currencies maintained at your bank. \nSelect USD. Consequently, in the UDF screen of the Contract Input or Function Id screen, \nUSD will be displayed as the default currency.\nNote\nIf you have specified a default value for a field and also the derivation rule, the value ob-\ntained from the derivation rule will take precedence over the default value at the Contract/\nFunction Id level. \n2.6.4 \nAllowing the Modification of Values after Population\nYou can modify the value of a field after it is populated in the ‘User Defined Field’/’Field Name \nto Value Definition’ screen of Contract Input or Function Id screen. To allow amendments to \nthe values after they are populated, check against the field ‘Amendable’ at the time of defining \na new field. \nNote\nYou will not be allowed to change the values of those fields for which you have disallowed \nthe amendment option (if the option ‘Amendable is unchecked at the time of defining an \nUDF) and derivation has been allowed (Derivation Allowed option has been checked).\n2.6.5 \nFactory Shipped Fields\nApart from the fields that you have created, there are a set of fields that are sent by default as \npart of Oracle FLEXCUBE. These fields are referred to as factory shipped fields. You cannot \ndefine or change validations specified for factory shipped fields.\n2.6.6 \nDefining Additional Validation Rules\nApart from specifying the validation type for a field, you can specify additional validation rules \nto meet the requirements of the bank."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Validation Rule"
+      ],
+      "summary": "This section explains how to set up validation rules for user-defined fields in a system, specifically using PL/SQL code to ensure data consistency during transactions.",
+      "raw_text": "2-8\nTo indicate that additional validations are required for a particular user defined field, check \nagainst ‘Validation Allowed’. This will allow you to write a code to validate the value in the new \nfield. Click ‘Validation’ button to write the validation code.\n2.6.7 \nValidation Rule\nThis is the PL/SQL validation code based on which the system will check the value of the new \nfield and validates at the time of transaction processing. Entry to this field is mandatory if you \nhave checked against ‘Validation Allowed’.\nFor example, at the time of processing a contract for a customer, the bank wants to add a new \nfield to enter the first nominee that the customer has specified in his account. The names of \nthe nominees of a customer are maintained in the ‘Customer Accounts Maintenance’ screen. \nThe bank wants the system to check that the name of the nominee that is entered in the new \nfield and the name of the first nominee that is maintained in the Customer Accounts \nMaintenance screen are same. \nTo do this, you need to:\nCreate a new user defined field of type ‘Text’,\nSpecify ‘Usage Allowed’ as ‘Product’,\nCheck against ‘Validation Allowed’, and\nWrite a code to validate the value entered in the new field. In the validation rule, you \nwrite a code to check that the value of the first nominee specified in the Customer \nAccounts Maintenance screen for the customer for whom you are processing a contract \nand the value entered at the time of processing a contract are same.\nSyntax to be used in Derivation and Validation Rules\n(@FIELD_VAL)\n(@FIELD_VAL) holds the Value UDF. This is s mandatory for Derivation Logic and it can be \nused in Validation logic to get the value of the field.\nFor example, \n(@FIELD_VAL): = ‘USD’;\nSelect ccy_code into (@FIELD_VAL) from"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Specifying the UD Function Key Mapping Details",
+        "Through the Function Key Mapping screen you can define the Record Key items that are used for the Function ID"
+      ],
+      "summary": "This page explains how to use and maintain function key mappings for user-defined fields in a specific context, particularly when linked to FUNCTION_ID.",
+      "raw_text": "2-9\nCYTMS_CCY_DEFN where country = ‘USA’;\n(@RECORD_KEY)\n(@RECORD_KEY) behaves differently for UDFs’ linked to Product and different for UDFs’ \nlinked to Function ID.\n(@RECORD_KEY) When UDF is linked to FUNCTION_ID\nTo use (@Record_key) in UDFs’ where Usage allowed is ‘Function_id’ you have to maintain \nFunction Key Mapping, which will be used to determine the record key before you define the \nUDF.\nSpecifying the UD Function Key Mapping Details\nThrough the Function Key Mapping screen you can define the Record Key items that are used \nfor the Function ID. This maintenance becomes mandatory if you have to use an UDF in all \nor any of the Functions.\nYou can invoke the ‘User Defined Fields Function Key Mapping Maintenance’ screen by \ntyping ‘UDDFNMPT’ in the field at the top right corner of the Application tool bar and clicking \non the adjoining arrow button.\nIn this screen, you must identify the function ID to which you need to link user-defined fields. \nFor example, the Function STDCIF is based on the STTM_CUSTOMER table. The primary \nkey maintained for this table is CUSTOMER_NO. From the STDCIF.FMB, check the block \nname for the item and then enter the BLK Name (block name in the Form for the Item), \nITM_NAME (Item name in the Form) and the Order Number in this screen (Order number \ncannot be Duplicated and Should be sequential).\nAfter completing the Function Key maintenance you can continue defining the UDF for the \nFunction ID.\nYou will be prompted to link the Function ID (e.g. STDCIF) to the Field at the Definition of the \nUDF.\n(@RECORD_KEY) will hold the value of a combination of all item name values separated by \n‘~’ that are mapped in the UD function key mapping screen in the same order of order_no. \nThe Record key can be used only in the select statement."
+    },
+    {
+      "page_number": 16,
+      "sections": [],
+      "summary": "This page discusses the usage of UDF (User Defined Function) in PL/SQL code for derivation and validation rules, including examples of how to use (@RECORD_KEY), (@FIELD_VAL), and (@RETURN_VAL).",
+      "raw_text": "2-10\nFor example, select country into (@FIELD_VAL) from \nSTTM_CUSTOMER WHERE(@RECORD_KEY) and default_media = ‘MAIL’;\n(@RECORD_KEY) When UDF is linked to PRODUCT\n(@RECORD_KEY) in product level takes the value of the Contract Reference Number \n(transaction reference number). You need not maintain the function key mapping. You can \nuse the (@RECORD_KEY) in any statements in the Derivation rule and Validation Rule.\nFor example, select book_date into (@FIELD_VAL) from \nCSTBS_CONTRACT WHERE CONTRACT_REF_NO = (@RECORD_KEY);\nL_prod_code := substr((@RECORD_KEY),4,4);\n(@FIELD_VAL) := substr((@RECORD_KEY),4,4);\n(@RETURN_VAL)\nThis syntax can be used only in validation logic. You can Assign TRUE or FALSE Values to \nthis parameter.\nExample is given below.\n(@RETURN_VAL) := TRUE;\nif (@FIELD_VAL) = ‘USD’ then\n(@RETURN_VAL) := TRUE;\nelse\n(@RETURN_VAL) := FALSE;\nerr_code := ‘UD-UDF-01’;\nerr_param := (@FIELD_VAL);\nend if;\nThe ‘err_code’ and ‘err_param’ parameters can also be assigned, and will be displayed if the \nvalidation fails in population of values.\n(@UDF_field_name)\nWe can use another UDF that is already defined in the derivation logic of a UDF.\nFor example, we have another UDF DDD\n(@FIELD_VAL): = (@UDF_DDD);\nAfter writing the PL/SQL code, click ‘X’ button to execute the code. The derivation/validation \ncode is validated by the system. If any checks fail, you must alter the statement so that the \nvalidation/derivation can be made successfully. Click ‘E’ button to view the errors."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Cube Entity",
+        "Method for Populating the Cube Entity Values"
+      ],
+      "summary": "This page explains how to use the 'Cube Entity' field type in PL/SQL code and describes the process of populating values for such fields in Oracle FLEXCUBE.",
+      "raw_text": "2-11\nNote\nYou are allowed to Use any syntax in the pl/sql code other than DML statements (INSERT, \nDELETE, UPDATE) and DBMS package. You will not be allowed to USE any package, \nfunction, and procedures other than GLOBAL, DEBUG and CSPKE_MISC.\n2.6.8 \nCube Entity\nIf the field that you are creating is of the type Cube Entity, indicate the entity that is applicable \nto the field. You can select a Cube Entity from the option list positioned next to this field. This \ncontains the following Cube Entities:\nCurrency\nGL\nBranch\nCustomer\nAccount\nContract Ref No\nUser Ref No\nLiability ID\nFor instance, you need to capture details of an additional customer for a transaction. You can \nchoose the Cube Entity field type and select the Customer field. The list of customers \nmaintained for your bank will be made available at the field as in any other Customer field in \nOracle FLEXCUBE.\nMethod for Populating the Cube Entity Values\nIf the field type is ‘Cube Entity’, the values of a field can be selected from Oracle FLEXCUBE \ntables. If you select the field type as ‘Cube Entity’, the ‘Cube Entity’ screen will be displayed.\nIn the ‘Cube Entity’ screen, you need to specify the method by which the values have to be \npopulated. The options available are:\nStatic – If you choose this option, system will retrieve the values from a Oracle \nFLEXCUBE table. After specifying the cube entity, specify the table name, column \nname and where clause based on which the data will be retrieved from the table. If you \nhave defined a cube entity once, you can reuse it. The adjoining option list displays all"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Dynamic",
+        "Note",
+        "Table",
+        "Description",
+        "Where Clause",
+        "Query"
+      ],
+      "summary": "This page describes how to configure and use cube entities in a system, including selecting or dynamically populating values, specifying conditions, and writing queries.",
+      "raw_text": "2-12\nthe cube entities, which you had used earlier displays. Select the appropriate cube \nentity. On selection of the reused cube entity, system will automatically display the table \nname, column name and where clause (if specified for the selected cube entity). You \ncan however modify the condition in the where clause but not the table name and \ncolumn name. \nDynamic - If you choose this option, the values on the UDF will be populated based on \nthe query written by the user \nNote\nAt the time of installation, the implementer will write the PL/SQL code for the derivation \nrule, validation rule and also the query for fetching a cube entity according to the require-\nments of the bank.\nTable\nDepending on your selection in the ‘Cube Entity’ field, system displays the table name in \nwhich the selected cube entity is located. The value of the column (which is specified in the \nprevious field) from this table will be picked up to populate the values of the new field.\nDescription\nAfter you enter the cube entity, you may enter a brief description of the cube entity. This \ndescription will be used for information retrieval.\nWhere Clause\nEnter the condition based on which the values from the specified column and table, the values \nof the new field should be picked up. Enter the condition in this field if you have indicated \n‘Static’ method for populating the values of the cube entity.\nQuery\nThis is the code, based on which the values of the new field will be picked up.\nThe query has to be written if the option ‘Dynamic’ is selected.\n2.6.9 \nEnabling the Update Allowed Option for a UDF\nThe Update Allowed option is used during Event Processing. You can assign values to a UDF \nwhen a UDE is processed. During event processing, the system assigns certain UDF \nparameters based on the Execution Query you have maintained in the Event Processing \nscreen. You will be allowed to assign UDFs only for those UDFs for which the Update Allowed \noption has been enabled. \n2.7 \nMaking a Field Applicable to a Product\nThe fields that you define in the User Defined Fields screen can be made applicable to the \nproducts (and thereby to the contracts) that you create for the front-end modules of Oracle \nFLEXCUBE depending on your selection in the ‘Usage Allowed’ field. \nFor example, suppose you have defined a user-defined field DATE1 with ‘Usage Allowed’ as \nProduct, the UDF will be displayed for association only in the Product Definition screen of a \nmodule."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Linking UDF to Function ID"
+      ],
+      "summary": "This section explains how to link user-defined fields to function IDs in Oracle FLEXCUBE for product definition and contract input screens.",
+      "raw_text": "2-13\nAt the time of creating a product click ‘Fields’ button from the ‘Product Definition’ screen. From \nthis list of all the fields that you created, you can choose specific fields and make them \napplicable to the product.\nIn this screen, you can link the user-defined fields to the product that you are defining. Oracle \nFLEXCUBE allows you to link up to two hundred fields to a product. \nTo link a user-defined field, click add icon. A list of all the user-defined fields for which the \nUsage Allowed is ‘Product’ will be displayed. Select the fields that have to be included in the \nContract Input screen for the contracts processed under the product that is being defined.\nWhen a contract is processed under that product, the fields associated with the product will \nbe available in the Contract Input screen. \n2.8 \nUDF to a Function ID Linkage\nThis section contains the following topics:\nSection 2.8.1, \"Linking UDF to Function ID\"\n2.8.1 \nLinking UDF to Function ID\nYou can link the user-defined fields (fields for which ‘Usage Allowed’ is Function Id) to a \nfunction Id in the ‘User Defined Fields Function Key Mapping Summary’ screen. You can"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Populating the Values of UDF",
+        "Section 2.9.1, Population of UDF Values at the Contract Level"
+      ],
+      "summary": "This page explains how to populate user-defined field values in Oracle FLEXCUBE and provides examples at different levels such as contract and customer.",
+      "raw_text": "2-14\ninvoke this screen by typing ‘UDSFNMPT’. in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button.\nSelect the Function Id from the adjoining option list. For instance, if you want to include the \nuser defined fields in the ‘Chart Of Accounts- Detailed’ screen, select the function Id \nGLDCHACT. After selecting the Function Id, click add icon to select the fields that have to be \nincluded in the selected Function Id screen. A list of all function Id ‘s for which the Usage \nAllowed is specified as ‘Function Id’ will be displayed. Select the appropriate fields that have \nto be included from the list. Oracle FLEXCUBE allows you to link up to two hundred fields to \na Function ID.\nAfter you save and authorize the record, the user defined fields will be included in the \nspecified Function Id screen. \n2.9 \nPopulating the Values of UDF\nThis section contains the following topics:\nSection 2.9.1, \"Population of UDF Values at the Contract Level\"\nSection 2.9.2, \"Creating a New User Defined Field – an Example\"\nSection 2.9.3, \"Indicating the Value of a User Defined Field for a Customer\"\nSection 2.9.4, \"Using the Value of the UDF for Creating a Customer Account\"\n2.9.1 \nPopulation of UDF Values at the Contract Level\nThe defaulted or derived values of the UDF linked at the product level will be populated in the \nContract Input screen at the time of processing contracts under a particular product. Similarly, \nthe values of the UDF’s linked to a function Id will be populated in the function Id screen."
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "This page explains how user-defined fields (UDFs) are displayed and derived in the Contract Input screen based on different methods such as derivation logic, static list of values, or cube entity fields.",
+      "raw_text": "2-15\nThe UDF’s linked to a particular product will be available when a contract is processed under \nthat product. In the Contract Input screen, click ‘Fields’ button to invoke the ‘User Defined \nFields’ screen. \nIn this screen, all the user defined fields associated with the product under which you are \nprocessing the contract will be displayed. \nAccording to your specifications at the time of defining the user defined fields, system may \nderive the values of the UDF from:\nDerivation Logic: When you click ‘Fields’ button, system derives and displays the values \nof the fields for which derivation rules are written. The value description is also displayed \nalongside.\nStatic List of Values: If the validation type of the UDF that is associated with the contract \nis ‘List of Values’ (LoV), system will display the static values, along with the value \ndescription. If you have indicated a default value for the LoV, the default value and its \ndescription will be displayed. When a user selects the value from the LoV, the system \ndisplays the description on the screen.\nMethod of derivation for cube entity fields: If a UDF is of type Cube Entity, system \npopulates the values in a LoV. The values will be derived from the specified Oracle \nFLEXCUBE table (if the cube entity type is ‘Static’) or from the query written by the user \n(if the cube entity type is ‘Dynamic’) \nYou will not be allowed to change the values of the fields for which you have not allowed \namendment (if the option ‘Amendable is unchecked at the time of defining an UDF) and \nderivation is allowed (Option ‘Derivation Allowed’ is checked). \nEnter the values for the fields, for which the values are not derived by the system.\nYou can change the value of a UDF after the system has derived the value from the derivation \nlogic. But it might so happen that the derivation logic of another UDF might use the value of \nthe UDF that you have changed. Consequently, if you change the value of the UDF whose \nvalue is used in another UDF, the value of that UDF will also change. \nFor example, let us assume that you have defined a user defined field UDF1 to display the \nEuro equivalent of the contract currency."
+    },
+    {
+      "page_number": 22,
+      "sections": [],
+      "summary": "This page explains how the value of a user-defined field (UDF) UDF2 is derived from UDF1 and describes the process of creating a new UDF for customer account numbers.",
+      "raw_text": "2-16\nThe derivation logic of another user defined field (UDF2) utilizes the values of UDF1 to arrive \nat the value of UDF2. Assume that in the derivation logic written for UDF2, you have specified \nthat the value of UDF2= 2 UDF1.\nAt the contract level, system converts the contract currency into Euro equivalent and displays \nthe value of UDF1, as 220.00. According to this value of UDF2 will be 444.00. However, if you \nchange the value of UDF1 to 250.00, it will effect on the value of UDF2 also (it becomes \n500.00). \nIf the change in the UDF value has effected any other UDF, system will display an override \ninforming you about the UDF whose value will be changed. Select ‘Ok’ button if you want the \nsystem to re-calculate the value of the UDF based on the modified UDF value.\n2.9.2 \nCreating a New User Defined Field – an Example\nTo include the value of a user defined field (UDF) in the customer account number, you need \nto create a user defined field for the function Id STDCIF. Function Id STDCIF indicates the \n‘Customer Information Maintenance’ screen. Since the value of the UDF will be included in an \naccount number, it is mandatory for you enter the value of this UDF (value of the UDF is \nentered at the time of creating a customer. This is discussed in the subsequent sections of \nthis chapter). Therefore, remember to check against ‘Mandatory’ while defining the user \ndefined field. If you choose this option, system ensures that you enter a value for the UDF."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Indicating the Value of a User Defined Field for a Customer"
+      ],
+      "summary": "This section explains how to enter and display values for user-defined fields when creating new customer accounts.",
+      "raw_text": "2-17\nAfter creating the UDF, link it to the function Id STDCIF in the ‘User Defined Fields Function \nKey Mapping Summary’ screen.\n2.9.3 \nIndicating the Value of a User Defined Field for a Customer\nAt the time of creating a new customer in the ‘Customer Information Maintenance’ screen, \nclick ‘UDF’ button to invoke the ‘User Defined Fields' screen. Enter the value for the user-\ndefined field, which has to be included in the customer account (since it is mandatory). This \nvalue will be displayed at the time of defining a new customer account on selection of the \ncustomer."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Using the Value of the UDF for Creating a Customer Account"
+      ],
+      "summary": "This section explains how to include the value of a specific user-defined field in customer account numbers by informing the implementer and configuring Oracle FLEXCUBE accordingly.",
+      "raw_text": "2-18\n2.9.4 \nUsing the Value of the UDF for Creating a Customer Account\nYou might have linked several user defined fields to the customer. Out of these, you want the \nvalue of a particular UDF to be included in the account number. Therefore, your bank should \ninform the implementer of Oracle FLEXCUBE, the UDF whose value has to be picked up and \nincluded in the customer account number. \nThe implementer will indicate the UDF whose value has to be picked up and included in the \naccount number at the back end. Consequently, at the time of creating new customer \naccounts, Oracle FLEXCUBE automatically picks up the value of that particular user defined \nfield. This will be displayed on selection of the customer. \nFor example, let us assume that your bank wants to include the value of the UDF \nCUST_COUNTRY_CODE created to include the country code of the customers in customer \naccount numbers. Therefore, your bank has to inform the implementer that the value of the \nUDF CUST_COUNTRY_CODE has to be included in the account number. The implementer \nwill indicate at the back end that the value of the user defined field CUST_COUNTRY_CODE \nshould be included in the customer account number.\nLet us assume that you have entered the value IND for the UDF CUST_COUNTRY_CODE \nfor the customer Ms.Tanya Agnihotri (CIF Id 000000013).\nAt the time of creating a new account for Ms.Tanya Agnihotri, system will automatically \ndisplay the value IND on selection of CIF Id 000000013. \nIn Oracle FLEXCUBE, customer accounts are defined in the ‘Customer Accounts \nMaintenance’ screen. To create a new account for a customer, select ‘New’ from the Actions \nmenu in the Application toolbar or click new icon. You will be prompted to select the account \nnumber according to the account mask.\nIf you have specified the account mask as CCCCCCCLLLLLUUU$$$d, system will allow you \nto select the customer, account class, currency. Select these parameters from the adjoining \noption list. When you select the customer, system automatically picks up and displays the \nvalue of the UDF maintained for that customer.\n2.10 Uploading User Defined Fields\nThis section contains the following topics:\nSection 2.10.1, \"Contract Upload\"\nSection 2.10.2, \"Function Upload\"\n2.10.1 \nContract Upload\nYour bank may use Oracle FLEXCUBE to process certain transactions (say LD and FT \ntransactions) and use another application to process other transactions (say MM and FX \ntransactions).\nAt some point of time, your bank may want to use the values from the external system in \nOracle FLEXCUBE. For this purpose, Oracle FLEXCUBE stores the values of the various \nfields from the external system (an application other than Oracle FLEXCUBE) in a database \ntable. If your bank wants to use the value of the fields from the external system in Oracle \nFLEXCUBE, the values have to be brought into Oracle FLEXCUBE database. This is done \nthrough a process called ‘Upload’. \nLet us assume that your bank is processing LD transactions in Oracle FLEXCUBE and MM \ntransactions in an external system. For processing certain LD transactions, your bank wants"
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Function Upload",
+        "User Defined Fields for Account Statements"
+      ],
+      "summary": "This page explains how to upload values from MM transactions into Oracle FLEXCUBE and describes the process of defining user-defined fields for account statements in Oracle FLEXCUBE.",
+      "raw_text": "2-19\nto use the values from certain MM transactions. Therefore, you will have to put the value of \nthe contract reference number along with the field name and value of the MM transactions, \nwhich you want to use in Oracle FLEXCUBE into a database Upload table with the status \nmarked as ‘U’ (indicating that it has to be taken up for processing). This Upload table contains \nthe values posted from the external system. Subsequently, you will have to bring the values \nof these fields into Oracle FLEXCUBE. This is done by running the contract upload program. \nWhen you run this program, Oracle FLEXCUBE selects the fields for which the status is ‘P’. \nIt will upload the values from the external system into Oracle FLEXCUBE database. \n2.10.2 \nFunction Upload\nThe values of the fields from external system used in the maintenance screens should be \nuploaded into Oracle FLEXCUBE database. \n2.11 User Defined Fields for Account Statements\nThis section contains the following topics:\nSection 2.11.1, \"Invoking Detailed Account Statement Fields Maintenance Screen\"\nSection 2.11.2, \"Defining User Defined Fields for Customers\"\nSection 2.11.3, \"Making the UDF part of the Customer Maintenance screen\"\nSection 2.11.4, \"Defining UDFs for SSIA\"\nSection 2.11.5, \"Maintaining UDF for the Cheque Book Details screen\"\n2.11.1 \nInvoking Detailed Account Statement Fields Maintenance Screen\nThe ‘Detailed Account Statement Fields Maintenance’ screen in Oracle FLEXCUBE allows \nyou to define fields that you wish to appear in the account statements for all the modules. You \ncan also define the list of values for the user defined fields that need to appear in the \nstatements."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "In the Detailed Account Statement Fields Maintenance screen",
+        "Product Code",
+        "User Defined Field Name",
+        "Statement User Defined Field Number"
+      ],
+      "summary": "This page describes how to maintain user-defined fields for a product in the Detailed Account Statement Fields Maintenance screen, including details on selecting product codes and defining field names.",
+      "raw_text": "2-20\nIn the Detailed Account Statement Fields Maintenance screen, you can specify a list of user \ndefined fields applicable for a product that you have created. Each list can be identified by an \nUDF name and description.\nYou can maintain as many UDF and product combination as you require. \nIn this screen, you have to maintain the following details:\nProduct Code\nYou can select the product for which the user defined field details are being maintained. The \nuser defined field details will be validated only for transactions involving the product selected \nin this field. The description for the product code will be displayed on selection of the product \ncode.\nUser Defined Field Name \nYou have to select the UDF name from the option list for which the account statement \nmaintenance has been initiated.\nUser Defined Field Name\nIn addition to the UDF name, you can give a brief description to describe each UDF. \nStatement User Defined Field Number\nThe system automatically displays the statement number sequentially for the user defined \nfield you have selected. \nIn Oracle FLEXCUBE, when ever an Account Statement is generated for any of the modules, \nthe following details is displayed in the User Defined Field Detailed section:\nA unique contract reference number \nA user reference number\nA brief description for the account number\nA brief description of the offset account number \nThe bill number of the contract\nThe issue date of the contract\nA brief narrative of the contract\nIdentification of the institution\nThe bill amount\nThe currency of the bill\nDescription of the charge 1\nDetails of the charge 1\nDescription of the charge 2\nDetails of the charge 2\n2.11.2 \nDefining User Defined Fields for Customers\nOn occasions, to know your customer better, you may need to capture additional information \nabout the customer. This is in addition to the regular information that you would capture in the \nCustomer Information Maintenance screen. You can do so by defining a set of UDFs and \nassociating them with the function id ‘STDCIF’ (for Customer Information Maintenance \nscreen). On association, the UDFs will be available in the screen and you can enter the values \nfor the same. The values will be verified for adherence to the validation rules maintained for \nthe UDFs."
+    },
+    {
+      "page_number": 27,
+      "sections": [],
+      "summary": "This page explains how to define and validate a 'Personal Identification Number' and a 'Tax Number' as User Defined Fields in a banking system.",
+      "raw_text": "2-21\nFor instance, you may want to capture the ‘Personal Identification Number’ for all individual \ncustomers of your bank. To achieve this, you need to define ‘Personal Identification Number’ \nas an UDF in the User Defined Fields screen. You can also write a code to validate the entry \ninto this field. \nFor example, the bank wants to add a new field to capture the Tax Number of all its corporate \ncustomers. The bank wants to maintain a 10-digit tax number and further, wants to validate \nthe 10th digit of this number based on the following rule.\nMultiply the value of each position (1 to 9) with the weight for each position. Your bank will \nprovide the weight for each position. For instance, assume that the tax number is 145736257.\nThe position-wise weight and tax number and the product (of weight and number) is as \nprovided below:\nSum of the product = 160.\nDivide the value 160 by 11 to obtain the remainder.\nRemainder = (160/11) = 6\nTherefore, the 10th digit = (11 – Remainder) = 11 – 6 = 5\nAs per this algorithm, if the remainder is 1, then the value of the UDF (Tax Number) should \nbe considered as an invalid number. If zero is the remainder, then zero should be taken as \nthe 10th digit of the tax number entered. \nTo do this:\nYou need to define the UDF ‘Tax Number’\nSpecify Usage Allowed as ‘Function ID’.\nWrite a rule to validate the 10th digit of the Tax Number as per the above specifications.\nMap the UDF ‘Tax Number’ with the Function Id ‘STDCIF’ (function id for Customer \nMaintenances screen) so as to make the field appear in the Customer Maintenance \nscreen. You can then enter the value for the same. \nThe procedure for mapping the UDF with the function id ‘STDCIF’ is explained in the following \nsections.\n2.11.3 \nMaking the UDF part of the Customer Maintenance screen\nYou can make the UDFs defined for the function id ‘STDCIF’ as part of the Customer \nMaintenance screen. Oracle FLEXCUBE allows you to include a maximum of five UDFs in the \nscreen.\nFields\nPositions\n1\n2\n3\n4\n5\n6\n7\n8\n9\nWeight (W)\n4\n3\n2\n7\n6\n5\n4\n3\n2\nNumber (N)\n1\n4\n5\n7\n3\n6\n2\n5\n7\nProduct (W * \nN)\n4\n12\n10\n49\n18\n30\n8\n15\n14"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "The mapping is achieved through the ‘Embedded Field Maintenance’ screen invoked from the Application Browser."
+      ],
+      "summary": "This page explains how to use the 'Embedded Field Maintenance' screen in the Application Browser to select and sequence User Defined Fields (UDFs) for inclusion in the Customer Maintenance screen.",
+      "raw_text": "2-22\nThe mapping is achieved through the ‘Embedded Field Maintenance’ screen invoked from the \nApplication Browser. You can invoke this screen by typing ‘STDBSUDF’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nSelect the function id ‘STDCIF’ from the option-list provided. All the UDFs maintained for the \nselected function Id would be available in the option-list for the ‘Field Name’. Select the UDFs \nyou want to include in the ‘Customer Maintenance’ screen. You can select a maximum of five \nUDFs. Also, specify the sequence in which you would like the UDFs to appear in the screen. \nThe selected UDFs will form a part of the Customer Maintenance screen and will be displayed \nin the sequence that you specify."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Defining UDFs for SSIA"
+      ],
+      "summary": "This section explains how to define User Defined Fields (UDFs) for a Special Savings Account for Income Accounting (SSIA), including their usage in specific screens and the information they need to communicate to the Revenue department.",
+      "raw_text": "2-23\nThe value that you enter for the UDFs will be validated as per the validation rules maintained \nduring the definition of the UDF.\n2.11.4 \nDefining UDFs for SSIA\nSSIA refers to a special type of savings account used for promoting savings by customers. \nDepending on the policies of your government, you can maintain a minimum and a maximum \ndeposit amount for an SSIA. Further, you can also assign a fixed allowance rate on the \ndeposited amount if the deposit is within the specified limits.\nOn maturity, you can send the details of the SSIA to the Revenue department to claim the \nallowance made to the customer. \nRefer to the ‘Products’ chapter of the ‘Interest & Charges’ User Manual for details on SSIA \nprocessing.\nYou can maintain UDFs to communicate the information related to the SSIA to the Revenue \ndepartment. The following UDFs need to be maintained:\nFor Usage in the Bank Parameters Screen\nAt the time of maintaining the above UDFs in the User Defined Fields’ screen, you need to \nassociate them with the function id ‘STDBANKP’ for allowing them to appear in the Bank \nParameters screen.\nFor Usage in the Customer Accounts Maintenance Screen\nWhen defining the above UDFs, you have to associate them with the function id ‘STDCUSAC’ \nfor allowing their usage in the Customer Accounts Maintenance screen.\nName of the UDF\nDescription\nContact Person\nName of the contact person in your bank for the SSIA account.\nContact Number\nTelephone number of the contact person\nUDF Name\nDescription\nDate of account \nOpening\nThe date on which the SSIA account is opened. If the account is \nmaintained in your bank, it will be the account open date as speci-\nfied in the Customer Account Maintenance screen. For a trans-\nferred account, a different date will be captured.\nDate of account \nMaturity\nMaturity date of the SSIA account\nTotal Subscription \namount\nThe total amount deposited until the transfer of the account from a \ndifferent bank.\nTotal Tax Credit\nTotal tax credit on the lodgment amount by the exchequer until the \ntransfer of the account from a different bank.\nTotal Interest\nTotal interest acquired on the account till the account is transferred.\nAmount Deposited \ninto the SSIA on \nthe transfer Month\nAmount deposited into the SSIA in the transfer month till the \naccount is transferred.\nTermination \nMethod\nThe possible values are ‘Termination’ and ‘Closure’. The field value \nwill be ‘Termination’ when the account is terminated and ‘Closure’ \nwhen the account is transferred to another bank."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Maintaining UDF for the Cheque Book Details screen"
+      ],
+      "summary": "This section explains how to define and use a User Defined Field (UDF) 'Cheque Type' for managing cheque book reordering in Oracle FLEXCUBE.",
+      "raw_text": "2-24\nThese fields will be used only for information purposes. Oracle FLEXCUBE will validate all \nentries made to the field as per the validations defined, if any. \n2.11.5 \nMaintaining UDF for the Cheque Book Details screen\nFor Cheque Book reordering, whether manual or automatic, you have to indicate the type of \ncheque to be reordered. For this, you can define an UDF ‘Cheque Type’ and associate it with \nthe function id ‘CACHBOOK’ (for Cheque Book Details screen). You can maintain a list of \nvalues (LOV) and their descriptions when defining the UDF in the User Defined Fields screen.\nThe possible values and the descriptions for this UDF are as follows:\nAt the time of defining cheque book ordering details in the Cheque Book Details screen, \ninvoke the ‘User Defined Fields’ screen. In this screen, the UDF ‘Cheque Type’ that you had \nlinked to the function Id ‘CACHBOOK’ will be displayed along with the list of values. You can \nclick on the option-list provided and select the value of your choice. \nRefer to the ‘CASA’ User Manual for details on maintaining Cheque Book reordering \nparameters in the Cheque Book Details screen.\nValue\nDescription\nJ\n20 page x 3.5’ Personal\nK\n40 page x 3.5’ Business\nP\n40 page x 3.5’ Business\nL\n40 page x 3.5’ (2 Part)\nR\n80 page x 3.5’ Business"
+    },
+    {
+      "page_number": 31,
+      "sections": [],
+      "summary": "This page appears to list function IDs and their corresponding pages in a glossary.",
+      "raw_text": "3-1\n3. Function ID Glossary\nS\nSTDBSUDF .....................2-22\nU\nUDDFNMPT ...................... 2-9\nUDSFNMPT .................... 2-14"
+    }
+  ]
+}

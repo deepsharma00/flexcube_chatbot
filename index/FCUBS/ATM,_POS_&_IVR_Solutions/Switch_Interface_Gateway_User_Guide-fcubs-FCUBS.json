@@ -1,0 +1,1539 @@
+{
+  "source": "FlexCube/FCUBS/ATM,_POS_&_IVR_Solutions/Switch_Interface_Gateway_User_Guide-fcubs-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 54,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's preface and outlines the switch interface gateway section, including its functionalities and specific transaction types.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This manual describes the interface between Oracle FLEXCUBE and the Switch software system in a bank, detailing required maintenances, workflow, validations, and processing for users such as back office data entry clerks and managers/officers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This manual describes the interface between Oracle FLEXCUBE and the Switch software system in a bank, detailing required maintenances, workflow, validations, and processing for users such as back office data entry clerks and managers/officers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This manual describes the interface between Oracle FLEXCUBE and the Switch software system in a bank, detailing required maintenances, workflow, validations, and processing for users such as back office data entry clerks and managers/officers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This manual describes the interface between Oracle FLEXCUBE and the Switch software system in a bank, detailing required maintenances, workflow, validations, and processing for users such as back office data entry clerks and managers/officers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Abbreviations",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page introduces abbreviations and organization of the manual, including chapters on about the manual and switch interface gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Organization",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page introduces abbreviations and organization of the manual, including chapters on about the manual and switch interface gateway.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Abbreviations",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 7
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Glossary of Icons",
+          "start_page": 7
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        }
+      ]
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides references to additional manuals and a glossary of icons used in the User Manual for the Switch System installed in your Bank.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Glossary of Icons",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page provides references to additional manuals and a glossary of icons used in the User Manual for the Switch System installed in your Bank.",
+      "cross_references": [
+        {
+          "structure": "3",
+          "title": "2. Switch Interface Gateway",
+          "start_page": 8
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Interface Functionalities",
+          "start_page": 8
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 ATM Transactions",
+          "start_page": 9
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Point Of Sale Transactions",
+          "start_page": 10
+        },
+        {
+          "structure": "3.1.3",
+          "title": "2.1.3 ATM/POS Notifications",
+          "start_page": 11
+        },
+        {
+          "structure": "3.1.4",
+          "title": "2.1.4 IVR Transactions",
+          "start_page": 12
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Gateway Maintenance for Switch Interface",
+          "start_page": 13
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Upload Source",
+          "start_page": 13
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Maintaining FLEXSWITCH External System",
+          "start_page": 13
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Specifying External System Functions",
+          "start_page": 15
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 Specifying Source Preferences",
+          "start_page": 15
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Switch Interface Maintenance",
+          "start_page": 16
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Defining Currency for Currency Code Conversion",
+          "start_page": 17
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Maintaining Card Transaction Limits",
+          "start_page": 18
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 ATM/Debit Card Mapping for Card Account Number Conversion",
+          "start_page": 19
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Card Accounts Detail",
+          "start_page": 21
+        },
+        {
+          "structure": "3.3.5",
+          "title": "2.3.5 Card Customer Maintenance",
+          "start_page": 21
+        },
+        {
+          "structure": "3.3.6",
+          "title": "2.3.6 Maintaining Channel Details",
+          "start_page": 23
+        },
+        {
+          "structure": "3.3.7",
+          "title": "2.3.7 Maintaining Process Code Mapping Details",
+          "start_page": 23
+        },
+        {
+          "structure": "3.3.8",
+          "title": "2.3.8 Maintaining Network Details",
+          "start_page": 24
+        },
+        {
+          "structure": "3.3.9",
+          "title": "2.3.9 Maintaining Merchant Details",
+          "start_page": 25
+        },
+        {
+          "structure": "3.3.10",
+          "title": "2.3.10 Maintaining Terminal Details",
+          "start_page": 26
+        },
+        {
+          "structure": "3.3.11",
+          "title": "2.3.11 Maintaining Utility Provider Details",
+          "start_page": 28
+        },
+        {
+          "structure": "3.3.12",
+          "title": "2.3.12 Maintaining Product Types for Product Derivation",
+          "start_page": 28
+        },
+        {
+          "structure": "3.3.13",
+          "title": "2.3.13 Showing Amount Block Transactions in Account Statements",
+          "start_page": 30
+        },
+        {
+          "structure": "3.3.14",
+          "title": "2.3.14 Modifying a Product Preferences Screen",
+          "start_page": 31
+        },
+        {
+          "structure": "3.3.15",
+          "title": "2.3.15 Maintaining Charges for Non-financial Transactions",
+          "start_page": 31
+        },
+        {
+          "structure": "3.3.16",
+          "title": "2.3.16 ARC Maintenance",
+          "start_page": 32
+        },
+        {
+          "structure": "3.3.17",
+          "title": "2.3.17 Service Charges for Inter- branch Transactions",
+          "start_page": 33
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Batch Processes",
+          "start_page": 34
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Maintaining Batches for Batch Operations",
+          "start_page": 34
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Settlement Upload",
+          "start_page": 34
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 Intra Day Batch",
+          "start_page": 35
+        },
+        {
+          "structure": "3.4.4",
+          "title": "2.4.4 Viewing Transaction Monitor",
+          "start_page": 37
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Cards Upload",
+          "start_page": 37
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Terminal ID Upload",
+          "start_page": 39
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 ATM Cash Deposits",
+          "start_page": 39
+        },
+        {
+          "structure": "4",
+          "title": "3. Annexure A",
+          "start_page": 41
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Switch Software and Card Transactions Business",
+          "start_page": 41
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 ISO8583 Protocol Overview",
+          "start_page": 42
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Switch Transaction Categories",
+          "start_page": 42
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Accounting Entries – ATM Transactions",
+          "start_page": 42
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Accounting Entries for Cash Withdrawal Transactions",
+          "start_page": 42
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Accounting Entries for Balance Enquiry",
+          "start_page": 44
+        },
+        {
+          "structure": "4.4.3",
+          "title": "3.4.3 Accounting Entries for Deposit",
+          "start_page": 45
+        },
+        {
+          "structure": "4.4.4",
+          "title": "3.4.4 Accounting Entries for Funds Transfer",
+          "start_page": 45
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Accounting Entries - POS Purchase",
+          "start_page": 45
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Balance Handoff File Formats",
+          "start_page": 47
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Network Settlement Message Format",
+          "start_page": 48
+        },
+        {
+          "structure": "4.8",
+          "title": "3.8 Merchant Settlement File Format",
+          "start_page": 50
+        },
+        {
+          "structure": "4.9",
+          "title": "3.9 Maintaining SWTB_PARAM Table",
+          "start_page": 51
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Switch Interface Gateway",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page describes the functionalities of Oracle FLEXCUBE Switch Interface and its maintenance processes, including ATM and POS transactions, IVR transactions, and gateway maintenance.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Interface Functionalities",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page describes the functionalities of Oracle FLEXCUBE Switch Interface and its maintenance processes, including ATM and POS transactions, IVR transactions, and gateway maintenance.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Abbreviations",
+          "start_page": 6
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Organization",
+          "start_page": 6
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Glossary of Icons",
+          "start_page": 7
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 7
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.1.1",
+      "title": "2.1.1 ATM Transactions",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This section describes functionalities related to ATM transactions, including cash withdrawal, balance enquiry, mini statement enquiry, and deposit processes, along with the corresponding accounting entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.2",
+      "title": "2.1.2 Point Of Sale Transactions",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page describes different facilities for fund transfers, utility payments, and ad-hoc statement generation requests, including how they are processed and the corresponding accounting entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.3",
+      "title": "2.1.3 ATM/POS Notifications",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page details various transaction types and their corresponding accounting entries in Oracle FLEXCUBE, including cash advances, refunds, adjustments, pre-auth completions, and ATM/POS notifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.4",
+      "title": "2.1.4 IVR Transactions",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page lists various fields and transactions supported by IVR, including balance enquiry, mini statement enquiry, ad-hoc statement generation request, cheque book issue, funds transfer, and utility payments.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Gateway Maintenance for Switch Interface",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page describes how to maintain upload sources and FLEXSWITCH external systems for setting up switch interface gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Maintaining Upload Source",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page describes how to maintain upload sources and FLEXSWITCH external systems for setting up switch interface gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Maintaining FLEXSWITCH External System",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This page describes how to maintain upload sources and FLEXSWITCH external systems for setting up switch interface gateway.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "2.2.3 Specifying External System Functions",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page describes how to specify external system functions and set source preferences in the 'External System Functions – Detailed' and 'Upload Source Preferences Maintenance' screens respectively.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.4",
+      "title": "2.2.4 Specifying Source Preferences",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page describes how to specify external system functions and set source preferences in the 'External System Functions – Detailed' and 'Upload Source Preferences Maintenance' screens respectively.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Switch Interface Maintenance",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This page outlines the steps for configuring source code and module settings, handling exceptions during uploads, and maintaining various aspects of the Oracle FLEXCUBE – Switch system interface.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Defining Currency for Currency Code Conversion",
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This page discusses various maintenance procedures including process code mapping, network details, merchant and terminal information, utility providers, product types, transaction displays, preferences modifications, charges management, and service fees.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Maintaining Card Transaction Limits",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page explains how to set and maintain transaction limits for different card types and transactions in a system, including ATM and POS operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.3",
+      "title": "2.3.3 ATM/Debit Card Mapping for Card Account Number Conversion",
+      "start_page": 19,
+      "end_page": 21,
+      "summary": "This page discusses setting daily transaction limits for POS and mapping ATM/debit card numbers to Oracle FLEXCUBE account numbers.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.4",
+      "title": "2.3.4 Card Accounts Detail",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This page describes how to access and use the 'Card Accounts Detail' and 'Card Customer Maintenance' screens for querying card account details and maintaining customer information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.5",
+      "title": "2.3.5 Card Customer Maintenance",
+      "start_page": 21,
+      "end_page": 23,
+      "summary": "This page describes how to access and use the 'Card Accounts Detail' and 'Card Customer Maintenance' screens for querying card account details and maintaining customer information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.6",
+      "title": "2.3.6 Maintaining Channel Details",
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This page describes how to define channel names and maintain process code mappings in a system, including specifying channels and descriptions for channels, as well as creating and maintaining ISO transaction codes and their corresponding Oracle FLEXCUBE transaction literals.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.7",
+      "title": "2.3.7 Maintaining Process Code Mapping Details",
+      "start_page": 23,
+      "end_page": 24,
+      "summary": "This page describes how to define channel names and maintain process code mappings in a system, including specifying channels and descriptions for channels, as well as creating and maintaining ISO transaction codes and their corresponding Oracle FLEXCUBE transaction literals.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.8",
+      "title": "2.3.8 Maintaining Network Details",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This page describes how to input details for Oracle FLEXCUBE in the Application toolbar and explains the process of maintaining network details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.9",
+      "title": "2.3.9 Maintaining Merchant Details",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page details how to specify network IDs, account numbers, issuer and acquirer bank details, and merchant information for card transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.10",
+      "title": "2.3.10 Maintaining Terminal Details",
+      "start_page": 26,
+      "end_page": 28,
+      "summary": "This page details the mandatory fields for specifying a merchant's ID, account branch, and number, as well as instructions on maintaining terminal details such as the originating branch, cash GL, and terminal ID.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.11",
+      "title": "2.3.11 Maintaining Utility Provider Details",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page describes settings and maintenance procedures related to ATM Intelligent Deposits, utility provider details, and product types for transaction requests in an Oracle FLEXCUBE system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.12",
+      "title": "2.3.12 Maintaining Product Types for Product Derivation",
+      "start_page": 28,
+      "end_page": 30,
+      "summary": "This page describes settings and maintenance procedures related to ATM Intelligent Deposits, utility provider details, and product types for transaction requests in an Oracle FLEXCUBE system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.13",
+      "title": "2.3.13 Showing Amount Block Transactions in Account Statements",
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This section explains how to include transactions resulting in amount blocks in customer account statements and provides details on creating an amount block through the 'Amount Block Input' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.14",
+      "title": "2.3.14 Modifying a Product Preferences Screen",
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This page discusses various settings and options related to amount blocks, available balance verification, modifying product preferences, and maintaining charges for non-financial transactions in the Switch interface system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.15",
+      "title": "2.3.15 Maintaining Charges for Non-financial Transactions",
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This page discusses various settings and options related to amount blocks, available balance verification, modifying product preferences, and maintaining charges for non-financial transactions in the Switch interface system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.16",
+      "title": "2.3.16 ARC Maintenance",
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This page explains how to invoke and use the 'Retail Teller Product Maintenance' and 'ARC Maintenance' screens for maintaining charges related to non-financial transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.17",
+      "title": "2.3.17 Service Charges for Inter- branch Transactions",
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This section explains how service charges are applied in inter-branch transactions and details the process of maintaining these charges through different product levels.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Batch Processes",
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "This page discusses batch processes in Oracle FLEXCUBE – Switch Interface, including maintaining batches and performing settlement uploads.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Maintaining Batches for Batch Operations",
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "This page discusses batch processes in Oracle FLEXCUBE – Switch Interface, including maintaining batches and performing settlement uploads.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 Settlement Upload",
+      "start_page": 34,
+      "end_page": 35,
+      "summary": "This page discusses batch processes in Oracle FLEXCUBE – Switch Interface, including maintaining batches and performing settlement uploads.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.3",
+      "title": "2.4.3 Intra Day Batch",
+      "start_page": 35,
+      "end_page": 37,
+      "summary": "This page describes how to specify details for uploading settlement files into Oracle FLEXCUBE and lists functions available in the Intra Day Batch Start screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.4",
+      "title": "2.4.4 Viewing Transaction Monitor",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page describes how to view transaction statuses and upload card account mappings through specific screens in an application.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Cards Upload",
+      "start_page": 37,
+      "end_page": 39,
+      "summary": "This page describes how to view transaction statuses and upload card account mappings through specific screens in an application.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Terminal ID Upload",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page describes how to upload terminal IDs and manage ATM cash deposits for ATMs without Intelligent Deposits facilities.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 ATM Cash Deposits",
+      "start_page": 39,
+      "end_page": 41,
+      "summary": "This page describes how to upload terminal IDs and manage ATM cash deposits for ATMs without Intelligent Deposits facilities.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Annexure A",
+      "start_page": 41,
+      "end_page": 41,
+      "summary": "This section provides an overview of the switch software domain and its functionalities in managing card transactions, including maintaining information, processing transactions, and performing authorization.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Switch Software and Card Transactions Business",
+      "start_page": 41,
+      "end_page": 42,
+      "summary": "This section provides an overview of the switch software domain and its functionalities in managing card transactions, including maintaining information, processing transactions, and performing authorization.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Interface Functionalities",
+          "start_page": 8
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 ATM Transactions",
+          "start_page": 9
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Point Of Sale Transactions",
+          "start_page": 10
+        },
+        {
+          "structure": "3.1.3",
+          "title": "2.1.3 ATM/POS Notifications",
+          "start_page": 11
+        },
+        {
+          "structure": "3.1.4",
+          "title": "2.1.4 IVR Transactions",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Switch Interface Maintenance",
+          "start_page": 16
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Defining Currency for Currency Code Conversion",
+          "start_page": 17
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Maintaining Card Transaction Limits",
+          "start_page": 18
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 ATM/Debit Card Mapping for Card Account Number Conversion",
+          "start_page": 19
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Card Accounts Detail",
+          "start_page": 21
+        },
+        {
+          "structure": "3.3.5",
+          "title": "2.3.5 Card Customer Maintenance",
+          "start_page": 21
+        },
+        {
+          "structure": "3.3.6",
+          "title": "2.3.6 Maintaining Channel Details",
+          "start_page": 23
+        },
+        {
+          "structure": "3.3.7",
+          "title": "2.3.7 Maintaining Process Code Mapping Details",
+          "start_page": 23
+        },
+        {
+          "structure": "3.3.8",
+          "title": "2.3.8 Maintaining Network Details",
+          "start_page": 24
+        },
+        {
+          "structure": "3.3.9",
+          "title": "2.3.9 Maintaining Merchant Details",
+          "start_page": 25
+        },
+        {
+          "structure": "3.3.10",
+          "title": "2.3.10 Maintaining Terminal Details",
+          "start_page": 26
+        },
+        {
+          "structure": "3.3.11",
+          "title": "2.3.11 Maintaining Utility Provider Details",
+          "start_page": 28
+        },
+        {
+          "structure": "3.3.12",
+          "title": "2.3.12 Maintaining Product Types for Product Derivation",
+          "start_page": 28
+        },
+        {
+          "structure": "3.3.13",
+          "title": "2.3.13 Showing Amount Block Transactions in Account Statements",
+          "start_page": 30
+        },
+        {
+          "structure": "3.3.14",
+          "title": "2.3.14 Modifying a Product Preferences Screen",
+          "start_page": 31
+        },
+        {
+          "structure": "3.3.15",
+          "title": "2.3.15 Maintaining Charges for Non-financial Transactions",
+          "start_page": 31
+        },
+        {
+          "structure": "3.3.16",
+          "title": "2.3.16 ARC Maintenance",
+          "start_page": 32
+        },
+        {
+          "structure": "3.3.17",
+          "title": "2.3.17 Service Charges for Inter- branch Transactions",
+          "start_page": 33
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Batch Processes",
+          "start_page": 34
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Maintaining Batches for Batch Operations",
+          "start_page": 34
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Settlement Upload",
+          "start_page": 34
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 Intra Day Batch",
+          "start_page": 35
+        },
+        {
+          "structure": "3.4.4",
+          "title": "2.4.4 Viewing Transaction Monitor",
+          "start_page": 37
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Gateway Maintenance for Switch Interface",
+          "start_page": 13
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Upload Source",
+          "start_page": 13
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Maintaining FLEXSWITCH External System",
+          "start_page": 13
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Specifying External System Functions",
+          "start_page": 15
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 Specifying Source Preferences",
+          "start_page": 15
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Terminal ID Upload",
+          "start_page": 39
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Cards Upload",
+          "start_page": 37
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 ATM Cash Deposits",
+          "start_page": 39
+        }
+      ]
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 ISO8583 Protocol Overview",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page provides an overview of the ISO8583 protocol for financial transactions and introduces switch transaction categories, followed by details on accounting entries for ATM transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Switch Transaction Categories",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page provides an overview of the ISO8583 protocol for financial transactions and introduces switch transaction categories, followed by details on accounting entries for ATM transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Accounting Entries – ATM Transactions",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page provides an overview of the ISO8583 protocol for financial transactions and introduces switch transaction categories, followed by details on accounting entries for ATM transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.1",
+      "title": "3.4.1 Accounting Entries for Cash Withdrawal Transactions",
+      "start_page": 42,
+      "end_page": 44,
+      "summary": "This page provides an overview of the ISO8583 protocol for financial transactions and introduces switch transaction categories, followed by details on accounting entries for ATM transactions.",
+      "cross_references": [
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Settlement Upload",
+          "start_page": 34
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Maintaining Batches for Batch Operations",
+          "start_page": 34
+        },
+        {
+          "structure": "3.4.4",
+          "title": "2.4.4 Viewing Transaction Monitor",
+          "start_page": 37
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 Intra Day Batch",
+          "start_page": 35
+        }
+      ]
+    },
+    {
+      "structure": "4.4.2",
+      "title": "3.4.2 Accounting Entries for Balance Enquiry",
+      "start_page": 44,
+      "end_page": 45,
+      "summary": "This page details various accounting entries related to different types of transactions and fee distributions across multiple networks.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.3",
+      "title": "3.4.3 Accounting Entries for Deposit",
+      "start_page": 45,
+      "end_page": 45,
+      "summary": "This page details accounting entries for deposit transactions, funds transfer transactions, and point of sale purchases.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.4",
+      "title": "3.4.4 Accounting Entries for Funds Transfer",
+      "start_page": 45,
+      "end_page": 45,
+      "summary": "This page details accounting entries for deposit transactions, funds transfer transactions, and point of sale purchases.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5",
+      "title": "3.5 Accounting Entries - POS Purchase",
+      "start_page": 45,
+      "end_page": 47,
+      "summary": "This page details accounting entries for deposit transactions, funds transfer transactions, and point of sale purchases.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6",
+      "title": "3.6 Balance Handoff File Formats",
+      "start_page": 47,
+      "end_page": 48,
+      "summary": "This page describes the accounting entries for network and merchant settlement processes, including suspense accounts and transaction fees, followed by details on balance handoff file formats used in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7",
+      "title": "3.7 Network Settlement Message Format",
+      "start_page": 48,
+      "end_page": 50,
+      "summary": "This page describes the format of network settlement files accepted by Oracle FLEXCUBE, detailing field names, sizes, and descriptions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.8",
+      "title": "3.8 Merchant Settlement File Format",
+      "start_page": 50,
+      "end_page": 51,
+      "summary": "This page describes the format of the file accepted by Oracle FLEXCUBE for Merchant Settlements, detailing various fields and their purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.9",
+      "title": "3.9 Maintaining SWTB_PARAM Table",
+      "start_page": 51,
+      "end_page": 54,
+      "summary": "This section describes the maintenance of the SWTB_PARAM table for the Switch Interface Gateway system's initial parameters.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Function ID Glossary",
+      "start_page": 54,
+      "end_page": 56,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page introduces the Switch Interface Gateway User Guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Switch Interface Gateway User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal disclaimers for Oracle Financial Services Software Limited's Switch Interface Gateway User Guide.",
+      "raw_text": "Switch Interface Gateway User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Switch Interface Gateway"
+      ],
+      "summary": "This page introduces the document's preface and outlines the switch interface gateway section, including its functionalities and specific transaction types.",
+      "raw_text": "Contents\n1. \nPreface  ..................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nAbbreviations...........................................................................................................  1-2\n1.5 \nOrganization ............................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-3\n1.7 \n Glossary of Icons....................................................................................................  1-3\n2. \nSwitch Interface Gateway ....................................................................... 2-1\n2.1 \nInterface Functionalities...........................................................................................  2-1\n2.1.1  \nATM Transactions ......................................................................................  2-2\n2.1.2  \nPoint Of Sale Transactions ........................................................................  2-3\n2.1.3  \nATM/POS Notifications...............................................................................  2-4\n2.1.4  \nIVR Transactions........................................................................................  2-5\n2.2 \nGateway Maintenance for Switch Interface.............................................................  2-6\n2.2.1  \n Maintaining Upload Source .......................................................................  2-6\n2.2.2  \nMaintaining FLEXSWITCH External System..............................................  2-6\n2.2.3  \nSpecifying External System Functions .......................................................  2-8\n2.2.4  \nSpecifying Source Preferences ..................................................................  2-8\n2.3 \nSwitch Interface Maintenance .................................................................................  2-9\n2.3.1  \nDefining Currency for Currency Code Conversion ...................................  2-10\n2.3.2  \nMaintaining Card Transaction Limits ........................................................  2-11\n2.3.3  \nATM/Debit Card Mapping for Card Account Number Conversion............  2-12\n2.3.4  \nCard Accounts Detail................................................................................  2-14\n2.3.5  \nCard Customer Maintenance....................................................................  2-14\n2.3.6  \nMaintaining Channel Details.....................................................................  2-16\n2.3.7  \nMaintaining Process Code Mapping Details.............................................  2-16\n2.3.8  \nMaintaining Network Details .....................................................................  2-17\n2.3.9  \nMaintaining Merchant Details ...................................................................  2-18\n2.3.10  Maintaining Terminal Details ....................................................................  2-19\n2.3.11  Maintaining Utility Provider Details...........................................................  2-21\n2.3.12  Maintaining Product Types for Product Derivation ...................................  2-21\n2.3.13  Showing Amount Block Transactions in Account Statements..................  2-23\n2.3.14  Modifying a Product Preferences Screen.................................................  2-24\n2.3.15  Maintaining Charges for Non-financial Transactions................................  2-24\n2.3.16  ARC Maintenance ....................................................................................  2-25\n2.3.17  Service Charges for Inter- branch Transactions.......................................  2-26\n2.4 \nBatch Processes....................................................................................................  2-27\n2.4.1  \nMaintaining Batches for Batch Operations ...............................................  2-27\n2.4.2  \nSettlement Upload ....................................................................................  2-27\n2.4.3  \nIntra Day Batch.........................................................................................  2-28\n2.4.4  \nViewing Transaction Monitor ....................................................................  2-30\n2.5 \nCards Upload.........................................................................................................  2-30\n2.6 \nTerminal ID Upload................................................................................................  2-32"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Switch Software and Card Transactions Business",
+        "ISO8583 Protocol Overview",
+        "Switch Transaction Categories",
+        "Accounting Entries – ATM Transactions",
+        "Balance Handoff File Formats",
+        "Network Settlement Message Format"
+      ],
+      "summary": "This page discusses various aspects of switch software, card transactions, and accounting entries related to ATM transactions.",
+      "raw_text": "2.7 \nATM Cash Deposits...............................................................................................  2-32\n3. \nAnnexure A ............................................................................................... 3-1\n3.1 \nSwitch Software and Card Transactions Business..................................................  3-1\n3.2 \nISO8583 Protocol Overview ....................................................................................  3-2\n3.3 \nSwitch Transaction Categories................................................................................  3-2\n3.4 \nAccounting Entries – ATM Transactions .................................................................  3-2\n3.4.1  \nAccounting Entries for Cash Withdrawal Transactions...............................  3-2\n3.4.2  \nAccounting Entries for Balance Enquiry .....................................................  3-4\n3.4.3  \nAccounting Entries for Deposit ...................................................................  3-5\n3.4.4  \nAccounting Entries for Funds Transfer .......................................................  3-5\n3.5 \nAccounting Entries - POS Purchase........................................................................  3-5\n3.6 \nBalance Handoff File Formats.................................................................................  3-7\n3.7 \nNetwork Settlement Message Format .....................................................................  3-8\n3.8 \nMerchant Settlement File Format ..........................................................................  3-10\n3.9 \nMaintaining SWTB_PARAM Table........................................................................  3-11\n4. \nFunction ID Glossary ............................................................................... 4-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility"
+      ],
+      "summary": "This manual describes the interface between Oracle FLEXCUBE and the Switch software system in a bank, detailing required maintenances, workflow, validations, and processing for users such as back office data entry clerks and managers/officers.",
+      "raw_text": "1-1\n1. Preface \n1.1 \nIntroduction\nThis manual talks about the interface between Oracle FLEXCUBE and the Switch software \nsystem used in your bank. The maintenances required for the proper functioning of this \ninterface, the interface workflow, validations, and processing for the interface have been \ndocumented in this manual. \n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\nRole\nFunction\nBack office data entry Clerks\nInput functions for maintenance related to the interface\nBack office Managers/\nOfficers\nAuthorization functions"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Abbreviations",
+        "Organization"
+      ],
+      "summary": "This page introduces abbreviations and organization of the manual, including chapters on about the manual and switch interface gateway.",
+      "raw_text": "1-2\n1.4 \nAbbreviations\n1.5 \nOrganization\nThis manual is organized into the following chapters:\nAbbreviation\nDescription\nSystem\nUnless specified, it shall always refer to Oracle FLEXCUBE\nCCY\nCurrency\nSWITCH\nSwitch Software\nBIN\nBank Identification Number\nIMD\nInternational Member Descriptor\nOLTP\nOnline Transaction Processing\nATM\nAutomatic Teller Machine\nPOS\nPoint Of Sale \nISO\nInternational Organization for Standardization\nCMS\nCard Management System\nSTAN\nSystem Trace Audit Number\nRRN\nRetrieval Reference Number\nAcquirer\nBank that deploys ATM/POS for acquiring transactions\nIssuer\nBank that issues Cards to facilitate the Transactions\nIC\nInterest and Charges – Oracle FLEXCUBE module\nEOC\nEnd of Cycle\nEOD\nEnd of Day\nSAF\nStore and Forward\nMsg\nMessage\nMTI\nMessage Type Indicator\nPAN\nPrimary Account Number\nIVR\nInteractive Voice Response\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It \nalso lists the various chapters covered in this User Manual.\nChapter 2\nSwitch Interface Gateway - helps in processing both Financial and \nNon-Financial Transactions."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page provides references to additional manuals and a glossary of icons used in the User Manual for the Switch System installed in your Bank.",
+      "raw_text": "1-3\n1.6 \nRelated Documents\nYou may refer the following manuals for more information\nUser Manual of the Switch System installed in your Bank (This User manual is not \nincluded in Oracle FLEXCUBE Manuals)\nISO documentation on ISO8583 protocol (This manual is not included in Oracle \nFLEXCUBE User Manuals)\n1.7 \n Glossary of Icons\nThis User Manual may refer to all or some of the following icons:\nRefer the Procedures User Manual for further details about the icons.\nChapter 3\nAnnexure A – briefs the account of the Switch software domain and \nthe components in a Cards Transactions Business network.\nChapter 4\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Interface Functionalities",
+        "Gateway Maintenance for Switch Interface"
+      ],
+      "summary": "This page describes the functionalities of Oracle FLEXCUBE Switch Interface and its maintenance processes, including ATM and POS transactions, IVR transactions, and gateway maintenance.",
+      "raw_text": "2-1\n2. Switch Interface Gateway\nOracle FLEXCUBE Switch Interface helps in processing both Financial and Non-Financial \nTransactions. The interface helps in first validating each transaction request against the \nOracle FLEXCUBE database and then posting the transactions into the system.\nThe interface with Switch software system supports Automatic Teller Machine (ATM) and \nPoint Of Sale (POS) transactions originating from bank terminals or from Interchanges such \nas VISA or MasterCard. Switch Interface also supports Interactive Voice Response (IVR) \ntransactions. The interface functionality includes the following:\nInterface with support for ISO 1987/1993/2003 protocols\nAuthorization and posting of Switch/IVR transactions into Oracle FLEXCUBE \nThe following diagram illustrates the flow of messages via the Oracle FLEXCUBE – Switch \nsystem interface.\nThis chapter contains the following sections:\nSection 2.1, \"Interface Functionalities\"\nSection 2.2, \"Gateway Maintenance for Switch Interface\"\nSection 2.3, \"Switch Interface Maintenance\"\nSection 2.4, \"Batch Processes\"\nSection 2.5, \"Cards Upload\"\nSection 2.6, \"Terminal ID Upload\"\nSection 2.7, \"ATM Cash Deposits\"\n2.1 \nInterface Functionalities\nThis section contains the following topics:\nSection 2.1.1, \"ATM Transactions\"\nSection 2.1.2, \"Point Of Sale Transactions \"\nSection 2.1.3, \"ATM/POS Notifications\"\nSection 2.1.4, \"IVR Transactions\""
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "ATM Transactions",
+        "Cash Withdrawal",
+        "Balance Enquiry",
+        "Mini Statement Enquiry",
+        "Deposit"
+      ],
+      "summary": "This section describes functionalities related to ATM transactions, including cash withdrawal, balance enquiry, mini statement enquiry, and deposit processes, along with the corresponding accounting entries.",
+      "raw_text": "2-2\n2.1.1 \nATM Transactions\nThe following functionalities are with respect to ATM transactions. This section describes all \nTransactions required for Switch interface and expected accounting entries.\n2.1.1.1 \nCash Withdrawal\nDuring a Cash Withdrawal transaction the product is determined and the preferences are \nchecked for processing. Amount blocking or account posting is done depending upon the \nclass of the message. Amount blocking will include all the charge components also (for Online \nand Issuer). The balance amount is recorded after amount posting is done.\nRefer the Annexure chapter for the corresponding accounting entries.\n2.1.1.2 \nBalance Enquiry\nThis facility produces a quote of the Account Balance for a given account. The following \nbalances are provided:\nLedger balance\nAvailable balance\nUnclear balance\nYou can select the ‘Include OD limit’ option when showing balance.\nRefer the Annexure chapter for the corresponding accounting entries.\n2.1.1.3 \nMini Statement Enquiry\nThe interface facilitates the enquiry for Mini Statements. You can specify number of rows/the \nperiod for which the statement is to be generated.\nThe statement can have the following columns:\nOriginating Branch Code\nTransaction Literal\nTransaction Amount Sign\nTransaction Amount\nFlag Dr/Cr\nValue Date\nTransmission Date\nTransaction Reference Number\nThe accounting entries are the same as those for Balance Enquiry\n2.1.1.4 \nDeposit\nThe system can automatically select the product based on the check or cash deposit. In case \nof cash deposits the system checks whether immediate accounting or posting is required or \nwhether it is to be only logged."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Funds Transfer",
+        "Utility Payments",
+        "Ad-Hoc Statement Generation Request"
+      ],
+      "summary": "This page describes different facilities for fund transfers, utility payments, and ad-hoc statement generation requests, including how they are processed and the corresponding accounting entries.",
+      "raw_text": "2-3\nRefer the Annexure chapter for the corresponding accounting entries.\n2.1.1.5 \nFunds Transfer\nThis facility is used when a customer initiates a Fund Transfer between his accounts or to \nanother customer’s account. The Switch system will send both Account numbers in ISO \nmessages. \nAccount to account transfers can be initiated using the Virtual Account number as well. The \nvirtual account number is recognized as the credit account number and the transaction \ncurrency is defaulted to the credit account currency. The system validates whether the virutal \naccount number entered is in ‘Closed’ or ‘Inactive’ status and displays appropriate error \nmessages. The physical account number is identified based on the Virtual Account Number \nand Transaction Currency combination. If a physical account number is not mapped then a \ndefault physical account number is generated. \nRefer the Annexure chapter for the corresponding accounting entries.\n2.1.1.6 \nUtility Payments\nThis facility helps in making payments into a Utility Provider’s account. \nAccounting entries are same as that of Fund Transfer.\n2.1.1.7 \nAd-Hoc Statement Generation Request\nHere the customer requests a Statement through the ATM. This request is reaches the Switch \ninterface at the bank where is passed to the Oracle FLEXCUBE system. Oracle FLEXCUBE \nsystem will generate Book Dated statements by default. The period for which the statement \nis required can be specified.\nAccounting entries are same as that of Balance Enquiry.\n2.1.1.8 \nCheque Book Issue\nThe customer requests a Cheque Book via the ATM, thereby informing the bank. This request \nis sent to the Oracle FLEXCUBE system via the interface. The number for cheque leaves can \nbe specified. The cheque numbers are automatically generated.\nAccounting entries are same as those for Balance Enquiry.\nNote \nATM transaction data will be handed-off to Mantas for the branch as per the Mantas main-\ntenance. Transactions whose value date is same as the branch EOD date is extracted for \nMantas hand off. Transactions whose status is other than ‘Success or Reversed’ will not \nbe handed off to Mantas.\n2.1.2 \nPoint Of Sale Transactions \nThe following are the facilities provided for Point Of Sale (POS) Transactions.\n2.1.2.1 \nPOS Purchase\nThe customer initiates a normal purchase at Merchants POS Terminal. This purchase request \nreaches Oracle FLEXCUBE via the Switch interface. Based on the purchase a product is \nidentified and the preferences are considered. Depending upon the message class, either"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Cash Advance",
+        "Refund",
+        "Adjustments",
+        "Pre-auth-Completion",
+        "ATM/POS Notifications"
+      ],
+      "summary": "This page details various transaction types and their corresponding accounting entries in Oracle FLEXCUBE, including cash advances, refunds, adjustments, pre-auth completions, and ATM/POS notifications.",
+      "raw_text": "2-4\namount blocking or account posting is done. Amount blocking will include all the charge \ncomponents. The account balance is recorded after the amounts are posted.\nRefer the Annexure chapter for the corresponding accounting entries.\n2.1.2.2 \nCash Advance\nFor cash advances the Oracle FLEXCUBE product is derived at and the preferences are \nchecked for processing. Depending upon the message class, either amount blocking or \naccount posting is done. Amount blocking will include all the charge components. The \naccount balance is recorded after the amounts are posted.\nAccounting entries are same as that of POS purchase.\n2.1.2.3 \nRefund\nAccounting entries are similar to those of Cash Deposit.\n2.1.2.4 \nAdjustments\nThe Adjustments facility corresponds to Partial Reversals in ATM, the difference being that Cr \nAdjustments are also possible.\nAccounting entries are same as that of POS purchase.\n2.1.2.5 \nPre-auth-Completion\nPre-auth completion involves removing amount block.\nAccounting entries are similar to those of POS purchase. \nNote \nPoint of Sale (POS) transaction data will be handed-off to Mantas for the branch as per the \nMantas maintenance. Transactions whose value date is same as the branch EOD date is \nextracted for mantas hand off. Transactions whose status is other than ‘Success or Re-\nversed’ will not be handed off to Mantas.\n2.1.3 \nATM/POS Notifications\nOracle FLEXCUBE provides a facility to insert notification of transactions done through an \nATM in the notification table. These notifications are sent for transactions which have a \nfinancial impact. These transactions includes transaction done in ATM of the same bank and \nATM or POS transactions done in other banks as well. The following list of fields is sent in the \nnotification for an ATM/POS transaction:\nTransaction Reference Number.\nAmount Block Reference Number.\nTransaction Code of Main Leg.\nTransaction Code Description of Main Leg.\nTransaction Product Code.\nTransaction Product Code Description.\nDebit Account Number.\nDebit Account Currency.\nDebit Amount."
+    },
+    {
+      "page_number": 12,
+      "sections": [],
+      "summary": "This page lists various fields and transactions supported by IVR, including balance enquiry, mini statement enquiry, ad-hoc statement generation request, cheque book issue, funds transfer, and utility payments.",
+      "raw_text": "2-5\nCredit Account Number.\nCredit Account Currency.\nCredit Amount.\nDate of the Transaction along with Time(Time Stamp).\nValue date of the Transaction.\nTransaction Narration.\nLocation of the ATM where the transaction has been done.\nTerminal Id.\nRRN.\nMerchant ID (If the transaction is done through a POS).\nATM/Debit Card Number (for ATM /POS).\nCurrent balance & Available Balance in the debit account at the time of notification in \nAccount Currency.\nCurrent balance & Available Balance in the credit account at the time of notification in \nAccount Currency.\nAcquirer Institution Id.\nAcquirer Institution Description.\nForwarding Institution Id.\nResponse Code. \nMessage Type.\nProcessing Code.\nFile Process (Y or N)\nMerchant Name\nNotifications are sent during the following events:\nOn Amount block creation (if amount block created).\nOn Account debit.\n2.1.4 \nIVR Transactions\nThe following transactions are supported by IVR:\nBalance Enquiry\nMini Statement Enquiry\nAd-Hoc Statement Generation Request\nCheque Book Issue\nFunds Transfer\nUtility Payments\nNote\nIVR transaction data will be handed-off to Mantas for the branch as per the Mantas main-\ntenance. Transactions whose value date is same as the branch EOD date is extracted for \nMantas hand off. Transactions whose status is other than ‘Success or Reversed’ will not \nbe handed off to Mantas."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Maintaining Upload Source",
+        "Maintaining FLEXSWITCH External System"
+      ],
+      "summary": "This page describes how to maintain upload sources and FLEXSWITCH external systems for setting up switch interface gateway.",
+      "raw_text": "2-6\n2.2 \nGateway Maintenance for Switch Interface\nThe following are the interface gateway maintenances done for setting up the Switch Interface \nGateway.\nSection 2.2.1, \"Maintaining Upload Source\"\nSection 2.2.2, \"Maintaining FLEXSWITCH External System\"\nSection 2.2.3, \"Specifying External System Functions\"\nSection 2.2.4, \"Specifying Source Preferences\"\n2.2.1 \n Maintaining Upload Source\nThe Upload Source is maintained in the ‘Upload Source Maintenance’ screen. You can invoke \nthe ‘Upload Source Maintenance’ screen by typing ‘CODSORCE’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button.\nIn the above screen the Source Code – FLEXSWITCH – and the brief description of the \nsource are maintained.\n2.2.2 \nMaintaining FLEXSWITCH External System\nThe FLEXSWITCH external system is maintained in the ‘External System - Detailed’ screen. \nHere you can maintain the Correlation pattern, Message pattern, and Queue names for the \nexternal system i.e. FLEXSWITCH.\nYou can invoke the ‘External System - Detailed’ screen by typing ‘GWDETSYS’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "External System and Description",
+        "Correlation Pattern - Request",
+        "Message Exchange Pattern – Request Message",
+        "Default Response Queue",
+        "Dead Letter Queue",
+        "XSD Validation Required",
+        "Register Response Queue Message Id",
+        "External System Queues"
+      ],
+      "summary": "This page outlines the configuration settings for an external system integration, including specifying details about the system, setting correlation patterns, defining message exchange patterns, and configuring queues and validation options.",
+      "raw_text": "2-7\nYou must specify the following in the above screen.\nExternal System and Description\nSpecify the External System as ‘FLEXSWITCH’. You may optionally give a brief description \nof the External System too.\nCorrelation Pattern - Request\nSelect and set ‘Correlation ID’ against this field.\nMessage Exchange Pattern – Request Message\nSelect ‘Input only’ from the adjoining drop-down list.\nMessage Exchange Pattern – Request Message\nSelect ‘Full screen’ from the adjoining drop-down list.\nDefault Response Queue\nSpecify the default response queue as ‘SW_MDB_QUEUE_RESPONSE’.\nDead Letter Queue\nSpecify the dead letter queue as ‘MDB_QEUEU_DLQ’.\nXSD Validation Required\nSelect this checkbox if the request xml and response xml has to be validated against the XSD.\nRegister Response Queue Message Id\nSelect this checkbox to register the response queue message Id.\nExternal System Queues\nGive the External IN-QUEUE and RESPONSE-QUEUE for Switch."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Specifying External System Functions",
+        "Specifying Source Preferences"
+      ],
+      "summary": "This page describes how to specify external system functions and set source preferences in the 'External System Functions – Detailed' and 'Upload Source Preferences Maintenance' screens respectively.",
+      "raw_text": "2-8\n2.2.3 \nSpecifying External System Functions\nYou can specify the external system’s functions in the ‘External System Functions – Detailed’ \nscreen. Here you can maintain Function ID, Action, Service name and Operation code for the \nSwitch Interface Gateway External system.\nYou can invoke the ‘External System Functions – Detailed’ screen by typing ‘GWDETFUN’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nExternal System\nSelect the External system – FLEXSWITCH – from the list of options available.\nFunction\nSelect the Function id from list.\nOnce you have entered the above details the following fields are filled automatically:\nAction\nService Name\nOperation Code\n2.2.4 \nSpecifying Source Preferences\nYou can set the preferences for the External system in the ‘Upload Source Preferences \nMaintenance’ screen.\nYou can invoke the ‘Upload Source Preferences Maintenance’ screen by typing \n‘CODUPLDM’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Source Code",
+        "Module Code",
+        "On Override",
+        "On Exception",
+        "Post Upload Status",
+        "Switch Interface Maintenance"
+      ],
+      "summary": "This page outlines the steps for configuring source code and module settings, handling exceptions during uploads, and maintaining various aspects of the Oracle FLEXCUBE – Switch system interface.",
+      "raw_text": "2-9\nSource Code\nSelect Source Code - FLEXSWITCH - from the list. \nModule Code\nSelect Module Code from the list of options.\nOn Override\nSelect ‘Ignore’ to ignore error handling overrides.\nOn Exception\nSelect ‘Reject’ to reject error handling exceptions.\nPost Upload Status\nSelect ‘Authorized’ for the uploads to be automatically authorized on completion of the upload \nprocess.\nLeave the following checkboxes cleared:\nAllow Deferred Processing\nAllow EOD with Deferred\nAllow Delete\n2.3 \nSwitch Interface Maintenance\nYou must perform the following maintenances for the Oracle FLEXCUBE – Switch system \ninterface.\nSection 2.3.1, \"Defining Currency for Currency Code Conversion\"\nSection 2.3.2, \"Maintaining Card Transaction Limits\"\nSection 2.3.3, \"ATM/Debit Card Mapping for Card Account Number Conversion\"\nSection 2.3.4, \"Card Accounts Detail\"\nSection 2.3.5, \"Card Customer Maintenance\"\nSection 2.3.6, \"Maintaining Channel Details\""
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Maintaining Process Code Mapping Details",
+        "Maintaining Network Details",
+        "Maintaining Merchant Details",
+        "Maintaining Terminal Details",
+        "Maintaining Utility Provider Details",
+        "Maintaining Product Types for Product Derivation",
+        "Showing Amount Block Transactions in Account Statements",
+        "Modifying a Product Preferences Screen",
+        "Maintaining Charges for Non-financial Transactions",
+        "ARC Maintenance",
+        "Service Charges for Inter-branch Transactions"
+      ],
+      "summary": "This page discusses various maintenance procedures including process code mapping, network details, merchant and terminal information, utility providers, product types, transaction displays, preferences modifications, charges management, and service fees.",
+      "raw_text": "2-10\nSection 2.3.7, \"Maintaining Process Code Mapping Details\"\nSection 2.3.8, \"Maintaining Network Details\"\nSection 2.3.9, \"Maintaining Merchant Details\"\nSection 2.3.10, \"Maintaining Terminal Details\"\nSection 2.3.11, \"Maintaining Utility Provider Details\"\nSection 2.3.12, \"Maintaining Product Types for Product Derivation\"\nSection 2.3.13, \"Showing Amount Block Transactions in Account Statements\"\nSection 2.3.14, \"Modifying a Product Preferences Screen\"\nSection 2.3.15, \"Maintaining Charges for Non-financial Transactions\"\nSection 2.3.16, \"ARC Maintenance\"\nSection 2.3.17, \"Service Charges for Inter- branch Transactions\"\n2.3.1 \nDefining Currency for Currency Code Conversion\nISO numeric currency codes are converted into Oracle FLEXCUBE’s alpha numeric currency \ncode. The definition for the conversion is maintained against the ‘ISO Numeric Currency \nCode’ field in the Currency Definition screen as shown below.\nYou can invoke the ‘Currency Definition’ screen by typing ‘CYDCDEFE’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Maintaining Card Transaction Limits",
+        "Specify the following:"
+      ],
+      "summary": "This page explains how to set and maintain transaction limits for different card types and transactions in a system, including ATM and POS operations.",
+      "raw_text": "2-11\n2.3.2 \nMaintaining Card Transaction Limits\nYou can maintain card and currency wise transaction limits here. You can invoke this screen \nby typing ‘SWDCDTLM’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nSpecify the following:\nCard Type\nSpecify the type of card.\nCard Description\nGive a brief description about the type of card.\nLimit Details\nCurrency Code\nSelect the currency code from the adjoining option list.\nATM Daily Transaction Limit\nSpecify the daily transaction limit of the ATM.\nATM Per Transaction Limit\nSpecify the per transaction limit of the ATM. If the transaction limit is zero, then there is no \nlimit validation.\nATM Daily Count Limit\nSpecify the daily count limit of the ATM.If the transaction limit is zero, then there is no limit \nvalidation.\nPOS Daily Limit\nSpecify the daily limit of POS. If the transaction limit is zero, then there is no limit validation.\nPOS Per Transaction Limit\nSpecify the per transaction limit of POS. If the transaction limit is zero, then there is no limit \nvalidation."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "POS Daily Count Limit",
+        "ATM/Debit Card Mapping for Card Account Number Conversion"
+      ],
+      "summary": "This page discusses setting daily transaction limits for POS and mapping ATM/debit card numbers to Oracle FLEXCUBE account numbers.",
+      "raw_text": "2-12\nPOS Daily Count Limit\nSpecify the daily count limit of POS. If the transaction limit is zero, then there is no limit \nvalidation.\n2.3.3 \nATM/Debit Card Mapping for Card Account Number Conversion\nThe interface facilitates conversion of ATM Card Number and Card Account Number to \nOracle FLEXCUBE’s alphanumeric account number. For this facility you must map the card \naccount numbers to Oracle FLEXCUBE account numbers. This mapping can be done in the \n‘Debit Card Oracle FLEXCUBE Account Mapping’ screen. Upload will be provided for this \ndate tends to be in bulk and banks will prefer to maintain it using handoffs.\nYou can invoke the ‘ATM/Debit Card FCC Account Mapping’ screen by typing ‘SWDCDMNT’ \nin the field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton. \nYou must maintain the following mandatory fields in the above screen.\nCard Number and Card Account Number\nSpecify the card number and the card account number here. This must be a unique \ncombination. The Card Account Number is mandatory only when the transaction account is \nthe Card Account and not the account maintained in Oracle FLEXCUBE.\nBranch\nSpecify the card issuer branch from the list of options available alongside.\nAccount Number\nFrom the list of options available alongside, specify the Oracle FLEXCUBE account number \nfor which the card has been issued.\nCustomer Name\nThe system displays the name of the customer.\nCurrency\nThe system displays the currency of the account."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Card Type",
+        "Limit Applicability",
+        "Limits",
+        "Note",
+        "Utilization",
+        "Note"
+      ],
+      "summary": "This page describes how card transaction limits are set and utilized for ATM and POS transactions, including default settings, manual entry options, and limit updates.",
+      "raw_text": "2-13\nCard Type\nThe system displays the card type based on the Account currency maintained in the 'Card \nTransaction Limits' maintenance screen.\nLimit Applicability\nSelect the limit applicability from the adjoining drop-down list. The values available are:\nDefault -  On choosing Default, the system defaults the daily limit for ATM/POS \nmaintained at Card Transaction limit level.\nSpecial - On choosing Special, system allows to enter the daily limits for ATM/POS \nmanually.\nLimits\nATM Daily Transaction Limit\nSpecify the daily transaction limit of the ATM.\nATM Daily Count Limit\nSpecify the daily count limit of the ATM.\nPOS Daily Transaction Limit\nSpecify the daily transaction limit of the POS.\nPOS Daily Count Limit\nSpecify the daily count limit of the POS.\nNote\nCASA account closure is validated if any active card mapping exists in the card to account \nmapping screen \nUtilization\nATM Utilized Limit\nSystem defaults the utilized limit when ATM Cash withdrawal transaction is posted.\nATM Utilized Count\nSystem displays the utilized count when the ATM cash withdrawal transaction is posted\nPOS Utilized Limit\nSystem displays the utilized count when the POS transaction is posted.\nPOS Utilized CountSystem displays the utilized count when the POS transaction is posted.\nThe above limits are updated for both ON-US and Remote ON-US transactions\nWhen any of the ATM/POS transaction is reversed respective utilized limit/count will also be \nupdated accordingly.\nNote\nIf Daily transaction limit is lesser than the per transaction limit for both ATM/POS, then the \nsystem throws an appropriate error."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Card Accounts Detail",
+        "Card Customer Maintenance"
+      ],
+      "summary": "This page describes how to access and use the 'Card Accounts Detail' and 'Card Customer Maintenance' screens for querying card account details and maintaining customer information.",
+      "raw_text": "2-14\n2.3.4 \nCard Accounts Detail\nYou can query your card accounts detail using the ‘Card Accounts Detail’ screen. You can \ninvoke this screen by typing ‘SWDCARDA’ in the field at the top right corner of the Application \ntool bar and clicking on the adjoining arrow button.\nThe ‘Card Accounts Detail’ screen is shown below:\nClick the Enter Query button to enter the following query criteria.\nBranch Code\nSpecify the branch code of the account.\nCustomer ID\nSelect the customer Id from the option list.\nCustomer Account Number\nSpecify the customer account number.\nAfter entering the details, click the ’Save’ button.\n2.3.5 \nCard Customer Maintenance\nYou can invoke the ‘Card Customer Maintenance’ screen by typing ‘SWDCUSTM’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button."
+    },
+    {
+      "page_number": 22,
+      "sections": [],
+      "summary": "This page describes how to use the 'Card Customer Maintenance' screen to enter query criteria such as customer ID and allows for changing the customer name.",
+      "raw_text": "2-15\nThe ‘Card Customer Maintenance’ screen is shown below:\nClick the Enter Query button to enter the following query criteria.\nCustomer ID\nSelect the customer ID from the option list. The option list displays all the customers \nmaintained in the system.\nCustomer Name\nOn selecting the customer ID, the customer name gets displayed here. However, you are \nallowed to change the customer name."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Maintaining Channel Details",
+        "Maintaining Process Code Mapping Details"
+      ],
+      "summary": "This page describes how to define channel names and maintain process code mappings in a system, including specifying channels and descriptions for channels, as well as creating and maintaining ISO transaction codes and their corresponding Oracle FLEXCUBE transaction literals.",
+      "raw_text": "2-16\n2.3.6 \nMaintaining Channel Details\nYou can define channel names using ‘Channel Details’ screen. You can invoke this screen by \ntyping ‘SWDCHNID’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nSpecify the following details here:\nChannel\nSpecify the channels like ATM/IVR/POS and ALL. These channels are factory shipped.\nDescription\nEnter a brief description about channels.\n2.3.7 \nMaintaining Process Code Mapping Details\nAll transaction requests from the switch system are conveyed in ISO transaction codes. \nThese are resolved into corresponding specific transactions in Oracle FLEXCUBE. For this \nyou must maintain the ISO transaction code and its corresponding Oracle FLEXCUBE \ntransaction literal in the ‘Process Code Mapping Details’ maintenance screen.\nCreate and maintain process code types for all Oracle FLEXCUBE literals in the ‘Process \nCode Mapping Details’ screen. You can invoke the ‘Process Code Mapping Details’ screen"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Oracle FLEXCUBE Literal",
+        "Process Code Type",
+        "Channel",
+        "External Transaction Code",
+        "Description",
+        "Maintaining Network Details"
+      ],
+      "summary": "This page describes how to input details for Oracle FLEXCUBE in the Application toolbar and explains the process of maintaining network details.",
+      "raw_text": "2-17\nby typing ‘SWDFCLTL’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nSpecify the following details here.\nOracle FLEXCUBE Literal\nSelect the Oracle FLEXCUBE literal from the drop-down list available alongside. This is a \nmandatory field. You can enter additional information in the editor that is displayed on clicking \nthe adjoining icon.\nProcess Code Type\nSpecify the first two characters from the ISO process code here. It is a two-digit unique \nnumber. This is a mandatory field.\nChannel\nSpecify a channel that should be used. The adjoining option list displays all valid channels \nmaintained in the system. You can choose the appropriate one.\nExternal Transaction Code\nSpecify the external transaction code here. This is an optional field.\nDescription\nOptionally you can specify a brief description of your maintenance here.\n2.3.8 \nMaintaining Network Details\nFor every network interacting with the SWITCH system, you need to maintain the Network, \nIssuers and Acquirer details. This maintenance is done in the ‘Network Details’ screen as \nshown below.\nYou can invoke the ‘Network Details’ screen by typing ‘SWDNWDTL’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Network ID",
+        "Account Number and Account Branch",
+        "Issuer and Acquirer Details",
+        "Maintaining Merchant Details"
+      ],
+      "summary": "This page details how to specify network IDs, account numbers, issuer and acquirer bank details, and merchant information for card transactions.",
+      "raw_text": "2-18\nNetwork ID \nSpecify the Network Id of the card issuing agency here. This is a mandatory field.\nAccount Number and Account Branch \nSpecify the Account Number from the list of options available alongside each field. This \naccount number – a Nostro account – belongs to the specify Network Id. This is used to post \nentries when the corresponding network is involved in the transaction. It is a mandatory field. \nDepending on the Account Number selected, the corresponding Account Branch is displayed. \nIssuer and Acquirer Details\nAcquirer is the Bank that owns the ATM and POS terminals and offer access to card holders \nfrom their own and also other banks. Issuer is the Bank that issues the Card to account \nholders and authorizes/posts transactions.\nYou must maintain the Issuer and Acquirer Banks for the network here. Specify the BIN (Bank \nIdentification Number ) alias IMD ( International Member Descriptor ) to identify the Acquirer \nand Issuer. You may also specify a description for each.\n2.3.9 \nMaintaining Merchant Details\nYou may have various POS machines at different locations, each having their own Merchant \nDetails. For facilitating POS transaction you must maintain the Merchant Details in the screen \nas shown below.\nYou can invoke the ‘Merchant Details’ screen by typing ‘SWDMRCDT’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Merchant Id",
+        "Account Branch",
+        "Account Number",
+        "2.3.10 Maintaining Terminal Details"
+      ],
+      "summary": "This page details the mandatory fields for specifying a merchant's ID, account branch, and number, as well as instructions on maintaining terminal details such as the originating branch, cash GL, and terminal ID.",
+      "raw_text": "2-19\nMerchant Id\nSpecify the Merchant ID of the POS machine here. This is mandatory. \nAccount Branch\nSpecify the related branch of the Merchant’s account here. This is mandatory.\nAccount Number\nSpecify the Merchant’s account number here. This is mandatory. This will be the Oracle \nFLEXCUBE account to which postings will be done.\n2.3.10 \nMaintaining Terminal Details\nYou must maintain Terminal Details such as the Originating branch, Cash GL and Terminal \nID for each ATM or POS Terminal. This is done in the ‘Terminal Details’ screen as shown \nbelow.\nYou can invoke the ‘Terminal Details’ screen by typing ‘SWDTRMID’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Terminal ID",
+        "Channel",
+        "Note",
+        "Originating Branch",
+        "Cash GL Account",
+        "Merchant ID",
+        "Terminal Address"
+      ],
+      "summary": "This page describes the fields and options required to configure an ATM or POS machine, including terminal identification, channel selection, mandatory fields for specific types of terminals, and address specification.",
+      "raw_text": "2-20\nTerminal ID\nSpecify the unique terminal ID of the ATM machine/POS machine to uniquely identify then. \nThis is mandatory.\nChannel\nSpecify a channel that should be used. The adjoining option list displays all valid channels \nmaintained in the system. You can choose the appropriate one.\nNote \n– \nIf you select the channel as IVR, then you need to leave ‘Intelligent Deposit’ option \nunchecked.\n– \nIf you select the channel as IVR, then the options ‘Cash General Ledger number’ \nand ‘Merchant ID’ should be blank.\nOriginating Branch\nSpecify the Originating Branch from the list of options given alongside. It is either the issuer \nbranch of the POS or the ATM branch, as the case may be.\nCash GL Account\nThis field is enabled and is mandatory for ATM type terminals only. Specify the Cash GL \nAccount form the adjoining list of options.\nMerchant ID\nThis field is enabled and is mandatory for POS type terminals only. Specify the Merchant ID \nhere.\nTerminal Address\nSpecify the address of the terminal here."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Intelligent Deposits",
+        "Maintaining Utility Provider Details",
+        "Maintaining Product Types for Product Derivation"
+      ],
+      "summary": "This page describes settings and maintenance procedures related to ATM Intelligent Deposits, utility provider details, and product types for transaction requests in an Oracle FLEXCUBE system.",
+      "raw_text": "2-21\nIntelligent Deposits\nThis checkbox is valid only for ATM terminals. Select this checkbox to indicate the ATM \nprovides Intelligent Deposits facility. In the Intelligent Deposits facility, accounting entries are \ndone as soon as the customer makes the Deposit.\n2.3.11 \nMaintaining Utility Provider Details\nMaintain the details of a utility provider in the ‘Utility Provider Details’ screen. You can invoke \nthe ‘Utility Provider Details’ screen by typing ‘SWDUTLPR’ in the field at the top right corner \nof the Application tool bar and clicking the adjoining arrow button.\nUtility Provider Id\nSpecify the Utility Provider Id here.\nAccount Branch\nSpecify the related branch of the Merchant’s account here. This is mandatory.\nAccount Number\nSpecify the Merchant’s account number here. This is mandatory. This will be the Oracle \nFLEXCUBE account to which postings will be done.\nDescription\nOptionally you can give a brief description of the utility provider here.\n2.3.12 \nMaintaining Product Types for Product Derivation\nEvery transaction request from the switch system is assigned under a particular product type. \nThis maintenance is done in the ‘Product Type Maintenance’ screen. Here, you can map \nproducts to Oracle FLEXCUBE literals.\nFor every transaction request the Oracle FLEXCUBE product is derived based on the \nCategory, Oracle FLEXCUBE literal and the Customer Category.\nYou can invoke the ‘Product Type Maintenance’ screen by typing ‘SWDPRDMP’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Oracle FLEXCUBE Literal",
+        "Category",
+        "Customer Category",
+        "Channel",
+        "Note",
+        "Product Code",
+        "Network",
+        "Acquirer Country"
+      ],
+      "summary": "This page details the various transaction parameters and their selection methods in Oracle FLEXCUBE, including literal selection, category, customer category, channel specification, network choice, and acquirer country.",
+      "raw_text": "2-22\nYou can specify the following details here.\nOracle FLEXCUBE Literal\nSelect a three digit literal from the list of options available alongside.\nCategory\nSelect the category of the transaction – On-Us, Off-Us or Remote-On-Us – from the list of \noptions available alongside.\nCustomer Category\nSelect a customer category from the list of options available alongside.\nChannel\nSpecify the channel that should be used for transaction. The adjoining option list displays all \nthe channels maintained in the system. \nNote\nATM, POS and IVR requests may come from the same port or from different ports based \non the configuration done in the property file. If they are configured to arrive from different \nports, then the channel is identified based on the port number. If they are configured to \narrive from the same port then the channel is identified as ‘ALL’. It is also possible that \nsome of the channels alone share a port. \nProduct Code\nFrom the list of options available alongside, select the Oracle FLEXCUBE product code to be \nmapped to the specified literal. \nNetwork\nSelect the network from the list of options available alongside.\nAcquirer Country\nSelect the country of the acquirer from the list of options available alongside."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Showing Amount Block Transactions in Account Statements"
+      ],
+      "summary": "This section explains how to include transactions resulting in amount blocks in customer account statements and provides details on creating an amount block through the 'Amount Block Input' screen.",
+      "raw_text": "2-23\n2.3.13 \nShowing Amount Block Transactions in Account Statements\nYou can have any field from the transaction log included in the Customer Account statement \ngeneration. Additionally you can also choose to include transactions that resulted in amount \nblocks.\nYou can invoke the ‘Amount Block Input’ screen by typing ‘CADAMBLK in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button. Click the new \nbutton on the Application toolbar.\nNote \nThe system performs the action level access rights validation only on ‘Save’ operation.\nAccount Number\nSpecify the Oracle FLEXCUBE account number for blocking the amount. This field is \nmandatory.\nAmount Block Number\nAmount block number is unique and is created after the amount block creation.\nAmount\nSpecify the Amount blocked. This field is mandatory.\nExpiry Date\nSpecify the expiry date of the Amount Block.\nEffective Date\nSpecify the date from which the Amount block is effective."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Amount Block",
+        "Verify Available Balance",
+        "Modifying a Product Preferences Screen",
+        "Maintaining Charges for Non-financial Transactions"
+      ],
+      "summary": "This page discusses various settings and options related to amount blocks, available balance verification, modifying product preferences, and maintaining charges for non-financial transactions in the Switch interface system.",
+      "raw_text": "2-24\nAmount Block\nThis list shows Switch, Oracle FLEXCUBE, and Pre-Auth. If the amount block is done via \nSwitch, then it must be selected here.\nRemark\nOptionally you may add your remarks here.\nSource Code\nThe source from which the amount block has been initiated is displayed.\nVerify Available Balance\nCheck this box to enable creation of amount block only when sufficient funds are available.\n2.3.14 \nModifying a Product Preferences Screen\nDuring the implementation of the Switch interface system you can use the following facility to \nmodify the ‘Preferences’ screen for a product. \nYou can invoke the ‘Retail Teller Product Preferences’ screen by typing ‘DEDRTPRM’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button. \nYou may select the following checkboxes if you wish to have them in a product’s ‘Preferences’ \nscreen.\nPartial Reversals allowed\nReversal Includes charges - Reversal should reverse charges\n Switch product\n2.3.15 \nMaintaining Charges for Non-financial Transactions\nYou can have the following non financial transactions charged:\nBalance Enquiry\nCheque Book request\nMini statement request\nAd-hoc statement request\nYou can facilitate the above service by first using the ‘Retail Teller Product Maintenance’ to \nmaintain a Retail Teller product as shown below."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "ARC Maintenance",
+        "ARC Maintenance"
+      ],
+      "summary": "This page explains how to invoke and use the 'Retail Teller Product Maintenance' and 'ARC Maintenance' screens for maintaining charges related to non-financial transactions.",
+      "raw_text": "2-25\nYou can invoke the ‘Retail Teller Product Maintenance’ screen by typing ‘DEDRTPRM’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button. \nYou must next do the ARC Maintenance for the above product in the ‘ARC Maintenance’ \nscreen as shown below. In the ARC Maintenance you can maintain the charges for the \nvarious non-financial transactions under the CHARGE 1-5 tabs. The transaction amounts will \nbe zero and so the accounting entries will have only the charges.\n2.3.16 \nARC Maintenance\nYou can maintain the charges for the product type in the ARC Maintenance screen.You can \ninvoke the 'ARC Maintenance’ screen by typing ‘IFDATMMN’ in the field at the top right corner \nof the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Service Charges for Inter-branch Transactions"
+      ],
+      "summary": "This section explains how service charges are applied in inter-branch transactions and details the process of maintaining these charges through different product levels.",
+      "raw_text": "2-26\nThe ARC maintenance is done for the product Cash Withdrawal (CHWL).You can maintain \ncharges (under charge tabs CHARGE1 -5) for both financial and non-financial transactions.\nCHARGE1 must be the Transaction Fee. The Description under ‘CHARGE1’ tab should be \ngiven as TXN_FEE. CHARGE2 must be the Transaction Processing Fee. The Description \nunder the ‘CHARGE2’ tab should be given as TXN_PROCESS_FEE.\n2.3.17 \nService Charges for Inter- branch Transactions\nIn a transaction, if the account branch of the teller transaction is different from the transaction \nbranch, then charges maintained by inter-branch product will be applied to the transaction. \nIf the IB checkbox is checked for a product, then the system will pick up and process the \ncharge entries maintained at the IB product level. \nDuring a transaction, If IB product is not maintained and if the transaction branch is different \nfrom account branch, then charges maintained in non-ib product will be applied to the \ntransaction.\nIB Transaction\nCheck this box if you want the system to pick up the product for inter-branch transactions. \nYou will notice the difference in the service charges processed for two transactions with same \nkind of product."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Batch Processes",
+        "Maintaining Batches for Batch Operations",
+        "Settlement Upload"
+      ],
+      "summary": "This page discusses batch processes in Oracle FLEXCUBE – Switch Interface, including maintaining batches and performing settlement uploads.",
+      "raw_text": "2-27\nRefer the chapter ‘Maintaining Account, Rate, and Charge Details’ in the FCC_Host_Clearing \nuser manual, for detailed explanation of the fields in this screen..\n2.4 \nBatch Processes\nThe following batch processes are part of the Oracle FLEXCUBE – Switch Interface.\nSection 2.4.1, \"Maintaining Batches for Batch Operations\"\nSection 2.4.2, \"Settlement Upload\"\nSection 2.4.3, \"Intra Day Batch\"\nSection 2.4.4, \"Viewing Transaction Monitor\"\nFor more information on Batch Processes refer the corresponding Oracle FLEXCUBE user \nmanual.\n2.4.1 \nMaintaining Batches for Batch Operations\nYou can maintain the following batches for Batch Operations in the ‘Batch EOD Function \nInputs’ screen:\nSWSWRECN – Switch Reconciliation Batch\nSWDPRCRT – Process Transaction Batch\nSWNETSET – Network Settlement Batch\nSWMERSET – Merchant Settlement Batch\nSWDPURGE – Adhoc Purge Batch\nSWDRETBT – Retry and Suspense Processing Batch.\nYou can invoke the ‘Batch EOD Function Inputs’ screen by typing  ‘BADEODFE’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button. \n2.4.2 \nSettlement Upload\nYou can perform settlement uploads for the Switch, Network and Merchant categories from \nthe ‘Settlement Upload’ screen. You can invoke the ‘Settlement Upload’ screen by typing"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Channel",
+        "Category",
+        "Intra Day Batch"
+      ],
+      "summary": "This page describes how to specify details for uploading settlement files into Oracle FLEXCUBE and lists functions available in the Intra Day Batch Start screen.",
+      "raw_text": "2-28\n‘SWDUPLST’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button. \nYou need to specify the following details.\nChannel\nSelect the channel to be used while uploading settlement files into Oracle FLEXCUBE, from \nthe adjoining drop-down list. The following values are available:\nALL\nATM\nPOS\nIVR\nBased on the channel specified, the system will pick up the appropriate Retail Teller product \nand ARC maintenance for settlement and reconciliation processing. \nCategory\nThe categories for which you can perform settlement upload are:\nSwitch\nNetwork\nMerchant\nIn the above screen you can specify the Reconciliation File/Network file/Merchant upload file’s \nname and path.\n2.4.3 \nIntra Day Batch\nYou can run the following Functions in the ‘Intra Day Batch Start’ screen:\nSWSWRECN – This is the batch for the reconciliation file.\nSWNETSET– This is the batch for the network file.\nSWDPRCRT – This batch removes the amount block.\nSWMERSET – This is the batch for Merchant settlement.\nSWDPURGE – This is the batch for Adhoc purge of transaction data to history table.\nSWDRETBT – This is the batch for retry and suspense processing."
+    },
+    {
+      "page_number": 36,
+      "sections": [],
+      "summary": "This page describes how to start and monitor the Intra Day Batch process by using specific screen invocations in an application toolbar.",
+      "raw_text": "2-29\nOnce the batches are successfully run, their corresponding accounting entries will be posted.\nYou can invoke the 'Intra Day Batch Start’ screen by typing ‘BADIDBAT’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button. \nClick ‘Ok’ button to initiate the Intra Day Batch process.\nYou can monitor the status of successfully run SWSWRECN and SWNETSET functions in the \n‘Intra Day Batch Start Monitor’ screen.\nYou can invoke the 'Intra Day Batch Start Monitor’ screen by typing ‘BASIDMTR’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Viewing Transaction Monitor",
+        "Cards Upload"
+      ],
+      "summary": "This page describes how to view transaction statuses and upload card account mappings through specific screens in an application.",
+      "raw_text": "2-30\n2.4.4 \nViewing Transaction Monitor\nYou can view a summary of transaction status in the ‘Switch Transaction Monitor’ screen. You \ncan invoke this screen by typing ‘SWDTXQRY’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nHere you can view the following details.\nTransaction Log\nYou can view the number of transactions in the following statuses.\nWIP\nSuccess\nRepair\nFailed\nTotal\nRetry Log\nYou can view the retry log of transactions in the following statuses.\nUnprocessed\nSuccess\nSuspense\nReversed\nTotal\n2.5 \nCards Upload\nYou can upload card account mapping maintenance through the ‘Debit Card FCC Account \nUpload’ screen. You can invoke this screen by typing ‘SWDCDUPL’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 38,
+      "sections": [],
+      "summary": "This page describes how to specify details for file upload, including the file name and path, as well as the system-generated sequence number for intraday transactions.",
+      "raw_text": "2-31\nYou can specify the following details.\nFile Name\nSpecify the name of the file that should be uploaded.\nFile Path\nSpecify the path from where the file should be picked up for uploading.\nIntraday Sequence Number\nThe system generates a sequence number for the upload transaction and displays it here."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Terminal ID Upload",
+        "ATM Cash Deposits"
+      ],
+      "summary": "This page describes how to upload terminal IDs and manage ATM cash deposits for ATMs without Intelligent Deposits facilities.",
+      "raw_text": "2-32\n2.6 \nTerminal ID Upload\nYou can upload terminal ID maintenance through the ‘Terminal ID Upload’ screen. You can \ninvoke this screen by typing ‘SWDTIDUP’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button.\nYou can specify the following details.\nFile Name\nSpecify the name of the file that should be uploaded.\nFile Path\nSpecify the path from where the file should be picked up for uploading.\nIntraday Sequence No\nThe system generates a sequence number for the upload transaction and displays it here.\n2.7 \nATM Cash Deposits\nCash deposits can happen at ATMs which don’t have the Intelligent Deposits facility. For such \nATMs the ‘Intelligent Deposits’ option also is not selected in Terminal Details maintenance. In \nthe case of such ATMs the cash deposit details are stored as a ‘Tanked Deposit Transaction’ \nuntil you can validate the transaction amount.\nFor Tanked Deposit Transactions, accounting entries are not passed until the transaction \namount is validated and authorised. You can validate the transaction amounts of Tanked \nDeposit Transactions in the ‘ATM Cash Deposit Details’ screen.\nYou can invoke the ‘ATM Cash Deposit Details’ screen by typing ‘SWDCSHDP’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Transaction Account",
+        "Transaction Currency",
+        "Transaction Amount",
+        "Local Currency Amount",
+        "Transaction Date",
+        "Transaction Reference Number",
+        "Charge Currency and Charge Currency 1-4",
+        "Charge Amount and Charge Amount 1-4",
+        "Charge Description and Charge Description 1-4"
+      ],
+      "summary": "This page explains the details displayed after validating a tanked deposit, including account information, transaction amounts, dates, reference numbers, and charges.",
+      "raw_text": "2-33\nYou must validate the tanked deposit by specifying the actual transaction amount in the \n‘Actual Amount’ field. Once done, click ‘Exit’ button to exit and save your validation.\nThe following details are displayed in the above screen. The details give information regarding \nthe cash deposit.\nTransaction Account\nThis displays the Oracle FLEXCUBE account which has been linked to the Card Account \nNumber.\nTransaction Currency\nThis field displays the Oracle FLEXCUBE currency which has been linked to the numeric \ncurrency in the ISO message.\nTransaction Amount\nThis is the deposit amount sent through the ISO message.\nLocal Currency Amount\nIf a local currency has been maintained then the transaction amount is converted to the local \ncurrency and displayed here.\nTransaction Date\nThis is the Deposit transaction date as sent in the ISO message.\nTransaction Reference Number\nThis is the Transaction Reference Number which is generated for the deposit transaction.\nCharge Currency and Charge Currency 1-4\nCharges may be levied as Transaction Fee, Transaction Processing Fee and as other \ncharges maintained in Oracle FLEXCUBE. The currency that has been defined for the \ncorresponding charge is displayed here.\nCharge Amount and Charge Amount 1-4\nThe charge amount for the corresponding charge is displayed here.\nCharge Description and Charge Description 1-4\nThe description for the charge is displayed here."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Switch Software and Card Transactions Business"
+      ],
+      "summary": "This section provides an overview of the switch software domain and its functionalities in managing card transactions, including maintaining information, processing transactions, and performing authorization.",
+      "raw_text": "3-1\n3. Annexure A\nThis chapter contains the following sections:\nSection 3.1, \"Switch Software and Card Transactions Business\"\nSection 3.2, \"ISO8583 Protocol Overview\"\nSection 3.3, \"Switch Transaction Categories\"\nSection 3.4, \"Accounting Entries – ATM Transactions\"\nSection 3.5, \"Accounting Entries - POS Purchase\"\nSection 3.6, \"Balance Handoff File Formats\"\nSection 3.7, \"Network Settlement Message Format\"\nSection 3.8, \"Merchant Settlement File Format\"\nSection 3.9, \"Maintaining SWTB_PARAM Table\"\n3.1 \nSwitch Software and Card Transactions Business\nThe following is a brief account of the Switch software domain and the components in a Cards \nTransactions Business network.\nThe following diagram illustrates the components in the switch network.\nATMs and POS Terminals are connected with the Switch Software system using proprietary \nmessage protocol depending on the upon the terminal device type. Switch software is also \nconnected with ‘Interchanges’ like VISA and MasterCard. \nA switch software system provides the following functionalities:\nMaintaining all ATM / POS / Interchange information\nMaintaining Card Number to Account Number Linkages\nReceiving Card Transactions from ATM / POS terminals and checking PIN and Card \nstatus\nForwarding the Transactions to Host Banking Systems like Oracle FLEXCUBE after \nconverting proprietary protocol into ISO8583 protocol\nPerforming ‘stand-in’ authorization incase of Link to Host systems are down\nRefreshing Account balances from Banking Systems ( to use Stand-in )"
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "ISO8583 Protocol Overview",
+        "Switch Transaction Categories",
+        "Accounting Entries – ATM Transactions"
+      ],
+      "summary": "This page provides an overview of the ISO8583 protocol for financial transactions and introduces switch transaction categories, followed by details on accounting entries for ATM transactions.",
+      "raw_text": "3-2\n3.2 \nISO8583 Protocol Overview\nISO8583 protocol is called the ‘Financial Transaction Standard for Card originated messages \nand Interchange message specifications’. This protocol provides for the exchange of \ninformation between an ‘Acquirer’ and an ‘Issuer’ for card transactions. The terms ‘Acquirer’ \nand ‘Issuer’ are explained below.\nAcquirer\nAn Acquirer is the Bank that deploys the self servicing devices like ATM /POS and may have \na switch system software and Interchange connections.\nIssuer\nAn Issuer is the Bank that issues cards to its customers. It has the database of accounts and \nis connected to the Switch system software. In the course of transactions via the switch \nsystem, Issuers respond to Acquirers with approval or rejection messages.\n3.3 \nSwitch Transaction Categories\nThe Switch system transaction flows can happen in three different ways. Each flow is termed \nas a Category of the transaction. The categories are from the Issuer bank’s perspective. The \nfollowing example explains the categories.\nConsider that Oracle FLEXCUBE system is installed at YOUR BANK. Consider another bank, \nsay HSBC, with which you can have card based transactions. Then the following are the \ncategories depending upon which bank’s Card or Terminal is involved.\n3.4 \nAccounting Entries – ATM Transactions\nThe following are the various accounting entries for ATM Transactions.\nSection 3.4.1, \"Accounting Entries for Cash Withdrawal Transactions\"\nSection 3.4.2, \"Accounting Entries for Balance Enquiry\"\nSection 3.4.3, \"Accounting Entries for Deposit\"\nSection 3.4.4, \"Accounting Entries for Funds Transfer\"\n3.4.1 \nAccounting Entries for Cash Withdrawal Transactions\nON US\nDR CUSTOMER A/CBILL-AMT (converted to a/c ccy)\nCRCASH GLTXN-AMT\nDRCUSTOMER A/CTXN_FEE (converted to a/c ccy)\nCards\nATM/POS Terminal\nCategory of Transaction\nYOUR BANK Cards\nYOUR BANK \nOn-Us\nYOUR BANK Cards\nHSBC\nRemote-On-Us\nHSBC Cards\nYOUR BANK \nOff-Us"
+    },
+    {
+      "page_number": 43,
+      "sections": [],
+      "summary": "This page details various financial transactions and their corresponding debit (DR) and credit (CR) entries in different contexts such as remote on US, off US, and during network settlement.",
+      "raw_text": "3-3\nCRP&LGLTXN_FEE\nDRCUSTOMER A/CTXN_PROCESS_FEE (converted to a/c ccy)\nCRP&LGLTXN_PROCESS_FEE\nDRCUSTOMER A/CFC_CHARGES (converted to a/c ccy)\nCRP&LGLFC_CHARGES\nRemote – ON US\nDR CUSTOMER A/CBILL-AMT ( converted to a/c ccy)\nCRNETWORK SUSPENSE GLSETL_AMT\nDRCUSTOMER A/CTXN_FEE (converted to a/c ccy)\nCRNETWORK SUSPENSE GLTXN_FEE\nDRCUSTOMER A/CTXN_PROCESS_FEE (converted to a/c ccy)\nCRNETWORK SUSPENSE GLTXN_PROCESS_FEE\nDRCUSTOMER A/CFC_CHARGES (converted to a/c ccy)\nCRP&LGLFC_CHARGES\nDuring Network Settlement\nDRNETWORK SUSPENSE GL SETL_AMT\nCRNETWORK NOSTRO A/CSETL_AMT (converted to a/c ccy)\nDRNETWORK SUSPENSE GL TXN_FEE\nCRNETWORK NOSTRO A/CTXN_FEE (converted to a/c ccy)\nDRNETWORK SUSPENSE GL TXN_PROCESS_FEE\nCRNETWORK NOSTRO A/CTXN_PROCESS_FEE (converted to a/c ccy) \nOFF- US\nDR NETWORK SUSPENSE GLSETL-AMT (converted to a/c ccy)\nCRCASH GLTXN-AMT\nDRNETWORK SUSPENSE GLTXN_FEE (converted to setl ccy)\nCRP&L GLTXN_FEE\nDRNETWORK SUSPENSE GLTXN_PROCESS_FEE (converted to a/c ccy)\nCRP&L GLTXN_PROCESS_FEE\nDuring Network Settlement\nDRNETWORK NOSTRO A/CSETL_AMT ( converted to a/c ccy)"
+    },
+    {
+      "page_number": 44,
+      "sections": [],
+      "summary": "This page details various accounting entries related to different types of transactions and fee distributions across multiple networks.",
+      "raw_text": "3-4\nCRNETWORK SUSPENSE GL SETL_AMT\nDRNETWORK NOSTRO A/CTXN_FEE\nCRNETWORK SUSPENSE GLTXN_FEE (converted to a/c ccy)\nDRNETWORK NOSTRO A/CTXN_PROCESS_FEE ( converted to a/c ccy)\nCRNETWORK SUSPENSE GL TXN_PROCESS_FEE\n3.4.2 \nAccounting Entries for Balance Enquiry\nON US\nDRCUSTOMER A/CTXN_FEE (converted to a/c ccy)\nCRP&LGLTXN_FEE\nDRCUSTOMER A/CTXN_PROCESS_FEE (converted to a/c ccy)\nCRP&LGLTXN_PROCESS_FEE\nDRCUSTOMER A/CFC_CHARGES (converted to a/c ccy)\nCRP&LGLFC_CHARGES\nR-ONUS\nDRCUSTOMER A/CTXN_FEE (converted to a/c ccy)\nCRNETWORK SUSPENSE GLTXN_FEE\nDRCUSTOMER A/CTXN_PROCESS_FEE (converted to  a/c ccy)\nCRNETWORK SUSPENSE GLTXN_PROCESS_FEE\nDRCUSTOMER A/CFC_CHARGES (converted to a/c ccy)\nCRP&LGLFC_CHARGES\nDuring Network Settlement\nDRNETWORK SUSPENSE GL TXN_FEE\nCRNETWORK NOSTRO A/CTXN_FEE (converted to a/c ccy)\nDRNETWORK SUSPENSE GL TXN_PROCESS_FEE\nCRNETWORK NOSTRO A/CTXN_PROCESS_FEE (converted to a/c ccy)\n OFF-US\nDRNETWORK SUSPENSE GLTXN_FEE (converted to setl ccy)\nCRP&LGLTXN_FEE\nDRNETWORK SUSPENSE GLTXN_PROCESS_FEE (converted to a/c ccy)\nCRP&L GLTXN_PROCESS_FEE\nDuring Network Settlement"
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "Accounting Entries for Deposit",
+        "Accounting Entries for Funds Transfer",
+        "Accounting Entries - POS Purchase"
+      ],
+      "summary": "This page details accounting entries for deposit transactions, funds transfer transactions, and point of sale purchases.",
+      "raw_text": "3-5\nDRNETWORK NOSTRO A/CTXN_FEE\nCRNETWORK SUSPENSE GLTXN_FEE (converted to a/c ccy)\nDRNETWORK NOSTRO A/CTXN_PROCESS_FEE ( converted to a/c ccy)\nCRNETWORK SUSPENSE GL TXN_PROCESS_FEE\n3.4.3 \nAccounting Entries for Deposit\nON US\nDRCASH GLTXN-AMT\nCR CUSTOMER A/CBILL-AMT (converted to a/c ccy)\nDRCUSTOMER A/CTXN_FEE (converted to a/c ccy)\nCRP&LGLTXN_FEE\nDRCUSTOMER A/CTXN_PROCESS_FEE (converted to a/c ccy)\nCRP&LGLTXN_PROCESS_FEE\nDRCUSTOMER A/CFC_CHARGES (converted to a/c ccy)\nCRP&LGLFC_CHARGES\n3.4.4 \nAccounting Entries for Funds Transfer\nON US\nDR FROM A/CBILL-AMT (converted to a/c ccy)\nCRTO A/CTXN-AMT (converted to a/c ccy)\nDRFROM A/CTXN_FEE (converted to a/c ccy)\nCRP&LGLTXN_FEE\nDRFROM A/CTXN_PROCESS_FEE (converted to a/c ccy)\nCRP&LGLTXN_PROCESS_FEE\nDRCUSTOMER A/CFC_CHARGES (converted to a/c ccy)\nCRP&LGLFC_CHARGES\n3.5 \nAccounting Entries - POS Purchase\nON US\nDR CUSTOMER A/CBILL-AMT (converted to a/c ccy)\nCRMERCHANT SUSPENSE GLTXN-AMT\nDRCUSTOMER A/CTXN_FEE (converted to a/c ccy)\nCRP&LGLTXN_FEE"
+    },
+    {
+      "page_number": 46,
+      "sections": [],
+      "summary": "This page details various accounting entries for different types of transactions including Merchant Settlement, Remote - ON US, and OFF-US scenarios.",
+      "raw_text": "3-6\nDRCUSTOMER A/CTXN_PROCESS_FEE (in a/c ccy)\nCRP&LGLTXN_PROCESS_FEE\nDRCUSTOMER A/CFC_CHARGES (converted to a/c ccy)\nCRP&LGLFC_CHARGES\nDuring Merchant Settlement\nDRMERCHANT SUSPENSE GL TXN_AMT– COMMISSION (a/c ccy)\nCRMERCHANT A/CTXN_AMT– COMMISSION (a/c ccy)\nDRMERCHANT SUSPENSE GL COMMISSION\nCRP&LGLCOMMISSION\nRemote – ON US\n DR CUSTOMER A/CBILL-AMT (converted to a/c ccy)\nCRNETWORK SUSPENSE GLSETL-AMT\nDRCUSTOMER A/CTXN_FEE (converted to a/c ccy)\nCRNETWORK SUSPENSE GLTXN_FEE\nDRCUSTOMER A/CTXN_PROCESS_FEE (a/c ccy)\nCRNETWORK SUSPENSE GLTXN_PROCESS_FEE\nDRCUSTOMER A/CFC_CHARGES (a/c ccy)\nCRP&LGLFC_CHARGES\nDuring Network Settlement\nDRNETWORK SUSPENSE GL SETL_AMT\nCRNETWORK NOSTRO A/CSETL_AMT (converted to a/c ccy)\nDRNETWORK SUSPENSE GL TXN_FEE\nCRNETWORK NOSTRO A/CTXN_FEE (converted to a/c ccy)\nDRNETWORK SUSPENSE GL TXN_PROCESS_FEE\nCRNETWORK NOSTRO A/CTXN_PROCESS_FEE (a/c ccy)\nOFF-US\nDR NETWORK SUSPENSE GLSETL-AMT (converted to a/c ccy)\nCRMERCHANT SUSPENSE GL TXN-AMT  (converted to a/c ccy)\nDRNETWORK SUSPENSE GLTXN_FEE (converted to setl ccy)\nCRP&LGLTXN_FEE"
+    },
+    {
+      "page_number": 47,
+      "sections": [],
+      "summary": "This page describes the accounting entries for network and merchant settlement processes, including suspense accounts and transaction fees, followed by details on balance handoff file formats used in Oracle FLEXCUBE.",
+      "raw_text": "3-7\nDRNETWORK SUSPENSE GLTXN_PROCESS_FEE (a/c ccy)\nCRP&L GLTXN_PROCESS_FEE\nDuring Network Settlement\nDRNETWORK NOSTRO A/CSETL_AMT \nCRNETWORK SUSPENSE GL SETL_AMT \nDRNETWORK SUSPENSE GL TXN_FEE\nCRNETWORK NOSTRO A/CTXN_FEE (converted to a/c ccy)\nDRNETWORK NOSTRO A/CTXN_PROCESS_FEE (a/c ccy)\nCRNETWORK SUSPENSE GL TXN_PROCESS_FEE\nDuring Merchant Settlement\nDRMERCHANT SUSPENSE GLTXN_AMT – COMMISSION \nCRMERCHANT A/C TXN_AMT – COMMISSION \nDRMERCHANT SUSPENSE GL COMMISSION\nCRP&LGLCOMMISSION\n3.6 \nBalance Handoff File Formats\nOracle FLEXCUBE generates ASCII files (‘|’ separated) with the balances of all the accounts \nthat are linked with Cards. The following table gives the general Balance Handoff File Format \nof Oracle FLEXCUBE. You may have a different format installed as per your requirements."
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Network Settlement Message Format"
+      ],
+      "summary": "This page describes the format of network settlement files accepted by Oracle FLEXCUBE, detailing field names, sizes, and descriptions.",
+      "raw_text": "3-8\nHeader\nBody\nFooter\n3.7 \nNetwork Settlement Message Format\nThe following table gives the format of the file accepted by Oracle FLEXCUBE for network \nsettlements. Fields are separated by ‘|’ pipe symbol and the amounts are with decimal \nincluded. The following table gives the general format in Oracle FLEXCUBE. You may have \na different format installed as per your requirements.\nField Sequence #\nField Name\n1\nNo. of Accounts\n2\nCheck Digits\n3\nTime Stamp\nField \nSequence #\nField Name\nSize \n(Characters)\nDescription\n1\nBranch code\n3\nOracle FLEXCUBE \nbranch code\n2\nCustomer Account num-\nber \n28\nAccount number\n3\nAccount Currency \n3\nAccount currency \ncode - alpha\n6\nAvailable balance. This \nrepresents the amount \navailable for withdrawal/\nspending.  Switch should \nstand-in based on this \nfield.\n22\nAvailable balance \nfrom Oracle FLEX-\nCUBE. Limit to be \nincluded should be \ndefinable.\nField sequence #\nField Name\n1\nNo. of Accounts\n2\nCheck Digits\n3\nTime Stamp\nField \nSequence \nNumber\nField  Name\nSize\nMandatory \n(M) / \nOptional \n(O)\nRemarks\n1\nMessage type\nn4\nO\nIf it is optional, original or rever-\nsal is identified based on Trans-\naction code\n2\nCard number\nn19\nM\n \n3\nBranch code\nn3\nO"
+    },
+    {
+      "page_number": 49,
+      "sections": [],
+      "summary": "This page details various fields and their attributes related to transaction processing in a banking context, including field names, sizes, mandatory/optional status, and remarks.",
+      "raw_text": "3-9\n4\nBank account \nnumber\nans \n28\nM\n \n5\nTransaction \nCode\nans \n10\nM\n05 - Sale, 06 - Refund, 07- \nCash Wdl,  25 - Sale reversal,  \n26 - Refund reversal, 27 - Cash \nwdl reversal. Refer Transaction \nservice derivation logic in ear-\nlier sections.\n6\nprocessing \ncode\nans \n6\nO\nThis is used for information pur-\npose\n7\nTransaction \nAmount\nn 22\nM\nRefer Amount derivation logic\n8\nTransaction \nccy\nn 3\nM\nRefer Amount derivation logic\n9\nSettlement \nAmount\nn 22\nO\nRefer Amount derivation logic\n10\nSettlement \nCurrency\nn 3\nO\nRefer Amount derivation logic\n11\nBilling Amount\nn 22\nO\nRefer Amount derivation logic\n12\nBilling currency\nn3\nO\nRefer Amount derivation logic\n13\nTransaction \nDate (Format \nYYYYMMDD)\ns 8\nM\nUsed for Transaction matching\n14\nTransaction \nTime\ns 6\nM\n \n15\nSTAN\nan \n12\nM\nUsed for Transaction matching\n16\nOriginal STAN\nAn12\nO\nUsed in reversals\n17\nAcquirer ID\nasn \n6\nM\nUsed for Transaction matching\n18\nTerminal ID\nans \n16\nM\nUsed for Transaction matching\n19\nCard Acceptor \nID\nans \n20\nO\n \n20\nMerchant Id\nans \n20\nO\n \n21\nMerchant \nName\nans \n40\nM\nInformation purpose\nField \nSequence \nNumber\nField  Name\nSize\nMandatory \n(M) / \nOptional \n(O)\nRemarks"
+    },
+    {
+      "page_number": 50,
+      "sections": [
+        "Merchant Settlement File Format"
+      ],
+      "summary": "This page describes the format of the file accepted by Oracle FLEXCUBE for Merchant Settlements, detailing various fields and their purposes.",
+      "raw_text": "3-10\n3.8 \nMerchant Settlement File Format\nThe following table gives the format of the file accepted by Oracle FLEXCUBE for Merchant \nSettlements. Fields are separated by ‘|’ pipe symbols. The following table gives the general \nformat in Oracle FLEXCUBE. You may have a different format installed as per your \nrequirements.\n22\nMerchant City\nans \n40\nM\nInformation purpose\n23\nMerchant \nCountry\nasn \n10\nO\n \n24\nMerchant Cate-\ngory code\nn 4\nM\n \n25\nRetrieval refer-\nence number of \ntransaction\nan \n12\nM\n \n26\nAuthorization \nCode\nans \n6\nM\nUsed for Transaction matching\n27\nAuthorization \nReference\nans \n20\nO\nSome other reference for \nmatching\n28\nResponse \ncode\nn4\nO\nif sent, only 00 is considered for \nprocessing\n29\nDomestic flag\nS 1\nO\nD – Domestic\nI – International\nR – regional (Europe)\n30\nSettlement \nAccount\nAns2\n8\nO\n31\nPre-Auth and \nCharge back \nData\nAns \n45\nO\nApplicable only in case of  Rec-\nonciliation\nField \nSequence \n#\nField Name\nLength\nMandatory / \nOptional\nDescription\n1\nMerchant ID\nan 15\nM\nTo be used to derive mer-\nchant a/c\n2\nTransaction \ncode\n2\nM\nTo be used to derive the \nproduct\n3\nProcessing \ncode\n6\nO\nISO type processing code\nField \nSequence \nNumber\nField  Name\nSize\nMandatory \n(M) / \nOptional \n(O)\nRemarks"
+    },
+    {
+      "page_number": 51,
+      "sections": [
+        "Maintaining SWTB_PARAM Table"
+      ],
+      "summary": "This section describes the maintenance of the SWTB_PARAM table for the Switch Interface Gateway system's initial parameters.",
+      "raw_text": "3-11\n3.9 \nMaintaining SWTB_PARAM Table\nThe SWTB_PARAM is the single record table for SWIG initial parameters. The maintenances \nin this table are done during implementation of the Switch Interface Gateway system. This is \nfor your information only.\n6\nEvent date\n8\nO\nBatch processing date\n7\nAmount\n22\nM\nTotal amount settled  to \nmerchant\n \nCurrency\n3\nM\n \n8\nTax Amount\n22\nO\nreserved for future use\n9\nDrCr Flag\n1\nO\nincase switch sends, use it\n10\nCommission \nAmount\n22\nO\nTo be detected \n11\nCommission \nFlag\n1\nO\ncommission flag incase \nsent\n12\nCommission \ncurrency code\n3\nO\ncommission currency \ncode\n13\nMerchant cur-\nrent  a/c \n28\nO\nincase merchant ID is not \nhaving any maintenance \nat Oracle FLEXCUBE\n14\nBranch code\n3\nO\nMerchant branch code\n15\nBank code\n10\nO\nMerchant bank code\n16\nUser Info\n30\nO\nReserved for CSE\nFOLLOW_ON\nY\nAMOUNT_BLOCK\nY\nSETL_BEFORE_FILE\nY\nLOG_TABLE_KEY\nMSG_-\nTYPE~RRN\nCHG_ON_BALENQ\nN\nCHG_ON_ADSTMT\nN\nCHG_ON_MISTMT\nN\nCHG_ON_CHQBK\nN\nNO_TXN_MISTMT\n10\nField \nSequence \n#\nField Name\nLength\nMandatory / \nOptional\nDescription"
+    },
+    {
+      "page_number": 52,
+      "sections": [],
+      "summary": "This page outlines various conditions and their corresponding actions for different transaction types and settings in a system configuration.",
+      "raw_text": "3-12\nIf FOLLOW_ON= ‘Y’ then \n– \nfor 200 MSG_TYPE Amount Block is done\n– \nfor 220 MSG_TYPE Parent message will be checked\nIf FOLLOW_ON= ‘N’ then for 200 and 220 MSG_TYPE it will check if \nAMOUNT_BLOCK= ‘Y’ then all 200 and 220 MSG will perform amount block.\nIf SETL_BEFORE_FILE= ‘Y’ then all remote on-us and off-us transaction will perform \nRetail Teller transaction and accounting entries. \nIf SETL_BEFORE_FILE= ‘N’ then all remote on-us and off-us transaction will do the \nAmount block and Retail Teller transaction will completed at the time of settlement file.\nLOG_TABLE_KEY is for making the primary key for ATM transaction.\nIf CHG_ON_BALENQ =’Y’ then for balance enquiry transaction, if charge is defined \nthen it will be deducted from the customer account. \nIf CHG_ON_ADSTMT= ‘Y’ then for adhoc statement transaction, if charge is defined \nthen it will be deducted from customer account.\nIf CHG_ON_MISTMT = ‘Y’ then for mini statement transaction, if charge is defined then \nit will be deducted from customer account.\nIf CHG_ON_CHQBK=’Y’ then for cheque book request transaction, if charge is defined \nthen it will be deducted from customer account.\nNO_TXN_MISTMT defines the number of latest transactions that should appear in a \nmini statement. (E.g. If NO_TXN_MISTMT=10 then in the mini statement the latest 10 \ntransactions will be displayed).\nISO_VERSION has only three type of value 0, 1 and 2.This gives the ISO 8583 \nmessage version. \n– \n1987 = 0\n– \n1993 = 1\n– \n2003 = 2\nNO_CHK_LEAVES defines the number of pages that should be in one cheque book.\nACC_STMT_PERIOD defines the duration of account statement period.(e.g. If \nACC_STMT_PERIOD=1 then duration is 1 month).\nIf UTIL_PROV_ACC_SEND=’Y’ means for utility payment we have to send the account \nnumber in 102 field. If UTIL_PROV_ACC_SEND=’N’ then Oracle FLEXCUBE will send \nthe provider id not an account number.\nBLOCK_EXP_DAYS defines the number of days for amount block. (E.g. If \nBLOCK_EXP_DAYS =30 then after 30 days the amount block on the account expires). \nBlock expiry days will also be used to calculate the purge date for switch transaction.\nISO_VERSION\n0\nNO_CHK_LEAVES\n25\nACC_STMT_PERIOD\n1\nUTIL_PROV_ACC_SEND\nY\nBLOCK_EXP_DAYS\n30\nMAX_RETRY_COUNT\n5\nFCC_ACC_FROM_SWITCH\nN\nONLY_PAN_FROM_SWITCH\nN"
+    },
+    {
+      "page_number": 53,
+      "sections": [],
+      "summary": "This page describes configuration settings for Retail Teller transactions, including retry counts and transaction account handling based on switch values.",
+      "raw_text": "3-13\nMAX_RETRY_COUNT defines the number of times for Retail Teller transactions to try \nfor a single transaction if it fails.\nIf FCC_ACC_FROM_SWITCH=’Y’ then transaction account is same as Oracle \nFLEXCUBE account. If FCC_ACC_FROM_SWITCH=’N’ then transaction account is \ncard account not Oracle FLEXCUBE account.\nIf ONLY_PAN_FROM_SWITCH=’Y’ then transaction account is not mandatory in ISO \nrequest (i.e. No need to give card account or Oracle FLEXCUBE account in request).\n If ONLY_PAN_FROM_SWITCH=’N’ then in request transaction account is mandatory."
+    },
+    {
+      "page_number": 54,
+      "sections": [],
+      "summary": "",
+      "raw_text": "4-1\n4. Function ID Glossary\nB\nBADEODFE .....................2-27\nBADIDBAT ......................2-29\nBASIDMTR ......................2-29\nC\nCADAMBLK .....................2-23\nCODSORCE ......................2-6\nCODUPLDM ......................2-8\nCYDCDEFN ....................2-10\nD\nDEDRTPRM ...........2-24, 2-25\nG\nGWDEXFUN ......................2-8\nGWDEXSYS ......................2-6\nI\nIFDATMMN .....................2-25\nO\nOLE_LINK3 ........................2-28\nOLE_LINK4 ........................2-28\nS\nSWDCARDA ................... 2-14\nSWDCDMNT ................... 2-12\nSWDCDTLM ................... 2-11\nSWDCDUPL .................... 2-30\nSWDCHNID .................... 2-16\nSWDCSHDP ................... 2-32\nSWDCUSTM ................... 2-14\nSWDFCLTL ..................... 2-17\nSWDMRCDT ................... 2-18\nSWDNWDET ..........2-17, 2-18\nSWDPRMAP ................... 2-21\nSWDTIDUP ..................... 2-32\nSWDTRMID .................... 2-19\nSWDTXQRY ................... 2-30\nSWDUPLST .................... 2-28\nSWDUTLPR .................... 2-21"
+    }
+  ]
+}

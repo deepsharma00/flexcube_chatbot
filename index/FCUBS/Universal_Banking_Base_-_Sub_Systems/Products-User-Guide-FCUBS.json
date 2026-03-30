@@ -1,0 +1,967 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base_-_Sub_Systems/Products-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 45,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the preface and product definition, including their purposes and related details.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual provides guidance on setting up products in Oracle FLEXCUBE, detailing its organization and intended audience.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual provides guidance on setting up products in Oracle FLEXCUBE, detailing its organization and intended audience.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual provides guidance on setting up products in Oracle FLEXCUBE, detailing its organization and intended audience.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This manual provides guidance on setting up products in Oracle FLEXCUBE, detailing its organization and intended audience.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This manual provides guidance on setting up products in Oracle FLEXCUBE, detailing its organization and intended audience.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Product Definition",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 The Advantages of Defining a Product",
+          "start_page": 6
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Product Definition",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking the Product Definition Screen",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Defining the Other Attributes of a Product",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 Interest Button",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Commission Button",
+          "start_page": 13
+        },
+        {
+          "structure": "3.3.5",
+          "title": "2.3.5 Charges Button",
+          "start_page": 14
+        },
+        {
+          "structure": "3.3.6",
+          "title": "2.3.6 Tax Button",
+          "start_page": 14
+        },
+        {
+          "structure": "3.3.7",
+          "title": "2.3.7 Accounting Roles Button",
+          "start_page": 15
+        },
+        {
+          "structure": "3.3.8",
+          "title": "2.3.8 Events Button",
+          "start_page": 18
+        },
+        {
+          "structure": "3.3.9",
+          "title": "2.3.9 Advices Button",
+          "start_page": 22
+        },
+        {
+          "structure": "3.3.10",
+          "title": "2.3.10 Branch and Currency Restrictions Button",
+          "start_page": 23
+        },
+        {
+          "structure": "3.3.11",
+          "title": "2.3.11 Deal Size Button",
+          "start_page": 24
+        },
+        {
+          "structure": "3.3.12",
+          "title": "2.3.12 Customers Button",
+          "start_page": 26
+        },
+        {
+          "structure": "3.3.13",
+          "title": "2.3.13 Instrument Restrictions Button",
+          "start_page": 28
+        },
+        {
+          "structure": "3.3.14",
+          "title": "2.3.14 Portfolio Restrictions Button",
+          "start_page": 29
+        },
+        {
+          "structure": "3.3.15",
+          "title": "2.3.15 Preferences Button",
+          "start_page": 31
+        },
+        {
+          "structure": "3.3.16",
+          "title": "2.3.16 MIS Button",
+          "start_page": 31
+        },
+        {
+          "structure": "3.3.17",
+          "title": "2.3.17 Associating a Product with a Brokerage Rule",
+          "start_page": 32
+        },
+        {
+          "structure": "3.3.18",
+          "title": "2.3.18 Specifying Free Format Texts and Instructions",
+          "start_page": 32
+        },
+        {
+          "structure": "3.3.19",
+          "title": "2.3.19 Specifying Instruction Details",
+          "start_page": 33
+        },
+        {
+          "structure": "3.3.20",
+          "title": "2.3.20 Document Codes Button",
+          "start_page": 34
+        },
+        {
+          "structure": "3.3.21",
+          "title": "2.3.21 Tracers Button",
+          "start_page": 35
+        },
+        {
+          "structure": "3.3.22",
+          "title": "2.3.22 User Defined Fields Button",
+          "start_page": 37
+        },
+        {
+          "structure": "3.3.23",
+          "title": "2.3.23 Status Button",
+          "start_page": 37
+        },
+        {
+          "structure": "3.3.24",
+          "title": "2.3.24 Indicating Automatic Status Change",
+          "start_page": 40
+        },
+        {
+          "structure": "3.3.25",
+          "title": "2.3.25 Generating Advices for a Status Change",
+          "start_page": 41
+        },
+        {
+          "structure": "3.3.26",
+          "title": "2.3.26 Specifying Status Control Details",
+          "start_page": 41
+        },
+        {
+          "structure": "3.3.27",
+          "title": "2.3.27 Capturing Movement Details",
+          "start_page": 41
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Transaction Limits",
+          "start_page": 42
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Maintaining Transaction Limits",
+          "start_page": 43
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides a glossary of icons used in the manual and references related documents for further information on specific procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides a glossary of icons used in the manual and references related documents for further information on specific procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Product Definition",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page explains what a product is in the context of Oracle FLEXCUBE user manuals and discusses the advantages of defining products for processing contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page explains what a product is in the context of Oracle FLEXCUBE user manuals and discusses the advantages of defining products for processing contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 The Advantages of Defining a Product",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page explains what a product is in the context of Oracle FLEXCUBE user manuals and discusses the advantages of defining products for processing contracts.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Product Definition",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "Could not summarize",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Invoking the Product Definition Screen",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This page describes how to invoke and use the Product Definition screen in various modules of Oracle FLEXCUBE to enter basic information about products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Defining the Other Attributes of a Product",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This section explains how to define additional attributes for a product after specifying its basic details, including interest rates, taxes, accounting entries, and more.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.3",
+      "title": "2.3.3 Interest Button",
+      "start_page": 10,
+      "end_page": 13,
+      "summary": "This section explains how to define additional attributes for a product after specifying its basic details, including interest rates, taxes, accounting entries, and more.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.4",
+      "title": "2.3.4 Commission Button",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This section explains how to process commissions for LC contracts in Oracle FLEXCUBE by defining and associating commission rules with products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.5",
+      "title": "2.3.5 Charges Button",
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This page explains how to define and process charges and fees for contracts in Oracle FLEXCUBE, as well as setting up tax rules and schemes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.6",
+      "title": "2.3.6 Tax Button",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page explains how to define and process charges and fees for contracts in Oracle FLEXCUBE, as well as setting up tax rules and schemes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.7",
+      "title": "2.3.7 Accounting Roles Button",
+      "start_page": 15,
+      "end_page": 18,
+      "summary": "This page discusses amending tax details for contracts and setting up accounting details for products in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.8",
+      "title": "2.3.8 Events Button",
+      "start_page": 18,
+      "end_page": 22,
+      "summary": "This page explains how to set up an Accounting Role to Head Mapping class by specifying roles and account heads for a product, and defining accounting entries at events.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.9",
+      "title": "2.3.9 Advices Button",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This page describes how to select rate types for revaluation and how to define advices that should be generated for specific events.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.10",
+      "title": "2.3.10 Branch and Currency Restrictions Button",
+      "start_page": 23,
+      "end_page": 24,
+      "summary": "This page describes settings for advice generation, including suppression, priority, charges collection, and branch/currency restrictions for product offerings.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.11",
+      "title": "2.3.11 Deal Size Button",
+      "start_page": 24,
+      "end_page": 26,
+      "summary": "This page explains how to define branch and currency restrictions for a product in Oracle FLEXCUBE, either by associating the product with an existing class or by defining specific restrictions directly.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.12",
+      "title": "2.3.12 Customers Button",
+      "start_page": 26,
+      "end_page": 28,
+      "summary": "This page explains how to manage customer categories and restrictions for products in Oracle FLEXCUBE, including using classes to define these restrictions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.13",
+      "title": "2.3.13 Instrument Restrictions Button",
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "This section explains how to set up security restrictions in Oracle FLEXCUBE for portfolio and deal products, including defining classes of restrictions and associating them with specific products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.14",
+      "title": "2.3.14 Portfolio Restrictions Button",
+      "start_page": 29,
+      "end_page": 31,
+      "summary": "This page explains how to define security restrictions specifically for a product, including setting up allowed or disallowed lists and exempting specific securities.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.15",
+      "title": "2.3.15 Preferences Button",
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This page describes how to manage portfolio restrictions and preferences for products in a system, as well as setting up MIS details through warehouse codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.16",
+      "title": "2.3.16 MIS Button",
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This page describes how to manage portfolio restrictions and preferences for products in a system, as well as setting up MIS details through warehouse codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.17",
+      "title": "2.3.17 Associating a Product with a Brokerage Rule",
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This page explains how to link a product with an MIS Group and specify associated codes for pool, cost, and fund, as well as the actions required after making these specifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.18",
+      "title": "2.3.18 Specifying Free Format Texts and Instructions",
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This page explains how to link a product with an MIS Group and specify associated codes for pool, cost, and fund, as well as the actions required after making these specifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.19",
+      "title": "2.3.19 Specifying Instruction Details",
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This page explains how to associate Fast Fourier Transforms (FFTs) and instructions with a product in the Product Definition screen, including specifying advice codes for bank references or customer advices.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.20",
+      "title": "2.3.20 Document Codes Button",
+      "start_page": 34,
+      "end_page": 35,
+      "summary": "This page explains how to specify advice codes for instructions and how to associate documents with a product in the 'Product - Instructions and Free Format Text' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.21",
+      "title": "2.3.21 Tracers Button",
+      "start_page": 35,
+      "end_page": 37,
+      "summary": "This page explains how to specify standard shipping documents and related clauses for a product under a documentary LC, including selecting document codes and clause codes from predefined lists.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.22",
+      "title": "2.3.22 User Defined Fields Button",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page discusses settings related to tracer frequency and medium preferences, user-defined fields for products, and contract status management within a specific system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.23",
+      "title": "2.3.23 Status Button",
+      "start_page": 37,
+      "end_page": 40,
+      "summary": "This page discusses settings related to tracer frequency and medium preferences, user-defined fields for products, and contract status management within a specific system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.24",
+      "title": "2.3.24 Indicating Automatic Status Change",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This page discusses the reversal of accruals for bills that have defaulted and the automatic status changes in a financial product, including forward and reverse status changes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.25",
+      "title": "2.3.25 Generating Advices for a Status Change",
+      "start_page": 41,
+      "end_page": 41,
+      "summary": "This page explains how to generate notifications for status changes in contracts and details the number of days required for components within a contract to move from one status to another.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.26",
+      "title": "2.3.26 Specifying Status Control Details",
+      "start_page": 41,
+      "end_page": 41,
+      "summary": "This page explains how to generate notifications for status changes in contracts and details the number of days required for components within a contract to move from one status to another.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.27",
+      "title": "2.3.27 Capturing Movement Details",
+      "start_page": 41,
+      "end_page": 42,
+      "summary": "This page explains how to generate notifications for status changes in contracts and details the number of days required for components within a contract to move from one status to another.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Transaction Limits",
+      "start_page": 42,
+      "end_page": 43,
+      "summary": "This page explains how to define General Ledger (GL) structures for accounting entries when contracts involving a specific product transition between statuses, detailing both upward and downward movements.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Maintaining Transaction Limits",
+      "start_page": 43,
+      "end_page": 45,
+      "summary": "This page explains how to maintain transaction limits in Oracle FLEXCUBE for specific modules and products, including the process of creating new limits and authorizing them.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 45,
+      "end_page": 47,
+      "summary": "This page appears to be part of a glossary for function IDs, possibly in a technical document.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page introduces the Oracle FLEXCUBE Universal Banking User Guide for Release 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Products User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited's Products User Guide.",
+      "raw_text": "Products User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Product Definition"
+      ],
+      "summary": "This page introduces the preface and product definition, including their purposes and related details.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nProduct Definition .................................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nThe Advantages of Defining a Product....................................................................  2-1\n2.3 \nProduct Definition ....................................................................................................  2-2\n2.3.1  \nInvoking the Product Definition Screen ......................................................  2-3\n2.3.2  \nDefining the Other Attributes of a Product..................................................  2-5\n2.3.3  \nInterest Button ............................................................................................  2-5\n2.3.4  \nCommission Button ....................................................................................  2-8\n2.3.5  \nCharges Button...........................................................................................  2-9\n2.3.6  \nTax Button ..................................................................................................  2-9\n2.3.7  \nAccounting Roles Button ..........................................................................  2-10\n2.3.8  \nEvents Button ...........................................................................................  2-13\n2.3.9  \nAdvices Button..........................................................................................  2-17\n2.3.10  Branch and Currency Restrictions Button ................................................  2-18\n2.3.11  Deal Size Button.......................................................................................  2-19\n2.3.12  Customers Button.....................................................................................  2-21\n2.3.13  Instrument Restrictions Button ................................................................  2-23\n2.3.14  Portfolio Restrictions Button .....................................................................  2-24\n2.3.15  Preferences Button...................................................................................  2-26\n2.3.16  MIS Button................................................................................................  2-26\n2.3.17  Associating a Product with a Brokerage Rule ..........................................  2-27\n2.3.18  Specifying Free Format Texts and Instructions........................................  2-27\n2.3.19  Specifying Instruction Details ...................................................................  2-28\n2.3.20  Document Codes Button ..........................................................................  2-29\n2.3.21  Tracers Button..........................................................................................  2-30\n2.3.22  User Defined Fields Button ......................................................................  2-32\n2.3.23  Status Button ...........................................................................................  2-32\n2.3.24  Indicating Automatic Status Change ........................................................  2-35\n2.3.25  Generating Advices for a Status Change .................................................  2-36\n2.3.26  Specifying Status Control Details .............................................................  2-36\n2.3.27  Capturing Movement Details ....................................................................  2-36\n2.4 \nTransaction Limits .................................................................................................  2-37\n2.4.1  \nMaintaining Transaction Limits.................................................................  2-38\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter",
+        "Chapter",
+        "Chapter"
+      ],
+      "summary": "This manual provides guidance on setting up products in Oracle FLEXCUBE, detailing its organization and intended audience.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is essentially designed to help you set up products in Oracle FLEXCUBE. It takes \nyou through the various steps involved in creating a product. Further, you can obtain \ninformation specific to a particular field by placing the cursor on the relevant field and striking \n<F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of day operators\nProcessing during end of day/ beginning of day\nFinancial Controller/Product Managers\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It \nalso lists the various chapters covered in this User Manual.\nChapter 2\nProduct Definition explain about what a product means Oracle \nFLEXCUBE and the process of defining the same.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation."
+    },
+    {
+      "page_number": 5,
+      "sections": [],
+      "summary": "This page provides a glossary of icons used in the manual and references related documents for further information on specific procedures.",
+      "raw_text": "1-2\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nCommon Procedures\nBuilding Interest Components\nBuilding Commission Components\nBuilding Charge Components\nHandling Brokerage\nBuilding Tax Components\nThe Settlements Service\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Product Definition",
+        "The Advantages of Defining a Product"
+      ],
+      "summary": "This page explains what a product is in the context of Oracle FLEXCUBE user manuals and discusses the advantages of defining products for processing contracts.",
+      "raw_text": "2-1\n2. Product Definition\n2.1 \nIntroduction\nYou will encounter the word ‘product’ frequently in the Oracle FLEXCUBE user manuals. A \n‘product’ is a specific service that you offer your customers.\nFor example, you may offer an ‘overnight borrowing’ facility to your customers. By defining a \nspecific overnight borrowing facility as a money market product - with certain attributes - you \ncan group together, or categorize, all overnight borrowings that share the attributes defined \nfor the product.\nThis chapter contains the following sections:\nSection 2.2, \"The Advantages of Defining a Product\"\nSection 2.3, \"Product Definition\"\nSection 2.4, \"Transaction Limits\"\n2.2 \nThe Advantages of Defining a Product\nThe attributes that you define for a product apply on all contracts that are processed under \nthe product. By creating a product, you construct a broad framework within which you can \nprocess contracts. This helps minimize the details you have to capture when processing a \ncontract.\nThe advantage of defining a product is that it simplifies the task of entering into contracts. The \nfollowing example further illustrates the concept of products.\nFor example, a money market deal could be of any of the following types:\nOvernight Placement\nOvernight Borrowing \nWeekly Placement\nWeekly Borrowing\nMonthly Placement\nMonthly Borrowing\nYou can define any number of Overnight Placement products, Weekly Placement products, \nMonthly Borrowings, etc., having varying rates of interest. You may choose to allow or deny \nrollovers, apply or waive tax, specify different accrual frequencies, and so on. Each of these \ntypes of placement/borrowing definitions, with their specific set of attributes, constitutes a \nproduct.\nYou could allot Product Codes for each of these products as follows:\nMWP1  Weekly Placement 1\nMOB2  Overnight Borrowing 2\nAttributes of MWP1:\nRate of interest - 16% fixed interest\nMaximum tenor - 1 week\nMinimum tenor - 1 day\nDaily repayment schedules"
+    },
+    {
+      "page_number": 7,
+      "sections": [],
+      "summary": "Could not summarize",
+      "raw_text": "2-2\nRollover allowed\nAttributes of MOB1:\nRate of interest - Floating rate of the day applied automatically\nMaximum tenor  1 day\nRepayment at Maturity\nNo rollover\nNote\nIn this example, only a few attributes have been defined. You can define many more at-\ntributes for a product.\nAll deals involving MWP1 are overnight placements, which inherit the attributes of MOB1.\nMWP1 and MOB1 are examples of products.\nA product is set up at the Head Office of your bank. This means that the Product Definition \nfacility also serves as a central control mechanism — you can ensure that a service your bank \nprovides is offered uniformly across branches.\n2.3 \nProduct Definition\nThis section contains the following topics:\nSection 2.3.1, \"Invoking the Product Definition Screen\"\nSection 2.3.2, \"Defining the Other Attributes of a Product\"\nSection 2.3.3, \"Interest Button\"\nSection 2.3.4, \"Commission Button\"\nSection 2.3.5, \"Charges Button\"\nSection 2.3.6, \"Tax Button\"\nSection 2.3.7, \"Accounting Roles Button\"\nSection 2.3.8, \"Events Button\"\nSection 2.3.9, \"Advices Button\"\nSection 2.3.10, \"Branch and Currency Restrictions Button\"\nSection 2.3.11, \"Deal Size Button\"\nSection 2.3.12, \"Customers Button\"\nSection 2.3.13, \"Instrument Restrictions Button \"\nSection 2.3.14, \"Portfolio Restrictions Button\"\nSection 2.3.15, \"Preferences Button\"\nSection 2.3.16, \"MIS Button\"\nSection 2.3.17, \"Associating a Product with a Brokerage Rule\"\nSection 2.3.18, \"Specifying Free Format Texts and Instructions\"\nSection 2.3.19, \"Specifying Instruction Details\"\nSection 2.3.20, \"Document Codes Button\"\nSection 2.3.21, \"Tracers Button\"\nSection 2.3.22, \"User Defined Fields Button \"\nSection 2.3.23, \"Status Button \""
+    },
+    {
+      "page_number": 8,
+      "sections": [],
+      "summary": "This page describes how to invoke and use the Product Definition screen in various modules of Oracle FLEXCUBE to enter basic information about products.",
+      "raw_text": "2-3\nSection 2.3.24, \"Indicating Automatic Status Change\"\nSection 2.3.25, \"Generating Advices for a Status Change\"\nSection 2.3.26, \"Specifying Status Control Details\"\nSection 2.3.27, \"Capturing Movement Details\"\n2.3.1 \nInvoking the Product Definition Screen \nIn the Product Definition screen of every module, you can enter basic information about a \nproduct such as the Product Code, the Description, etc.\nThe Product Definition screens of the various modules of Oracle FLEXCUBE are invoked \nfrom the Application Browser. \nNote\nProduct Definition screen is specific to a module. To create an LC product, for instance, \ninvoke the ‘LC Product Definition’ screen from the Application Browser. Similarly, to create \nan FX product, invoke the ‘Foreign Exchange Product Definition’ screen from the Applica-\ntion Browser.\nIn a Product Definition screen, you should specify the following details for the products you \ncreate:\nA code unique to the product\nA brief description of the product\nThe product type\nThe product group\nA slogan for the product\nThe life span of the product\nYour remarks"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Product Code and Description",
+        "Product Type",
+        "Product Group"
+      ],
+      "summary": "This page explains how to define product codes, types, and groups in Oracle FLEXCUBE for identifying and categorizing products.",
+      "raw_text": "2-4\nProduct Code and Description\nA product code identifies a product throughout Oracle FLEXCUBE. This code should be four \ncharacters in length.\nWhen defining a new product, you should enter a code that is unique across the different \nmodules of Oracle FLEXCUBE. For instance, if you have used MM01 for a product in the \nMoney Market module, you cannot use it as a product code in any other module.\nIt may be difficult to recognize a product just by its code. In the Description field, therefore, \nsuitably describe the product code so that it can be easily identified. This description will be \ndisplayed along with the code throughout Oracle FLEXCUBE.\nProduct Type\nProduct categories are referred to as ‘product types.’ When you create a product, you must \nspecify the ‘type’ to which it belongs. For instance, you should specify the money market \nproduct type as ‘Placement’ if you are defining a placement product, and ‘Borrowing’ if you \nare defining a borrowing product. Similarly, in the Teller module, if you are setting up a Cash \nproduct, choose the ‘Cash’ option in the Product Type field. If you are setting up a product to \nprocess Traveller’s Checks, choose the ‘Others’ option in the Product Type field.\nProduct Group\nProducts can be categorized into groups based on the common elements that they share. You \nmust associate a product with a group. This would facilitate retrieval of information of a class \nof products at one stroke.\nFor example, you can group all products involving travelers’ checks into a product group. You \ncan group all products involving deposits into a product group. \nSlogan\nYou can enter a marketing punch line for every product you create. This slogan will be printed \non all advices that are sent to customers who avail of the product.\nFor example, if you set up a borrowings product called Money Multiplier, you could enter the \nslogan ‘Watch your money grow with Money Multiplier.’\nStart Date and End Date\nA product can be defined to be active over a specific period. When you create a product, you \ncan specify a ‘Start Date’ and ‘End Date’ for it. The product can only be used within the \nspecified period (i.e. within the Start Date and End Date).\nIf you do not specify the Start Date, the branch date will be displayed as the Start Date.\nIf you do not specify an End Date for a product, it can be used for an indefinite period.\nThe start and end dates of a product come in handy when you are defining a product that you \nwould like to offer over a specific period.\nFor example, you have a promotional scheme for three months  ‘Special Interest Rate for \nSavings Bank Accounts’  wherein you would like to pay higher interest on monthly minimum \ncredit balances that exceed USD 20,000. This scheme is open between 1 October 1998 and \n31 December 1998, and the rate of interest that you would like to pay on the balance is 5%  \nmore than what you normally pay, that is, 2.5%.\nSince the scheme ends on 31 December 1998, all those who have maintained monthly \nminimum credit balances exceeding USD 20,000 (for the period between 1 October 1998 and \n31 December 1998) would be eligible for the higher rate of interest."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Defining the Other Attributes of a Product"
+      ],
+      "summary": "This section explains how to define additional attributes for a product after specifying its basic details, including interest rates, taxes, accounting entries, and more.",
+      "raw_text": "2-5\nNote\nIf you do not specify an End Date, the product can be used till it is closed. \nRemarks\nWhen creating a product, you can enter information about the product intended for your \nbank’s internal reference. This information will not be printed on any correspondence with the \ncustomer.\n2.3.2 \nDefining the Other Attributes of a Product\nOnce you have specified the basic details of a product, you can define the other attributes for \nit. From the Product Definition Main screen, you can move to the screen of your choice to \ndefine an attribute by clicking on the appropriate icon. \nThe other product attributes that you can define include:\nThe interest, commissions, charges and fees that you would like to levy on contracts \ninvolving the product\nThe taxes that apply on the contracts involving the product \nThe type of accounts and the GL/SLs to which the accounting entries generated by \ncontracts involving the product have to be posted\nThe advices to be generated at different points in the life cycle of contracts involving the \nproduct\nA list of allowed or a list of disallowed branches (of your bank) that can use a product\nA list of currencies that are allowed or disallowed for a product\nCertain ‘preferences’, specific to a product\nAging analysis related details\nManagement Information System (MIS) details\nClause/Document details\nNote\nThe product attributes that you can define would depend on the module in which you are \ncreating the product. For instance, the attributes that you define for a product in the Letter \nof Credit (LC) module would vary significantly from the product attributes that you define \nin the Teller module. For products you create in the LC module, you would define commis-\nsion, clause, and document details, whereas, these attributes would not apply to products \nyou create in the Teller module.\nNote\nThere are some fields in the product definition screens in which a value must be entered. \nIf you try to save a product without entering details in these fields, the product will not be \nsaved. You will be prompted to enter all mandatory details before attempting to save the \nproduct.\n2.3.3 \nInterest Button\nIn Oracle FLEXCUBE, the interest that applies on a contract is referred to as the interest \ncomponent of the contract. Calculating the interest component for a contract is achieved by:\nCreating interest rules"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Building interest classes (specifically, for the Securities module)",
+        "Associating a product with an interest rule (or an interest class in case of the Securities module). This rule applies on all contracts processed under the product.",
+        "Amending, if required, certain interest details that a contract acquires from the product under which it is processed"
+      ],
+      "summary": "This page describes how to build and associate interest classes or rules with products in the Securities module, as well as amend interest details for contracts.",
+      "raw_text": "2-6\nBuilding interest classes (specifically, for the Securities module)\nAssociating a product with an interest rule (or an interest class in case of the Securities \nmodule). This rule applies on all contracts processed under the product.\nAmending, if required, certain interest details that a contract acquires from the product \nunder which it is processed\nFor details relating to interest, refer the Building Interest Components User Manual.\nClick ‘Interest’ button in the ‘Product Definition’ screen to invoke the ‘Interest Details’ screen.\nIn this screen, you can associate the product you are creating with an Interest Rule. The \nattributes defined for the interest rule or class that you link to a product default to all contracts \nprocessed under the product.\nNote\nFor products created in certain modules of Oracle FLEXCUBE, you may have to specify \nadditional interest details. These details have to be specified in the Product Preferences \nscreen of the module. \nRefer the Products chapter of the respective user manuals for details."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Link Contract as Rate Code"
+      ],
+      "summary": "This page explains how to link a floating rate component of a product to either a rate code or a contract with a fixed rate main component for specific modules such as Deposits and Money Market.",
+      "raw_text": "2-7\nLink Contract as Rate Code\nA floating rate component defined for a product can be linked to either a rate code, or to a \ncontract with a fixed rate main component. This is applicable only for products in the following \nmodules:\nDeposits (a fixed rate loan can be linked)\nMoney Market (for a placement product, a fixed rate borrowing contract can be linked, \nand for a borrowing product, a fixed rate placement can be linked).\nIn the Product ICCF screen, when you specify the details for a floating rate component for the \nproduct, you can indicate that contracts using the product can be linked to a contract, instead \nof a rate code, as described above. \nIn the LD Product ICCF screen, select the ‘Link Contract as Rate Code’ field to indicate that \nfor contracts using the deposit product, a fixed rate loan contract can be linked instead of a \nrate code.\nIn the MM Product ICCF screen, for a placements product, select this option to indicate that \nfor contracts using the placements product, a fixed rate borrowing contract can be linked \ninstead of a rate code. For a borrowing product, select this option to indicate that for contracts \nusing the borrowing product, a fixed rate placement contract can be linked instead of a rate \ncode. \nIf so linked, the fixed rate specified for the main component of the linked contract, is applicable \nto the main contract. This would work in a similar fashion to linking a rate code. The spread \nand customer margin is applied on the linked contract rate to arrive at the effective interest \nrate for the main contract.\nThe Code Usage can be set to Auto or Periodic, only for the FLOAT Rate Type.\nNote\nIf the selected linked fixed rate contract involves a different customer than that of the main \ncontract, an override is sought, which can be accepted to proceed with saving the main \ncontract.\nWhenever the fixed rate in the linked contract changes, the EOD process propagates the \nchange to all contracts linked to it, also marking the rate revision for the contracts.\nWhen the fixed rate in the linked contract is amended with a back value date, the effective \ndate on which the changed rate is applied to any contracts it is linked to, is either the last \nliquidation date for the fixed rate contract, or the effective date of rate change for the contract \nit is linked to, whichever is later.\n2.3.3.1 \nLevying Commitment Fee on Commitment Account\nYou have a provision for charging commitment fee on the entire balance of the commitment. \nThe system calculates the commitment fee based on the category of the ICCF component. \nWhen you define a product, in the Product ICCF screen, select from the following values for \nthe ICCF component of a commitment product:\nNormal – Indicates that the commitment fee will be charged on the contract amount \n(Principal)\nOutstanding - Indicates that the commitment fee will be charged on the outstanding \nbasis amount (Principal)"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Commission Button"
+      ],
+      "summary": "This section explains how to process commissions for LC contracts in Oracle FLEXCUBE by defining and associating commission rules with products.",
+      "raw_text": "2-8\nNote\nWhen a value dated amendment is done, or in case of a commitment reduction schedule, \nthe contract amount will change and hence any commission will be computed on the mod-\nified contract amount.\n2.3.4 \nCommission Button\nTo process an LC contract, your bank may collect commissions calculated on different bases. \nIn Oracle FLEXCUBE, calculating commission for LC contracts is achieved by:\nDefining commission rules\nAssociating a product with a commission rule. This rule applies on all contracts \nprocessed under the product\nAmending, if required, certain commission details that a contract acquires from the \nproduct under which it is processed\nFor details relating to commission, refer the Building Commission Components User Manual.\nClick ‘Commission’ button in the Product Definition screen (LCDPRMNT) to invoke the ‘ICCF \nDetails’ screen.\nIn this screen, you can associate the product you are creating with a Commission Rule. The \nattributes defined for the rule that you link to a product default to all contracts processed under \nthe product."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Charges Button",
+        "Tax Button"
+      ],
+      "summary": "This page explains how to define and process charges and fees for contracts in Oracle FLEXCUBE, as well as setting up tax rules and schemes.",
+      "raw_text": "2-9\n2.3.5 \nCharges Button\nOn the transactions and contracts you enter in Oracle FLEXCUBE, you may opt to levy \ncharges or fees. You can calculate charges and fees for a contract in the following manner:\nDefine a Charge/Fee Rule\nBuild a Charge Class and associate it with a rule\nAssociate a product with charge classes. These classes apply on all contracts \nprocessed under the product\nAmend, if required, certain charge details that a contract acquires from the product \nunder which it is processed\nYou can identify the charge component for a product in the ‘Charge Details’ screen. Click \n‘Charges’ button from the Product Definition screen of any module to invoke this screen.\nThe steps involved in processing charges for a contract, i.e. defining charge rules, defining \ncharge classes, associating charge classes with a product, and amending charge details to \nsuit a contract are explained in the Building Charge Components User Manual.\n2.3.6 \nTax Button\nIn Oracle FLEXCUBE, you can compute the tax that applies on a contract or deal by:\nSetting up a tax rule\nLinking tax rules to create a tax scheme\nAssociating a product with a tax scheme. The rules that are part of the scheme will apply \non all contracts processed under the product"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Amending, if required, certain tax details that a contract acquires from the product under which it is processed",
+        "Accounting Roles Button"
+      ],
+      "summary": "This page discusses amending tax details for contracts and setting up accounting details for products in Oracle FLEXCUBE.",
+      "raw_text": "2-10\nAmending, if required, certain tax details that a contract acquires from the product under \nwhich it is processed\nYou can identify the tax components for a product in the ‘Product Tax Linkage’ screen. Click \n‘Tax’ button in the ‘Product Definition’ screen of any module to invoke this screen.\nThe steps involved in processing tax for a contract is explained in the Building Tax \nComponents User Manual.\n2.3.7 \nAccounting Roles Button\nIn Oracle FLEXCUBE, accounting—simplistically, posting accounting entries to the \nappropriate ledgers maintained in your Chart of Accounts—is automated. This is achieved by \ndefining an intricate accounting structure that includes the Chart of Accounts, Transaction \nCodes and Amount Tags, and by identifying accounting roles, heads and amount tags for the \nproducts you create at your bank. As a result, the accounting entries that are generated at the \nvarious events in the life cycle of contracts are automatically posted to the ledgers specified \nfor the product. \nIn this section, we shall discuss setting up of accounting details for a product.\nBefore we proceed with setting up accounting details for a product, we shall discuss a few \nterms that you will frequently encounter in this section.\nAccounting Head - In Oracle FLEXCUBE, the different General Ledgers (GLs) and Sub-\nLedgers (SLs) maintained in your Chart of Accounts are referred to as accounting \nheads, or, simply, account heads.\nGL Types - The GL/SLs that you have maintained in your bank can be categorized into \ndifferent GL Types: Asset, Liability, Income, Expense, Contingent Asset, Contingent \nLiability, Position GL, Position Equivalent GL, etc. When maintaining a GL in the Chart \nof Accounts, you have to identify its type.\nAmount Tag - A contract would typically consist of several components. For instance, a \ncontract would consist of the principal, interest, charges, tax, etc. These amounts are \nreferred to as the ‘components’ of a contract. In Oracle FLEXCUBE, a unique tag called \nthe Amount Tag identifies each component.\nAccounting Roles - Accounting Roles are tags that identify the type of accounting entry \nthat is posted to an accounting head. For instance, in the Letters of Credit (LC) module, \nassume you have specified the following commissions for an LC product, to be collected \nwhen issuing LCs processed under the product: ISSCOMM1 and ISSCOMM2."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "The Product Accounting Roles to Head Mapping Definition screen",
+        "The Product Events Accounting Entries and Advices Maintenance screen"
+      ],
+      "summary": "This page describes how accounting roles are automatically generated for commission components in Oracle FLEXCUBE and how to map these roles to appropriate accounting heads.",
+      "raw_text": "2-11\nThe following Accounting Roles will be automatically generated in Oracle FLEXCUBE to \nidentify all possible types of accounting entries involving these commission components:\nSimilarly, based on your accounting set up in a module, accounting roles are automatically \ngenerated for the other components of a contract.\nYou can maintain the accounting details for a product in two screens:\nThe Product Accounting Roles to Head Mapping Definition screen\nThe Product Events Accounting Entries and Advices Maintenance screen\nBefore you define the accounting details for a product, you should define the various \ncomponents of the contracts involving the product such as interest, charges, tax, etc.\nIn the Product Accounting Role to Head Mapping Definition screen, a list of accounting roles \nwill automatically be generated based on the components you define for the product. You \nshould map all the accounting roles that are available with the appropriate accounting heads.\nCOMMISSION 1\nCOMMISSION 2\nType of Accounting Entry\nISSCOMM1_INC\nISSCOMM2_INC\nIncome\nISSCOMM1_EXP\nISSCOMM2_EXP\nExpense\nISSCOMM1_PAY\nISSCOMM2_PAY\nPayable\nISSCOMM1_REC\nISSCOMM2_REC\nReceivable\nISSCOMM1_RIA\nISSCOMM2_RIA\nReceived in Advance\nISSCOMM1_PIA\nISSCOMM2_PIA\nPaid in Advance"
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Enter the following details:",
+        "Indicating Class Details"
+      ],
+      "summary": "This page explains how to invoke and use the 'Accounting Roles' screen in the Product Definition module to enter product details and associate or map accounting roles and heads for a product.",
+      "raw_text": "2-12\nYou can invoke the ‘Accounting Roles’ screen by clicking ‘Accounting Roles’ button in the \nProduct Definition screen.\nEnter the following details:\nProduct Code and Description\nIn this field, briefly describe the product that you are maintaining. The description that you \nenter here will help you identify the product all through the module.\nAdopting either of the following procedures, you can specify the accounting roles and heads \nfor a product:\nAssociating the product with an Accounting Role to Head Mapping Class. (This is \npossible only if you have maintained classes of Accounting Roles and Heads \nspecifically for the module.)\nMapping accounting roles and heads specifically for the product\n2.3.7.1 \nIndicating Class Details\nEnter the following details:\nClass Code and Description\nYou can opt to associate an Accounting Role to Head Mapping Definition Class (that you have \nmaintained) with the portfolio product that you are creating. By opting to associate a class with \na product, you save the effort of defining the accounting roles and heads for a product, all over \nagain. The roles and heads defined for the class will automatically default to the portfolio \nproduct. You can change these defaults to suit the product you are defining. \nClick ‘Default From Class’ button in the Product Accounting Role to Head Mapping Definition \nscreen to associate the product you are maintaining with a class of mapped roles and heads. \nA list of the classes that you have defined specifically for the module will be displayed. Choose \na class with the requisite accounting heads and roles mapped."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Specifying Roles",
+        "Events Button"
+      ],
+      "summary": "This page explains how to set up an Accounting Role to Head Mapping class by specifying roles and account heads for a product, and defining accounting entries at events.",
+      "raw_text": "2-13\nThe procedure for setting up an Accounting Role to Head Mapping class is similar to mapping \naccounting roles and accounting heads specifically for a product. This is discussed below.\n2.3.7.2 \nSpecifying Roles\nEnter the following details:\nAccounting Role \nIf you do not use a class to define accounting role and heads for a product, in this screen, you \ncan define them specifically for the product you are creating. \nIn the Accounting Roles column, select an Accounting Role from the adjoining option list. You \ncan choose a role by double clicking on it. Next, in the Account Head column, select an \naccounting head from the adjoining option list. Click add icon to map the role with the \ncorresponding head in the Accounting Head column. If you would like to delete a role to head \nmapping, click delete icon.\nAccount Head\nIf you choose not to associate the product with a class, you have to specify the account heads \nfor the product, in this field. You can invoke a list of the accounting heads that you have \nmaintained from the option list positioned next to this field. Choose a head by double clicking \non it.\nDescription\nA brief description of each accounting head that you choose will be provided in the Description \nfield. \n2.3.8 \nEvents Button\nAt an event, typically, you would want to post the accounting entries to the appropriate \naccount heads and generate the required advices. When setting up a product, you can define \nthe accounting entries that have to be posted and the advices that have to be generated at"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Event",
+        "Defining Accounting Entries and Advices for Events"
+      ],
+      "summary": "This page explains how to manage events in Oracle FLEXCUBE by defining accounting entries and advices for different stages of a contract's lifecycle.",
+      "raw_text": "2-14\nthe various events, once the products are authorized. To do this, click ‘Events’ button in the \nProduct Definition screen. The ‘Product Event Accounting Entries’ screen is displayed.\nSpecify the following details:\nEvent \nA contract goes through different stages in its life cycle. In Oracle FLEXCUBE, the different \nstages a contract passes through in its life cycle are referred to as ‘events’. \nFor example, some of the stages in the lifecycle of a security are:\nDeal Booking\nMoney Settlement of Securities Deal\nSettlement of Securities Deal\nReversal of Securities Deal\nCancellation of Securities Deal\nEach stage is referred to as an Event in Oracle FLEXCUBE.\nYou can define the accounting entries and advices for events using either of the following \nmethods:\nAssociating a product with an Events Class. This is possible only if you have maintained \nEvents classes specifically for the module\nBy defining event details specifically for the product\nClick ‘Default From Class’ button in this screen to associate the product you are maintaining \nwith an Events class. A list of the Events classes that you have defined specifically for the \nmodule will be displayed. Choose a class with the requisite events and accounting details \nmaintained. The product acquires the accounting entries and advices defined for the Events \nclass you choose."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Defining Events and Accounting Details Specifically for a Product"
+      ],
+      "summary": "This section explains how to define events and accounting details specifically for a product when not using an events class, including specifying accounting entries and advices.",
+      "raw_text": "2-15\nThe procedure for setting up an Events class is similar to defining events and accounting \ndetails for a product. Refer the following sub-head for details.\n2.3.8.1 \nDefining Events and Accounting Details Specifically for a Product\nIf you do not use an events class, you should define event details specifically for the product. \nIn this case, select an event from the adjoining option list that displays a list of events \npertaining to the module.\nFor every event you select, you should specify the accounting entries that should be passed \nand the advices that should be generated.\nClick ‘Accounting Entries’ button in the Events Definition screen to specify the accounting \napplicable to the event.\nReceiver Bank Charges\nThis option enables the bank to collect Receiver Bank's Charges for an outgoing FT contract \nwith charge option as OUR.\nThe accounting entry definition is as follows:\nAccounting Entry\nEvent\nDr. Remitter\nAMT_EQUIV\nCr. Beneficiary\nTFR_AMT\nDr. Custchargeacc\nCHARGES (Own)\nCr. Charge Inc\nCHARGES (Own)\nDr. Custchargeacc\nFT_RVR_CHGS\nCr. Beneficiary\nRVR_CHGS"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Accounting Role",
+        "Amount Tag",
+        "Dr/Cr",
+        "Txn Code",
+        "Netting"
+      ],
+      "summary": "This page describes the details required for maintaining accounting information during an event in Oracle FLEXCUBE, including specifying roles, tags, transaction codes, and netting criteria.",
+      "raw_text": "2-16\nFor an each event, you have to maintain accounting information, as follows.\nAccounting Role\nSpecify the accounting role that should be used at the event. The option list displays all the \naccounting roles specified for the product in the Accounting Role Definition screen.\nAmount Tag\nSpecify the tag which identifies the component that has to be posted to the account head.\nDr/Cr\nIndicate whether the accounting role you specified is for the debit or credit leg of the contract \nevent.\nTxn Code\nEvery accounting entry in Oracle FLEXCUBE is associated with a Transaction Code that \ndescribes the nature of the entry. Specify the transaction code that should be used to post the \naccounting entry to the account head. \nNetting\nSpecify whether accounting entries should be netted at an event. You can net the accounting \nentries that are generated at an event if the set of entries satisfy the following criteria:\nThe entries belong to the same Account and Branch\nThe entries to be netted are in the same currency\nThe entries have the same value date\nThe exchange rate to be picked up for the entries is the same\nYou should define details for both the legs of an accounting entry. For each accounting entry, \nyou should specify the details of the debit and the credit leg. Thus, the first two specifications \nwill be for one entry, the next two for another, and so on. The Transaction Code for the entry \nshould be specified for both legs of the entries.\nNote\nIf netting is indicated for Income/Expense GLs marked for accounting entry-based revalu-\nation of FCY entries, an override is displayed. If the override is accepted, the offset is not \nidentifiable and the entry is revalued as a single entry. For more information on accounting \nentry-based revaluation of FCY entries for an Income/Expense GL, refer the General \nLedger (GL) user manual.\nAdjustments are to be Made for Holidays\nThis parameter is available only for securities portfolio product definition in the Securities \nmodule.\nFor coupon events falling on holidays, you have the option of shifting the event date forward \n/ backward or leaving it unchanged. You can maintain your specifications at the Product level \nto be inherited by each individual security that you define under that product, with the option \nof changing them for a particular security.\nHowever, irrespective of the holiday treatment specified by you, the system will not perform \nany holiday adjustment for coupon events if, in the Product Event Accounting Entries \nMaintenance, you select ‘No’ as the Holiday Treatment parameter.\nIf you wish to apply holiday treatment for coupon events as specified by you either as part of \nproduct preferences or at the contract level, select ‘Yes’ in the Holiday Treatment field for \naccounting entries for coupon receipts or payments."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Rate Type Indicator",
+        "Advices Button"
+      ],
+      "summary": "This page describes how to select rate types for revaluation and how to define advices that should be generated for specific events.",
+      "raw_text": "2-17\nRate Type Indicator\nSelect the rate type indicator used for revaluation purpose from the drop-down list. Following \nare the options available in the drop-down list:\nMid\nBuy\nSale\n2.3.9 \nAdvices Button\nAt an event, you can opt to generate an advice if the accounting entry involves a customer \naccount. Click ‘Advices’ button in the Events Definition screen to define the advices that \nshould be generated for a specified event.\nEvent Code\nCode of the specified event is defaulted from the Event level.\nDescription\nDescription of the specified event is defaulted from the Event level.\nAdvices Details\nThe following advice details can be maintained here:\nAdvice Name\nSpecify the advices that you would like to generate. The adjoining option list displays all \nadvices that can be generated at an event. You can choose the appropriate one.\nDescription\nDescription of the specified advice is defaulted here.\nGeneration Time\nAuthorization is defaulted as the generation time for all advices which need to be generated \nfor a specified Event."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Priority",
+        "Charges",
+        "Branch and Currency Restrictions Button"
+      ],
+      "summary": "This page describes settings for advice generation, including suppression, priority, charges collection, and branch/currency restrictions for product offerings.",
+      "raw_text": "2-18\nSuppress\nSelect ‘Y’ or ‘N’ from the adjoining drop-down list to either suppress or allow the generation of \nsome advices.\nPriority\nSelect the importance of the advice generation from the adjoining drop-down list. This list \ndisplays the following values:\nHigh\nMedium\nLow \nCharges\nCheck this box if you want to collect charges for advice generation. \n2.3.10 \nBranch and Currency Restrictions Button\nFrom the head office of your bank, you may want to establish certain controls or standardize \noperations across the branches of your bank. For instance, you may want to restrict the \nproducts you offer to select branches and currencies. You can achieve these controls by \nmaintaining restriction lists when creating a product. When you create a product, you can \nspecify the branches of your bank that can offer it and the currencies that are allowed or \ndisallowed for it.\nNote\nWhen you create a product, it is, by default, available to all the branches of your bank and \nin all currencies.\nTo maintain a list of allowed/disallowed branches and currencies, click ‘Branch & Currency’ \nbutton in the Product Definition screen. The Product ‘Branch and Currency Restrictions’ \nscreen is displayed."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Branch and Currency Restrictions",
+        "Product Code",
+        "Product Description",
+        "Branch and Currency Restrictions Class",
+        "Allowed/Disallowed"
+      ],
+      "summary": "This page explains how to define branch and currency restrictions for a product in Oracle FLEXCUBE, either by associating the product with an existing class or by defining specific restrictions directly.",
+      "raw_text": "2-19\nWhen defining a product, you can choose to specify Branch and Currency Restrictions either \nby:\nAssociating the product with a Branch and Currency Restrictions Class \nBy defining these restrictions specifically for the product in the Branch and Currency \nRestrictions screen\nProduct Code\nThis is defaulted from the Product Definition screen.\nProduct Description\nThis is defaulted from the Product definition screen.\nBranch and Currency Restrictions Class\nIn Oracle FLEXCUBE, you can define a set of branch and currency restrictions as a Branch \nand Currency Restrictions Class. You can maintain several restriction classes of branches \nand currencies. \nWhen creating a product, you can associate it with a branch and currency restrictions class \nthat best suits your requirement. The manner of creating a branch and currency restrictions \nclass is similar to setting up restrictions for a product, as explained below.\nIf you would like to associate a branch and currency restrictions class to a product, click \n‘Default From Class’ button in the ‘Branch and Currency Restrictions’ screen. The product \nacquires the restrictions defined for the class.\nIf you do not use a class to indicate branch and currency restrictions, you should define these \nrestrictions specifically for the product in the ‘Branch and Currency Restrictions’ screen.\nAllowed/Disallowed\nYou can specify branch and currency restrictions in the form of allowed lists or disallowed lists.\nIf you create ‘allowed’ lists of branches and currencies, the product can only be offered in \nthose branches and currencies that are part of the respective allowed lists. On the other hand, \nif you maintain ‘disallowed’ lists, the product cannot be offered by the branches and \ncurrencies on the respective disallowed lists.\nYou can indicate whether you are maintaining an allowed or a disallowed list type by choosing \nthe appropriate option. \nFor example, you have a network of twenty branches. You would like to exclude six branches \nfrom trading in securities. You would like all other branches to deal in securities.\nSince there are more branches that can offer the facility than those that cannot, you can opt \nto maintain a disallowed list, and include the six disallowed branches in it.\nBranch/Currency Code\nUnder Branch and Currency Restrictions respectively specify the code of the branch and \ncurrency that should be allowed/disallowed for the product. You can select the required code \nfrom the adjoining option lists.\n2.3.11 \nDeal Size Button\nWhen you create a foreign exchange (FX) product, you can specify a ‘deal size’ for pairs of \ncurrencies. The term ‘deal size’ refers to the permitted deal amount.\nA deal involving a currency pair, processed under the product you are creating, cannot \nexceed the transaction amount that you specify."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Currency 1 and 2",
+        "Maximum Transaction Size",
+        "Minimum Transaction Size"
+      ],
+      "summary": "This page explains how to define deal sizes for currency pairs in a foreign exchange product, including setting maximum and minimum transaction amounts.",
+      "raw_text": "2-20\nYou can specify the deal size for a currency pair while defining currency restrictions for a \nproduct. Your specification will apply to all deals processed under the product. Click ‘Deal \nSize’ button in the ‘Foreign Exchange Product Definition’ screen and invoke the following \nscreen.\nCurrency 1 and 2\nIn the ‘Foreign Exchange Product - Deal Size for Currency Pairs’ screen, select a currency \nfrom a list of currencies that you have maintained in your bank. This would be the first \ncurrency of the pair. Select the other currency in the pair under Currency 2.\nMaximum Transaction Size\nIn this field, you can enter the maximum transaction amount for the currency pair that you \nhave defined. The deal amount cannot exceed the value given here.\nNote\nThe Maximum Transaction Size that you specify should be greater than the value specified \nin the Minimum Transaction Size field. If you amend the maximum transaction size spec-\nified for a product, the amended value will apply only on contracts entered or rolled over \nafter the amendment has been authorized.\nMinimum Transaction Size\nFor a currency pair, you can also specify the minimum transaction size in the Min. Txn. Size \ncolumn. This is the minimum deal amount for deals involving the currency pair. \nNote\nIf you amend the minimum transaction size specified for a product, the amended value will \napply only on deals entered or rolled over after the amendment has been authorized.\nTo map the details that you specified for the currency pair, click add icon. To delete the details \nthat you entered for the currency pair, click delete icon.\nAfter you maintain branch and currency restrictions for a product, click ’Ok’ button to confirm \nyour specifications. Click ‘Exit’ or ‘Cancel’ button to delete your specifications. Save your \nspecifications."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Customers Button",
+        "Class Code"
+      ],
+      "summary": "This page explains how to manage customer categories and restrictions for products in Oracle FLEXCUBE, including using classes to define these restrictions.",
+      "raw_text": "2-21\n2.3.12 \nCustomers Button\nJust as you can maintain a list of allowed/disallowed branches and currencies for a product, \nyou can maintain a list of allowed/disallowed customer categories.\nWhat is a customer category?\nYou can group your customers according to the common features that they share. For \nexample, you can group your customers into categories such as:\nBanks\nCorporates\nFinancial Institutions (excluding banks)\nIndividuals, etc.\nYou can maintain customer restrictions for a product in the Product ‘Customer Restrictions’ \nscreen. To invoke this screen, click ‘Customers’ button in the Product Definition screen.\nWhen defining a product, you can choose to specify Customer and Category Restrictions \neither by:\nAssociating the product with a Class \nBy defining these restrictions specifically for the product in the ‘Customer Restrictions’ \nscreen\nClass Code\nIn Oracle FLEXCUBE, you can define a set of customer restrictions as a class. You can \nmaintain several restriction classes. \nWhen creating a product, you can associate it with a customer and category restrictions class \nthat best suits your requirement. The manner of creating a restrictions class is similar to \nsetting up restrictions for a product, as explained below."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Allowed/Disallowed",
+        "You can specify customer and category restrictions in the form of allowed lists or disallowed lists.",
+        "If you would like to associate a customer restrictions class to a product"
+      ],
+      "summary": "This page explains how to set up customer restrictions for products, including using classes and defining allowed or disallowed branches and currencies.",
+      "raw_text": "2-22\nIf you would like to associate a customer restrictions class to a product, click ‘Default From \nClass’ button in the ‘Customer Restrictions’ screen. The product acquires the restrictions \ndefined for the class.\nIf you do not use a class to indicate branch and currency restrictions, you should define these \nrestrictions specifically for the product in the ‘Customer Restrictions’ screen.\nAllowed/Disallowed\nYou can specify customer and category restrictions in the form of allowed lists or disallowed \nlists.\nIf you create ‘allowed’ lists of branches and currencies, the product will be applicable only for \nthose categories and customer types that are part of the respective allowed lists. On the other \nhand, if you maintain ‘disallowed’ lists, the product will not be applicable for those categories \nand customer types on the respective disallowed lists.\nYou can indicate whether you are maintaining an allowed or a disallowed list type by choosing \nthe appropriate option. \nIn Oracle FLEXCUBE, you can define a set of customer restrictions as a Customer \nRestrictions Class. You can maintain several restrictions classes of customer categories. \nWhen creating a product, you can associate it with a customer restrictions class that best suits \nyour requirement. The procedure for creating a customer restrictions class is similar to setting \nup customer restrictions for a product, as explained below.\nIf you would like to associate a customer restrictions class to a product, click ‘Default From \nClass’ button in the Product Customers and Categories Restrictions screen. The product \nacquires the restrictions defined for the class.\nDefining Customer Restrictions specifically for a product\nIf you do not use a class to indicate customer restrictions, you should define these restrictions \nspecifically for the product in the Product Customer Restrictions screen.\nRestriction Types\nYou can restrict customers from availing a product by maintaining an ‘allowed’ list or a \n‘disallowed’ list of customer categories.\nOnly customer categories that are a part of an allowed list maintained for a product can avail \nthe product. Likewise, customer categories that are part of a disallowed list cannot avail the \nproduct or service.\nCategory Code \nSpecify the category that should be allowed/disallowed for the product.\nCustomer ID \nSpecify the customer identification number of the customer that should be allowed/disallowed \nfor the product.\nAllowed\nYou can exempt a particular customer from the restriction specified for the product in case \nyou are maintaining a ‘Disallowed’ list. Choose to ‘Allow’ option of the customer whom you \nwish to allow for the product.\nAfter you maintain branch and currency restrictions for a product, click ‘Ok’ button to confirm \nyour specifications. Click ‘Exit’ or ‘Cancel’ button to delete your specifications. Save your \nspecifications."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Instrument Restrictions Button"
+      ],
+      "summary": "This section explains how to set up security restrictions in Oracle FLEXCUBE for portfolio and deal products, including defining classes of restrictions and associating them with specific products.",
+      "raw_text": "2-23\n2.3.13 \nInstrument Restrictions Button \nFor security products, you can place restrictions to establish certain controls over the \nsecurities that your branches trade in by specifying ‘restrictions’. In Oracle FLEXCUBE, you \ncan define security restrictions of the following types:\nSecurity restrictions specific to the portfolios that you maintain\nSecurity restrictions specific to the deals that you enter into\nClick ‘Instrument Restrictions’ button in the ‘Product Definition’ screen and invoke the \nfollowing screen.\nYou can maintain several sets or ‘classes’ of each type of security restriction. Thus, you can \nmaintain several classes of security restrictions for portfolios, and several classes for deals.\nWhen defining a portfolio product, you can opt to associate it with a Security Restrictions \nClass that you have maintained specifically for the Securities (Portfolio) module. In this case, \nthe restrictions defined for the associated security restrictions class will apply on the portfolio \nproduct.\nAlternatively, you can choose to define security restrictions specifically for the product.\nIf you would like to associate a restrictions class to a product that you are defining, click \n‘Default From Class’ button in the Portfolio Product Security Restriction screen. A list of the \nrestrictions classes that you have defined specifically for Securities (Portfolios) module will be \ndisplayed. Choose a suitable Security Restrictions class.\nAlternatively, you can choose to define security restrictions specifically for the product. In this \ncase, you would choose not to associate restriction classes with the product. You would \ndefine security restrictions for the portfolio product just as you would build a Securities \nRestrictions class."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Defining Restrictions Specifically for the Product",
+        "Restriction Type",
+        "Exempting Specific Securities from a List"
+      ],
+      "summary": "This page explains how to define security restrictions specifically for a product, including setting up allowed or disallowed lists and exempting specific securities.",
+      "raw_text": "2-24\n2.3.13.1 Defining Restrictions Specifically for the Product\nIf you do not associate a restriction class to the product, you can specify security restrictions. \nThe procedure for defining restrictions is described below.\nRestriction Type\nYou can specify security restrictions either in the form of an allowed or disallowed list. Indicate \nwhether you are maintaining an allowed or a disallowed list type, by choosing the appropriate \noption under the field Restriction type.\nWhen you set up security restrictions, the securities that do not figure in the allowed list cannot \nbe traded with. If you have maintained a disallowed list, securities that do not figure in it can \nbe involved in deals linked to the product.\nExempting Specific Securities from a List\nYou can exempt a particular security from the restriction specified for the product with which \nthe security is associated.\nAll the securities associated with securities product will be displayed in the Security ID column \nunder Security Access. You can choose to Allow or Disallow a specific Security by choosing \nthe appropriate option, under Restriction Type.\nFor example, you have maintained a Securities Product for Short Term Zero Coupon Bonds \nand have assigned it a product a code SZC1. You have entered five zero coupon bonds under \nthis product with the following Security IDs: SEC01, SEC02, SEC03, SEC04, and SEC05.\nYou are maintaining a Securities Restrictions Class, SE_CUS_PR1. You include SZC1 in the \nallowed list that you maintain for the class. By default, all securities entered against this \nproduct will be allowed.\nRequirement:\nYou would like to disallow a specific security, SEC05.\nChoose the securities product, SZC1, in the Allowed column that you have maintained. All \nsecurities maintained under SZC1 will be displayed in the Security ID column, under Security \nAccess.\nMove to the security SEC05 in the Security ID column. In the Restriction Type column \ncorresponding to SEC05, choose the disallowed option.\nResult:\nWhen you associate the restriction class SE_CUS_PR1 with a portfolio product, say CP01, \nyou can deal in all securities involving SZC1, except the security SEC05.\n2.3.14 \nPortfolio Restrictions Button\nJust as you can place restrictions on the securities that your branches can trade in, you can \nalso establish controls over the portfolios that your branches can deal in. \nYou can choose to specify portfolio restrictions for the product, by either of the following \nmethods:\nUsing a portfolio restriction class\nDefining these restrictions specifically for the product"
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Click ‘Portfolio Restrictions’ button in the ‘Product Definition’ screen and invoke the following screen.",
+        "Exempting specific portfolios from a list"
+      ],
+      "summary": "This page explains how to manage portfolio restrictions for products, including maintaining classes of restrictions and exempting specific portfolios.",
+      "raw_text": "2-25\nClick ‘Portfolio Restrictions’ button in the ‘Product Definition’ screen and invoke the following \nscreen.\nYou can maintain several sets or ‘classes’ of each type of portfolio restriction. Thus, you can \nmaintain several classes of portfolio restrictions for products.\nWhen defining a portfolio product, you can opt to associate it with a Portfolio Restrictions \nClass that you have maintained specifically for the Securities (Portfolio) module. In this case, \nthe restrictions defined for the associated portfolio restrictions class will apply on the portfolio \nproduct.\nAlternatively, you can choose to define security restrictions specifically for the product.\nExempting specific portfolios from a list\nYou can exempt a specific portfolio, from the restriction specified for the product, to which the \nportfolio is associated.\nAll the portfolios associated with the highlighted portfolio product will be displayed in the \nPortfolio ID column under Portfolio Access. You can Allow or Disallow a specific Portfolio by \nchoosing the appropriate option under Restriction Type.\nFor example, you have maintained a Portfolio Product to cater to Bank Portfolios. You \nassigned the product a code PF01. You have entered five bank portfolios under this product, \nwith the following Portfolio IDs: PB01, PB02, PB03, PB04, and PB05.\nYou are maintaining Portfolio Restrictions for the product and you include PF01 in the allowed \nlist. By default, all portfolios entered against this product will be allowed. \nRequirement: You would like to disallow a specific portfolio, PB05."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Choose the portfolio product",
+        "Preferences Button",
+        "MIS Button"
+      ],
+      "summary": "This page describes how to manage portfolio restrictions and preferences for products in a system, as well as setting up MIS details through warehouse codes.",
+      "raw_text": "2-26\n1. Choose the portfolio product, PF01, in the Allowed column that you have maintained. All \nportfolios maintained under PF01 will be displayed in the Portfolio ID column under \nPortfolio Access.\n2. Highlight portfolio PB05 in the Portfolio ID column.\n3. In the Restriction Type column corresponding to PB05, choose the disallowed option. \nResult: When you associate the restriction class with a product, you can deal in all portfolios \ninvolving PF01, except the portfolio PB05.\n2.3.15 \nPreferences Button\n‘Preferences’ are options that you can choose to give shape to a product. You can specify \nyour preferences for the products you create in the Product Preferences screens of the \nrespective modules. Click ‘Preferences’ button in the Product Definition screen to invoke the \nProduct Preferences screen.\nProduct Preferences are specific to a module. Refer to the Products Chapter of the respective \nuser manuals for details.\n2.3.16 \nMIS Button\nYou can retrieve MIS related information for a product by linking it to a Warehouse Code. \nLinking a product to a warehouse code ensures that all contracts processed under the product \nare automatically tracked under the specified Warehouse Code.\nClick ‘MIS’ button in the Product Definition Screen to define the MIS details for the product \nyou are creating.\nIn this screen, you should capture the following MIS details for a product.\nMIS Group\nYou should link a product to an MIS group. By doing so, you indicate the MIS group under \nwhich all transactions linked to the product should be tracked. (If you do not want to link a \nproduct to an MIS Group, you can define the individual entities under which the product"
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Pool Code",
+        "Cost Code",
+        "Fund Code"
+      ],
+      "summary": "This page explains how to link a product with an MIS Group and specify associated codes for pool, cost, and fund, as well as the actions required after making these specifications.",
+      "raw_text": "2-27\nshould be reviewed). If you link the product to an MIS Group, the entities defined for the group \nwill be displayed; you can change these entities. For a product, only the transaction type of \nMIS Class applies. The specific MIS entity (in the form of an MIS Code) will be picked up, by \ndefault, only if you have defined them for the group. If not, you have to indicate the appropriate \nMIS code for each applicable MIS class.\nIf you choose to link the product with the group, any change made to the group will be \nautomatically applied to all transactions associated with the product. If you do not select this \noption, the changes made to the MIS group after the linking will not affect the transactions to \nwhich the product is associated.\nPool Code\nOn linking the product to an MIS group, you should also indicate the Pool code from the \nproduct will borrow and lend.\nCost Code\nSimilarly, if you have linked an MIS Group to the product, the cost codes defined for the group \nwill be displayed. You have the option to change them. If you have not linked an MIS Group \nwith the product, you can indicate the applicable cost codes.\nFund Code\nFor Fund products that you create, you can indicate the fund MIS codes to which the product \nshould report. \nYou will not have an option to change the defaulted list of Fund MIS codes for specific funds \nto which the product is associated.\nAfter you make the specifications, click ‘Ok’ button to store them. Click ‘Exit’ or ‘Cancel’ button \nto delete your specifications.\nPlease refer to the MIS User Manual for more details.\n2.3.17 \nAssociating a Product with a Brokerage Rule\nYou can automate the processing of brokerage on contracts by associating brokerage rules \nto products. Brokerage will be calculated for all contracts processed under the product on the \nbasis of the brokerage rule associated to the product.\nRefer the Processing Brokerage User Manual for information relating to brokerage.\n2.3.18 \nSpecifying Free Format Texts and Instructions\nIdeally, before you set up products, you should maintain and tag Free Format Texts (FFTs) \nand Instructions that are typically required for the contracts you process. For the products you \nset up, you can specify the tags that identify these FFTs and Instructions. When contracts \ninvolving the product are processed, the FFTs and instructions you specify will automatically \nbe printed at various events, along with the specified advices."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "To associate FFTs and instructions to a product",
+        "Specifying Instruction Details"
+      ],
+      "summary": "This page explains how to associate Fast Fourier Transforms (FFTs) and instructions with a product in the Product Definition screen, including specifying advice codes for bank references or customer advices.",
+      "raw_text": "2-28\nTo associate FFTs and instructions to a product, click the ‘Free Format Text’ tab in the \nProduct Definition screen and invoke the ‘Instructions and Free Format Text’ screen will be \ndisplayed.\nIn this screen, you can specify the FFTs that are applicable to the product you are creating. \n(A list of standard FFTs is maintained in the Free Format Text Maintenance screen.) Select \nan FFT code from the list of FFTs. The description associated with the FFT code you have \nselected will be displayed.\nYou can associate several FFTs to a product you are creating. The FFTs, including the other \ndetails that you define for it, will apply on all contracts involving the product.\nAdvice Code\nYou can opt to specify whether the FFT or instruction is for the internal reference of the bank \nor whether it should appear on the advices generated for the contracts linked to the product.\nYou can indicate that the FFT or Instruction is for the internal reference of the bank by not \nspecifying an advice code. If the FFT is to appear on the advices sent to the customer, specify \nthe advice on which the FFT or Instruction should be printed. To do this, in the Advices screen, \nselect an advice code from the list of the advices that you specified for the product.\nAfter you have specified details for an FFT, click add icon to add it to the list of FFTs for the \nproduct. Click delete icon to delete an FFT specified for the product.\n2.3.19 \nSpecifying Instruction Details\nThrough the Product FFT and Instructions screen, you can specify the instructions that are \napplicable to the product you are creating. A list of the standard instructions that can \naccompany a product is maintained in the Instructions Codes Maintenance screen. Select an \nInstruction code from the list of instructions maintained.\nYou can associate several Instructions to the product you are creating. The instructions, \nincluding the other details that you define for it, will apply on all contracts involving the product."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Advice Code",
+        "Document Codes Button"
+      ],
+      "summary": "This page explains how to specify advice codes for instructions and how to associate documents with a product in the 'Product - Instructions and Free Format Text' screen.",
+      "raw_text": "2-29\nAdvice Code\nYou can indicate whether the instruction is for the internal reference of your bank or whether \nit should appear on the advices generated for the contracts linked to the product.\nYou can indicate that an instruction is for the internal reference of your bank by not specifying \nan advice code. If the Instruction is to appear on the advices you send your customers, specify \nthe advice on which the Instruction should be printed. You can select an advice code from the \nlist of the advices in the Advices screen.\nAfter you have specified details of the Instructions applicable to a product, click add icon to \nadd it to the list of instructions for the product. Click delete icon to delete an instruction \nassociated with a product.\nNote\nWhile entering a contract involving this product, you can add to or delete from the defaulted \nlist of instructions and FFTs.\n2.3.20 \nDocument Codes Button\nIn addition to the Instructions and FFTs that you specify for a product, you can associate \ndocuments and clauses. From the ‘Product - Instructions and Free Format Text’ screen, click \n‘Document Codes’ button to specify the documents and clauses applicable to the product you \nare creating. The documents that can be associated with a product are broadly classified into:\nTransport documents\nInsurance documents\nInvoices\nOther documents (includes packaging list, certificate of origin, etc.)"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Document Code",
+        "Document Type and Description",
+        "Clause Code"
+      ],
+      "summary": "This page explains how to specify standard shipping documents and related clauses for a product under a documentary LC, including selecting document codes and clause codes from predefined lists.",
+      "raw_text": "2-30\nThere are certain standard documents that are required under a documentary product (as in \nthe case of a Documentary LC product). You can specify the documents that are applicable \nto the contracts that are linked to the product.\nDocument Code\nA list of the standard shipping documents that can accompany the contract is maintained in \nthe Documents Maintenance screen. Along with these documents, you will also be provided \nwith a pre-defined list of documents.\nSelect a document code from the list of documents maintained at your bank. \nDocument Type and Description\nThe description and the document type of the code you have selected will be displayed.\nYou can specify several documents for the product you are creating. All documents that you \ndefine for a product will default to the contracts involving the product.\nAfter you have specified details of the document, click add icon to add it to the list of \ndocuments, applicable to the product. Click delete icon to delete a document specified for the \nproduct.\nClause Code\nA clause is a statement that can accompany a document sent under an LC. After indicating \nthe documents applicable to a product, you can specify the related clauses that should \naccompany the document.\nA list of the standard clauses that can accompany a document is maintained in the Clauses \nMaintenance screen. From the pre-defined list of clauses, select the clauses applicable. You \ncan attach more than one clause to a document that you have specified for a product.\nBy default, all the clauses, including the number of copies that you specify for the product, will \nbe sent for all contracts involving the product.\nAfter you have specified details of the clause, click add icon to add it to the list of clauses for \nthe document. Click delete icon to delete a clause specified for the product.\nNote\nWhile entering a contract, you can add to or delete from the default list of documents and \nclauses.\n2.3.21 \nTracers Button\nTracers are reminders that can be sent to the various parties involved in a contract. In the \nProduct Tracer Details screen, you can specify your preferences for the tracers that should \nbe generated for the various exceptions that occur in the life cycle of contracts processed \nunder the product."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Tracer details to be applicable on contracts involving a product",
+        "Tracers Generation",
+        "Number of Tracers Required",
+        "Start Tracer after Days"
+      ],
+      "summary": "This page explains how to specify and manage tracer details for products in contract definitions, including generating tracers for exceptions and setting parameters for their distribution.",
+      "raw_text": "2-31\nTo specify tracer details to be applicable on contracts involving a product, click ‘Tracers’ \nbutton in the Product Definition screen. The ‘Bills Collections Product Tracer Details’ screen \nis displayed.\nTracer details for the following exception events can be captured through the Product Tracer \nDetails screen:\nReserve Exception\nAcceptance Exception\nPayment Exception\nCharges Exception\nFor each of these exceptions, you can generate tracers to the parties concerned.\nTracers Generation\nYou can indicate whether a particular exception tracer is applicable to a product you are \ncreating. The options available are:\nApplicable - If you specify that a tracer is applicable for a product, you can also specify \nthe number of tracers that should be sent for the exception\nNot Applicable - You can select this option to indicate that the exception tracer is not \napplicable to the product that you are creating\nTill resolved - If you indicate that the tracer should be generated until the exception is \nresolved, you need not specify the number of tracers that should be sent.\nNumber of Tracers Required\nYou can specify the maximum number of copies of a tracer that should be sent for each of the \nexceptions occurring in a contract involving the product you are maintaining. The default value \nis 9999.\nStart Tracer after Days\nTracers can be generated only after a contract is authorized. You can specify the number of \ndays that should elapse after contract authorization when the first tracer is to be sent.\nBy default, the first tracer for all authorized contracts linked to a product will be sent on the \nbasis of your prescription for the product."
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Generation Frequency",
+        "Preferred Tracer Medium",
+        "Tracers for all contracts processed under a product will be generated in the medium that you specify for the product. However, when processing a contract, you can change the medium to suit your requirements.",
+        "User Defined Fields Button",
+        "Status Button"
+      ],
+      "summary": "This page discusses settings related to tracer frequency and medium preferences, user-defined fields for products, and contract status management within a specific system.",
+      "raw_text": "2-32\nGeneration Frequency \nFor the contracts linked to the product you are setting up, you can specify the frequency (in \ndays) at which tracers should be sent to the parties involved.\nPreferred Tracer Medium \nFor each of the exception tracers that you specify, indicate the preferred medium through \nwhich the tracer should be generated to the party concerned.\nTracers for all contracts processed under a product will be generated in the medium that you \nspecify for the product. However, when processing a contract, you can change the medium \nto suit your requirements. \n2.3.22 \nUser Defined Fields Button \nFields defined in the User Defined Fields screen can be made applicable to the products that \nyou create for the front-end modules of Oracle FLEXCUBE. At the time of creating a product, \nclick ‘Fields’ button from the Product Definition screen.\nFrom the list of all the fields that you created, you can choose specific fields and make them \napplicable to the product. Besides, you can also specify the values that should be defaulted \nfor the field.\nThe list of fields and the default values that you select for a product will be apply to all \ntransactions associated with the product.\nRefer to the User Manual ‘Creating User Defined Fields’ for details.\n2.3.23 \nStatus Button \nA contract that is yet to reach its repayment date or on which repayments are being made on \nschedule may be considered as being in a ‘Normal’ status. When a payment is not made on \nits due date, you may want to do an aging analysis for the contract. You can do an aging \nanalysis by changing the status of a contract on which payment is defaulted."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Status",
+        "Ideally, when setting up a product..."
+      ],
+      "summary": "This page explains how to generate and manage reports for aging contracts, including defining contract statuses and their attributes.",
+      "raw_text": "2-33\nAt any time during the life cycle of a contract, you can generate reports, which detail the status \nof aging contracts. This will help you follow-up on payments due. Click ‘Status’ button and \ninvoke the following screen.\nApart from the Normal status that is automatically allotted to a contract on its initiation, a \ncontract on which payment has not been made on the due date can pass through several \nother status. You can define attributes for each status through this screen. These attributes \nare:\nthe number of days in which a contract should stay in a particular status after its \nrepayment date has been reached\nwhether the GL under which it is reported should be changed when there is a status \nchange; and, if so\nthe new GL under which it should be reported\nStatus \nIdeally, when setting up a product, you should identify all possible status that contracts \ninvolving the product would move into. You should also indicate the sequence of status \nchanges for contracts. Further, in this screen, you can specify the number of days after which \na status change must automatically be carried out on components that remain due.\nFor example, you define the following status for the product, ‘Export Bills Discounted - 45 \ndays’:\nPast Due Obligation (PDO)\nNon-accrual basis (NAB)\nWrite-off (WO)\nYou want a bill under this product to move from one status to another in the order in which \nthey are listed above. For such a condition, the status sequence has to be defined as follows:\nPDO -- 1\nNAB -- 2\nWO -- 3"
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Transaction",
+        "Specifying Accrual Preferences for the Status",
+        "Stop Accrual"
+      ],
+      "summary": "This page explains how bills are moved through different statuses and the accounting entries involved, along with specifying accrual preferences based on these statuses.",
+      "raw_text": "2-34\nBased on the default number of days defined for each component, a bill will first be moved \nfrom ‘Normal’ status to ‘PDO’, then to ‘NAB’, and, lastly, to ‘WO’ status.\nTransaction \nWhen the GL under which a component is reported is changed along with the status of a \ncontract, an accounting entry is passed. A Transaction Code is associated with every \naccounting entry in Oracle FLEXCUBE. You should indicate the Transaction Code to be used \nfor the GL transfer entries involved in the status change.\nSpecifying Accrual Preferences for the Status\nYou can indicate how accruals should be handled when the contract moves into the status \nyou are defining. \nStop Accrual\nYou can indicate that accruals (on all accruable components of the contract) should be \nstopped when the contract moves to the status being defined. By doing so, you can ensure \nthat your Receivable accounts for interest and other components are not updated for a \ncontract on which repayment has been defaulted.\nIn our example of ‘Export Bills Discounted - 45 days’, the following status codes are involved:\nPast Due Obligation (PDO)\nNon-accrual basis (NAB)\nWrite-off (WO)\nFor this product, you can specify that when the bill moves to PDO status, accruals can \ncontinue while accruals have to stop when the bill moves to NAB status.\nIf you choose to stop accrual entries from being passed for the contract, the date up to which \naccrual entries for the contract should be passed is determined by the preferences specified \nfor the product to which the contract is associated.\nComplete Accrual\nIf you select this option, accrual for all accruable components will continue when a contract \nmoves into the status you are defining. Depending on the movement of the component \n(upward or downward) accrual entries will be passed to the new GL.\nReverse Accruals\nYou can indicate that the outstanding accruals (where a component has been accrued but not \npaid) on the contract should be reversed when it moves to the status that you are defining. If \nyou specify so, the accrual entries passed on the contract, will be reversed when the status \nchange is carried out.\nNote\nFuture accruals should necessarily be stopped if, the accruals done till the date of status \nchange have to be reversed.\nIn our example of the product for ‘Export Bills Discounted - 45 days’, the following statuses \nare involved:\nPast Due Obligation (PDO)\nNon-accrual basis (NAB)\nWrite-off (WO)\nAccruals on a bill should be stopped when it moves to NAB. We can specify that, besides \nstopping accruals, the accruals done so far have to be reversed. In such a case, the accruals"
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "2-35",
+        "2.3.24 Indicating Automatic Status Change"
+      ],
+      "summary": "This page discusses the reversal of accruals for bills that have defaulted and the automatic status changes in a financial product, including forward and reverse status changes.",
+      "raw_text": "2-35\ndone on the bill (for all accruable components), on which a payment has not been made, will \nbe reversed out.\nSuppose a bill under this product was initiated on 01 June ‘99, with the following details:\nValue (Initiation) Date -- 01 June ‘99\nMaturity Date – 14 July ‘00\nInterest Rate – 20%\nRepayment – Payment of principal and interest, on the maturity date.\nIn this case, there is a default on the repayment. The bill moves to PDO status on 1 March ‘99 \n(15 days after the maturity date) and to NAB status on 16 March ‘99 (30 days from the maturity \ndate). Since the product has been defined for reversal of accruals along with status movement \nto NAB, the accruals for the 30 days of default will be reversed out.\n2.3.24 \nIndicating Automatic Status Change\nCheck one of the following options:\nForward\nA ‘forward’ status change is one in which the status changes from one to the next, in the \nsequence you have defined. In our example, the movement from Normal to PDO, PDO to \nNAB, and NAB to Write-Off are all forward changes.\nReverse\nA ‘reverse’ status change is one in which the status changes from one to the previous. Such \na situation arises when a payment is made on a contract with a status other than Normal.\nIf you specify that forward changes have to be carried out automatically, the status of the \ncontract will be changed after the specified number of days. If not, you have to change the \nstatus of a contract through the contract processing function.\nEven if you have specified automatic status change for a product and, therefore, a contract \ninvolving it, you can manually change the status of a contract before the automatic change is \ndue. You can do it through the Contract On-line Details screen.\nHowever, if a product has been specified with manual status change, you cannot specify \nautomatic status change for a contract involving the product.\nIf you specify that reverse changes have to be carried out automatically, the status will be \nchanged when a payment is made on a contract with a status other than Normal. If you specify \nthat reverse changes should not be automatic, the status remains unchanged even if a \nrepayment is made on the contract. You have to change the status, manually, through the \nContract Processing function.\nA reverse change may also become necessary when the number of days of default is \nincreased for a product.\nIf you specify that forward changes or reverse changes have to be carried out automatically, \nthe status changes will be carried out by the Automatic Contract Update function when it is \nexecuted at the Beginning of Day on the day the change falls due. If the due date for the \nforward or reverse status change happens to be a holiday, then, the processing would depend \non your specifications in the Branch Parameters screen.\nIf you have not specified that the forward or reverse changes should be carried out \nautomatically, the status remains unchanged till you specifically change it for a contract \nthrough the Contract Processing function."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Generating Advices for a Status Change",
+        "Specifying Status Control Details"
+      ],
+      "summary": "This page explains how to generate notifications for status changes in contracts and details the number of days required for components within a contract to move from one status to another.",
+      "raw_text": "2-36\n2.3.25 \nGenerating Advices for a Status Change\nYou can generate advices, when the components of the contract move forward from one \nstatus to the next, to notify the customer of the status change. These messages or advices \nare maintained in the Messaging System of Oracle FLEXCUBE.\n2.3.26 \nSpecifying Status Control Details\nThe number of days after which a component should be moved to a particular status can vary \nfor each of the components of the contract.\nThe number of days is always counted as calendar days from the maturity date specified for \nthe contract. The following example illustrates this concept:\nIn the example of ‘Export Bills Discounted - 45 days’, the following status are involved: \nPast Due Obligation (PDO)\nNon-accrual basis (NAB)\nWrite-off (WO)\nFor PDO status, the number of days that should result in a status change for different \ncomponents is defined as follows:\nYou enter a bill involving the product. The customer defaults on the repayment. The status of \nthe bill moves to ‘PDO’ status after 15 days of default in interest payment.\nA bill involving this product is moved to ‘PDO’ status after 15 days of default in interest \npayment. The report on the bills with ‘PDO’ status will indicate that for this bill only the interest \ncomponent is in ‘PDO’ status. \nThe principal of the bill will be reported to be in ‘PDO’ for both interest and principal 30 days \nafter the maturity date; so also for interest and fees.\nIf the customer pays back only the interest and keeps the principal outstanding, the bill will be \nmoved to PDO only after 30 days of default in principal repayment.\nIf the number of days you have specified for a status change varies for each component of a \ncontract, the components will be in a different status at any given time. This again, is left to \nyour discretion. You may tend to be more lenient with the repayment of the principal (since \nthe principal earns interest) and specify a greater number of days for the principal to move \nfrom Normal to PDO, than you would for the main interest component. You may specify 15 \ndays for the principal to move from Normal status to PDO while you specify just 5 days for the \ninterest to move from Normal to PDO.\n2.3.27 \nCapturing Movement Details\nYou may have a GL structure under which contracts in Normal status are reported, while \nthose with defaulted payments are reported under different GLs, depending on their status. \nComponent\nNo. of \nDays\nInterest\n15 days\nPrincipal\n30 days\nCharges and Fees\n45 days"
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Accounting Role and Upward Movement From GL Account Head",
+        "Accounting Role and Downward Movement From GL Account Head"
+      ],
+      "summary": "This page explains how to define General Ledger (GL) structures for accounting entries when contracts involving a specific product transition between statuses, detailing both upward and downward movements.",
+      "raw_text": "2-37\nFor example, the GL structure for ‘Discounted bills for 45 days’ could be as follows:\nFor each component, you should indicate the GLs from and to which accounting entries \nshould be passed when the contract moves from one status to another.\nAccounting Role and Upward Movement From GL Account Head\nIn this section, you need to indicate the Accounting Roles and GLs from and to which \naccounting entries need to be passed when contracts involving the product move forward \nfrom the current status to another.\nFor example, at the time when the contract moves from Normal to NPA status, the following \naccounting entries would need to be passed:\nTo move, the Outstanding Contract Amount from Normal asset GL to the NPA asset GL.\nTo square off interest from Normal INEC GL to the (NPA) INEC GL.\nTo move the interest reversed GL (expense) to the suspense GL (liability).\nSelect the appropriate GLs from the option list. The description of the GL is also displayed. \nClick add icon to add to the list of From and To GLs for the product. Click delete icon to remove \na set of GLs from the list.\nAccounting Role and Downward Movement From GL Account Head \nIn this section of the screen, you need to indicate the Accounting Roles and GLs from and to \nwhich accounting entries need to be passed when contracts involving the product move \nbackward from the current status to another.\nFor example, when a contract moves from the NPA status to Normal status, the following \naccounting entries would be passed:\nTo move the outstanding contract amount from the NPA asset GL to Normal Asset GL.\nTo square off interest from the (NPA) INEC GL to Normal INEC GL.\nTo move the outstanding interest amount from the IIS GL (expense) to the interest \nrecovered GL.\nSelect the appropriate GLs from the option list. The description of the GL is also displayed. \nClick add icon to add to the list of From and To GLs for the product. Click delete icon to remove \na set of GLs from the list.\n2.4 \nTransaction Limits\nThis section contains the following topics:\nSection 2.4.1, \"Maintaining Transaction Limits\"\nStatus\nGL\nNormal \n1001ASSF\nPDO\n1001ASSF\nNAB\n1110ASSC\nWO\n1111ASSE"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Maintaining Transaction Limits"
+      ],
+      "summary": "This page explains how to maintain transaction limits in Oracle FLEXCUBE for specific modules and products, including the process of creating new limits and authorizing them.",
+      "raw_text": "2-38\n2.4.1 \nMaintaining Transaction Limits\nEvery time a transaction entered in Oracle FLEXCUBE exceeds a certain limit in a specified \ncurrency, an override is automatically generated. This feature is referred to as the Currency-\nwise Transaction Limits facility. Only a user with dual authorization rights (a user other than \nthe one who authorized the transaction which led to this override) will be allowed to authorize \nthe override.\nYou can maintain currency-wise transactional limits for a module and product combination \nthrough the ‘Product Transaction Limits Maintenance’ screen. You can invoke this screen by \ntyping ‘CSDPLMNT’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nTo maintain details of a new currency-wise transaction limit for a specific module and product \ncombination, click the ‘New’ button on the Application toolbar. The Product Transaction Limit \nscreen will be displayed without any details. \nEvery record that you create will be processed in Oracle FLEXCUBE only after it is authorized. \nA user bearing a different Login ID can authorize the record that you have created.\nModule and Product \nEvery module in Oracle FLEXCUBE is identified by a code. First, you have to identify the \nmodule for which the currency-wise transaction limit is to be maintained. A list of all the \nmodules of Oracle FLEXCUBE operational at your bank will be displayed in the available list. \nChoose the appropriate module code. The description associated with the module will be \ndefaulted in the adjacent field. \nEach module contains a number of products within it. After you identify the module, indicate \nthe product within the module for which you would like to maintain a currency-wise \ntransactional limit."
+    },
+    {
+      "page_number": 44,
+      "sections": [],
+      "summary": "This page explains how to set transaction amount limits for Journal Entry transactions in a specific currency and the process of handling overrides if the limit is exceeded.",
+      "raw_text": "2-39\nNote\nSince, we do not define products for Journal Entry transactions, if you are maintaining cur-\nrency-wise transaction limits for the Journal Entry transactions, your entries in the respec-\ntive fields should be as follows:\nTransaction Amount Limit and the Limit Currency\nThe transaction limit currency is the currency for which you would like to maintain the amount \nlimit. Every time you process a transaction in the specified Module-Product Code-Currency \ncombination, the system checks whether the transaction exceeds the defined amount limit. \nIf a transaction exceeds the amount limit, the system displays an override message while \nsaving the transaction. Since overrides and transactions are authorized separately, \nauthorization has to be handled by a user with dual authorization rights.\nItem\nCode\nModule\nDE/AL\nProduct Code\nZJRN/ZALP"
+    },
+    {
+      "page_number": 45,
+      "sections": [],
+      "summary": "This page appears to be part of a glossary for function IDs, possibly in a technical document.",
+      "raw_text": "3-1\n3. Function ID Glossary\nC\nCSDPLMNT .....................2-38"
+    }
+  ]
+}

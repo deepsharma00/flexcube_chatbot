@@ -1,0 +1,458 @@
+{
+  "source": "FlexCube/FCUBS/Electronic Messaging Service/EMS Interface User Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 15,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organization structure, and related information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual designed for users to understand the interface between Oracle FLEXCUBE and other bank systems, detailing its organization and content.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual designed for users to understand the interface between Oracle FLEXCUBE and other bank systems, detailing its organization and content.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual designed for users to understand the interface between Oracle FLEXCUBE and other bank systems, detailing its organization and content.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual designed for users to understand the interface between Oracle FLEXCUBE and other bank systems, detailing its organization and content.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces the manual designed for users to understand the interface between Oracle FLEXCUBE and other bank systems, detailing its organization and content.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Acronyms and Abbreviations",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintaining Interface specific Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Account Statement Report",
+          "start_page": 12
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Account Statement Handoff",
+          "start_page": 13
+        },
+        {
+          "structure": "3",
+          "title": "2. The Oracle FLEXCUBE EMS Interface",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Brief Description of the Process",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 For Incoming Messages",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 For Outgoing Messages",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 EMS Details Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Message Media Control",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Maintaining Folder Structure",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 Specifying Parameters and Values for fcubs.properties File",
+          "start_page": 10
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Acronyms and Abbreviations",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides an overview of acronyms, related documents, and a glossary of icons used in the User Manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides an overview of acronyms, related documents, and a glossary of icons used in the User Manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides an overview of acronyms, related documents, and a glossary of icons used in the User Manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. The Oracle FLEXCUBE EMS Interface",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page describes the Oracle FLEXCUBE EMS interface, detailing its components and processes for handling incoming and outgoing messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Brief Description of the Process",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page describes the Oracle FLEXCUBE EMS interface, detailing its components and processes for handling incoming and outgoing messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.1",
+      "title": "2.1.1 For Incoming Messages",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page describes the Oracle FLEXCUBE EMS interface, detailing its components and processes for handling incoming and outgoing messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.2",
+      "title": "2.1.2 For Outgoing Messages",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page describes the Oracle FLEXCUBE EMS interface, detailing its components and processes for handling incoming and outgoing messages.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 EMS Details Maintenance",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page details the maintenance procedures for EMS, including message media, control, folder structure, and parameter specifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Maintaining Message Media",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page details the maintenance procedures for EMS, including message media, control, folder structure, and parameter specifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Message Media Control",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page describes various parameters and controls related to media description, message suffix, terminator, character count, priority, padding requirement, and how to invoke the 'Message Media Control Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "2.2.3 Maintaining Folder Structure",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page describes the delivery types and folder structures for message files in an external system setup, including options for folders and queues.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.4",
+      "title": "2.2.4 Specifying Parameters and Values for fcubs.properties File",
+      "start_page": 10,
+      "end_page": 12,
+      "summary": "This page describes the folder structure for a delivery mode queue on an application server machine and specifies parameters to be set in the fcubs.properties file.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Maintaining Interface specific Details",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page describes the interface between Oracle FLEXCUBE and external systems for handling account statement handoffs, including data transfer methods and failure procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Account Statement Report",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page describes the interface between Oracle FLEXCUBE and external systems for handling account statement handoffs, including data transfer methods and failure procedures.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Brief Description of the Process",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 For Incoming Messages",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 For Outgoing Messages",
+          "start_page": 6
+        }
+      ]
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Maintaining Account Statement Handoff",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This section explains how to generate account statements in Oracle FLEXCUBE by specifying account number, date range, and currency.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Function ID Glossary",
+      "start_page": 15,
+      "end_page": 17,
+      "summary": "This page appears to list function IDs and their corresponding codes without providing any additional context or explanation.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for the EMS Interface of Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "EMS Interface User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "EMS Interface User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Acronyms and Abbreviations",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organization structure, and related information.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nAcronyms and Abbreviations...................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n1.7 \nGlossary of Icons.....................................................................................................  1-2\n2. \nThe Oracle FLEXCUBE EMS Interface ................................................... 2-1\n2.1 \nBrief Description of the Process ..............................................................................  2-1\n2.1.1  \nFor Incoming Messages .............................................................................  2-1\n2.1.2  \nFor Outgoing Messages .............................................................................  2-1\n2.2 \nEMS Details Maintenance ......................................................................................  2-2\n2.2.1  \nMaintaining Message Media.......................................................................  2-2\n2.2.2  \nMessage Media Control .............................................................................  2-3\n2.2.3  \nMaintaining Folder Structure ......................................................................  2-4\n2.2.4  \nSpecifying Parameters and Values for fcubs.properties File......................  2-5\n3. \n Maintaining Interface specific Details ................................................... 3-1\n3.1 \nAccount Statement Report ......................................................................................  3-1\n3.1.1  \nMaintaining Account Statement Handoff ....................................................  3-2\n4. \nFunction ID Glossary ............................................................................... 4-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter 1 About this Manual",
+        "Chapter 2 The Oracle FLEXCUBE EMS Interface",
+        "Chapter 3 Maintaining Interface specific Details",
+        "Chapter 4 Function ID Glossary"
+      ],
+      "summary": "This page introduces the manual designed for users to understand the interface between Oracle FLEXCUBE and other bank systems, detailing its organization and content.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help acquaint you with the interface between Oracle FLEXCUBE \nand the other systems within your bank.\nThis manual provides you extensive explanations about the various maintenances required \nfor the smooth exchange of data between Oracle FLEXCUBE and the applicable systems \nthrough the interface. It also gives you an insight into the processes involved in the actual \nexchange of data.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\nRole\nFunction\nBack office data entry Clerks\nInput functions for maintenance related to the interface.\nBack office Managers/Officers\nAuthorization functions. \nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It \nalso lists the various chapters covered in this User Manual.\nChapter 2\nThe Oracle FLEXCUBE EMS Interface explains about the EMS \n(Electronic Messaging Service) interface between external systems \nand Oracle FLEXCUBE.\nChapter 3\nMaintaining Interface specific Details deals with the maintenance of \nvarious customer account transactions through EMS.\nChapter 4\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation."
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Acronyms and Abbreviations",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page provides an overview of acronyms, related documents, and a glossary of icons used in the User Manual.",
+      "raw_text": "1-2\n1.5 \nAcronyms and Abbreviations\n1.6 \nRelated Documents\nXML Interface document – outlines the details of the interface mechanism between \nOracle FLEXCUBE and a system external to it\nThe Procedure User Manual\n1.7 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nAbbreviation\nDescription\nSystem\nUnless and otherwise specified, it shall always refer to Oracle FLEX-\nCUBE system\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Brief Description of the Process",
+        "EMS Details Maintenance",
+        "For Incoming Messages",
+        "For Outgoing Messages"
+      ],
+      "summary": "This page describes the Oracle FLEXCUBE EMS interface, detailing its components and processes for handling incoming and outgoing messages.",
+      "raw_text": "2-1\n2. The Oracle FLEXCUBE EMS Interface\nThe EMS or the Electronic Messaging Service is a messaging interface between external \nsystems and Oracle FLEXCUBE. This interface is implemented with the help of two windows \nservices, one each for In and Out processing. This interface enables a connection to be \nestablished between Oracle FLEXCUBE and the external systems network resource for \nsending and receiving information. \nThe in-service connects to the external system resource (Windows machine, UNIX machine \nor MSMQ server) and transfers the data to the local windows machine, where the message \nis processed and uploaded to Oracle FLEXCUBE.\nThe out-service polls on an Oracle FLEXCUBE out table. As soon as a message is generated \nin the out table, it is picked up, formatted if required (for example, as a MS-Word document) \nand delivered to the external system through one of the delivery modes (FTP, MSMQ etc.).\nThis chapter contains the following sections:\nSection 2.1, \"Brief Description of the Process\"\nSection 2.2, \"EMS Details Maintenance \"\n2.1 \nBrief Description of the Process\nThis section contains the following topics:\nSection 2.1.1, \"For Incoming Messages\"\nSection 2.1.2, \"For Outgoing Messages\"\n2.1.1 \nFor Incoming Messages\nFor the delivery modes NT and FTP\nThe message files are to be placed in the EMS\\SWIFT\\In\\Ready, in the EMS server. The \nincoming message service (In-service) copies the file to the folder EMS\\SWIFT\\IN\\WIP and \nperforms further processes like formatting etc. Once the processes are completed, the file is \nmoved to the folder EMS\\SWIFT\\IN\\PROCESSED. \nThough all the folders are maintained in the EMS server, they can be mapped to any system.\nFor the QUEUE delivery mode\nThe messages are placed by the external system in the in queue. They are moved from there \nto the backup queue and sent for processing. Once processing is successful, the message is \nmoved to the final queue.\n2.1.2 \nFor Outgoing Messages\nFor delivery modes NT and FTP\nThe messages are selected from the Oracle FLEXCUBE out table, formatted if required and \nmoved to the folder EMS\\SWIFT\\OUT\\WIP. From here, the file is picked up and moved to \nEMS\\SWIFT\\OUT.\nFor the QUEUE delivery mode\nThe messages are sent to the out queue."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "EMS Details Maintenance",
+        "Maintaining Message Media",
+        "Message Media Control ",
+        "Maintaining Folder Structure",
+        "Specifying Parameters and Values for fcubs.properties File"
+      ],
+      "summary": "This page details the maintenance procedures for EMS, including message media, control, folder structure, and parameter specifications.",
+      "raw_text": "2-2\n2.2 \nEMS Details Maintenance \nThe following maintenances are required for the EMS:\nMessage Media Maintenance\nMessage Media Control Maintenance\nMaintaining Folder structure\nSpecifying Parameters and Values\nThis section contains the following topics:\nSection 2.2.1, \"Maintaining Message Media\"\nSection 2.2.2, \"Message Media Control \"\nSection 2.2.3, \"Maintaining Folder Structure\"\nSection 2.2.4, \"Specifying Parameters and Values for fcubs.properties File\"\n2.2.1 \nMaintaining Message Media\nYou can invoke the ‘Message Media Maintenance’ screen by typing ‘MSDMEDMT’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button. The \nbelow given screen displays: \nSpecify the following details:\nMedia Code\nSpecify the media used for message propagation. For instance, SWIFT, MAIL etc"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Media Description",
+        "Message Suffix",
+        "Message Terminator",
+        "Number of Characters",
+        "Media Priority",
+        "Padding Required",
+        "Message Media Control"
+      ],
+      "summary": "This page describes various parameters and controls related to media description, message suffix, terminator, character count, priority, padding requirement, and how to invoke the 'Message Media Control Maintenance' screen.",
+      "raw_text": "2-3\nMedia Description\nDescribe the media code.\nMessage Suffix\nSpecify the suffix to be added in the message. \nMessage Terminator\nSpecify the terminator to be used for terminating the message. \nNumber of Characters\nSpecify the total length of the message. \nMedia Priority\nSpecify the media priority. Based on the priority, the messages are processed with the media \nconcerned.\nPadding Required\nCheck this option if padding is required. Padding letters will be added at the end of each \nmessage.\n2.2.2 \nMessage Media Control \nYou can invoke the ‘Message Media Control Maintenance’ screen by typing ‘MSDMGMCS’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton. The below given screen displays:\nSpecify the following details:\nNode\nSpecify the DB instance name.\nMedia\nSelect the media from the adjoining option list. The option list displays all the valid media \nmaintained in the system. \nStatus\nSelect the status. The following are the options available:"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Delivery Type",
+        "Maintaining Folder Structure"
+      ],
+      "summary": "This page describes the delivery types and folder structures for message files in an external system setup, including options for folders and queues.",
+      "raw_text": "2-4\nActive\nPassive\nDelivery Type \nIndicate the Mode of delivery. The following are the options available:\nFolder\nQueue \nIn Directory\nSpecify the directory in which the message files are to be placed by external system (Only for \nEMS_IN if delivery type is ‘Folder’).\nOut Directory\nSpecify the directory in which the message files are sends to external system (Only for \nEMS_OUT).\nIn Queue\nSpecify the queue in which the message files are to be placed by external system (Only for \nEMS_IN if Delivery type is ‘Queue’).\nOut Queue\nSpecify the queue in which the message files are sends to external system (Only for \nEMS_OUT).\nMessage Queue\nSelect the queuing software being used in bank.\n2.2.3 \nMaintaining Folder Structure\nMaintain the following folder structure:\n2.2.3.1 \nFolder Structure for Delivery Mode Folder \nYou should maintain the following folder structure on the Application server machine:\nThe sub-folders for the media – MAIL and SWIFT – exist under the parent folder EMS."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Folder Structure for Delivery Mode Queue",
+        "Specifying Parameters and Values for fcubs.properties File"
+      ],
+      "summary": "This page describes the folder structure for a delivery mode queue on an application server machine and specifies parameters to be set in the fcubs.properties file.",
+      "raw_text": "2-5\n2.2.3.2 \nFolder Structure for Delivery Mode Queue \nYou should maintain the following folder structure on the Application server machine:\nThe sub-folders for the media – SWIFT – exist under the parent folder EMS.\n2.2.4 \nSpecifying Parameters and Values for fcubs.properties File\nYou should be specify the following parameter values in fcubs.properties file. \n2.2.4.1 \nFor Delivery Mode Folder \nParameter\nDescription\nEMS_INT_QCF             \nInternal Queue Connection Factory. Example: \n(EmsQcf)\nEMS_OUT_JMS_DLQ\nOut messages dead letter queue.  Example: (NOTI-\nFY_QUEUE_DLQ)\nEMS_IN_JMS_DLQ\nIn messages dead letter queue. Example: (NOTI-\nFY_QUEUE_DLQ)\nEMS_FILE_TRANSFER_MODE\nMode of file transfer. Example: FTP etc.\nFTP_SRVR         \nFTP Server IP Address. Example: 169.165.98.11(if \nfile Transfer Mode is ftp)\nFTP_ID                  \nFTP Server userId (if file Transfer Mode is ftp)\nFTP_PWD    \nFTP Server Password. Example: \n2fb0x66QSug=(FTP Server Password in encrypt \nformat)\nFILE_TYPE    \nfile type. Example: .txt,.xlsx etc\nSWIFT_FORMAT   \n1\nMSG_DELIMITER   \nYES\nMSG_TERMINATOR\nYES\nMEDIA\nSWIFT"
+    },
+    {
+      "page_number": 11,
+      "sections": [],
+      "summary": "This page lists various parameters and their descriptions related to delivery mode queue configurations for external systems and file transfer modes.",
+      "raw_text": "2-6\n2.2.4.2 \nFor Delivery Mode Queue \nParameter\nDescription\nEMS_EXT_QCF             \nOut Queue Connection Factory  - External System\nEMS_INT_QCF\nInternal Queue Connection Factory Examples( \nEmsQcf)\nEMS_OUT_JMS_DLQ    \nOut messages dead letter queue Examples (NOTI-\nFY_QUEUE_DLQ)\nEMS_IN_JMS_DLQ         \nin messages dead letter queue Examples (NOTI-\nFY_QUEUE_DLQ)\nEMS_INIT_CTX_FACT\nApplication server context factory class in which \nserver external queue create examples (web-\nlogic.jndi.WLInitialContextFactory)\nEMS_PRVDR_URL\nApplication server ip address in which server exter-\nnal queue create example weblogic server t3://\n127.0.0.1:7001\nEMS_QUEUE_PRINCIPAL\nApplication server User Id in which external queue \ncreate.  \nEMS_QUEUE_CREDENTIALS\nApplication server Password in which external \nqueue create.  \nEMS_FILE_TRANSFER_MODE\nMode of file transfer Examples FTP etc..\nFTP_SRVR         \nFTP Server IP Address Examples 169.165.98.11(if \nfile Transfer Mode is ftp)\nFTP_ID                  \nFTP Server userId (if file Transfer Mode is ftp)\nFTP_PWD    \nFTP Server Password Examples \n2fb0x66QSug=(FTP Server Password in encrypt \nformat)\nFILE_TYPE         \nfile type examples .txt,.xlsx etc ..\nSWIFT_FORMAT   \n1\nMSG_DELIMITER   \nYES\nMSG_TERMINATOR\nYES\nMEDIA\nSWIFT"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "3. Maintaining Interface specific Details",
+        "Section 3.1, \"Account Statement Report\"",
+        "Section 3.1.1, \"Maintaining Account Statement Handoff\""
+      ],
+      "summary": "This page describes the interface between Oracle FLEXCUBE and external systems for handling account statement handoffs, including data transfer methods and failure procedures.",
+      "raw_text": "3-1\n3.  Maintaining Interface specific Details\nOracle FLEXCUBE is an international universal banking solution catering to the treasury back \noffice functions among other modules.\nThe details of all customer account transactions can be handed off to the external systems \nexisting within your bank, through an interface. This document outlines the specifications of \nthe interface between Oracle FLEXCUBE and the external systems. \nThe interface handles (hands off) data pertaining to the following functions:\nAccount Statement hand off – the account statement hand off is performed based on \nthe account statement cycle, maintained in the customer account maintenance, \nwhereby the details of all account statements are generated.  \nThe salient features of the interface are as follows:\nData is transferred to the external system (s) through ASCII files in predefined file \nformats. \nData is handed off at the end of the business day as a Batch file to the external system. \nNote \nIf Handoff fails you will need to trigger it once again. \nThis chapter contains the following section:\nSection 3.1, \"Account Statement Report\"\n3.1 \nAccount Statement Report\nThis section contains the following topic:\nSection 3.1.1, \"Maintaining Account Statement Handoff\""
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Maintaining Account Statement Handoff"
+      ],
+      "summary": "This section explains how to generate account statements in Oracle FLEXCUBE by specifying account number, date range, and currency.",
+      "raw_text": "3-2\n3.1.1 \nMaintaining Account Statement Handoff \nIn Oracle FLEXCUBE, you can trigger the account statement generation online by typing \n‘ACDOPTN’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button. System generates one file for each account. \nIn this screen you can capture the following attributes for generating the account statement:\nSpecifying the account number\nThis is a valid account number maintained in the system. The branch where the account is \nheld will be displayed upon selecting the account. \nSpecifying the date range for account statement\nThe From and To date represent the date range for generating the account statement for the \naccount. Enter the dates in date–month-year format. \nSpecifying the account currency\nThis is a valid currency of the account for which the statement needs to be generated."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Selecting multiple account numbers"
+      ],
+      "summary": "This section explains how to capture attributes for generating a consolidated account statement for customers with multiple accounts.",
+      "raw_text": "3-3\nAfter the fields have been entered, the following screen with the account details will be \ndisplayed.\nSelecting multiple account numbers\nIn this section you can capture the following attributes for generating consolidated account \nstatement for the customer having many accounts:\nCustomer Number – a valid customer number maintained in the system. \nTo Date – the date till which the account statement has to be generated."
+    },
+    {
+      "page_number": 15,
+      "sections": [],
+      "summary": "This page appears to list function IDs and their corresponding codes without providing any additional context or explanation.",
+      "raw_text": "4-1\n4. Function ID Glossary\nA\nACDOPTN .........................3-2\nM\nMSDMCS .......................... 2-3\nMSDMEDIA ....................... 2-2"
+    }
+  ]
+}

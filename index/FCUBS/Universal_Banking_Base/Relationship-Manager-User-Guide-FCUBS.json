@@ -1,0 +1,412 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/Relationship-Manager-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 15,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organizational structure, and icon glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE relationship managers, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE relationship managers, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE relationship managers, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE relationship managers, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE relationship managers, detailing its intended audience and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE relationship managers, detailing its intended audience and structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Relationship Manager",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 User Maintenance",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 Invoking User Maintenance Screen",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Roles Button",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 RM Hierarchy Mapping",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking RM Hierarchy Mapping Screen",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Viewing RM Hierarchy Mapping Summary",
+          "start_page": 10
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Viewing RM Hierarchy Summary",
+          "start_page": 11
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 RM Mass Amendment",
+          "start_page": 11
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Changing Relationship Managers in Bulk",
+          "start_page": 11
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Viewing RM Mass Amendment Summary",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Relationship Manager",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page discusses the roles and responsibilities of Relationship Managers (RMs) at a bank, including how to manage RMs using Oracle FLEXCUBE software.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 User Maintenance",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page discusses the roles and responsibilities of Relationship Managers (RMs) at a bank, including how to manage RMs using Oracle FLEXCUBE software.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.1",
+      "title": "2.1.1 Invoking User Maintenance Screen",
+      "start_page": 5,
+      "end_page": 7,
+      "summary": "This page discusses the roles and responsibilities of Relationship Managers (RMs) at a bank, including how to manage RMs using Oracle FLEXCUBE software.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.1.2",
+      "title": "2.1.2 Roles Button",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page discusses how to set a user as their own supervisor in the RM hierarchy, restrict access to customers managed by other relationship managers, and define roles for users in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 RM Hierarchy Mapping",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page describes how to assign roles and branch codes to users, as well as how to manage relationship manager hierarchies.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Invoking RM Hierarchy Mapping Screen",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This page describes how to assign roles and branch codes to users, as well as how to manage relationship manager hierarchies.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Viewing RM Hierarchy Mapping Summary",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This section explains how to view a summary of relationship managers hierarchy mapping using the 'RM Hierarchy Mapping Summary' screen and describes the search parameters available for filtering the records.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "2.2.3 Viewing RM Hierarchy Summary",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes how to view and manage relationship manager hierarchies and mass amendments in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 RM Mass Amendment",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes how to view and manage relationship manager hierarchies and mass amendments in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Changing Relationship Managers in Bulk",
+      "start_page": 11,
+      "end_page": 13,
+      "summary": "This page describes how to view and manage relationship manager hierarchies and mass amendments in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Viewing RM Mass Amendment Summary",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This page explains how to specify the effective date and details of a RM change, including which customers are affected and how to select them.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 15,
+      "end_page": 17,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking Relationship Manager software version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Relationship Manager User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "Relationship Manager User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organizational structure, and icon glossary.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-1\n2. \nRelationship Manager ............................................................................. 2-1\n2.1 \nUser Maintenance ...................................................................................................  2-1\n2.1.1  \nInvoking User Maintenance Screen............................................................  2-1\n2.1.2  \nRoles Button...............................................................................................  2-3\n2.2 \nRM Hierarchy Mapping............................................................................................  2-4\n2.2.1  \nInvoking RM Hierarchy Mapping Screen....................................................  2-4\n2.2.2  \nViewing RM Hierarchy Mapping Summary.................................................  2-6\n2.2.3  \nViewing RM Hierarchy Summary................................................................  2-7\n2.3 \nRM Mass Amendment.............................................................................................  2-7\n2.3.1  \nChanging Relationship Managers in Bulk...................................................  2-7\n2.3.2  \nViewing RM Mass Amendment Summary ..................................................  2-9\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces a manual for Oracle FLEXCUBE relationship managers, detailing its intended audience and structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual explains the features related to relationship manager in Oracle FLEXCUBE. \n1.2 \nAudience\nThis manual is intended for the relationship managers in your bank.\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also lists \nthe various chapters covered in this User Manual.\nChapter 2\nRelationship Manager discusses the basic maintenances required to use \nthe RM feature.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "User Maintenance",
+        "RM Hierarchy Mapping",
+        "RM Mass Amendment",
+        "Changing Relationship Managers in Bulk",
+        "Invoking User Maintenance Screen",
+        "Roles Button"
+      ],
+      "summary": "This page discusses the roles and responsibilities of Relationship Managers (RMs) at a bank, including how to manage RMs using Oracle FLEXCUBE software.",
+      "raw_text": "2-1\n2. Relationship Manager\nRelationship Managers (RM) are contact points at the bank for the customers. They handle \ninitial customer contacts and ensure that the appropriate suite of products and solutions are \noffered to the customers. Relationship managers also develop an understanding of \ncustomers’ day-to-day administrative and business activities and communicate the same to \nthe front office and back office team. \nUsing Oracle FLEXCUBE, you can designate a customer or a group of customers to an RM. \nThe RM will be responsible for helping the customers designated to him/her in need. \nThis chapter contains the following sections:\nSection 2.1, \"User Maintenance\"\nSection 2.2, \"RM Hierarchy Mapping\"\nSection 2.3, \"RM Mass Amendment\"\nSection 2.3.1, \"Changing Relationship Managers in Bulk\"\n2.1 \nUser Maintenance\nThis section contains the following topics:\nSection 2.1.1, \"Invoking User Maintenance Screen\"\nSection 2.1.2, \"Roles Button\"\n2.1.1 \nInvoking User Maintenance Screen\nInvoking User Maintenance Screen User Profile defines the activities that a user can carry out \non the system. In Oracle FLEXCUBE, you can define user profiles with their role as \n‘Relationship Manager’. This section explains the process of defining a user profile with RM \nrole.\nTo invoke the ‘User Maintenance’ screen, type ‘SMDUSRDF’ in the field at the top right corner \nof the Application tool bar and click the adjoining arrow button."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "User Identification",
+        "Supervisor Identification"
+      ],
+      "summary": "This page explains how to define user profiles in Oracle FLEXCUBE by specifying the user ID, name, and supervisor ID, including guidelines for user IDs and how to set up the RM hierarchy.",
+      "raw_text": "2-2\nFor more information on maintaining user profiles in Oracle FLEXCUBE, refer to the section \n‘Defining a User Profile’ in Security Management System user manual.\nUser Identification\nSpecify the user ID. This ID identifies the user whose profile you are defining. In a user ID, \nyou can use alphabets in upper or lower case, numbers 0 to 9 and _ (underscore). \nThe number of characters in a User ID should be greater than or equal to six and less than 12. \nName\nSpecify the name of the user. \nSupervisor Identification\nSpecify the ID of the supervisor of the user. The option list displays all valid supervisor \nidentifications maintained in the system. Choose the appropriate one. \nIn case of relationship managers, you can also use this field to define the RM hierarchy. For \ndefining RM hierarchy in this method, you need to select the RM user who is one level up in \nthe hierarchical order as the supervisor."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Supervisor Name",
+        "Other RM Customer Access Restricted",
+        "Roles Button"
+      ],
+      "summary": "This page discusses how to set a user as their own supervisor in the RM hierarchy, restrict access to customers managed by other relationship managers, and define roles for users in Oracle FLEXCUBE.",
+      "raw_text": "2-3\nIf the user is the superior in the RM hierarchical order, you can specify his/her own user ID as \nsupervisor ID. The supervisor ID option list also shows the user ID of the user being \nmaintained. This means, you can define an RM user as his/her own supervisor.\nNote\nThe RM hierarchy defined in this method is considered only if the checkbox ‘RM Hierarchy \nSetup Required’ is not checked in ‘Bank Parameters Maintenance’ screen.\nSupervisor Name\nBased on the supervisor ID selected, the system displays the name of the supervisor. \nOther RM Customer Access Restricted\nYou can restrict the users’ access to the transactions of the customers who are assigned to \na different relationship manager. Check this box to restrict the user from viewing, creating, \nauthorizing or amending the transactions of the customers assigned to a different relationship \nmanager. \nIf you do not check this box, the user can view, create, authorize and amend the transactions \nof the customers assigned to other relationship managers.\nThe customers not assigned to the RM include the customers assigned to other relationship \nmanagers as well as those who are not assigned to any relationship manager.\nThis is applicable to the users created with their role as ‘Relationship Manager’. \n2.1.2 \nRoles Button\nA user role is associated to a user for a specific Branch in Oracle FLEXCUBE. The User at \nsuch a branch directly inherits the values set at the Role level. You can also define a user as \na relationship manager by assigning the RM role.\nTo attach the user profile you are defining to a role, you must use the ‘Roles’ screen. Click \n‘Roles’ button on ‘User Maintenance’ screen. \nSpecify the following details:"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Branch Code",
+        "Role",
+        "Note",
+        "Role Description",
+        "Click add icon to add a record under the ‘Roles’ list.",
+        "To delete a role attached to a user profile, check the box beside it and click delete icon.",
+        "RM Hierarchy Mapping",
+        "Section 2.2.1, \"Invoking RM Hierarchy Mapping Screen\"",
+        "Section 2.2.2, \"Viewing RM Hierarchy Mapping Summary\"",
+        "Section 2.2.3, \"Viewing RM Hierarchy Summary\""
+      ],
+      "summary": "This page describes how to assign roles and branch codes to users, as well as how to manage relationship manager hierarchies.",
+      "raw_text": "2-4\nBranch Code\nSpecify the branch code assigned to the user role. The option list displays all the valid branch \ncodes maintained in the system. You can choose the appropriate one.\nRole\nSpecify the role assigned to the user for the selected branch. The option list displays all valid \nroles maintained in the system. Choose the appropriate one.\nNote\nYou can assign the role of Relationship Manager to a user by selecting ‘RM-ROLE’.\nRole Description\nBased on the role selected, the system displays the role description.\nClick add icon to add a record under the ‘Roles’ list. Specify the above details to attach more \nroles to the user.\nTo delete a role attached to a user profile, check the box beside it and click delete icon. \n2.2 \nRM Hierarchy Mapping\nThis section contains the following topics:\nSection 2.2.1, \"Invoking RM Hierarchy Mapping Screen\"\nSection 2.2.2, \"Viewing RM Hierarchy Mapping Summary\"\nSection 2.2.3, \"Viewing RM Hierarchy Summary\"\n2.2.1 \nInvoking RM Hierarchy Mapping Screen\nYou can define the hierarchy for relationship managers at the bank. RM hierarchy can be \ndefined in Oracle FLEXCUBE using two methods. One method is to select the RM user who \nis one level up in the hierarchical order as the supervisor of a RM user. \nThe other method is to define the hierarchical structure using ‘RM Hierarchy Mapping’ screen."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "RM ID",
+        "RM Name",
+        "Parent RM ID",
+        "Parent RM Name"
+      ],
+      "summary": "This page describes how to set up a relationship manager hierarchy by specifying IDs and names for both the relationship manager and their parent in the system.",
+      "raw_text": "2-5\nTo invoke this screen, type ‘STDRMHR’ in the field at the top right corner of the Application \ntoolbar and click the adjoining arrow button.\nSpecify the following details to define the RM hierarchy.\nRM ID\nSpecify the relationship manager ID. The option list displays all valid RM user IDs maintained \nin the system. Choose the appropriate one. \nUsing this screen, you will assign a parent RM user to this user.\nRM Name\nBased on the RM ID, the system displays the name of the relationship manager.\nParent RM ID\nSpecify the parent RM ID. The option list displays all valid RM user IDs maintained in the \nsystem. Choose the appropriate one.\nIn the RM hierarchy, this RM user will be the parent user of the user selected above.\nParent RM Name\nBased on the parent RM ID, the system displays the name of the parent relationship manager.\nThis method allows you to define the parent RM for all relationship managers, thus defining a \nRM hierarchy.\nThe RM hierarchy defined in this method is enabled only if the checkbox ‘RM Hierarchy Setup \nRequired’ is checked in ‘Bank Parameters Maintenance’ screen."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Viewing RM Hierarchy Mapping Summary"
+      ],
+      "summary": "This section explains how to view a summary of relationship managers hierarchy mapping using the 'RM Hierarchy Mapping Summary' screen and describes the search parameters available for filtering the records.",
+      "raw_text": "2-6\n2.2.2 \nViewing RM Hierarchy Mapping Summary\nYou can view a summary of relationship managers hierarchy mapping using ‘RM Hierarchy \nMapping Summary’ screen. To invoke the screen, type ‘STSRMHR’ in the field at the top right \ncorner of the Application toolbar and click the adjoining arrow button. \nYou can search for RM hierarchy details based on one or more of the following parameters:\nAuthorization status of the record\nRecord status\nRelationship manager ID\nParent relationship manager ID\nOnce you have set the search criteria, click ‘Search’ button. The system displays all RM \nhierarchy mapping records that match the search criteria. Double-click a record to view the \ndetailed screen."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Viewing RM Hierarchy Summary",
+        "RM Mass Amendment",
+        "Changing Relationship Managers in Bulk",
+        "Viewing RM Mass Amendment Summary"
+      ],
+      "summary": "This page describes how to view and manage relationship manager hierarchies and mass amendments in Oracle FLEXCUBE.",
+      "raw_text": "2-7\n2.2.3 \nViewing RM Hierarchy Summary\nYou can query for the hierarchy of relationship manager using ‘RM Hierarchy Summary’ \nscreen. To invoke the screen, type ‘STDRMHRV’ in the field at the top right corner of the \nApplication toolbar and click the adjoining arrow button. \nYou can query for the hierarchy details of a relationship manager. \nSpecify the following details:\nRM ID\nSpecify the ID of the relationship manager whose hierarchy details you need to find. Choose \nthe appropriate one from the option list.\nBased on the RM ID selected, the system displays the relationship manager hierarchy details.\n2.3 \nRM Mass Amendment\nThis section contains the following topics:\nSection 2.3.1, \"Changing Relationship Managers in Bulk\"\nSection 2.3.2, \"Viewing RM Mass Amendment Summary\"\n2.3.1 \nChanging Relationship Managers in Bulk\nOracle FLEXCUBE allows you to change the some or all customers associated with one \nrelationship manager to a different relationship manager. You can change the relationship \nmanager for a number of customers at once using ‘RM Mass Amendment’ screen. To invoke \nthe screen, type ‘STDRMAMD’ in the field at the top right corner of the application toolbar and \nclick the adjoining arrow button."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Reference Number",
+        "From RM ID",
+        "To RM ID",
+        "Status"
+      ],
+      "summary": "This page describes the fields and statuses related to mass reassignment of customers between relationship managers in a system.",
+      "raw_text": "2-8\nSpecify the following details:\nReference Number\nThe system generates and displays the reference number of the RM mass amendment \noperation.\nFrom RM ID\nSpecify the ID of the relationship manager with whom the customers to be reassigned are \nassociated with. The option list displays all valid RM IDs maintained in the system. Choose \nthe appropriate one. \nWhile processing the reassignment, the system assigns the selected customers associated \nwith this RM to the RM specified in the field ‘To RM ID’. \nFrom RM Name\nBased on the RM ID, the system displays the name of the relationship manager.\nTo RM ID\nSpecify the ID of the relationship manager to whom the customers will be reassigned. The \noption list displays all valid RM IDs maintained in the system. Choose the appropriate one. \nWhile processing the reassignment, the system reassigns the selected customers to this RM.\nTo RM Name\nBased on the RM ID selected, the system displays the name of the relationship manager.\nStatus\nThe system displays the status of the mass RM amendment. The status can be one of the \nfollowing:\nNot Started – indicates that the mass amendment record has just been created\nCompleted – indicates that the customer has been moved under the new RM without \nany error, after the mass amendment effective date\nFailed – indicates that the movement of customer from one RM to another RM has failed \nfor any reason such as closure of CIF or closure of RM"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Effective Date",
+        "Allowed Customers/Restrictive Customers/All Customers",
+        "Customers"
+      ],
+      "summary": "This page explains how to specify the effective date and details of a RM change, including which customers are affected and how to select them.",
+      "raw_text": "2-9\nEffective Date\nSpecify the date from which the RM change will be effective. The system will process the \nrequest during the RM mass amendment batch on this date. The customers will be associated \nwith the other RM from this date onwards.\nAllowed Customers/Restrictive Customers/All Customers\nSpecify the type of customers to whom the RM change is applicable. You can choose one of \nthe following:\nAllowed Customers – if you select this, the system will change the RM of all customers \nselected under the ‘Customers’ grid \nRestrictive Customers – if you select this, the system will change the RM of all \ncustomers other than the restricted customers listed\nAll Customers – if you select this, the system will change the RM of all customers under \nthe RM\nCustomers\nSelect the customers to whom the RM change is applicable. You need to specify the following \ndetails of the customer:\nCustomer Number\nSpecify the CIF of the customer who will be reassigned to a different RM. The option list \ndisplays all valid customer numbers assigned to the RM selected under ‘From RM ID’. \nChoose the appropriate one. \nCustomer Name\nBased on the customer number, the system displays the name of the customer. \nYou can add more customers to the list by clicking the add button. In case you need to remove \na customer from this list, check the adjoining checkbox and click delete button. \nOnce you have specified the above details, save the record. \nThe system processes the amendment during RM Mass Amendment batch at end of \ntransactions input (EOTI) stage. This batch will reassign the customers from the current RM \nto the new RM specified here.\nOnce the customers are reassigned, the system updates the status as ‘Completed’. In case \nof any failure during the process, the system updates the status as Failed’ and logs the failure \nreason.\n2.3.2 \nViewing RM Mass Amendment Summary\nYou can view a summary of the RM mass amendments using ‘RM Mass Amendment \nSummary’ screen. To invoke this screen, type ‘STSRMAMD’ in the field at the top right corner \nof the Application toolbar and click the adjoining arrow button."
+    },
+    {
+      "page_number": 14,
+      "sections": [],
+      "summary": "This page explains how to search for RM mass amendment records using various parameters and what details are displayed after a search is conducted.",
+      "raw_text": "2-10\nYou can search the RM mass amendment summary based on one ore more of the following \nparameters:\nAuthorization status of the amendment maintenance\nRecord status\nReference number\nRM ID from which the customers are reassigned (From RM ID)\nRM ID to which the customers are reassigned (To RM ID)\nOnce you have set the search criteria, click search button. The system displays the following \ndetails of the RM mass amendment records that match the criteria. \nAuthorization status\nRecord status\nReference number\nFrom RM ID\nTo RM ID\nEffective Date\nDouble-click a record to view the details."
+    },
+    {
+      "page_number": 15,
+      "sections": [],
+      "summary": "",
+      "raw_text": "3-1\n3. Function ID Glossary\nS\nSMDUSRDF ......................2-1\nSTDRMAMD ......................2-7\nSTDRMHR ........................2-5\nSTDRMHRV ...................... 2-7\nSTSRMAMD ...................... 2-9\nSTSRMHR ........................ 2-6\nSTSRMHR’ ....................... 2-6"
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "source": "FlexCube/FCUBS/Common_CORE/Performance_Diagnostic_Plugin_(OLTP)_User_Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 15,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, abbreviations, glossary, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Preface section of a user manual for Oracle FLEXCUBE Universal Banking's Performance Diagnostic Plugin, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Preface section of a user manual for Oracle FLEXCUBE Universal Banking's Performance Diagnostic Plugin, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Preface section of a user manual for Oracle FLEXCUBE Universal Banking's Performance Diagnostic Plugin, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Preface section of a user manual for Oracle FLEXCUBE Universal Banking's Performance Diagnostic Plugin, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces the Preface section of a user manual for Oracle FLEXCUBE Universal Banking's Performance Diagnostic Plugin, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Abbreviations",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "3",
+          "title": "2. PDP Functionality",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 PDP Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking PDP Maintenance Screen - OLTP",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Simulation",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Performance Issue at Screen Level",
+          "start_page": 9
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Results",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Process timings",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Application Logs",
+          "start_page": 11
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Error Code and Messages",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Error Codes",
+          "start_page": 13
+        },
+        {
+          "structure": "5",
+          "title": "4. FAQ’s",
+          "start_page": 14
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Abbreviations",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides an overview of abbreviations and icons used in the User Manual, including their descriptions and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides an overview of abbreviations and icons used in the User Manual, including their descriptions and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Related Documents",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This section provides references to Oracle Database manuals for further information on enabling SQL tracing and using TKPROF, as well as using the PL/SQL Hierarchical Profiler.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. PDP Functionality",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP) and its functionality in capturing performance lag reports for OLTP transactions in FCUBS, as well as how to maintain and invoke the PDP tool.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP) and its functionality in capturing performance lag reports for OLTP transactions in FCUBS, as well as how to maintain and invoke the PDP tool.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 PDP Maintenance",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP) and its functionality in capturing performance lag reports for OLTP transactions in FCUBS, as well as how to maintain and invoke the PDP tool.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Invoking PDP Maintenance Screen - OLTP",
+      "start_page": 7,
+      "end_page": 9,
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP) and its functionality in capturing performance lag reports for OLTP transactions in FCUBS, as well as how to maintain and invoke the PDP tool.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Simulation",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page describes how to simulate a performance issue within a system and details a specific problem faced by a user during query operations on the Customer Creation screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Performance Issue at Screen Level",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page describes how to simulate a performance issue within a system and details a specific problem faced by a user during query operations on the Customer Creation screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Results",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page describes the process of capturing and storing performance-related data such as process timings and application logs when a user faces a performance issue.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Process timings",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page describes the process of capturing and storing performance-related data such as process timings and application logs when a user faces a performance issue.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 Application Logs",
+      "start_page": 11,
+      "end_page": 13,
+      "summary": "This page describes various parameters and logs used to diagnose performance issues, including operation details, timing layers, and application logs.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Error Code and Messages",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This section lists error codes along with their corresponding function IDs and messages, including an example of an invalid trace value error.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Error Codes",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This section lists error codes along with their corresponding function IDs and messages, including an example of an invalid trace value error.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "5",
+      "title": "4. FAQ’s",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page explains various aspects of SMTB_USER_FUNCTION_TRACE table, CSTB_PARAM flag, application log mechanism, and trace value combinations in relation to Performance Diagnostic Plugin functionality.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Function ID Glossary",
+      "start_page": 15,
+      "end_page": 17,
+      "summary": "This page provides a glossary of Function IDs, including STDAPPDP and STSAPPDP with their respective page references.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This user guide provides information for the Common Core - Performance Diagnostic Plugin (OLTP) for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0.",
+      "raw_text": "Common Core - Performance Diagnostic Plugin (OLTP)\nUser Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains information about Oracle Financial Services Software Limited and their contact details, as well as legal notices and restrictions for the use of their software.",
+      "raw_text": "Common Core - Performance Diagnostic Plugin (OLTP) User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2021, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Abbreviations",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, abbreviations, glossary, and related documents.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nAbbreviations...........................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n1.7 \nRelated Documents.................................................................................................  1-3\n2. \nPDP Functionality .................................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nPDP Maintenance....................................................................................................  2-1\n2.2.1  \nInvoking PDP Maintenance Screen - OLTP ...............................................  2-1\n2.3 \nSimulation................................................................................................................  2-3\n2.3.1  \nPerformance Issue at Screen Level ...........................................................  2-3\n2.4 \nResults.....................................................................................................................  2-4\n2.4.1  \nProcess timings ..........................................................................................  2-4\n2.4.2  \nApplication Logs .........................................................................................  2-5\n3. \nError Code and Messages ...................................................................... 3-1\n3.1 \nError Codes .............................................................................................................  3-1\n4. \nFAQ’s ........................................................................................................ 4-1\n5. \nFunction ID Glossary ............................................................................... 5-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Preface",
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter 1: Preface",
+        "Chapter 2: Functionality and Maintenance of various parameters for Performance Diagnostic Plugin - OLTP",
+        "Chapter 3: Error Code and Message",
+        "Chapter 4: Frequently Asked Question’s (FAQ’s)",
+        "Chapter 5: Function ID Glossary"
+      ],
+      "summary": "This page introduces the Preface section of a user manual for Oracle FLEXCUBE Universal Banking's Performance Diagnostic Plugin, detailing its purpose, target audience, organization, and content structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is been designed to help you quickly get acquainted with the Performance \nDiagnostic Plugin of Oracle FLEXCUBE Universal Banking.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\nRole\nFunction\nDatabase Administrator\nTo provide the necessary Execute grants \nfor TKPROF & HPROF file generation.\nSystem Technical Analyst\nTo analyze the Performance lag issue \nfaced by bank user.\nOracle FLEXCUBE user\nAny user of Oracle FLEXCUBE facing \nperformance issues in the system\nChapter\nDescription\nChapter 1\nPreface gives information on the intended audience. It also\nlists the various chapters covered in this User Manual.\nChapter 2\nFunctionality and Maintenance of various parameters for Perfor-\nmance Diagnostic Plugin - OLTP \nChapter 3\nError Code and Message\nChapter 4\nFrequently Asked Question’s (FAQ’s)\nChapter 5\nFunction ID Glossary"
+    },
+    {
+      "page_number": 5,
+      "sections": [],
+      "summary": "This page provides an overview of abbreviations and icons used in the User Manual, including their descriptions and functions.",
+      "raw_text": "1-2\n1.5 \nAbbreviations\n1.6 \nGlossary of Icons\nThis User Manual refers to the following icons.\nAbbreviation\nDescription\nDBA\nDatabase Administrator\nHPROF\nHierarchical Profiler\nOLTP\nOnline Transaction Processing\nPDP\nPerformance Diagnostic Plugin\nPLSQL\nProcedural Language for SQL\nSQL\nStructured Query Language\nTKPROF\nTransient Kernel Profiler\nIcons\nFunction\nExit\nOption list\nDropdown \nList\nPrevious\nNext\nFirst\nLast\nMinimize"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Related Documents"
+      ],
+      "summary": "This section provides references to Oracle Database manuals for further information on enabling SQL tracing and using TKPROF, as well as using the PL/SQL Hierarchical Profiler.",
+      "raw_text": "1-3\n1.7 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle Database \nmanuals on:\nEnabling SQL Tracing and Using TKPROF\nUsing the PL/SQL Hierarchical Profiler"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "PDP Maintenance",
+        "Invoking PDP Maintenance Screen - OLTP"
+      ],
+      "summary": "This page describes the Performance Diagnostic Plugin (PDP) and its functionality in capturing performance lag reports for OLTP transactions in FCUBS, as well as how to maintain and invoke the PDP tool.",
+      "raw_text": "2-1\n2. PDP Functionality\n2.1 \nIntroduction\nPerformance Diagnostic Plugin (PDP) is a tool to capture the performance lag reports like\nTKPROF and Hierarchical profiling (HPROF) along with capturing processing time for OLTP\ntransactions in FCUBS.\nExisting methods of capturing these reports at a very high level causing difficulties in\nanalyzing the precise point of issue and involves DBA’s. PDP helps to get the report precisely\nat the issue level i.e. action based reports for a user.\n2.2 \nPDP Maintenance\nPerformance Diagnostic Plugin tool depends on the initial maintenance of the performance\nissue faced by the user to generate the performance bottleneck reports for analysis.\nThis section contains the following topics:\nSection 2.2.1, \"Invoking PDP Maintenance Screen - OLTP\"\nSection 2.2.1.1, \"Viewing PDP Summary Screen - OLTP\"\n2.2.1 \nInvoking PDP Maintenance Screen - OLTP\nYou can invoke the ‘Performance Diagnostic Plugin (OLTP) Maintenance’ screen by typing\n‘STDAPPDP’ in the field at the top right corner of the Application tool bar and clicking on the\nadjoining arrow button.\nYou can specify the following fields:\nUser ID\nSpecify the User ID details for user facing the performance issue.\nUser Name\nThis displays the user id selected.\nFunction Id\nSpecify the Function Id details for the screen facing the performance issue."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Function Description",
+        "Action",
+        "Trace Value",
+        "Viewing PDP Summary Screen - OLTP"
+      ],
+      "summary": "This page describes how to display and use the Performance Diagnostics Plugin (OLTP) Summary screen for viewing and analyzing performance issues, including options for selecting parameters and generating logs.",
+      "raw_text": "2-2\nFunction Description\nThis displays the screen name selected.\nAction\nSpecify the Action/Operation for which the user has faced the performance issue.\nTrace Value\nProvides the options for users to choose the type of reports required for analysis along with \nprocess timings and application Logs. Below are the options to choose from:\n2.2.1.1 \nViewing PDP Summary Screen - OLTP\nYou can view the summary details of PDP in the ‘Performance Diagnostics Plugin (OLTP)\nSummary’ screen. You can invoke this screen by typing ‘STSAPPDP’ in the field at the top\nright corner of the Application tool bar and clicking on the adjoining arrow button.\nIn the Performance Diagnostics Plugin (OLTP) Summary screen, you can base your queries\non any or all of the following parameters and fetch the records:\nAuthorization Status\nRecord Status\nUser ID\nFunction ID\nAction\nTrace Value\nUI Option Name\nDescription\nProcess Timing at Database Level\nTransaction time at Database level\nProcess Timing at Application Level\nTransaction time at Application level\nApplication Logs\nApplication log generation\nALL \nTransaction time at DB & Application \nLayer, Application Log"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Simulation",
+        "Performance Issue at Screen Level"
+      ],
+      "summary": "This page describes how to simulate a performance issue within a system and details a specific problem faced by a user during query operations on the Customer Creation screen.",
+      "raw_text": "2-3\nClick on the ‘Search’ button. The system identifies all records satisfying the specified criteria\nand displays the same.\n2.3 \nSimulation\nAfter the maintenance in STDAPPDP, a particular user facing the performance issue needs\nto simulate the case within the system to capture the required performance lag reports or\nprocess timings. The below sections, depict a sample performance issue faced by a user at\nboth screen level as well as external transaction/gateway level.\nThis section contains the following topic:\nSection 2.3.1, \"Performance Issue at Screen Level\"\n2.3.1 \nPerformance Issue at Screen Level\nProblem Description:\nUser “TEST_USER” is facing a problem during executing query operation in the Customer\nCreation screen (STDCIF). The query operation takes more time to display the record and the\nsupport team has asked the user to share the process timings at both database & Application\nlevel, TKPROF & application log to analyze the same.\nProblem Simulation:\n1. To capture the performance lag reports along with process timing, the user needs to\nmaintain these details in the system under STDAPPDP as specified under Section 2.2.1,\n\"Invoking PDP Maintenance Screen - OLTP\".\nUser ID:                    TEST_USER\nFunction ID:             STDCIF\nAction:                      EXECUTEQUERY\nAs per the requirement, user needs to capture process timings, TKPROF & Application Log;\nthe trace value selected would be “ALL” i.e. it is a combination of all the trace value options. \n2. Once the above Maintenance is completed, log in with “TEST_USER” and query for a\ncustomer record in the STDCIF screen. On opening up of STDCIF screen, click on Enter\nQuery action and input the customer number and later click on “Execute Query”."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Results",
+        "Results Captured",
+        "Process timings",
+        "Application Logs",
+        "Section 2.4.1, \"Process timings\"",
+        "Section 2.4.2, \"Application Logs\""
+      ],
+      "summary": "This page describes the process of capturing and storing performance-related data such as process timings and application logs when a user faces a performance issue.",
+      "raw_text": "2-4\n3. Due to the performance issue faced by the user, customer details might be fetched after\nfew minutes on the screen and once the details are displayed, the required performance\nlag report are captured into their respective folders/tables as configured.\nResults Captured\nProcess timings: Captured process timings for Execute Query operation are inserted\ninto table GWTB_DBTIME_LOG for both Database & Application Level as per the\nselection of trace value in the maintenance screen. Below screenshot shows the timing\ndetails captured for the entire operation of Execute Query.\nApplication Log: Captured application logs are placed under application log \ndirectories.\nMore details on the configuration of output directories are provided under Section 2.4, \n\"Results\".\n2.4 \nResults\nResults captured by the system are subjected to the maintenance of Trace. All files/timings\ncaptured are placed under configured directories/tables.\nThis section contains the following topics:\nSection 2.4.1, \"Process timings\"\nSection 2.4.2, \"Application Logs\"\n2.4.1 \nProcess timings\nPDP facilitates the capture of process timings for easy analysis and the timings captured at\nboth Database as well as Application/Infra Level based on the selection of trace value. All the\nprocess timings are captured under the table GWTB_DBTIME_LOG. \nDetails of each column are given below,\nUser Id\nUser ID of the simulating user facing performance issue.\nFunction Id\nFunction Id used during the simulation of the issue."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Action",
+        "Channel",
+        "UI = Operation via Screen.",
+        "GW = External System or Gateway.",
+        "Layer",
+        "Application Timings          = Application layer",
+        "Database Timings   = Database Layer",
+        "Start Timestamp",
+        "End Timestamp",
+        "Transaction Info",
+        "Process timings capture happens on a selection of the below trace.",
+        "2.4.2 Application Logs"
+      ],
+      "summary": "This page describes various parameters and logs used to diagnose performance issues, including operation details, timing layers, and application logs.",
+      "raw_text": "2-5\nAction\nOperation for which the performance issue is being faced.\nChannel\nChannel via which the operation carried out.\nUI = Operation via Screen.\nGW = External System or Gateway.\nLayer\nLayer at which the transaction timings were captured.\nApplication Timings          = Application layer\nDatabase Timings   = Database Layer\nStart Timestamp\nStart timing of the operation.\nEnd Timestamp\nEnd timing of the operation.\nTransaction Info\nSpecifies if the process was Successful or Failure along with operation being pre-fixed.\nProcess timings capture happens on a selection of the below trace.\nProcess Timing at Database Level\nProcess Timing at Application Level\nALL\n2.4.2 \nApplication Logs\nApplication logs are the Java level debug files generated by the system to capture the code\nflow along with errors for analysis in java layer. These logs are similar to the existing\nApplication level logs generated but consist only of operation level details.\nPDP captures the application logs for specific user, for specific function id and operation as\nspecified during maintenance. These logs are not dependent on enabling/disabling at table\nCSTB_DEBUG_USERS but are generated automatically on selection of specific trace value\nduring maintenance of that operation. These logs generated under specific directory\nconfigured during initial setup i.e. APPLICATION_WORK_AREA specified under\nfcubs.properties file. Logs generated follow a standard naming convention and format is\nmentioned below,\n<USERID>_<FUNCTIONID>_<ACTION>.log\nApplication logs generation happens on selection of below trace values.\nApplication Logs\nALL"
+    },
+    {
+      "page_number": 12,
+      "sections": [],
+      "summary": "This page appears to be a reference to an application log file named TEST_USER_STDCIF_EXECUTEQUERY.log.",
+      "raw_text": "2-6\nNote    \nBelow is the sample file attached for reference.\nApplication Log\nTEST_USER_STDCIF_EXECUTEQUERY.log"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Error Codes"
+      ],
+      "summary": "This section lists error codes along with their corresponding function IDs and messages, including an example of an invalid trace value error.",
+      "raw_text": "3-1\n3. Error Code and Messages\nThis chapter contains the following section:\nSection 3.1, \"Error Codes\"\n3.1 \nError Codes\nFunction ID\nError Code\nMessage\nSTDAPPDP\nST-PDP-001\nInvalid Trace Value"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "FAQ’s"
+      ],
+      "summary": "This page explains various aspects of SMTB_USER_FUNCTION_TRACE table, CSTB_PARAM flag, application log mechanism, and trace value combinations in relation to Performance Diagnostic Plugin functionality.",
+      "raw_text": "4-1\n4. FAQ’s\n1. What is SMTB_USER_FUNCTION_TRACE Table? How are values inserted into it?\nSMTB_USER_FUNCTION_TRACE is a data store for capturing the function id related \nmaintenance for Performance Diagnostic Plugin functionality i.e. it will store, Function ID, \nAction, User Id, and Trace Value. Based on these parameters- Time Lag Report will be \ngenerated. The data can be captured using the newly designed function id STDAPPDP.\n2. What is the use of the CSTB_PARAM flag? When will the CSTB_PARAM be set to \n‘Y’ (Enabled)\nCSTB_PARAM table will have a Performance Diagnostic Plugin (PDP) specific flag called \nTIME_LOG, which is used to enable or disable the functionality of PDP (i.e. Capturing of \nany performance lag reports or process timings or even specific application log) in the \nSystem. By default, the value is set as ‘N’. Currently, the Performance Diagnostic Plugin \nworks for OLTP processes only.\n3. What is the mechanism used to obtain the Application Log?\nExisting Infra level functionality is used to capture the application log by retaining any \nexisting logs related to user and capturing a new log based on a specific naming \nconvention i.e. <USERID>_<FUNCTIONID>_<ACTION>.log for a particular operation \nspecified during maintenance. Application logs are enabled/disabled automatically at infra \nlevel and generated application log will be written on Server as file.\n4. Is trace values “ALL” combination of other trace values? If yes, can this \ncombination be achieved by inserting multiple records with the required trace \nvalues?\nYes, trace values “ALL” is a combination of other trace values specified like the capture of \nprocess timings, application log to be obtained in one go.\nThe code is designed to pick only one trace value for a combination of User Id, Function \nID & Action due to which multiple record maintenance is not allowed. These trace values \nare helpful in keeping the table clean and away from confusion for the Bank IT team during \nthe maintenance.\n5. Is this PDP functionality specific to any product?\nNo. This enhancement is in the Infra Layer and it is supported in all ODT framework-based \nproducts processors.\n6. Provide a brief insight on results obtained for each trace value.\nTrace Value\nProcess \nTiming\nApplication \nLog\nTrace File\nHPROF File\nProcess Timing at \nDatabase Level\nY\nN\nN\nN\nProcess Timing at \nApplication Level\nY\nN\nN\nN\nApplication Logs\nN\nY\nN\nN\nALL\nY\nY\nY\nN"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Function ID Glossary"
+      ],
+      "summary": "This page provides a glossary of Function IDs, including STDAPPDP and STSAPPDP with their respective page references.",
+      "raw_text": "5-1\n5. Function ID Glossary\nS\nSTDAPPDP .................2-2,2-4\nSTSAPPDP ....................... 2-3"
+    }
+  ]
+}

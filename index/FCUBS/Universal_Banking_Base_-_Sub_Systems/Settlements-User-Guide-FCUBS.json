@@ -1,0 +1,936 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base_-_Sub_Systems/Settlements-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 43,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organization structure, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE contracts settlement, detailing its purpose, target audience, accessibility information, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE contracts settlement, detailing its purpose, target audience, accessibility information, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE contracts settlement, detailing its purpose, target audience, accessibility information, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE contracts settlement, detailing its purpose, target audience, accessibility information, and structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE contracts settlement, detailing its purpose, target audience, accessibility information, and structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents for further information on procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents for further information on procedures.",
+      "cross_references": [
+        {
+          "structure": "3",
+          "title": "2. The Settlements Service",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 IBAN Additional Maintenances",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Viewing IBAN Exclusions Summary",
+          "start_page": 6
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Multi Mode Settlement Details",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Multi Mode Settlement Details",
+          "start_page": 9
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Settlement Preferences of a Customer",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Settlement Instructions Maintenance Screen",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Pay Parties Tab",
+          "start_page": 14
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 Receive Parties",
+          "start_page": 18
+        },
+        {
+          "structure": "3.4.4",
+          "title": "2.4.4 Capturing Cover Details",
+          "start_page": 19
+        },
+        {
+          "structure": "3.4.5",
+          "title": "2.4.5 Maintaining Local Clearing Details and Cover Details for Customer Settlement Instructions",
+          "start_page": 19
+        },
+        {
+          "structure": "3.4.6",
+          "title": "2.4.6 Other Details Tab",
+          "start_page": 21
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 The Sequence in which Settlement Instructions are Resolved",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Processing Settlements",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Invoking Settlement Details Screen",
+          "start_page": 24
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Account Details Tab",
+          "start_page": 25
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Payment Details Tab",
+          "start_page": 28
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Party Details Tab",
+          "start_page": 31
+        },
+        {
+          "structure": "3.6.5",
+          "title": "2.6.5 Other Details Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "3.6.6",
+          "title": "2.6.6 Default MT 103 Details",
+          "start_page": 38
+        },
+        {
+          "structure": "3.6.7",
+          "title": "2.6.7 Amending Settlement Details",
+          "start_page": 39
+        },
+        {
+          "structure": "3.6.8",
+          "title": "2.6.8 Processing Settlements for Track Receivable or Payable Amount Tags",
+          "start_page": 39
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Generation of Statement Request",
+          "start_page": 40
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Generating MT920/camt.060 Message",
+          "start_page": 40
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing Statement Request Summary",
+          "start_page": 42
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Processing of Incoming 920",
+          "start_page": 42
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. The Settlements Service",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the Settlements sub-system in Oracle FLEXCUBE and includes details on maintaining bank identifier codes, settlement preferences, and the process of handling money settlements.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the Settlements sub-system in Oracle FLEXCUBE and includes details on maintaining bank identifier codes, settlement preferences, and the process of handling money settlements.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 IBAN Additional Maintenances",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the Settlements sub-system in Oracle FLEXCUBE and includes details on maintaining bank identifier codes, settlement preferences, and the process of handling money settlements.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Viewing IBAN Exclusions Summary",
+      "start_page": 6,
+      "end_page": 8,
+      "summary": "This page discusses the Settlements sub-system in Oracle FLEXCUBE and includes details on maintaining bank identifier codes, settlement preferences, and the process of handling money settlements.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Multi Mode Settlement Details",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page describes how to view detailed records in an application and details validation processes for customer and beneficiary IBAN numbers, as well as multi mode settlement information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Maintaining Multi Mode Settlement Details",
+      "start_page": 9,
+      "end_page": 11,
+      "summary": "This section explains multimode settlement in Oracle FLEXCUBE for consumer lending and details how to maintain different modes of settlement through a specific screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Settlement Preferences of a Customer",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page discusses how to maintain settlement preferences for customers and banks through the 'Settlement Instructions Maintenance' screen, including details on invoking the screen and setting up basic settlement accounts and routes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Invoking Settlement Instructions Maintenance Screen",
+      "start_page": 11,
+      "end_page": 14,
+      "summary": "This page discusses how to maintain settlement preferences for customers and banks through the 'Settlement Instructions Maintenance' screen, including details on invoking the screen and setting up basic settlement accounts and routes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 Pay Parties Tab",
+      "start_page": 14,
+      "end_page": 18,
+      "summary": "This section explains how to capture details of parties involved in a payment and describes fields related to intermediary reimbursement institutions and intermediaries.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.3",
+      "title": "2.4.3 Receive Parties",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This section explains how to input details of intermediary and beneficiary institutions when receiving incoming payments, including fields for bank codes, names, addresses, and countries.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.4",
+      "title": "2.4.4 Capturing Cover Details",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page explains how to capture cover details and maintain local clearing and cover details in settlement instructions for customer transfers.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.5",
+      "title": "2.4.5 Maintaining Local Clearing Details and Cover Details for Customer Settlement Instructions",
+      "start_page": 19,
+      "end_page": 21,
+      "summary": "This page explains how to capture cover details and maintain local clearing and cover details in settlement instructions for customer transfers.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.6",
+      "title": "2.4.6 Other Details Tab",
+      "start_page": 21,
+      "end_page": 23,
+      "summary": "This page explains how to specify account details for cover parties and define default values for fields in MT 103 messages during settlement instruction maintenance.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 The Sequence in which Settlement Instructions are Resolved",
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This page discusses regulatory reporting details and settlement instructions processing sequences in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Processing Settlements",
+      "start_page": 23,
+      "end_page": 24,
+      "summary": "This page discusses regulatory reporting details and settlement instructions processing sequences in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Invoking Settlement Details Screen",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This page discusses how to invoke and view settlement details for a contract or deal based on maintenance of settlement instructions and provides an example of accounting entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.2",
+      "title": "2.6.2 Account Details Tab",
+      "start_page": 25,
+      "end_page": 28,
+      "summary": "This page discusses the account details section in the Settlement Instructions screen and how it defaults to specific accounts during contract processing.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.3",
+      "title": "2.6.3 Payment Details Tab",
+      "start_page": 28,
+      "end_page": 31,
+      "summary": "This page discusses how to suppress settlement messages and specifies payment details including methods such as instrument, message, or clearing.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.4",
+      "title": "2.6.4 Party Details Tab",
+      "start_page": 31,
+      "end_page": 37,
+      "summary": "This page explains how to capture details of parties involved in a contract and the intermediary reimbursement institution, including fields for country and intermediary information.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.5",
+      "title": "2.6.5 Other Details Tab",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page details various fields and codes that can be maintained or specified in a transaction, including bank operation codes, instruction codes, and regulatory reporting details for an MT103 message.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.6",
+      "title": "2.6.6 Default MT 103 Details",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This page describes how to specify additional information for instruction codes in an MT103 message, details on regulatory reporting, time indicators for payment processing, and default values for fields in MT103 messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.7",
+      "title": "2.6.7 Amending Settlement Details",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page explains how to amend settlement details in a contract and process settlements related to tracking receivables or payables.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.8",
+      "title": "2.6.8 Processing Settlements for Track Receivable or Payable Amount Tags",
+      "start_page": 39,
+      "end_page": 40,
+      "summary": "This page explains how to amend settlement details in a contract and process settlements related to tracking receivables or payables.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 Generation of Statement Request",
+      "start_page": 40,
+      "end_page": 40,
+      "summary": "This page describes the process for updating records in the LQ module and details how to generate SWIFT messages for transaction requests using Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.1",
+      "title": "2.7.1 Generating MT920/camt.060 Message",
+      "start_page": 40,
+      "end_page": 42,
+      "summary": "This page describes the process for updating records in the LQ module and details how to generate SWIFT messages for transaction requests using Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.2",
+      "title": "2.7.2 Viewing Statement Request Summary",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page explains how to view a summary of an account statement using the 'Statement Request Summary' screen and describes the processing of incoming MT920 messages by the system, which generates corresponding outgoing SWIFT Messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.3",
+      "title": "2.7.3 Processing of Incoming 920",
+      "start_page": 42,
+      "end_page": 43,
+      "summary": "This page explains how to view a summary of an account statement using the 'Statement Request Summary' screen and describes the processing of incoming MT920 messages by the system, which generates corresponding outgoing SWIFT Messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 43,
+      "end_page": 45,
+      "summary": "This page contains a function ID glossary with various entries and their corresponding page numbers.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page introduces the Settlements User Guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Settlements User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "Settlements User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the document's purpose, target audience, accessibility features, organization structure, and related documents.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nThe Settlements Service ......................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nIBAN Additional Maintenances................................................................................  2-1\n2.2.1  \nViewing IBAN Exclusions Summary ...........................................................  2-1\n2.3 \nMulti Mode Settlement Details.................................................................................  2-3\n2.3.1  \nMaintaining Multi Mode Settlement Details ................................................  2-4\n2.4 \nSettlement Preferences of a Customer ...................................................................  2-6\n2.4.1  \nInvoking Settlement Instructions Maintenance Screen...............................  2-6\n2.4.2  \nPay Parties Tab..........................................................................................  2-9\n2.4.3  \nReceive Parties ........................................................................................  2-13\n2.4.4  \nCapturing Cover Details ...........................................................................  2-14\n2.4.5  \nMaintaining Local Clearing Details and Cover Details for Customer Settlement In-\nstructions\n                                                                                                                    2-14\n2.4.6  \nOther Details Tab .....................................................................................  2-16\n2.5 \nThe Sequence in which Settlement Instructions are Resolved .............................  2-18\n2.6 \nProcessing Settlements.........................................................................................  2-18\n2.6.1  \nInvoking Settlement Details Screen..........................................................  2-19\n2.6.2  \nAccount Details Tab .................................................................................  2-20\n2.6.3  \nPayment Details Tab ................................................................................  2-23\n2.6.4  \nParty Details Tab......................................................................................  2-26\n2.6.5  \nOther Details Tab .....................................................................................  2-32\n2.6.6  \nDefault MT 103 Details.............................................................................  2-33\n2.6.7  \nAmending Settlement Details ...................................................................  2-34\n2.6.8  \nProcessing Settlements for Track Receivable or Payable Amount Tags .  2-34\n2.7 \nGeneration of Statement Request.........................................................................  2-35\n2.7.1  \nGenerating MT920/camt.060 Message ....................................................  2-35\n2.7.2  \nViewing Statement Request Summary ....................................................  2-37\n2.7.3  \nProcessing of Incoming 920 .....................................................................  2-38\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This page introduces a user manual for Oracle FLEXCUBE contracts settlement, detailing its purpose, target audience, accessibility information, and structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help you get acquainted with the manner in which contracts in a \nproduct are settled in Oracle FLEXCUBE.\nIt takes you through the various steps involved in processing a Settlement.\nThis user manual is a supplement to the Common Core -Core Entities and Services user \nmanual and contains only specific functionalities and information related to Oracle FCUBS \nCore Entities and Services. Hence, this document should be read in conjunction with the Core \nEntities and Services user manual from the perspective of completeness in flow and \nunderstanding. \nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual contains the following chapters:\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of day operators\nProcessing during end of day/ beginning of day\nFinancial Controller/Product Manag-\ners\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nThe Settlements Service details the procedure to set up Settlement \ndetails and the processing of Settlements. It also lists the SWIFT mes-\nsages handled by Oracle FLEXCUBE."
+    },
+    {
+      "page_number": 5,
+      "sections": [],
+      "summary": "This page provides a glossary of icons used in the User Manual and references related documents for further information on procedures.",
+      "raw_text": "1-2\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nProcedures\nCommon Core - Core Entities and Services\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "IBAN Additional Maintenances",
+        "Viewing IBAN Exclusions Summary"
+      ],
+      "summary": "This page discusses the Settlements sub-system in Oracle FLEXCUBE and includes details on maintaining bank identifier codes, settlement preferences, and the process of handling money settlements.",
+      "raw_text": "2. The Settlements Service\n2.1 \nIntroduction\nThe Settlements sub-system is part of the core of Oracle FLEXCUBE. This system is a central \nmoney settlement service that interfaces with the other modules of Oracle FLEXCUBE.\nIn Oracle FLEXCUBE, the Settlements and Messaging systems are closely associated. The \nSettlements system provides for a common set up of money settlement accounts and routes. The \nMessaging system, on the other hand, handles the generation of settlement messages.\nTo handle money settlements in Oracle FLEXCUBE, you have to:\nMaintain Bank Identifier Codes (BIC) \nMaintain Settlement Preferences for a Customer/Module/Currency/Branch or for a \ncombination of any of the entities. \nThis chapter contains the following sections:\nSection 2.2, \"IBAN Additional Maintenances\"\nSection 2.3, \"Multi Mode Settlement Details\"\nSection 2.4, \"Settlement Preferences of a Customer\"\nSection 2.5, \"The Sequence in which Settlement Instructions are Resolved\"\nSection 2.6, \"Processing Settlements\"\nSection 2.7, \"Generation of Statement Request\"\n2.2 \nIBAN Additional Maintenances\nThis section contains the following topics:\nSection 2.2.1, \"Viewing IBAN Exclusions Summary\"\n2.2.1 \nViewing IBAN Exclusions Summary\nBanks exclude certain IBAN national IDs from being used as bank codes in Oracle FLEXCUBE. \nThe exclusion list must be uploaded into the system using ‘BIC Upload’ screen. When an IBAN \nnational ID is excluded, the IBAN is considered to be invalid.\nThe invalid IBANs specified in the exclusion will not be available for selection while you enter a \nbank code during any operation in the system. That is, whenever you try to enter an IBAN in the \nsystem, it will be validated against the IBAN national ID exclusion list as of that date."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Viewing IBAN Exclusions"
+      ],
+      "summary": "This page explains how to view and search for IBAN national ID exclusions using the 'IBAN Exclusion List Summary' screen in the application.",
+      "raw_text": "2-2\nYou can view a summary of IBAN national ID exclusions using ‘IBAN Exclusion List Summary’ \nscreen. To invoke the screen, type ‘ISSIBEXC’ in the field at the top right corner of the \napplication toolbar and click the adjoining arrow button.\nEven if you have uploaded the exclusion list, you can see the IBAN national ID in this screen \nonly from the date of activation of the exclusion.\nYou can search for the records based on one or more of the following parameters:\nRecord key\nCountry code\nIBAN national ID\nBIC\nOnce you have specified the search criteria, click ‘Search’ button. The system displays the \nabove details of excluded IBAN national IDs that match the search criteria.\n2.2.1.1 \nViewing IBAN Exclusions\nThe IBAN national IDs in the exclusion list is uploaded to the system can be viewed in ‘IBAN \nExclusion List’ screen. From the ‘IBAN Exclusion List Summary’ screen, you can double-click"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Customer IBAN Validations",
+        "Beneficiary IBAN Validations",
+        "Multi Mode Settlement Details"
+      ],
+      "summary": "This page describes how to view detailed records in an application and details validation processes for customer and beneficiary IBAN numbers, as well as multi mode settlement information.",
+      "raw_text": "2-3\na record to view the detailed screen. You may also type ‘ISDIBEXC’ in the field at the top right \ncorner of the application toolbar and click the adjoining arrow button.\nIf you have directly accessed this screen, you may enter a query by clicking ‘Enter Query’ \nbutton. You can specify the record key and click ‘Execute Query’ button to view the details. \nThe following details are displayed:\nRecord Key\nCountry Code\nIBAN National ID\nBIC\n2.2.1.2 \nCustomer IBAN Validations\nThe customer IBAN number is validated for the length, IBAN check digit and national ID. For \nthe IBAN to be considered as valid, following conditions should be satisfied.\nIBAN ISO country code in the IBANPlus and the country code in IBAN must match\nIBAN national ID should not be present in the exclusion list.\n2.2.1.3 \nBeneficiary IBAN Validations\nThe beneficiary IBAN number is validated for the length, IBAN check digit and national ID. \nIBAN check digit and national ID validations are applicable only if the global parameter \n‘IBANPLUS_REQD’ is set to ‘Y’.\nFor the IBAN to be considered as valid, following conditions should be satisfied.\nThe check digit value computed by the system should match with the check digit value \nextracted from IBAN.\nIBAN ISO country code in the IBANPlus and the country code in IBAN must match\nIBAN national ID should not be present in the exclusion list.\n2.3 \nMulti Mode Settlement Details\nThis section contains the following topics:\nSection 2.3.1, \"Maintaining Multi Mode Settlement Details\""
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Maintaining Multi Mode Settlement Details"
+      ],
+      "summary": "This section explains multimode settlement in Oracle FLEXCUBE for consumer lending and details how to maintain different modes of settlement through a specific screen.",
+      "raw_text": "2-4\n2.3.1 \nMaintaining Multi Mode Settlement Details\nMultimode settlement is applicable only for Consumer lending module of Oracle FLEXCUBE. \nAll settlements are, typically, made using accounts. However, in Oracle FLEXCUBE, \nsettlements can be done through different modes in addition to the account level settlement. \nThe different modes can be:\nCash\nInstruments\nExternal Accounts\nPay Orders\nInternal Cheque\nClearing\nDebit Card\nCredit Card\nYou can also make settlements using a combination of any of the modes mentioned above \ni.e. part by cash, part by cheque and the rest by credit card or any other combination of your \nchoice. \nYou can capture the different modes of settlement through the ‘Multimode Settlement \nMaintenance’ screen. You can invoke this screen by typing ‘ISDSRCMD’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button. The modes are \ncaptured for a Source, Module, Product and Currency combination. \nThe following details have to be captured in this screen:\nSource\nOracle FLEXCUBE interfaces with other external systems of your bank. Transactions \noriginating in external systems may require to be uploaded into Oracle FLEXCUBE for further \nprocessing. For maintaining the settlement modes for such transactions, you have to indicate \nthe source code of the external system here. The source codes of all external systems are \navailable in the option-list provided from where you can make the appropriate selection. \nYou may use the Source Code ‘Oracle FLEXCUBE’ to maintain settlement modes for \ntransactions originating in Oracle FLEXCUBE.\nModule\nYou have to specify the module of the transactions that have to be settled using different \nmodes. The value of this field is defaulted to CL (Consumer Lending). You cannot modify this \nvalue."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Product",
+        "Currency",
+        "Setl Mode",
+        "Pay Setl Ac"
+      ],
+      "summary": "This page describes how to specify product and currency for transactions, select settlement modes, and define payment suspense accounts in a multimode settlement system.",
+      "raw_text": "2-5\nProduct\nHere, you have to indicate the product of the transactions that have to be settled using \ndifferent modes. The option-list will display the different products available under the selected \nmodule. You may also use the wild character ‘****’ as the product code. The system will use \nthis information if settlement mode maintenance is not available for a product under the \nselected module.\nCurrency\nYou have to specify the currency of the transactions that have to be settled using different \nmodes. You may also use the wild character ‘*.*’ for a currency. This will be used if \nmaintenance for a specific currency is not available.\nFor the above combination of Source, Module, Product and Currency, you can maintain \nmultiple settlement modes and the associated details given below:\nSetl Mode\nFor the selected combination, you have to specify the settlement mode. The list of available \nmodes is predefined in the system and you can select a mode from the drop-down list. Since \nCL is the module used for the multimode settlement the different modes available are:\nCASA\nCash/Teller\nInstrument\nExternal Account\nElectronic Pay Order\nInternal Cheque\nClearing\nDebit Card\nCredit Card\nPay Setl Ac\nFor the selected settlement mode, you have to specify the Suspense/Control GL into which \nthe transactions (that satisfy the selected combination) need to pass the accounting entry. \nThis GL will be used only when the bank is making a payment. The settlement account gets \ncredited in this case.\nPay Setl Prod\nFor the selected settlement mode, if the originating transaction results in a linked transaction, \nyou need to specify the product that should be used to create the linked transaction. This \nproduct will be used when the settlement account gets credited. For example, if the settlement \nmode is ‘DD’, you have to specify the product code (i.e. the DD instrument type) for creating \nthe corresponding instrument transaction in Oracle FLEXCUBE.\nRecv Setl Ac\nJust as you specify the pay settlement account for the mode selected, you also have to \nindicate the Suspense/Control GL into which transactions (that satisfy the selected \ncombination) need to pass the accounting entry when the bank receives a payment. The \nselected account gets debited in this case.\nRecv Setl Prod\nIf the originating transaction (payment received) results in a linked transaction, you have to \nspecify the product to be used to create the linked transaction. This product will be used when \nthe settlement account gets debited. For instance, if the settlement mode is ‘External \nCheque’, you have to specify the clearing product to be used for creating the clearing \ntransaction."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Settlement Preferences of a Customer",
+        "Invoking Settlement Instructions Maintenance Screen"
+      ],
+      "summary": "This page discusses how to maintain settlement preferences for customers and banks through the 'Settlement Instructions Maintenance' screen, including details on invoking the screen and setting up basic settlement accounts and routes.",
+      "raw_text": "2-6\nFor details on multi mode settlement processing, refer the heading titled ‘Processing \nsettlements’ in this chapter.\n2.4 \nSettlement Preferences of a Customer\nThis section contains the following topics:\nSection 2.4.1, \"Invoking Settlement Instructions Maintenance Screen\"\nSection 2.4.2, \"Pay Parties Tab\"\nSection 2.4.3, \"Receive Parties\"\nSection 2.4.4, \"Capturing Cover Details\"\nSection 2.4.5, \"Maintaining Local Clearing Details and Cover Details for Customer \nSettlement Instructions\"\nSection 2.4.6, \"Other Details Tab\"\n2.4.1 \nInvoking Settlement Instructions Maintenance Screen\nYou can maintain the settlement preferences of a customer or a bank in the ‘Settlement \nInstructions Maintenance’ screen. You can invoke this screen by typing ‘ISDINSTN’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button.\nIndicating preferences for an entity means defining the settlement accounts and a detailed \nsettlement route comprising the correspondent accounts and the intermediaries through \nwhich payment is to be routed. (The party information you can capture adheres to SWIFT \nstandards). \nYou can maintain the following basic settlement preferences for an entity (Customer /BIC), \nmodule, currency, product, Sequence Number and branch combination. \nThe Pay (out) Account, Branch and Currency\nThe Receive Account (for incoming payments), Branch and Currency.\nIf a Cover is required to be sent for SWIFT messages"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Charge and Charge Account",
+        "Counter Party",
+        "Counterparty Type"
+      ],
+      "summary": "This page discusses charge handling for messages, default accounts for charges, and instructions for maintaining settlement details with customers or specific counterparties in Oracle FLEXCUBE.",
+      "raw_text": "2-7\nIf the charge (for the message) is to be borne by the bank or the beneficiary, or shared \nbetween them\nThe charge account, which will be used as the default account for all charges during \ncontract input \nIf a receive notice (MT 210) has to be generated for money settlements made in a \nspecific currency\nCounter Party\nYou can maintain settlement instructions for all the customers or for specific customers only. \nFrom the option list select the specific customer number or choose the ALL option.\nCounterparty Type\nThe Counterparty Type can either be CIF or BIC depending on whether your bank has an \naccounting relationship with the party for whom the instruction is being maintained or whether \nit only has a SWIFT messaging relationship. If the counterparty is a CIF in Oracle FLEXCUBE, \nyou will have to select CIF as the party type and choose the relevant CIF ID in the adjacent \nfield. \nHowever, if the entity is not an actual customer of your bank but you would be sending/\nreceiving payment messages to/from that party, you will have to choose BIC as the \ncounterparty type and specify the counterparty’s address as well. As a result, you will need to \nidentify the preferred Nostro/ Vostro accounts for that currency and BIC code combination. \nNote\n– \nIf you opt to generate receive notices for settlements made in all currencies, \ninvolving all counterparties, and transactions in all modules of Oracle FLEXCUBE, \nan MT 210 will automatically be generated for any money settlement made by your \nbranch.\n– \nIf you are defining settlement instructions for a customer related to the FT module \nyou have to indicate the charge account, which will be used as the default account \nfor deducting all charges involved in processing the FT. \nWhile processing an FT for the customer the appropriate charge account is picked up \ndepending on the customer, currency and branch processing the FT.\nIn addition, you can maintain the details of the various intermediaries involved in payments \nand receipts. The preferences maintained for an entity determine the manner in which money \nsettlements are made on behalf of the entity. \nCounterparty Name\nThe system displays the name of the specified counterparty based on the details maintained \nat ‘Customer Maintenance’ level.\nModule \nYou can maintain different settlement instructions for different products. If you choose Module \nas ‘ALL,’ then the Product must also be chosen as ‘ALL’. If you choose a specific module for \nmaintaining settlement instructions, then you can choose any Product available under the \nmodule from the option list provided. You can also choose ‘All’ to maintain settlement \ninstructions for all products under the selected module.\nProduct Code\nIndicate a specific product code or choose All from the option list. However, if you have \nchosen All in the Module field, this field will be defaulted to ALL. You will not be allowed to \nchange this."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Currency",
+        "Branch",
+        "Payment By",
+        "Charge Details"
+      ],
+      "summary": "This page describes how to maintain settlement instructions for different currencies and branches, specify payment methods, and define charge details in a financial system.",
+      "raw_text": "2-8\nCurrency\nYou can maintain settlement instructions for a particular  currency or for all the currencies  \nFrom the option list select the particular currency code or choose the *.* option.\nBranch\nYou can maintain settlement instructions for all the branches or for a particular branch. From \nthe option list select the particular branch code or choose the ALL option. \nPayment By\nIndicate the method of payment for both Outgoing as well as Incoming Payments, for a \nBranch, Account and Currency combination. The following options are available:\nInstrument (settlement is done through a Check, MCK etc.)\nMessage (payment is made by means of a SWIFT Message)\nClearing (the transaction is a local payment transaction and the settlement is routed \nthrough the Clearing House of the bank)\nNote\nYou can indicate the payment method as ‘Clearing’ only,\n– \nIf the payment currency is the local currency of the branch\n– \nIf it is one of the clearing currencies defined for the branch \n– \nIf you have selected ‘*.*’ in the currency field\nNo payment message will be generated for settlements routed through a Clearing House.\nNote\nYou can select ‘Payment By’ as ‘Instrument’, to ensure the payment by Instrument in SI \nsettlements screen and then the system would look for the instrument type.\nCharge Details\nSpecify whether charges for the message are to be borne by the bank (ourselves) or the \nbeneficiary, or will be shared. This information is inserted in Field 71A of an MT103 message \ninvolving the combination for which settlement instructions are being maintained. You can \nselect one of the following options:\nOurselves – It is displayed as ‘OUR’ in the message and it indicates that all transaction \ncharges are to be borne by the ordering customer.\nBeneficiary – It is displayed as ‘BEN’ in the message and it indicates that all transaction \ncharges are to be borne by the beneficiary customer.\nShared – It is displayed as ‘SHA’ in the message and it indicates that the transaction \ncharges on the Sender’s side are to be borne by the ordering customer and the \ntransaction charges on the Receiver’s side are to be borne by the beneficiary customer.\nCover Required\nThis indicates whether the payment has to be sent with a cover message. Check this box to \nenable this option.\nCover By\nIf you have indicated that a cover is required for payments involving the customer, then, in this \nfield, you can indicate whether the cover is through messaging or through local clearing. \nAccordingly, you can choose the required option in this field."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Pay Parties Tab"
+      ],
+      "summary": "This section explains how to capture details of parties involved in a payment and describes fields related to intermediary reimbursement institutions and intermediaries.",
+      "raw_text": "2-9\nIf you indicate that cover is through messaging, and the payment is through local clearing, you \nneed to maintain the local clearing counterparty details in the Local Clearing tab.\nIf you indicate that cover is through local clearing, you need to maintain the cover details in \nthe Cover Details tab. \n2.4.2 \nPay Parties Tab\nBefore funds actually reach the Ultimate Beneficiary of a payment, it may have to pass \nthrough several other banks or parties. You can capture details of the parties involved in a \npayment in the ‘Pay Parties’ sections of the ‘Settlement Instructions Maintenance’ screen.  \nThese screens contain fields that mark possible routes of a payment.\nIntermediary Reimbursement Institution\nAn ‘Intermediary Reimbursement Institution’ is the financial institution between the Sender’s \nCorrespondent and the Receiver’s Correspondent, through which the reimbursement of the \ntransfer takes place.\nCountry\nSpecify the country of the intermediary reimbursement institution. This adjoining option list \ndisplays all valid country codes maintained in the system. You can choose the appropriate \none.\nIntermediary\nThe ‘Intermediary’ in a payment refers to the financial institution, between the ‘Receiver’ and \nthe ‘Account With Institution’, through which the transfer must pass.\nThe Intermediary may be a branch or affiliate of the Receiver or the account with Institution, \nor an entirely different financial institution. This field corresponds to field 56a of a SWIFT \nmessage. \nYou can either enter the:\nISO Bank Identifier Code of the bank \nThe Name and address of the Bank\nCountry\nSpecify the country of the intermediary institution. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "RTGS Payments",
+        "RTGS Network",
+        "Receiver’s Correspondent"
+      ],
+      "summary": "This page describes how the system checks and updates RTGS (Real-Time Gross Settlement) payments and networks based on specific conditions, as well as details about the receiver's correspondent.",
+      "raw_text": "2-10\nNote\nThe country information is captured to enable Mantas to analyse the transactions for pos-\nsible money laundering activities.\nFor more details on Mantas, refer 'Mantas' interface document.\nRTGS Payments\nIf the settlement chosen is one of the RTGS Nostro that is, RTGS outgoing Nostro account in \ncase of Outgoing customer and Bank transfer and RTGS incoming Nostro in case of outgoing \nDirect Debit transfer then the system will check this check box as per the validations done in \nRTGS Network. You cannot change this value.\nRTGS Network\nIf in a RTGS Network the accounts are maintained as ‘Pay account’ or ‘Receiver Account’ \nwhile saving the settlement instruction, then a set of validations will be performed as \nmentioned below:\nFor Pay message, system will validate whether the intermediary (if intermediary is not \npresent, the Account with Institution (AWI) will be validated and if the AWI is also not present \nthen receiver will be validated) is a RTGS participant.\nFor Pay+ Cover message, system will validate if the receiver correspondent is a RTGS \nnetwork participant.\nIf the above conditions are satisfied, the RTGS Network will be updated and the system will \ncheck RTGS Payments check box.\nReceiver’s Correspondent\nThe ‘Receiver’s Correspondent’ is the branch of the Receiver, or another financial institution, \nat which the funds will be made available to the Receiver."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Receivers Correspondent",
+        "Country",
+        "Sender to Receiver Information"
+      ],
+      "summary": "This page describes fields for entering receiver and sender information in S.W.I.F.T. transactions, including bank details, country codes, and options for specifying sender-to-receiver information.",
+      "raw_text": "2-11\nReceivers Correspondent\nThis field corresponds to field 54a of S.W.I.F.T. Enter the branch of the Receiver or another \nfinancial institution at which the funds will be made available to the Receiver. You can enter \nany one of the following:\nISO Bank Identifier Code of the bank\nThe branch of the Receiver’s Correspondent\nName and address of the Receiver’s Correspondent\nCountry\nSpecify the country of the branch of the receiver / institution. This adjoining option list displays \nall valid country codes maintained in the system. You can choose the appropriate one.\nSender to Receiver Information\nThe sender to receiver information maintained in the settlement instructions can be defaulted \nin the field 72 in the confirmation messages. The adjoining option lists displays the following \nvalues:\n//\n/ACC/ - Account with Institution\n/BNF/ - Beneficiary\n/BUP/ - Backup Payment\n/CHEQUE/ - Pay only by cheque\n/CLSTIME/ - CLS Time\n/INS/ - Instructing Institution\n/INT/ - Intermediary\n/MANPAY/ - Mandated Payment\n/PHON/ - Deal by Phone\n/PHONBEN/ - Contact beneficiary by phone\n/PHONIBK/ - Contact intermediary by phone\n/RCB/ - Receiver’s correspondent\n/REC/ - Receiver\n/REJT/ - /REJT/\n/RETN/ - /RETN/\n/TELE/ - /TELE/\n/TELEBEN/ - /TELEBEN/\n/TELEIBK/ - /TELEIBK/\n/TSU/ - Trade Services Utility transaction\n/BROKER/ - Broker negotiating the contract\n/ ELEC/ - Deal has been arranged via an electronic means\n/TELEX/ - Deal by TELEX\n/TIME/ - Time of transaction execution\n/VENU/ - Venue of transaction execution\nIf you choose, ‘/TSU/’, the code placed between slashes ('/') must be followed by the invoice \nnumber, a slash ('/') and the amount paid.\nAccount With Institution\nAn ‘Account with Institution’ refers to the financial institution, at which the ordering party \nrequests the Beneficiary to be paid. The Account With Institution may be a branch or affiliate"
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Country",
+        "Receiver",
+        "ERI Currency"
+      ],
+      "summary": "This page describes how to specify fields related to financial transactions, including the country of the account institution, the final receiver, and the ERI currency during settlement instructions.",
+      "raw_text": "2-12\nof the Receiver, or of the Intermediary, or of the Beneficiary Institution, or an entirely different \nfinancial institution.\nThis field corresponds to Field 57A of a SWIFT message. You can enter one of the following:\nISO Bank Identifier Code of the bank\nBranch of the Receiver’s Correspondent\nName and address of the Receiver’s Correspondent\nOther identification codes (for example, account number)\nCountry\nSpecify the country of the account with institution. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one\nNote\nThe country information is captured to enable Mantas to analyse the transactions for pos-\nsible money laundering activities.\nFor more details on Mantas, refer 'Mantas' interface document.\nReceiver\nYou can specify the final Receiver as apart from the Account With Institution if the Ultimate \nBeneficiary desires that the payment message should be sent there. If this is not maintained, \nthe Account With Institution becomes the default Receiver. \nYou can also capture the Sender to Receiver Information in this screen.\nFor more details relating to specific parties, please refer to the SWIFT manuals.\nERI Currency\nFor every Counterparty and 'In' Currency (combination) for which you maintain settlement \ninstructions, you can define an Euro Related Information (ERI) Currency. The ERI Currency \ncan be:\n'In' currency\nEuro\nThis is used during the transition period, settlements of components in 'In' currencies can be \nmade either in the same currency or in the Euro (EUR) depending on the settlement \naccount(s) maintained. Similarly, components in Euro can either be settled in EUR or in an \n'In' currency. In the settlement messages that are generated (MT 100, MT202), the settlement \namount would be reported in the Settlement Account Currency. However, you can opt to \nadditionally furnish the value of the component in an ERI currency.\nThe ERI Currency that you specify for a Counterparty and 'In' currency (combination) will \ndefault in the ERI CCY field in the Settlements Message Details screen.\nSettlement Through an Instrument or Message\nWhen the actual settlement event for a contract (involving the entity) takes place, the payment \nand receive message details are updated in a message hand-off table. The Messaging \nsystem picks up the details from this table, and based on the formats set up, generates the \nmessages."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Receive Parties",
+        "Receiver Intermediary",
+        "Beneficiary Institution"
+      ],
+      "summary": "This section explains how to input details of intermediary and beneficiary institutions when receiving incoming payments, including fields for bank codes, names, addresses, and countries.",
+      "raw_text": "2-13\n2.4.3 \nReceive Parties\nDepending on the route funds take when you receive (incoming) payments, you can maintain \nIntermediary and Beneficiary Institutions in the ‘Receive Parties’ section of the ‘Settlements \nInstructions Maintenance’ screen.\nReceiver Intermediary\nThis field corresponds to field 56a of S.W.I.F.T. Specify details of the financial institution \nbetween the ‘Receiver’ and the ‘Account With Institution’, through which the amount must \npass. The Intermediary may be a branch or affiliate of the Receiver or of the Account With \nInstitution, or an entirely different financial institution.\nIn this field you can choose to enter the:\nISO Bank Identifier Code of the bank \nName and address of the Bank\nCountry \nSpecify the country of the receiver’s intermediary. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one.\nBeneficiary Institution\nThis field corresponds to field 58a of S.W.I.F.T. Enter details of the institution in favor of which \nthe payment is made. It is in reality the bank, which services the account of the ultimate \nbeneficiary. You will be allowed to make entries into this field only for Bank transfers (MT 200 \nor MT 202). In this field you can enter either the:\nThe ISO Bank Identifier Code of the Beneficiary Institution \nThe Name and Address of the Beneficiary Institution\nCountry \nSpecify the country of the beneficiary institution. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Capturing Cover Details",
+        "Maintaining Local Clearing Details and Cover Details for Customer Settlement Instructions"
+      ],
+      "summary": "This page explains how to capture cover details and maintain local clearing and cover details in settlement instructions for customer transfers.",
+      "raw_text": "2-14\nNote\n– \nIf you have already maintained this information in the Settlement Instructions \nMaintenance screen, then it will be picked up and reflected here. \n– \nThe country information is captured to enable Mantas to analyse the transactions \nfor possible money laundering activities.\nFor more details on Mantas, refer 'Mantas' interface document.\n2.4.4 \nCapturing Cover Details\nThe Cover details are defaulted from the ‘Contract Online’ screen only for Outgoing Customer \nTransfers with Cover. \nYou can specify the following details:\nCountry \nSpecify the country of the beneficiary institution for cover. This adjoining option list displays \nall valid country codes maintained in the system. You can choose the appropriate one.\n2.4.5 \nMaintaining Local Clearing Details and Cover Details for Customer Set-\ntlement Instructions\nWhen you specify settlement instructions for a customer, you can indicate whether payment \nfor local currency transactions is to be effected via messaging or over the local clearing \nnetwork. You can also indicate whether a cover is required for payment, and whether the \ncover is through messaging or over the local clearing network.\nYou can specify these details in the Settlement Instructions screen. In the Payment By field, \nindicate the mode of payment, either Message or Clear Details; and in the Cover By field, \nindicate the mode through which cover must be available.\nIf you indicate payment over a clearing network, you must specify the account details of the \nexternal counterparties (both pay and receive accounts) in the ‘Clear Details’ tab in the"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Settlement Instructions Maintenance",
+        "External Counterparty Pay Details",
+        "External Counterparty Receive Details"
+      ],
+      "summary": "This page describes the 'Settlement Instructions Maintenance' screen and details on how to specify counterparty bank information for both payment and receipt processes.",
+      "raw_text": "2-15\n‘Settlement Instructions Maintenance’ screen. In case you choose the option ‘Clearing’, then \nthe system calls External Payments Interface to process the payments.  .\nFor the counterparty details, you can specify the bank code, account and account name.\nExternal Counterparty Pay Details\nThe description of the selected bank, where the external counterparty account resides, is \ndisplayed here. \nExternal Counterparty Receive Details\nThe description of the selected bank, where the external counterparty account resides, is \ndisplayed here."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Clearing Network for Local Clearing in Settlement Instructions",
+        "Other Details Tab"
+      ],
+      "summary": "This page explains how to specify account details for cover parties and define default values for fields in MT 103 messages during settlement instruction maintenance.",
+      "raw_text": "2-16\nIf you indicate cover for payment via the local clearing network, you must specify the account \ndetails of the cover party, in the ‘Cover Details’ tab in the ‘Settlement Instructions \nMaintenance’ screen.\nFor the cover party account details, you can specify the bank code, account and account \nname.\nThe following scenarios are possible:\nClearing Network for Local Clearing in Settlement Instructions\nYou can specify a clearing network during settlement instruction maintenance for the Pay Leg \nand the Cover details. This will be defaulted as part of Settlement pick-up during Contract \ninput.\nThe Counter-party name shows the list of Bank Codes for Cover Transfer and Bank Transfer. \nThe system will validate that the Bank Code Type for both the Counter-party name and \nCounter-party Bank Code is the same. For Customer transfers, this would be a user enterable \nfield.\n2.4.6 \nOther Details Tab\nYou can define the default values for fields in MT 103 messages that are generated in respect \nof contracts involving the customer. When a contract is entered for the customer in any \nCover \nRequired\nCover By\nPayment By\nLocal Clearing \nCounterparty Details?\nCover \nDetails?\nYes\nMessage\nMessage\nNo\nNo\nYes\nLocal Clear-\ning\nMessage\nNo\nYes\nNo\nMessage\nNo\nNo\nNo\nLocal Clear-\ning\nYes\nNo"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "You can maintain these details in the ‘Other Details’ tab in the ‘Settlement Instructions Maintenance’ screen.",
+        "Instruction Code Description",
+        "Transaction Type"
+      ],
+      "summary": "This page explains how to set default values for MT 103 generation, including Bank Operation Code, Instruction Code Description, and Transaction Type.",
+      "raw_text": "2-17\nmodule, the values that you maintain here will be defaulted for MT 103 generation in respect \nof the contract.\nYou can maintain these details in the ‘Other Details’ tab in the ‘Settlement Instructions \nMaintenance’ screen.\nYou can maintain the default MT 103 values for the following fields:\nBank Operation Code\nYou can indicate the bank operation code that will be inserted in Field 23B of the MT 103 \nmessage. The options available are SPRI, SSTD, SPAY and CRED.\nNote\nIf the Bank Operation Code contains SPAY, SSTD or SPRI, the following validations will \nbe done:\n– \nC11: If account with institution is used with D option, then party identifier is \nmandatory. (Either Clearing code or account has to be specified in the account line).\n– \nC12: Account is mandatory in field 59\nInstruction Code Description\nYou can specify the additional information, if any, which would be inserted to qualify the \nInstruction Code in Field 23E of the MT103 message. The instruction code description can \nonly be maintained for the instruction codes PHON, PHOB, PHOI, TELE, TELB, TELI, HOLD \nor REPA.\nFor instance, if the Instruction Code is REPA and the description is ‘Repayment’ then the text \n‘REPA/Repayment’ is inserted in Field 23E.\nTransaction Type\nYou can indicate the Transaction Type that will be inserted in Field 26T of the MT103 \nmessage."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Regulatory Reporting Details",
+        "The Sequence in which Settlement Instructions are Resolved",
+        "Processing Settlements"
+      ],
+      "summary": "This page discusses regulatory reporting details and settlement instructions processing sequences in Oracle FLEXCUBE.",
+      "raw_text": "2-18\nRegulatory Reporting Details\nSpecify the Regulatory Reporting Details\nThe entered value will be inserted in Field 77B of the MT103 message. \nCharges Details\nYou can indicate whether charges for the message are to be borne by the bank (ourselves) \nor the beneficiary, or will be shared. You can specify this in the Charges Details section, in the \nmain Settlement Instructions screen.\nThis information is inserted in Field 71A of the MT103 message.\n2.5 \nThe Sequence in which Settlement Instructions are \nResolved\nWhile processing contracts in Oracle FLEXCUBE, the settlement instructions maintained are \nresolved in the following sequence:\n2.6 \nProcessing Settlements\nThis section contains the following topics:\nSection 2.6.1, \"Invoking Settlement Details Screen\"\nSection 2.6.2, \"Account Details Tab\"\nLevel\nCounterparty\nCCY\nModule\nBranch\n1\nCounterparty\nCCY\nMOD\nBranch\n2\nCounterparty\nCCY\nMod\nALL\n3\nCounterparty\nCCY\nALL\nBranch\n4\nCounterparty\nCCY\nALL\nALL\n5\nCounterparty\n*.*\nMOD\nBranch\n6\nCounterparty\n*.*\nMOD\nALL\n7\nCounterparty\n*.*\nALL\nBranch\n8\nCounterparty\n*.*\nALL\nALL\n9\nALL\nCCY\nMOD\nBranch\n10\nALL\nCCY\nMOD\nALL\n11\nALL\nCCY\nALL\nBranch\n12\nALL\nCCY\nALL\nALL\n13\nALL\n*.*\nMOD\nBranch\n14\nALL\n*.*\nMOD\nALL\n15\nALL\n*.*\nALL\nBranch\n16\nALL\n*.*\nALL\nALL"
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page discusses how to invoke and view settlement details for a contract or deal based on maintenance of settlement instructions and provides an example of accounting entries.",
+      "raw_text": "2-19\nSection 2.6.3, \"Payment Details Tab\"\nSection 2.6.4, \"Party Details Tab\"\nSection 2.6.5, \"Other Details Tab\"\nSection 2.6.6, \"Default MT 103 Details\"\nSection 2.6.7, \"Amending Settlement Details\"\nSection 2.6.8, \"Processing Settlements for Track Receivable or Payable Amount Tags\"\n2.6.1 \nInvoking Settlement Details Screen\nThe Settlement details for a contract or deal get defaulted based on the maintenance of \nsettlement instructions for the Customer/BIC code involved in the transaction. \nTo invoke the ‘Settlement Details’ screen, click ‘Settlement’ button in the Contract Main \nscreen of a module.\nBy default the settlement details of all components of a contract which affect a customer type \nof account (the Role Types can be Customer, Remitter, Beneficiary for all the events \nassociated to the product for which the Role-to-Head mapping has not been provided to the \nproduct associated with the contract) are displayed in this screen. \nFor example, \nAs per the maintenance that you have done for a Product the following accounting entries will \nbe posted during the initiation of a contract. \nTo achieve this, in the Role to Head mapping sub-screen of the Product Definition screen you \nwould have mapped the Accounting Role ASSETGL to an actual internal leaf GL of your Chart \nof Accounts. However, you would not have maintained such a mapping for CUSTOMER since \nthis is a role whose value gets defined at the contract level based on the counterparty involved \nin the contract. \nWhile processing a contract you can modify the following information pertaining to \nSettlements:\nAccounting \nRole\nAmount \nTag\nDr/ Cr \nIndicator\nASSETGL\nPRINCIPAL\nDebit\nCUSTOMER\nPRINCIPAL\nCredit"
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Account Details Tab",
+        "Account Details"
+      ],
+      "summary": "This page discusses the account details section in the Settlement Instructions screen and how it defaults to specific accounts during contract processing.",
+      "raw_text": "2-20\nAccount details (details about the accounts involved in the contract or deal; that have to \nbe either debited or credited in your branch)\nMessage details (payment details -- whether settled by an instrument or a messaging \nservice such as SWIFT)\nParty details (details about the various parties/banks involved in the transfer of funds to \nthe Ultimate Beneficiary). \nOther Details, (the default values for fields in MT 103 messages for the contract)\n2.6.2 \nAccount Details Tab\nIn the Settlement Instructions screen you would have maintained the settlement accounts for \nan entity, module, currency and branch combination. \nWhile processing a contract, these details will be defaulted to the Settlement sub-screen of \nthe contract main screen. You have the option of changing any or all of the settlement \naccounts while processing a contract. \n2.6.2.1 \nAccount Details\nThe account details that get defaulted include the following:\nComponent and its Currency\n Payment Account and its Currency\nBranch of your bank to which the account belongs \nNote\n– \nIf settlement instruction is not defined for the customer, than system will always \ndefault the Nostro accounts based on settlement instruction set.\n– \nChange the settlement account branch and settlement account for charge compo-\nnent in case change or waiver at contract level.\nAccount Description\nThe system displays a brief description on account."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Netting Indicator",
+        "Rate Code",
+        "Spread Definition",
+        "Customer Spread",
+        "Original Exchange Rate"
+      ],
+      "summary": "This page describes how to configure various settings for financial transactions, including netting agreements, rate codes, spread definitions, customer spreads, and original exchange rates.",
+      "raw_text": "2-21\nNetting Indicator\nIn addition to maintaining a netting agreement for each counterparty, you have to specify \nwhether or not the contract is under the netting agreement for each contract involving the \ncounterparty. \nCheck this box to indicate that you would like to enable the Netting option for the various \ncomponents (Amount Tags) involved in the transaction. These components could be \ncommission, interest, tax, charges etc. \nRate Code\nSpecify rate code by selecting appropriate rate code frx‘om selection list. Following values are \navailable:\nBuy\nSell\nMid\nNote\nIn case of charges, if charge currency and settlement currency are different, system ap-\nplies mid rate. \nSpread Definition\nSelect the spread definition from the adjoining drop-down list. The options available are:\nPoint\nPercentage\nCustomer Spread\nThis defaults from your specification of tenor-wise spread for the relevant Currency Pair in the \nCustomer Spread Maintenance screen. You can change this for a specific contract.\nOriginal Exchange Rate\nIf the component currency is different from the account currency, the system requires an \nexchange rate for the conversion. The components of the final exchange rate used for \nconversion are:\nThe Base Rate – this is defaulted from the exchange rate that you have maintained for \nthe currency pair involved. It is computed as Mid Rate +/- Spread (depending on \nwhether it is the Buy Spread or the Sell Spread).\nThe Customer Spread - the spread that you have maintained for the specified \nCounterparty, Currency Pair and Tenor combination in the Customer Spread \nMaintenance screen is picked up and applied for the customer involved in the deal. \nThe final exchange rate = Base Rate +/- Customer Spread (depending on whether it is a Buy \nor a Sell deal). \nNote\nIf Customer Spread details for a specific counterparty (for the currency pair) are unavaila-\nble, the System looks for the customer spread maintained for the wildcard ALL entry. If \neven that is not available, then the Customer Spread defaults to zero.\nThe method of spread definition, whether percentage or points is also displayed."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Exchange Rate",
+        "Negotiated Cost Rate",
+        "Negotiation Reference",
+        "Generate Message",
+        "IBAN Account Number",
+        "Euro Currency and Euro Amount"
+      ],
+      "summary": "This page explains various fields and options related to contract saving, exchange rates, negotiation references, message generation, and account details in a system.",
+      "raw_text": "2-22\nNote\nIf you have specified an account that uses an account class that is restricted for the prod-\nuct, an override is sought when you attempt to save the contract.\nExchange Rate\nFor transactions involving any relationship pricing benefit scheme, the customer specific \nexchange rate derived by adding the original exchange rate and the customer spread \nmaintained for the relationship pricing scheme, gets displayed here.\nIf Relationship Pricing is not applicable, Exchange Rate will be the same as the Original \nExchange Rate.\nFor more details on customer specific exchange rates, refer the section titled ‘Specifying \nPricing Benefit Details’ in Relationship Pricing user manual.\nNegotiated Cost Rate\nThe system defaults the negotiated cost rate.\nNegotiation Reference\nThe system displays the negotiation reference here.\nGenerate Message \nEnable this option if a payment messages has to be generated for the settlement instruction.\nIBAN Account Number\nThe system displays the IBAN Account Number.Euro Currency and Euro Amount\nSWIFT messages (MT103/MT202) generated towards settlement can furnish the value of the \nsettlement amount in both the settlement account currency, and a Euro Related Information \n(ERI) currency of your choice. If you opt to furnish the ERI value of the amount, you have to \nenter the following in this screen:\nThe ERI currency \nThe ERI Amount\nThe system defaults to the ERI currency specified for the customer and currency combination. \nYou can change the default ERI currency. The ERI amount that you specify will be validated \nagainst the Tolerance Limit specified for the ERI currency (in the Currency Maintenance \nscreen).\nCross-currency Settlements of FX deals\nOracle FLEXCUBE allows cross currency settlements of foreign exchange deals that involve \nan ‘In’ currency. You can settle the ‘In’ currency leg in another ‘In’ currency or in ‘Euro’. \nFor example,\nAssume you enter into the following foreign exchange deal. You sell 100,000 FRF against \nUSD. \nThe scenario:\n– \nYou specify the exchange rate: 1 USD = 5.2 FRF\n– \nThe bought amount is therefore: 19230.769 USD\n– \nThe settlement account is in EUR\n– \nThe exchange rate between EUR/FRF: 1 EUR = 6.475 FRF"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Suppressing Settlement Messages",
+        "Payment Details Tab"
+      ],
+      "summary": "This page discusses how to suppress settlement messages and specifies payment details including methods such as instrument, message, or clearing.",
+      "raw_text": "2-23\nSince FRF is an ‘In’ currency, you can settle the sell leg of the deal through EUR (in this \nexample). The settlement amount would be EUR 15444.015.\nSuppressing Settlement Messages\nSettlement messages, defined for components that fall due, will be generated automatically \nwhen the settlement actually happens for the respective component. You can suppress the \ngeneration of the settlement message, defined for a component, by clearing the check box in \nthe ‘Gen Message’ field.\nNote\nIf a component is to be paid the credit account chosen becomes the pay account. Similarly, \nif a component is to be received the debit account chosen becomes the receive account \nin the settlement maintenance. \n2.6.3 \nPayment Details Tab\nThe details of the payment have to be specified in the ‘Payment Details’ screen..\nPayment By\nPayment By\nIndicate the method of payment for both Outgoing as well as Incoming Payments, for a \nBranch, Account and Currency combination. The following options are available:\nInstrument (settlement is done through a Check, MCK etc.)\nMessage (payment is made by means of a SWIFT Message)\nClearing (the transaction is a local payment transaction and the settlement is routed \nthrough the Clearing House of the bank)\nNote\nYou can indicate the payment method as ‘Clearing’ only,\n– \nIf the payment currency is the local currency of the branch \n– \nIf it is one of the clearing currencies defined for the branch\n– \nIf you have selected ‘*.*’ in the currency field"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Details of Charge",
+        "Details of Payment",
+        "Banking Priority"
+      ],
+      "summary": "This page explains how to specify charge bearers and payment details in a transaction, including the corresponding SWIFT codes, and allows setting the priority of payment messages.",
+      "raw_text": "2-24\nNo payment message will be generated for settlements routed through a Clearing House.\nDepending on the method in which you want to settle the contract, you should specify either \nInstrument or Message details.\nDetails of Charge\nDetails of Charge\nIn this section you can maintain details of the party who will bear the charges incurred in \nprocessing the transaction. It could be either:\nRemitter – All Charges\nBeneficiary – All Charges\nRemitter – Our Charges\nNote\nIn FT Module, ‘Details of Charges’ is selected on the basis of value selected in ‘Charge \nBearer’ field in the ‘Other Details’ tab. \nNote\n– \nRemitter – All Charges - Corresponds to ‘OURS’ in Field 71 A of SWIFT MT 103 / \n103+.\n– \nBeneficiary – All Charges - Corresponds to ‘BEN’ in Field 71 A of SWIFT MT 103 / \n103+.\n– \nRemitter – Our Charges - Corresponds to ‘SHA’ in Field 71 A of SWIFT MT 103 / \n103+.\nDetails of Payment\nHere you can specify information, from the Ordering Party to the Beneficiary Customer, about \nthe reason for the payment.\nThis field can contain reference numbers, invoice numbers or any other details, which will \nenable the Beneficiary to identify the transaction. This information is to be passed through the \npayment chain to the Beneficiary.\nThis field corresponds to field 70 of S.W.I.F.T. Refer to the S.W.I.F.T. manual for details on \nthe code words and the format of the message you can input.\nBanking Priority\nSelect the priority of the payment messages from the drop down list. The options available \nare:\nHighly Urgent\nUrgent \nNormal \nThe default value is Normal."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Sender to Receiver Information",
+        "Instrument Details",
+        "Cover Details",
+        "RTGS Details"
+      ],
+      "summary": "This page describes fields and details related to sender-to-receiver information, instrument types for settlement, cover requirements, and RTGS payments in a financial transaction context.",
+      "raw_text": "2-25\nSender to Receiver Information\nInformation 1,2,3,4,5 and 6\nThis could be instructions or additional information for the Receiver, Intermediary, Account \nWith Institution or Beneficiary Institution.\nThis field corresponds to field 72 of the S.W.I.F.T. message. The format of the message \ndepends on the type of S.W.I.F.T. message that is generated. Refer to the S.W.I.F.T. manual \nfor details on the format of the message and the code words to be used. \nClearing Network \nCover details for local clearing will capture Clearing Network. This clearing network will be \ndefaulted during Contract Input and be used subsequently during further payments \nprocessing through external payment system.\nInstrument Details\nIf you opt to settle a contract with an instrument, you should specify the type of instrument that \nyou would use. For example, you could settle a contract using a Manager’s Check, a Check \nor a Demand Draft. You should also specify the number that identifies the instrument. This \nnumber will be printed on the instrument.\nIf the settlement is through an instrument, you cannot specify party details.\nNote\nSettlement through instruments is a feature applicable only for the Funds Transfer module \nof Oracle FLEXCUBE.\nCover Details\nCover By\nSelect the cover by as Message or Clearing.\nCover Required\nCheck this box if cover is required.\nRTGS Details\nRTGS Payments\nIf the settlement chosen is one of the RTGS Nostro that is, RTGS outgoing Nostro account in \ncase of Outgoing customer and Bank transfer and RTGS incoming Nostro in case of outgoing \nDirect Debit transfer then the system will check this check box as per the validations done in \nRTGS Network. The user cannot change this value.\nRTGS Network\nIf in a RTGS Network the accounts are maintained as ‘Pay account’ or ‘Receiver Account’ \nduring the save of settlement instruction, then a set of validations will be performed as \nmentioned below:\nFor Pay message, it will validate the intermediary (if intermediary is not present, the Account \nwith Institution (AWI) will be validated and if the AWI is also not present then receiver will be \nvalidated) is a RTGS participant.\nFor Pay+ Cover message, it will validate that a receiver correspondent is a RTGS network \nparticipant."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Party Details Tab",
+        "Parties",
+        "Intermediary Reimbursement Institution",
+        "Country",
+        "Intermediary"
+      ],
+      "summary": "This page explains how to capture details of parties involved in a contract and the intermediary reimbursement institution, including fields for country and intermediary information.",
+      "raw_text": "2-26\nIf the above conditions are satisfied, the RTGS Network will be updated and the system will \ncheck RTGS Payments check box.\n2.6.4 \nParty Details Tab\nWhen you settle a contract, funds may have to pass through a series of banks before it \nactually reaches the Ultimate Beneficiary. In the Parties screen, you can capture details of all \nparties involved in a contract.\n2.6.4.1 \nParties\nThese screens contain fields that can capture details of all the possible parties through whom \nthe funds involved in a contract can pass. Depending on the type of contract you are \nprocessing, and the number of banks involved, you should enter details in these screens.\nIntermediary Reimbursement Institution\nAn Intermediary Reimbursement Institution is the financial institution between the Sender’s \nCorrespondent and the Receiver’s Correspondent, through which the reimbursement of the \nfunds will take place.\nCountry \nSpecify the country of the intermediary reimbursement institution. This adjoining option list \ndisplays all valid country codes maintained in the system. You can choose the appropriate \none.\nIntermediary\nThe Intermediary in a contract refers to the financial institution, between the Receiver and the \n‘Account with Institution’, through which the funds must pass.\nThe Intermediary may be a branch or affiliate of the Receiver or the ‘Account With Institution’, \nor an entirely different financial institution. This field corresponds to field 56a of SWIFT \nHere you can enter either the:\nISO Bank Identifier Code of the bank\nName and address of the Bank"
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Country",
+        "Receiver’s Correspondent",
+        "Country",
+        "Account with Institution"
+      ],
+      "summary": "This page describes fields for specifying a country and details related to intermediary institutions, receivers' correspondents, and accounts in financial transactions, corresponding to specific SWIFT field codes.",
+      "raw_text": "2-27\nCountry \nSpecify the country of the intermediary institution. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one.\nReceiver’s Correspondent\nThe Receiver’s Correspondent is the branch of the Receiver or another financial institution at \nwhich the funds will be made available to the Receiver. This field corresponds to field 54a of \nSWIFT. You can enter one of the following:\nISO Bank Identifier Code of the bank\nThe branch of the Receiver’s Correspondent\nName and address of the Receiver’s Correspondent\nCountry \nSpecify the country of the receiver’s correspondent. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one.\nAccount with Institution\nAn Account with Institution refers to the financial institution, at which the ordering party \nrequests the Beneficiary to be paid. The ‘Account with Institution’ may be a branch or affiliate \nof the Receiver, or of the Intermediary, or of the Beneficiary Institution, or an entirely different \nfinancial institution. This field corresponds to field 57a of SWIFT. You can enter one of the \nfollowing:\nISO Bank Identifier Code of the bank\nThe branch of the Receiver’s Correspondent\nName and address of the Receiver’s Correspondent\nOther identification codes (for example, account number)\nIf no selection is made for Account with Institution, all beneficiaries will appear for selection in \nthe option list for Ultimate Beneficiaries in the Parties tab 2 screens. If a particular Ultimate \nBeneficiary is selected in Parties tab 2, then the Account with Institution for the selected \nultimate beneficiary will appear by default in the AWI field in the Parties tab 1 screen.\nCountry \nSpecify the country of the account with institution. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one.\nNote\nThe country information is captured to enable Mantas to analyse the transactions for pos-\nsible money laundering activities.\nFor more details on Mantas, refer 'Mantas' interface document.\nReceiver of Cover\nSpecify the details of the Receiver of the cover message, which can be any one of the \nfollowing: \nISO Bank Identifier Code of the bank\nBranch of the Receiver\nName and address of the Receiver"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Parties",
+        "Ordering Institution",
+        "Ordering Customer",
+        "Beneficiary Institution"
+      ],
+      "summary": "This page describes fields for entering details of financial institutions and customers involved in a transaction, including their identification codes, names, addresses, and country codes.",
+      "raw_text": "2-28\nOther identification codes (for example, account number)\n2.6.4.2 \nParties\nOrdering Institution\nThe Ordering Institution is the financial Institution, which is acting on behalf of itself, or a \ncustomer, to initiate the transaction. This field corresponds to 52a of SWIFT. In this field, you \ncan enter one of the following:\nThe ISO Bank Identifier Code of the Ordering Institution\nThe branch or city of the Ordering Institution\nThe Name and address of the Bank\nCountry \nSpecify the country of the ordering institution. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one.\nOrdering Customer\nThe Ordering Customer refers to the customer ordering the transfer. Here, you can enter the \nname and address or the account number of the Customer, ordering the transaction. This field \ncorresponds to field 50 of SWIFT. You will be allowed to enter details in this field only if you \nhave initiated a customer transfer (MT 103 and MT 102). In case of an MT 910, a credit \nconfirmation message, the first line should contain number ‘1’ in option F of field 50.\nCountry \nSpecify the country of the ordering customer. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one.\nBeneficiary Institution\nHere, you can enter details of the institution in favor of which the payment is made. It is in \nreality the bank, which services the account of the Ultimate Beneficiary. This is applicable only \nin the case of bank transfers and not for customer transfers. This field corresponds to field \n58a of SWIFT \nYou will be allowed to make entries into this field only for Bank Transfers (when the remitter \nand beneficiary of the transfer are financial institutions –MT 202). Here you can enter either:\nThe ISO Bank Identifier Code of the Beneficiary Institution\nThe Name and Address of the Beneficiary Institution"
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Country",
+        "Ultimate Beneficiary",
+        "Country",
+        "Note"
+      ],
+      "summary": "This page explains how to specify the country of a beneficiary institution and ultimate beneficiary in a transaction, including relevant fields and options available.",
+      "raw_text": "2-29\nCountry \nSpecify the country of the beneficiary institution. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one.\nUltimate Beneficiary\nThe Ultimate Beneficiary refers to the Customer to whom the amount of the component is to \nbe paid. This field refers to field 59 (is this now 59A) of SWIFT. You can make entries into this \nfield only for a customer transfer (MT 103 or MT 100). This would not be applicable for Bank \nTransfers, only for Customer Transfers. \nYou can also select an ultimate beneficiary account from the option list provided. Upon \nselection of the account, the Account with Institution of the selected ultimate beneficiary will \nappear by default in the AWI field in the Parties 1 tab. If no selection is made for AWI in the \nParties tab 1 screen, then all accounts of ultimate beneficiaries existing in the system will be \nappear for selection. \nCountry \nSpecify the country of the ultimate beneficiary. This adjoining option list displays all valid \ncountry codes maintained in the system. You can choose the appropriate one.\nNote\nThe country information is captured to enable Mantas to analyse the transactions for pos-\nsible money laundering activities.\nFor more details on Mantas, refer 'Mantas' interface document.\nWhen the SWIFT message is captured in the ‘Settlement Message Details – Parties’ screen, \nthe system will display the parties involved in the transaction based on the values that come \nin the fields 52, 54, 55, 56, 57 58 etc. However, you can change the parties by choosing the \nappropriate value from the respective option lists. In case of the messages MT 103, MT202 \nand MT210, the option lists will display only those BICs for which the option ‘BEI Indicator’ is \nunchecked in the ‘BIC Code Maintenance’ screen. However you can manually enter a BIC for \nwhich the option ‘BEI Indicator’ is checked. During message generation, the system will \nreplace the BIC with the corresponding name and address of the party.\nThe number of banks/intermediaries involved in the transfer would, in practice depend on the:\nRelationships and arrangements between the sending and receiving banks\nCustomer instructions\nLocation of parties\nThe banking regulations of a country\nNote\nDuring the life-cycle of a contract you will be allowed to amend the details of a Settlement \nInstruction only for those components which are yet to be settled. \nBeneficiary Institution for Cover\nThis field corresponds to field 58a of S.W.I.F.T. Enter details of the institution in favor of which \nthe payment is made. It is in reality the bank, which services the account of the ultimate \nbeneficiary.\nYou will be allowed to make entries into this field only for Bank transfers (MT 200 or MT 202). \nIn this field you can enter either the:"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "The ISO Bank Identifier Code of the Beneficiary Institution",
+        "The Name and Address of the Beneficiary Institution",
+        "Country",
+        "External Counterparty Details",
+        "Clearing Network",
+        "Local Clearing Details",
+        "Message Details"
+      ],
+      "summary": "This page details the input fields for beneficiary institution information, counterparty bank and account selection, clearing network settings, and local clearing details in a payment processing system.",
+      "raw_text": "2-30\nThe ISO Bank Identifier Code of the Beneficiary Institution \nThe Name and Address of the Beneficiary Institution\nCountry \nSpecify the country of the beneficiary institution for cover. This adjoining option list displays \nall valid country codes maintained in the system. You can choose the appropriate one.\nThe country information is captured to enable Mantas to analyse the transactions for possible \nmoney laundering activities.\nExternal Counterparty Details\nSelect the Counterparty Bank from the option list provided. All the Counterparty Accounts \npertaining to this Bank will appear for selection. On selecting the Counterparty Account, the \nsystem will default the Counterparty Name as maintained for that account. If at the time of \nselecting Counterparty Account, Counterparty Bank is Null, then the Counterparty Bank will \nalso appear by default.\nFor processing direct debits you will also need to capture the Agreement ID of the \ncounterparty in order to facilitate a cross-referencing between the Payment and the Direct \nDebit instruction when a reversal of payment is carried out due to rejection of the outbound \nDD. \nClearing Network\nDuring Contract Input, Clearing Network in settlement screen will be defaulted with 'Clearing \nNetwork' maintained in local clearing section in settlement instruction.\n2.6.4.3 \nLocal Clearing Details\nYou can maintain the local clearing details here.\nMessage Details\nUltimate Bank Code\nSelect the ultimate bank code from the adjoining option list.\nSender Receiver Participant\nSpecify the sender receiver participant.\nAdditional Identifier\nSpecify the additional identifier."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Payment Code",
+        "Additional Information",
+        "ZUS Transaction",
+        "Nip Payer",
+        "Payer Identifier",
+        "Declaration",
+        "Supplement Id",
+        "Payment Type",
+        "No of Declaration",
+        "FFT",
+        "Repair Reason",
+        "Receiver Information",
+        "Receiver Name",
+        "Address 1,2 and 3",
+        "Sender Receiver Information",
+        "Information 1, 2, 3, 4, 5 and 6",
+        "Additional Information"
+      ],
+      "summary": "This page details the specific fields and information required for SORBNET transactions, including payment codes, identifiers, declarations, addresses, and reasons.",
+      "raw_text": "2-31\nSORBNET Specific Details\nPayment Code\nSpecify the payment code.\nAdditional Information\nSpecify additional information, if any.\nZUS Transaction\nNip Payer\nSpecify the nip payer.\nPayer Identifier\nSpecify the payer identifier.\nDeclaration\nSpecify the declaration.\nSupplement Id\nSelect the supplement Id from the adjoining drop-down list.\nPayment Type\nSelect the payment type from the adjoining drop-down list.\nNo of Declaration\nSpecify the number of declaration.\nFFT\nFree text 1, 2 and 3\nSpecify free text, if any.\nRepair Reason\nReason 1, 2, 3 and 4\nSpecify the reason for repair.\nReceiver Information\nReceiver Name\nSpecify the receiver name.\nAddress 1,2 and 3\nSpecify the address here.\nSender Receiver Information\nInformation 1, 2, 3, 4, 5 and 6\nSpecify the sender receiver information here.\nAdditional Information\nInformation 1, 2, 3 and 4\nSpecify additional information, if any."
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Other Details Tab",
+        "Regulatory Reporting Details",
+        "Bank Operation Code",
+        "Time Indicators",
+        "Transaction Code",
+        "Instruction Code Details"
+      ],
+      "summary": "This page details various fields and codes that can be maintained or specified in a transaction, including bank operation codes, instruction codes, and regulatory reporting details for an MT103 message.",
+      "raw_text": "2-32\n2.6.5 \nOther Details Tab\nYou can maintain the other details here.\nRegulatory Reporting Details\nBank Operation Code\nYou can indicate the bank operation code that will be inserted in Field 23B of the MT 103 \nmessage. The options available are SPRI, SSTD, SPAY and CRED.\nTime Indicators\nTransaction Code\nThis is the code for the transaction type. This field corresponds to field 26T of the MT103 \nmessage.\nInstruction Code Details\nInstruction Code 1, 2, 3, 4 and 5\nYou can indicate the Instruction code that will be inserted in Field 23E of the MT103 message. \nYou can specify a maximum of six instructions codes here. However, you cannot repeat any \ncode that has already been specified. The options available are: \nCHBQ \nTELE\nPHON\nPHOI\nREPA\nINTC\nTELI\nSDVA\nPHOB\nTELB\nHOLD \nCORT"
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Instruction Code Description",
+        "Regulatory Reporting Details",
+        "Time Indicators",
+        "Default MT 103 Details"
+      ],
+      "summary": "This page describes how to specify additional information for instruction codes in an MT103 message, details on regulatory reporting, time indicators for payment processing, and default values for fields in MT103 messages.",
+      "raw_text": "2-33\nInstruction Code Description\nYou can specify the additional information, if any, which would be inserted to qualify multiple \nInstruction Codes in Field 23E of the MT103 message. The instruction code description can \nonly be maintained for the following instruction codes\nPHON\nPHOB\nPHOI\nTELE\nTELB\nTELI\nHOLD \nREPA\nFor instance, if the Instruction Code is REPA and the description is ‘Repayment’ then the text \n‘REPA/Repayment’ is inserted in Field 23E.\nRegulatory Reporting Details\nSpecify the Regulatory Reporting Details. The entered value will be inserted in Field 77B of \nthe MT103 message. \nTime Indicators\nTime Indication, specifies one or several time indication(s) related to the processing of the \npayment instruction. Select the time indication code from the following values available in the \noption list:\n/CLSTIME/ - Time by which funding payment must be credited, with confirmation, to the \nCLS Bank's account at the central bank, expressed in CET. \n/RNCTIME/ - Time at which a TARGET payment has been credited at the receiving \ncentral bank, expressed in CET\n/SNDTIME/ - Time at which a TARGET payment has been debited at the sending \ncentral bank, expressed in CET\n2.6.6 \nDefault MT 103 Details\nIn the Settlement Instructions screen you would have maintained the default values for fields \nin MT 103 messages that are generated in respect of contracts involving an entity, module, \ncurrency and branch combination."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Amending Settlement Details",
+        "Processing Settlements for Track Receivable or Payable Amount Tags"
+      ],
+      "summary": "This page explains how to amend settlement details in a contract and process settlements related to tracking receivables or payables.",
+      "raw_text": "2-34\nWhen a contract is entered for the customer in any module, the values that you maintain here \nwill be defaulted for MT 103 generation in respect of the contract, and you can view them in \nthe Settlement sub-screen of the contract main screen.\n2.6.7 \nAmending Settlement Details\nWhile amending a contract, you can modify the settlement information on the following tabs:\nMessage Details \nParties \nCover Parties \nClearing Details\nSave the contract once you have made the required changes. The system validates the \nmodified information as in case of a new settlements operation.\n2.6.8 \nProcessing Settlements for Track Receivable or Payable Amount Tags\nWhile processing a settlement, the system validates marking of an Amount Tag to Track \nReceivable or Track Payable Process. \nIf Amount Tag is marked to ‘Track Receivable’ or ‘Track Payable’ and ‘Eligible for AR-AP \nTracking’ check box is checked for the CIF linked to the Settlement Account, then the system \nreplaces the Settlement Account with the ‘GL for ARAP’ or ‘Payable GL for ARAP’, \nrespectively. The GL is defaulted based on the derivation logic maintained at ‘ARAP Code \nmaintenance’. \nIf the Customer is not marked for AR-AP Tracking at the Customer Level, then the system \nvalidates for the mapping of the selected GL to the Product & Component combination. If it is \nnot mapped, then the system displays an override message.\nIf an ICCF Amount Tag is marked for ‘Track Receivable’ or ‘Track Payable’ and the Settlement \nAccount is a GL then a record would be created in LQ Module. The AR/AP Code and GL are \ndefaulted based on the details maintained at AR-AP Code Maintenance level."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Generation of Statement Request",
+        "Generating MT920/camt.060 Message"
+      ],
+      "summary": "This page describes the process for updating records in the LQ module and details how to generate SWIFT messages for transaction requests using Oracle FLEXCUBE.",
+      "raw_text": "2-35\nThe MIS Information of the contract is defaulted as MIS Information of the record created in \nLQ Module.\nThe following steps are involved for updating the records in LQ module, for LC, BC, FT, PC \nand CL contracts:\nWhen a contract is saved, a record will be posted in LQ module with an ‘Unauthorized’ \nstatus and ‘Outstanding’ collection status. \nSystem authorizes the LQ record automatically after a contract is authorized. \nIf a contract is deleted, then system deletes the corresponding LQ outstanding.\nIf a contract is reversed, then the system reverses the corresponding LQ outstanding \nrecord.\nIf the contract is ‘Unauthorized’, then the system does not allow liquidation of LQ record.\n2.7 \nGeneration of Statement Request\nThis section contains the following topics:\nSection 2.7.1, \"Generating MT920/camt.060 Message\"\nSection 2.7.2, \"Viewing Statement Request Summary\"\nSection 2.7.3, \"Processing of Incoming 920\"\n2.7.1 \nGenerating MT920/camt.060 Message\nOracle FLEXCUBE allows you to generate SWIFT Messages for transactions. MT920/\ncamt.060 is a transaction message requesting latest information available for the particular \naccount. The request will be to transmit account customer statement message (MT940) or \nBalance report (MT941) or Interim statement (MT942) or a customer summary statement \n(MT950) or a Bank to customer Account Report(camt.052) or a Bank to customer \nstatement(camt.053).\nYou need to generate the MT920/camt.060 message. You can do this in the ‘Statement \nRequest’ screen. To invoke this screen, type ‘MSDGT920’ in the field at the top right corner \nof the application toolbar and click the adjoining arrow button.\nSpecify the following details:"
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Receiver",
+        "Reference No.",
+        "Details",
+        "Customer No",
+        "Account No.",
+        "Message",
+        "Currency",
+        "Dr/(Dr and Cr) Floor Limit",
+        "Cr Floor Limit"
+      ],
+      "summary": "This page explains how to set up a statement request in the 'Statement Request' screen, including selecting the receiver, generating a reference number, providing customer details, and specifying various message-related parameters.",
+      "raw_text": "2-36\nReceiver\nIn the ‘Statement Request’ screen, you can select the receiver of the message. The system \nshows only those receivers whose details you have maintained in the customer maintenance \nwith Statement Request as Y. \nReference No.\nAfter providing the receiver details, click ‘P’ button. Based on this the system generates the \nnew reference number\nDetails\nUnder Details in the ‘Statement Request’ screen, provide the following details about the \nchosen receiver:\nCustomer No\nUnder Details, select the required ‘Customer No’ from the options listed. In the list you can \nfind only those customer numbers maintained for the receiver in customer BIC maintenance \nwith Statement Request flag as Y.\nAccount No.\nSelect the relevant account number of the customer from the available options. In the list, you \nwill find only those Account numbers maintained for the receiver (BIC) and the Account in \ncustomer BIC maintenance.\nMessage\nSelect the message requested by the customer here.\nCurrency\nIndicate the preferred currency of the customer.\nDr/(Dr and Cr) Floor Limit\nSpecify the debit floor limit of the customer. If the credit floor limit is not separately specified, \nthis will indicate both the debit and the credit floor limits. \nThe system will pick the debit/credit transactions above this limit for customer account \nstatement report.\nThis is mandatory for MT942 message type.\nCr Floor Limit\nSpecify the credit floor limit of the customer. The system will pick the credit transactions above \nthis limit for customer account statement report.\nIf you specify the credit floor limit, you must also specify the debit floor limit. However, if you \ndo not specify the credit floor limit, the system will consider the limit specified in the field ‘Dr/\n(Dr and Cr) Floor Limit’ for both credit and debit floor limits. \nOn save and authorization of the Maintenance, system generates the outgoing SWIFT \nmessage namely MT920/camt.060. \nIf you click ‘Message’ button, the system will display the outgoing MT920/camt.060 message \nseparately."
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Viewing Statement Request Summary",
+        "Processing of Incoming 920"
+      ],
+      "summary": "This page explains how to view a summary of an account statement using the 'Statement Request Summary' screen and describes the processing of incoming MT920 messages by the system, which generates corresponding outgoing SWIFT Messages.",
+      "raw_text": "2-37\n2.7.2 \nViewing Statement Request Summary\nYou can view a summary of an account statement using ‘Statement Request Summary’ \nscreen. To invoke the screen, type ‘MSSGT920’ in the field at the top right corner of the \napplication tool bar and click the adjoining arrow button.\nYou can search for the records based on one or more of the following parameters:\nAuthorization Status\nRecord Status\nReceiver\nTransaction Reference\nOnce you have specified the search criteria, click ‘Search’ button. The system displays the \nabove details of account statement that match the search criteria.\n2.7.3 \nProcessing of Incoming 920\nWhen the incoming message is MT920 and the requested message is 940 (customer account \nstatement) message, the system sends back the SWIFT Message, MT940 with response.\nWhen the incoming message is MT920 and the requested message is MT941, the system \nsends back the SWIFT Message, MT941 with response.\nWhen the incoming message is MT920 and the requested message is MT942, the system \nsends back the SWIFT Message, MT942 with response.\nWhen the incoming message is MT920 and the requested message is MT942, the system \nsends back the SWIFT Message, MT950 with response.\nThus, the system, which uploads an MT920 message, is also able to generate an outgoing \nMT940, MT941, or MT942 Swift Messages."
+    },
+    {
+      "page_number": 43,
+      "sections": [],
+      "summary": "This page contains a function ID glossary with various entries and their corresponding page numbers.",
+      "raw_text": "3-1\n3. Function ID Glossary\nI\nISDIBEXC .........................2-3\nISDINSTN .........................2-6\nISDSRCMD .......................2-4\nISSIBEXC ......................... 2-2\nM\nMSDGT920 ..................... 2-35"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "source": "FlexCube/FCUBS/Reference Documents/Bulletin Board User Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 9,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page discusses bulletin board management and function ID terminology.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Bulletin Board",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes the bulletin board system used by a bank to post various types of messages and details how admin users maintain these messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Bulletin Messages",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes the bulletin board system used by a bank to post various types of messages and details how admin users maintain these messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1.1",
+      "title": "1.1.1 Maintaining Bulletin Messages",
+      "start_page": 4,
+      "end_page": 6,
+      "summary": "This page describes the bulletin board system used by a bank to post various types of messages and details how admin users maintain these messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1.2",
+      "title": "1.1.2 Mapping Bulletin Messages to User Roles",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page describes how to set message statuses and map bulletin messages to user roles in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1.3",
+      "title": "1.1.3 Viewing Bulletin Message Summary",
+      "start_page": 7,
+      "end_page": 9,
+      "summary": "This page describes how to specify user roles for bulletin messages, view and activate them, clear expired messages, and maintain a summary of bulletin messages in the Oracle FLEXCUBE system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Function ID Glossary",
+      "start_page": 9,
+      "end_page": 11,
+      "summary": "This page appears to list function IDs and their corresponding glossary entries without any section titles.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking Bulletin Board, version 14.7.0.0.0, released in November 2022.",
+      "raw_text": "Bulletin Board User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited.",
+      "raw_text": "Bulletin Board User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs \ninstalled on the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” \npursuant to the applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, \nduplication, disclosure, modification, and adaptation of the programs, including any operating system, integrated software, any \nprograms installed on the hardware, and/or documentation, shall be subject to license terms and license restrictions applicable \nto the programs. No other rights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed \nor intended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If \nyou use this software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, \nbackup, redundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for \nany damages caused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure \nand are protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you \nmay not use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any \npart, in any form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by \nlaw for interoperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from \nthird parties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with \nrespect to third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, \ncosts, or damages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Bulletin Board",
+        "Function ID Glossary"
+      ],
+      "summary": "This page discusses bulletin board management and function ID terminology.",
+      "raw_text": "Contents\n1. \nBulletin Board .......................................................................................... 1-1\n1.1 \nBulletin Messages ...................................................................................................  1-1\n1.1.1  \nMaintaining Bulletin Messages...................................................................  1-1\n1.1.2  \nMapping Bulletin Messages to User Roles.................................................  1-3\n1.1.3  \nViewing Bulletin Message Summary ..........................................................  1-4\n2. \nFunction ID Glossary ............................................................................... 2-6"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Bulletin Board",
+        "Bulletin Messages",
+        "Maintaining Bulletin Messages"
+      ],
+      "summary": "This page describes the bulletin board system used by a bank to post various types of messages and details how admin users maintain these messages.",
+      "raw_text": "1-1\n1. Bulletin Board\nA bulletin board posts all the messages pertaining to the business between the bank and its \ncustomers. A bulletin board posts the messages related to the following information:\nPublic news and messages\nProduct information like latest interest rates changes, new product offers, limited period \noffers and so on\nBank policies and notices\nSystem Messages like system downtime information, network failures and more\nAny adhoc/unplanned messages to the application users\n1.1 \nBulletin Messages\nThis section contains the following topics\nSection 1.1.1, \"Maintaining Bulletin Messages\"\nSection 1.1.2, \"Mapping Bulletin Messages to User Roles\"\nSection 1.1.3, \"Viewing Bulletin Message Summary\"\n1.1.1 \nMaintaining Bulletin Messages\nA ‘BUL-ADMIN’/admin user administers the bulletin messages through ‘Bulletin Message \nMaintenance’ screen. Admin users can amend the messages only on business days and \nneed to refresh the screen to update the changes made.\nYou can invoke the ‘Bulletin Message Maintenance’ screen by typing ‘STDBULBD’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Message Reference No",
+        "Message Type",
+        "Start Date",
+        "Start Time",
+        "Expiry Date",
+        "Expiry Time"
+      ],
+      "summary": "This page describes how to specify details for a bulletin message, including its reference number, type, start and expiry dates/times.",
+      "raw_text": "1-2\nYou need to specify the following information:\nMessage Reference No\nOn save, the system generates and displays the message reference number. This is a unique \nidentifier of the bulletin message that you maintain.\nMessage Type\nSelect the message type from the following options::\nAlert - Select this option if the message requires immediate attention with high priority.\nInformation - Select this option if the message is provided only for information purpose \nwith medium priority.\nStart Date\nSpecify the start date of the bulletin message. The system displays the information on the \nbulletin board from this date.\nNote\nThe start date needs to be greater than or equal to application date.\nStart Time\nSpecify the start time of the bulletin message. The system displays the information on the \nbulletin board from this time on the start date. The start time needs to be in 24 hours format.\nNote\nThe start time needs to be greater than or equal to application time. \nExample\nYou are updating a message on December 3, 2012. You want to update the message to the \nusers on December 12, 2012 at 02:00 pm. Specify the start date as December 12, 2012 and \nstart time as 14:00.\nExpiry Date\nSpecify the expiry date of the bulletin message. The system removes the information from the \nbulletin board on the expiry date.\nNote\nExpired bulletin messages cannot be re-activated. The expiry date needs to be greater \nthan or equal to application date.\nExpiry Time\nSpecify the expiry time of the bulletin message. The system removes the information from the \nbulletin board on this time on the expiry date. The expiry time needs to be in 24 hours format.\nNote\nIf the start and end dates of the bulletin board are the same, the expiry time needs to be \ngreater than or equal to start time."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Message Status",
+        "Concise Message",
+        "Message Details",
+        "Mapping Bulletin Messages to User Roles"
+      ],
+      "summary": "This page describes how to set message statuses and map bulletin messages to user roles in Oracle FLEXCUBE.",
+      "raw_text": "1-3\nMessage Status\nSelect the message status from the following options:. \nOpen - Select this option if the start date is not equal to the application date. \nActive - Select thisoption  if the start date is equal to the application date.\nPaused - Select this option if you do not want to display the message on the bulletin \nboard for a certain time between the start date and the end date. You can redisplay the \nmessage on the bulletin screen by changing the message status to ‘Active’.\nExpired - Select this option to remove the message from the bulletin board. When the \napplication date is equal to the expiry date, the system will automatically update the \nmessage status to ‘Expired’. \nNote\n– \nAn expired message cannot be amended.\n– \nWhen the application date is equal to the start date, the system will automatically \nupdate the message status to ‘Active’.\nConcise Message\nSpecify the message to be delivered to the customers in brief.\nMessage Details\nSpecify the message to be delivered to the customers, in detail.\n1.1.2 \nMapping Bulletin Messages to User Roles\nOracle FLEXCUBE allows you to map the message either to an individual user or a user group \nthrough ‘Bulletin Message Role Mapping’ screen. Based on the bulletin message-user \nmapping, the system displays the message on the dashboards of the individual user or the \nuser group.\nTo invoke the ‘Bulletin Message Role Mapping’ screen, click ‘Role Mapping’ button on \n‘Bulletin Message Maintenance’ screen.\nYou need to specify the following information:\nMessage Reference No\nThe system displays the message reference number. \nUser\nSpecify the user ID to which the bulletin message needs to be mapped. The option list \ndisplays all valid user IDs maintained in the system. Choose the appropriate one."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Roles",
+        "Bulletin Message Board",
+        "Activating Bulletin Messages",
+        "Clearing Expired Messages",
+        "Viewing Bulletin Message Summary"
+      ],
+      "summary": "This page describes how to specify user roles for bulletin messages, view and activate them, clear expired messages, and maintain a summary of bulletin messages in the Oracle FLEXCUBE system.",
+      "raw_text": "1-4\nRoles\nSpecify the user role to which the bulletin message needs to be mapped. The option list \ndisplays all valid user roles maintained in the system. Choose the appropriate one.\nOnce you have specified the above details, click ‘OK’ button. When the user logs in, the \nsystem will display the bulletin messages in the bulletin dashboard area.\nNote\nExpired messages cannot be mapped to any user or a group.\n1.1.2.1 \nBulletin Message Board\nYou can only view the concise message in the bulletin message board. Click on the link \nprovided to view the detailed message in a separate screen.\nNote\nOnly the ‘Active’ messages will be displayed in the bulletin message board.\n1.1.2.2 \nActivating Bulletin Messages\nOracle FLEXCUBE activates the bulletin messages during beginning of day operations, as \npart of ‘Activate Bulletin Messages’ batch. Only open messages whose start date are greater \nthan or equal to application date are considered for activation. \n1.1.2.3 \nClearing Expired Messages\nOracle FLEXCUBE archives the bulletin messages during the end of transaction input, as a \npart of ‘Move Expired Bulletin Messages to history’ batch. This batch will update the message \nstatus to ‘Expired’, whose expiry date is equal to application date and archive the messages \nwhich were expired on the previous day.\nNote\nArchived messages cannot be retrieved.\n1.1.3 \nViewing Bulletin Message Summary\nYou can capture the details of all the bulletin messages through the ‘Bulletin Message \nMaintenance - Summary’ screen. You can invoke this screen by typing ‘STSBULBD’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 8,
+      "sections": [],
+      "summary": "This page explains how to search for bulletin messages using various parameters and what information will be displayed after searching.",
+      "raw_text": "1-5\nYou can search for the bulletin messages based on one or more of the following parameters:\nAuthorization Status\nMessage Reference No\nConcise Message\nRecord Status\nMessage Type\nOnce you have specified the search parameters, click ‘Search’ button. The system will display \nthe following information:\nAuthorization Status\nRecord Status\nMessage Reference No\nMessage Type\nConcise Message\nMessage details"
+    },
+    {
+      "page_number": 9,
+      "sections": [],
+      "summary": "This page appears to list function IDs and their corresponding glossary entries without any section titles.",
+      "raw_text": "2-6\n2. Function ID Glossary\nS\nSTDBULBD .......................1-1\nSTSBULBD ....................... 1-4"
+    }
+  ]
+}

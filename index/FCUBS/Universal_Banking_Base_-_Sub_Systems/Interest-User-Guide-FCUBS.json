@@ -1,0 +1,1001 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base_-_Sub_Systems/Interest-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 41,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the manual and its contents, including who it is for, how to access the documentation, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. About this Manual",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual designed to assist bank officers in setting up and processing interest rules for contracts in Oracle FLEXCUBE, providing information on the intended audience, organization, and accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual designed to assist bank officers in setting up and processing interest rules for contracts in Oracle FLEXCUBE, providing information on the intended audience, organization, and accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual designed to assist bank officers in setting up and processing interest rules for contracts in Oracle FLEXCUBE, providing information on the intended audience, organization, and accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual designed to assist bank officers in setting up and processing interest rules for contracts in Oracle FLEXCUBE, providing information on the intended audience, organization, and accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual designed to assist bank officers in setting up and processing interest rules for contracts in Oracle FLEXCUBE, providing information on the intended audience, organization, and accessibility.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces a manual designed to assist bank officers in setting up and processing interest rules for contracts in Oracle FLEXCUBE, providing information on the intended audience, organization, and accessibility.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. About this Manual",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Interest",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Processing Interest",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 ICCF Rule Availability",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining ICCF Rule Availability",
+          "start_page": 8
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Maintaining ICCF Rules",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking ICCF Rule Maintenance Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Features of the ICCF Rule Details screen",
+          "start_page": 11
+        },
+        {
+          "structure": "3.4.3",
+          "title": "2.4.3 The Sequence in which ICCF Rules are Resolved",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Interest Classes",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Creating Interest Classes",
+          "start_page": 15
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Linking an Interest Rule to a Product",
+          "start_page": 18
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Concept of Main Interest",
+          "start_page": 18
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Methods of Interest Application",
+          "start_page": 18
+        },
+        {
+          "structure": "3.6.3",
+          "title": "2.6.3 Methods of Interest Collection",
+          "start_page": 19
+        },
+        {
+          "structure": "3.6.4",
+          "title": "2.6.4 Specifying Accrual Related Details",
+          "start_page": 19
+        },
+        {
+          "structure": "3.6.5",
+          "title": "2.6.5 Mode of Repayment",
+          "start_page": 19
+        },
+        {
+          "structure": "3.6.6",
+          "title": "2.6.6 Repayment Type",
+          "start_page": 20
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Interest Details for the Product",
+          "start_page": 21
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking Product Definition Screen",
+          "start_page": 21
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Basis for Interest Application",
+          "start_page": 23
+        },
+        {
+          "structure": "3.7.3",
+          "title": "2.7.3 Interest Rate Details",
+          "start_page": 27
+        },
+        {
+          "structure": "3.7.4",
+          "title": "2.7.4 Specifying Preferences for Floating Rate Pickup",
+          "start_page": 28
+        },
+        {
+          "structure": "3.7.5",
+          "title": "2.7.5 Product Limits",
+          "start_page": 29
+        },
+        {
+          "structure": "3.7.6",
+          "title": "2.7.6 For Floating Rate Products",
+          "start_page": 30
+        },
+        {
+          "structure": "3.7.7",
+          "title": "2.7.7 Interest Details",
+          "start_page": 32
+        },
+        {
+          "structure": "3.7.8",
+          "title": "2.7.8 Floating Rate Details",
+          "start_page": 35
+        },
+        {
+          "structure": "3.7.9",
+          "title": "2.7.9 View Details Tab",
+          "start_page": 36
+        },
+        {
+          "structure": "3.7.10",
+          "title": "2.7.10 Querying for Overdue Component Details",
+          "start_page": 37
+        },
+        {
+          "structure": "3.7.11",
+          "title": "2.7.11 Waiving an Interest Rule",
+          "start_page": 37
+        },
+        {
+          "structure": "3.7.12",
+          "title": "2.7.12 Amending Interest Components",
+          "start_page": 38
+        },
+        {
+          "structure": "3.7.13",
+          "title": "2.7.13 Defining Interest Repayment Schedules",
+          "start_page": 38
+        },
+        {
+          "structure": "3.7.14",
+          "title": "2.7.14 Defining Interest Payment Schedules for the Product",
+          "start_page": 38
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Interest Payment Schedules for a Contract",
+          "start_page": 38
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Defining Interest Payment Schedules for a Contract",
+          "start_page": 39
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Revision Schedules and Repayment Schedules",
+          "start_page": 39
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Enabling the ‘Consider as Discount’ Option",
+          "start_page": 39
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Specifying if Accruals are Required",
+          "start_page": 40
+        }
+      ]
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides references to Oracle FLEXCUBE manuals for common procedures and products related to the discussed procedures in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Interest",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page discusses the processing of interest on contracts, including defining interest rules, linking them to a product, and applying them in specific contract scenarios.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page discusses the processing of interest on contracts, including defining interest rules, linking them to a product, and applying them in specific contract scenarios.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Processing Interest",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page discusses the processing of interest on contracts, including defining interest rules, linking them to a product, and applying them in specific contract scenarios.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 ICCF Rule Availability",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This section explains how to maintain the availability of Interest Rules in the ICCF system and defines what an Interest Rule is, including its creation process and attributes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Maintaining ICCF Rule Availability",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This section explains how to maintain the availability of Interest Rules in the ICCF system and defines what an Interest Rule is, including its creation process and attributes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Maintaining ICCF Rules",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page describes how to maintain ICCF rules and includes details on invoking the maintenance screen, as well as the features of the rule details screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Invoking ICCF Rule Maintenance Screen",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page describes how to maintain ICCF rules and includes details on invoking the maintenance screen, as well as the features of the rule details screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 Features of the ICCF Rule Details screen",
+      "start_page": 11,
+      "end_page": 15,
+      "summary": "This page explains how to invoke the ICCF Rule Details screen and details the fields that need to be specified when defining an interest type component.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.3",
+      "title": "2.4.3 The Sequence in which ICCF Rules are Resolved",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page discusses the sequence of resolving ICCF rules and explains how to create interest classes for Securities and Derivatives products, detailing the attributes that can be defined.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Interest Classes",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page discusses the sequence of resolving ICCF rules and explains how to create interest classes for Securities and Derivatives products, detailing the attributes that can be defined.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.1",
+      "title": "2.5.1 Creating Interest Classes",
+      "start_page": 15,
+      "end_page": 18,
+      "summary": "This page discusses the sequence of resolving ICCF rules and explains how to create interest classes for Securities and Derivatives products, detailing the attributes that can be defined.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Linking an Interest Rule to a Product",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page discusses rate code amendments and associations with tenors for interest calculations, as well as the process of linking interest rules to products, including concepts of main interest, methods of application, collection, and specifying accrual details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Concept of Main Interest",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page discusses rate code amendments and associations with tenors for interest calculations, as well as the process of linking interest rules to products, including concepts of main interest, methods of application, collection, and specifying accrual details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.2",
+      "title": "2.6.2 Methods of Interest Application",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page discusses rate code amendments and associations with tenors for interest calculations, as well as the process of linking interest rules to products, including concepts of main interest, methods of application, collection, and specifying accrual details.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.3",
+      "title": "2.6.3 Methods of Interest Collection",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page discusses how interest rates can be changed on a contract and applied based on market rates, as well as different methods of interest collection such as bearing, discounted, and true discounted.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.4",
+      "title": "2.6.4 Specifying Accrual Related Details",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page discusses how interest rates can be changed on a contract and applied based on market rates, as well as different methods of interest collection such as bearing, discounted, and true discounted.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.5",
+      "title": "2.6.5 Mode of Repayment",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This page discusses how interest rates can be changed on a contract and applied based on market rates, as well as different methods of interest collection such as bearing, discounted, and true discounted.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.6",
+      "title": "2.6.6 Repayment Type",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This section explains the modes of interest repayment (automatic or manual) and the types of repayment schedules (amortized, capitalized, or normal) that need to be specified for products and contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 Interest Details for the Product",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "Could not summarize",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.1",
+      "title": "2.7.1 Invoking Product Definition Screen",
+      "start_page": 21,
+      "end_page": 23,
+      "summary": "Could not summarize",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.2",
+      "title": "2.7.2 Basis for Interest Application",
+      "start_page": 23,
+      "end_page": 27,
+      "summary": "This page discusses suffixes for interest components and attributes related to their application in different modules, as well as accounting roles and events associated with these components.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.3",
+      "title": "2.7.3 Interest Rate Details",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This page explains the conditions under which the 'Consider as Discount' option can be used for different events in bills and collections, and how it affects interest accrual and IRR computations.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.4",
+      "title": "2.7.4 Specifying Preferences for Floating Rate Pickup",
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "This page discusses how to specify methods and preferences for applying floating rates in contracts, including automatic or periodic application, borrow or lend tags, rate codes, and reset tenors.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.5",
+      "title": "2.7.5 Product Limits",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This page describes how different options for margin application are handled in a financial system, including defaults based on facility and tranche contracts, requirements for fixed interest rates, and methods for applying floating rates.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.6",
+      "title": "2.7.6 For Floating Rate Products",
+      "start_page": 30,
+      "end_page": 32,
+      "summary": "This page discusses the setting of minimum and maximum rates/spreads for fixed and floating interest products to ensure they stay within specified limits, and mentions default spreads and prepayment spreads for deposits.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.7",
+      "title": "2.7.7 Interest Details",
+      "start_page": 32,
+      "end_page": 35,
+      "summary": "This page describes the fields displayed on the contract ICCF screen, including default values and options for interest details such as rate type and code.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.8",
+      "title": "2.7.8 Floating Rate Details",
+      "start_page": 35,
+      "end_page": 36,
+      "summary": "This page explains how to configure interest periods and floating rate details for financial products, including specifying tenors and rate cycle types.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.9",
+      "title": "2.7.9 View Details Tab",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page explains how to use fields for indicating borrowing and lending rates, defining rate codes, and viewing interest rule details in a contract.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.10",
+      "title": "2.7.10 Querying for Overdue Component Details",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page explains how to query overdue component details using a specific screen and describes the option to waive interest rules defined for a product.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.11",
+      "title": "2.7.11 Waiving an Interest Rule",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page explains how to query overdue component details using a specific screen and describes the option to waive interest rules defined for a product.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.12",
+      "title": "2.7.12 Amending Interest Components",
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This page discusses methods for amending interest components in contracts, defining interest repayment schedules at both a product and contract level, and specifying attributes for interest payment schedules within products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.13",
+      "title": "2.7.13 Defining Interest Repayment Schedules",
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This page discusses methods for amending interest components in contracts, defining interest repayment schedules at both a product and contract level, and specifying attributes for interest payment schedules within products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.14",
+      "title": "2.7.14 Defining Interest Payment Schedules for the Product",
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This page discusses methods for amending interest components in contracts, defining interest repayment schedules at both a product and contract level, and specifying attributes for interest payment schedules within products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8",
+      "title": "2.8 Interest Payment Schedules for a Contract",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This page discusses methods for amending interest components in contracts, defining interest repayment schedules at both a product and contract level, and specifying attributes for interest payment schedules within products.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.1",
+      "title": "2.8.1 Defining Interest Payment Schedules for a Contract",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page discusses various aspects of defining and managing schedules for a contract, including interest payment preferences, schedule types, and options for handling holidays.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.2",
+      "title": "2.8.2 Revision Schedules and Repayment Schedules",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page discusses various aspects of defining and managing schedules for a contract, including interest payment preferences, schedule types, and options for handling holidays.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.3",
+      "title": "2.8.3 Enabling the ‘Consider as Discount’ Option",
+      "start_page": 39,
+      "end_page": 40,
+      "summary": "This page discusses various aspects of defining and managing schedules for a contract, including interest payment preferences, schedule types, and options for handling holidays.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.4",
+      "title": "2.8.4 Specifying if Accruals are Required",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This section explains how to specify accruals for BC contracts and the interdependencies between the 'Consider as Discounted' and 'Accruals' options.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 41,
+      "end_page": 43,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page introduces the Interest User Guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Interest User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited.",
+      "raw_text": "Interest User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the manual and its contents, including who it is for, how to access the documentation, and related documents.",
+      "raw_text": "Contents\n1. \nAbout this Manual .................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-1\n1.6 \nRelated Documents.................................................................................................  1-1\n2. \nInterest ...................................................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nProcessing Interest..................................................................................................  2-1\n2.3 \nICCF Rule Availability..............................................................................................  2-2\n2.3.1  \nMaintaining ICCF Rule Availability .............................................................  2-2\n2.4 \nMaintaining ICCF Rules...........................................................................................  2-4\n2.4.1  \nInvoking ICCF Rule Maintenance Screen ..................................................  2-4\n2.4.2  \nFeatures of the ICCF Rule Details screen..................................................  2-5\n2.4.3  \nThe Sequence in which ICCF Rules are Resolved ....................................  2-9\n2.5 \nInterest Classes.......................................................................................................  2-9\n2.5.1  \nCreating Interest Classes ...........................................................................  2-9\n2.6 \nLinking an Interest Rule to a Product ....................................................................  2-12\n2.6.1  \nConcept of Main Interest ..........................................................................  2-12\n2.6.2  \nMethods of Interest Application ................................................................  2-12\n2.6.3  \nMethods of Interest Collection..................................................................  2-13\n2.6.4  \nSpecifying Accrual Related Details...........................................................  2-13\n2.6.5  \nMode of Repayment .................................................................................  2-13\n2.6.6  \nRepayment Type ......................................................................................  2-14\n2.7 \nInterest Details for the Product..............................................................................  2-15\n2.7.1  \nInvoking Product Definition Screen ..........................................................  2-15\n2.7.2  \nBasis for Interest Application....................................................................  2-17\n2.7.3  \nInterest Rate Details .................................................................................  2-21\n2.7.4  \nSpecifying Preferences for Floating Rate Pickup .....................................  2-22\n2.7.5  \nProduct Limits...........................................................................................  2-23\n2.7.6  \nFor Floating Rate Products ......................................................................  2-24\n2.7.7  \nInterest Details..........................................................................................  2-26\n2.7.8  \nFloating Rate Details ................................................................................  2-29\n2.7.9  \nView Details Tab.......................................................................................  2-30\n2.7.10  Querying for Overdue Component Details ...............................................  2-31\n2.7.11  Waiving an Interest Rule ..........................................................................  2-31\n2.7.12  Amending Interest Components...............................................................  2-32\n2.7.13  Defining Interest Repayment Schedules ..................................................  2-32\n2.7.14  Defining Interest Payment Schedules for the Product..............................  2-32\n2.8 \nInterest Payment Schedules for a Contract...........................................................  2-32\n2.8.1  \nDefining Interest Payment Schedules for a Contract................................  2-33\n2.8.2  \nRevision Schedules and Repayment Schedules......................................  2-33\n2.8.3  \nEnabling the ‘Consider as Discount’ Option .............................................  2-33"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Specifying if Accruals are Required"
+      ],
+      "summary": "This section discusses how to specify whether accruals are required in a financial context.",
+      "raw_text": "2.8.4  \nSpecifying if Accruals are Required..........................................................  2-34\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "About this Manual",
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces a manual designed to assist bank officers in setting up and processing interest rules for contracts in Oracle FLEXCUBE, providing information on the intended audience, organization, and accessibility.",
+      "raw_text": "1-1\n1. About this Manual\n1.1 \nIntroduction\nThis manual is designed to help you process interest on the contracts you enter in Oracle \nFLEXCUBE. \nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the officers at your bank who set up rules for processing interest \non the contracts entered in Oracle FLEXCUBE.\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nInterest explains how interest can be set up and processed. It details \nthe procedure for defining interest rules, linking the rules to products, \nand applying them on a contract.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "1.6 Related Documents"
+      ],
+      "summary": "This page provides references to Oracle FLEXCUBE manuals for common procedures and products related to the discussed procedures in the manual.",
+      "raw_text": "1-2\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nCommon Procedures\nProducts"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Section 2.2, \"Processing Interest\"",
+        "Section 2.3, \"ICCF\""
+      ],
+      "summary": "This page discusses the processing of interest on contracts, including defining interest rules, linking them to a product, and applying them in specific contract scenarios.",
+      "raw_text": "2-1\n2. Interest\n2.1 \nIntroduction\nInterest is an important component of contracts processed by your bank. It is expressed as a \npercentage of the principal amount. Typically, one party pays interest to another party for \nusing the latter’s assets. Interest is typically expressed as an annual percentage rate (APR). \nYou should define the attributes for interest components by way of defining interest rules.\nThese interest rules should, in turn, be linked to a product, so that the attributes of the interest\nrule will be applied on all contracts involving the product. However, while capturing the details\nof a contract, you can modify some of the attributes defined for a rule. Further, for a contract,\nyou can also indicate that the application of a specific Interest component should be waived.\nIn this chapter, we shall discuss the processing of interest on contracts. This will include \ndefining Interest Rules, linking them to a product, and applying them on a contract.\nFor example, you could link two Interest Rules to a product, one with 20% fixed interest and \nanother with floating interest. These two will be processed as two different interest \ncomponents. The expense and accrual accounts can be different for these components. The \ntwo interest components will be reported as different components in all reports and also in the \ncustomer correspondence relating to the contract.\nThis chapter contains the following sections:\nSection 2.2, \"Processing Interest\"\nSection 2.3, \"ICCF Rule Availability\"\nSection 2.4, \"Maintaining ICCF Rules\"\nSection 2.5, \"Interest Classes\"\nSection 2.6, \"Linking an Interest Rule to a Product\"\nSection 2.7, \"Interest Details for the Product\"\nSection 2.8, \"Interest Payment Schedules for a Contract\"\n2.2 \nProcessing Interest\nYou process interest in Oracle FLEXCUBE in the following manner:\nBefore a product module becomes operational, you will need to maintain certain basic \ninformation on interest, which will later be linked to a product. To create this information, \nyou will have to define floating rate codes, floating rates and interest rules.\nYou create Interest Rules for interest with attributes suitable for the product where these \nrules will be applied. You will give each interest rule a specific Rule ID. When you define \na rule, you restrict the use of the rule for the different branches of the bank, for different \ntransaction currency, for different customer group and for a particular customer.\nWhen you define a product, you can choose the required interest rules that are \napplicable for contracts in the product and link these rules to the product. The product \nwill inherit the Rule ID’s that are linked in this manner. Other attributes like rate of \ninterest - fixed interest rate or floating interest rate etc are defined for individual \nproducts.\nWhen you enter a contract, the interest details defined for the product involved in the \ncontract would be applied automatically on the contract. In other words, the interest rule \nis ‘defaulted’ from the product under which the contract is processed. However, if \nrequired, you can change some of the attributes, for a specific contract."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "ICCF Rule Availability",
+        "Maintaining ICCF Rule Availability"
+      ],
+      "summary": "This section explains how to maintain the availability of Interest Rules in the ICCF system and defines what an Interest Rule is, including its creation process and attributes.",
+      "raw_text": "2-2\n2.3 \nICCF Rule Availability\nThis section contains the following topics:\nSection 2.3.1, \"Maintaining ICCF Rule Availability\"\n2.3.1 \nMaintaining ICCF Rule Availability\nSo far we have discussed the concept of a ‘main’ interest, the attributes of an interest \ncomponent, and floating rate codes. Now, we go on to definition of an Interest Rule.\nAn Interest Rule identifies the basic nature of an interest component. Each Interest Rule is \ndefined by an alphanumeric code called the Rule ID. Attributes are defined for this Rule ID, \nwhich is then linked to a product. When a contract is processed, the interest attributes defined \nfor the Rule ID linked to the product will be applied on the contract, some of which can be \nchanged. \nAn interest rule is created in the same way that any Interest, Commission, Charge and Fee \n(ICCF) rule is created, as follows:\nThe rule is created at the head office branch, by giving it a unique identification and \ndescription, in the ICCF Rule Branch Availability screen. In this screen, the rule is made \navailable for use in the required branches by maintaining an allowed / disallowed list of \nbranches.\nAt the required branch, in the ICCF Rule Details screen, the attributes for the rule are \ndefined. Maintaining the attributes in this screen is subject to whether maintenance of \nICCF rules is allowed for the branch, and also whether the rule for which attributes are \nbeing defined, is allowed for the branch.\nTo recall, at the head office of your branch, you can create appropriate ICCF rules and make \nthe rules available to the required branches.\nIn the ‘ICCF Rule Availability Maintenance’ screen, you can maintain ICCF rules, which you \ncan make available to desired branches. You can invoke this screen by typing ‘CFDICCFR’ \nin the field at the top right corner of the Application tool bar and clicking the adjoining arrow"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Rule Identification and Description",
+        "Branch Restrictions"
+      ],
+      "summary": "This page describes how to specify rule identification and description for ICCF rules, as well as setting branch restrictions for their availability.",
+      "raw_text": "2-3\nbutton. You can do this by maintaining a list of branches for which the use of the rule is \nallowed, or disallowed.\nIn this screen, you must specify the following information:\nRule Identification and Description\nYou must specify a unique identification for the ICCF rule you are creating. If you are creating \na charge rule, specify a unique identification for the interest rule. This is the code that will be \nused to identify the rule, in all subsequent references to it. You must also specify a unique \ndescription for the rule.\nNote\nAfter the rule has been created in the ICCF Rule Branch Availability screen, the attributes \nfor the rule must be defined in the ICCF Rule Details screen.\nBranch Restrictions\nYou can maintain a list of allowed branches (that is, the rule will be available for use in the \nallowed list of branches) or disallowed branches (the rule will not be available for use in the \nbranches in the disallowed list).\nTo recall, the attributes for the rule are defined, in the ICCF Rule Details screen. Maintaining \nthe attributes in this screen, for a branch, is subject to whether maintenance of ICCF rules is \nallowed for the branch, and also whether the rule for which attributes are being defined, is \nallowed for the branch.\nFor details about the Common Branch Restrictions, refer the Security Management System \nuser manual."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Maintaining ICCF Rules",
+        "Invoking ICCF Rule Maintenance Screen"
+      ],
+      "summary": "This page describes how to maintain ICCF rules and includes details on invoking the maintenance screen, as well as the features of the rule details screen.",
+      "raw_text": "2-4\nFor example, you have created the following Common Branch Restrictions:\nThe administrator of branch 000 can create, modify and delete ICCF rules in the branches \n000, 001, 002 and 005, but not for 006.\nTrack for AP\nCheck this box if the rule is eligible for receivable tracking.\nTrack for AR\nCheck this box if the rule is eligible for payable tracking.\nNote\n– \nWhen a rule is linked at the product level, the system marks the Track Receivable \nand Track Payable for amount tags associated with the rule based on whether \n‘Track for AR’ and ‘Track for AP’ check boxes are checked. \n– \nNetting is disallowed for amount tags marked for ‘Track for AR’ or ‘Track for AP’.\n2.4 \nMaintaining ICCF Rules\nThis section contains the following topics:\nSection 2.4.1, \"Invoking ICCF Rule Maintenance Screen\"\nSection 2.4.2, \"Features of the ICCF Rule Details screen\"\nSection 2.4.3, \"The Sequence in which ICCF Rules are Resolved\"\n2.4.1 \nInvoking ICCF Rule Maintenance Screen\nTo recall, after an interest rule has been created in the ‘ICCF Rule Availability Maintenance’ \nscreen, the attributes for the rule must be defined in the ‘ICCF Rule Maintenance’ screen.\nHome Branch\nRestriction Type\nAllowed Branches\n000\nICCFRULE\n000, 001, 002, 005\n001\nICCFRULE\n001, 006"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Features of the ICCF Rule Details screen"
+      ],
+      "summary": "This page explains how to invoke the ICCF Rule Details screen and details the fields that need to be specified when defining an interest type component.",
+      "raw_text": "2-5\nYou can invoke this screen by typing ‘CFDRUMNE’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\n2.4.2 \nFeatures of the ICCF Rule Details screen\nAs you are defining an interest type of component, (that is, a tenor based component), you \nneed to specify only the following details through the ICCF Rule Details screen:\nRule Type\nRule ID\nRule Description\nRule Currency, Customer and Branch combinations\nNote\nThe values defaulted by the system in the fields under the Rate Details and Tenor Details \ntabs should not be altered. These will not have any effect on the Interest Rule which is be-\ning created. \nAll the other details of the component must be specified through the Interest Class Screen. \nThe Interest Class screen allows you to specify details regarding different attributes such as \nthe following:\nFixed, Floating or Special interest rates\nPenalties calculated based on the main interest\nAccrual of interest\nRule Type\nThe Rule Type identifies the type of ICCF component you are defining. In this case it is \nInterest. The attributes applicable for a component depends on its Rule Type."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Rule ID"
+      ],
+      "summary": "This section explains how to define and use Rule IDs for interest rules in a product, including the conditions under which they are available.",
+      "raw_text": "2-6\nFor example, you can define any component that is tenor based  an annual fee, for example \n- as a component of Rule Type Interest. If INTEREST1 is your main interest, your annual fee \ncan be defined as INTEREST2, as it is tenor based. Only on an Interest type of component \ncan you have floating rates.\nRule ID\nEach Interest Rule is defined by an alphanumeric code called the Rule ID. Attributes are \ndefined for this Rule ID, which is then linked to a product. When a contract is processed, the \ninterest attributes defined for the Rule ID linked to the product will be applied on the contract, \nsome of which can be changed.\nTo recall, the Rule ID for an interest rule is specified in the ICCF Rule Branch Availability \nmaintenance. Accordingly, in the Rule ID field in this screen, you must select the ID of the \ninterest rule that you wish to build by maintaining the attributes.\nThe option list in the Rule ID field is populated based on the following conditions: \nOnly those Rule IDs that are available for users at the current branch according to the \nICCF Rule Branch Availability maintenance are displayed\nThe maintenance of ICCF rules must be allowed for users at the current branch, \naccording to the restrictions maintained in the Common Branch Restrictions \nmaintenance for the restriction type ICCFRULE.\nIf no Common Branch Restrictions have been maintained, and the restriction type ICCFRULE \nhas not been maintained in the SMS Branch Restriction Type maintenance, the option list in \nthe Rule ID field only displays those rules that are available for users in the current branch, \naccording to the ICCF Rule Branch Availability maintenance.\nYou must select the Rule ID to have all the bank branches listed in the Branch field list of \noptions.\n2.4.2.1 \nInterest Rule Application Factors\nThe conditions for the application of an interest rule can be defined in the ICCF Rule Details \nscreen.\nThe rule can be applied to any contract, irrespective of the currency of the contract, the \ncustomer and the branch involved. This is referred to as a general interest rule. You must \ndefine a general interest rule that would be applicable for any contracts in any currencies, \ninvolving any customers, customer groups or branches, before you define rules applicable to \nspecific customers and contracts in specific currencies and in specific branches. The general \nrule can only be maintained at the head office branch.\nThus, the most general application of the condition can be that it is applicable to contracts in \nany currency and involving any customer. \nAfter defining the general interest rule, you can then proceed to define rules that can be \napplied to contracts involving the following specific combinations: \nA specific branch, customer category, customer and currency\nA specific branch, customer category, customer and all currencies\nA specific branch, customer category, currency and all customers\nA specific branch, currency and all customer categories and customers\nA specific branch, customer categories and all currencies and customers\nA specific branch and all customer categories, customers and currencies\nA specific customer category, customer, currency, and all branches"
+    },
+    {
+      "page_number": 13,
+      "sections": [],
+      "summary": "This page discusses various combinations of customer categories, currencies, and branches for interest rules and product definitions, emphasizing the importance of defining Interest Rules before creating products.",
+      "raw_text": "2-7\nA specific customer category, customer and all currencies and branches\nA specific customer category, currency and all customers and branches\nA specific currency and all customer categories, customers and branches\nA specific customer category and all customers, currencies and branches\nAll branches, customer categories, customers and currencies\nNote\nAs mentioned earlier, the rules applicable for combinations involving all branches (the ALL \noption in the Branch Code field) can be maintained only from the head office branch.\nOnce an Interest Rule has been defined, you must create an Interest Class for the Interest \nRule. Creating an interest class for every Interest Rule is mandatory. The details specified for \nInterest Class is then defaulted to the product you define.\nThe definition of a product should ideally be preceded by the definition of all Interest Rules \napplicable to the product. If not, the product definition has to be put on hold, the Interest Rules \ndefined, and then the product linked to the Interest Rules. \nTransaction Currency\nIf you wish to define the attributes for all currencies, you can select the *.* option in the \nCurrency Code field to indicate this. If you are maintaining the attributes for the selected ICCF \nrule in specific currency other than the *.*, select the Transaction Currency on which the rule \nmapping maintenance is to be made applicable.\nCustomer Group\nSelect the customer group on which the rule mapping maintenance is to be made applicable. \nYou can create a generalized interest rule mapping record by selecting the ALL option in the \nCustomer Group field. This specification defaults to the Customer and Customer Account \nfields. You are forbidden to change the specification.\nCustomer\nSpecify the customer id (CIF) of the customer for whom you are maintaining the rule mapping. \nBranch Code\nIf you are maintaining the attributes for the selected ICCF rule from the head office branch, \nyou can select the branch for which the attributes are being defined. If you wish to define the \nattributes for all branches, you can select the ALL option in the Branch Code field to indicate \nthis.\nIf you are maintaining the attributes for the selected ICCF rule from a branch other than the \nhead office, you can only select those branches that are found in the allowed list of branches \nfor:\nthe ICCF rule definition Restriction Type (ICCFRULE), in the Common Branch \nRestrictions maintenance for the current branch\nthe selected rule being built, according to the ICCF Rule Availability maintenance\nIn other words, the option list in the Branch Code field would display only those branches that \nare allowed both for the rule and the current branch.\nThe following example illustrates how the option lists in the Rule ID and Branch Code fields \nare populated:"
+    },
+    {
+      "page_number": 14,
+      "sections": [],
+      "summary": "This page details the options in the ICCF Rule Details screen based on whether Common Branch Restrictions and specific rules are maintained or not.",
+      "raw_text": "2-8\nFor example, you have created the following Common Branch Restrictions for the restriction \ntype ICCFRULE:\nYou have maintained the following rules in the ICCF Rule Branch Availability Maintenance:\nIn the ICCF Rule Details screen, the following options would result if the maintenance were \nas mentioned above:\nIf no Common Branch Restrictions were maintained and the restriction type ICCFRULE were \nnot maintained in the SMS Branch Restriction Type maintenance, the options in the ICCF \nRule Details screen would be as follows:\nHome Branch\nAllowed Branches\n000\n000, 001, 002, 005\n001\n001, 006\n002\n002, 005, 006\n005\n002, 005, 006\nRULE ID\nAllowed Branches\nINTRULE1\n000, 001, 002, 005, 006\nINTRULE2\n001, 005, 006\nINTRULE3\n002, 005,006\nBranch\nRule ID field option list\nBranch Code option list\n000\nINTRULE1\n000, 001, 002, 005\n001\nINTRULE1, INTRULE2\n001, 006\n002\nINTRULE1, INTRULE3\n002, 005, 006\n005\nINTRULE1, INTRULE2, \nINTRULE3\n002, 005, 006 (for INTRULE1), 005, 006 (for \nINTRULE2) or 002, 005, 006 (for INTRULE3)\nBranch\nRule ID field option list\nBranch Code option list\n000\nINTRULE1\n000, 001, 002, 005, 006\n001\nINTRULE1, INTRULE2\n000, 001, 002, 005, 006 (for INTRULE1) or 001, \n005, 006 (for INTRULE2)\n002\nINTRULE1, INTRULE3\n000, 001, 002, 005, 006 (for INTRULE1) or 002, \n005, 006 (for INTRULE3)\n005\nINTRULE1, INTRULE2, \nINTRULE3\n000, 001, 002, 005, 006 (for INTRULE1), 001, \n005, 006 (for INTRULE2) or 002, 005, 006 (for \nINTRULE3)"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "The Sequence in which ICCF Rules are Resolved",
+        "Interest Classes",
+        "Creating Interest Classes"
+      ],
+      "summary": "This page discusses the sequence of resolving ICCF rules and explains how to create interest classes for Securities and Derivatives products, detailing the attributes that can be defined.",
+      "raw_text": "2-9\n2.4.3 \nThe Sequence in which ICCF Rules are Resolved\nICCF Rules that you maintain are resolved in the following sequence:\n2.5 \nInterest Classes\nThis section contains the following topics:\nSection 2.5.1, \"Creating Interest Classes\"\n2.5.1 \nCreating Interest Classes\nA class is a specific type of component that can be built with certain attributes. For instance, \nfor a Security, you can build an interest class with the attributes of a specific type of coupon, \nthe quarterly coupon paid on the current face value. \nThis chapter explains how interest classes are built and how attributes are defined. The \nbuilding of interest classes is applicable to Securities and Derivatives products and contracts. \nYou can use the information in this chapter to process interest components for Securities and \nDerivatives contracts.\nWhen building an interest class, certain attributes, such as the following can be defined:\nThe module in which you would use the class\nThe interest type\nThe association event\nThe basis amount on which the coupon is paid\nThe rate type\nThe default rate code (for floating interest)\nThe default tenor\nRule\nBranch\nCustomer Category\nCustomer\nCurrency\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\n*.*\nSpecific\nSpecific\nSpecific\nALL\nSpecific\nSpecific\nSpecific\nALL \nALL\nSpecific\nSpecific\nSpecific\nSpecific\nALL\n*.*\nSpecific\nSpecific\nALL\nALL\n*.*\nSpecific\nALL\nSpecific\nSpecific\nSpecific\nSpecific\nALL\nSpecific\nSpecific\n*.*\nSpecific\nALL\nSpecific\nALL\nSpecific\nSpecific\nALL\nALL \nALL\nSpecific\nSpecific\nALL\nSpecific\nALL\n*.*\nSpecific\nALL\nALL\nALL\n*.*"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Module",
+        "Specifying Interest Type Details"
+      ],
+      "summary": "This page explains how to define attributes of an interest class in the 'Interest Class Maintenance' screen and details the importance of specifying module-specific interest types such as Primary Interest and Coupon.",
+      "raw_text": "2-10\nYou can define the attributes of an interest class, in the ‘Interest Class Maintenance’ screen, \ninvoked from the Application Browser. You can invoke the ‘Interest Class Maintenance’ \nscreen by typing ‘CFDINTCE’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nBefore defining the attributes of an interest class, you should assign the class a unique \nidentifier, called the Class Code and briefly describe the class. A description would help you \neasily identify a class.\nModule\nAn interest class is built for use in a specific module. This is because; an interest component \nwould be applied on different basis amounts, in different modules. \nFor example, in the Derivatives module, you would apply interest on the principal amount. In \nthe Securities module, you can have coupons on the basis of the current face value. The basis \non which the component is calculated is different in these two cases.\nNote\nThe Basis Amount Tags available would depend on the module for which you build the \nclass.\nSpecifying Interest Type Details\nWhile building an Interest Class, you can define two kinds of interest:\nPrimary Interest\nCoupon\nFor example, while building an Interest Class for the Securities module, you can only define \nCoupon details."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Events and the Basis Amount",
+        "Accrual Required"
+      ],
+      "summary": "This page discusses defining interest classes for derivatives in Oracle FLEXCUBE, including specifying interest types, association events, basis amounts, and accrual requirements.",
+      "raw_text": "2-11\nWhen building interest class for the Derivatives module, you can only define primary interest \ndetails. Subsequently you are also required to specify whether the interest type is applicable \nfor the in leg or for the out leg of contracts linked to this class \nEvents and the Basis Amount\nThe term Event can be explained with reference to a deal. A deal goes through different \nstages in its life cycle, such as:\nDeal Booking\nMoney Settlement of Deal\nReversal of Deal\nCancellation of Deal\nEach stage is referred to as an Event in Oracle FLEXCUBE. \nThe event at which you would like to associate the interest component, being defined, to a \ncontract is referred to as the Association Event.\nThe basis on which an interest is calculated is referred to as the Basis Amount. For instance, \na coupon can be on the basis of the current face value of a security. When building an interest \nclass, you have to specify the tag associated with the Basis Amount.\nThe attributes defined for an interest class, will default to all products with which you associate \nthe class. When maintaining interest details for a product, you can change these default \nattributes. Contracts maintained under a product will acquire the attributes defined for the \nsecurities product.\nAccrual Required\nYou can choose to accrue the interests due on a contract. To accrue the interest payable on \na contract, choose the ‘Accrual Required’ option.\nThe accrual details that you define for an interest class will default to all products with which \nyou associate the class. When maintaining interest accrual details for a product, you can \nchange these default details. Contracts maintained under a product will acquire the accrual \ndetails defined for the product. However, you can define unique accrual details for a contract.\nRate Type\nThe interests paid on contracts can be at a Fixed Rate, or on the basis of a Floating Rate. If \nyou indicate that interests should be calculated on the basis of a Floating Rate, you must \nspecify the ‘Periodic’ Floating Rate Type. \nFor all contracts maintained under products, associated with a class, the interest will be by \ndefault calculated using the specified Rate type.\nDefault Rate Code\nInterest payable on contracts would be calculated at specific rates. When building an interest \ncomponent, you have to specify the rate at which the interest should be computed. When \nassociating a rate code (that you have maintained in the Rate Codes Maintenance screen) \nwith the interest component that you are building, the rates corresponding to the code will be \nused to compute interest.\nThe details defined for an interest class will default to all products with which the class is \nassociated. When maintaining interest details for a product, you can change this default \ninformation. Contracts maintained under a product will acquire the interest details defined for \nthe contract product. However, you can define unique interest details specific to a contract.\nWhen maintaining a contract, you can choose to waive the rate code altogether or amend the \nproperties of the code to suit the security."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "2-12",
+        "2.6 Linking an Interest Rule to a Product",
+        "2.6.1 Concept of Main Interest"
+      ],
+      "summary": "This page discusses rate code amendments and associations with tenors for interest calculations, as well as the process of linking interest rules to products, including concepts of main interest, methods of application, collection, and specifying accrual details.",
+      "raw_text": "2-12\nIf you allow amendment of a rate code, you can specify if you would like to allow rate code \namendment after the association event.\nYou can also allow the amendment of the rate value (corresponding to a rate code).\nDefault Tenor\nEach rate code is associated with a tenor. For instance you have a Rate Code ‘LIBOR’. You \ncan link any number of tenor codes to the same rate code.\nWhen building an interest component, you can specify a Tenor Code that you would like to \nassociate, with the Floating Interest Rate Code. Interests for contracts (maintained under a \nproduct with which you associate the class) will be calculated using the rate corresponding to \nthe Rate Code and the Tenor Code.\n2.6 \nLinking an Interest Rule to a Product\nThis section contains the following topics:\nSection 2.6.1, \"Concept of Main Interest\"\nSection 2.6.2, \"Methods of Interest Application\"\nSection 2.6.3, \"Methods of Interest Collection\"\nSection 2.6.4, \"Specifying Accrual Related Details\"\n2.6.1 \nConcept of Main Interest\nThis section describes the concepts and the facilities involved in linking an Interest Rule to a \nProduct.\nIf a product, and hence a contract involving the product, has more than one type of interest \napplicable, you should designate one of them as the Main Interest. You can do this while \ndefining the interest details for the product. For capitalization and amortization (repayment in \nEquated Installments) purposes, the main interest component will be considered.\nYou can choose to set up as many interest rules as you wish to apply on the product and \nsubsequently, on the contract. \n2.6.2 \nMethods of Interest Application\nInterest can be applied in different ways, as follows:\nFixed\nAn interest rate is fixed at the time of initiating the contract. The repayment amounts will be \ncomputed based on this rate of interest and the repayment schedule.\nTenor Code\nDescription\n1W\nOne week rate\n2W\nTwo week rate\n2M\nTwo months rate\n6M\nSix months rate\n1Y\nOne year rate"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Floating",
+        "2.6.3 Methods of Interest Collection"
+      ],
+      "summary": "This page discusses how interest rates can be changed on a contract and applied based on market rates, as well as different methods of interest collection such as bearing, discounted, and true discounted.",
+      "raw_text": "2-13\nHowever, the interest rate applicable on a contract can be changed after the contract has \nbeen initiated. You should indicate that this change should come into effect as of a date called \nthe Value Date. The interest amount will be computed based on the new rate effective from \nthe Value Date.\nFloating\nThe market rates (with a spread or without it) are applied on the contract. This application can \nbe done in two ways: \nEvery time the market rate changes\nOnly at periodic intervals\nFloating rates prevalent in the market are captured in the system as rate codes (Ex LIBOR). \nThe prevailing rates in the market are also captured in the system. These rates are defined in \na certain market (For Ex LIBOR rates comes from London market).These market rates are \nstored in the Floating Rates table. The rates are defined for a combination of Rate Codes, \nCurrency and Value Date. If the rates have to be applied periodically, the frequency of \napplication should be defined for each contract. \n2.6.3 \nMethods of Interest Collection\nBearing\nThe Interest is liquidated on schedule payment date(s).\nDiscounted\nIn this interest payment method, the interest is deducted at the time of initiating the contract.\nTrue Discounted\nIn this interest payment method, the interest is calculated on the principal in a manner that is \nslightly different from the Discounted method. The interest rate is applied on the Principal \ninstead of the Nominal, as it is done in the Discounted method.\nYou can specify this preference for individual products under different modules.\n2.6.4 \nSpecifying Accrual Related Details\nYou have to specify two aspects about interest accruals:\nWhether accruals have to be carried out\nIf yes, their frequency\nFor a product you should specify, through the Product ICCF Details screen, whether accruals \nhave to be carried out. If yes, the frequency of accruals (whether daily, monthly, quarterly, \nhalf-yearly or annual) should be specified for the product through the Product Preferences \nscreen. This will apply to the accruable components of all contracts involving the product.\nAccruals will be carried out at the specified frequency by the Automatic Contract Update \nfunction during the End of Day processes. In addition, interest will be accrued whenever a \nbackdated event (like a rate change with a Value Date, a payment, etc.) is triggered as of a \ndate beyond the date on which the last accruals were carried out. \n2.6.5 \nMode of Repayment\nThe repayment schedules for interest should be defined for each contract. Depending on the \nmode of payment applicable, the interest will be liquidated, either automatically or manually, \naccording to this schedule."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Repayment Type"
+      ],
+      "summary": "This section explains the modes of interest repayment (automatic or manual) and the types of repayment schedules (amortized, capitalized, or normal) that need to be specified for products and contracts.",
+      "raw_text": "2-14\nThe mode of repayment for interest can either be automatic or manual. Specify this \npreference in ‘Code Usage’ field. When the repayment is automatic, interest will be liquidated \non the schedule repayment dates automatically by the Automatic Contract Update program. \nOn the other hand, if the repayment is manual, instructions for liquidation should be entered \nin the system when the repayment is made. \nThe mode of repayment has to be specified for a product, but you can change it for a contract.\nFor BC contracts, all outstanding accruals during full repayment are passed unconditionally \nduring the YACR (YTM based discount accrual) event. To recall, this event is meant to \nindicate the periodic discount accruals for a BC contract. \nFor more information on discount accruals, you can refer to the chapter titled ‘Defining \nDiscount Accrual Fee Classes’ in the BC (Bills and Collections) User Manual.\n2.6.6 \nRepayment Type\nYou must specify the type of repayment schedule as amortized, capitalized or normal, while \ndefining a product. The type you have specified will be applicable to all the contracts involving \nthe product and will be displayed in the Contract On-line Preferences screen. You can \ncapitalize the interest payment on a contract by:\nSpecifying the type of schedule (through the Product Preferences screen) as \nCapitalized. The contract inherits this from the product\nSpecifying the frequency for the capitalization through the Product Default Schedules \nscreen \nIf you have specified capitalization and defined schedules for the components of the contract, \nthe unpaid interest will be capitalized for the next schedule. That is, the unpaid interest will be \nadded to the unpaid principal and this will become the principal, for the next schedule. \nNote\nCapitalization is done only for the ‘Main’ interest and only if it is a fixed interest of the bear-\ning type.\nYou can have equated installments for the contract on the schedule dates by specifying \nAmortization as the schedule type and specifying the frequency. These repayment schedules \nwill be drawn up taking into consideration the Principal and the Main Interest (that component \nwhich you have defined for display in the Contract Details screen). If you specify amortized \nschedules, the system will automatically do the amortization, according to the frequency \ndefined.\nNote\nThe schedule type can be amortized only if the amount has a fixed type of interest and \nbearing interest payment method.\nIf you specify the schedule type as Normal, you can tailor schedules for the various \ncomponents to suit your needs. A schedule date:\nShould be later than or the same as the Value Date \nYou can have only one schedule, for a component for a date\nIt cannot be beyond the Maturity Date"
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "Could not summarize",
+      "raw_text": "2-15\n2.7 \nInterest Details for the Product\nThis section contains the following topics:\nSection 2.7.1, \"Invoking Product Definition Screen\"\nSection 2.7.2, \"Basis for Interest Application\"\nSection 2.7.3, \"Interest Rate Details\"\nSection 2.7.4, \"Specifying Preferences for Floating Rate Pickup\"\nSection 2.7.5, \"Product Limits\"\nSection 2.7.6, \"For Floating Rate Products \"\nSection 2.7.7, \"Interest Details\"\nSection 2.7.8, \"Floating Rate Details\"\nSection 2.7.9, \"View Details Tab\"\nSection 2.7.10, \"Querying for Overdue Component Details\"\nSection 2.7.11, \"Waiving an Interest Rule\"\nSection 2.7.12, \"Amending Interest Components\"\nSection 2.7.13, \"Defining Interest Repayment Schedules\"\nSection 2.7.14, \"Defining Interest Payment Schedules for the Product\"\n2.7.1 \nInvoking Product Definition Screen\nAfter you have defined an Interest Rule by allotting it a Rule ID and specifying the interest \napplication factors, you can link it to a product. When a contract involving the product is \nprocessed, the interest attributes defined for the product will be applied on the contract. Some \nof these attributes can be changed during contract processing."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Click ‘Interest’ button in the ‘Product Definition’ screen to invoke the ‘Interest Details’ screen.",
+        "A note on the Accounting Role build-up"
+      ],
+      "summary": "This page explains how to link interest rules to a product and how interest details are applied to contracts, as well as detailing the accounting roles generated based on defined interest components.",
+      "raw_text": "2-16\nClick ‘Interest’ button in the ‘Product Definition’ screen to invoke the ‘Interest Details’ screen.\nYou can link more than one rule to a product. In the Product ICCF Details screen, in the Rule \nID field, pick the rule you wish to link to the product. For an interest type of rule, all the interest-\nrelated details have to be specified in the Product ICCF Details screen.\nFor example, for a deposit, you can link a rule for the main interest and another interest type \nof rule for a commission you want to charge on the deposit. Besides this, you can have a rule \nfor a charge. Thus, the product will have three rules linked to it. For the deposit, you can retain \nall these, or waive one or more, as per your requirement.\nThe interest details defined for a product will be automatically applied on a contract involving \nthe product. However, you can change certain attributes of interest for a specific contract.\nA note on the Accounting Role build-up\nThe system automatically builds a list of accounting roles depending on the Interest \ncomponents that you define. For instance, if you have defined an interest component called \nCR01_INT, the following accounting roles will be generated:\nCR01_INT_EXP\nCR01_INT_PAY\nCR01_INT_REC"
+    },
+    {
+      "page_number": 23,
+      "sections": [],
+      "summary": "This page discusses suffixes for interest components and attributes related to their application in different modules, as well as accounting roles and events associated with these components.",
+      "raw_text": "2-17\nCR01_INT_RIA\nCR01_INT_PIA\nCR01_INT_AQP\nCR01_INT_AQR\nCR01_INT_ADJ\nThe system dynamically adds a list of suffixes to the main interest component. Each of these \nsuffixes stand for:\nA similar list of accounting roles will be built up for each component that you associate with \nthe product. \nNote\nSince you need to identify Accounting Roles (GL/SL Types) and map them to Account \nHeads (Actual GL/SLs) to post accounting entries for specific events, you will have to \nchoose the appropriate accounting roles for each component and map them to corre-\nsponding Account Heads. \nEvent\nAn interest event indicates when the interest component whose attributes are being defined \nhas to be applied.\n2.7.2 \nBasis for Interest Application\nThe basis of the interest component being defined specifies the following two attributes:\nAmount Type\nIf the interest rate type is Fixed or Floating, the Amount Type specifies the basis amount on \nwhich the interest rate has to be applied. For example, for the FT module, it could be the \nTransfer amount, for the LC module, it could be the LC Contract Amount and so on. \nGrace Period and Level Number \nYou can apply interest at various levels:\nMain interest on principal – Level 0 (Category: Expected)\nInterest on overdue interest – Level 1 (Category: Overdue)\nSuffix\nRepresents\nAQR\nAcquired interest receivable\nAQP\nAcquired interest payable\nREC\nReceivable\nEXP\nExpense\nINC\nIncome\nPAY\nPayable\nRIA\nReceived in Advance\nPIA\nPaid in Advance\nADJ\nAdjustment"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Interest on Level 1 interest – Level 2 (Category: Overdue)",
+        "Settlement Currency",
+        "Category"
+      ],
+      "summary": "This page discusses the grace days for overdue interest components, the settlement currency used for interest calculations, and the categories considered for interest application based on fixed or floating rates.",
+      "raw_text": "2-18\nInterest on Level 1 interest – Level 2 (Category: Overdue) … and so on.\nFor each interest component, starting from Level 1 and belonging to ‘Overdue’ category, you \ncan also specify the number of grace days, beyond the main interest due date, after which \nthat interest component becomes applicable. For each such component, the default value for \nthe number of grace days is:\nNumber of grace days for the previous level + 30 days\nYou can change this value, provided that the number of grace days for a component (level) \ndoes not exceed the number of grace days for any successive level. At any point, an \namendment of the number of grace days for any or more interest components at the Product \nICCF level will only affect new contracts.\nFor interest components of Level 0 and ‘Expected’ category, the default value for grace days \nis 0 – this cannot be changed.\nSettlement Currency\nThe Settlement Currency is the currency in which the interest amount will be calculated. The \ninterest amount applicable for a contract will be calculated in this currency. The appropriate \nconversion rate (defined for the product as the applicable Rate Type) will be applied to carry \nout a conversion if the repayment account is in a different currency.\nCategory\nIf the interest rate type is Fixed or Floating, the Amount Basis Category specifies the type of \nbalance that has to be considered for interest application. It could be any one of the following:\nExpected\nOverdue\nNormal \nOutstanding\nIf the Basis Amount Category is Expected, the balance on which interest has to be applied will \nbe the Expected balance (the balance assuming that all the scheduled repayments defined \nfor the contract are made on time). An example of this category is the application of interest \non the Bill amount.\nIf the Basis Amount Category is Overdue, the balance on which interest has to be applied will \nbe the amount that is overdue, based on the repayment method defined for the contract. An \nexample of this category is the application of penalty interest on the bill amount or interest, \nwhen a repayment has not been made, as per the date specified for the contract.\nPrepayment Method \nThe prepayment method identifies the computation of the prepayment penalty for the \ncontract. \nThe prepayment penalty for deposits is computed as depicted in the equation given below: \nHere,\n1. Prepayment Penalty indicates the penalty amount calculated.\n2. Deposit Amount Withdrawn indicates the deposit amount withdrawn prematurely.\n3. Prepayment Penalty Rate indicates the Rate input in Payment screen for calculation of \npenalty."
+    },
+    {
+      "page_number": 25,
+      "sections": [],
+      "summary": "This page explains how to calculate prepayment penalties based on interest basis and number of days, detailing different methods including Oracle FLEXCUBE and Custom options.",
+      "raw_text": "2-19\n4. Interest Basis indicates the Interest basis for the component for which penalty is being \ncomputed.\n5. Number of Days indicates the day count for which penalty needs to be calculated. This is \ncalculated based on the ‘Prepayment Method’ field defined in the Product Definition. \nIn addition to using the formula to calculate the Prepayment Penalty, the actual prepayment \npenalty amount being charged to the customer is also dependent on the Prepayment Method. \nThe options available are: \nOracle FLEXCUBE\nThis option is used where pre-payment has to be applied on the deposit contract for contract \nelapsed days. \nCustom\nIf the Prepayment Method is Custom, then the prepayment penalty in this case will be the \nminimum of prepayment penalty and Gross interest on the premature withdrawal amount. The \nsystem computes the interest amount to be liquidated due to prepayment of principal. You will \nnot be allowed to specify the interest amount during the Payment input in such a case. \nNote\nHere, the system does not include the Acquired interest for processing.\nAlso, if you have chosen the prepayment method as Custom, you cannot prepay or manually \nliquidate either the interest or the principal component. This option is used where pre-payment \nhas to be applied on the deposit contract for contract remaining days. \nAccruals\nFor a product, you should specify through the product ICCF Details screen whether accruals \nhave to be carried out for the accruable components. If yes, the frequency of accruals, which \ncould be daily, monthly, quarterly, half-yearly or annually, should be specified for each product \n(through the Product Preferences screen).\nThe accruals are carried out at the specified frequency by the Automatic Contract Update \nfunction. In addition, accruals are done whenever an event (like a rate change with a Value \nDate, a payment, etc.) is triggered as of a date beyond the date on which the last accruals \nwere carried out.\nAllow Amendment\nA change to a contract (after it has been authorized) that involves a change in its financial \ndetails constitutes an Amendment on the contract. You can indicate whether such an \nAmendment, called a Value Dated Change, should be allowed for the interest component \nbeing defined.\nYou can amend the following through this function:\nInterest rate\nRate code\nSpread\nInterest amount\nMain Component\nYou can define any number of interest type of components (tenor based components) for a \nproduct. If you have defined more than one interest type of component, you can specify the"
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "main interest component as ‘Main Component’.",
+        "Negative Interest Allowed",
+        "Negative Class Code",
+        "Bulk Amount"
+      ],
+      "summary": "This page discusses the main interest component for capitalization or amortization purposes, settings related to negative interest, displayed negative class codes, and options for splitting contracts during rollover based on bulk amounts.",
+      "raw_text": "2-20\nmain interest component as ‘Main Component’. This will be the interest component that will \nbe used for capitalization or amortization purposes if the repayment schedules are defined \nthus. \nThe details of this Main Component will be shown in the Contract Details screen and you can \nchange them there without having to invoke the Contract ICCF Details screen. Components \nother than the main component have to be processed through the Contract ICCF Details \nscreen.\nNegative Interest Allowed\nNegative Interest Allowed field remains enabled or disabled based on the maintenance in the \ninterest class. \nNegative Class Code\nThe system displays the negative class code. \nBulk Amount\nWhen a contract gets rolled over, you may wish to split it into 2 contracts - one for the interest \namount (I) and the other for the principal amount (P). If you want the the floating rate pickup \nfor both the new contracts (tenor/amount) to be based on P+I of the original contract, check \nthe 'Bulk Amount' check box.\nFor example, if the principal amount is Rs.1000 and Interest accrued is Rs.100. Upon rollover, \nyour bank may require two contracts, one for Rs.1000 (Principal contract) and the other for \nRs.100(interest contract). Lets say the slab rate followed by your bank is:\n0 – 1000            - 3%\n1001 – 2000      - 4%\nIn the normal course, system would apply 3% interest rate on both the contracts of Rs.1000 \nand Rs.100 (since both fall within 0 -1000 slab). But if the ‘Bulk Amount’ option is chosen, then \n4% will be applied on both the contracts (as if a single contract of Rs.1100 is rolled over where \nsystem would have applied 4pct).\nStop Application \nThe attributes defined for a product will be automatically applied to all contracts involving the \nproduct. If, for some reason, you want to stop applying the Interest Rule defined for the \nproduct on contracts that are to be initiated in the future (involving the product), you could do \nso through the Product ‘ICCF Details’ screen.\nIn effect, stopping the application of a component for a product would be equivalent to deleting \nthe component from the product. By specifying that the application of the component should \nbe stopped, you have the advantage of using the definition made for the component again, by \nmaking it applicable.\nPropagation Required\nIf the interest amount collected from the borrower should be passed on to participants of the \ncontract, check the 'Propagation Required' check box. \nConsider as Discount \nWhile defining an interest for the bills module, you can indicate whether the interest \ncomponent is to be considered for discount accrual on a constant yield basis or whether \naccrual of interest is required. \nIf you select the Consider as Discount option the interest received against the component is \nused in the computation of the constant yield and subsequently amortized over the tenor of \nthe associated contract. This accrual is processed through the Discount Accrual module."
+    },
+    {
+      "page_number": 27,
+      "sections": [],
+      "summary": "This page explains the conditions under which the 'Consider as Discount' option can be used for different events in bills and collections, and how it affects interest accrual and IRR computations.",
+      "raw_text": "2-21\nRefer the Discount Accrual chapter of Bills User Manuals. \nThe ‘Consider as Discount’ option is allowed only for the following events (for bills): \nBADV (acceptance to advance event)\nBPUR (collection to purchase event) \nBDIS (acceptance to discount event)\nINIT (initiation event)\nNote\nTo recall, you link an interest component to an event through the ‘Event’ option list. \nIf you select the ‘Accruals’ option, the interest is accrued depending on the accrual \npreferences defined for the product. \nIf neither option is selected, the interest is not accrued, but is recognized as income on interest \nliquidation.\nChecking the ‘Consider as Discount’ also indicates whether the interest component is to be \nconsidered for IRR computations of bills. \nIf the payment type is ‘Discounted’ then you can select either ‘Consider as Discount’ and \n‘Accruals’ option OR both together. If the options ‘Accruals’ and ‘Consider as Discount’ are \nselected then discounted interest is considered for IRR calculation. If the option ‘Accruals’ is \nnot checked and ‘Consider as Discount’ is checked then the discounted interest is considered \nto be a part of total discount to be accrued. The above validations apply for BC (Bills and \nCollections) contracts also. \nThe ‘Consider as Discount’ option is not available if the amount category is Penalty.\nThe options ‘Accruals’ and ‘Consider as Discount’ are not mutually exclusive. If you select the \n‘Accruals’ option, then it is not necessary for the ‘Consider as Discount’ option to be checked. \nHowever, for BC contracts, if you select the ‘Accruals’ option, you can either select against \nthe ‘Consider as Discount’ option or otherwise. \nFor Bearing contracts, if the option ‘Consider as Discount’ is checked then the option \n‘Accruals’ also has to be checked. If the option ‘Accruals’ is not checked, the option ‘Consider \nas Discount’ is disabled. The above validations apply for BC (Bills and Collections) contracts \nalso. \nLink Contract as Ratecode\nYou can use this field to indicate whether a fixed rate contract may be linked to the floating \nrate component, instead of a rate code. Check this box to indicate that a fixed rate contract \nmay be linked.\n2.7.3 \nInterest Rate Details\nRate Type\nThe Rate Type indicates whether the interest is a Fixed Rate, a Floating Rate or a Special \namount. When creating a product, you should specify the Rate Type through the ‘Product - \nICCF Details’ screen.\nIf the Rate Type is a Floating Rate, you should also specify the Rate Code to which the \nproduct has to be linked."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Code Usage",
+        "Borrow Lend Indicator",
+        "Rate Code",
+        "Specifying Preferences for Floating Rate Pickup",
+        "Reset Tenor"
+      ],
+      "summary": "This page discusses how to specify methods and preferences for applying floating rates in contracts, including automatic or periodic application, borrow or lend tags, rate codes, and reset tenors.",
+      "raw_text": "2-22\nCode Usage\nYou should specify the method in which the rates in the Floating Rates table have to be \napplied. It could either be automatic application (meaning the rate has to be applied every \ntime it changes), or periodic application (meaning the rate has to be applied at a regular \nfrequency, defined for each contract involving the product).\nBorrow Lend Indicator\nFloating rates are defined with a borrow or a lend tag attached to them. Here, you indicate the \nnature of the floating rate that needs to be picked up for the interest component. \nThe options available are:\nBorrow\nLend \nMid\nRate Code\nEach Rate Code corresponds to a rate defined for a combination of Currency, Amount (if it is \nnecessary) and an Effective Date. These details are maintained in the Floating Rates table. \nThis rate will be applied to contracts involving the product.\n2.7.4 \nSpecifying Preferences for Floating Rate Pickup\nFor interest components that use floating rates, you can specify preferences that will \ndetermine how the rates are to be applied to the component.\nReset Tenor \nFloating interest rates are defined for specific amount slabs and tenor combinations. \nIf you are defining a floating interest component or a fixed type with rate code attached, you \ncan indicate the reset tenor for which floating rates need to be picked up.\nThe tenor that you specify for the component is defaulted to all contracts with which the \nfloating interest component is associated.\nLets suppose that in a Product, the Reset Tenor is chosen as 2190 days. The floating rate \nchosen is ‘LDRATE’. The Tenor and Int. Rates defined in ‘LDRATE’ are given below.\nTenor Int. Rate\n365 13%\n1825 16%\n99999999 19%\nWhen a contract is created, the Interest Rate that gets picked up is 16%, since 2190 days falls \nin the second slab i.e. 1825 days to 99999999 days and the corresponding rate for that slab \nis 16%.\nMargin Basis\nIndicate the basis for the interest margin and the method for applying the interest margin on \nthe selected interest component for contracts using this product. \nYou need to specify how the system must obtain the interest margin (if any) that must be \napplied on the selected interest component at the time of fixing the interest rate for contracts \nusing the product. The available options are:"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Facility",
+        "Tranche",
+        "Drawdown",
+        "Customer",
+        "Rate Cycle Type"
+      ],
+      "summary": "This page describes how different options for margin application are handled in a financial system, including defaults based on facility and tranche contracts, requirements for fixed interest rates, and methods for applying floating rates.",
+      "raw_text": "2-23\nFacility - The system defaults the margin from the borrower facility contract with which \nthe drawdown is linked.\nTranche - The system defaults the margin from the borrower tranche contract with which \nthe drawdown is associated.\nDrawdown - If this option is chosen, you must enter the applicable margin when the \ninterest rate is fixed.\n– \nThis component which you select is excluded from all the processing including \nliquidation and this calculation type is only used for margin application.\n– \nAfter defining this component, booked formula for main interest component needs \nto be modified by replacing INTEREST_RATE with INTEREST_RATE + \nMARGIN_RATE. By doing this the interest gets calculated based on resolved \ninterest rate (i.e. including floating rate and spread if applicable) and the margin.\nCustomer - If this option is chosen, then the margin will be applicable to all drawdown \ncontracts under the selected customer.\nRate Cycle Type\nFor floating type of interest components and fixed type with rate code attached, you can \nindicate the manner in which floating rates should be applied. \nThe preference that you specify here is used when an interest component does not fit into any \ndirect parameter defined for the floating rate code. The options available are:\nUp – Choose this option to indicate that the rate of the upper tenor slab should be used\nDown - Choose this option to indicate that the rate of the lower tenor slab should be used\nInterpolate - Choose this option to indicate that the rate should be interpolated between \nthe rates of the upper and lower slabs\nRound Off - Choose this option to indicate that the tenor of the component should be \nrounded off to the nearest whole number. The rate defined for the derived tenor will be \napplied to the component.\nNote\n– \nIf the calculation tenor is less than the minimum tenor maintained for a slab, then \nrate of the minimum tenor slab will be picked up irrespective of the rate calculation \ntype. \n– \nIf the tenor is greater than the maximum tenor slab maintained, then rate of the \nmaximum tenor slab will be picked up irrespective of the rate calculation type. \n– \nIf the tenor is exactly equal to the tenor slab maintained, the rate of this tenor slab \nwill be picked up irrespective of the rate calculation type\n2.7.5 \nProduct Limits\nFor contracts in a particular currency linked to the same product, you should specify:\nFor Fixed Rate products:\nThe standard rate that is applicable for contracts involving the product\nThe Minimum and Maximum interest rate that can be applied on a contract\nIf the interest rate specified for a contract is less than this minimum rate, the minimum rate will \nbe applied on the contract. Similarly, if the interest rate specified for a contract is greater than \nthis maximum rate, this rate will be applied on the contract."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "For Floating Rate Products",
+        "Default Spread",
+        "Prepayment Spread or Prepayment Rate"
+      ],
+      "summary": "This page discusses the setting of minimum and maximum rates/spreads for fixed and floating interest products to ensure they stay within specified limits, and mentions default spreads and prepayment spreads for deposits.",
+      "raw_text": "2-24\nThe minimum, maximum and default rates allows negative value, if ‘Negative Interest \nAllowed’ is checked for the class code.\nBy defining minimum and maximum rates for a fixed interest, you can ensure that your rates \nstay within the stipulated limits.\n2.7.6 \nFor Floating Rate Products \nFor Floating Rate products, you should specify the Minimum and Maximum spread that can \nbe applied on the floating rate.\nIf the spread specified during contract processing is less than the value specified as the \nminimum spread, this value will be picked up as the spread. Similarly, if the spread specified \nduring contract processing is more than the value specified as maximum spread, this value \nwill be picked up as the spread.\nBy defining minimum and maximum spread for floating interest, you can ensure that the \nspread stays within the stipulated limits.\nNote\nIf you specify a rate/spread that does not fall within the limits maintained, the system will \ndisplay an override message.\nIn addition to specifying minimum and maximum spread, you can also maintain default spread \nfor the product. \nDefault Spread\nIn the Default Spread field, you are allowed to specify both positive and negative spread as \ndefault for the product you are maintaining. The system validates this spread against the \nminimum and maximum spread you have specified for the currency. Subsequently, the \nspread will be defaulted to the contract. \nPrepayment Spread or Prepayment Rate\nThis field is specific to Deposits. Based on the Pre Payment Method chosen at the product \nlevel, the penalty rate is derived. The derived penalty rate defaults in to the Payment Input \nscreen and you can choose to change it there.\nThe prepayment rate will be treated as spread if you have chosen prepayment method as \nFLEXCUBE i.e. the prepayment rate is subtracted from the contract interest rate. The day \ncount for which penalty needs to be calculated is the number of days the deposit has run. \nIn other case, if the prepayment method is CUSTOM, then the system calculates the \nprepayment penalty using this rate as the actual rate. . For CUSTOM method, the day count \nis the number of days remaining in the deposit after prepayment.\nNote\nThe Amount Tag MAININT_ADJ should be picked up while you define the accounting en-\ntries for the Penalty Amount, at the product level\nSpecifying Interest Details for a Contract\nWhen the details of a contract are captured, the interest details defined for the product \ninvolved will automatically be applied on the contract. However, you can change certain \nattributes."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "At the time of processing the contract",
+        "For a BC product",
+        "From the Contract On-line screens",
+        "For example, there can be one interest rule for the main interest"
+      ],
+      "summary": "This page discusses how to modify certain attributes in contracts, including rates and interest rules, and explains restrictions based on specific product settings.",
+      "raw_text": "2-25\nAt the time of processing the contract, you can change the following attributes:\nThe rate for contracts with a fixed rate\nThe rate code for contracts with floating rate. The spread defined for a rate code can \nalso be changed\nFor a BC product, you may have chosen the ‘Consider as Discount’ option (specified through \nthe ‘ICCF Details’ screen) and you may have specified the interest collection method to be \nadvance (specified through the ‘Bills and Collections Product - Preferences’ screen). If you \nassociate a BC contract to a product with the above specifications, you cannot change the \n’Rate Code’ here. \nFrom the Contract On-line screens, click ‘ICCF’ button to access the Contract ‘ICCF’ screen.\nIt is possible to define more than one interest rule. You can have several interest rules, which \nyou link to a product. The contract involving the product, in turn, will be linked to these interest \nrules.\nFor example, there can be one interest rule for the main interest (for example, 14%). You can \nhave a tenor-based commission defined as an interest rule for the same product (for example, \n3%). Both these will be applicable to the contract. \nIn the Contract ICCF Screen use the set of arrow buttons to go to the next or previous or the \nfirst or last rule that has been linked."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Interest Details",
+        "Rate Type",
+        "Rate Code"
+      ],
+      "summary": "This page describes the fields displayed on the contract ICCF screen, including default values and options for interest details such as rate type and code.",
+      "raw_text": "2-26\nThe contract ICCF screen, displays the interest details inherited, from the product to which it \nis linked. The defaulted fields that can be changed have been mentioned in the On-line help \nfor the field. The following details are defaulted:\nContract Reference Number\nThe reference number of the contract you are processing. \nEvent\nThe event is to which the component should be applied together with its description.\nComponent\nThe component for which you are entering details together with its description. \nCurrency \nThe settlement currency which is defined in the Interest Class screen will be displayed in this \nfield. This is a display only field.\n2.7.7 \nInterest Details\nRate Type\nThe rate type applicable for the product, that the contract involves, is displayed here. It can \nbe one of the following:\nFixed \nFloating\nSpecial\nYou can change the rate type from ‘Floating’ to ‘Fixed’ or vice-versa during the tenor of a \ncontract. The schedules will be recalculated based on the new interest rate.\nIf you change the rate type from ‘Fixed’ to ‘Floating’ and the revision method is ‘Periodic’, the \nsystem will default the rate revision schedule from the product.\nIf the interest is a fixed amount and not a percentage of the principal amount, the rate type will \nbe 'Special'. In this case you must specify the fixed amount for the contract in the ‘Interest \nAmount’ field.\nRate Code\nIf the Interest Rate Type (previous field) has been specified as Floating, indicate the Rate \nCode to which the product has to be linked. Similarly if a fixed rate contract has been linked \nto the deposit product, you will have to specify a fixed rate contract here. The fixed rate \nidentified for the main component of the linked contract will apply to the deposit contract also.\nThe Rate Code corresponds to the rates, defined in the Floating Rates table, that have to be \napplied for the product. A Rate Code identifies a set of rates defined for a combination of \nCurrency, Amount (if it is necessary) and an Effective Date.\nSelect from the option list of Rate Codes and choose the one applicable for the product you \nare defining. The Rate Code can be changed during contract processing.\nInterest Basis\nThis field indicates how the system must consider the tenor basis upon which interest is \ncomputed over a schedule or interest period, in respect of the interest component being \nassociated with the product. The specification made for the specified interest class is \ndefaulted in this field. You can alter the default, if necessary, and select the required Interest \nPeriod Basis from the drop down list.\nYou can choose any of the following options:"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Including the From Date:",
+        "Including the To Date:",
+        "Including both From and To Dates:",
+        "Excluding both From and To Dates:"
+      ],
+      "summary": "This page explains different methods of interest calculation based on whether the from date, to date, or both are included or excluded in the schedule periods.",
+      "raw_text": "2-27\nIncluding the From Date: For all schedules, the period considered for interest calculation \nwould include the start date and exclude the end date. Therefore, the value date of the \ncontract is considered for interest calculation and the maturity date is excluded.\nIncluding the To Date: For all schedules, the period considered for interest calculation \nwould exclude the start date and include the end date. Therefore, the value date of the \ncontract is excluded, but the maturity date is included for interest calculation.\nIncluding both From and To Dates: The period considered for interest calculation would \ninclude both the value date and the maturity date. This means the following:\nFor the first schedule, it would include the Value Date. Interest would be calculated for \nthe Value Date\nFor the last schedule, it would include the Maturity Date. Interest would be calculated \nfor the Maturity Date\nExcluding both From and To Dates: The period considered for interest calculation would \nexclude both the value date and the maturity date. This is:\nFor the first schedule, it would exclude the Value Date. No interest would be calculated \nfor the Value Date\nFor the last schedule, it would exclude the end date. No interest would be calculated for \nthe Maturity Date\nGrace Period for an Interest Component\nThe grace days that you specify for any level of interest in the Product ICCF screen will default \nto contracts entered under that product. For interest components of Level 1 or above and of \n‘Overdue’ category, you can change the grace days for a particular contract, subject to the \ncondition that grace days for a particular level do not exceed that for any successive level. \nThe number of grace days for interest components of Level 0 and ‘Expected’ category will \nalways be 0.\nYou can change grace days and/or rate for an interest component from value date \namendment screen by triggering the events VAMB / VAMI. For any interest component, a \nchange in grace days or rate can be back valued only as far back as the date of the last \npayment received.\nMinimum and Maximum Rates\nThis field is applicable only for contracts using a product with Fixed Interest Rate Type. It \nindicates the minimum interest rate that can be applied on the deal, and the value is defaulted \nfrom the specification made for the product used by the contract. If the interest rate specified \nfor a deal is less than this minimum rate, this rate will be applied on the deal.\nIt indicates the maximum interest rate that can be applied on the deal, and the value is \ndefaulted from the specification made for the product used by the contract. If the interest rate \nspecified for a deal is more than this maximum rate, this rate will be applied on the deal. \nBy defining minimum and maximum rates for a fixed interest, you can ensure that your rates \nstay within the stipulated limits.\nFixed Rate\nIf the product involved in the contract has a fixed interest rate defined then at the contract the \nattributes defaults. The rate which gets defaulted from the product can be changed.\nAcquired Interest\nIf the contract was already initiated when it was input, the interest amount that has been \naccrued should be entered here. The amount will be taken into account during the next \nliquidation cycle. You can make changes to the acquired interest through this screen."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Minimum Spread",
+        "Maximum Spread",
+        "Waiver",
+        "To amend a contract",
+        "Consider as Discount"
+      ],
+      "summary": "This page explains various fields and options related to interest components in contracts, including minimum and maximum spreads, waiver, amending contracts, and considering an interest component for discount accrual.",
+      "raw_text": "2-28\nMinimum Spread\nThis field is applicable only when the interest Rate Type is Floating. Specify the minimum \nspread that can be applied on a contract involving this Product and Component. If the spread \nspecified during contract processing is less than the value in this field, this value will be picked \nup as the spread.\nMaximum Spread\nSpecify the maximum spread that can be applied on a contract involving this Product and \nComponent. If the spread specified during contract processing is greater than the value in this \nfield, this value will be picked up as the spread.\nWaiver\nThe attributes of an interest component that have been defined for a product will be applied \non a contract involving the product. If, for some reason you do not want to apply the interest \ncomponent for the contract you are processing, you can do so by checking this field. The \ninterest will be calculated but it will not be applied on the contract.\nTo amend a contract, you have to invoke the Contract Interest, Charge and Fee screen of the \nICCF module through the Value Dated Changes function. \nConsider as Discount\nWhile defining an interest class for the bills module, you can use this field to indicate whether \nthe interest component is to be considered for discount accrual on a constant yield basis. \nChecking this box indicates that the interest component is to be considered for discount \naccrual on a constant yield basis.\nIf you select this option the interest received against the component is used in the \ncomputation of the constant yield and subsequently amortized over the tenor of the \nassociated contract.\nChecking this option also indicates that the interest components are to be considered for \ncalculation of the Internal Rate of Return.\nDenominator Basis\nThis is applicable to the interest methods which have their interest basis set to ACTUAL i.e. \n30(EURO)/ACTUAL, 30(US)/ACTUAL and ACTUAL/ACTUAL. Denominator Basis is used to \nspecify how the month of February is treated when the denominator is 'Actual'. \nThere are two types of denominator basis methods:\nPer Interest Basis – Here the computation would be done based on ACT/ACT–ISMA \nInterest Method. In this case, the '366 Basis' field will not be applicable\nPer Annum (A) – Here the interest calculation will depend on the value you specify for \n366 Basis\n366 Basis\nThis is applicable only if the Denominator Basis is set to 'Per Annum'. You can select one of \nthe following values here:\nLeap Year\nLeap Date – computation would be done based on ACT/ACT–FRF Interest Method\nNote\nIn the ACT/ACT– ISMA Interest Method the Numerator would be Actual number of days \nbetween two interest dates. Denominator would be computed as the product of the num-\nber of times interest is to be received."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Interest Periods",
+        "Floating Rate Details"
+      ],
+      "summary": "This page explains how to configure interest periods and floating rate details for financial products, including specifying tenors and rate cycle types.",
+      "raw_text": "2-29\nInterest Periods\nThis is applicable if the Denominator Basis is 'Per Interest Period'. Here you can specify the \nnumber of Interest periods (Schedules) in the financial year.\nNote\nIn the Money Market and Corporate Deposit product interest screens, the following fields \nallow negative value input if negative interest is allowed for the component:\n– \nDefault Rate\n– \nMinimum Rate\n– \nMaximum Rate\n2.7.8 \nFloating Rate Details\nReset Tenor\nEnter the tenor for which the floating rate (when applied automatically) needs to be picked up \nfrom the floating rates table, for contracts using this product. This field is applicable to floating \ntype of interest components and fixed type with rate code attached.\nRate Cycle Type\nSpecify the rate cycle type to be used for contracts using this product.\nThe rate cycle type is the manner in which the floating rate should be picked up for the \ncontract. The preference that you specify here is used when the interest component does not \nfit into any direct parameter defined for the Rate Code. The options available are:\nUp – Choose this option to indicate that the rate of the upper tenor slab should be used\nDown - Choose this option to indicate that the rate of the lower tenor slab should be used\nInterpolate - Choose this option to indicate that the rate should be interpolated between \nthe rates of the upper and lower slabs\nRound-off - Choose this option to indicate that the tenor of the component should be \nrounded off to the nearest whole number. The rate defined for the derived tenor will be \napplied to the component.\nThis field is applicable to floating type of interest components and fixed type with rate code \nattached. This specification cannot be changed when you enter a contract using this product.\nInterest Basis\nThe interest basis indicates the method in which the tenor for interest has to be calculated, if \ntheir application is tenor based. It could be one of the following:\n(Euro)/ 360\n(US)/ 360\nActual/ 360\n(Euro)/ 365\n(US)/ 365\nActual/ 365\n(Euro)/ Actual\n(US)/ Actual\nActual / Actual\nThe Interest Basis defined for the product involved in the contract will be displayed. You can \nchange it here to suit the bill you are processing."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Borrow Lend Indicator",
+        "Rate Code Usage",
+        "View Details Tab"
+      ],
+      "summary": "This page explains how to use fields for indicating borrowing and lending rates, defining rate codes, and viewing interest rule details in a contract.",
+      "raw_text": "2-30\nBorrow Lend Indicator\nYou can use this field to indicate whether the borrowing rate, lending rate or mid rate must be \npicked up from the floating rate table, for the specified rate code. This specification cannot be \nchanged when you enter a contract using this product. \nRate Code Usage\nEnter a code to identify the Floating Rate you are defining. You can associate several \ncurrencies to the rate code and specify rates for each currency.\nWhile processing a contract, you need to indicate this code to make the rate applicable to the \ncontract.\n2.7.9 \nView Details Tab\nYou can view details of the interest rules maintained in the ‘View Details’ tab. To view these \ndetails click ‘View Details’ tab in the Interest sub screen.\nYou can view the following details here:\nComponent\nValue Date\nESN\nDate\nRate Type\nRate Code\nSpread\nRate\nCurrency\nAmount"
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Querying for Overdue Component Details",
+        "Waiving an Interest Rule"
+      ],
+      "summary": "This page explains how to query overdue component details using a specific screen and describes the option to waive interest rules defined for a product.",
+      "raw_text": "2-31\n2.7.10 \nQuerying for Overdue Component Details\nInvoke the ‘Loans & Deposits Overdue Component Query’ screen by typing ‘LDDPENLT’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nEnter the contract reference number and a valid date, which is less than or equal to the \nsystem date. The following details are shown for the current level of penalty interest \ncomponents for each overdue schedule of the contract. Details are computed till the date you \nhave entered or the next compounding date, whichever is earlier. Any level of overdue interest \ncan be the current level. Also, details for the current level interest component are displayed \nas long as the component is either partially paid or unpaid:\nThe current Level \nThe overdue interest component\nThe tenor for the overdue component – this is the number of days for which the overdue \ncomponent is applicable\nNext Compounding Date – the date on which the next level of overdue component takes \neffect\nThe total overdue interest projected for the overdue component till the next \ncompounding date or till the date specified in your query, whichever is earlier.\nYou can also generate an advice to show all the above details.\n2.7.11 \nWaiving an Interest Rule\nYou have the option of waiving those rules (defined for the product), which you do not wish to \napply on a contract. \nFor example, for a product, there can be one interest rule for the main interest (for example, \n14%). You can have a tenor-based commission defined as an interest rule for the same \nproduct (for example, 3%). Both these will apply to contracts involving the product. However, \nyou can waive these rules for a specific contract. For instance, you can waive the 3% \ncommission on the contract (by checking the Waive field.)"
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Amending Interest Components",
+        "Defining Interest Repayment Schedules",
+        "Defining Interest Payment Schedules for the Product"
+      ],
+      "summary": "This page discusses methods for amending interest components in contracts, defining interest repayment schedules at both a product and contract level, and specifying attributes for interest payment schedules within products.",
+      "raw_text": "2-32\n2.7.12 \nAmending Interest Components\nOnce a contract is authorized, any change in details that would affect the financial information \nof the contract has to be made through the Value Dates Changes function.\nIf a Value Dated Change demands a change in interest, you can change the following in the \nICCF screen (invoked through the Value Date Changes screen):\nInterest basis\nRate\nRate Code\nAcquired Interest\nRate Code\nSpread\nAmount of charge or fee\n2.7.13 \nDefining Interest Repayment Schedules\nYou can define interest payment schedules for the product. These will be applicable to all \ncontracts involving the product. But at the time of processing a contract you can change the \nschedules to suit its requirements.\nIn defining interest payment schedules, both for the product and the contract, the following \nsteps are involved:\nFirst define schedule preferences or attributes\nThen define the actual schedules\n2.7.14 \nDefining Interest Payment Schedules for the Product\nYou have to specify the following attributes or preferences through the Product Preferences \nscreen:\nMode of liquidation - auto or manual. This can be changed at the time of contract \nprocessing. Your specification will be made applicable to all components of the contract. \nLiquidation of back valued schedules upon initiation of a contract. This can be changed \nat the time of contract processing\nRe-computation of interest on the future schedules of a contract when a repayment of \nprincipal is made before it is due \nThe schedule type - amortized, capitalized or normal \nOnce these attributes of the schedules are defined in the Product Preferences screen, the \nfrequency of repayments has to be defined through the Product Schedules screen. \nIf you do not define any schedules for the product, by default, the contracts involving the \nproduct will have bullet (or balloon) schedules. That is, all the components will be liquidated \nat maturity.\n2.8 \nInterest Payment Schedules for a Contract\nThis section contains the following topics:\nSection 2.8.1, \"Defining Interest Payment Schedules for a Contract\"\nSection 2.8.2, \"Revision Schedules and Repayment Schedules\"\nSection 2.8.3, \"Enabling the ‘Consider as Discount’ Option\""
+    },
+    {
+      "page_number": 39,
+      "sections": [],
+      "summary": "This page discusses various aspects of defining and managing schedules for a contract, including interest payment preferences, schedule types, and options for handling holidays.",
+      "raw_text": "2-33\nSection 2.8.4, \"Specifying if Accruals are Required\"\n2.8.1 \nDefining Interest Payment Schedules for a Contract\nSchedule preferences are the attributes of the repayment schedules defined for the contract. \nThrough a set of fields in the Contract Preferences screen, you can specify:\nHow liquidation dates falling on holidays should be handled\nWhether back valued schedules should be liquidated upon initiation\nThe type of amortization, if amortization has been specified for the product\nWhether schedule dates should be cascaded in case you have indicated that they \n(schedule dates) be moved forward or backward in case of a holiday\nThe holiday table of the country of the contract currency that has to be checked before \nsetting automatic schedules\nCertain attributes are inherited from the product and these can be changed here:\nLiquidating schedules that fall due before the day on which the contract is booked\nLiquidation mode (auto to manual)\nThe schedule type - amortized, capitalized, or normal is inherited from the product and \ndisplayed for the contract.\n2.8.2 \nRevision Schedules and Repayment Schedules\nIn the Contract Schedules screen, you can define two types of schedules:\nThose for the revision of interest rates for a contract (with fixed interest rates) \nThose for repayment of the various components\n2.8.3 \nEnabling the ‘Consider as Discount’ Option\nWhile defining an interest class for either the bills module, you can indicate whether the \ninterest component is to be considered for discount accrual on a constant yield basis.\nThe value for this field is defaulted from the Interest Definition and it can be changed here. \nIf you select this option the interest received against the component is used in the \ncomputation of the constant yield and subsequently amortized over the tenor of the \nassociated contract.\nNote\nYou will be allowed to enable the Consider as Discount option for contracts only when the \npayment method specified is Discounted or True Discounted and for the Discount opera-\ntion for Export bills. \nFor bearing type of contracts, all future interest cash flows are considered for computation of \nconstant yield. For discount type of contracts, only the interest amount received for the \ncomponents with the ‘Consider as Discount’ option enabled are considered for the \ncomputation of constant yield; subsequently the interest amount received in advance for \nthese components is amortized over the tenor of the associated contract."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Specifying if Accruals are Required"
+      ],
+      "summary": "This section explains how to specify accruals for BC contracts and the interdependencies between the 'Consider as Discounted' and 'Accruals' options.",
+      "raw_text": "2-34\n2.8.4 \nSpecifying if Accruals are Required\nIf both options ‘Consider as Discounted’ and ‘Accruals’ are not checked when you associate \nthe product and interest, you cannot specify the same here. They are disabled in this case. \nThis pertains to BC contracts.\nIn case of contracts of bearing type, if the ‘Accruals’ option is not checked then you cannot \ncheck the ‘Consider as Discount’ option. In case of discounted contracts you can select either \nof the options or both together. If the options ‘Accruals’ and ‘Consider as Discount’ are \nselected then the discounted interest is considered for IRR calculation. If the option ‘Accruals’ \nis not checked and ‘Consider as Discount’ is selected then the discounted interest is a part of \nthe Total Discount to be Accrued. These validations pertain to BC contracts."
+    },
+    {
+      "page_number": 41,
+      "sections": [],
+      "summary": "",
+      "raw_text": "3-1\n3. Function ID Glossary\nC\nCFDICCFR .................................2-2\nCFDINTCE ...............................2-10\nCFDRUMNE ...............................2-5\nL\nLDDPENLT ...............................2-31"
+    }
+  ]
+}

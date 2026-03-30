@@ -1,0 +1,1931 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base_-_Sub_Systems/Class-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 45,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces classes and focuses on defining an interest class and maintaining it.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual's purpose, target audience, accessibility information, and structure, including chapters on setting up classes and function IDs.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual's purpose, target audience, accessibility information, and structure, including chapters on setting up classes and function IDs.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual's purpose, target audience, accessibility information, and structure, including chapters on setting up classes and function IDs.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual's purpose, target audience, accessibility information, and structure, including chapters on setting up classes and function IDs.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the manual's purpose, target audience, accessibility information, and structure, including chapters on setting up classes and function IDs.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces the manual's purpose, target audience, accessibility information, and structure, including chapters on setting up classes and function IDs.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Classes",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Defining Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Rate Button",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Accrual Fee Class Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Accrual Fee Class Maintenance Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Fields Button",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Old Charges Class Maintenance",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Invoking Charge Class Maintenance Screen",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Fields Button",
+          "start_page": 24
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Tax Class Maintenance",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking Tax Class Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Defining Issuer Taxes as Classes",
+          "start_page": 27
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Adhoc Fee Class",
+          "start_page": 28
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Adhoc Fee Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Customer Restriction Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Customer Restriction Class",
+          "start_page": 31
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Discount Accrual Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Discount Accrual Class",
+          "start_page": 33
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Events Class Maintenance",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Event Class Maintenance Screen",
+          "start_page": 36
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Accounting Entries Button",
+          "start_page": 37
+        },
+        {
+          "structure": "3.12.3",
+          "title": "2.12.3 Advices Button",
+          "start_page": 38
+        },
+        {
+          "structure": "3.12.4",
+          "title": "2.12.4 Fields Button",
+          "start_page": 39
+        },
+        {
+          "structure": "3.12.5",
+          "title": "2.12.5 Maintaining Event Class for Account Initial Funding",
+          "start_page": 39
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 Role to Head Mapping Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking Role to Head Mapping Class Maintenance Screen",
+          "start_page": 42
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Fields Button",
+          "start_page": 43
+        },
+        {
+          "structure": "3.13.3",
+          "title": "2.13.3 Maintaining a Class for Account Opening Charge",
+          "start_page": 43
+        }
+      ]
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page provides references to Oracle FLEXCUBE manuals for further information on procedures discussed in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Creating Classes",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the creation and maintenance of classes in Oracle FLEXCUBE, including mandatory and optional classes such as Interest, Charge, Tax, and various restriction classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page discusses the creation and maintenance of classes in Oracle FLEXCUBE, including mandatory and optional classes such as Interest, Charge, Tax, and various restriction classes.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Interest Class",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section explains how to define an interest class by specifying details such as class code, description, rule, and event in the 'Interest Class Definition' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Defining Interest Class",
+      "start_page": 7,
+      "end_page": 12,
+      "summary": "This section explains how to define an interest class by specifying details such as class code, description, rule, and event in the 'Interest Class Definition' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Interest Class Maintenance",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page discusses the maintenance of interest classes for securities and derivatives, including how to invoke the maintenance process and define attributes such as minimum and maximum rates and spreads.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Invoking Interest Class Maintenance",
+      "start_page": 12,
+      "end_page": 15,
+      "summary": "This page discusses the maintenance of interest classes for securities and derivatives, including how to invoke the maintenance process and define attributes such as minimum and maximum rates and spreads.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Rate Button",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page explains the concept of tenors in rate codes and how to use them when building interest components, as well as provides instructions on accessing and using different maintenance screens for fee classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Accrual Fee Class Maintenance",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page explains the concept of tenors in rate codes and how to use them when building interest components, as well as provides instructions on accessing and using different maintenance screens for fee classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Invoking Accrual Fee Class Maintenance Screen",
+      "start_page": 15,
+      "end_page": 17,
+      "summary": "This page explains the concept of tenors in rate codes and how to use them when building interest components, as well as provides instructions on accessing and using different maintenance screens for fee classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.2",
+      "title": "2.4.2 Fields Button",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page discusses how to consider a fee component as part of discount accrual, capture user-defined fields, and maintain charge classes with specific attributes for different types of charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Charge Class",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page discusses how to consider a fee component as part of discount accrual, capture user-defined fields, and maintain charge classes with specific attributes for different types of charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.1",
+      "title": "2.5.1 Maintaining Charge Class",
+      "start_page": 17,
+      "end_page": 23,
+      "summary": "This page discusses how to consider a fee component as part of discount accrual, capture user-defined fields, and maintain charge classes with specific attributes for different types of charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Old Charges Class Maintenance",
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This page explains how to set up a charge class for transactions in specific modules and details the steps involved in invoking and using the 'Charge Class Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Invoking Charge Class Maintenance Screen",
+      "start_page": 23,
+      "end_page": 24,
+      "summary": "This page explains how to set up a charge class for transactions in specific modules and details the steps involved in invoking and using the 'Charge Class Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.2",
+      "title": "2.6.2 Fields Button",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This page describes how to configure various settings for a charge component, including selecting rules, defining components, specifying amount types and currencies, setting conditions for collection, and capturing user-defined fields.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 Tax Class Maintenance",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page describes how to define and invoke the 'Tax Class Maintenance' screen for setting up transaction level taxes in different modules.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.1",
+      "title": "2.7.1 Invoking Tax Class Maintenance Screen",
+      "start_page": 25,
+      "end_page": 27,
+      "summary": "This page describes how to define and invoke the 'Tax Class Maintenance' screen for setting up transaction level taxes in different modules.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.2",
+      "title": "2.7.2 Defining Issuer Taxes as Classes",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This page discusses how to set up default tax rules and link them to tax components, as well as including these components in SWIFT messages for reporting purposes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8",
+      "title": "2.8 Adhoc Fee Class",
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "This page discusses the life cycle stages of a security in Oracle FLEXCUBE and how to define an Issuer Tax class by specifying association events and basis amounts, as well as introduces Adhoc Fee Class.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.1",
+      "title": "2.8.1 Maintaining Adhoc Fee Class",
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This page describes how to maintain adhoc fee classes and branch currency restriction classes in a system through specific screens accessed from the Application Browser.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9",
+      "title": "2.9 Branch Currency Restriction Class",
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This page describes how to maintain adhoc fee classes and branch currency restriction classes in a system through specific screens accessed from the Application Browser.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.1",
+      "title": "2.9.1 Maintaining Branch Currency Restriction Class",
+      "start_page": 29,
+      "end_page": 3,
+      "summary": "This page describes how to maintain adhoc fee classes and branch currency restriction classes in a system through specific screens accessed from the Application Browser.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10",
+      "title": "2.10 Customer Restriction Class",
+      "start_page": 3,
+      "end_page": 31,
+      "summary": "This page introduces classes and focuses on defining an interest class and maintaining it.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Classes",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Defining Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Rate Button",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Accrual Fee Class Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Accrual Fee Class Maintenance Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Fields Button",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Old Charges Class Maintenance",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Invoking Charge Class Maintenance Screen",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Fields Button",
+          "start_page": 24
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Tax Class Maintenance",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking Tax Class Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Defining Issuer Taxes as Classes",
+          "start_page": 27
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Adhoc Fee Class",
+          "start_page": 28
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Adhoc Fee Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Customer Restriction Class",
+          "start_page": 31
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Discount Accrual Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Discount Accrual Class",
+          "start_page": 33
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Events Class Maintenance",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Event Class Maintenance Screen",
+          "start_page": 36
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Accounting Entries Button",
+          "start_page": 37
+        },
+        {
+          "structure": "3.12.3",
+          "title": "2.12.3 Advices Button",
+          "start_page": 38
+        },
+        {
+          "structure": "3.12.4",
+          "title": "2.12.4 Fields Button",
+          "start_page": 39
+        },
+        {
+          "structure": "3.12.5",
+          "title": "2.12.5 Maintaining Event Class for Account Initial Funding",
+          "start_page": 39
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 Role to Head Mapping Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking Role to Head Mapping Class Maintenance Screen",
+          "start_page": 42
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Fields Button",
+          "start_page": 43
+        },
+        {
+          "structure": "3.13.3",
+          "title": "2.13.3 Maintaining a Class for Account Opening Charge",
+          "start_page": 43
+        }
+      ]
+    },
+    {
+      "structure": "3.10.1",
+      "title": "2.10.1 Maintaining Customer Restriction Class",
+      "start_page": 31,
+      "end_page": 3,
+      "summary": "This page describes how to specify branch and currency restrictions, as well as maintaining customer restriction classes in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11",
+      "title": "2.11 Discount Accrual Class",
+      "start_page": 3,
+      "end_page": 33,
+      "summary": "This page introduces classes and focuses on defining an interest class and maintaining it.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Classes",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Defining Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Rate Button",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Accrual Fee Class Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Accrual Fee Class Maintenance Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Fields Button",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Old Charges Class Maintenance",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Invoking Charge Class Maintenance Screen",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Fields Button",
+          "start_page": 24
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Tax Class Maintenance",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking Tax Class Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Defining Issuer Taxes as Classes",
+          "start_page": 27
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Adhoc Fee Class",
+          "start_page": 28
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Adhoc Fee Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Customer Restriction Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Customer Restriction Class",
+          "start_page": 31
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Discount Accrual Class",
+          "start_page": 33
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Events Class Maintenance",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Event Class Maintenance Screen",
+          "start_page": 36
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Accounting Entries Button",
+          "start_page": 37
+        },
+        {
+          "structure": "3.12.3",
+          "title": "2.12.3 Advices Button",
+          "start_page": 38
+        },
+        {
+          "structure": "3.12.4",
+          "title": "2.12.4 Fields Button",
+          "start_page": 39
+        },
+        {
+          "structure": "3.12.5",
+          "title": "2.12.5 Maintaining Event Class for Account Initial Funding",
+          "start_page": 39
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 Role to Head Mapping Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking Role to Head Mapping Class Maintenance Screen",
+          "start_page": 42
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Fields Button",
+          "start_page": 43
+        },
+        {
+          "structure": "3.13.3",
+          "title": "2.13.3 Maintaining a Class for Account Opening Charge",
+          "start_page": 43
+        }
+      ]
+    },
+    {
+      "structure": "3.11.1",
+      "title": "2.11.1 Maintaining Discount Accrual Class",
+      "start_page": 33,
+      "end_page": 3,
+      "summary": "This page details how to specify customer categories and manage their access in a system, as well as explains the process of maintaining discount accrual classes for interest, charges, and fees.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12",
+      "title": "2.12 Events Class Maintenance",
+      "start_page": 3,
+      "end_page": 36,
+      "summary": "This page introduces classes and focuses on defining an interest class and maintaining it.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Classes",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Defining Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Rate Button",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Accrual Fee Class Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Accrual Fee Class Maintenance Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Fields Button",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Old Charges Class Maintenance",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Invoking Charge Class Maintenance Screen",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Fields Button",
+          "start_page": 24
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Tax Class Maintenance",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking Tax Class Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Defining Issuer Taxes as Classes",
+          "start_page": 27
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Adhoc Fee Class",
+          "start_page": 28
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Adhoc Fee Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Customer Restriction Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Customer Restriction Class",
+          "start_page": 31
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Discount Accrual Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Discount Accrual Class",
+          "start_page": 33
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Event Class Maintenance Screen",
+          "start_page": 36
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Accounting Entries Button",
+          "start_page": 37
+        },
+        {
+          "structure": "3.12.3",
+          "title": "2.12.3 Advices Button",
+          "start_page": 38
+        },
+        {
+          "structure": "3.12.4",
+          "title": "2.12.4 Fields Button",
+          "start_page": 39
+        },
+        {
+          "structure": "3.12.5",
+          "title": "2.12.5 Maintaining Event Class for Account Initial Funding",
+          "start_page": 39
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 Role to Head Mapping Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking Role to Head Mapping Class Maintenance Screen",
+          "start_page": 42
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Fields Button",
+          "start_page": 43
+        },
+        {
+          "structure": "3.13.3",
+          "title": "2.13.3 Maintaining a Class for Account Opening Charge",
+          "start_page": 43
+        }
+      ]
+    },
+    {
+      "structure": "3.12.1",
+      "title": "2.12.1 Invoking Event Class Maintenance Screen",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This section explains how to invoke and use the 'Events Class Maintenance' screen to define event classes for specific types of charges or events in a particular module.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12.2",
+      "title": "2.12.2 Accounting Entries Button",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page describes how to specify a class description and accounting entries for events in an event class, including details that can be displayed and specified through the 'Accounting Entries' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12.3",
+      "title": "2.12.3 Advices Button",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This page explains how to use the 'Advices' button at an event to define advice generation and details such as advice name, description, generation time, suppression, and priority.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12.4",
+      "title": "2.12.4 Fields Button",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page describes how to capture user-defined fields and maintain event classes for initial funding on a customer account.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12.5",
+      "title": "2.12.5 Maintaining Event Class for Account Initial Funding",
+      "start_page": 39,
+      "end_page": 3,
+      "summary": "This page describes how to capture user-defined fields and maintain event classes for initial funding on a customer account.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.13",
+      "title": "2.13 Role to Head Mapping Class",
+      "start_page": 3,
+      "end_page": 42,
+      "summary": "This page introduces classes and focuses on defining an interest class and maintaining it.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 5
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Creating Classes",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Defining Interest Class",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Interest Class Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Rate Button",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Accrual Fee Class Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Accrual Fee Class Maintenance Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "3.4.2",
+          "title": "2.4.2 Fields Button",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Charge Class",
+          "start_page": 17
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Old Charges Class Maintenance",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Invoking Charge Class Maintenance Screen",
+          "start_page": 23
+        },
+        {
+          "structure": "3.6.2",
+          "title": "2.6.2 Fields Button",
+          "start_page": 24
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Tax Class Maintenance",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking Tax Class Maintenance Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Defining Issuer Taxes as Classes",
+          "start_page": 27
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 Adhoc Fee Class",
+          "start_page": 28
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Maintaining Adhoc Fee Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Maintaining Branch Currency Restriction Class",
+          "start_page": 29
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Customer Restriction Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Maintaining Customer Restriction Class",
+          "start_page": 31
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Discount Accrual Class",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Maintaining Discount Accrual Class",
+          "start_page": 33
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Events Class Maintenance",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Event Class Maintenance Screen",
+          "start_page": 36
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Accounting Entries Button",
+          "start_page": 37
+        },
+        {
+          "structure": "3.12.3",
+          "title": "2.12.3 Advices Button",
+          "start_page": 38
+        },
+        {
+          "structure": "3.12.4",
+          "title": "2.12.4 Fields Button",
+          "start_page": 39
+        },
+        {
+          "structure": "3.12.5",
+          "title": "2.12.5 Maintaining Event Class for Account Initial Funding",
+          "start_page": 39
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking Role to Head Mapping Class Maintenance Screen",
+          "start_page": 42
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Fields Button",
+          "start_page": 43
+        },
+        {
+          "structure": "3.13.3",
+          "title": "2.13.3 Maintaining a Class for Account Opening Charge",
+          "start_page": 43
+        }
+      ]
+    },
+    {
+      "structure": "3.13.1",
+      "title": "2.13.1 Invoking Role to Head Mapping Class Maintenance Screen",
+      "start_page": 42,
+      "end_page": 43,
+      "summary": "This page describes how to invoke and use the 'Role to Head Mapping Class Maintenance' screen to create and maintain classes, including specifying class details such as code, description, module, and role to head mapping.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.13.2",
+      "title": "2.13.2 Fields Button",
+      "start_page": 43,
+      "end_page": 43,
+      "summary": "This page describes how to specify accounting roles and heads, define user-defined fields, and maintain classes for account opening charges in the system.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.13.3",
+      "title": "2.13.3 Maintaining a Class for Account Opening Charge",
+      "start_page": 43,
+      "end_page": 45,
+      "summary": "This page describes how to specify accounting roles and heads, define user-defined fields, and maintain classes for account opening charges in the system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 45,
+      "end_page": 47,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page serves as a user guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Class User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited.",
+      "raw_text": "Class User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Interest Class"
+      ],
+      "summary": "This page introduces classes and focuses on defining an interest class and maintaining it.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-1\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nCreating Classes ...................................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nInterest Class...........................................................................................................  2-2\n2.2.1  \nDefining Interest Class ...............................................................................  2-2\n2.3 \nInterest Class Maintenance .....................................................................................  2-7\n2.3.1  \nInvoking Interest Class Maintenance..........................................................  2-7\n2.3.2  \nRate Button...............................................................................................  2-10\n2.4 \nAccrual Fee Class Maintenance............................................................................  2-10\n2.4.1  \nInvoking Accrual Fee Class Maintenance Screen....................................  2-10\n2.4.2  \nFields Button.............................................................................................  2-12\n2.5 \nCharge Class.........................................................................................................  2-12\n2.5.1  \nMaintaining Charge Class ........................................................................  2-12\n2.6 \nOld Charges Class Maintenance...........................................................................  2-18\n2.6.1  \nInvoking Charge Class Maintenance Screen ...........................................  2-18\n2.6.2  \nFields Button.............................................................................................  2-19\n2.7 \nTax Class Maintenance.........................................................................................  2-20\n2.7.1  \nInvoking Tax Class Maintenance Screen .................................................  2-20\n2.7.2  \nDefining Issuer Taxes as Classes ............................................................  2-22\n2.8 \nAdhoc Fee Class ...................................................................................................  2-23\n2.8.1  \nMaintaining Adhoc Fee Class...................................................................  2-24\n2.9 \nBranch Currency Restriction Class........................................................................  2-24\n2.9.1  \nMaintaining Branch Currency Restriction Class .......................................  2-24\n2.10 Customer Restriction Class...................................................................................  2-26\n2.10.1  Maintaining Customer Restriction Class...................................................  2-26\n2.11 Discount Accrual Class..........................................................................................  2-28\n2.11.1  Maintaining Discount Accrual Class .........................................................  2-28\n2.12 Events Class Maintenance....................................................................................  2-30\n2.12.1  Invoking Event Class Maintenance Screen ..............................................  2-31\n2.12.2  Accounting Entries Button ........................................................................  2-32\n2.12.3  Advices Button..........................................................................................  2-33\n2.12.4  Fields Button.............................................................................................  2-34\n2.12.5  Maintaining Event Class for Account Initial Funding ................................  2-34\n2.13 Role to Head Mapping Class.................................................................................  2-37\n2.13.1  Invoking Role to Head Mapping Class Maintenance Screen ...................  2-37\n2.13.2  Fields Button.............................................................................................  2-38\n2.13.3  Maintaining a Class for Account Opening Charge....................................  2-38\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Chapter",
+        "About this Manual",
+        "Creating Classes",
+        "Function ID Glossary"
+      ],
+      "summary": "This page introduces the manual's purpose, target audience, accessibility information, and structure, including chapters on setting up classes and function IDs.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help you get acquainted with the manner in which various classes \ncan be set up in Oracle FLEXCUBE.\nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of day operators\nProcessing during end of day/ beginning of day\nFinancial Controller / Product Managers\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives a brief introduction to the module. It also lists the \nvarious chapters in the User Manual. \nChapter 2\nCreating Classes details the procedure to set up different classes in Oracle \nFLEXCUBE.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen IDs used \nin the module with page references for quick navigation\nIcons\nFunction\nExit\nAdd row"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Related Documents"
+      ],
+      "summary": "This page provides references to Oracle FLEXCUBE manuals for further information on procedures discussed in the manual.",
+      "raw_text": "1-2\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nProcedures\nDelete row\nOption List\nIcons\nFunction"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Section 2.2, Interest Class",
+        "Section 2.3, Interest Class Maintenance",
+        "Section 2.4, Accrual Fee Class Maintenance",
+        "Section 2.5, Charge Class",
+        "Section 2.6, Old Charges Class Maintenance",
+        "Section 2.7, Tax Class Maintenance",
+        "Section 2.8, Adhoc Fee Class",
+        "Section 2.9, Branch Currency Restriction Class",
+        "Section 2.10, Customer Restriction"
+      ],
+      "summary": "This page discusses the creation and maintenance of classes in Oracle FLEXCUBE, including mandatory and optional classes such as Interest, Charge, Tax, and various restriction classes.",
+      "raw_text": "2-1\n2. Creating Classes\n2.1 \nIntroduction\nYou need to create a class and attach certain attributes to it. You can build a charge class, for \ninstance, with the attributes of a specific type of charge, such as Charges for provision of \nservices. Similarly, you can build an event class with the attributes of a specific type of events, \nsuch as a Booking a Transaction, Collecting Charges, Cancellation and so on. \nOnce you create classes, you can link them suitably to products thereby avoiding the need to \nspecify the generic attributes available in the class.\nIn Oracle FLEXCUBE, you can categorize these classes into Mandatory and Optional. Unless \ncertain mandatory classes are maintained, you will not be able to process transactions. \nThe mandatory classes that you need to maintain are:\nInterest Class\nInterest Class (SE)\nFee Class\nCharge Class\nOld Charges Class\nTax Class\nThe optional classes that you can maintain are:\nAdhoc Fee Class\nBranch Currency Restriction Class\nCustomer Restriction Class\nDiscount Accrual Class\nEvents Class\nRole to Head Mapping Class\nThis chapter contains the following sections:\nSection 2.2, \"Interest Class\"\nSection 2.3, \"Interest Class Maintenance\"\nSection 2.4, \"Accrual Fee Class Maintenance\"\nSection 2.5, \"Charge Class\"\nSection 2.6, \"Old Charges Class Maintenance\"\nSection 2.7, \"Tax Class Maintenance\"\nSection 2.8, \"Adhoc Fee Class\"\nSection 2.9, \"Branch Currency Restriction Class\"\nSection 2.10, \"Customer Restriction Class\"\nSection 2.11, \"Discount Accrual Class\"\nSection 2.12, \"Events Class Maintenance\"\nSection 2.13, \"Role to Head Mapping Class\""
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Defining Interest Class"
+      ],
+      "summary": "This section explains how to define an interest class by specifying details such as class code, description, rule, and event in the 'Interest Class Definition' screen.",
+      "raw_text": "2-2\n2.2 \nInterest Class\nThis section contains the following topics:\nSection 2.2.1, \"Defining Interest Class\"\n2.2.1 \nDefining Interest Class\nYou need to define the attributes of an interest class, in the ‘Interest Class Definition’ screen, \ninvoked from the Application Browser. You can invoke the ‘Interest Class Definition’ screen \nby typing ‘CFDINCLE’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nYou need to specify the following details:\nClass Code\nSpecify a unique code to identify the class.\nClass Description\nSpecify a brief description for the class.\nRule Code\nSpecify the rule that should be linked to the class. The adjoining option list displays all valid \nrules maintained in the system. You can choose the appropriate one.\nRule Description\nThe system displays the description based on the rule chosen.\nEvent \nSpecify the event at which collection of the interest should be triggered, The adjoining option \nlist displays all events available in the system for the module specified. You can choose the \nappropriate one."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Module",
+        "Basis",
+        "Settlement Currency",
+        "Category",
+        "Accruals",
+        "Bulk Amount"
+      ],
+      "summary": "This page describes various settings and options for specifying interest rates, currencies, categories, accruals, and bulk amounts in a financial module.",
+      "raw_text": "2-3\nModule\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one.\nBasis\nYou can indicate the following details:\nAmount Type\nIf the interest rate type is Fixed or Floating, specify the basis amount on which the interest rate \nhas to be applied. For example, for the FT module, it could be the Transfer amount, for the \nLC module, it could be the LC Contract Amount and so on.\nSettlement Currency\nThe Settlement Currency is the currency in which the interest amount will be calculated. The \ninterest amount applicable for a contract will be calculated in this currency. The appropriate \nconversion rate (defined for the product as the applicable Rate Type) will be applied to carry \nout a conversion if the repayment account is in a different currency.\nCategory\nIf the interest rate type is Fixed or Floating, specify the type of balance that has to be \nconsidered for interest application. It could be any one of the following:\nExpected\nOverdue\nNormal \nOutstanding\nAccruals\nCheck this box to indicate that accruals have to be carried out for the accruable components.\nBulk Amount\nWhen a contract gets rolled over, you may wish to split it into two contracts - one for the \ninterest amount (I) and the other for the principal amount (P). If you want the floating rate pick-\nup for both the new contracts (tenor/amount) to be based on P+I of the original contract, check \nthis box.\nAllow Amendment\nIf you would like to allow amendment of the interest amount calculated by the system as per \nthe charge rule, check this box.\nStop Application\nCheck this box to indicate that collection should stop for the interest component.\nGrace Period\nSpecify the number of grace days, beyond the main interest due date, after which that interest \ncomponent becomes applicable.\nPrepayment Method\nSelect the method for actual prepayment penalty computation from the adjoining drop-down \nlist. The options available are: \nOracle FLEXCUBE - This option is used where pre-payment has to be applied on the \ndeposit contract for contract elapsed days. \nCustom - If the Prepayment Method is Custom, then the prepayment penalty in this case \nwill be the minimum of prepayment penalty and Gross interest on the premature \nwithdrawal amount. The system computes the interest amount to be liquidated due to"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "prepayment of principal",
+        "Main Component",
+        "Negative Interest Allowed",
+        "Negative Class Code",
+        "Link Contract as Ratecode",
+        "Propagation Required"
+      ],
+      "summary": "This page describes various options and settings related to prepayment, interest components, negative interest, rate linking, and propagation requirements in a financial system.",
+      "raw_text": "2-4\nprepayment of principal. You will not be allowed to specify the interest amount during \nthe Payment input in such a case. \nNote\nHere, the system does not include the Acquired interest for processing.\nAlso, if you have chosen the prepayment method as Custom, you cannot prepay or manually \nliquidate either the interest or the principal component. This option is used where pre-payment \nhas to be applied on the deposit contract for contract remaining days.\nMain Component\nCheck this box to indicate that the component should be treated as the main interest \ncomponent.\nNegative Interest Allowed\nCheck this box to allow negative interest for interest class. You can check this box only if \ninterest class is maintained for Money Market, Corporate Deposit or Bills and Collections \nmodule and ‘Main Component’ flag is checked.\nIf negative interest is allowed for an interest class, system will generate a negative interest \ncomponent on saving the interest class. Negative Interest Class name is derived as Main \nInterest Class Code_N. If the length of main interest class code is more than 8, then the \nsystem truncates the interest class code to first eight characters and adds ‘_N”.\nNegative Class Code\nThe system displays the negative class code. \nLink Contract as Ratecode\nCheck this box to indicate that a fixed rate contract may be linked to the floating rate \ncomponent, instead of a rate code.\nPropagation Required\nCheck this option to indicate that the charge collected from the borrower must be passed on \nto the participants of the contract. \nConsider as Discount\nCheck this box to indicate that the fee component should be considered as part of discount \naccrual.\nAlternative Risk-Free Rate\nCheck this check box to specify whether the Risk-Free Rate (RFR) applicable to the \nCorporate Deposits Contracts. If unchecked, Risk-Free Rate (RFR) is not applicable to the \nCorporate Deposits Contracts and hence the below Risk-Free Rate (RFR) related parameters \nalso not applicable.\nAlternative Risk-Free Rate Preferences\nLookback\nSelect this check box to apply Lookback Method to the RFR Interest Component.\nLookback Days\nSpecify the Look back number of days for the Lookback Method of Interest calculation. \nLockout\nSelect this check box to apply Lockout Method to the RFR Interest Component."
+    },
+    {
+      "page_number": 10,
+      "sections": [],
+      "summary": "{\n  \"sections\": [\"Lockout Days\", \"Payment Delay\", \"Payment Delay Days\", \"Last Reset\", \"Last Recent\", \"Plain\", \"Base Computation Method\", \"Spread\\ Margin Computation Method\", \"Spread Adjustment Method\"",
+      "raw_text": "2-5\nLockout Days\nSpecify the Lockout number days for the Lockout Method of Interest calculation. \nPayment Delay\nSelect this check box to apply Payment Delay Method to the RFR Interest Component.\nPayment Delay Days\nSpecify the Payment Delay number of days for the Payment Delay Method of Interest \ncalculation.\nLast Reset \nSelect this check box to apply Last Reset Method to the RFR Interest Component.  \nLast Recent \nSelect this check box to apply Last Recent Method to the RFR Interest Component \nPlain\nSelect this check box to apply Plain Method to the RFR Interest Component.\nBase Computation Method\nSelect the Base Computation Method, Simple or Compound Interest.\nSpread\\ Margin Computation Method\nSelect the Spread or Margin Computation Method, Simple or Compound Method.\nSpread Adjustment Method\nSelect the Spread Adjustment Computation Method, Simple or Compound Method.\nInterest\nSpecify the following details:\nRate Type\nIndicate whether the interest is a Fixed Rate, a Floating Rate or a Special amount. If the Rate \nType is a Floating Rate, you should also specify the Rate Code.\nRate Code\nEach Rate Code corresponds to a rate defined for a combination of Currency, Amount (if it is \nnecessary) and an Effective Date. These details are maintained in the ‘Floating Rates Input’ \nscreen. This rate will be applied to all contracts under products linked to the class.\nCode Usage\nSpecify the method in which the floating rates have to be applied. It could either be automatic \napplication (meaning the rate has to be applied every time it changes), or periodic application \n(meaning the rate has to be applied at a regular frequency, defined for each contract involving \nthe product linked to this class).\nReset Tenor\nFloating interest rates are defined for specific amount slabs and tenor combinations. If you \nare defining a floating interest component or a fixed type with rate code attached, you can \nindicate the reset tenor for which floating rates need to be picked up.\nThe tenor that you specify for the component is defaulted to all contracts with which the \nfloating interest component is associated.\nBorrow Lend Indicator\nIndicate the nature of the floating rate that needs to be picked up for the interest component. \nThe options available are:"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Rate Calculation Type",
+        "Margin Application",
+        "Margin Basis"
+      ],
+      "summary": "This page describes methods for calculating floating interest rates and applying margins in financial transactions, including options for interpolation, rounding, and basis selection.",
+      "raw_text": "2-6\nBorrow\nLend \nMid\nRate Calculation Type\nFor floating type of interest components and fixed type with rate code attached, you can \nindicate the manner in which floating rates should be applied. The preference that you specify \nhere is used when an interest component does not fit into any direct parameter defined for the \nfloating rate code. The options available are:\nUp – Choose this option to indicate that the rate of the upper tenor slab should be used.\nDown - Choose this option to indicate that the rate of the lower tenor slab should be \nused.\nInterpolate - Choose this option to indicate that the rate should be interpolated between \nthe rates of the upper and lower slabs.\nRound Off - Choose this option to indicate that the tenor of the component should be \nrounded off to the nearest whole number. The rate defined for the derived tenor will be \napplied to the component.\nMargin Application\nIndicate the frequency of margin application by choosing one of the following options from the \ndrop-down list.\nMargin Basis\nIndicate the basis for the interest margin and the method for applying the interest margin on \nthe selected interest component. The available options are:\nFacility – The system defaults the margin from the borrower facility contract with which \nthe drawdown is linked.\nTranche – The system defaults the margin from the borrower tranche contract with \nwhich the drawdown is associated.\nDrawdown – If this option is chosen, you must enter the applicable margin when the \ninterest rate is fixed.\n– \nThis component which you select is excluded from all the processing including \nliquidation and this calculation type is only used for margin application.\n– \nAfter defining this component, booked formula for main interest component needs \nto be modified by replacing INTEREST_RATE with INTEREST_RATE + \nMARGIN_RATE. By doing this the interest gets calculated based on resolved \ninterest rate (i.e. including floating rate and spread if applicable) and the margin.\nCustomer – If this option is chosen, then the margin will be applicable to all drawdown \ncontracts under the selected customer.\nLimits\nSpecify the following details:\nCurrency\nSpecify the currency of interest rate application. The adjoining option list displays all valid \ncurrency codes maintained in the system. You can choose the appropriate one.\nDefault Rate\nSpecify the default rate that should be applied for on contracts under the products linked to \nthis class. Default rate allows negative values if the negative interest is allowed for the class."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Interest Class Maintenance",
+        "Invoking Interest Class Maintenance"
+      ],
+      "summary": "This page discusses the maintenance of interest classes for securities and derivatives, including how to invoke the maintenance process and define attributes such as minimum and maximum rates and spreads.",
+      "raw_text": "2-7\nMinimum Rate\nSpecify the minimum interest rate that can be applied on contracts under the products linked \nto this class. Minimum rate allows negative values if the negative interest is allowed for the \nclass.\nMaximum Rate\nSpecify the maximum interest rate that can be applied on contracts under the products linked \nto this class. Maximum rate allows negative values if the negative interest is allowed for the \nclass.\nDefault Spread\nYou are allowed to specify both positive and negative spread as default for the class you are \nmaintaining. The system validates this spread against the maximum and minimum spread you \nhave specified for the currency. Subsequently, the spread will be defaulted to the contract \nunder the products linked to this class.\nMinimum Spread\nSpecify the minimum spread that can be applied on the rate for the currency.\nMaximum Spread\nSpecify the maximum spread that can be applied on the rate for the currency.\n2.3 \nInterest Class Maintenance\nThis section contains the following topics:\nSection 2.3.1, \"Invoking Interest Class Maintenance\"\nSection 2.3.2, \"Rate Button\"\n2.3.1 \nInvoking Interest Class Maintenance\nYou need to maintain an Interest class specific to the Securities module. For instance, for a \nSecurity, you can build an interest class with the attributes of a specific type of coupon, the \nquarterly coupon paid on the current face value. \nThis section explains how interest classes are built and how attributes are defined for \nSecurities and Derivatives products and contracts.\nYou can define the attributes of an interest class, in the ‘Interest Class Maintenance’ screen, \ninvoked from the Application Browser. You can invoke the ‘Interest Class Maintenance’"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Module",
+        "Interest Type",
+        "Events and the Basis Amount"
+      ],
+      "summary": "This page explains how to define an interest class in a specific module, including setting up a unique identifier, choosing between primary interest and coupon types, and understanding deal events.",
+      "raw_text": "2-8\nscreen by typing ‘CFDINTCE’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nBefore defining the attributes of an interest class, you should assign the class a unique \nidentifier, called the Class Code and briefly describe the class. A description would help you \neasily identify a class.\nModule\nAn interest class is built for use in a specific module. This is because; an interest component \nwould be applied on different basis amounts, in different modules. \nNote\nThe Basis Amount Tags available would depend on the module for which you build the \nclass.\nInterest Type \nWhile building an Interest Class, you can define two kinds of interest:\nPrimary Interest\nCoupon\nEvents and the Basis Amount\nThe term Event can be explained with reference to a deal. A deal goes through different \nstages in its life cycle, such as:\nDeal Booking\nMoney Settlement of Deal\nReversal of Deal"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Cancellation of Deal"
+      ],
+      "summary": "This section discusses how to associate interest components with a contract in Oracle FLEXCUBE, including details on basis amount, accrual requirements, and rate types.",
+      "raw_text": "2-9\nCancellation of Deal\nEach stage is referred to as an Event in Oracle FLEXCUBE. \nThe event at which you would like to associate the interest component, being defined, to a \ncontract is referred to as the Association Event.\nThe basis on which an interest is calculated is referred to as the Basis Amount. For instance, \na coupon can be on the basis of the current face value of a security. When building an interest \nclass, you have to specify the tag associated with the Basis Amount.\nThe attributes defined for an interest class, will default to all products with which you associate \nthe class. When maintaining interest details for a product, you can change these default \nattributes. Contracts maintained under a product will acquire the attributes defined for the \nsecurities product.\nAccrual Required\nYou can choose to accrue the interests due on a contract. To accrue the interest payable on \na contract, choose the ‘Accrual Required’ option.\nThe accrual details that you define for an interest class will default to all products with which \nyou associate the class. When maintaining interest accrual details for a product, you can \nchange these default details. Contracts maintained under a product will acquire the accrual \ndetails defined for the product. However, you can define unique accrual details for a contract.\nRate Type\nThe interests paid on contracts can be at a Fixed Rate, or on the basis of a Floating Rate. If \nyou indicate that interests should be calculated on the basis of a Floating Rate, you must \nspecify the ‘Periodic’ Floating Rate Type. \nFor all contracts maintained under products, associated with a class, the interest will be by \ndefault calculated using the specified Rate type.\nDefault Rate Code\nInterest payable on contracts would be calculated at specific rates. When building an interest \ncomponent, you have to specify the rate at which the interest should be computed. When \nassociating a rate code (that you have maintained in the Rate Codes Maintenance screen) \nwith the interest component that you are building, the rates corresponding to the code will be \nused to compute interest.\nThe details defined for an interest class will default to all products with which the class is \nassociated. When maintaining interest details for a product, you can change this default \ninformation. Contracts maintained under a product will acquire the interest details defined for \nthe contract product. However, you can define unique interest details specific to a contract.\nWhen maintaining a contract, you can choose to waive the rate code altogether or amend the \nproperties of the code to suit the security.\nIf you allow amendment of a rate code, you can specify if you would like to allow rate code \namendment after the association event.\nYou can also allow the amendment of the rate value (corresponding to a rate code)."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Default Tenor",
+        "Rate Button",
+        "Accrual Fee Class Maintenance",
+        "Invoking Accrual Fee Class Maintenance Screen",
+        "Fields Button"
+      ],
+      "summary": "This page explains the concept of tenors in rate codes and how to use them when building interest components, as well as provides instructions on accessing and using different maintenance screens for fee classes.",
+      "raw_text": "2-10\nDefault Tenor\nEach rate code is associated with a tenor. For instance you have a Rate Code ‘LIBOR’. You \ncan link any number of tenor codes to the same rate code. \nWhen building an interest component, you can specify a Tenor Code that you would like to \nassociate, with the Floating Interest Rate Code. Interests for contracts (maintained under a \nproduct with which you associate the class) will be calculated using the rate corresponding to \nthe Rate Code and the Tenor Code.\n2.3.2 \nRate Button\nClick ‘Rate’ button and invoke the ‘Interest Limits’ screen.\n2.4 \nAccrual Fee Class Maintenance\nThis section contains the following topics:\nSection 2.4.1, \"Invoking Accrual Fee Class Maintenance Screen\"\nSection 2.4.2, \"Fields Button\"\n2.4.1 \nInvoking Accrual Fee Class Maintenance Screen\nYou need to define the attributes of an accrual fee class in the ‘Accrual Fee Class \nMaintenance’ screen, invoked from the Application Browser. You can invoke this screen by \nTenor Code\nDescription\n1W\nOne week rate\n2W\nTwo week rate\n2M\nTwo months rate\n6M\nSix months rate\n1Y\nOne year rate"
+    },
+    {
+      "page_number": 16,
+      "sections": [],
+      "summary": "This text describes how to input class details in an application tool and specifies various fields such as class code, description, module, basis amount, fee type, end date input, and accrual requirement.",
+      "raw_text": "2-11\ntyping ‘CFDXACFC’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.\nHere you can specify the following details:\nClass Code\nSpecify a unique code to identify the class.\nClass Description\nSpecify a brief description for the class.\nModule\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one.\nBasis Amount\nSelect the basis amount from the adjoining drop-down list:\nExpected Outstanding Balance \nExpected Balance\nFee Type\nSelect the fee type from the adjoining drop-down list:\nIncome\nExpense\nAllow End Date Input\nCheck this box to indicate that the end date for accrual can be entered at the time of entering \nthe fee details for a particular class. Otherwise, the maturity date of the associated contract \nwill get defaulted as the end date for accrual.\nAccrual Required\nCheck this box to indicate that accrual of fees is required."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Consider as Discount",
+        "Fields Button",
+        "Charge Class",
+        "Maintaining Charge Class"
+      ],
+      "summary": "This page discusses how to consider a fee component as part of discount accrual, capture user-defined fields, and maintain charge classes with specific attributes for different types of charges.",
+      "raw_text": "2-12\nConsider as Discount\nCheck this box to indicate that the fee component should be considered as part of discount \naccrual.\n2.4.2 \nFields Button\nYou can capture user-defined fields (UDFs) in the ‘User Defined Fields’ screen. Click ‘Fields’ \nbutton and invoke the following screen.\nHere you can specify the following details:\nField Name\nThe system displays the UDFs. \nValue\nSpecify the value for each UDF.\n2.5 \nCharge Class\nThis section contains the following topics:\nSection 2.5.1, \"Maintaining Charge Class\"\n2.5.1 \nMaintaining Charge Class\nYou have to build a charge class, for instance, with the attributes of a specific type of charge, \nsuch as ‘Charges for amending the terms of a transaction’, or ‘Charges for provision of \nservices’. To recall, a charge rule is built to calculate a specific type of charge component. \nOnce such a rule is built, you can define attributes like what should be the basis amount on \nwhich the charge rule is applied, when the charge should be associated to the contract and \nwhen the charge should be calculated and collected.\nWhen building a charge class, you define certain attributes such as:\nThe module in which you would use the class\nThe charge type (whether borne by the counterparty or by the bank)\nThe association event\nThe application event"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "The liquidation event",
+        "The default settlement currency",
+        "The default charge rule",
+        "The basis amount on which the charge is calculated"
+      ],
+      "summary": "This page describes various attributes of a charge class that can be defined in the 'Charge Class Maintenance' screen, including class code, module, and charge type.",
+      "raw_text": "2-13\nThe liquidation event\nThe default settlement currency\nThe default charge rule\nThe basis amount on which the charge is calculated\nYou can define the attributes of a charge class in the ‘Charge Class Maintenance’ screen, \ninvoked from the Application Browser. You can invoke this screen by typing ‘CFDCHGCE’ in \nthe field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton.\nThe following are the features of the Charge Class Maintenance screen.\nClass Code\nBefore defining the attributes of a charge class, you should assign the class a unique \nidentifier, called the Class Code and briefly describe the class. A description would help you \neasily identify the class.\nModule \nA charge class is built for use in a specific module. As a charge component would be applied \non different basis amounts, in different modules. In the Letters of Credit module, for instance, \nyou would apply a flat processing charge or fee on all LCs. In the Securities module, you could \nlevy a flat charge or fee on portfolios that you maintain on behalf of a customer. The basis on \nwhich the component is applied is different, in these two cases.\nNote\nThe Basis Amount Tags available would depend on the module for which you build the \nclass.\nCharge Type\nCharges can be collected from the counter party or from a third party. You can select one of \nthe following values from the adjoining drop-down list:"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Counter Party",
+        "Third Party Type",
+        "Debit /Credit",
+        "Propagation Required",
+        "Net Consideration",
+        "Note",
+        "Add/Subtract"
+      ],
+      "summary": "This page explains different types of charges and fees in a contract, including how they are categorized (counter party, third party), who bears the cost (debit/credit), and how these charges affect the net value of the contract.",
+      "raw_text": "2-14\nCounter Party – This indicates that the customer is captured as part of the contract.\nThird Party – This indicates that the charges are levied on another entity on behalf of \ncustomer (Eg: Custodian)\nTheir Charges – This indicates that your bank is collecting other bank’s charges as in \nthe case of LC and BC contracts.\nThe charges or fee that you levy will be recovered, typically, from the counterparty involved. \nTherefore, when building a charge class, you may indicate the charge to be of ‘Counterparty’ \ntype.\nThird Party Type\nIf a charge component that you associate with a product is of ‘third party’ type, specify the \nparty type. \nDebit /Credit \nChoose the Debit option in this field, if the charge component associated with the product is \nto be debited to the customer. If you would bear the charge component, choose the ‘Credit’ \noption. \nThe following example illustrates how a charge could be of a ‘Credit’ type.\nPropagation Required\nCheck this option to indicate that the charge collected from the borrower must be passed on \nto the participants of the contract.\nNet Consideration\nThe sum of the different components of a contract determines the net value of the contract. \nYou can indicate that a charge component should be taken into account when determining \nthe net value of a contract by choosing the Net Consideration option. \nNote\nThe Net Consideration option is applicable if you are defining a charge class for Securities \nmodule. \nAdd/Subtract\nIf you choose to include the charge component in the net value, you should indicate if the \ncharge component is to be added, while calculating the net consideration amount, or \nsubtracted.\nSWIFT Qualifier\nYou can report the charge component of a contract in the SWIFT messages that you \ngenerate. To do this, identify the component, when building it in the ‘Charge Class \nMaintenance’ screen, with the appropriate SWIFT code.\nEvents \nA contract goes through different stages in its life cycle, such as:\nInitiation\nAmendment\nRollover\nEach of these stages is referred to as an ‘Event’ in Oracle FLEXCUBE."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Association Event",
+        "Application Event",
+        "Liquidation event",
+        "Basis Amount Tag"
+      ],
+      "summary": "This page explains the different events associated with applying charges or fees in a contract, including association, application, and liquidation events, and introduces the concept of basis amount tag.",
+      "raw_text": "2-15\nAt any of these events, you can choose to apply a charge or fee. When defining a charge \nclass, you should specify:\nThe association event\nThe application event\nLiquidation event\nThe event at which you would like to associate a charge component to a contract is referred \nto as the Association Event. At this event, no accounting entry (for the charge component) is \npassed.\nThe event at which the charge component is actually calculated is referred to as the \nApplication Event. At this event, no accounting entry (for the charge component) is passed. \nThe charge or fee is liquidated at the Liquidation event that you specify.\nIf the event chosen for the liquidation of the charge component at the charge class and the \nevent chosen for liquidating the same charge component at the ‘Product Events and \nAccounting Entries’ screen are different, the charge will not be liquidated and accounting \nentries will not be posted.\nIn FX, FT and SI modules, the concept of association, application and liquidation events is not \napplicable. The charge component is liquidated at the event chosen in the product. Hence, \ncharge class for these three modules are defined under Old Charge Class (The Old Charge \nClass is found under product class. The charge classes for FX, FT and SI have to be defined \nunder this.). The charge components are linked to three different events. This mapping gives \nyou the option to change the charge amount before it is liquidated.\nBasis Amount Tag\nThe basis on which interest, charge, fee, or tax is calculated is referred to as the Basis \nAmount. (A charge or fee can be on the basis of the contract amount, for instance.) The \ndifferent basis amounts, available in a module, are associated with a unique ‘tag’. When \nbuilding a charge component, you have to specify the tag associated with the Basis Amount. \nWhen charge or fee is calculated for a contract, the basis amount corresponding to the tag \nwill be picked up automatically. \nBasis amount refers to:\nPrincipal amount or commitment \nTransaction amount in the case of a teller entry\nTransfer amount in case of a Remittance\nSI Amount in case of Standing Instruction\nLC amount in the case of a Letter of Credit\nBill amount in the case of a Bill\nBuy/Sell amount in the case of an FX deal\nDeal Nominal amount for a Security Deal\nDefault Charge Rule\nYou can link a charge rule that you have defined to the charge component that you are \nbuilding. When you link a rule to a component, the attributes that you have defined for the rule \nwill default to the component. \nTo recall, a charge rule identifies the method in which charge or fee of a particular type is to \nbe calculated. A rule is built with, amongst others, the following attributes:\nThe charge currency\nWhether the charge or fee is to be a flat amount or calculated on a rate basis"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "The minimum and maximum charge that can be applied",
+        "The tier or slab structure on which the charge is to be applied",
+        "Customer and currency restrictions",
+        "Charges for the product with which you associate a charge component will be calculated according to the rule linked to the component",
+        "Amendment of the rule linked to the charge class",
+        "Default Settlement Currency"
+      ],
+      "summary": "This page discusses various properties associated with charges, including minimum and maximum values, tier structures, customer restrictions, default settlement currencies, and conditions for amending rules.",
+      "raw_text": "2-16\nThe minimum and maximum charge that can be applied\nThe tier or slab structure on which the charge is to be applied\nThe customer and currency restrictions, etc.\nThe charge component to which you link a rule acquires these properties. Charges for the \nproduct with which you associate a charge component will be calculated, by default, \naccording to the rule linked to the component. However, when processing a contract, you can \nchoose to waive the rule altogether.\nWhen building a charge class, you can choose to allow the amendment of the rule linked to \nit, in the following conditions:\nYou can choose to allow amendment after the association event\nYou can choose to allow amendment after the application event\nYou can choose to allow amendment of the charge amount\nDefault Settlement Currency\nCharges or fees levied on a contract will be settled in the Settlement Currency that you specify \nfor the charge class associated with the product (under which the contract is processed). \nHowever, when processing a contract, you can choose to settle the charge in another \ncurrency.\nThe charge currency defined for the rule is used only for booking charges. The actual \nsettlement is done in the default settlement currency' maintained for the charge class. The \nfinal charge is computed based on preferences defined in the charge rule set-up. The amount \nis converted to the settlement currency in case the charge currency is different from the \ncontract currency.\nNote\n– \nFor the liquidation of charge components with a charge currency not equal to the \ncontract currency during discounting, the charge amount is calculated in the \ncontract currency based on the exchange rate between the settlement currency and \nthe contract currency as on the discounting date. The charge amount in contract \ncurrency is used for accounting. \n– \nIf the charge currency is different from the contract currency and the contract cur-\nrency is same as the settlement account currency, the exchange rate maintained \nfor the settlement account through the ‘Settlement Message Details – Account De-\ntails’ screen is used to convert the charge amount into the contract currency \namount. \nWhen you associate a charge component with a product, you can choose to allow the \namendment of the rule linked to it, under the following conditions:\nAllow Rule Amendments\nIf you would like to allow the amendment of a rule for a charge component when linked to a \ncontract, check this box.\nAmend after Association\nIf you would like to allow the amendment after association of a rule for a charge component, \ncheck this box. Once checked the system will allow you to modify the rule after the association \nevent is triggered for the linked contract.\nAllow Amount Amendment\nIf you would like to allow amendment of the charge amount calculated by the system as per \nthe charge rule, check this box."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Amend After Application",
+        "Default Waiver",
+        "Capitalize",
+        "Note",
+        "Consider as Discount"
+      ],
+      "summary": "This page describes various options for managing charges and fees in a financial system, including allowing amendments after application, default waiver settings, capitalization of payments, and considerations for discount accrual.",
+      "raw_text": "2-17\nAmend After Application\nIf you would like to allow the amendment of the charge amount after application of a rule for \na charge component, check this box. Once checked the system will allow you to modify the \ncharge amount after the application event is triggered for the linked contract.\nDefault Waiver\nCheck this box to indicate that even if charge is computed, it should not be liquidated.\nCapitalize \nYou can capitalize the payment of charges and fees. If the charge is not paid on a scheduled \ndate, the outstanding charge amount will be added to the outstanding principal and this \nbecomes the principal for the next schedule. If a partial payment has been made, the unpaid \namount will be capitalized (the unpaid charge is added to the unpaid principal and this \nbecomes the principal for the next schedule).\nNote\nIf the ‘Capitalize’ option is not checked for the broker, deal, product and currency combi-\nnation, then the option ‘Consider as discount’ cannot be checked for the securities module.\nConsider as Discount\nWhile defining a charge class for either the securities or the bills module, you can indicate \nwhether the charge component is to be considered for discount accrual on a constant yield \nbasis. \nIf you select this option the charge received against the component is used in the computation \nof the constant yield and subsequently amortized over the tenor of the associated contract.\nChecking this option also indicates that the component is to be used for IRR calculation.\nNote\nIRR, the Internal Rate of Return is the annualized effective compounded return rate which \ncan be earned on the invested capital, i.e. the yield on the investment.\nAccrual Required\nChecking this indicates that the charges have to be accrued. Subsequently, the charges are \naccrued using the upfront fee system.\nNote\nThis option is disabled for BC contracts. \nDiscount Basis\nWhile defining a charge class for the bills module, you can define the discount basis for the \npurpose of IRR computation. You can choose either of the following as discount basis:\nInflow – If you choose Inflow, the charge will be considered as an inflow for IRR \ncomputation\nOutflow – If you choose Outflow, the charge will be treated as an outflow for IRR \ncomputation\nYou can define discount basis only if the ‘Consider as Discount’ option is enabled. If you have \nnot opted for ‘Consider as Discount’, the Discount Basis field will be disabled. If the ‘Consider \nas Discount’ option is enabled Discount basis has to be defined. On enabling the ‘Consider"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Old Charges Class Maintenance",
+        "Invoking Charge Class Maintenance Screen"
+      ],
+      "summary": "This page explains how to set up a charge class for transactions in specific modules and details the steps involved in invoking and using the 'Charge Class Maintenance' screen.",
+      "raw_text": "2-18\nas Discount’, the default value of Discount Basis will be ‘Inflow’ and you will have to change \nit to ‘Outflow’ if required.\n2.6 \nOld Charges Class Maintenance\nThis section contains the following topics:\nSection 2.6.1, \"Invoking Charge Class Maintenance Screen\"\nSection 2.6.2, \"Fields Button\"\n2.6.1 \nInvoking Charge Class Maintenance Screen\nYou have to define a charge class for transactions in FT, FX and SI modules using the \n‘Charge Class Maintenance’ screen, invoked from the Application Browser. You can invoke \nthis screen by typing ‘CFDOCHCL’ in the field at the top right corner of the Application tool \nbar and clicking the adjoining arrow button.\nHere you can specify the following details:\nClass Details\nIndicate the following basic details.\nClass Code\nSpecify a unique code to identify the class.\nClass Description\nSpecify a brief description for the class.\nModule\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one.\nClass Preferences\nSpecify the following class preferences:"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Rule Identification",
+        "Component Description",
+        "Amount Type",
+        "Settlement Currency",
+        "Stop Application",
+        "Category",
+        "Event",
+        "Advice Charge",
+        "Fields Button"
+      ],
+      "summary": "This page describes how to configure various settings for a charge component, including selecting rules, defining components, specifying amount types and currencies, setting conditions for collection, and capturing user-defined fields.",
+      "raw_text": "2-19\nRule Identification\nSpecify the rule that should be linked to the class. The adjoining option list displays all valid \nrules maintained in the system. You can choose the appropriate one.\nDescription\nThe system displays the description based on the rule chosen.\nComponent Description\nDefine a component here for the rule. Based on this component, six corresponding \naccounting roles will be generated by the system.\nAmount Type\nSpecify the basis amount type for collection of charge. The adjoining option list displays all \nvalid basis amount types available in the system. You can choose the appropriate one.\nSettlement Currency\nSpecify the currency for collection of the charge. The adjoining option list displays all valid \ncurrency codes maintained in the system. You can choose the appropriate one.\nStop Application\nCheck this box to indicate that collection should stop for the charge component.\nCategory\nSelect ‘Normal’ as the category of the basis amount on which charge should be collected.\nEvent\nSpecify the event at which collection of the charge should be triggered, The adjoining option \nlist displays all events available in the system for the module specified. You can choose the \nappropriate one.\nAdvice Charge\nCheck this box to indicate that charge should be collected for dispatching the customer \nadvice.\n2.6.2 \nFields Button\nYou can capture user-defined fields (UDFs) in the ‘User Defined Fields’ screen. Click ‘Fields’ \nbutton and invoke the following screen.\nHere you can specify the following details:"
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Tax Class Maintenance",
+        "Invoking Tax Class Maintenance Screen"
+      ],
+      "summary": "This page describes how to define and invoke the 'Tax Class Maintenance' screen for setting up transaction level taxes in different modules.",
+      "raw_text": "2-20\nField Name\nThe system displays the UDFs. \nValue\nSpecify the value for each UDF.\n2.7 \nTax Class Maintenance\nThis section contains the following topics:\nSection 2.7.1, \"Invoking Tax Class Maintenance Screen\"\nSection 2.7.2, \"Defining Issuer Taxes as Classes\"\n2.7.1 \nInvoking Tax Class Maintenance Screen\nYou can define the attributes of a transaction level tax under the corresponding section of the \n‘Tax Class Maintenance’ screen. You can invoke this screen by typing ‘TADTAXCL’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button.\nBefore defining the attributes of a Transaction Tax Class, assign the class a unique identifier, \ncalled the Class Code, and briefly describe the class. A description would help easily identify \na class.\nModule\nA tax class is built for use in a specific module. This is because the basis amounts on which \nthe tax is applied could vary with the modules. In the Foreign Exchange module, for instance, \nyou might want to levy tax on the brokerage paid. In the Securities module, you might have to \npay a tax on the value of a security that you purchase. The basis on which the tax component \nis calculated is different in these two cases.\nNote\nThe Basis Amount Tags available, in this screen, would depend on the module for which \nyou build the class."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Tax",
+        "Withholding",
+        "Expense Type",
+        "The Net Consideration",
+        "Defining the Events and the Basis Amount"
+      ],
+      "summary": "This page discusses different types of taxes in financial transactions, including withholding tax, expense type tax, net consideration, and defining events and basis amounts for contracts.",
+      "raw_text": "2-21\nTax\nThe type of tax indicates who bears the tax, whether the bank or the customer. \nWithholding\nWithholding type tax is borne by the beneficiary on an income (either the bank or the \ncustomer). For example, the tax on the brokerage paid would be borne by the broker. You \nwithhold this component in a Tax Payable account, by debiting the customer account (since \nbrokers are defined as Customers in Oracle FLEXCUBE) and later paying the tax to the \ngovernment on behalf of the broker.\nExpense Type\nIf you choose to bear the tax that is payable on brokerage, you would define it as an expense \ntype of tax. The tax entries, in this case, would be posted to an Expense account.\nIf you bear the tax, there could either be an immediate cash Outflow or payment, or a mere \ncrediting of it to a Tax Payable account. In the latter case, there would not be an immediate \nOutflow. The tax would be paid at a later date, from the Tax Payable account. \nThe Net Consideration\nThe sum of the different components of a contract determines the net value of the contract. \nTo indicate that a transaction level tax component should be taken into account when \ndetermining the net value of a contract, choose the Net Consideration option.\nIf you choose to include the tax component in the net value of the contract, you should also \nindicate if the tax component is to be added or subtracted, while calculating the net \nconsideration amount. \nDefining the Events and the Basis Amount\nEach contract that your bank enters into goes through different stages, each of which is \nreferred to as an Event in Oracle FLEXCUBE.\nA securities deal, for instance, goes through different stages in its life cycle, such as:\nDeal Booking\nMoney Settlement of Securities Deal\nSettlement of Securities Deal\nReversal of Securities Deal\nCancellation of Securities Deal\nEach of these stages is referred to as an Event in Oracle FLEXCUBE.\nThe following are examples of the events for a portfolio that you maintain:\nBooking of Contingent Asset\nAccrual of Discount Earned\nAccrual of Interest Earned\nForward Profit and Loss Accrual\nAt any of these events, you can choose to apply a tax. The event at which you would like to \nassociate a tax component, is referred to as the Association Event. At this event, no \naccounting entry (for the tax component) is passed.\nThe event at which the tax component is actually computed is referred to as the Application \nEvent. The tax is liquidated at the Liquidation Event."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Choosing the Default Tax Rule",
+        "Including a Component in SWIFT Messages"
+      ],
+      "summary": "This page discusses how to set up default tax rules and link them to tax components, as well as including these components in SWIFT messages for reporting purposes.",
+      "raw_text": "2-22\nThe basis on which a tax is calculated is referred to as the Basis Amount. A tax can be on the \nbasis of the principal, the brokerage paid and so on. When building a tax class, you have to \nspecify the tag associated with the Basis Amount.\nChoosing the Default Tax Rule\nA tax rule can be linked to the tax component that you are building. When you link a rule to a \ncomponent, the attributes that you have defined for the rule, will default to the component.\nA tax rule identifies the method in which tax, is to be calculated. A rule is built with attributes \nsuch as the following:\nThe tax currency\nWhether the tax is to be a flat amount or calculated on a rate basis\nThe minimum and maximum tax that can be applied\nThe tier or slab structure on which the tax is to be applied\nThe currency restrictions, etc.\nThe tax component to which you link a rule acquires ITS properties. Tax for the contracts with \nwhich you associate a tax component will, by default, be calculated according to the rule \nlinked to the component. However, when processing a contract, you can choose to waive the \nrule.\nWhen building a tax class, you can choose to allow the amendment of the rule linked to it, \nunder the following conditions:\nYou can choose to allow amendment after the association event\nYou can choose to allow amendment after the application event\nYou can choose to allow amendment of the tax amount\nIncluding a Component in SWIFT Messages\nTo report a component of a contract in the SWIFT messages that you generate, identify the \ncomponent with the appropriate SWIFT code. You can identify a tax component with its \nSWIFT code when building the component.\n2.7.2 \nDefining Issuer Taxes as Classes\nAn issuer tax can be levied on the coupon paid, or on a cash dividend. The issuer of a security \ndetermines the tax. To process the tax levied on a security, you have to maintain Issuer Tax \nclasses.\nAn Issuer Tax class can be maintained in its corresponding section of the Tax Class \nMaintenance screen invoked from the Application Browser.\nNote\nIt is not necessary to associate tax rules to an Issuer Tax class. For an Issuer Tax compo-\nnent, you only have to furnish the following details:\n– \nThe Association Event\n– \nThe Basis Amount\n– \nThe Rate Code"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Other operational controls",
+        "Adhoc Fee Class"
+      ],
+      "summary": "This page discusses the life cycle stages of a security in Oracle FLEXCUBE and how to define an Issuer Tax class by specifying association events and basis amounts, as well as introduces Adhoc Fee Class.",
+      "raw_text": "2-23\n– \nOther operational controls\nA security goes through different stages in its life cycle, such as:\nBooking\nInterest Accrual\nLiquidation, etc.\nEach stage is referred to as an Event, in Oracle FLEXCUBE. When defining an Issuer Tax \nclass, you should specify the following:\nThe Association Event\nBasis Amount\nThe event at which you would like to associate a tax component to a security is referred to as \nthe Association Event.\nThe basis on which interest, charge or tax is calculated or levied is referred to as the Basis \nAmount. (An Issuer Tax can be on the basis of the coupon paid, or on a cash dividend.) The \ndifferent basis amounts available in the Securities module are associated with a unique ‘tag’. \nWhen building a tax component, you have to specify the tag associated with the Basis \nAmount. When tax is calculated for a security, the basis amount corresponding to the tag will \nbe picked up automatically.\n2.8 \nAdhoc Fee Class\nThis section contains the following topics:\nSection 2.8.1, \"Maintaining Adhoc Fee Class\""
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Maintaining Adhoc Fee Class",
+        "Branch Currency Restriction Class",
+        "Maintaining Branch Currency Restriction Class"
+      ],
+      "summary": "This page describes how to maintain adhoc fee classes and branch currency restriction classes in a system through specific screens accessed from the Application Browser.",
+      "raw_text": "2-24\n2.8.1 \nMaintaining Adhoc Fee Class\nYou can define the attributes of an adhoc fee class in the ‘Adhoc Charges’ screen, invoked \nfrom the Application Browser. You can invoke this screen by typing ‘CFDXADFE’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button.\nHere you can maintain the following details.\nClass Code\nSpecify a unique identifier for the class.\nDescription\nSpecify a description for the class code.\nReport Module\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one.\nModule Description\nThe system displays a brief description of the chosen module.\nParticipation Propagation\nCheck this box to indicate that the charge collected should be propagated to all participants \nof the transaction.\n2.9 \nBranch Currency Restriction Class\nThis section contains the following topics:\nSection 2.9.1, \"Maintaining Branch Currency Restriction Class\"\n2.9.1 \nMaintaining Branch Currency Restriction Class\nYou can define the attributes of a branch and currency restriction class in the ‘Branch \nCurrency Restrictions Class Maintenance’ screen, invoked from the Application Browser. You"
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Class Code",
+        "Class Description",
+        "Module",
+        "Module Description",
+        "Branch Restrictions",
+        "Currency Restrictions"
+      ],
+      "summary": "This page describes how to set up a class in an application tool by specifying details such as class code, description, module, branch and currency restrictions.",
+      "raw_text": "2-25\ncan invoke this screen by typing ‘CSDCBRCL’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nHere you can specify the following details:\nClass Code\nSpecify a unique code to identify the class.\nClass Description\nSpecify a brief description for the class.\nModule\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one.\nModule Description\nThe system displays a brief description of the chosen module.\nBranch Restrictions\nIndicate whether you want to create a list of allowed branches or disallowed branches by \nchoosing one of the following options:\nAllowed\nDisallowed\nCurrency Restrictions\nIndicate whether you want to create a list of allowed currencies or disallowed currencies by \nchoosing one of the following options:\nAllowed\nDisallowed"
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Branch Restrictions",
+        "Currency Restrictions",
+        "Customer Restriction Class",
+        "Maintaining Customer Restriction Class"
+      ],
+      "summary": "This page describes how to specify branch and currency restrictions, as well as maintaining customer restriction classes in a system.",
+      "raw_text": "2-26\nBranch Restrictions\nSpecify the following details:\nBranch Code\nSpecify the branch that should be included in the allowed or disallowed list. The adjoining \noption list displays all branch codes available in the system. You can choose the appropriate \none.\nDescription\nThe system displays a brief description of the branch code.\nYou can choose multiple branches.\nCurrency Restrictions\nSpecify the following details:\nCurrency Code\nSpecify the currency that should be included in the allowed or disallowed list. The adjoining \noption list displays all currency codes available in the system. You can choose the appropriate \none.\nDescription\nThe system displays a brief description of the currency code.\nYou can choose multiple currencies.\n2.10 Customer Restriction Class\nThis section contains the following topics:\nSection 2.10.1, \"Maintaining Customer Restriction Class\"\n2.10.1 \nMaintaining Customer Restriction Class\nYou can define the attributes of a customer category and customer restriction class in the \n‘Branch Currency Restrictions Class Maintenance’ screen, invoked from the Application"
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Module",
+        "Module Description",
+        "Class Code",
+        "Class Description",
+        "Restriction Type"
+      ],
+      "summary": "This page describes how to configure a class in the CSDCUCCL browser by specifying module details, class identification and description, and restriction types.",
+      "raw_text": "2-27\nBrowser. You can invoke this screen by typing ‘CSDCUCCL’ in the field at the top right corner \nof the Application tool bar and clicking the adjoining arrow button.\nHere you can specify the following details:\nModule\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one.\nModule Description\nThe system displays a brief description of the chosen module.\nClass Code\nSpecify a unique code to identify the class.\nClass Description\nSpecify a brief description for the class.\nRestriction Type\nIndicate whether you want to create a list of allowed customers or disallowed customers by \nchoosing one of the following options:\nAllowed\nDisallowed"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Customer Categories",
+        "Discount Accrual Class"
+      ],
+      "summary": "This page details how to specify customer categories and manage their access in a system, as well as explains the process of maintaining discount accrual classes for interest, charges, and fees.",
+      "raw_text": "2-28\nCustomer Categories\nSpecify the following details:\nCode\nSpecify the customer category code that should be included in the allowed or disallowed list. \nThe adjoining option list displays all customer category codes available in the system. You \ncan choose the appropriate one.\nDescription\nThe system displays a brief description of the branch code.\nYou can choose multiple customer categories.\nCustomer Access Class\nYou can exclude certain customers belonging to the allowed/disallowed category from being \npart of the list.\nCustomer ID\nSpecify the customer ID that you want to exclude from the allowed/disallowed list. The \nadjoining option list displays all customer identification number (CIF) available in the system. \nYou can choose the appropriate one.\nCategory\nThe system displays the category to which the customer belongs.\nCustomer Name\nThe system displays the name of the customer.\nRestriction Type\nIf you have maintained an allowed list, choose the option ‘Disallowed’ and vice-versa.\n2.11 Discount Accrual Class\nThis section contains the following topics:\nSection 2.11.1, \"Maintaining Discount Accrual Class\"\n2.11.1 \nMaintaining Discount Accrual Class\nA discount accrual fee class specifies the accrual parameters for interest, charges and fees. \nBefore defining the attributes of a discount accrual fee class, you should assign the class a \nunique identifier, called the Class Code and briefly describe the class. A description would \nhelp you easily identify the class.\nWhen building a discount accrual fee class, you define certain attributes such as:\nWhether Discount accrual should be performed for the class. \nThe frequency at which discount accrual should be performed. This can be either Daily \nor Monthly. For monthly accruals, the discount accrual will be done on the last day of \nthe month. \nHow foreclosures in respect of the contracts using the class, must be handled. You can \nopt for complete accruals, or refund.\nThe day count methods for each currency using the class. You can define the day count \nmethods for both the numerator and the denominator."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Class Code",
+        "Class Description",
+        "Module",
+        "Module Description",
+        "Accrual Preference"
+      ],
+      "summary": "This page describes how to define attributes for a discount accrual fee class in the 'Discount Accrual Class Maintenance' screen, including specifying class code, description, module, and accrual preference.",
+      "raw_text": "2-29\nYou can define the attributes of a discount accrual fee class in the ‘Discount Accrual Class \nMaintenance’ screen. You can invoke this screen by typing ‘DADACRCL’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button. \nYou can specify the following details.\nClass Code\nSpecify a unique code to identify the class.\nClass Description\nSpecify a brief description for the class.\nModule\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one.\nModule Description\nThe system displays a brief description of the chosen module.\nAccrual Preference\nSpecify the following details:\nDiscount Accrual Required\nCheck this box to indicate that discount accrual is required.\nAccrual Frequency\nIf you check the box ‘Accrual Required’, you will have to select the accrual frequency from the \nadjoining drop-down list:"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Handling of Foreclosure",
+        "Acquisition Type",
+        "Class Currency Preference",
+        "Events Class Maintenance"
+      ],
+      "summary": "This page describes methods for handling foreclosure, determining acquisition types based on cash flows, specifying currency preferences, and maintaining events classes.",
+      "raw_text": "2-30\nDaily\nWeekly\nMonthly\nHalf-Yearly\nAnnual\nHandling of Foreclosure\nSelect the method of handling foreclosure from the adjoining drop-down list:\nComplete Accrual\nRefund\nAcquisition Type\nThe Acquisition Type is determined by the cash flows of Interest, charges and fees for which \n'Consider as Discount' option is checked. The drop down list comprises of the following \nvalues: \nPar\nPar/Discount\nPar/Premium\nPar/Discount/Premium\nIf the incoming cash flows of all the above components are greater than outgoing cash flows \nconsidering Incoming flow as Positive (In case of Loans) then acquisition type is considered \nas Discount.\nIf the incoming cash flows of all the above components are less than outgoing cash flows \nconsidering Incoming flow as Positive (In case of Loan) then acquisition type is considered as \nPremium.\nIf the incoming cash flows of all the above components are equal to outgoing cash flows \nconsidering Incoming flow as Positive (In case of Loan) then acquisition type is considered as \nPar.\nClass Currency Preference\nSpecify the following details:\nCurrency\nSpecify the currency code. The adjoining option list displays all currency codes available in \nthe system. You can choose the appropriate one.\nCurrency Name\nThe system displays the name of the currency.\nNumerator Method\nSpecify the numerator method.\nDenominator Method\nSpecify the denominator method.\nYou can maintain multiple currency codes.\n2.12 Events Class Maintenance\nThis section contains the following topics:"
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Invoking Event Class Maintenance Screen"
+      ],
+      "summary": "This section explains how to invoke and use the 'Events Class Maintenance' screen to define event classes for specific types of charges or events in a particular module.",
+      "raw_text": "2-31\nSection 2.12.1, \"Invoking Event Class Maintenance Screen\"\nSection 2.12.2, \"Accounting Entries Button\"\nSection 2.12.3, \"Advices Button\"\nSection 2.12.4, \"Fields Button\"\nSection 2.12.5, \"Maintaining Event Class for Account Initial Funding\"\n2.12.1 \nInvoking Event Class Maintenance Screen\nYou can build a charge class, for instance, with the attributes of a specific type of charge, such \nas Charges for provision of services. Similarly, you can build an event class with the attributes \nof a specific type of events, such as a Booking a Transaction, Collecting Charges, \nCancellation and so on. \nYou can identify an Events Class with a unique Code and Description. When you define an \nEvents Class, you choose, first of all, the set of events that would belong to the class. Events \nare, typically, unique to a module. \nYou can build the events that you would like to include in an Events Class in the ‘Events Class \nMaintenance’ screen. You can invoke this screen by typing ‘CSDACTCL’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button.\nHere you can specify the following details:\nModule\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one. Based on the \nmodule chose, the corresponding events will be available for selection.\nModule Description\nThe system displays a brief description of the chosen module.\nClass Code\nSpecify a unique code to identify the class."
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Class Description",
+        "Accounting Entries Button"
+      ],
+      "summary": "This page describes how to specify a class description and accounting entries for events in an event class, including details that can be displayed and specified through the 'Accounting Entries' screen.",
+      "raw_text": "2-32\nClass Description\nSpecify a brief description for the class.\nEvent Class\nYou can specify the evnt class code and the event class description.\n2.12.2 \nAccounting Entries Button\nFor every event constituting the class that you are building, you have to specify the accounting \nentries that should be passed (if any), and the advices that should be generated. You can do \nthis through the ‘Accounting Entries’ screen. \nThe system displays the following details from the main screen:\nClass Code\nClass Description\nEvent Code\nEvent Description\nYou can specify the following accounting details: \nAccounting Role\nAmount Tag\nTransaction Code\nNetting Indicator\nMIS Head"
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Advices Button",
+        "Event Advice Class"
+      ],
+      "summary": "This page explains how to use the 'Advices' button at an event to define advice generation and details such as advice name, description, generation time, suppression, and priority.",
+      "raw_text": "2-33\n2.12.3 \nAdvices Button\nAt an event, you can opt to generate an advice if the accounting entry involves a customer \naccount. Click ‘Advices’ button to define the advices that should be generated for an event.\nThe system displays the following details from the main screen:\nClass Code\nClass Description\nEvent Code\nEvent Description\nEvent Advice Class\nYou need to specify the following details:\nAdvice Name\nSpecify the advices that you would like to generate. The adjoining option list displays all \nadvices that can be generated at an event. You can choose the appropriate one.\nDescription\nThe system displays a brief description of the advice.\nGeneration Time\nSpecify the time of generation.\nSuppress\nSelect this option to suppress this message.\nPriority\nYou can indicate the order of importance in the Priority field."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Fields Button",
+        "Maintaining Event Class for Account Initial Funding"
+      ],
+      "summary": "This page describes how to capture user-defined fields and maintain event classes for initial funding on a customer account.",
+      "raw_text": "2-34\n2.12.4 \nFields Button\nYou can capture user-defined fields (UDFs) in the ‘User Defined Fields’ screen. Click ‘Fields’ \nbutton and invoke the following screen.\nHere you can specify the following details:\nField Name\nSpecify the UDF that should be linked to the class. The adjoining option list displays all valid \nUDFs maintained in the system. You can choose the appropriate one.\nValue\nSpecify the value for each UDF. You can maintain multiple UDFs.\n2.12.5 \nMaintaining Event Class for Account Initial Funding\nYou can create an event class to define accounting entries that should be posted for initial \nfunding on a customer account. Similarly, you can also define accounting entries for charges"
+    },
+    {
+      "page_number": 40,
+      "sections": [],
+      "summary": "This page describes how to set up event class maintenance for account opening by specifying values such as class code, description, module, and event code.",
+      "raw_text": "2-35\nthat should be collected on account opening. For this, you need to invoke the ‘Events Class \nMaintenance’ screen. \nSpecify the following values.\nClass Code\nSpecify a unique identifier for the class code.\nDescription\nGive a brief description to identify the class code.\nModule\nSpecify ‘DE’ as the module code for the event class. \nModule Description\nThe system displays the description as ‘Data Entry’ on specifying ‘DE’ as the module.\nEvent Class\nSpecify the following events.\nEvent Code\nSpecify ‘INIT’."
+    },
+    {
+      "page_number": 41,
+      "sections": [],
+      "summary": "This page describes how to maintain accounting entries and associate messages for account opening in a system, including details on debit and credit transactions.",
+      "raw_text": "2-36\nClick ‘Accounting Entries’ button and invoke the following screen. \nYou need to maintain the following accounting entries.\nClick ‘Advices’ button and invoke the following screen.\nYou need to associate the message ‘ACC_OPADV’ to the event ‘INIT’.\nRefer the section’ Maintaining Message Type for Account Opening’ in the chapter titled \n‘Maintaining Messaging Branch Preferences’ in the Messaging System User Manual for \ndetails about maintaining messages.\nAccounting Role\nAmount Tag\nDr/Cr\nDescription\nOFS_ACC\nTXN_AMT\nDebit\nOffset Account\nOFS_ACC_USER\nTXN_AMT\nCredit\nCustomer Account\nCHARGEINC\nCHG-AMT\nCredit\nCharge Income \nOFS_ACC_USER\nCHG-AMT\nDebit\nCustomer Account."
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Invoking Role to Head Mapping Class Maintenance Screen",
+        "Fields Button",
+        "Maintaining a Class for Account Opening Charge"
+      ],
+      "summary": "This page describes how to invoke and use the 'Role to Head Mapping Class Maintenance' screen to create and maintain classes, including specifying class details such as code, description, module, and role to head mapping.",
+      "raw_text": "2-37\n2.13 Role to Head Mapping Class\nThis section contains the following topics:\nSection 2.13.1, \"Invoking Role to Head Mapping Class Maintenance Screen\"\nSection 2.13.2, \"Fields Button\"\nSection 2.13.3, \"Maintaining a Class for Account Opening Charge\"\n2.13.1 \nInvoking Role to Head Mapping Class Maintenance Screen\nYou can build a role to head mapping class in the ‘Role to Head Mapping Class Maintenance’ \nscreen. You can invoke this screen by typing ‘CSDRHCLM’ in the field at the top right corner \nof the Application tool bar and clicking on the adjoining arrow button.\nHere you can specify the following details:\nClass Code\nSpecify a unique code to identify the class.\nClass Description\nSpecify a brief description for the class.\nModule\nSpecify the module to which the class should be applicable. The adjoining option list displays \nall module codes available in the system. You can choose the appropriate one.\nModule Description\nThe system displays a brief description of the chosen module.\nRole to Head Mapping\nSpecify the following details:"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Accounting Role",
+        "Fields Button",
+        "Maintaining a Class for Account Opening Charge"
+      ],
+      "summary": "This page describes how to specify accounting roles and heads, define user-defined fields, and maintain classes for account opening charges in the system.",
+      "raw_text": "2-38\nAccounting Role \nSpecify an Accounting Role. The adjoining option list displays all roles available in the system. \nYou can select the appropriate one by double clicking on it. Next, in the Account Head column, \nselect an accounting head from the adjoining option list. \nAccounting Role Description\nA brief description of each accounting role that you choose is displayed.\nAccount Head\nIf you choose not to associate the product with a class, you have to specify the account heads \nfor the product, in this field. You can invoke a list of the accounting heads that you have \nmaintained from the option list positioned next to this field. Choose a head by double clicking \non it.\nAccounting Head Description\nA brief description of each accounting head that you choose is displayed. \n2.13.2 \nFields Button\nYou can capture user-defined fields (UDFs) in the ‘User Defined Fields’ screen. Click ‘Fields’ \nbutton and invoke the following screen. \nHere you can specify the following details:\nField Name\nThe system displays the UDFs. \nValue\nSpecify the value for each UDF.\n2.13.3 \nMaintaining a Class for Account Opening Charge\nYou can create a class to define role to head mapping for levying charges on account \nopening. For this, you need to invoke the ‘Role to Head Mapping Class Maintenance’ screen\nEnter CSDRHCLM in the in the field at the top right corner of the Application tool bar and click \nenter. The Role to Head Mapping Class Maintenance page appears."
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Class Code",
+        "Description",
+        "Module",
+        "Module Description",
+        "Role To Head Mapping"
+      ],
+      "summary": "This page outlines the specifications for class codes, including module and role details for an event class.",
+      "raw_text": "2-39\n.\nSpecify the following values.\nClass Code\nSpecify a unique identifier for the class code.\nDescription\nGive a brief description to identify the class code.\nModule\nSpecify ‘DE’ as the module code for the event class. \nModule Description\nThe system displays the description as ‘Data Entry’ on specifying ‘DE’ as the module.\nRole To Head Mapping\nMaintain the following details.\nAccounting Role\nSpecify the role available for charge income.\nAccounting Head\nSpecify an accounting head (GL) that should be used for recovering account opening charge."
+    },
+    {
+      "page_number": 45,
+      "sections": [],
+      "summary": "",
+      "raw_text": "3-1\n3. Function ID Glossary\nC\nCFDACFCL .............................. 2-11\nCFDADFEE .............................. 2-24\nCFDCHGCE .............................2-13\nCFDINCLE .................................2-2\nCFDINTCE .................................2-8\nCFDOCHCL .............................2-18\nCSDACTCL .............................. 2-31\nCSDCBRCL ..............................2-25\nCSDCUCCL .............................2-27\nCSDRHMCL .............................2-37\nD\nDADACRCL ..............................2-29\nT\nTADTAXCL ...............................2-20"
+    }
+  ]
+}

@@ -1,0 +1,1521 @@
+{
+  "source": "FlexCube/FCUBS/Fixed Assets/Fixed Assets User Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 64,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's preface and provides an overview of the fixed assets module.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility features.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility features.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility features.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility features.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Abbreviations",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page introduces abbreviations and organizational structure of the manual, providing a quick reference for understanding the content and layout of the document.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Organization",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page introduces abbreviations and organizational structure of the manual, providing a quick reference for understanding the content and layout of the document.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Abbreviations",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 7
+        },
+        {
+          "structure": "6",
+          "title": "5. Processing Fixed Assets",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Fixed Asset Details",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Invoking the Fixed Asset Capture Screen",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Asset Details Tab",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Depreciation Details Tab",
+          "start_page": 33
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Linkage Details Button",
+          "start_page": 35
+        },
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Asset Details Button",
+          "start_page": 36
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Ad hoc-Schedule Button",
+          "start_page": 37
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Asset Transfer Details",
+          "start_page": 38
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Invoking the Asset Transfer Details Screen",
+          "start_page": 38
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Asset Transfer Process",
+          "start_page": 40
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Asset Sale Details",
+          "start_page": 41
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Invoking Asset Sale Detail Button",
+          "start_page": 42
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Asset Write Off Details",
+          "start_page": 42
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 Invoking the Asset Write Off Screen",
+          "start_page": 43
+        },
+        {
+          "structure": "6.5",
+          "title": "5.5 Authorizing Fixed Asset Contracts",
+          "start_page": 43
+        },
+        {
+          "structure": "6.5.1",
+          "title": "5.5.1 Invoking the Fixed Assets Authorization Screen",
+          "start_page": 43
+        },
+        {
+          "structure": "6.6",
+          "title": "5.6 Contract Reassign to another User",
+          "start_page": 45
+        },
+        {
+          "structure": "6.6.1",
+          "title": "5.6.1 Invoking the Fixed Assets Contract Reassign Screen",
+          "start_page": 45
+        },
+        {
+          "structure": "3",
+          "title": "2. Fixed Assets - An Overview",
+          "start_page": 8
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features of the Module",
+          "start_page": 9
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintenances for Fixed Asset Module",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Asset Category Details",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Invoking Assets Category Maintenance Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Fields Button",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Codes for Asset Locations",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Invoking Location Code Maintenance Screen",
+          "start_page": 12
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Branch Parameters Set-up for the Product",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Invoking Branch Parameters - Fixed Assets Screen",
+          "start_page": 13
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Location Restrictions Classes",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Invoking Fixed Assets Location Restriction Class Maintenance Screen",
+          "start_page": 15
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Asset Category Restriction Classes",
+          "start_page": 16
+        },
+        {
+          "structure": "4.5.1",
+          "title": "3.5.1 Invoking Asset Category Restriction Class Maintenance Screen",
+          "start_page": 17
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Asset Rules Definition",
+          "start_page": 18
+        },
+        {
+          "structure": "4.6.1",
+          "title": "3.6.1 Invoking the Rule Definition – Fixed Assets Screen",
+          "start_page": 18
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Asset Category and Location Rule Mapping",
+          "start_page": 19
+        },
+        {
+          "structure": "4.7.1",
+          "title": "3.7.1 Invoking the Asset Category Rule Mapping screen",
+          "start_page": 19
+        },
+        {
+          "structure": "5",
+          "title": "4. Defining a Product",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Product Definition",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Invoking the Fixed Asset Product Maintenance Screen",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Preference Button",
+          "start_page": 24
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Category Restrictions Button",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Instrument Restrictions",
+          "start_page": 28
+        },
+        {
+          "structure": "8",
+          "title": "7. Glossary",
+          "start_page": 62
+        },
+        {
+          "structure": "8.1",
+          "title": "7.1 Important Terms",
+          "start_page": 62
+        },
+        {
+          "structure": "7",
+          "title": "6. Annexure A - Accounting Entries and Advices",
+          "start_page": 47
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 FA Events",
+          "start_page": 47
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Amount Tags",
+          "start_page": 47
+        },
+        {
+          "structure": "7.3",
+          "title": "6.3 Accounting Roles",
+          "start_page": 49
+        },
+        {
+          "structure": "7.4",
+          "title": "6.4 Event-wise Accounting Entries and Advices",
+          "start_page": 49
+        }
+      ]
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page provides a glossary of icons used in the User Manual along with their functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. Fixed Assets - An Overview",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page provides an overview of the Fixed Assets module in Oracle FLEXCUBE and explains what fixed assets are, including their definition, characteristics, and how they are managed within the module.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page provides an overview of the Fixed Assets module in Oracle FLEXCUBE and explains what fixed assets are, including their definition, characteristics, and how they are managed within the module.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Features of the Module",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page discusses the features of the module in Oracle FLEXCUBE, including classes and product definitions, as well as the process for depreciation charge processing.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "4",
+      "title": "3. Maintenances for Fixed Asset Module",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page details the maintenance of asset categories and how to invoke the assets category maintenance screen in the Fixed Asset Module for Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Asset Category Details",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page details the maintenance of asset categories and how to invoke the assets category maintenance screen in the Fixed Asset Module for Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Invoking Assets Category Maintenance Screen",
+      "start_page": 10,
+      "end_page": 12,
+      "summary": "This page details the maintenance of asset categories and how to invoke the assets category maintenance screen in the Fixed Asset Module for Oracle FLEXCUBE.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features of the Module",
+          "start_page": 9
+        }
+      ]
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Fields Button",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page describes the fields and options related to asset management in Oracle FLEXCUBE, including useful life units, depreciation calculation methods, residual values, user-defined fields, and asset location codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Codes for Asset Locations",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page describes the fields and options related to asset management in Oracle FLEXCUBE, including useful life units, depreciation calculation methods, residual values, user-defined fields, and asset location codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Invoking Location Code Maintenance Screen",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page describes the fields and options related to asset management in Oracle FLEXCUBE, including useful life units, depreciation calculation methods, residual values, user-defined fields, and asset location codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Branch Parameters Set-up for the Product",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page explains how to specify location codes and descriptions in an application tool, as well as setting up branch parameters for fixed assets such as depreciation periods and residual values.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.1",
+      "title": "3.3.1 Invoking Branch Parameters - Fixed Assets Screen",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This page explains how to specify location codes and descriptions in an application tool, as well as setting up branch parameters for fixed assets such as depreciation periods and residual values.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Location Restrictions Classes",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page explains how to set up depreciation periods, cut off dates, amortization options, and location restrictions for fixed assets in an accounting system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.1",
+      "title": "3.4.1 Invoking Fixed Assets Location Restriction Class Maintenance Screen",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page explains how to set up depreciation periods, cut off dates, amortization options, and location restrictions for fixed assets in an accounting system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5",
+      "title": "3.5 Asset Category Restriction Classes",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This page explains how to maintain fixed asset location restriction classes in an application, including specifying class codes, types of restrictions, and asset category restrictions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.1",
+      "title": "3.5.1 Invoking Asset Category Restriction Class Maintenance Screen",
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This section explains how to invoke and use the 'Asset Category Restriction Class Maintenance' screen in Oracle FLEXCUBE to define and manage asset category restrictions for fixed assets products.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6",
+      "title": "3.6 Asset Rules Definition",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page discusses restrictions on product categories and how to define depreciation rules for fixed assets in an asset management system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6.1",
+      "title": "3.6.1 Invoking the Rule Definition – Fixed Assets Screen",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page discusses restrictions on product categories and how to define depreciation rules for fixed assets in an asset management system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7",
+      "title": "3.7 Asset Category and Location Rule Mapping",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page explains how to specify depreciation rates for assets based on their capitalization status and provides guidance on using asset category and location rule mappings.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7.1",
+      "title": "3.7.1 Invoking the Asset Category Rule Mapping screen",
+      "start_page": 19,
+      "end_page": 22,
+      "summary": "This page explains how to specify depreciation rates for assets based on their capitalization status and provides guidance on using asset category and location rule mappings.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Defining a Product",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page discusses how to define attributes for a Fixed Assets product in Oracle FLEXCUBE, including accessing the maintenance screen and setting preferences.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Product Definition",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page discusses how to define attributes for a Fixed Assets product in Oracle FLEXCUBE, including accessing the maintenance screen and setting preferences.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Invoking the Fixed Asset Product Maintenance Screen",
+      "start_page": 22,
+      "end_page": 24,
+      "summary": "This page discusses how to define attributes for a Fixed Assets product in Oracle FLEXCUBE, including accessing the maintenance screen and setting preferences.",
+      "cross_references": [
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Invoking Assets Category Maintenance Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Fields Button",
+          "start_page": 12
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Asset Category Details",
+          "start_page": 10
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Preference Button",
+      "start_page": 24,
+      "end_page": 26,
+      "summary": "This page discusses exchange rate variance limits and override/stop limits for product creation in a financial context, including how to set these limits and their implications.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.3",
+      "title": "4.1.3 Category Restrictions Button",
+      "start_page": 26,
+      "end_page": 28,
+      "summary": "This page explains the rekeying requirements for authorizing asset contracts and introduces category restrictions at the product level.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.4",
+      "title": "4.1.4 Instrument Restrictions",
+      "start_page": 28,
+      "end_page": 30,
+      "summary": "This page explains how to specify and manage asset categories in a fixed assets system, including setting category codes, descriptions, and restrictions based on location.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Processing Fixed Assets",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page describes how to capture and manage fixed asset details in Oracle FLEXCUBE, including various functions such as amendment, copying, deletion, recording of individual items, and linking contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Fixed Asset Details",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page describes how to capture and manage fixed asset details in Oracle FLEXCUBE, including various functions such as amendment, copying, deletion, recording of individual items, and linking contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.1",
+      "title": "5.1.1 Invoking the Fixed Asset Capture Screen",
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This page describes how to capture and manage fixed asset details in Oracle FLEXCUBE, including various functions such as amendment, copying, deletion, recording of individual items, and linking contracts.",
+      "cross_references": [
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Invoking the Fixed Asset Product Maintenance Screen",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Product Definition",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Preference Button",
+          "start_page": 24
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Category Restrictions Button",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Instrument Restrictions",
+          "start_page": 28
+        }
+      ]
+    },
+    {
+      "structure": "6.1.2",
+      "title": "5.1.2 Asset Details Tab",
+      "start_page": 31,
+      "end_page": 33,
+      "summary": "This page outlines various sections and data fields for fixed asset (FA) management, including product code, contract reference number, product description, user reference number, and asset details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.3",
+      "title": "5.1.3 Depreciation Details Tab",
+      "start_page": 33,
+      "end_page": 35,
+      "summary": "This page details the fields and considerations for asset transfer, including capitalization date, effective depreciation date, useful life, and depreciation suspension.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.4",
+      "title": "5.1.4 Linkage Details Button",
+      "start_page": 35,
+      "end_page": 36,
+      "summary": "This page explains how to link an asset purchased against a purchase order to contracts in the Expense Processing module, detailing steps and fields involved.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.5",
+      "title": "5.1.5 Asset Details Button",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page describes how to access and use the Asset Details screen for recording individual item details under a single asset code, including fields such as Item Number, Description, Item Cost, Expected Delivery Date, and related notes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.6",
+      "title": "5.1.6 Ad hoc-Schedule Button",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page outlines various fields and options for asset management, including delivery status, inspection, remarks, depreciation scheduling, and asset reference information.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Asset Transfer Details",
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This page discusses depreciation rates and asset transfer processes, including how to invoke the asset transfer screen in an application.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.1",
+      "title": "5.2.1 Invoking the Asset Transfer Details Screen",
+      "start_page": 38,
+      "end_page": 40,
+      "summary": "This page discusses depreciation rates and asset transfer processes, including how to invoke the asset transfer screen in an application.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.2",
+      "title": "5.2.2 Asset Transfer Process",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This page outlines the mandatory details and conditions for asset transfers, including specifying new branch and location, and the process based on category-location rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3",
+      "title": "5.3 Asset Sale Details",
+      "start_page": 41,
+      "end_page": 42,
+      "summary": "This page outlines the procedures for transferring an asset on or before the cut-off date, detailing how depreciation and various asset details are handled during the transfer process.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.1",
+      "title": "5.3.1 Invoking Asset Sale Detail Button",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page describes how to invoke the 'Fixed Assets Sale Details' screen and introduces sections related to asset write-off details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4",
+      "title": "5.4 Asset Write Off Details",
+      "start_page": 42,
+      "end_page": 43,
+      "summary": "This page describes how to invoke the 'Fixed Assets Sale Details' screen and introduces sections related to asset write-off details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.1",
+      "title": "5.4.1 Invoking the Asset Write Off Screen",
+      "start_page": 43,
+      "end_page": 43,
+      "summary": "This page describes how to invoke and use screens for asset write-off and fixed asset contract authorization in an application.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5",
+      "title": "5.5 Authorizing Fixed Asset Contracts",
+      "start_page": 43,
+      "end_page": 43,
+      "summary": "This page describes how to invoke and use screens for asset write-off and fixed asset contract authorization in an application.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.1",
+      "title": "5.5.1 Invoking the Fixed Assets Authorization Screen",
+      "start_page": 43,
+      "end_page": 45,
+      "summary": "This page describes how to invoke and use screens for asset write-off and fixed asset contract authorization in an application.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.6",
+      "title": "5.6 Contract Reassign to another User",
+      "start_page": 45,
+      "end_page": 45,
+      "summary": "This page details contract override options and provides instructions for reassigning a fixed assets contract to another user when the original inputter is unavailable.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.6.1",
+      "title": "5.6.1 Invoking the Fixed Assets Contract Reassign Screen",
+      "start_page": 45,
+      "end_page": 47,
+      "summary": "This page details contract override options and provides instructions for reassigning a fixed assets contract to another user when the original inputter is unavailable.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Annexure A - Accounting Entries and Advices",
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "This section details various accounting entries and advices for different events in the lifecycle of an FA contract in Oracle FLEXCUBE, including capitalization, depreciation, and sale.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 FA Events",
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "This section details various accounting entries and advices for different events in the lifecycle of an FA contract in Oracle FLEXCUBE, including capitalization, depreciation, and sale.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 Amount Tags",
+      "start_page": 47,
+      "end_page": 49,
+      "summary": "This section details various accounting entries and advices for different events in the lifecycle of an FA contract in Oracle FLEXCUBE, including capitalization, depreciation, and sale.",
+      "cross_references": [
+        {
+          "structure": "6.2",
+          "title": "5.2 Asset Transfer Details",
+          "start_page": 38
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Invoking the Asset Transfer Details Screen",
+          "start_page": 38
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Asset Transfer Process",
+          "start_page": 40
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Asset Write Off Details",
+          "start_page": 42
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 Invoking the Asset Write Off Screen",
+          "start_page": 43
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Asset Sale Details",
+          "start_page": 41
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Invoking Asset Sale Detail Button",
+          "start_page": 42
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Fixed Asset Details",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Invoking the Fixed Asset Capture Screen",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Asset Details Tab",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Depreciation Details Tab",
+          "start_page": 33
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Linkage Details Button",
+          "start_page": 35
+        },
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Asset Details Button",
+          "start_page": 36
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Ad hoc-Schedule Button",
+          "start_page": 37
+        }
+      ]
+    },
+    {
+      "structure": "7.3",
+      "title": "6.3 Accounting Roles",
+      "start_page": 49,
+      "end_page": 49,
+      "summary": "This page outlines various accounting roles for financial asset (FA) module products and defines suggested accounting entries and advices for each event in an FA contract's lifecycle.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.4",
+      "title": "6.4 Event-wise Accounting Entries and Advices",
+      "start_page": 49,
+      "end_page": 62,
+      "summary": "This page outlines various accounting roles for financial asset (FA) module products and defines suggested accounting entries and advices for each event in an FA contract's lifecycle.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Glossary",
+      "start_page": 62,
+      "end_page": 62,
+      "summary": "This page defines several key terms related to accounting and depreciation, including ad hoc depreciation rates, book value, capitalization, depreciation, and purchase order.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1",
+      "title": "7.1 Important Terms",
+      "start_page": 62,
+      "end_page": 64,
+      "summary": "This page defines several key terms related to accounting and depreciation, including ad hoc depreciation rates, book value, capitalization, depreciation, and purchase order.",
+      "cross_references": [
+        {
+          "structure": "7.1",
+          "title": "6.1 FA Events",
+          "start_page": 47
+        }
+      ]
+    },
+    {
+      "structure": "9",
+      "title": "8. Function ID Glossary",
+      "start_page": 64,
+      "end_page": 66,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page introduces the Fixed Assets User Guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Fixed Assets User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use for U.S. Government end users.",
+      "raw_text": "Fixed Assets User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs \ninstalled on the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” \npursuant to the applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, \nduplication, disclosure, modification, and adaptation of the programs, including any operating system, integrated software, any \nprograms installed on the hardware, and/or documentation, shall be subject to license terms and license restrictions applicable \nto the programs. No other rights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed \nor intended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If \nyou use this software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, \nbackup, redundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for \nany damages caused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure \nand are protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you \nmay not use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any \npart, in any form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by \nlaw for interoperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from \nthird parties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with \nrespect to third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, \ncosts, or damages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Fixed Assets - An Overview"
+      ],
+      "summary": "This page introduces the document's preface and provides an overview of the fixed assets module.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nAbbreviations...........................................................................................................  1-2\n1.5 \nOrganization ............................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-3\n2. \nFixed Assets - An Overview .................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nFeatures of the Module............................................................................................  2-2\n3. \nMaintenances for Fixed Asset Module .................................................. 3-1\n3.1 \nAsset Category Details............................................................................................  3-1\n3.1.1  \nInvoking Assets Category Maintenance Screen.........................................  3-1\n3.1.2  \nFields Button...............................................................................................  3-3\n3.2 \nCodes for Asset Locations.......................................................................................  3-3\n3.2.1  \nInvoking Location Code Maintenance Screen............................................  3-3\n3.3 \nBranch Parameters Set-up for the Product .............................................................  3-4\n3.3.1  \nInvoking Branch Parameters - Fixed Assets Screen ..................................  3-4\n3.4 \nLocation Restrictions Classes .................................................................................  3-6\n3.4.1  \nInvoking Fixed Assets Location Restriction Class Maintenance Screen ....  3-6\n3.5 \nAsset Category Restriction Classes ........................................................................  3-7\n3.5.1  \nInvoking Asset Category Restriction Class Maintenance Screen...............  3-8\n3.6 \nAsset Rules Definition .............................................................................................  3-9\n3.6.1  \nInvoking the Rule Definition – Fixed Assets Screen...................................  3-9\n3.7 \nAsset Category and Location Rule Mapping .........................................................  3-10\n3.7.1  \nInvoking the Asset Category Rule Mapping screen..................................  3-10\n4. \nDefining a Product ................................................................................... 4-1\n4.1 \nProduct Definition ....................................................................................................  4-1\n4.1.1  \nInvoking the Fixed Asset Product Maintenance Screen.............................  4-1\n4.1.2  \nPreference Button.......................................................................................  4-3\n4.1.3  \nCategory Restrictions Button......................................................................  4-5\n4.1.4  \nInstrument Restrictions...............................................................................  4-7\n5. \nProcessing Fixed Assets ........................................................................ 5-1\n5.1 \nFixed Asset Details..................................................................................................  5-1\n5.1.1  \nInvoking the Fixed Asset Capture Screen ..................................................  5-1\n5.1.2  \nAsset Details Tab .......................................................................................  5-2\n5.1.3  \nDepreciation Details Tab ............................................................................  5-4\n5.1.4  \nLinkage Details Button................................................................................  5-6\n5.1.5  \nAsset Details Button ...................................................................................  5-7\n5.1.6  \nAd hoc-Schedule Button.............................................................................  5-8\n5.2 \nAsset Transfer Details .............................................................................................  5-9\n5.2.1  \nInvoking the Asset Transfer Details Screen ...............................................  5-9\n5.2.2  \nAsset Transfer Process ............................................................................  5-11\n5.3 \nAsset Sale Details .................................................................................................  5-12"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "5.3.1 Invoking Asset Sale Detail Button",
+        "5.4 Asset Write Off Details",
+        "5.5 Authorizing Fixed Asset Contracts",
+        "5.6 Contract Reassign to another User",
+        "6. Annexure A - Accounting Entries and Advices",
+        "7. Glossary"
+      ],
+      "summary": "This page covers various sections related to fixed asset management, including invoking screens for asset sale details, write-off, contract authorization, reassignment, and accounting entries.",
+      "raw_text": "5.3.1  \nInvoking Asset Sale Detail Button ............................................................  5-13\n5.4 \nAsset Write Off Details ..........................................................................................  5-13\n5.4.1  \nInvoking the Asset Write Off Screen.........................................................  5-14\n5.5 \nAuthorizing Fixed Asset Contracts .......................................................................  5-14\n5.5.1  \nInvoking the Fixed Assets Authorization Screen ......................................  5-14\n5.6 \nContract Reassign to another User .......................................................................  5-16\n5.6.1  \nInvoking the Fixed Assets Contract Reassign Screen..............................  5-16\n6. \nAnnexure A - Accounting Entries and Advices  ................................... 6-1\n6.1 \nFA Events................................................................................................................  6-1\n6.2 \nAmount Tags ...........................................................................................................  6-1\n6.3 \nAccounting Roles.....................................................................................................  6-3\n6.4 \nEvent-wise Accounting Entries and Advices ...........................................................  6-3\n7. \nGlossary ................................................................................................... 7-1\n7.1 \nImportant Terms ......................................................................................................  7-1\n8. \nFunction ID Glossary ............................................................................... 8-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility"
+      ],
+      "summary": "This page introduces the Fixed Assets module of Oracle FLEXCUBE and outlines its purpose, target audience, and documentation accessibility features.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis user manual is designed to help you quickly get acquainted with the Fixed Assets (FA) \nmodule of Oracle FLEXCUBE.\nThe manual gives you an overview of the Fixed Assets module, and takes you through the \nvarious steps involved in setting up and maintaining a fixed asset.\nYou can obtain information specific to a particular field by placing the cursor on the relevant \nfield, and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/\nofficers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/ \nBeginning of Day\nFinancial Controller/\nProduct Managers\nGeneration of reports"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Abbreviations",
+        "Organization"
+      ],
+      "summary": "This page introduces abbreviations and organizational structure of the manual, providing a quick reference for understanding the content and layout of the document.",
+      "raw_text": "1-2\n1.4 \nAbbreviations\n1.5 \nOrganization\nThis manual is organized into the following chapters:\nAbbreviation\nDescription\nOracle FLEX-\nCUBE\nOracle FLEXCUBE \nFA\nFixed Assets\nBOD\nBeginning of Day\nEOD\nEnd of Day\nPO\nPurchase Order\nMIS\nManagement Informa-\ntion System\nSLM\nStraight Line Method\nWDV\nWritten Down Value \nmethod\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It \nalso lists the various chapters covered in this User Manual.\nChapter 2\nFixed Assets - An Overview is a snapshot of the features that the \nmodule provides.\nChapter 3\nMaintenances for Fixed Assets Module details the maintenances \nrequired for fixed assets.\nChapter 4\nDefining a Product details the procedure to set up FA products.\nChapter 5\nProcessing Fixed Assets discusses the processing of the fixed \nasset.\nChapter 6\nAnnexure A - Accounting Entries and Advices contains an event-\nwise list of suggested accounting entries and advices.\nChapter 7\nGlossary defines the important terms list in the module.\nChapter 8\nFunction ID Glossary has alphabetical listing of Function/Screen \nID's used in the module with page references for quick naviga-\ntion."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Glossary of Icons"
+      ],
+      "summary": "This page provides a glossary of icons used in the User Manual along with their functions.",
+      "raw_text": "1-3\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Fixed Assets - An Overview",
+        "Introduction"
+      ],
+      "summary": "This page provides an overview of the Fixed Assets module in Oracle FLEXCUBE and explains what fixed assets are, including their definition, characteristics, and how they are managed within the module.",
+      "raw_text": "2-1\n2. Fixed Assets - An Overview\n2.1 \nIntroduction\nThe Fixed Assets module is a complete front-end module of Oracle FLEXCUBE that captures \nand tracks the characteristics of the fixed asset of your bank. Using this module you can \nclearly identify the various applicable events and manage all the activities during the assets \nuseful lifecycle. \nFixed asset, also known as property, plant, and equipment (PP&E), is a term used in \naccountancy for assets and property which cannot easily be converted into cash. This can be \ncompared with current assets such as cash or bank accounts, which are described as liquid \nassets. In most cases, only tangible assets are referred to as fixed.\nFixed assets normally include items such as land and buildings, motor vehicles, furniture, \noffice equipment, computers, fixtures and fittings, and plant and machinery. These often \nreceive favorable tax treatment (depreciation allowance) over short-term assets.\nFixed Assets are items of property, plant and equipment engaged by a business entity in the \ngeneration and expansion of revenue. According to International Accounting Standard (IAS) \n16, Fixed Assets are assets whose future economic benefit is probable to flow into the entity, \nwhose cost can be measured reliably.\nIt is pertinent to note that the cost of a fixed asset is its purchase price, including import duties \nand other deductible trade discounts and rebates. In addition, cost attributable to bringing and \ninstalling the asset in its needed location and the initial estimate of dismantling and removing \nthe item if they are eventually no longer needed on the location.\nDepreciation is simply put to be the expense generated by the use of an asset. It is the wear \nand tear of an asset or diminution in the historical value owing to usage. Further to this, it is \nthe cost of the asset less any salvage value over its estimated useful life. It is an expense \nbecause it is matched against the revenue generated through the use of the same asset. \nDepreciation is usually spread over the economic useful life of an asset because it is regarded \nas the cost of an asset absorbed over its useful life. Invariably the depreciation expense is \ncharged against the revenue generated through the use of the asset. The method of \ndepreciation to be adopted is best left for the management to decide in consideration to the \npeculiarity of the business, prevailing economic condition of the assets and existing \naccounting guideline and principles as implied in the organizational policies.\nThe primary objective of a business entity is to make profit and increase the wealth of its \nowners. In the attainment of this objective it is required that the management will exercise due \ncare and diligence in applying the basic accounting concept of “Matching Concept”. Matching \nconcept is simply matching the expenses of a period against the revenues of the same period.\nThe use of assets in the generation of revenue is usually more than a year- that is long term. \nIt is therefore obligatory that in order to accurately determine the net income or profit for a \nperiod depreciation is charged on the total value of asset that contributed to the revenue for \nthe period in consideration and charge against the same revenue of the same period. This is \nessential in the prudent reporting of the net revenue for the entity in the period. \nThe product definition function, the mainstay of Oracle FLEXCUBE’s design, enables you to \ncreate products for specific fixed asset that you set up. The module gives you the flexibility to \ndefine components (charge), restrictions (branch), preferences, events and accounting \nentries into ‘Classes’. When defining a product, you merely need to associate it with the \ndifferent classes that you have built."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Features of the Module",
+        "Creating Products"
+      ],
+      "summary": "This page discusses the features of the module in Oracle FLEXCUBE, including classes and product definitions, as well as the process for depreciation charge processing.",
+      "raw_text": "2-2\nThis chapter contains the following sections:\nSection 2.2, \"Features of the Module\"\n2.2 \nFeatures of the Module\nDefinition of Classes\nIn Oracle FLEXCUBE, a ‘Class’ embodies a generic set of attributes. A class could represent:\na set of restrictions (branch, locations, asset category)\na set of events and the corresponding accounting roles and heads\na component (charge)\nAs part of your one-time set up, you can define several sets of classes of a particular type. In \nOracle FLEXCUBE, therefore, you do not have to specify restrictions, preferences, and \ncomponents every time you create a product. You only need to associate the different set of \nclasses that you have already maintained.\nThis feature eliminates redundancy, and saves processing time. \nNote\nThe process to create a class is discussed in the Procedures User Manual of Oracle FL-\nEXCUBE.\nCreating Products\nWhen setting up the module, you can define the various parameters for the assets. For each \nproduct, you can also define ‘attributes’, or in other words, the terms and conditions. When a \nuser at the bank actually processes a fixed asset, it can be associated with a product. The \nasset acquires the terms defined for the product that it involves. (However, you can allow a \nuser to change the inherited attributes of an asset for specific transactions.)\nProcessing Depreciation\nThe depreciation charge processing will be done as part of the End of Day and Beginning of \nDay processing. This will process all the assets for depreciation depending on frequency of \nthe depreciation that you specify in the ‘Asset Category – Rule mapping maintenance’ screen. \nThe Depreciation rate can be maintained in Oracle FLEXCUBE for a combination of asset \ncategory and the location where the asset is placed. Separate rates can be maintained for \ncomputing depreciation for tax and book purpose."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Asset Category Details",
+        "Invoking Assets Category Maintenance Screen"
+      ],
+      "summary": "This page details the maintenance of asset categories and how to invoke the assets category maintenance screen in the Fixed Asset Module for Oracle FLEXCUBE.",
+      "raw_text": "3-1\n3. Maintenances for Fixed Asset Module\nYou need to maintain certain details before you start entering the details of the assets.\nTherefore, you need to maintain the following information as part of processing fixed assets:\nAsset category maintenance\nLocations maintenance\nBranch Parameters\nClass(es) for locations restrictions \nClass(es) for category restrictions \nAsset category restrictions\nRule definition\nThis chapter enumerates the maintenance of the above mentioned parameters used by the \nFixed Assets module in Oracle FLEXCUBE:\nThis chapter contains the following sections:\nSection 3.1, \"Asset Category Details\"\nSection 3.2, \"Codes for Asset Locations\"\nSection 3.3, \"Branch Parameters Set-up for the Product\"\nSection 3.4, \"Location Restrictions Classes\"\nSection 3.5, \"Asset Category Restriction Classes\"\nSection 3.6, \"Asset Rules Definition\"\nSection 3.7, \"Asset Category and Location Rule Mapping\"\n3.1 \nAsset Category Details\nThis section contains the following topics:\nSection 3.1.1, \"Invoking Assets Category Maintenance Screen\"\nSection 3.1.2, \"Fields Button\"\n3.1.1 \nInvoking Assets Category Maintenance Screen\nIn the ‘Asset Category Maintenance’ screen, you can group all the assets that are similar \nunder one category. This will be useful for charging a common depreciation rate, generating \nMIS reports etc. You can also define the useful life for different categories of assets."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Category Code",
+        "Category Description",
+        "Main Category",
+        "Useful Life"
+      ],
+      "summary": "This page explains how to specify details for an asset category in a system, including the category code, description, main category, and useful life.",
+      "raw_text": "3-2\nYou can invoke this screen by typing ‘FADACAT’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button.\nSpecify the following:\nCategory Code\nYou have to specify the unique code to identify the category for the asset. You will not be able \nto modify the category code once it is authorized.\nNote\nYou can restrict usage of any asset category by disallowing the category in Asset category \nrestriction screen, accessed through the product maintenance screen.\nCategory Description\nYou have to capture a brief description about the asset category that you are defining. For \nexample you could create a category called Land and categorize all immovable assets under \nthis category. You could assign a description called Lands and Buildings to this category. \nMain Category \nYou can choose the main category code for the asset from the drop down list. For example \nfor an asset like car, you can have Vehicle as your main category. This is meant for \ninformation purposes only. \nUseful Life \nMention the useful life of the asset in this field. If you select the Year as your useful life unit in \nthe next field then you have to mention the number of years the asset will be active.\nIf your preference is Month then mention the number of months for which the asset is useful.\nThe significance of capturing this information is that if the depreciation is adhoc, the rates \ncaptured at the contract level should cover the useful life of the asset. Also, the sum of the \ndepreciation rates should add up to hundred percent for the useful life period. However, if the \ndepreciation is rule based, this will have no effect on the depreciation calculation."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Useful Life Unit",
+        "Calculation Depreciation On",
+        "Note",
+        "Fields Button",
+        "Codes for Asset Locations",
+        "Section 3.2.1, \"Invoking Location Code Maintenance Screen\""
+      ],
+      "summary": "This page describes the fields and options related to asset management in Oracle FLEXCUBE, including useful life units, depreciation calculation methods, residual values, user-defined fields, and asset location codes.",
+      "raw_text": "3-3\nUseful Life Unit \nThis is where you can mention the unit for measuring the useful life of an asset. The useful \nlife unit can be Year or Month and this will determine the useful life mentioned in the previous \nfield.\nCalculation Depreciation On\nHere you can mention whether you want to calculate the depreciation on the capitalization \namount or on capitalization amount minus the residual value. You can indicate your \npreference by clicking against the option.\nNote\nResidual Value is the scrap value of the asset which can be realized when the asset is sold \nafter its useful life is complete. Residual value is often determined on the basis of judg-\nment. Hence, Oracle FLEXCUBE allows you to change the Residual Value of the asset \nduring its existence.\n3.1.2 \nFields Button\nYou can associate values to all the User Defined fields created and attached to the ‘Asset \nCategory Maintenance’ screen. You can view the list of User Defined fields associated to this \nscreen by clicking ‘Fields’ button on the ‘Asset Category Maintenance’ screen.\nYou can enter the value for the UDFs listed here in the ‘Value’ column.\nFor more details on how to create user Defined fields, refer chapter ‘Creating custom fields in \nOracle FLEXCUBE’ in the User Defined Fields User Manual under Modularity.\n3.2 \nCodes for Asset Locations\nThis section contains the following topics:\nSection 3.2.1, \"Invoking Location Code Maintenance Screen\"\n3.2.1 \nInvoking Location Code Maintenance Screen\nThrough the ‘Location Code Maintenance’ screen, you can assign a unique location code to \nidentify different locations where the asset physically exists."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Location Code",
+        "Description",
+        "Branch Parameters Set-up for the Product"
+      ],
+      "summary": "This page explains how to specify location codes and descriptions in an application tool, as well as setting up branch parameters for fixed assets such as depreciation periods and residual values.",
+      "raw_text": "3-4\nYou can invoke this screen by typing ‘FADLOCN’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button.\nSpecify the following:\nLocation Code\nYou have to capture a code to identify the particular location. You will not be able to modify it \nonce it is authorized. You can pick this code from the Asset Capture screen and the system \nwill default the description for the location.\nNote\nYou can restrict usage of any location by disallowing the location in Locations Restriction \nscreen, accessed through the ‘Product Maintenance’ screen.\nDescription\nIn this field, you can specify any general information of the location such as the name of the \ncity, pin code etc. \n3.3 \nBranch Parameters Set-up for the Product\nThis section contains the following topics:\nSection 3.3.1, \"Invoking Branch Parameters - Fixed Assets Screen\"\n3.3.1 \nInvoking Branch Parameters - Fixed Assets Screen\nYou can define parameters at the branch level for functions such as depreciation period, \nresidual value for writing off an asset, the cut off date for an asset to be included for \ndepreciation for the particular period, etc."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Specify the following:",
+        "Process Depreciation Till"
+      ],
+      "summary": "This page explains how to invoke and use the 'Branch Parameters – Fixed Assets' screen to specify branch codes, descriptions, and depreciation processing dates for fixed assets management.",
+      "raw_text": "3-5\nYou can invoke the ‘Branch Parameters – Fixed Assets’ screen by typing ‘FADBRMNT’ in the \nfield at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nSpecify the following:\nBranch Code and Branch Description\nSelect the code for the branch, for which you want to define the parameters, from the option \nlist. Once you select the branch code, the description of the branch is defaulted in the next \nfield.\nProcess Depreciation Till\nHere you have to mention the date on which the depreciation has to be processed. It can be \neither the System date or the Next Working Day – 1.\nIf you select the System date, the depreciation will be processed only till the day on which \nEOD is run. If your choice is Next Working Day – 1, then the depreciation will be processed \ntill the last day before the next working day when the batch process is run during EOD. This \nis applicable only for working days within a month. For instance, if Today’s Date is 10th June \nand the Next Working Date is 15th June, the system will pass accounting entries for contracts \nfalling due up to 14th June during the EOD processes executed on 10th June. But, if Today’s \nDate were 28th June and the Next Working Date happens to be 3rd July, the processing will \nbe done only upto the 30th of June since it is the month end. The system will post the \naccounting entries for the first and second of July during the BOD process executed on the \n3rd of July. \nNote\nThis is with the assumption that the Accounting Period is Monthly. If it were to be Quarterly, \nthe processing will be done till the end of the period which is the corresponding quarter. \n3.3.1.1 \nDepreciation Parameters\nSpecify the following:"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Depreciation Period",
+        "Cut Off Date and Cut Off Period",
+        "Amortize over full Period",
+        "Location Restrictions Classes"
+      ],
+      "summary": "This page explains how to set up depreciation periods, cut off dates, amortization options, and location restrictions for fixed assets in an accounting system.",
+      "raw_text": "3-6\nDepreciation Period\nThe calculation of depreciation for the year is based on the depreciation period, considering \nthe cutoff period and date. You can choose the period from the option list positioned next to \nthis field. The choices are:\nMonthly\nQuarterly\nHalf-yearly\nYearly\nCut Off Date and Cut Off Period\nYou need to mention the cut off date and cut off month for calculating the depreciation for the \nasset. If the asset is acquired before the mentioned cutoff date and cut off month, the \ndepreciation is calculated for the full period. \nIf the depreciation period chosen in the previous field is Quarterly, Half Yearly or Yearly, you \nhave to specify the cut off date and cut off month.\nIf the depreciation frequency chosen in the previous field is Monthly, then you need to mention \nonly the cut off date. \nThe depreciation is calculated from the next period if the asset is acquired after the cut off \nperiod.\nAmortize over full Period\nSpecify if you want to amortize over the full period by checking the box. When an asset is \nacquired after the specified cut off date and month, the depreciation will be calculated from \nthe next period and it will amortize the depreciation over the period of acquisition also. \nIf you leave this box unchecked, then the amortization will be done from the next period.\n3.4 \nLocation Restrictions Classes\nThis section contains the following topics:\nSection 3.4.1, \"Invoking Fixed Assets Location Restriction Class Maintenance Screen\"\n3.4.1 \nInvoking Fixed Assets Location Restriction Class Maintenance Screen\nYou can define restrictions for certain locations that can be defaulted at the product level."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Class Code and Description",
+        "Restriction Type",
+        "Location Restriction",
+        "Asset Category Restriction Classes"
+      ],
+      "summary": "This page explains how to maintain fixed asset location restriction classes in an application, including specifying class codes, types of restrictions, and asset category restrictions.",
+      "raw_text": "3-7\nYou can invoke the ‘Fixed Assets Location Restriction Class Maintenance’ screen by typing \n‘FADLOCCL’ in the field at the top right corner of the Application tool bar and clicking on the \nadjoining arrow button.\nSpecify the following:\nClass Code and Description\nYou can identify a Location Restriction class that you build with a unique ten character Class \nCode and a brief description.\nYou can follow your own convention for devising the code. The description that you specify is \nfor information purposes only and will not be printed on any customer correspondence.\nRestriction Type\nYou can specify Location restrictions either in the form of an ‘Allowed’ type, or in the form of \na ‘Disallowed’ type.\nWhen you associate a restriction class with a product, those locations that do not figure in the \nlist cannot offer the service. If you have maintained a disallowed type for a class, locations \nthat do not figure in it can offer the service.\nLocation Restriction\nSpecify the following:\nCode and Description \n You can select location code from option list based on the ‘Restriction Type’ selected for a \nclass. \n3.5 \nAsset Category Restriction Classes\nThis section contains the following topics:\nSection 3.5.1, \"Invoking Asset Category Restriction Class Maintenance Screen\""
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "3.5.1 Invoking Asset Category Restriction Class Maintenance Screen"
+      ],
+      "summary": "This section explains how to invoke and use the 'Asset Category Restriction Class Maintenance' screen in Oracle FLEXCUBE to define and manage asset category restrictions for fixed assets products.",
+      "raw_text": "3-8\n3.5.1 \nInvoking Asset Category Restriction Class Maintenance Screen\nAn asset category restriction class identifies a unique list of allowed or disallowed categories. \nAt your head office, you can associate a product that you propose to offer with any Asset \nCategory Restriction Class that you have maintained. The asset category restrictions defined \nfor the class will apply to the service. \nNote\nAny product that your bank offers is available to all asset categories, by default, unless you \nspecifically restrict its availability.\nYou will be able to define Asset category restriction classes through the ‘Asset Category \nRestriction Class Maintenance’ screen. You can invoke this screen by typing ‘FADCATCL’ in \nthe field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton. The asset category restriction classes that you define and authorize in this screen are \nthe ones which can be used while creating the Fixed Assets products. \nAn Asset Category Restriction Class, is identified by a unique Code and a Description. \nThe asset category classes that you maintain have to be specific to a module in Oracle \nFLEXCUBE. This is because, a class maintained for one module would be unsuitable for \nanother. \nClass Code and Description\nYou can identify a Category Restriction class that you build with a unique ten character Class \nCode and a brief description.\nRestriction Type\nYou can specify Category restrictions either in the form of an ‘Allowed’ type, or in the form of \na ‘Disallowed’ type."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Restricted Categories",
+        "Asset Rules Definition"
+      ],
+      "summary": "This page discusses restrictions on product categories and how to define depreciation rules for fixed assets in an asset management system.",
+      "raw_text": "3-9\nWhen you associate a restriction class with a product, those categories that do not figure in \nthe list cannot offer the service. If you have maintained a disallowed type for a class, \ncategories that do not figure in it can offer the service.\nRestricted Categories\nSpecify the following:\nCode and Description\nYou can select location code from option list based on the ‘Restriction Type’ selected for a \nclass.\n3.6 \nAsset Rules Definition\nThis section contains the following topics:\nSection 3.6.1, \"Invoking the Rule Definition – Fixed Assets Screen\"\n3.6.1 \nInvoking the Rule Definition – Fixed Assets Screen\nFor every asset and category combination, you can maintain different rates for depreciation. \nYou can record the depreciation rates for the asset category and the location combination.\nYou can invoke the ‘Rule Definition – Fixed Assets’ screen by typing ‘FADRULDF’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button.\nSpecify the following:\n Rule Code and Description\nGive a unique code to identify the rule you are going to define. This code cannot be modified \nlater. You can give a brief description for the code in the description field."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Rate",
+        "Rate Type",
+        "Rate over periods",
+        "Asset Category and Location Rule Mapping",
+        "Section 3.7.1, \"Invoking the Asset Category Rule Mapping screen\""
+      ],
+      "summary": "This page explains how to specify depreciation rates for assets based on their capitalization status and provides guidance on using asset category and location rule mappings.",
+      "raw_text": "3-10\nRate \nYou have to specify rate for calculating the depreciation for the asset. This rate can be \nspecified for time period in case the asset is dependent on capitalization. In this case, different \nrates can be maintained for the first year only. The Rate over Periods has to be entered in \nDD-MON format.\nIf you have selected Independent of capitalization as your rate type, then the rate will be set \nfor the whole useful period of the asset. \nNote\nThe depreciation rate has to be mentioned in percentage.\nRate Type \nIf you want to have a different depreciation rates for different periods of acquisition in the first \nyear of the asset life then chose Dependent on capitalization. In contradiction to this, you can \nchoose Independent of capitalization to keep a single rate type through out the life of the \nasset. \nRate over periods\nSpecify the following:\nStart Date and End Date \nIf the rule type is dependent on capitalization, and if the effective depreciation date falls \nbetween the Start and End date, the rates that you specify in this section of the screen will be \nconsidered for computing depreciation. Else, the value that you have specified in the Rate \nfield will be considered. \nNote\nThis is applicable for the first year only.\n3.7 \nAsset Category and Location Rule Mapping\nThis section contains the following topics:\nSection 3.7.1, \"Invoking the Asset Category Rule Mapping screen\"\n3.7.1 \nInvoking the Asset Category Rule Mapping screen\nThrough the asset category – location rule mapping screen, you can map predefined \ndepreciation rules to a combination of asset category and location. You can also define \nvarious depreciation parameters such as depreciation method for book and tax purposes, \nfrequency of depreciation, depreciation rate type etc."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Asset Category",
+        "Location Code",
+        "Depreciation Type",
+        "Depreciation Parameters Book and Tax"
+      ],
+      "summary": "This page explains how to set up asset category rules for depreciation in an application tool, including specifying asset category, location code, depreciation type, and parameters for book and tax purposes.",
+      "raw_text": "3-11\nYou can invoke the ‘Asset Category Rule Mapping’ screen by typing ‘FADRULMP’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button.\nSpecify the following:\nAsset Category\nChoose the category code for the asset, from the list available. Once you choose the asset \ncategory code, the description for the category will be displayed in the next field. \nLocation Code \nYou can select the location code for the asset from the given option list. \nDepreciation Type\nYou have to mention the type of depreciation required for the asset. The two options available \nare Rule based and Ad-hoc. \nIf you select Rule based type of depreciation, then a fixed percentage is depreciated every \nyear.\nIf you chose ad-hoc as the depreciation type then you have to maintain depreciation rates in \nthe Depreciation Maintenance screen at the Asset Capture level. In such a scenario, the fields \nfor rule are not applicable.\nDepreciation Parameters Book and Tax\nSpecify the following:\nMethod\nHere you have to indicate if you want SLM (Straight Line Method) or WDV (Written Down \nValue Method) as your depreciation method. Choose the method of depreciation by clicking \non the appropriate option.\nThis data is maintained for both book of accounts and tax purposes."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Frequency",
+        "Frequency Start Date",
+        "Frequency Start Month",
+        "Rule"
+      ],
+      "summary": "This page discusses how to set up the start date and month for depreciation accounting entries, as well as selecting a depreciation rule, all of which are recorded for both book of accounts and tax purposes.",
+      "raw_text": "3-12\nFrequency \nYou need to mention the start date and the start month to determine when the first cycle of \nthe depreciation accounting entries are to be posted. \nSelect the frequency for calculating of depreciation from the option list. This data is recorded \nfor both book of accounts and tax purposes.\nFrequency Start Date\nMention the start date to determine when the first cycle of the depreciation accounting entries \nare to be posted. \nThis data is recorded for both book of accounts and tax purpose.\nFrequency Start Month\nMention the start month to determine when the first cycle of the depreciation accounting \nentries are to be posted. \nThis data is recorded for both book of accounts and tax purpose.\nRule \nSelect the rule to be used for depreciation from the option list. This data is recorded for both \nbook of accounts and tax purpose. \nRefer the section on Depreciation Maintenance for details on maintaining depreciation \npercentage for each period."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Product Definition",
+        "Invoking the Fixed Asset Product Maintenance Screen"
+      ],
+      "summary": "This page discusses how to define attributes for a Fixed Assets product in Oracle FLEXCUBE, including accessing the maintenance screen and setting preferences.",
+      "raw_text": "4-1\n4. Defining a Product\nIn this chapter, we shall discuss the manner in which you can define attributes specific to a \nFixed Assets (FA) product.\nThis chapter contains the following sections:\nSection 4.1, \"Product Definition\"\n4.1 \nProduct Definition\nThis section contains the following topics:\nSection 4.1.1, \"Invoking the Fixed Asset Product Maintenance Screen\"\nSection 4.1.2, \"Preference Button\"\nSection 4.1.3, \"Category Restrictions Button\"\nSection 4.1.4, \"Instrument Restrictions\"\n4.1.1 \nInvoking the Fixed Asset Product Maintenance Screen\nYou can access the Fixed Asset ‘Product Maintenance’ screen, by typing ‘FADPRMNT’ in the \nfield at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton. In this screen, you can enter basic information relating to a FA product such as the \nProduct Code, Product type, the Description, etc.\nFor any product you create in Oracle FLEXCUBE, you can define generic attributes, such as \nbranch, location, and category, etc., by clicking on the appropriate button in the horizontal \narray of buttons in this screen. \nYou can define the attributes specific to a FA product in the ‘FA Product Definition’ Main \nscreen and the ‘FA Product Preferences’ screen. In these screens, you can specify the \nproduct type and set the product preferences respectively."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Product Code",
+        "Product Description",
+        "Product Type",
+        "Slogan",
+        "Product Group"
+      ],
+      "summary": "This page describes how to define and organize product attributes in Oracle FLEXCUBE, including product code, description, type, slogan, and group.",
+      "raw_text": "4-2\nFor further information on the generic attributes that you can define for a product, please refer \nthe following Oracle FLEXCUBE User Manuals under Modularity:\nProduct Definition\nCharges\nUser Defined Fields\nProduct Code\nYou can associate every FA contract that you maintain in Oracle FLEXCUBE with a Product \nthat you have maintained in this screen.\nWhen you associate a contract with a product, it acquires the attributes defined for the \nproduct. This means, you do not have to define the attributes of the contract/transaction/deal, \nall over again, when maintaining it. \nIdentify the product that you are creating with a unique Product Code. This code should be \nunique across all the modules of Oracle FLEXCUBE.\nProduct Description\nIn this field, briefly describe the product that you are maintaining. The description that you \nenter here will help you identify the product all through the module.\nProduct Type\nAn important detail in defining a product is to specify the type of product you are creating. The \nproduct type identifies the basic nature of a product. This helps to classify the product. \nSlogan\nYou can enter a slogan for the product that you are creating. In this field, enter a slogan that \nsuitably announces the product to your customers.\nProduct Group\nGrouping products, according to the common features they share, helps you organize \ninformation relating to the services you provide. Product Groups also help you retrieve \ninformation easily.\nIn this field, you can invoke a list of the product groups that you have maintained in your bank. \nChoose the product group to which the product that you are creating belongs.\nStart Date\nWhen you create a product, you must specify a date from which it can be offered. Enter this \ndate in the Start Date field.\nEnd Date\nYou can choose to specify the date up to, which a product is open. Enter this date in this field. \nYou cannot enter a date that is earlier than the current system date. \nNote\nYou cannot offer a product beyond the specified end date. If you do not specify an end \ndate for a product, you can offer it for an indefinite period.\nRemarks\nIf you would like to enter any remarks relating to the product, do so in this field. This \ninformation is for your reference."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Exchange Rate Variance (in %)",
+        "Override Limit",
+        "Stop Limit",
+        "Rate Code"
+      ],
+      "summary": "This page discusses exchange rate variance limits and override/stop limits for product creation in a financial context, including how to set these limits and their implications.",
+      "raw_text": "4-3\nExchange Rate Variance (in %)\nFor a special customer, or in special cases, you may want to use an exchange rate (a special \nrate) that is greater than the exchange rate maintained for a currency pair. The variance is \nreferred to as the Exchange Rate Variance.\nWhen creating a product, you can express an Exchange Rate Variance Limit in terms of a \npercentage. This variance limit would apply to all FA contracts associated with the product.\nOverride Limit\nIn this field, you can enter an Override limit. The implication of your entry in this field is \ndiscussed below.\nIf the variance between the default rate and the rate input varies by a percentage that is \nbetween the ‘Override Limit’ and the ‘Rate Stop Limit’ (that you specify in the Stop Limit field), \nyou can save the transaction by providing an ‘Override’.\nStop Limit\nFor a special customer, or in special cases, you may want to use an exchange rate (a special \nrate) that is greater than the exchange rate maintained for a currency pair. The variance is \nreferred to as the Exchange Rate Variance.\nWhen creating a product, you can express an Exchange Rate Variance Limit in terms of a \npercentage. This variance limit would apply to all FA contracts associated with the product.\nIn this field, you can enter the Stop Limit. The implication of your entry in this field is discussed \nbelow.\nRate Code\nIf the Charge Currency is different from the Contract Currency the rate associated with the \nRate Code will be picked up. \nSelect the appropriate from the drop-down list.\nRate Type Preferred\nIf the Charge Currency is different from the Contract Currency the rate associated with the \nRate Code will be picked up. \nSelect the appropriate rate type from the drop-down list.\n4.1.2 \nPreference Button\nThe attributes specific to an asset are defined in the Preferences screen."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Specify the following:"
+      ],
+      "summary": "This section describes how to set up preferences for a fixed asset product in the system, including details about product code, description, purchase order requirement, and depreciation processing.",
+      "raw_text": "4-4\nYou can invoke ‘Fixed Asset Product - Preferences’ screen from the ‘Product Maintenance’ \nscreen by clicking ‘Preferences’ button.\nSpecify the following:\nProduct Code\nThis is the code for the product that you are defining here. The code is defaulted from the \n‘Product Definition’ screen.\nProduct Description\nThis is the description of the product that is being defined. This is defaulted from the product \ndefinition screen.\nPurchase Order Required\nYou have to indicate whether a purchase order is required or not for procuring a new FA. \nChoose ‘Yes’ if you need the PO (Purchase Order) or choose ‘No’ to indicate otherwise.\nNote\nIf your preference for PO is ‘Yes’ then you will have to link an XP (Expense Processing) \ncontract in the FA Capture screen for the asset. FA and XP modules are closely linked to \neach other. Payments for the asset purchased are done through XP module, and the XP \ncontract reference number would be internally linked to FA module for the purpose of cap-\nitalizing the asset and calculating depreciation.\nDepreciation Processing Required for TAX and BOOK\n You have to mention if you want the depreciation process to be carried out for the asset. \nChoose your preference by clicking on YES or NO accordingly.\nIf you choose No then the depreciation will not be charged for the assets which come under \nthis product. \nThis data is maintained for both books of account as well as tax purposes.\nNote\nAccounting entries will be passed only for book type of depreciation."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Rekey Required",
+        "Category Restrictions Button"
+      ],
+      "summary": "This page explains the rekeying requirements for authorizing asset contracts and introduces category restrictions at the product level.",
+      "raw_text": "4-5\nRekey Required \nIndicate if you require any parameters to be keyed in, at the time of authorization, for the \nasset.\nRekey Parameters\nAll operations on a FA contract have to be authorized by a user other than the one who carried \nout the operation. Authorization is a cross checking mechanism to ensure that the entries \nmade by a user are correct. All operations on a FA contract except placing it on hold, should \nbe authorized before the beginning of the End of Day operations. \nYou have the option of specifying whether certain important details of the FA contract need to \nbe rekeyed, at the time of authorization. If you enable this option you should also specify the \nfield that will have to be rekeyed at the time of contract authorization. You can specify any one \nof the following rekey fields:\nAsset Cost\nCapitalization Date\nDepreciation Effective Date \nWhen you invoke a FA contract for authorization, the complete details of the contract will be \ndisplayed only after the values to the rekey fields are entered. Suppose you choose not to \ndefine any rekey fields the details of the contract will be displayed immediately once the \nauthorizer calls the FA contract for authorization. The re-key option also serves as a means \nof ensuring the accuracy of inputs.\n4.1.3 \nCategory Restrictions Button\nYou can define specific restrictions for an asset at the product level. They are:\nAsset category restrictions\nLocations restrictions\nYou have already categorized assets that share similar attributes in the Asset Category \nMaintenance screen. The categorization of assets is useful for charging a common \ndepreciation rate, generating MIS reports etc. You can also define the useful life for different \ncategories of assets. \nWhile creating an FA product, you may want to establish certain controls by restricting the \nusage of the product to select asset categories only. You can achieve this control by \nmaintaining restriction lists when creating a product."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Asset Category Restrictions",
+        "Product Code",
+        "Product Description",
+        "Class Code",
+        "Class Description",
+        "Restriction Type"
+      ],
+      "summary": "This page explains how to set up asset category restrictions for a product in a system, including options for specifying these restrictions through class associations or direct definitions.",
+      "raw_text": "4-6\nClick ‘Category Restrictions’ button to display the ‘Asset Category Restriction’ screen.\nYou can choose to specify Asset Category Restrictions either by:\nAssociating the product with a Asset Category Restriction class\nBy defining these restrictions specifically for the product \n Product Code\nThis is the code for the product that you are defining here. The code is defaulted from the \n‘Product Definition’ screen.\nProduct Description\nThis is the description of the product that is being defined. This is defaulted from the product \ndefinition screen.\nClass Code\nThis is the unique identifier for the class. You can default the asset category restrictions from \nthe previous defined class by clicking on the ‘Default From Class’ button.\nClass Description\nA brief description of the class code is displayed here.\nFor more details refer section titled ‘Maintaining Location Restrictions Classes’ in the chapter \n‘Maintenance for Fixed Asset’.\nRestriction Type\nYou have categorized assets that share similarities under one category through the Asset \nCategory Maintenance screen. \nYou can specify asset category restrictions for a fixed asset product either in the form of an \n‘Allowed’ list, or in the form of a ‘Disallowed’ list. Choose the appropriate option to indicate the \nList Type that you would like to maintain.\nYou cannot deal in asset categories, which do not figure in an ‘Allowed’ list. Alternatively, if \nyou maintain a ‘Disallowed’ list, you can deal in asset categories that do not figure in the list.\nFixed Assets Category Restrictions\nSpecify the following:"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Category Code",
+        "Description",
+        "Fixed Assets Category Restriction",
+        "Instrument Restrictions"
+      ],
+      "summary": "This page explains how to specify and manage asset categories in a fixed assets system, including setting category codes, descriptions, and restrictions based on location.",
+      "raw_text": "4-7\nCategory Code\nYou have to specify the unique code to identify the category for the asset. You will not be able \nto modify the category code.\nDescription\nEnter any information regarding the asset category. This information can be the type of the \ncategory and the assets it will hold under this category etc.\nIf you would like to associate a restrictions class to a product that you are defining, choose \nthe ‘Default From Class’ button in the ‘Fixed Assets Category Restriction’ screen. A list of the \nrestrictions classes that you have defined specifically for the Fixed Assets module will be \ndisplayed. Choose a suitable Restrictions class.\nAlternatively, you can choose to define asset category restrictions specifically for the product. \nIn this case, you would choose not to associate restriction classes with the product. You would \ndefine restrictions for the product by:\nSpecifying the List type – wherein you restrict the usage of an asset category (or asset \ncategories as the case may be) to the product by maintaining an Allowed or Disallowed \nlist. \nMove a Category to the Allowed/Disallowed column depending on the list type that you \nchoose to maintain \n4.1.4 \nInstrument Restrictions\nThrough the Location Code maintenance you have assigned unique location codes to identify \ndifferent locations where the asset physically exists. Using the ‘Fixed Assets Location \nRestrictions’ screen you can restrict the usage of a product to specific locations. Click \n‘Instrument Restrictions’ button to invoke the ‘Fixed Assets Product Location Details screen.\nThe details of all the locations that you have maintained will be displayed here. You can \nchoose to specify the Location Restrictions either by associating the product with a Location \nRestriction class or by defining these restrictions specifically for the product."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Product Code",
+        "Product Description",
+        "Class Code",
+        "Restriction Type",
+        "Locations"
+      ],
+      "summary": "This page outlines the details required for defining a product in terms of its code, description, class, location restrictions, and specific location codes and descriptions.",
+      "raw_text": "4-8\n Product Code\nThis is the code for the product that you are defining here. The code is defaulted from the \n‘Product Definition’ screen.\nProduct Description\nThis is the description of the product that is being defined. This is defaulted from the product \ndefinition screen.\nClass Code\nEnter a unique identifier for the class. Also give a brief description of the class in the free \nformat text field positioned next to the class code.\nRestriction Type\nYou can specify asset location restrictions for a fixed asset product either in the form of an \n‘Allowed’ list, or in the form of a ‘Disallowed’ list. Choose the appropriate option to indicate the \nList Type that you would like to maintain.\nYou cannot deal in asset locations, which do not figure in an ‘Allowed’ list. Alternatively, if you \nmaintain a ‘Disallowed’ list, you can deal in asset locations that do not figure in the list.\nLocations\nSpecify the following:\nLocation Code\nThis is the code for the particular location. You can pick this code from the Asset Capture \nscreen and the system will default the description for the location. This description can be \nmodified.\nDescription\nIn this field, you can specify the general information of the location such as the name of the \ncity, pin code etc."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Fixed Asset Details",
+        "Invoking the Fixed Asset Capture Screen"
+      ],
+      "summary": "This page describes how to capture and manage fixed asset details in Oracle FLEXCUBE, including various functions such as amendment, copying, deletion, recording of individual items, and linking contracts.",
+      "raw_text": "5-1\n5. Processing Fixed Assets\nIn Fixed assets module of Oracle FLEXCUBE you can capture static details such as Asset \nCode, Asset Cost, Date of Acquisition, Date of capitalization, Location, Asset category code \netc. You cannot change the FA product associated with the contract during the entire life cycle \nof the asset. \nFixed Assets purchase/acquisition online processing function enables you to perform the \nfollowing functions:\nAmendment/ change in FA details\nCopy existing FA details for recording details of new FA\nDelete/Undo of a FA record from one user to another\nRecording of individual items for an Asset\nRecording of FA-XP contract linkages\nAny other fields may be captured using UDF\nThis chapter explains the processing of purchase or acquisition of an FA.\nThis chapter contains the following sections:\nSection 5.1, \"Fixed Asset Details\"\nSection 5.2, \"Asset Transfer Details\"\nSection 5.3, \"Asset Sale Details\"\nSection 5.4, \"Asset Write Off Details\"\nSection 5.5, \"Authorizing Fixed Asset Contracts \"\nSection 5.6, \"Contract Reassign to another User\"\n5.1 \nFixed Asset Details\nThis section contains the following topics:\nSection 5.1.1, \"Invoking the Fixed Asset Capture Screen\"\nSection 5.1.2, \"Asset Details Tab\"\nSection 5.1.3, \"Depreciation Details Tab\"\nSection 5.1.4, \"Linkage Details Button\"\nSection 5.1.5, \"Asset Details Button\"\nSection 5.1.6, \"Ad hoc-Schedule Button\"\n5.1.1 \nInvoking the Fixed Asset Capture Screen\nYou can capture the various details of the asset such as asset code, asset cost, date of \nacquisition, date of capitalization, location, asset category code etc. Through this screen you \ncan associate the asset to a product code and the all the restrictions maintained at the Product \nlevel will be enforced while you record the new asset. You are not allowed to change the \nproduct associated with the asset during the life cycle of the asset once you have associated \nthe product to the asset.\nYou can invoke the ‘Fixed Assets Asset Capture’ screen by typing ‘FADTRONL’ in the field at \nthe top right corner of the Application tool bar and clicking on the adjoining arrow button.\nThe Asset capture screen consists of the following screens:"
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "FA Main details",
+        "FA Items",
+        "Depreciation details",
+        "FA-XP contract linkage",
+        "FA depreciation view"
+      ],
+      "summary": "This page outlines various sections and data fields for fixed asset (FA) management, including product code, contract reference number, product description, user reference number, and asset details.",
+      "raw_text": "5-2\nFA Main details\nFA Items\nDepreciation details\nFA-XP contract linkage\nFA depreciation view\nEach of the above mentioned screens and the data captured in each screen are explained in \ndetail in this chapter.\nSpecify the following details:\nProduct Code\nChoose a product code from the option list. All the preferences defined at the product level \nwill be defaulted. Once you specify the product code, the system will create the reference \nnumber in the next field for the asset. \nContract Reference Number\nThe system automatically creates the reference number for the asset.\nThe reference number generated is a combination of branch code, product code, the Julian \ndate of transaction input and a running serial number.\nProduct Description \nOnce you have selected the product code, the product description is displayed.\nUser Reference Number\nYou can enter any reference number for a FA contract that you process. The FA contract will \nbe identified through this number in addition to the Contract Reference Number generated by \nthe system. Two FA contracts cannot have the same User Reference Number. By default, the \nContract Reference Number generated by the system will be taken as the User Reference \nNumber. You can use this number, to retrieve information relating to an FA contract. \n5.1.2 \nAsset Details Tab\nCapture the following details:"
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Category",
+        "Location",
+        "Location Description",
+        "Asset Currency",
+        "Asset Cost",
+        "Asset Description",
+        "Status",
+        "Booking Date",
+        "Acquisition Date",
+        "Acquired Depreciation"
+      ],
+      "summary": "This page describes the fields and options available for entering asset information, including category, location, cost, description, status, acquisition date, and depreciation.",
+      "raw_text": "5-3\nCategory \nYou can link the asset to an existing asset category that is not restricted for the branch. \nChoose the category of the asset from the option list.\nLocation \nIdentify the location at which the asset is currently stationed. The option list will display the list \nof locations based on the restrictions maintained at the product definition screen.\nLocation Description\nOn selecting the location, the description of the location is displayed.\nAsset Currency\nThis is the local currency of the branch. You will not be allowed to modify this data. \nAsset Cost  \nEnter the value of the asset in this field.\nAsset Description\nIn this field, you can enter the description of the asset stating whether the asset is an office \nbuilding or computers etc.\nStatus \nHere you have to mention the status of the asset your branch is holding. The available options \nare:\nCapitalized\nWork in progress\nBooking Date \nThe system date is defaulted as the booking date of the asset. You will not be allowed to \nmodify this date. \nAcquisition Date  \nMention the date on which the asset is acquired in the date/month/year format.\nAcquired Depreciation \nYou can specify the acquired depreciation in case of the asset being transferred from a \nprevious branch. The system arrives at the accumulated depreciation based on the acquired \ndepreciation that you specify as well as the depreciation calculated. The acquired \ndepreciation is considered to track depreciation on books and not for tax purposes. \nYou will not be allowed to specify the acquired depreciation once you save and authorize a \ncontract. \nResidual Value \nThe Residual Value is taken into account for the purpose of computing the depreciation of the \nasset. However, you must ensure to enable the Asset Cost – Residual Value option in the \nAsset Category screen. \nNote\nThe total depreciation for the asset will not exceed the residual value. \nOriginal Reference Number\nThis field is updated only during Fixed Asset Transfers. Transferred asset is automatically \ncreated in the branch/location on Save of transfer.  This field displays the original reference \nnumber of the asset in the old branch/location. You cannot modify this number."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Capitalization Date",
+        "Effective Depreciation Date",
+        "Useful Life",
+        "Depreciation Suspension"
+      ],
+      "summary": "This page details the fields and considerations for asset transfer, including capitalization date, effective depreciation date, useful life, and depreciation suspension.",
+      "raw_text": "5-4\nAll other details of the transferred asset will remain the same as before except for a few \nconditions.  \nPlease refer the section Asset Transfer Process for more details.\nCapitalization Date\nIf you have selected the status of the asset as Capitalized then you have to specify the date \non which the asset was capitalized. \nEffective Depreciation Date\nIn this field, you have to mention the date from which the depreciation should be charged for \nthe asset. The capitalization date will be taken as the default date if you do not mention the \ndate. You can choose to change this but this date cannot be less than the capitalization date. \nAlso this date cannot be a future date.\nUseful Life\nSpecify the following:\nUseful Life  \nThis is the unit to measure the useful life of asset (months/years). The data is defaulted from \nasset category maintenance. You can choose to change this unit.\nUseful Life Units\nThis is the useful life of the asset. The data is defaulted from asset category maintenance \nhowever you can choose to change this.\nDepreciation Suspension\nSpecify the following:\nSuspend Depreciation\nBy choosing this preference you can stop the depreciation calculation for an asset. If there is \na negotiation for sale or change in Residual Value for the asset, then choose this option to \nsuspend the depreciation. Otherwise you can leave it unchecked.  \nSuspension Date\nIf you choose to suspend the depreciation then the system takes the application date as the \nsuspension date. You will not be allowed to modify this date.\n5.1.3 \nDepreciation Details Tab\nYou can view the depreciation charged for the asset from this screen."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Depreciation view screen displays the depreciation details of the asset recorded for book and tax purposes.",
+        "Specify the following:",
+        "Capture the following details:"
+      ],
+      "summary": "This page describes the depreciation view screen and fields related to asset depreciation, including how reference numbers are generated and various fields that display depreciation data without allowing modifications.",
+      "raw_text": "5-5\nDepreciation view screen displays the depreciation details of the asset recorded for book and \ntax purposes.\nSpecify the following: \nAsset Reference Number \nThe system will generate the asset reference number based on the branch, product, Julian \ndate and a running sequence of 4 bytes.\nYou cannot change this reference number.\nDepreciation Book and Tax\nCapture the following details:\nYear To Days Depreciation\nThis field displays the depreciation charged on an asset from the start of the current financial \nyear till the last depreciation date. This data is recorded for book and tax purpose.\nNo modification is allowed in this field.\nAccumulated Depreciation\nThis field displays the depreciation charged on an asset for account book and tax purpose. \nThe depreciation is calculated from the effective date of depreciation till the system date.\nNo modification is allowed in this field.\nYear open Written Down Value\nThe field displays the value of the asset that was written down at the beginning of the financial \nyear for book and tax purpose.\nNo modification is allowed in this field.\nCurrent Written Down Value\nThis field displays the value of the asset that was written down on the system date for book \nand tax purpose.\nNo modification is allowed in this field."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Linkage Details Button",
+        "Asset Reference Number",
+        "Specifying the Expense Block",
+        "Vendor Code",
+        "Contract Amount",
+        "Note",
+        "Linked Amount"
+      ],
+      "summary": "This page explains how to link an asset purchased against a purchase order to contracts in the Expense Processing module, detailing steps and fields involved.",
+      "raw_text": "5-6\n5.1.4 \nLinkage Details Button\nWhen an asset is purchased against a purchase order, you can link the asset to the contracts \nin Expense Processing module.\nTo access this screen, click ‘Linkage Details’ button in the Asset Capture Online’ screen under \nAsset Capture, Fixed Assets from the Application Browser.\nThis screen enables you to add or delete a record. \nAsset Reference Number \nThe reference number of the asset is defaulted from the asset capture screen. You will not be \nable to change this number.\nSpecifying the Expense Block\nExpense Processing Contract Reference Number\nHere you have to mention the reference number of the contract in the XP module. You can \npick the reference number from the option list available or you can mention the number which \nwill be validated against the XP contract.\nVendor Code \nOnce you choose the XP contract, the code for the vendor will be defaulted automatically.\nContract Amount\nOnce you choose the XP contract, the contract amount will be defaulted automatically in this \nfield. \nNote\nThe XP contract amount is displayed in asset currency.\nLinked Amount\nYou have to specify the amount of the XP contract that has been used for the purchase of the \nasset. \nMake sure that the sum of the linked amounts for all the linked contracts is less than or equal \nto the actual cost of the asset."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Asset Details Button"
+      ],
+      "summary": "This page describes how to access and use the Asset Details screen for recording individual item details under a single asset code, including fields such as Item Number, Description, Item Cost, Expected Delivery Date, and related notes.",
+      "raw_text": "5-7\n5.1.5 \nAsset Details Button\nThis screen is used to record individual item details under a single asset code in cases where \nmany similar assets are grouped under one category.\nTo access this screen, click ‘Asset Details’ button in the ‘Asset Capture Online’ screen under \nAsset Capture, Fixed Assets from the Application Browser.\nIn this screen you are allowed to add or delete a asset from the asset group.\nAsset Reference Number\nThe reference number of the asset is defaulted from the asset capture screen. You will not be \nable to change this number.\nAsset Item Block\nItem Number\nYou need to enter a unique number for the asset to identify the particular asset. \nDescription\nYou can record the general information regarding the asset in the Description field.\nItem Cost\nYou need to specify the cost of the individual item. \nNote\nTake care that the sum of all item costs does not exceed the asset cost.\nExpected Delivery Date \nMention the date on which the item is scheduled for delivery. \nNote\nEnsure that the delivery date is not less than the capitalization date."
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Delivered",
+        "Inspected",
+        "Note",
+        "Remarks",
+        "5.1.6 Ad hoc-Schedule Button",
+        "Asset Reference Number",
+        "Specifying the Schedule For Book and Tax Year"
+      ],
+      "summary": "This page outlines various fields and options for asset management, including delivery status, inspection, remarks, depreciation scheduling, and asset reference information.",
+      "raw_text": "5-8\nDelivered\nCheck the box if the delivery of the asset has been carried out. Keep the box unchecked to \nindicate that the asset has not been delivered.\nInspected\nIf the asset has been inspected then check the box. Leave it unchecked to indicate that the \nasset has not undergone inspection. \nNote\nYou will also be able to perform queries about assets delivered but not inspected and as-\nsets inspected but not capitalized, based on the Delivery Date and Status. \nRemarks\nIn this field you can enter general remarks for the asset for future reference.\n5.1.6 \nAd hoc-Schedule Button\nYou will be able to define different rates for depreciation. This is exclusively done for adhoc \ntype of depreciation. \nTo access this screen, click ‘Adhoc Schedule’ button in the ‘Asset Capture Online’.\nAsset Reference Number\nThe reference number of the asset and its description is defaulted from the contract input \nscreen. You will not be able to modify this number.\nSpecifying the Schedule For Book and Tax\nYear\nYou have to maintain the depreciation schedule for the asset if you have chosen Ad-hoc as \nthe depreciation type in the ‘Asset Category location rule mapping’ screen.\nIf the useful life is in months, then also, the adhoc depreciation schedule needs to be recorded \nin terms of years."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Rate",
+        "Asset Transfer Details",
+        "Invoking the Asset Transfer Details Screen"
+      ],
+      "summary": "This page discusses depreciation rates and asset transfer processes, including how to invoke the asset transfer screen in an application.",
+      "raw_text": "5-9\nThe sum of the depreciation rate across the useful life of the asset should be add up to 100. \nAdditionally, you have to ensure that you have maintained depreciation rates for all the years \nof Useful Life. \nRate\nYou need to maintain the depreciation rate for the asset across the useful life of the asset. \nNote\nThe depreciation rate will always be in percentage terms per annum.\n5.2 \nAsset Transfer Details\nThis section contains the following topics:\nSection 5.2.1, \"Invoking the Asset Transfer Details Screen\"\nSection 5.2.2, \"Asset Transfer Process\"\n5.2.1 \nInvoking the Asset Transfer Details Screen\nThrough the Transfer of Fixed Asset screens you can transfer a Fixed Asset to a different \nbranch/ location. All the necessary details such as date of sale/transfer/write off, sale price, \ntransfer details etc is captured through these screens.\nYou can invoke the ‘Asset Transfer’ screen by typing ‘FADTRTFR’ in the field at the top right \ncorner of the Application tool bar and clicking on the adjoining arrow button. \nThe process of transfer is automated and the transferred asset is automatically created in the \nbranch/location on Save of transfer."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Book Value of the Asset",
+        "Asset Details",
+        "Transaction Details"
+      ],
+      "summary": "This page explains how to transfer an asset in Oracle FLEXCUBE, detailing the book value calculation and the steps for entering transaction details such as transfer amount and value date.",
+      "raw_text": "5-10\nTransfer value of the asset will be the current book value of the asset itself and cannot be \nmodified. Book Value is arrived at by subtracting the accumulated depreciation from the asset \ncost. \nNote\nAt least one of the two (new location and branch) must be different than current location \nand branch of the asset. Oracle FLEXCUBE will display an error message if this condition \nis not met.\nThe reference number of the asset is defaulted from the contract input screen. You will not be \nable to modify this number. To move to the next asset or previous asset, use the Up and Down \narrow keys in the keyboard.\nAsset Details\nClick ‘New’ button in the toolbar to make a new entry for sale/write off. \nDepending on the reference number you choose, the details for the asset will be defaulted in \nthe following fields:\nAsset Description - the general information regarding the asset in this free format text \nfield\nAsset Cost  - the cost of the individual item\nCategory – the code of the category under which the asset is placed\nLocation – the location code where the asset is currently stationed\nAccumulated Depreciation – the accumulated depreciation from previous branch in \ncase of transfer\nTransaction Details\nSpecify the following details:\nTransfer Amount \nThis is the net sale value of the asset. This field is mandatory if the asset is being sold.\nFor a Write off, this value will be the current book value and is not modifiable.\nValue Date\nThis is the date on which the asset is sold or written off. \nIn case of a Sale, the default date will be the system date and you can choose to change this \ndate. \nFor a Writeoff, this date will always be the system date and you will not be allowed to modify \nthis date. \nOfficer Incharge\nFor both Sale and Write off, you have to mention the name of the officer in charge of the sale \nor transfer of the asset. This data is recorded for general information purpose.\nRemarks\nYou can enter general remarks for the asset in this free format text field for information \npurposes."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Transfer Details",
+        "Asset Transfer Process"
+      ],
+      "summary": "This page outlines the mandatory details and conditions for asset transfers, including specifying new branch and location, and the process based on category-location rules.",
+      "raw_text": "5-11\nNote\nAny sale/transfer/write off has to be authorized before the end of day. \nTransfer Details\nSpecify the following details:\nNew Branch\nThis is the branch where the asset is to be transferred. This field is mandatory for asset \ntransfer. Select the branch from the option list.\nNew Location\nThis is the location to which the asset is to be transferred. This field is mandatory for asset \ntransfer. Select the branch from the option list.\nNew Reference \nThis is the asset reference number of the asset created in the new branch/location and you \nwill not be allowed to modify the number. \nThis number is automatically generated by the system when you save the asset transfer.\n5.2.2 \nAsset Transfer Process\nThe following conditions are mandatory for asset transfer –\nThe category - location rule mapping for the new location should be rule based \nIf only the branch is being changed and not the location, the existing category – location \ndepreciation type can be ad hoc. In this case ad hoc schedules will be copied from the \nold asset to the new asset. \nIf the location is being changed, then the new category – location combination should \nhave depreciation type as rule based. Old category – location combination can have ad \nhoc depreciation. Transfer is possible only if the new category location rule mapping has \nthe same rule type as the old category.\nExample,\nAssume category=’a’; location=’x’;’y’ ; rule=’r1’(adhoc);’r2’(rule based).\nMapping is a-x-r1 and a-y-r2. branch’s are b1, b2. asset 0001 has category=’a’; location=’x’.\n Asset cannot be transferred from b1-b2-y; b1-b1-y.\nIn branch parameters, depreciation period, cut off date and cut off period fields should \nhave the same value in both the old and the new branches\nIf the asset is being transferred to a new branch, the new branch should have exactly \nthe same definition of financial year and financial periods. If not, it might result in \nerroneous depreciation calculation. \nWhile doing an asset transfer, system will check the preferences maintained at the branch \nparameters level to complete or reverse depreciation for the period in which the asset is being \ntransferred to a new branch/location. \nIf the asset is being transferred after the cut off date, then depreciation will be completed \nfor the current period in the transferor branch. Further depreciation will happen in the \ntransferee branch for rest of the depreciation period in the current financial year."
+    },
+    {
+      "page_number": 41,
+      "sections": [],
+      "summary": "This page outlines the procedures for transferring an asset on or before the cut-off date, detailing how depreciation and various asset details are handled during the transfer process.",
+      "raw_text": "5-12\nIf the asset is being transferred on or before the cut off date, any depreciation which \nmight have happened in the current period will be reversed out for the transferor branch. \nFurther depreciation from the current period onwards will happen in the transferor \nbranch according to the category –location rule maintenance for the new location (in \ncase the location has changed).\nThe original reference number for the transferred asset will be the original reference number \nof the asset in the old branch/location.\nAll other details of the asset will be the same as they were before transfer except for the \nfollowing:\nAcquired depreciation – This will be updated with the total depreciation amount \n(Accumulated depreciation) for the asset in the previous branch/location.\nAd hoc Schedules – The new asset created will not have ad hoc depreciation schedules \nif the asset is transferred to a new location as the new category – location combination \nmust allow for rule based depreciation. If the location is the same, then the original ad \nhoc schedules will be replicated to the new asset.\nAsset Acquisition date will be the transfer date\nIn case a capitalized asset is transferred, capitalization date will be the transfer date else \nit will not be updated (if asset is transferred in WIP stage).\nIn case a capitalized asset is transferred, effective depreciation date will be the transfer \ndate else it will not be updated (if asset is transferred in WIP stage).\nThe new asset created will be automatically authorized once the transfer of the asset is \nauthorized. Till such time, the new asset cannot be modified independently. After \nauthorization of the transfer, the new asset created will be independent of the original \ntransferred asset. \nOn deletion of the transfer, the new asset created will also be deleted.\nRefer the examples in the accounting entry process in the Appendix manual for the above two \nscenarios.\n5.3 \nAsset Sale Details\nThis section contains the following topics:\nSection 5.3.1, \"Invoking Asset Sale Detail Button\""
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "5.3.1 Invoking Asset Sale Detail Button",
+        "5.4 Asset Write Off Details"
+      ],
+      "summary": "This page describes how to invoke the 'Fixed Assets Sale Details' screen and introduces sections related to asset write-off details.",
+      "raw_text": "5-13\n5.3.1 \nInvoking Asset Sale Detail Button\nYou can specify the asset sale details in the ‘Fixed Assets Sale Details’ screen. You can \ninvoke this screen by typing ‘FADTRSLE’ in the field at the top right corner of the Application \ntool bar and clicking on the adjoining arrow button.\nFor more details on the screen refer section ‘Specifying the Asset Transfer Details’ in this \nchapter.\n5.4 \nAsset Write Off Details\nThis section contains the following topics:\nSection 5.4.1, \"Invoking the Asset Write Off Screen\""
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "5.4.1 Invoking the Asset Write Off Screen",
+        "5.5 Authorizing Fixed Asset Contracts"
+      ],
+      "summary": "This page describes how to invoke and use screens for asset write-off and fixed asset contract authorization in an application.",
+      "raw_text": "5-14\n5.4.1 \nInvoking the Asset Write Off Screen\nYou can specify the asset write off details in the ‘Asset Write Off’ screen. You can invoke this \nscreen by typing ‘FADTRWRF’ in the field at the top right corner of the Application tool bar \nand clicking on the adjoining arrow button.\nWrite Off value, value date, details of the officer authorizing the write off and internal remarks \nare captured through this screen.\nFor more details on the screen refer section ‘Specifying the Asset Transfer Details’ in this \nchapter.\n5.5 \nAuthorizing Fixed Asset Contracts \nThis section contains the following topics:\nSection 5.5.1, \"Invoking the Fixed Assets Authorization Screen\"\n5.5.1 \nInvoking the Fixed Assets Authorization Screen\nYou can use the ‘Fixed Assets Authorize Contract’ screen to authorize asset capture, sale, \nwrite-off and transfer operations performed on any fixed asset contract. \nYou can invoke this screen by typing ‘FADTRAUT’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button. The screen is displayed below:"
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Contract Reference",
+        "Event Date",
+        "Event Code",
+        "Maker",
+        "Rekey Fields",
+        "Change Log Details"
+      ],
+      "summary": "This page outlines the details required for authorizing a contract, including fields to rekey and log any changes made.",
+      "raw_text": "5-15\nSpecify the following details:\nContract Reference\nSpecify the contract number which you are authorizing.\nEvent Date\nCurrent system date is displayed here.\nEvent Code\nA code for this authorizing event is displayed here.\nMaker\nOn selecting the contract number, the Maker ID is displayed.\nRekey Fields \nRekey the following details for authorizing a contract.\nAsset Currency\nAsset Cost\nCapatalization Date\nEffective Depreciation Date\nChange Log Details\nIf there are any values changed in the contract, then the following details are displayed here:\nField Description\nOld Value\nNew Value"
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "Overrides",
+        "Contract Reassign to another User",
+        "Invoking the Fixed Assets Contract Reassign Screen"
+      ],
+      "summary": "This page details contract override options and provides instructions for reassigning a fixed assets contract to another user when the original inputter is unavailable.",
+      "raw_text": "5-16\nOverrides\nThe following override details of the contract for all operations is displayed here:\nConfirmed\nRemarks\nAuthorized By\nAuthorized Date\nStatus\nRemarks\n5.6 \nContract Reassign to another User\nThis section contains the following topics:\nSection 5.6.1, \"Invoking the Fixed Assets Contract Reassign Screen\"\n5.6.1 \nInvoking the Fixed Assets Contract Reassign Screen\nA contract can be deleted only by the user who entered it. If a contract has to be deleted and \nthe user who input the same is not available to do it, you can reassign the contract to another \nuser so that the other user can delete it. Typically, this situation may arise during EOD \noperations, when a contract that is not authorized has to be deleted and the user who input it \nhas left office for the day.\nYou can invoke the ‘Fixed Assets Contract Reassign’ screen by typing ‘FADTREAS’ in the \nfield at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nTo reassign a contract to another user, the following steps are required:\nProduct Code\n1. Indicate the product associated with the contract. You can select a product code from the \noption list, which contains a list of the authorized products that you have created."
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "Contract Reference",
+        "New User Identity"
+      ],
+      "summary": "This page describes how to reassign a fixed asset contract to another user by specifying the contract reference and the new user's identity.",
+      "raw_text": "5-17\nContract Reference\n2. Indicate the contract reference number of the fixed asset you wish to reassign, to another \nuser. You can select a reference number from the option list, which contains a list of all \nthe active fixed asset contracts.\nNew User Identity\n3. Select the User ID of the user to whom you are assigning the contract.\nNote\nThis user to whom you reassign a contract should have access rights to enter fixed asset \ncontracts.\nYour User ID will be defaulted from the login screen. Select ‘Save’ from the Actions menu in \nthe Application toolbar or click save icon to save the specifications you have made. Click ‘Exit’ \nor ‘Cancel’ button if you do not want to save the details that you entered."
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "FA Events",
+        "Amount Tags"
+      ],
+      "summary": "This section details various accounting entries and advices for different events in the lifecycle of an FA contract in Oracle FLEXCUBE, including capitalization, depreciation, and sale.",
+      "raw_text": "6-1\n6. Annexure A - Accounting Entries and Advices \nThis section contains details of the suggested accounting entries that can be set up, for the \nFA module of Oracle FLEXCUBE. The details of the suggested accounting entries are listed \nevent-wise.\nThis chapter contains the following sections:\nSection 6.1, \"FA Events\"\nSection 6.2, \"Amount Tags\"\nSection 6.3, \"Accounting Roles\"\nSection 6.4, \"Event-wise Accounting Entries and Advices\"\n6.1 \nFA Events\nThe following is an exhaustive list of events that can take place during the lifecycle of an FA \ncontract. In the subsequent paragraphs we shall examine the accounting entries and advices \nfor each of the events listed below.\n6.2 \nAmount Tags\nThe amount tags listed below are hard-coded in Oracle FLEXCUBE. \nSl \nNo\nEvent \nCode\nEvent Description\nRemark\ns\n1\nBOOK\nBooking an FA contract (Mandatory)\nAll \nTypes\n2\nCAPT\nCapitalization of an asset\nAll \nTypes\n3\nDEPR\nDepreciation Processing for Booking\nAll \nTypes\n4\nAMND\nAmendment of a contract\nAll \nTypes\n5\nSALE\nSale of an asset\nAll \nTypes\n6\nWRTO\nFA Write off\nAll \nTypes\n7\nDPTX\nDepreciation for Tax purposes (no accounting entries \nare passed for this event)\nAll \nTypes\n8\nREVC\nReversal of a contract\nAll \nTypes.\n9\nTSFR\nTransfer of Asset\nAmount Tag\nDescription\nFA_CAPT_AMT\nAsset Cost Capitalized"
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Amount Tags and their usage during various events"
+      ],
+      "summary": "This section lists various financial events along with the corresponding amount tags used for charges related to products.",
+      "raw_text": "6-2\nIn addition to these you can define amount tags as per your requirements for charges that will \nbe attached to the product. \nAmount Tags and their usage during various events\nListed below are the various Events along with the Amount Tags that would be used during \nthe respective events. \nFA_DEPR_ACC\nAccumulated depreciation\nFA_DEPR_ADD\nAdditional depreciation to be charged\nFA_DEPR_RED\nReduction in depreciation amount already charged\nFA_SALE_AMT\nNet Sale Value\nFA_SALE_LOS\nLoss on account of sale (Book Value-Sale Value)\nFA_SALE_PFT\nProfit on account of Sale\nFA_WR-\nTO_AMT\nAmount Written Off (Book Value)\nFA_TSFR_AMT\nTransfer Amount (Asset Amount – Accumulated Depreciation)\nEven\nt\nAmount Tag\nExplanation of the Amount Tags\nBOO\nK\nFA_CAP-\nT_AMT\nAsset Cost\nDEP\nR\nFA_-\nDEPR_ADD\nAdditional depreciation to be charged on account of increase \nin depreciation rate or change in depreciation method or \nchange in capitalization date\nDEP\nR\nFA_-\nDEPR_RED\nReduction in cumulative depreciation on account of reduction \nin rate, change in capitalization date or change in deprecia-\ntion method\nCAP\nT\nFA_CAP-\nT_AMT\nAsset Cost capitalized\nSALE\nFA_-\nSALE_AMT\nNet Sale Value\nSALE\nFA_-\nSALE_LOS\nLoss on Account of Sale (Book Value-Net Sale Value)\nSALE\nFA_-\nSALE_PFT\nProfit on Account of Sale (Net Sale Value-Book Value)\nSALE\nFA_-\nDEPR_ACC\nAccumulated depreciation\nWRT\nO\nFA_WR-\nTO_AMT\nAmount Written off (Book Value)\nWRT\nO\nFA_CAP-\nT_AMT\nAsset Cost capitalized"
+    },
+    {
+      "page_number": 49,
+      "sections": [
+        "Accounting Roles",
+        "Event-wise Accounting Entries and Advices"
+      ],
+      "summary": "This page outlines various accounting roles for financial asset (FA) module products and defines suggested accounting entries and advices for each event in an FA contract's lifecycle.",
+      "raw_text": "6-3\n6.3 \nAccounting Roles\nIn this section we have provided a list of sample accounting roles that can be used for all types \nof products in the FA module:\n6.4 \nEvent-wise Accounting Entries and Advices\nIn the subsequent sections we have defined suggested accounting entries and advices for \neach of the events in the life-cycle of an FA contract. \nWRT\nO\nFA_-\nDEPR_ACC\nAccumulated depreciation\nTSF\nR\nFA_-\nDEPR_ACC\nAccumulated depreciation\nTSF\nR\nFA_TS-\nFR_AMT\nTransfer Amount (Asset Amount – Accumulated Deprecia-\ntion)\nAccounting Role\nDescription\nRole Type\nFAASSETACC\nAsset Account\nAsset\nFAWIPACC\nWork-In-Progress Account\nLiability\nFACUSTACC\nCustomer Account\nCustomer\nFADEPREXP\nDepreciation Account\nExpense\nFAACCDEPRLIB\nAccumulated depreciation Acct\nLiability\nFASALEEXP\nLoss on Sale Account\nExpense\nFASALEINC\nProfit on Sale Account\nIncome\nFAWRTOEXP\nAsset Written Off Account\nExpense\nFATSFRACC\nTransfer Account\nAsset"
+    },
+    {
+      "page_number": 50,
+      "sections": [
+        "BOOK: Booking Accounting Entries",
+        "CAPT: Capitalization of Asset Accounting Entries",
+        "DEPR: Depreciation processing",
+        "AMND: Amendment of the contract"
+      ],
+      "summary": "This page outlines various accounting entries related to booking, capitalization, depreciation processing, and amendment of contracts, but notes that no entries are needed at this stage for adjustments.",
+      "raw_text": "6-4\nBOOK: Booking\nAccounting Entries\nCAPT: Capitalization of Asset\nAccounting Entries\nDEPR: Depreciation processing\nAMND: Amendment of the contract\nNo Accounting Entries need to be captured at this stage since all the adjustments to be done \nwill be taken care of by the depreciation processing event.\nCondition\nAccounting Role\nAmount Tag\nDr./Cr. \nIndicator\nNo PO required\nFAWIPACC\nFA_ASST_AMT\nDr\nfor Purchase\nFACUSTACC\nFA_ASST_AMT\nCr\nCondition\nAccounting \nRole\nAmount Tag\nDr./Cr. Indicator\nNone\nFAASSETACC\nFA_CAPT_AMT\nDr\nFAWIPACC\nFA_CAPT_AMT\nCr\nCondition\nAccounting Role\nAmount Tag\nDr./Cr.\nIncrease in \ndepreciation\nFADEPREXP\nFA_DEPR_ADD\nDr\nFAACCDEPRLIB\nFA_DEPR_ADD\nCr\nDecrease in \ndepreciation\nFAACCDEPRLIB\nFA_DEPR_RED\nDr\nFADEPREXP\nFA_DEPR_RED\nCr\nIf Acquired \ndepreciation is \nentered\nFAWIPACC\nFA_DEPR_ACQ\nDr\nFAACCDEPRLIB\nFA_DEPR_ACQ\nCr"
+    },
+    {
+      "page_number": 51,
+      "sections": [],
+      "summary": "This page details the accounting entries for the sale of an asset in Oracle FLEXCUBE, including both loss and profit on sale scenarios.",
+      "raw_text": "6-5\nSALE: Sale of Asset\nIn Oracle FLEXCUBE, all Credit and Debit entries have to be paired up. So the entries will be \nas follows:\nAdvices\nA Payment message would be generated for the customer to whom the asset is sold. \nCondition\nAccounting Role\nAmount Tag\nDr./Cr.\nLoss on Sale\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nLoss on Sale\nFACUSTACC\nFA_SALE_AMT\nDr\nLoss on Sale\nFASALEEXP\nFA_SALE_LOS\nDr\nLoss on Sale\nFAASSETACC\nFA_CAPT_AMT\nCr\nProfit on Sale\nFAACCDEPRLIB\nFA_-\nDEPR_ACC\nDr\nProfit on Sale\nFACUSTACC\nFA_SALE_AMT\nDr\nProfit on Sale\nFAASSETACC\nFA_CAPT_AMT\nCr\nProfit on Sale\nFAASSETACC\nFA_SALE_PFT\nDr\nProfit on Sale\nFASALEINC\nFA_SALE_PFT\nCr\nCondition\nAccounting Role\nAmount Tag\nDr./Cr.\nLoss on Sale\nFACUSTACC\nFA_SALE_AMT\nDr\nLoss on Sale\nFAASSETACC\nFA_SALE_AMT\nCr\nLoss on Sale\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nLoss on Sale\nFAASSETACC\nFA_DEPR_ACC\nCr\nLoss on Sale\nFASALEEXP\nFA_SALE_LOS\nDr\nLoss on Sale\nFAASSETACC\nFA_SALE_LOS\nCr\nProfit on Sale\nFACUSTACC\nFA_SALE_AMT\nDr\nProfit on Sale\nFAASSETACC\nFA_SALE_AMT\nCr\nProfit on Sale\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nProfit on Sale\nFAASSETACC\nFA_DEPR_ACC\nCr\nProfit on Sale\nFAASSETACC\nFA_SALE_PFT\nDr\nProfit on Sale\nFASALEINC\nFA_SALE_PFT\nCr"
+    },
+    {
+      "page_number": 52,
+      "sections": [],
+      "summary": "This page describes the accounting entries for transferring an asset from one branch to another in Oracle FLEXCUBE, including the roles and accounts involved.",
+      "raw_text": "6-6\nWRTO: FA Write off\nSince all debit and credit entries have to paired up in Oracle FLEXCUBE, the entries will be \nreflected as follows:\nTSFR: Transfer of asset from one branch/location to another\nThe Transfer event is automated and the transferred asset will be automatically created in the \nbranch/location on save of transfer.\nThis event will be triggered when the asset is transferred from one branch/ location to another.\nThe Accounting entry setup for the asset in Transferor and Transferee branch will be as \ndescribed below.\n1) Asset still in WIP stage\nTransferor branch – Event TSFR\nTransferee Branch – Event BOOK\nCondition\nAccounting Role\nAmount Tag\nDr./Cr.\nNone\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr.\nFAWRTOEXP\nFA_WRTO_AMT\nDr\nFAASSETACC\nFA_CAPT_AMT\nCr\nCondition\nAccounting Role\nAmount Tag\nDr./Cr.\nNone\nFAWRTOEXP\nFA_CAPT_AMT\nDr\nFAASSETACC\nFA_CAPT_AMT\nCr\nFAACCDEPRLIB\nFA_DEPR_ACC\nDr\nFAWRTOEXP\nFA_DEPR_ACC\nCr\nDR/\nCR\nAccounting Role\nDescription\nAmount Tag\nDescription\nDR\nFATSFRACC\nTransfer Account \n(Transferee \nBranch)\nFA_ASST_AMT\nOriginal Asset \ncost\nCR\nFAWIPACC\nWork in Progress \nAccount  (Trans-\nferor Branch)\nFA_ASST_AMT\nOriginal Asset \ncost\nDR/\nCR\nAccounting \nRole\nDescription\nAmount Tag\nDescription\nDR\nFAWIPACC\nWork in Progress Account \n(Transferee Branch)\nFA_ASST_AMT\nOriginal \nAsset cost\nCR\nFACUSTACC\nCustomer Account\nFA_ASST_AMT\nOriginal \nAsset cost"
+    },
+    {
+      "page_number": 53,
+      "sections": [],
+      "summary": "This page outlines the accounting entries for an asset transfer, including debits and credits to various accounts such as Work in Progress Account, Transfer Account, Asset Account, Accumulated Depreciation Account, and Depreciation Expense.",
+      "raw_text": "6-7\n Only the second set of entries will be passed in case of an asset transfer.\n2) Capitalized Asset\nTransferor branch – Event TSFR\nTransferor Branch – Event DEPR (Along with TSFR)\nTransferee Branch – Event BOOK\nDR\nFAWIPACC\nWork in Progress Account \n(Transferee Branch)\nFA_TSFR_AMT\nOriginal \nAsset cost\nCR\nFATSFRACC\nTransfer Account ( Trans-\nferor Branch)\nFA_TSFR_AMT\nOriginal \nAsset cost\nDR/\nCR\nAccounting \nRole\nDescription\nAmount Tag\nDescription\nDR\nFATSFRACC\nTransfer Account \n(Transferee Branch)\nFA_CAPT_AMT\nOriginal Asset \ncost\nCR\nFASSTACC\nAsset Account \n(Transferor Branch)\nFA_CAPT_AMT\nOriginal Asset \ncost\nDR\nFAACCDEPRLIB\nAccumulated depre-\nciation Account\nFA_-\nDEPR_ACC\nAccumulated Dep.\nCR\nFATSFRACC\nTransfer Account \n(Transferee Branch)\nFA_-\nDEPR_ACC\nAccumulated Dep.\nDR/\nCR\nAccounting \nRole\nDescription\nAmount Tag\nDescription\nDR\nFADEPREXP\nDep. Expense\nFA_DEPR_ADD\nDepreciation \nAddition\nCR\nFAACCDEPRLIB\nAccumulated deprecia-\ntion Account\nFA_DEPR_ADD\nDepreciation \nAddition\nDR\nFAACCDEPRLIB\nAccumulated deprecia-\ntion Account\nFA_DEPR_RED\nDepreciation \nReduction\nCR\nFADEPREXP\nDep. Expense\nFA_DEPR_RED\nDepreciation \nReduction\nDR/\nCR\nAccounting \nRole\nDescription\nAmount Tag\nDescription\nDR\nFAWIPACC\nWork in Progress \nAccount (Transferee \nBranch)\nFA_ASST_AMT\nOriginal Asset \ncost\nCR\nFACUSTACC\nCustomer Account\nFA_ASST_AMT\nOriginal Asset \ncost"
+    },
+    {
+      "page_number": 54,
+      "sections": [],
+      "summary": "This page discusses the handling of capitalization entries and depreciation calculations during an asset transfer, including formulas for reversing and passing depreciation amounts.",
+      "raw_text": "6-8\n Only the second set of entries will be passed in case of an asset transfer.\nTransferee Branch – Event DEPR (Along with BOOK)\nCapitalization entries will be passed as usual for the new asset.\nExamples\nFormula for calculating depreciation to be passed / reversed:\nDepreciation already done for current period =\nYTD depreciation – (Depreciation per period * No. of previous periods)\nDepreciation to be reversed (If Dep. Effective date <= Cut Off date) = \nDepreciation already done for the current period\nDepreciation to be passed (If Dep. Effective date > Cut Off date) = \nDepreciation per period - Depreciation already done for current period\nThe above formula will be valid for WDV method of depreciation also since the depreciation \nprocess considers the Written Down Value of the asset only as of the beginning of the current \nfinancial year.\nConsider the following parameters –\nFinancial Year - 01-Jan-2008 to 31-Dec-2008\nDR\nFAWIPACC\nWork in Progress \nAccount (Transferee \nBranch)\nFA_TSFR_AMT\nOriginal Asset \ncost – Acquired \nDepreciation\nCR\nFATSFRACC\nTransfer Account (Trans-\nferor Branch)\nFA_TSFR_AMT\nOriginal Asset \ncost - Acquired \nDepreciation\nDR/CR\nAccounting \nRole\nDescription\nAmount Tag\nDescription\nDR\nFAWIPACC\nWork in Pro-\ngress Account \n(Transferee \nBranch)\nFA_DEPR_ACQ\nAcquired Depreciation\nCR\nFAAC-\nCDEPRLIB\nAccumulated \ndepreciation \nAccount\nFA_DEPR_ACQ\nAcquired Depreciation"
+    },
+    {
+      "page_number": 55,
+      "sections": [],
+      "summary": "This page calculates depreciation for an asset based on specific parameters such as depreciation period, cut off month and date, and transfer date.",
+      "raw_text": "6-9\nDepreciation period- Quarterly\nCut off Month- 1\nCut off Date- 20\nDepreciation effective date - 17-Apr-2008\nTransfer Date- 25-Aug-2008\nAsset Cost- 12000\nDepreciation rate- 10%\nNow according to the above parameters, \nIf asset is acquired in current year, we need to find out the period when depreciation started.\nDepreciation Start period = 2 (2nd quarter of the year)\nTransfer is happening in the 3rd Period, So No of previous periods = 3-2 =1\nTotal depreciation for the year= 12000*10/100 =1200\nActual depreciation for the year = 1200 * Applicable periods/No of periods in a year\n= 1200 * 3/4\n= 900\nDepreciation per period= 900 / 3 \n= 300\nLet us assume that when the transfer is happening on 25-Aug-2008 YTD depreciation is 475. \nSince transfer is happening after the cut off date (10-Jul-2008) for the 3rd period, we need to \ncomplete depreciation for this period. According to the above formula –\nDepreciation already done for current period= 475 – [(300 * (2-1)]\n= 175\nExtra depreciation to be passed= 300-175\n= 125\nThis is the amount for which depreciation entry is passed on transfer. \nLet us now assume that the cut off date is 27-Aug-2008. Since transfer is happening before \nthe cut off date, we need to reverse the depreciation for this period\nDepreciation already done for current period = 475 – [(300 * (2-1)]\n= 175"
+    },
+    {
+      "page_number": 56,
+      "sections": [],
+      "summary": "This page discusses the depreciation of a fixed asset with an effective depreciation date before the cut-off date and calculates the total depreciation for the year.",
+      "raw_text": "6-10\nDepreciation to be reversed= 175\n1) Asset transferred before Cut off date \nConsider the following parameters for a fixed asset –\nAsset Cost – 12000 \nAcquisition Date – 10-Nov-2007\nCapitalization date– 17-Jan-2008\nEffective depreciation date– 17-Jan-2008 (Defaulted to Capitalization date) \nDepreciation Period – Quarterly\nCut off date– 20\nCut off period– 1\nDepreciation Frequency – Monthly\nFrequency start date– 15\nDepreciation Rate–10% Per Annum\nFin year start date- 01-Jan-2008\nFin year end date- 31-Dec-2008\nAccording to the above parameters, the cut off date for depreciation is 20-Jan-2008.  Any \nasset having effective depreciation date on or before 20-Jan-2008 will be depreciated for 4 \nperiods in the first year. Any asset having effective depreciation date after 20-Jan-2008 will \nbe depreciated will be depreciated only for the next 3 periods in the first year. Since our asset \nhas effective depreciation date as 17-Jan-2008 which is before the cut off date, it will be \ndepreciated for the full year. Since we are considering the case where transfer is done in the \nfirst year itself, accumulated depreciation will always be the same as YTD depreciation.\nDepreciation on 15-feb-2008\nTotal depreciation for the year = \n[(Asset cost * rate)* Applicable dep. Periods]/ No of depreciation periods I the year\n= [(12000*.10)*4]/4\n=1200\nTotal depreciation runs in the year=12 (Monthly frequency)\nFuture Depreciation runs left =10 (march Onwards)\nFuture depreciation=1200*10/12"
+    },
+    {
+      "page_number": 57,
+      "sections": [],
+      "summary": "This page discusses depreciation accounting entries for an asset, including calculations and entries passed on specific dates, as well as what happens when the asset is transferred to another branch before the cut-off date.",
+      "raw_text": "6-11\n=1000\nDepreciation to be passed this time=1200-1000\n=200\nDepreciation accounting entries (DEPR event) on 15-feb-2008\nAccounting entries passed on 15-Feb-2008 \nAccounting entries passed on 15-Mar-2008 \nAccounting entries passed on 15-Apr-2008 \nNow let us assume that the asset is transferred to another branch/location on 17-Apr-2008.\nCut off date for asset transfer will be taken from branch parameters. For this case it will be 20-\nApr-2008.\nSince the asset is transferred before the cut off date, any depreciation done for the asset in \nthe 2nd depreciation period will be reverted back on transfer from the transferor branch.\nYTD depreciation = 200+100+100\n= 400    \nDepreciation already done for current period = \nYTD depreciation - Depreciation for all previous periods\nDR/CR\nAccounting \nRole\nDescription\nAmount Tag\nDescripti\non\nDR\nFADEPREXP\nDep. Expense\nFA_DEPR_ADD\n200\nCR\nFAACCDEPRLIB\nAccumulated \nDep.\nFA_DEPR_ADD\n200\nDR/CR\nAccounting Role\nDescription\nAmount Tag\nDescripti\non\nDR\nFADEPREXP\nDep. Expense\nFA_DEPR_ADD\n100\nCR\nFAACCDEPRLIB\nAccumulated Dep.\nFA_DEPR_ADD\n100\nDR/CR\nAccounting Role\nDescription\nAmount Tag\nDescripti\non\nDR\nFADEPREXP\nDep. Expense\nFA_DEPR_ADD\n100\nCR\nFAACCDEPRLIB\nAccumulated Dep.\nFA_DEPR_ADD\n100"
+    },
+    {
+      "page_number": 58,
+      "sections": [],
+      "summary": "This page details accounting entries and calculations related to the transfer of an asset between branches, including depreciation adjustments.",
+      "raw_text": "6-12\n= 400 - 300\n= 100\nAcquired depreciation for the asset in new branch/location  = \nAccumulated Dep.- Dep. for current period  \n= 400-100\n= 300\nAccumulated Depreciation also now becomes 300.\nAccounting entries passed in the transferor branch –\nEvent – TSFR\nEvent – DEPR (Triggered along with TSFR)\nAccounting entries passed in the transferee branch –\nEvent BOOK\nDR/\nCR\nAccounting \nRole\nDescription\nAmount Tag\nDescripti\non\nDR\nFATSFRACC\nTransfer Account (Transferee \nBranch)\nFA_ASST_AMT\n12000\nCR\nFASSTACC\nAsset Account (Transferor \nBranch)\nFA_ASST_AMT\n12000\nDR\nFAAC-\nCDEPRLIB\nAccumulated depreciation \nAccount\nFA_DEPR_ACC\n300\nCR\nFATSFRACC\nTransfer Account (Transferee \nBranch)\nFA_DEPR_ACC\n300\nDR/CR\nAccounting \nRole\nDescription\nAmount Tag\nDescription\nDR\nFAACCDEPRLIB\nAccumulated Dep.\nFA_DEPR_RED\n100\nCR\nFADEPREXP\nDep. Expense\nFA_DEPR_RED\n100\nDR/CR\nAccounti\nng Role\nDescription\nAmount Tag\nDescriptio\nn"
+    },
+    {
+      "page_number": 59,
+      "sections": [],
+      "summary": "This page discusses the depreciation of an asset in a new branch/location after its transfer and provides calculations for the depreciation amounts.",
+      "raw_text": "6-13\n Event DEPR (Triggered along with BOOK)\nFrom here onwards, the depreciation of the asset will be done in the new branch/location with \nthe rule defined for the new category – location combination.\n2)  Asset transferred after Cut off date \nAssume that everything remains the same as the previous asset but the asset is transferred \non 10-May-2008 i.e after the cut off date. In this case, the system will depreciate the asset for \nthe current period fully on transfer and depreciation in the new branch/location will start from \nthe next period onwards only. Since we are considering the case where transfer is done in the \nfirst year itself, accumulated depreciation will always be the same as YTD depreciation.\nYTD depreciation (after depreciation on 15-Apr) = 200+100+100\n= 400\nTotal depreciation for current period = Dep. for the year/No of dep. Periods = 900/3\n=300\nDepreciation already done for current period \n= YTD depreciation - Depreciation for all previous periods\n= 400 -100\n= 100\nRemaining dep. For current period = 300-100 = 200\nAcquired depreciation for the asset in new branch/location  \n= Accumulated Depreciation \n= Current Accumulated Dep.+ Remaining Dep. for  current period\nDR\nFAWI-\nPACC\nWork in Progress Account (Trans-\nferee Branch)\nFA_TS-\nFR_AMT\n11700\nCR\nFATS-\nFRACC\nTransfer Account (  Transferor \nBranch)\nFA_TS-\nFR_AMT\n11700\nDR/CR\nAccountin\ng Role\nDescription\nAmount Tag\nDescripti\non\nDR\nFAWIPACC\nWork in Progress Account (Trans-\nferee Branch)\nFA_-\nDEPR_ACQ\n300\nCR\nFAAC-\nCDEPRLIB\nAccumulated depreciation \nAccount\nFA_-\nDEPR_ACQ\n300"
+    },
+    {
+      "page_number": 60,
+      "sections": [
+        "Accounting entries passed in the transferor branch – Event – TSFR",
+        "Accounting entries passed in the transferee branch – Event BOOK"
+      ],
+      "summary": "This page details accounting entries for a transfer between branches, including asset and depreciation accounts, and work-in-progress account.",
+      "raw_text": "6-14\n= 400+200\n= 600\nAccounting entries passed in the transferor branch –\nEvent – TSFR\nEvent – DEPR (Triggered along with TSFR)\nAccounting entries passed in the transferee branch –\nEvent BOOK\nEvent DEPR (Triggered along with BOOK)\nDR/\nCR\nAccounting \nRole\nDescription\nAmount Tag\nAmount\nDR\nFATSFRACC\nTransfer Account (Trans-\nferee Branch)\nFA_ASST_AMT\n12000\nCR\nFASSTACC\nAsset Account (Trans-\nferor Branch)\nFA_ASST_AMT\n12000\nDR\nFAAC-\nCDEPRLIB\nAccumulated deprecia-\ntion Account\nFA_DEPR_ACC\n600\nCR\nFATSFRACC\nTransfer Account (Trans-\nferee Branch)\nFA_DEPR_ACC\n600\nDR/CR\nAccounting Role\nDescription\nAmount Tag\nAmount\nDR\nFADEPREXP\nDep. Expense\nFA_DEPR_ADD\n200\nCR\nFAACCDEPRLIB\nAccumulated Dep.\nFA_DEPR_ADD\n200\nDR/CR\nAccounting \nRole\nDescription\nAmount Tag\nAmount\nDR\nFAWIPACC\nWork in Progress Account \n(Transferee Branch)\nFA_TSFR_AMT\n11400\nCR\nFATS-\nFRACC\nTransfer Account (  Trans-\nferor Branch)\nFA_TSFR_AMT\n11400\nDR/\nCR\nAccounting \nRole\nDescription\nAmount Tag\nAmount"
+    },
+    {
+      "page_number": 61,
+      "sections": [
+        "From here onwards, the depreciation of the asset will be done in the new branch/location with the rule defined for the new category – location combination.",
+        "The following details the possible advices and the stage at which the advices are generated for the Accounting entries."
+      ],
+      "summary": "This page describes the process of depreciating assets in a new branch or location, including the generation of transfer advice during asset transfers and the accounting entries involved.",
+      "raw_text": "6-15\nFrom here onwards, the depreciation of the asset will be done in the new branch/location with \nthe rule defined for the new category – location combination.\nThe following details the possible advices and the stage at which the advices are generated \nfor the Accounting entries:\nThis advice is generated on Book Event (If PO required is ‘N’ at product level) and on Sale \nEvent.\nOn transfer of an asset, a transfer advice called FA_TRANSFER will be generated. Following \ndetails will be available in the transfer advice –\nOriginal asset reference\nTransferor Branch\nTransferee Branch\nAccumulated depreciation\nAsset Cost\nCurrent Book Value\nDate of Transfer\nThe receiver of the advice will be the Walk in Customer for the Transferor Branch.\nDR\nFAWIPACC\nWork in Progress \nAccount (Transferee \nBranch)\nFA_-\nDEPR_ACQ\n600\nCR\nFAAC-\nCDEPRLIB\nAccumulated deprecia-\ntion Account\nFA_-\nDEPR_ACQ\n600\nAdvice Code\nAdvice \nDescription \nReceiver \nPAYMENT_MESSAGE\nPayment Message\nCounter-\nparty"
+    },
+    {
+      "page_number": 62,
+      "sections": [
+        "Important Terms"
+      ],
+      "summary": "This page defines several key terms related to accounting and depreciation, including ad hoc depreciation rates, book value, capitalization, depreciation, and purchase order.",
+      "raw_text": "7-1\n7. Glossary\nThis chapter contains the following section:\nSection 7.1, \"Important Terms\"\n7.1 \nImportant Terms\nThe following terms are used in this module.\nAd Hoc Depreciation rates\nDepreciation rates that do not default from the Product but are defined at the contract level at \nthe time of input of the asset.\nBook Value\nThis indicates the value at which an asset is carried on a balance sheet. In other words, the \ncost of an asset minus accumulated depreciation.\nCapitalisation\nWhen a business purchases assets like furniture, machinery, equipment, etc. they get posted \nto the balance sheet as \"fixed assets\". For financial statement purposes, these assets have \n\"lives\" and usually last for years. For this reason, they are not expensed. Instead they are \ncapitalized (shown as assets on the balance sheet) and depreciated. Each year the company \nrecords depreciation on these assets to show that it is using them over time.\nDepreciation\nDepreciation is the reduction in the value of an asset due to usage, passage of time, wear and \ntear, technological outdating or obsolescence, depletion or other such factors.\nPurchase Order\nA purchase order (PO) is a commercial document issued by a buyer to a seller, indicating the \ntype, quantities and agreed prices for products or services the seller will provide to the buyer. \nSending a PO to a supplier constitutes a legal offer to buy products or services.\nRate over Period\nFor calculating depreciation for the first year the company can mention a depreciation rate \nthat is different from the depreciation rule that has been specified. This is mentioned as a part \nof the Rule definition.\nResidual Value\nResidual Value is the scrap value of the asset which can be realized when the asset is sold \nafter its useful life is complete.\nSLM\nThe simplest and most commonly used, straight line depreciation is calculated by taking the \npurchase or acquisition price of an asset subtracted by the salvage value divided by the total \nproductive years the asset can be reasonably expected to benefit the company [called “useful \nlife” in accounting jargon]. \nPurchase price of asset – approximate salvage value\nEstimated useful life of asset\nUnder straight line method, a fixed percentage is applied on the original cost of the asset, \nthereby ensuring that the depreciation per annum over the useful life is constant."
+    },
+    {
+      "page_number": 63,
+      "sections": [
+        "Transfer Value",
+        "Useful Life",
+        "WDV",
+        "WIP",
+        "Write Off"
+      ],
+      "summary": "This page discusses various accounting terms related to asset management, including transfer value, useful life, written down value method, work in progress, and write off.",
+      "raw_text": "7-2\nTransfer Value\nThis indicates the value of the asset when transferred from one branch to another.\nUseful Life\nThis indicates the life of the asset. i.e. the period for which the asset would be useful for the \norganization.\nWDV\nUnder written down value method, a fixed percentage is applied on the written down value \n(original cost less depreciation charged till the end of the previous year) of the asset. This \nresults in higher depreciation in the earlier years and lesser depreciation in the later years. \nNormally the depreciation rate under written down value is higher than the rate under straight \nline method. This ensures creation of depreciation provision over the useful life of the asset.\nWIP\nWork that has not been completed but has already incurred a capital investment from the \ncompany. This is usually recorded as an asset on the balance sheet. Work in progress \nindicates any good that is not considered to be a final product, but must still be accounted for \nbecause funds have been invested toward its production.\nWrite Off\nThis indicates a reduction in the value of an asset or earnings by the amount of an expense \nor loss."
+    },
+    {
+      "page_number": 64,
+      "sections": [],
+      "summary": "",
+      "raw_text": "8-1\n8. Function ID Glossary\nF\nFADACAT .........................3-2\nFADBRMNT ......................3-5\nFADCATCL .......................3-8\nFADLOCCL .......................3-7\nFADLOCN .........................3-4\nFADPRMNT ......................4-1\nFADRULDF ....................... 3-9\nFADRULMP .................... 3-11\nFADTRAUT ..................... 5-14\nFADTREAS ..................... 5-16\nFADTRONL ....................... 5-1\nFADTRSLE ..................... 5-13\nFADTRTFR ....................... 5-9\nFADTRWRF .................... 5-14"
+    }
+  ]
+}

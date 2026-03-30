@@ -1,0 +1,1839 @@
+{
+  "source": "FlexCube/FCUBS/Safe_Deposit_Box/Safe-Deposit-Locker-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 62,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the preface and overview of a document related to the Deposit Locker module, including its scope and functions, as well as maintenance information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Deposit Locker module of Oracle FLEXCUBE and provides information for users on how to access specific field details, the intended audience, documentation accessibility, and abbreviations used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Deposit Locker module of Oracle FLEXCUBE and provides information for users on how to access specific field details, the intended audience, documentation accessibility, and abbreviations used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Deposit Locker module of Oracle FLEXCUBE and provides information for users on how to access specific field details, the intended audience, documentation accessibility, and abbreviations used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Deposit Locker module of Oracle FLEXCUBE and provides information for users on how to access specific field details, the intended audience, documentation accessibility, and abbreviations used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Abbreviations",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Deposit Locker module of Oracle FLEXCUBE and provides information for users on how to access specific field details, the intended audience, documentation accessibility, and abbreviations used in the manual.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Organization",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page outlines the organization and content structure of a User Manual for the Deposit Locker module, including related documents, glossary of icons, and system references.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page outlines the organization and content structure of a User Manual for the Deposit Locker module, including related documents, glossary of icons, and system references.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 8,
+      "summary": "This page outlines the organization and content structure of a User Manual for the Deposit Locker module, including related documents, glossary of icons, and system references.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Abbreviations",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Organization",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "6",
+          "title": "5. Operations",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Contract Details",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Maintaining Safe Deposit Box Contract Details",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Main Tab",
+          "start_page": 32
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Parties Tab",
+          "start_page": 36
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Tracers Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Advices Tab",
+          "start_page": 38
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Linkage Details Button",
+          "start_page": 39
+        },
+        {
+          "structure": "6.1.7",
+          "title": "5.1.7 Viewing Safe Deposit Box Contract Details",
+          "start_page": 40
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Safe Deposit Box Authorize Contract Details",
+          "start_page": 40
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Authorizing Contracts",
+          "start_page": 40
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Reversing Contracts",
+          "start_page": 41
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Amending Contracts",
+          "start_page": 41
+        },
+        {
+          "structure": "6.2.4",
+          "title": "5.2.4 Closing Contracts",
+          "start_page": 42
+        },
+        {
+          "structure": "6.2.5",
+          "title": "5.2.5 Deleting Contracts",
+          "start_page": 42
+        },
+        {
+          "structure": "6.2.6",
+          "title": "5.2.6 Rolling over Contracts",
+          "start_page": 42
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 PreClosure of Contracts",
+          "start_page": 42
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Closing Contracts Prematurely",
+          "start_page": 43
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Safe Deposit Box Payment Input",
+          "start_page": 44
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 Processing Safe Deposit Box Payments",
+          "start_page": 44
+        },
+        {
+          "structure": "6.4.2",
+          "title": "5.4.2 Viewing Safe Deposit Box Payment Details",
+          "start_page": 45
+        },
+        {
+          "structure": "6.5",
+          "title": "5.5 Safe Deposit Box Break Open Operation",
+          "start_page": 45
+        },
+        {
+          "structure": "6.5.1",
+          "title": "5.5.1 Breaking Open Safe Deposit Boxes",
+          "start_page": 46
+        },
+        {
+          "structure": "6.5.2",
+          "title": "5.5.2 Viewing Safe Deposit Box Break Open Details",
+          "start_page": 47
+        },
+        {
+          "structure": "6.6",
+          "title": "5.6 Safe Deposit Box Visitors Log",
+          "start_page": 47
+        },
+        {
+          "structure": "6.6.1",
+          "title": "5.6.1 Maintaining Safe Deposit Box Visitor Information",
+          "start_page": 48
+        },
+        {
+          "structure": "6.6.2",
+          "title": "5.6.2 Viewing Safe Deposit Box Visitor Information",
+          "start_page": 50
+        },
+        {
+          "structure": "6.7",
+          "title": "5.7 Safe Deposits Box Customer Waitlist Log",
+          "start_page": 50
+        },
+        {
+          "structure": "6.7.1",
+          "title": "5.7.1 Creating Safe Deposit Box Waitlists for Customers",
+          "start_page": 50
+        },
+        {
+          "structure": "6.7.2",
+          "title": "5.7.2 Viewing Safe Deposit Box Waitlist Details",
+          "start_page": 52
+        },
+        {
+          "structure": "6.8",
+          "title": "5.8 Safe Deposit Duplicate Key Issuance Detailed",
+          "start_page": 53
+        },
+        {
+          "structure": "6.8.1",
+          "title": "5.8.1 Handling Safe Deposit Duplicate Key Requests",
+          "start_page": 54
+        },
+        {
+          "structure": "6.8.2",
+          "title": "5.8.2 Viewing Safe Deposit Duplicate Key Details",
+          "start_page": 55
+        },
+        {
+          "structure": "3",
+          "title": "2. Overview – Deposit Locker",
+          "start_page": 8
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Scope of the Module",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 DL Module Functions & Features",
+          "start_page": 8
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintenances",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Safe Deposit Box Type Definition Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Safe Deposit Box Types",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Viewing Safe Deposit Box Type Details",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Vendor Details",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Defining Vendor Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Safe Deposit Vault & Box Mapping Maintenance",
+          "start_page": 12
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Maintaining Safe Deposit Vault and Box Mapping Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Viewing Safe Deposit Vault Box Mapping Details",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Mandatory Batch Program Maintenance",
+          "start_page": 16
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Maintaining Batch Program Maintenance",
+          "start_page": 16
+        },
+        {
+          "structure": "5",
+          "title": "4. Defining Attributes for DL Products",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Safe Deposit Box Product Definition",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Creating Safe Deposit Box Product",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Accounting Roles Button",
+          "start_page": 20
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Events Button",
+          "start_page": 21
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Preferences Button",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.5",
+          "title": "4.1.5 Tracers Button",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.6",
+          "title": "4.1.6 Charges Button",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.7",
+          "title": "4.1.7 MIS Button",
+          "start_page": 27
+        },
+        {
+          "structure": "5.1.8",
+          "title": "4.1.8 Restrictions Button",
+          "start_page": 28
+        },
+        {
+          "structure": "5.1.9",
+          "title": "4.1.9 Viewing Safe Deposit Box Product Details",
+          "start_page": 29
+        },
+        {
+          "structure": "7",
+          "title": "6. Annexure – Events, Accounting Entries and Advices",
+          "start_page": 56
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 SDB Events",
+          "start_page": 56
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Accounting Role",
+          "start_page": 57
+        },
+        {
+          "structure": "7.3",
+          "title": "6.3 SDB Accounting Entries and Advices",
+          "start_page": 57
+        },
+        {
+          "structure": "7.3.1",
+          "title": "6.3.1 Book",
+          "start_page": 57
+        },
+        {
+          "structure": "7.3.2",
+          "title": "6.3.2 INIT",
+          "start_page": 58
+        },
+        {
+          "structure": "7.3.3",
+          "title": "6.3.3 LIQD",
+          "start_page": 58
+        },
+        {
+          "structure": "7.3.4",
+          "title": "6.3.4 AMND",
+          "start_page": 58
+        },
+        {
+          "structure": "7.3.5",
+          "title": "6.3.5 REVR",
+          "start_page": 59
+        },
+        {
+          "structure": "7.3.6",
+          "title": "6.3.6 ROLL",
+          "start_page": 59
+        },
+        {
+          "structure": "7.3.7",
+          "title": "6.3.7 CUSV",
+          "start_page": 59
+        },
+        {
+          "structure": "7.3.8",
+          "title": "6.3.8 BPNT",
+          "start_page": 60
+        },
+        {
+          "structure": "7.3.9",
+          "title": "6.3.9 DPNT",
+          "start_page": 60
+        },
+        {
+          "structure": "7.3.10",
+          "title": "6.3.10 CLOS / PCLS",
+          "start_page": 60
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Overview – Deposit Locker",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page provides an overview of the Deposit Locker module, detailing its scope and key features such as box type definition, vendor maintenance, and flexible payment modes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Scope of the Module",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page provides an overview of the Deposit Locker module, detailing its scope and key features such as box type definition, vendor maintenance, and flexible payment modes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 DL Module Functions & Features",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This page provides an overview of the Deposit Locker module, detailing its scope and key features such as box type definition, vendor maintenance, and flexible payment modes.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "4",
+      "title": "3. Maintenances",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page outlines the necessary maintenances for setting up the Deposit Locker module in Oracle FLEXCUBE, including defining safe deposit box types, vendor details, and vault mappings.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Safe Deposit Box Type Definition Maintenance",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page outlines the necessary maintenances for setting up the Deposit Locker module in Oracle FLEXCUBE, including defining safe deposit box types, vendor details, and vault mappings.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Maintaining Safe Deposit Box Types",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page outlines the necessary maintenances for setting up the Deposit Locker module in Oracle FLEXCUBE, including defining safe deposit box types, vendor details, and vault mappings.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Scope of the Module",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 DL Module Functions & Features",
+          "start_page": 8
+        }
+      ]
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Viewing Safe Deposit Box Type Details",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes how to define and manage safe deposit box types, including setting their type, description, charge basis, dimensions, and viewing details through a specific screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Vendor Details",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page describes how to define and manage safe deposit box types, including setting their type, description, charge basis, dimensions, and viewing details through a specific screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Defining Vendor Details",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page explains how to maintain vendor details and link them with safe deposit vaults and boxes for service contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Safe Deposit Vault & Box Mapping Maintenance",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page explains how to maintain vendor details and link them with safe deposit vaults and boxes for service contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.1",
+      "title": "3.3.1 Maintaining Safe Deposit Vault and Box Mapping Details",
+      "start_page": 12,
+      "end_page": 15,
+      "summary": "This page explains how to maintain vendor details and link them with safe deposit vaults and boxes for service contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.2",
+      "title": "3.3.2 Viewing Safe Deposit Vault Box Mapping Details",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page explains how to enter key numbers for vault boxes and provides instructions on viewing the details of vault and box mappings in a specific system screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Mandatory Batch Program Maintenance",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page describes how to access and maintain batch programs for end-of-day (EOD) processing in a specific module.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.1",
+      "title": "3.4.1 Maintaining Batch Program Maintenance",
+      "start_page": 16,
+      "end_page": 18,
+      "summary": "This page describes how to access and maintain batch programs for end-of-day (EOD) processing in a specific module.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Defining Attributes for DL Products",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page discusses the attributes and creation process for a Deposit Locker product in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Safe Deposit Box Product Definition",
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This page discusses the attributes and creation process for a Deposit Locker product in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Creating Safe Deposit Box Product",
+      "start_page": 18,
+      "end_page": 20,
+      "summary": "This page discusses the attributes and creation process for a Deposit Locker product in Oracle FLEXCUBE.",
+      "cross_references": [
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Safe Deposit Box Types",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Viewing Safe Deposit Box Type Details",
+          "start_page": 11
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Safe Deposit Box Type Definition Maintenance",
+          "start_page": 10
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Accounting Roles Button",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This page describes various settings and options for defining product details in a financial system, including auto-rollover, exchange rate variance, default rate type, override limits, stop limits, and accounting roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.3",
+      "title": "4.1.3 Events Button",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page explains how to invoke the 'Accounting Roles' screen and describes the functionality of the 'Events Button' in setting up accounting entries and generating advices.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.4",
+      "title": "4.1.4 Preferences Button",
+      "start_page": 22,
+      "end_page": 26,
+      "summary": "This page discusses how to access events related to contract life cycles and provides information on defining product-specific preferences for a DL product.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.5",
+      "title": "4.1.5 Tracers Button",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page describes how to configure tracers and charges in a system, including setting up tracer details such as code, frequency, and start date, and defining charge rules and classes for contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.6",
+      "title": "4.1.6 Charges Button",
+      "start_page": 26,
+      "end_page": 27,
+      "summary": "This page describes how to configure tracers and charges in a system, including setting up tracer details such as code, frequency, and start date, and defining charge rules and classes for contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.7",
+      "title": "4.1.7 MIS Button",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This page discusses how to amend charge details for contracts and retrieve MIS-related information by linking products to warehouse codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.8",
+      "title": "4.1.8 Restrictions Button",
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "This page describes how to define MIS details and restrictions for a safe deposit product in the Safe Deposit Product Definition screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.9",
+      "title": "4.1.9 Viewing Safe Deposit Box Product Details",
+      "start_page": 29,
+      "end_page": 31,
+      "summary": "This section explains how to access and query details of available products in the 'Safe Deposit Box Product Definition Summary' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Operations",
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This page describes operations related to managing safe deposit box contracts, including maintaining contract details and viewing records.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Contract Details",
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This page describes operations related to managing safe deposit box contracts, including maintaining contract details and viewing records.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.1",
+      "title": "5.1.1 Maintaining Safe Deposit Box Contract Details",
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This page describes operations related to managing safe deposit box contracts, including maintaining contract details and viewing records.",
+      "cross_references": [
+        {
+          "structure": "5.1.7",
+          "title": "4.1.7 MIS Button",
+          "start_page": 27
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Creating Safe Deposit Box Product",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1.6",
+          "title": "4.1.6 Charges Button",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Safe Deposit Box Product Definition",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Accounting Roles Button",
+          "start_page": 20
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Events Button",
+          "start_page": 21
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Preferences Button",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.5",
+          "title": "4.1.5 Tracers Button",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.8",
+          "title": "4.1.8 Restrictions Button",
+          "start_page": 28
+        },
+        {
+          "structure": "5.1.9",
+          "title": "4.1.9 Viewing Safe Deposit Box Product Details",
+          "start_page": 29
+        }
+      ]
+    },
+    {
+      "structure": "6.1.2",
+      "title": "5.1.2 Main Tab",
+      "start_page": 32,
+      "end_page": 36,
+      "summary": "This page describes how to enter contract details in a system, including product code and description, contract reference, user reference, source reference, and source code fields.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.3",
+      "title": "5.1.3 Parties Tab",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page details how to configure locker operations and freezing, including specifying modes of operation, freezing options, and managing parties authorized to operate the safe deposit box.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.4",
+      "title": "5.1.4 Tracers Tab",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page describes how to enter and manage party types, joint customers, signature IDs, and tracers for a customer in a system related to safe deposit contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.5",
+      "title": "5.1.5 Advices Tab",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This section describes how to modify advice details in a specific screen, including options for changing medium, priority, and suppressing advice generation.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.6",
+      "title": "5.1.6 Linkage Details Button",
+      "start_page": 39,
+      "end_page": 40,
+      "summary": "This section explains how to link deposits to a safe deposit contract in the bank's system and details the fields that need to be entered.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.7",
+      "title": "5.1.7 Viewing Safe Deposit Box Contract Details",
+      "start_page": 40,
+      "end_page": 40,
+      "summary": "This page describes how to view and query safe deposit box contract details in a system, as well as the operations that can be performed on these contracts such as authorizing, reversing, amending, closing, deleting, and rolling over them.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Safe Deposit Box Authorize Contract Details",
+      "start_page": 40,
+      "end_page": 40,
+      "summary": "This page describes how to view and query safe deposit box contract details in a system, as well as the operations that can be performed on these contracts such as authorizing, reversing, amending, closing, deleting, and rolling over them.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.1",
+      "title": "5.2.1 Authorizing Contracts",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This page describes how to view and query safe deposit box contract details in a system, as well as the operations that can be performed on these contracts such as authorizing, reversing, amending, closing, deleting, and rolling over them.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.2",
+      "title": "5.2.2 Reversing Contracts",
+      "start_page": 41,
+      "end_page": 41,
+      "summary": "This page outlines various operations for managing contracts such as reversal, amendment, and closure, including how to authorize contracts and the conditions under which certain actions can be taken.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.3",
+      "title": "5.2.3 Amending Contracts",
+      "start_page": 41,
+      "end_page": 42,
+      "summary": "This page outlines various operations for managing contracts such as reversal, amendment, and closure, including how to authorize contracts and the conditions under which certain actions can be taken.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.4",
+      "title": "5.2.4 Closing Contracts",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page describes how to close, delete, and roll over contracts in a system, including the conditions and processes for each action.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.5",
+      "title": "5.2.5 Deleting Contracts",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page describes how to close, delete, and roll over contracts in a system, including the conditions and processes for each action.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.6",
+      "title": "5.2.6 Rolling over Contracts",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This page describes how to close, delete, and roll over contracts in a system, including the conditions and processes for each action.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3",
+      "title": "5.3 PreClosure of Contracts",
+      "start_page": 42,
+      "end_page": 43,
+      "summary": "This page describes how to close, delete, and roll over contracts in a system, including the conditions and processes for each action.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.1",
+      "title": "5.3.1 Closing Contracts Prematurely",
+      "start_page": 43,
+      "end_page": 44,
+      "summary": "This section explains how to close contracts before their expiry date through the 'Safe Deposit Box Pre Closure' screen and describes the process of collecting rental arrears or returning advance rent during pre-closure.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4",
+      "title": "5.4 Safe Deposit Box Payment Input",
+      "start_page": 44,
+      "end_page": 44,
+      "summary": "This page describes how to process and view safe deposit box payments, including both automatic and manual payment methods.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.1",
+      "title": "5.4.1 Processing Safe Deposit Box Payments",
+      "start_page": 44,
+      "end_page": 45,
+      "summary": "This page describes how to process and view safe deposit box payments, including both automatic and manual payment methods.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.2",
+      "title": "5.4.2 Viewing Safe Deposit Box Payment Details",
+      "start_page": 45,
+      "end_page": 45,
+      "summary": "This page describes how to modify certain fields in a payment transaction and provides instructions on viewing safe deposit box payment details through specific screens and queries.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5",
+      "title": "5.5 Safe Deposit Box Break Open Operation",
+      "start_page": 45,
+      "end_page": 46,
+      "summary": "This page describes how to modify certain fields in a payment transaction and provides instructions on viewing safe deposit box payment details through specific screens and queries.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.1",
+      "title": "5.5.1 Breaking Open Safe Deposit Boxes",
+      "start_page": 46,
+      "end_page": 47,
+      "summary": "This page describes how to break open a safe deposit box when certain conditions are met and details the steps involved in recording this operation.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.2",
+      "title": "5.5.2 Viewing Safe Deposit Box Break Open Details",
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "This page describes how to view details of safe deposit box break open operations and provides an overview of maintaining and viewing visitor information for such boxes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.6",
+      "title": "5.6 Safe Deposit Box Visitors Log",
+      "start_page": 47,
+      "end_page": 48,
+      "summary": "This page describes how to view details of safe deposit box break open operations and provides an overview of maintaining and viewing visitor information for such boxes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.6.1",
+      "title": "5.6.1 Maintaining Safe Deposit Box Visitor Information",
+      "start_page": 48,
+      "end_page": 50,
+      "summary": "This section explains how to maintain visitor information for safe deposit boxes using the 'Safe Deposit Box Visitors Log' screen in the application toolbar.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.6.2",
+      "title": "5.6.2 Viewing Safe Deposit Box Visitor Information",
+      "start_page": 50,
+      "end_page": 50,
+      "summary": "This page describes how to view visitor information for safe deposit boxes and outlines the process of creating and viewing waitlist details for customers interested in these services.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.7",
+      "title": "5.7 Safe Deposits Box Customer Waitlist Log",
+      "start_page": 50,
+      "end_page": 50,
+      "summary": "This page describes how to view visitor information for safe deposit boxes and outlines the process of creating and viewing waitlist details for customers interested in these services.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.7.1",
+      "title": "5.7.1 Creating Safe Deposit Box Waitlists for Customers",
+      "start_page": 50,
+      "end_page": 52,
+      "summary": "This page describes how to view visitor information for safe deposit boxes and outlines the process of creating and viewing waitlist details for customers interested in these services.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.7.2",
+      "title": "5.7.2 Viewing Safe Deposit Box Waitlist Details",
+      "start_page": 52,
+      "end_page": 53,
+      "summary": "This section describes how to input and display customer details such as ID, name, address, contact information, and country for both existing and new customers.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.8",
+      "title": "5.8 Safe Deposit Duplicate Key Issuance Detailed",
+      "start_page": 53,
+      "end_page": 54,
+      "summary": "This page describes how to query records using various parameters in the Application Toolbar and details sections related to handling and viewing safe deposit duplicate key requests.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.8.1",
+      "title": "5.8.1 Handling Safe Deposit Duplicate Key Requests",
+      "start_page": 54,
+      "end_page": 55,
+      "summary": "This section explains how to process a duplicate key request for a customer through the 'SDB Duplicate Key Issuance Detailed' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.8.2",
+      "title": "5.8.2 Viewing Safe Deposit Duplicate Key Details",
+      "start_page": 55,
+      "end_page": 56,
+      "summary": "This section explains how to query and view details of duplicate keys issued through the 'SDB Duplicate Key Issuance Summary' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Annexure – Events, Accounting Entries and Advices",
+      "start_page": 56,
+      "end_page": 56,
+      "summary": "This section details various events for the SDB module in Oracle FLEXCUBE, including their descriptions and associated accounting entries.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 SDB Events",
+      "start_page": 56,
+      "end_page": 57,
+      "summary": "This section details various events for the SDB module in Oracle FLEXCUBE, including their descriptions and associated accounting entries.",
+      "cross_references": [
+        {
+          "structure": "6.3",
+          "title": "5.3 PreClosure of Contracts",
+          "start_page": 42
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Closing Contracts Prematurely",
+          "start_page": 43
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Safe Deposit Box Authorize Contract Details",
+          "start_page": 40
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Authorizing Contracts",
+          "start_page": 40
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Reversing Contracts",
+          "start_page": 41
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Amending Contracts",
+          "start_page": 41
+        },
+        {
+          "structure": "6.2.4",
+          "title": "5.2.4 Closing Contracts",
+          "start_page": 42
+        },
+        {
+          "structure": "6.2.5",
+          "title": "5.2.5 Deleting Contracts",
+          "start_page": 42
+        },
+        {
+          "structure": "6.2.6",
+          "title": "5.2.6 Rolling over Contracts",
+          "start_page": 42
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Contract Details",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Maintaining Safe Deposit Box Contract Details",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Main Tab",
+          "start_page": 32
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Parties Tab",
+          "start_page": 36
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Tracers Tab",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Advices Tab",
+          "start_page": 38
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Linkage Details Button",
+          "start_page": 39
+        },
+        {
+          "structure": "6.1.7",
+          "title": "5.1.7 Viewing Safe Deposit Box Contract Details",
+          "start_page": 40
+        }
+      ]
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 Accounting Role",
+      "start_page": 57,
+      "end_page": 57,
+      "summary": "This page discusses the accounting role and various SDB accounting entries triggered by different events such as customer visits, contract maturity, key duplication requests, and pre-closure of contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3",
+      "title": "6.3 SDB Accounting Entries and Advices",
+      "start_page": 57,
+      "end_page": 57,
+      "summary": "This page discusses the accounting role and various SDB accounting entries triggered by different events such as customer visits, contract maturity, key duplication requests, and pre-closure of contracts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.1",
+      "title": "6.3.1 Book",
+      "start_page": 57,
+      "end_page": 58,
+      "summary": "This page discusses the accounting role and various SDB accounting entries triggered by different events such as customer visits, contract maturity, key duplication requests, and pre-closure of contracts.",
+      "cross_references": [
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Closing Contracts Prematurely",
+          "start_page": 43
+        }
+      ]
+    },
+    {
+      "structure": "7.3.2",
+      "title": "6.3.2 INIT",
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This page details accounting entries for different events such as INIT, LIQD, and AMND, including their respective advice names, event generation times, format names, message types, roles, amounts, tags, and debit/credit information.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.3",
+      "title": "6.3.3 LIQD",
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This page details accounting entries for different events such as INIT, LIQD, and AMND, including their respective advice names, event generation times, format names, message types, roles, amounts, tags, and debit/credit information.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.4",
+      "title": "6.3.4 AMND",
+      "start_page": 58,
+      "end_page": 59,
+      "summary": "This page details accounting entries for different events such as INIT, LIQD, and AMND, including their respective advice names, event generation times, format names, message types, roles, amounts, tags, and debit/credit information.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.5",
+      "title": "6.3.5 REVR",
+      "start_page": 59,
+      "end_page": 59,
+      "summary": "This page describes accounting entries and transactions related to event generation, including reversing previous postings and collecting rental fees and charges for exceeding free visit counts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.6",
+      "title": "6.3.6 ROLL",
+      "start_page": 59,
+      "end_page": 59,
+      "summary": "This page describes accounting entries and transactions related to event generation, including reversing previous postings and collecting rental fees and charges for exceeding free visit counts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.7",
+      "title": "6.3.7 CUSV",
+      "start_page": 59,
+      "end_page": 60,
+      "summary": "This page describes accounting entries and transactions related to event generation, including reversing previous postings and collecting rental fees and charges for exceeding free visit counts.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.8",
+      "title": "6.3.8 BPNT",
+      "start_page": 60,
+      "end_page": 60,
+      "summary": "This page outlines various accounting entries and charges for different events related to deposit lockers, including break open periods, duplicate key issuance, and closure of SDB.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.9",
+      "title": "6.3.9 DPNT",
+      "start_page": 60,
+      "end_page": 60,
+      "summary": "This page outlines various accounting entries and charges for different events related to deposit lockers, including break open periods, duplicate key issuance, and closure of SDB.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.3.10",
+      "title": "6.3.10 CLOS / PCLS",
+      "start_page": 60,
+      "end_page": 62,
+      "summary": "This page outlines various accounting entries and charges for different events related to deposit lockers, including break open periods, duplicate key issuance, and closure of SDB.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Function ID Glossary",
+      "start_page": 62,
+      "end_page": 64,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for the Deposit Locker feature in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Deposit Locker User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "Deposit Locker User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Overview – Deposit Locker",
+        "Maintenances"
+      ],
+      "summary": "This page introduces the preface and overview of a document related to the Deposit Locker module, including its scope and functions, as well as maintenance information.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nAbbreviations...........................................................................................................  1-1\n1.5 \nOrganization ............................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n1.7 \nGlossary of Icons.....................................................................................................  1-2\n2. \nOverview – Deposit Locker ..................................................................... 2-1\n2.1 \nScope of the Module................................................................................................  2-1\n2.2 \nDL Module Functions & Features............................................................................  2-1\n3. \nMaintenances ........................................................................................... 3-1\n3.1 \nSafe Deposit Box Type Definition Maintenance ......................................................  3-1\n3.1.1  \nMaintaining Safe Deposit Box Types..........................................................  3-1\n3.1.2  \nViewing Safe Deposit Box Type Details .....................................................  3-2\n3.2 \nVendor Details.........................................................................................................  3-2\n3.2.1  \nDefining Vendor Details..............................................................................  3-3\n3.3 \nSafe Deposit Vault & Box Mapping Maintenance....................................................  3-3\n3.3.1  \nMaintaining Safe Deposit Vault and Box Mapping Details .........................  3-3\n3.3.2  \nViewing Safe Deposit Vault Box Mapping Details ......................................  3-6\n3.4 \nMandatory Batch Program Maintenance.................................................................  3-7\n3.4.1  \nMaintaining Batch Program Maintenance...................................................  3-7\n4. \nDefining Attributes for DL Products ...................................................... 4-1\n4.1 \nSafe Deposit Box Product Definition .......................................................................  4-1\n4.1.1  \nCreating Safe Deposit Box Product............................................................  4-1\n4.1.2  \nAccounting Roles Button ............................................................................  4-3\n4.1.3  \nEvents Button .............................................................................................  4-4\n4.1.4  \nPreferences Button.....................................................................................  4-5\n4.1.5  \nTracers Button............................................................................................  4-9\n4.1.6  \nCharges Button...........................................................................................  4-9\n4.1.7  \nMIS Button................................................................................................  4-10\n4.1.8  \nRestrictions Button ...................................................................................  4-11\n4.1.9  \nViewing Safe Deposit Box Product Details...............................................  4-12\n5. \nOperations ................................................................................................ 5-1\n5.1 \nContract Details.......................................................................................................  5-1\n5.1.1  \nMaintaining Safe Deposit Box Contract Details..........................................  5-1\n5.1.2  \nMain Tab.....................................................................................................  5-2\n5.1.3  \nParties Tab .................................................................................................  5-6\n5.1.4  \nTracers Tab ................................................................................................  5-7\n5.1.5  \nAdvices Tab................................................................................................  5-8\n5.1.6  \nLinkage Details Button................................................................................  5-9\n5.1.7  \nViewing Safe Deposit Box Contract Details..............................................  5-10\n5.2 \nSafe Deposit Box Authorize Contract Details........................................................  5-10\n5.2.1  \nAuthorizing Contracts ...............................................................................  5-10"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Reversing Contracts",
+        "Amending Contracts",
+        "Closing Contracts",
+        "Deleting Contracts",
+        "Rolling over Contracts",
+        "PreClosure of Contracts",
+        "Safe Deposit Box Payment Input",
+        "Safe Deposit Box Break Open Operation"
+      ],
+      "summary": "This page discusses various contract management operations including reversing, amending, closing, deleting, and rolling over contracts, as well as pre-closure procedures and safe deposit box-related activities such as payment input and break open operations.",
+      "raw_text": "5.2.2  \nReversing Contracts .................................................................................  5-11\n5.2.3  \nAmending Contracts .................................................................................  5-11\n5.2.4  \nClosing Contracts .....................................................................................  5-12\n5.2.5  \nDeleting Contracts....................................................................................  5-12\n5.2.6  \nRolling over Contracts ..............................................................................  5-12\n5.3 \nPreClosure of Contracts ........................................................................................  5-12\n5.3.1  \nClosing Contracts Prematurely.................................................................  5-13\n5.4 \nSafe Deposit Box Payment Input...........................................................................  5-14\n5.4.1  \nProcessing Safe Deposit Box Payments ..................................................  5-14\n5.4.2  \nViewing Safe Deposit Box Payment Details.............................................  5-15\n5.5 \nSafe Deposit Box Break Open Operation..............................................................  5-15\n5.5.1  \nBreaking Open Safe Deposit Boxes .........................................................  5-16\n5.5.2  \nViewing Safe Deposit Box Break Open Details........................................  5-17\n5.6 \nSafe Deposit Box Visitors Log...............................................................................  5-17\n5.6.1  \nMaintaining Safe Deposit Box Visitor Information ....................................  5-18\n5.6.2  \nViewing Safe Deposit Box Visitor Information ..........................................  5-20\n5.7 \nSafe Deposits Box Customer Waitlist Log.............................................................  5-20\n5.7.1  \nCreating Safe Deposit Box Waitlists for Customers .................................  5-20\n5.7.2  \nViewing Safe Deposit Box Waitlist Details................................................  5-22\n5.8 \nSafe Deposit Duplicate Key Issuance Detailed .....................................................  5-23\n5.8.1  \nHandling Safe Deposit Duplicate Key Requests ......................................  5-24\n5.8.2  \nViewing Safe Deposit Duplicate Key Details ............................................  5-25\n6. \nAnnexure – Events, Accounting Entries and Advices ......................... 6-1\n6.1 \nSDB Events .............................................................................................................  6-1\n6.2 \nAccounting Role ......................................................................................................  6-2\n6.3 \nSDB Accounting Entries and Advices......................................................................  6-2\n6.3.1  \nBook ..........................................................................................................  6-2\n6.3.2  \nINIT ............................................................................................................  6-3\n6.3.3  \nLIQD ..........................................................................................................  6-3\n6.3.4  \nAMND ........................................................................................................  6-3\n6.3.5  \nREVR .........................................................................................................  6-4\n6.3.6  \nROLL .........................................................................................................  6-4\n6.3.7  \nCUSV..........................................................................................................  6-4\n6.3.8  \nBPNT..........................................................................................................  6-5\n6.3.9  \nDPNT..........................................................................................................  6-5\n6.3.10  CLOS / PCLS .............................................................................................  6-5\n7. \nFunction ID Glossary ............................................................................... 7-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Abbreviations"
+      ],
+      "summary": "This page introduces the Deposit Locker module of Oracle FLEXCUBE and provides information for users on how to access specific field details, the intended audience, documentation accessibility, and abbreviations used in the manual.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis user manual is designed to help you quickly get acquainted with the Deposit Locker (DL) \nmodule of Oracle FLEXCUBE. It familiarizes you with the operations that are possible through \nthis sub-system. The operations typically include defining safe deposit box types, mapping \nboxes to vaults, maintaining lists of visitors to the vaults as well as customers waiting for a \nsafe deposit box. Query screens are also provided as part of the sub-system to enable easy \nretrieval of information, based on the criteria you require.\nYou can obtain information specific to a particular field by placing the cursor on the relevant \nfield, and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nAbbreviations\nThe following are the abbreviations used in this user manual:\nRole\nFunction\nBack office clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/ Beginning of Day.\nFinancial Controller/Product Manag-\ners\nGeneration of reports\nAbbreviatio\nn\nDescription\nDL\nDeposit Locker\nSDB\nSafe Deposit Locker\nBOD\nBeginning of Day\nEOD\nEnd of Day\nEOTI\nEnd of Transaction Input\nEOFI\nEnd of Financial Input"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons",
+        "The System",
+        "Chapter Description"
+      ],
+      "summary": "This page outlines the organization and content structure of a User Manual for the Deposit Locker module, including related documents, glossary of icons, and system references.",
+      "raw_text": "1-2\n1.5 \nOrganization\nThis manual is organized into the following chapters:\n1.6 \nRelated Documents\nYou may need to refer to any or all of the User Manuals while working on the Deposit Locker \nmodule:\nProcedures\nSettlements\nUser Defined Fields\nMIS\n1.7 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nThe System\nThis term is always used to refer to Oracle FLEXCUBE\nESN\nEvent Sequence Number\nAPP\nApplicant\nCAP\nCo-applicant\nNOM\nNominee\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nOverview - Deposit Locker is a snapshot of the features that the module \nprovides.\nChapter 3\nMaintenances details the necessary maintenances that need to be in \nplace for processing a DL contract successfully.\nChapter 4\nDefining Attributes for DL Products explains at length how to capture \nthe details of the DL product in Oracle FLEXCUBE.\nChapter 5\nOperations describes the processing of transactions/operations in the \nDL module.\nChapter 6\nAnnexure – Events, Accounting Entries and Advices contains a list of \nsuggested accounting entries and advices for the DL module.\nChapter 7\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit"
+    },
+    {
+      "page_number": 7,
+      "sections": [],
+      "summary": "",
+      "raw_text": "1-3\nAdd row\nDelete row\nOption List\nIcons\nFunction"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Scope of the Module",
+        "DL Module Functions & Features"
+      ],
+      "summary": "This page provides an overview of the Deposit Locker module, detailing its scope and key features such as box type definition, vendor maintenance, and flexible payment modes.",
+      "raw_text": "2-1\n2. Overview – Deposit Locker\nAs part of its services, your bank can offer safe deposit service to its customers. These boxes \nor lockers, as they are commonly known, are available in different sizes depending upon the \ncontents that would be placed in the lockers, the demand from customers for different types \nof lockers, the price or rental that you charge. In this module you can define the boxes, \nassociate them to vaults, create products based on the box specifications and use them in \ncreating contracts.\nThis chapter contains the following sections:\nSection 2.1, \"Scope of the Module\"\nSection 2.2, \"DL Module Functions & Features\"\n2.1 \nScope of the Module\nApart from creating products and contracts for customers wishing to avail the locker facility, \nthe DL module offers the following features that cover a wide range of services and help you \ncustomize your service:\nBox Type Definition\nVendor Maintenance\nVault-Box Mapping Maintenance\nFlexible Payment Modes\nContract Pre-closures\nBreak-Open Operation\nVisitor Information Maintenance\nWaitlist Creation\nDuplicate Key Issuance\n2.2 \nDL Module Functions & Features\nThe following sections give you a brief overview of the various functions and features of the \nDL module.\nFlexible Box Type Definition\nThe definition of boxes/lockers that will be available for customer use can be completely user-\ndefined. This enables you to offer boxes as per market demand and create vaults accordingly.\nVendor Maintenance\nYou can use the Vendor Maintenance feature in Oracle FLEXCUBE to define vendors who \nwill supply you with the boxes as well undertake its maintenance, repair and so on. This \nfeature, which is available as part of Expense Processing, enables you to input vendor details \nfor deposit locker as a one-time maintenance. These can be retrieved as and when they are \nrequired.\nVault-Box Mapping Maintenance\nAfter you have the box and vendor details in place, you can associate these details to a vault \nfor each branch. Besides this, you can also record the key details for each box in the"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Payment Facility",
+        "Pre-closure of Contracts",
+        "Break-Open Operations",
+        "Visitor Information Maintenance",
+        "Waitlist Creation",
+        "Duplicate Key Issuance"
+      ],
+      "summary": "This page describes various functionalities within the DL module for managing deposit lockers, including payment collection, contract closure, break-open operations, visitor information maintenance, waitlist creation, and duplicate key issuance.",
+      "raw_text": "2-2\nmaintenance. This facilitates easy retrieval of all the relevant information for vaults in a \nbranch.\nPayment Facility\nIn the DL module, rental payments for the locker can be collected in the form of cash or from \nthe account of the customer, depending on the convenience and the preference of the \ncustomer. \nPre-closure of Contracts\nThe system also offers you the facility of closing a contract before the expiry date. On \nsuccessful pre-closure, the locker associated with the contract becomes available for use for \nother customers.\nBreak-Open Operations\nFor customers who have not visited the deposit box for a while or where rental charges are \noverdue despite repeated reminders, Oracle FLEXCUBE offers you the option of opening the \ndeposit box and recording the reasons for the action in the relevant screen.\nVisitor Information Maintenance\nThe DL module provides you with a means of maintaining details of the people using deposit \nlockers. It tracks the visitors based on the preferences that you have maintained with respect \nto the locker operation. This enables you to ensure that only authorized users have access to \nthe locker.\nWaitlist Creation\nThe DL module offers the facility of maintaining details of customers who have requested for \nlockers. This can be maintained for both existing and new customers. With this facility, \ncustomers can be contacted as and when lockers become available thus optimizing the use \nof lockers for the bank.\nDuplicate Key Issuance\nIssuance of duplicate keys is also handled in the DL module. Each duplicate key is issued \nagainst the original safe deposit box contract which makes tracking of keys easy."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Safe Deposit Box Type Definition Maintenance",
+        "Vendor Details",
+        "Safe Deposit Vault & Box Mapping Maintenance",
+        "Mandatory Batch Program Maintenance"
+      ],
+      "summary": "This page outlines the necessary maintenances for setting up the Deposit Locker module in Oracle FLEXCUBE, including defining safe deposit box types, vendor details, and vault mappings.",
+      "raw_text": "3-1\n3. Maintenances\nBefore you use the Deposit Locker (DL) module of Oracle FLEXCUBE, there are certain \nmaintenances that you need to have in place. They are:\nDefining Safe Deposit Box Details\nDefining Vendor Details\nLinking Vault, Box and Vendor for the branch\nThis chapter contains the following sections:\nSection 3.1, \"Safe Deposit Box Type Definition Maintenance\"\nSection 3.2, \"Vendor Details\"\nSection 3.3, \"Safe Deposit Vault & Box Mapping Maintenance\"\nSection 3.4, \"Mandatory Batch Program Maintenance\"\n3.1 \nSafe Deposit Box Type Definition Maintenance\nThis section contains the following topics:\nSection 3.1.1, \"Maintaining Safe Deposit Box Types\"\nSection 3.1.2, \"Viewing Safe Deposit Box Type Details\"\n3.1.1 \nMaintaining Safe Deposit Box Types\nYou need to define the type and size of the safe deposit boxes that you will be offering your \ncustomers. You can do this in the ‘SDB Box Type Definition Maintenance’ screen. To invoke \nthis screen, type ‘DLDBXTDF’ in the field at the top right corner of the Application Toolbar and \nthen click the adjoining arrow button.\nIn this screen, enter the following details:"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Box Type",
+        "Box Type Description",
+        "Charge Basis",
+        "Box dimension",
+        "Viewing Safe Deposit Box Type Details",
+        "Vendor Details"
+      ],
+      "summary": "This page describes how to define and manage safe deposit box types, including setting their type, description, charge basis, dimensions, and viewing details through a specific screen.",
+      "raw_text": "3-2\nBox Type\nIdentify the type for the safe deposit box that you are defining with a unique code. After initial \nmaintenance, you are not allowed to modify this value. \nBox Type Description\nSpecify a brief description for the box type.\nCharge Basis\nEnter the charge base amount which will be used to compute the rental charge. It will be \ncollected from the customer for using a safe deposit box of the selected type.\nBox dimension\nSpecify the dimensions for the safe deposit box.\n3.1.2 \nViewing Safe Deposit Box Type Details\nYou can query and view the details of the box types available in the system in the ‘SDB Box \nType Definition Summary’ screen. To invoke this screen, type ‘DLSBXTDF’ in the field at the \ntop right corner of the Application Toolbar and then click the adjoining arrow button.\nIn this screen, specify any combination of parameters for the query. The parameters that are \navailable are:\nAuthorization Status\nBox Type\nCharge Basis\nRecord Status\nBox dimension\nAfter you specify the parameters, click ‘Search’. The system will display all the records \nmatching the given parameters. If you do not enter any parameter before clicking ‘Search’, \nthe system will display all the records available for the maintenance.\n3.2 \nVendor Details\nThis section contains the following topic:\nSection 3.2.1, \"Defining Vendor Details\""
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Defining Vendor Details",
+        "Safe Deposit Vault & Box Mapping Maintenance"
+      ],
+      "summary": "This page explains how to maintain vendor details and link them with safe deposit vaults and boxes for service contracts.",
+      "raw_text": "3-3\n3.2.1 \nDefining Vendor Details\nYou may enter into contracts with a standard set of vendors who are suppliers. The vendors \nprovide services like installation, repair and other support activities. Therefore, you need to \nspecify the details of the vendors every time you use their services. To ease this, you can \nmaintain the details of all the vendors with whom you deal in the ‘Vendor Maintenance’ \nscreen. Then, when maintaining vault-box details, you only need to indicate the Vendor ID \nand all the details maintained for the Vendor will automatically be picked up.\nTo invoke the ‘Vendor Maintenance’ screen, type ‘XPDVNMNT’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n3.3 \nSafe Deposit Vault & Box Mapping Maintenance\nThis section contains the following topics:\nSection 3.3.1, \"Maintaining Safe Deposit Vault and Box Mapping Details\"\nSection 3.3.2, \"Viewing Safe Deposit Vault Box Mapping Details\"\n3.3.1 \nMaintaining Safe Deposit Vault and Box Mapping Details\nAfter you have maintained the box details as well as the vendor details, you need to link these \n(box and vendor) to a vault. This linkage, which is defined for each branch, can be done in the \n‘SDB Vault & Box Mapping Maintenance’ screen. To invoke this screen, type ‘DLDVLBXM’ in"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "SD Vault Details"
+      ],
+      "summary": "This section outlines the details required for capturing information related to a vault in the context of a branch, including codes, descriptions, dates of installation and operation.",
+      "raw_text": "3-4\nthe field at the top right corner of the Application Toolbar and then click the adjoining arrow \nbutton. \nYou need to capture the following details for the box-vault linkage for a branch:\nSD Vault Details\nYou can capture the following vault-related details here:\nSD Vault Code\nEnter a code that is unique to the vault you are defining. This needs to be unique across \nbranches.\nSD Vault Description\nEnter a brief description for the vault.\nSD Vault Date of Installation\nSpecify the date on which the vault was installed.\nBranch Code\nSpecify the branch in which the vault will be operational.\nSD Vault Date of Operation\nEnter the date from which the vault will be available for use."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "SD Vendor ID",
+        "Box Details"
+      ],
+      "summary": "This page describes how to specify vendor and box details for a safe deposit vault, including unique codes, descriptions, types, dimensions, and statuses of the boxes.",
+      "raw_text": "3-5\nSD Vendor ID\nSpecify the Vendor ID for the vault. You can also select this value from the adjoining option \nlist. The list contains all the vendors maintained in the system.\nBox Details\nSpecify the following details pertaining to the boxes in the vault:\nSD Box Code\nSpecify a unique code for the safe deposit box. After initial maintenance, you will be allowed \nto change this only if there are no active rental contracts associated with this box.\nBox Description\nEnter an appropriate and brief description for the box.\nBox Type\nFor the safe deposit box you are defining, specify the type of box. You can also select the box \ntype from the adjoining option list. The list contains all the box types maintained in the system.\nBox Dimension\nThe system will display the dimensions depending on the ‘Box Type’.\nBox Status\nSelect, from the drop-down list, the status to be assigned to the box. You have the following \noptions:\nAvailable – to indicate that the box is available for renting out\nBox Booked – to indicate that the box has been booked but not yet rented\nRented – to indicate that the box has been rented to the customer. This will be assigned \nby the system when you save a contract.\nRestricted for Bank Use – to indicate that this box will be available only for bank use.\nBox Not In Use:  - to indicate that box is undergoing maintenance and will not be \navailable for use.\nWhen a box is rented out, the system will change the status of the box from ‘Available’ to \n‘Rented’, after the SDB contract is saved. Similarly, when an existing SDB contract expires, \nthe system will change the status of the box in the contract from ‘Rented’ to ‘Available’. You \nwill not be allowed to change these statuses. However, you can perform the following status \nchanges:\nRestricted for Bank Use  Available\nAvailable  Restricted for Bank Use.\nAvailable  Not In Use\nNot In Use  Available\nRestricted for Bank Use  Not In Use\nNot In Use  Restricted for Bank Use\nBox Key Details\nEnter the following details pertaining to the keys for the boxes:\nSD Box Code\nThe system displays the box code.\nKey Holder\nSelect, from the drop-down list, the type for the key. You have the following options:"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Customer Key",
+        "Bank Key",
+        "Key Number",
+        "3.3.2 Viewing Safe Deposit Vault Box Mapping Details"
+      ],
+      "summary": "This page explains how to enter key numbers for vault boxes and provides instructions on viewing the details of vault and box mappings in a specific system screen.",
+      "raw_text": "3-6\nCustomer Key\nBank Key\nKey Number\nEnter the key number. If the box is meant only for bank use (Box Status is ‘Restricted for bank \nUse’), you need to provide only the bank key details; if the box can be used by both bank and \ncustomer (Box Status is ‘Available’), you have to enter both customer and bank key details.\nNote\nWhen you close a vault-box maintenance, the system will allow the closure only if there \nare no active SDB contracts for the maintenance.\n3.3.2 \nViewing Safe Deposit Vault Box Mapping Details\nYou can query and view the details of vault and box mappings maintained in the system in the \n‘SDB Vault Box Mapping Summary’ screen. To invoke this screen, type ‘DLSVLBXM’ in the \nfield at the top right corner of the Application Toolbar and then click the adjoining arrow button.\nIn this screen, specify any combination of parameters for the query. The parameters that are \navailable are:\nAuthorization Status\nSD Vault Code\nSD Vendor ID\nBox Type\nKey Holder\nRecord Status\nBranch Code\nSD Box Code\nBox Status\nKey number"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Mandatory Batch Program Maintenance",
+        "Maintaining Batch Program Maintenance"
+      ],
+      "summary": "This page describes how to access and maintain batch programs for end-of-day (EOD) processing in a specific module.",
+      "raw_text": "3-7\nAfter you specify the parameters, click ‘Search’. The system will display all the records \nmatching the given parameters. If you do not enter any parameter before clicking ‘Search’, \nthe system will display all the records available for the maintenance.\n3.4 \nMandatory Batch Program Maintenance\nThis section contains the following topics:\nSection 3.4.1, \"Maintaining Batch Program Maintenance\"\n3.4.1 \nMaintaining Batch Program Maintenance\nYou can maintain the batches for the DL module that need to be run at EOD and BOD in the \n‘Mandatory Batch Program Maintenance’ screen. To invoke this screen, type ‘EIDMANPE’ in \nthe field at the top right corner of the Application Toolbar and then click the adjoining arrow \nbutton.\nIn this screen you to maintain the following batches for EOD:\nDLTRACER\nDLEOD\nThese batches facilitate tracer generation (DLTRACER) and auto liquidation (DLEOD). They \nneed to be run daily on business days (Holiday rule as ‘Don’t Execute) at EOFI. The \nbackdated tracer entries that are pending during the holiday period are also handled as part \nof the batches."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Defining Functions to be Run Automatically"
+      ],
+      "summary": "This page discusses maintaining the 'DLEOD' batch for BOD and its execution rules, directing readers to a more detailed section in the user manuals.",
+      "raw_text": "3-8\nFor BOD also you can maintain the batch ‘DLEOD’ which will trigger the INIT event/payment \ndue on the due date. The batch will also execute backdated contracts during the holiday \nperiod. This batch should be run only on business days (Holiday Rule as ‘Don’t Execute’).\nFor more details on maintaining mandatory batch programs refer section titled ‘Defining \nFunctions to be Run Automatically’ in the chapter ‘Automated End of Cycle Operations’ in the \n‘Core’ User Manuals."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Safe Deposit Box Product Definition",
+        "Creating Safe Deposit Box Product"
+      ],
+      "summary": "This page discusses the attributes and creation process for a Deposit Locker product in Oracle FLEXCUBE.",
+      "raw_text": "4-1\n4. Defining Attributes for DL Products\nIn this chapter, we shall discuss the attributes for a Deposit Locker (DL) product.\nThis chapter contains the following section:\nSection 4.1, \"Safe Deposit Box Product Definition\"\n4.1 \nSafe Deposit Box Product Definition\nThis section contains the following topics:\nSection 4.1.1, \"Creating Safe Deposit Box Product\"\nSection 4.1.2, \"Accounting Roles Button\"\nSection 4.1.3, \"Events Button\"\nSection 4.1.4, \"Preferences Button\"\nSection 4.1.5, \"Tracers Button\"\nSection 4.1.6, \"Charges Button\"\nSection 4.1.7, \"MIS Button\"\nSection 4.1.8, \"Restrictions Button\"\nSection 4.1.9, \"Viewing Safe Deposit Box Product Details\"\n4.1.1 \nCreating Safe Deposit Box Product\n You can create a DL product in the ‘Safe Deposit Box Product Definition’ screen. You can \ninvoke this screen by typing ‘DLDPRMNT’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button.\nFor any product you create in Oracle FLEXCUBE, you can define generic attributes, such as \nbranch, currency, and customer restrictions, interest details, tax details, etc., by clicking on \nthe appropriate icon in the horizontal array of icons in this screen. For a DL product, in addition"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Defining Details in the Main Product Screen"
+      ],
+      "summary": "This section explains how to define attributes for a DL product in the main screen, including specifying the product code, description, type, slogan, and group.",
+      "raw_text": "4-2\nto these generic attributes, you can specifically define other attributes. These attributes are \ndiscussed in detail in this chapter.\nFor further information on the generic attributes that you can define for a product, please refer \nthe following Oracle FLEXCUBE User Manuals:\nProducts\nInterest\nCharges and Fees\nMIS\nUser Defined Fields\nSettlements\nYou can define the attributes specific to a DL product in the DL Product Definition Main screen \nand the DL Product Preferences screen. In these screens, you can specify the product type \nand set the product preferences respectively.\n4.1.1.1 \nDefining Details in the Main Product Screen\nSpecify the following in the main screen of the DL Product:\nProduct Code\nSpecify a unique code to identify the product you are creating.\nProduct Description\nEnter a brief and meaningful description for the product.\nProduct Type\nSpecify the type for the product. This identifies the basic nature of the product. You can also \nselect the type from the adjoining option list. The list contains all the product types maintained \nin the system.\nDescription\nThe system displays the description for the product type.\nSlogan\nEnter an appropriate slogan you wish to associate with the product.\nProduct Group\nProducts can be categorized into groups based on the common elements that they share. You \nmust associate a product with a group. This would facilitate retrieval of information of a class \nof products at one stroke.\nSpecify the group to which the product belongs. You can also select the group from the \nadjoining option list. The list contains all the relevant product groups.\nProduct Group Description\nThe system displays the description for the product group.\nStart Date\nEnter the date from which the product will be valid and can be used for creation of contracts.\nEnd Date\nEnter the date till which the product will be valid and can be used for creation of contracts. If \nyou do not enter an end date, the product can be used indefinitely.\nThe start and end dates can be used to make a product available only for a specific period."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Auto Rollover",
+        "Exchange Rate",
+        "Default Rate Type",
+        "Rate Code",
+        "Override Limit",
+        "Stop Limit",
+        "Accounting Roles Button"
+      ],
+      "summary": "This page describes various settings and options for defining product details in a financial system, including auto-rollover, exchange rate variance, default rate type, override limits, stop limits, and accounting roles.",
+      "raw_text": "4-3\nRemarks\nSpecify remarks that you wish to associate with this product.\nAuto Rollover\nCheck this option to indicate that contracts using this product should be automatically rolled \nover for the next period.\nExchange Rate\nYou can define the exchange rate variance that you would like to allow for a DL product. This \nvariance is expressed in terms of a percentage.\nFor a special customer, or in special cases, you may want to use a special rate that is better \nthan the exchange rate maintained for a currency pair. The variance is referred to as the \nExchange Rate Variance. \nWhen creating a product, you can express an Exchange Rate Variance Limit in terms of a \npercentage. This variance limit would apply to all contracts associated with the DL product.\nDefault Rate Type\nSpecify the rate type that will be used to define at the product level.\nRate Code\nSpecify the rate code that will be used to define at the product level. You have the following \noptions:\nMid Rate\nBuy/Sell Rate\nOverride Limit\n If the variance between the default rate and the rate input varies by a percentage that is \nbetween the Override Limit and the Rate Stop Limit, you can save the transaction by providing \nan override.\nStop Limit\nIf the variance between the default rate and the rate input varies by a percentage greater than \nor equal to the Rate Stop Limit, you cannot save the transaction.\n4.1.2 \nAccounting Roles Button\nBefore you define the accounting details for a product, you should define the various \ncomponents of the contracts involving the product such as interest, charges, tax, etc.\nIn the Product Accounting Role to Head Mapping Definition screen, a list of accounting roles \nwill automatically be generated based on the components you define for the product. You \nshould map all the accounting roles that are available with the appropriate accounting heads."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "4-4",
+        "4.1.3 Events Button"
+      ],
+      "summary": "This page explains how to invoke the 'Accounting Roles' screen and describes the functionality of the 'Events Button' in setting up accounting entries and generating advices.",
+      "raw_text": "4-4\nYou can invoke the ‘Accounting Roles’ screen by clicking ‘Accounting Roles’ button in the \n‘Safe Deposit Product Definition’ screen.\nRefer the chapter ‘Products’ in the Modularity User Manual for more details on the screen.\n4.1.3 \nEvents Button\nAt an event, typically, you would want to post the accounting entries to the appropriate \naccount heads and generate the required advices. When setting up a product, you can define \nthe accounting entries that have to be posted and the advices that have to be generated at"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "4-5",
+        "4.1.4 Preferences Button"
+      ],
+      "summary": "This page discusses how to access events related to contract life cycles and provides information on defining product-specific preferences for a DL product.",
+      "raw_text": "4-5\nthe various events in the life cycle of contracts involving the product. To do this, click ‘Events’ \nbutton in the ‘Safe Deposit Product Definition’ screen. \nRefer the chapter ‘Product Definition’ in the Modularity User Manual for more details on the \nscreen.\n4.1.4 \nPreferences Button\nYou can define the preferences that are specific to a DL product in the ‘Deposit Locker \nPreferences’ screen. These include preferences relating to the tenor for the boxes, the mode,"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Tenor (in Days)",
+        "Rental"
+      ],
+      "summary": "This page describes how to set up tenor and rental details for safe deposit box accounts in a system preferences screen.",
+      "raw_text": "4-6\nfrequency for collecting locker rentals, re-key requirements and so on. To access this screen, \nclick ‘Preferences’ in the ‘Safe Deposit Box Product Definition’ screen.\nYou can capture the following details here:\nTenor (in Days)\nIn this section, you can define tenor details for SDB accounts which are tenor based. Based \non the values provided here, the system will calculate the expiry date for SDB contract. \nSpecify the following:\nDefault\nEnter the standard number of days an SDB account, created using this product, will be valid.\nMinimum Tenor\nEnter the minimum number of days an SDB account will be valid, for this product.\nMaximum Tenor\nEnter the maximum number of days an SDB account will be valid, for this product.\nRental\nYou can detail the rental basis here. Specify the following:\nPayment Mode\nSelect, from the drop-down list, the mode of payment for contracts created using this product. \nYou have the following options:\nAdvance\nArrears\nFrequency\nSelect, from the drop-down list, the frequency at which the payment should be done. You \nhave the following options:\nMonthly\nQuarterly\nHalf Yearly"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Month",
+        "Day",
+        "ReKey Requirements"
+      ],
+      "summary": "This page describes how to set up monthly and annual rental payment schedules and re-keying requirements for contract authorization in a financial product.",
+      "raw_text": "4-7\nAnnual\nMonth\nSelect, from the drop-down list, the month in which the rental payment should be made. The \nlist, which contains all the months of the year, will be enabled only if the rental frequency is \nany of the following:\nQuarterly\nHalf Yearly\nAnnual\nDay\nSpecify, from the drop-down list, the day of the month on which the rental payment should be \nmade. The list contains all the days of the month.\nReKey Requirements\nIf you wish to ensure re-keying of values in certain fields of the contract during contract \nauthorization, you can indicate it here. You can also select the fields for which you wish re-\nkeying to be done. Specify the following details:\nYes\nSelect this option if you wish to avail the re-key facility during contact authorization for \ncontracts created using this product.\nNo\nSelect this option if you do not wish to avail the re-key facility during contact authorization for \ncontracts created using this product.\nCheck the following fields, if you want them to be re-keyed during contract authorization:\nCustomers \nThis is the ID of the customer in the contract.\nValue Date\nThis represents the start date of the contract.\nExpiry Date \nThis is the end date of the contract.\nCASA Account\nYou can specify if a current or savings account should be linked to this product or not, in this \nsection\nCASA Account Mandatory\nCheck this option to indicate that a current account or savings account of the customer should \nbe linked for payments for this product. You must select this option if you have selected the \n‘Auto Rollover’ option for this product.\nBreak Open Period\nSpecify the following detail here:\nBreak Open Period\nSpecify the period, in number of days, after which the bank can force open a locker assigned \nto a customer."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Closure Period",
+        "Box visits",
+        "Deposit Details"
+      ],
+      "summary": "This page outlines the details required for setting up a product contract, including the closure period, free box visits, and deposit and charge details for different box types.",
+      "raw_text": "4-8\nClosure Period\nSpecify the following detail here:\nClosure Period\nSpecify the number of days up to which the lockers for contracts using this product can be \nkept active. The system will derive the expiry date of the SDB contract based on the start date \nof the contract and the value specified here.\nBox visits\nSpecify the following detail here:\nMax No. of Free Visits allowed\nSpecify the maximum number of times the customer will be allowed to visit the vault without \nbeing charged for it.\nDeposit Details\nHere you enter details of the different boxes allowed for the product and the deposit required \nfor each. Specify the following:\nBox Type\nSpecify the box type. You can also select the type from the adjoining option list. The list \ncontains all the box types maintained in the system.\nBox dimension\nSelect the dimensions of the box from the adjoining option list. The list contains the different \ndimensions available for the box type you have selected.\nCharge Basis\nThis refers to the amount or weightage assigned to the box. The system will compute the \nrental amount on this basis. If you have defined the charge as a percentage type, then the \nsystem will consider the charge basis amount and return the applied value.\nDeposit Amount\nEnter the deposit amount that should be collected for the box."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Tracers Button",
+        "Charges Button"
+      ],
+      "summary": "This page describes how to configure tracers and charges in a system, including setting up tracer details such as code, frequency, and start date, and defining charge rules and classes for contracts.",
+      "raw_text": "4-9\n4.1.5 \nTracers Button\nYou can maintain details of the tracers and when they should be sent in the ‘Tracer Details’ \nscreen. You can invoke this screen by clicking the ‘Tracers’ button.\nIn this screen, enter the following details:\nTracer Code\nSpecify the tracer you wish to send. You can also select the code from the adjoining option \nlist. The list contains all the relevant tracer codes.\nDescription\nThe system displays the description for the tracer you have selected.\nRequired\nCheck this option to indicate that the tracer should be sent as per details given.\nNumber to be Sent\nSpecify the number of times you wish to send the tracer.\nStart Date\nSpecify the date on which the first tracer should be sent.\nMode\nSelect when the tracer needs to be sent - before or after the due date for the event.\nFrequency\nSpecify the frequency at which you want to send the tracer. For instance if the number of \ntracers to be sent is 3 and you have set the frequency at 1 then one tracer will be sent per day \nfor three days.\n4.1.6 \nCharges Button\nOn the transactions and contracts you enter in Oracle FLEXCUBE, you may opt to levy \ncharges or fees. You can calculate charges and fees for a contract in the following manner:\nDefine a Charge/Fee Rule\nBuild a Charge Class and associate it with a rule\nAssociate a product with charge classes. These classes apply on all contracts \nprocessed under the product"
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Amend, if required, certain charge details that a contract acquires from the product under which it is processed",
+        "MIS Button"
+      ],
+      "summary": "This page discusses how to amend charge details for contracts and retrieve MIS-related information by linking products to warehouse codes.",
+      "raw_text": "4-10\nAmend, if required, certain charge details that a contract acquires from the product \nunder which it is processed\nYou can identify the charge component for a product in the ‘Charge Details’ screen. Click \n‘Charges’ button in the ‘Safe Deposit Product Definition’ screen of any module to invoke this \nscreen.\nRefer the chapter ‘Products’ in the Modularity User Manual for more details on the screen.\n4.1.7 \nMIS Button\nYou can retrieve MIS related information for a product by linking it to a Warehouse Code. \nLinking a product to a warehouse code ensures that all contracts processed under the product \nare automatically tracked under the specified Warehouse Code."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "4-11",
+        "4.1.8 Restrictions Button"
+      ],
+      "summary": "This page describes how to define MIS details and restrictions for a safe deposit product in the Safe Deposit Product Definition screen.",
+      "raw_text": "4-11\nClick ‘MIS’ button in the ‘Safe Deposit Product Definition’ screen to define the MIS details for \nthe product you are creating.\nRefer the chapter ‘Products’ in the Modularity User Manual for more details on the screen.\n4.1.8 \nRestrictions Button\nA new subscreen ‘Restrictions’ is introduced that holds Branch, Currency and Category \nRestrictions and showcases Category List. You can define the Restrictions as ‘Disallowed’ or \n‘Allowed’ \nClick ‘Restrictions’ button in the ‘Safe Deposit Product Definition’ main screen to invoke this \nscreen."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Viewing Safe Deposit Box Product Details"
+      ],
+      "summary": "This section explains how to access and query details of available products in the 'Safe Deposit Box Product Definition Summary' screen.",
+      "raw_text": "4-12\n4.1.9 \nViewing Safe Deposit Box Product Details\nYou can query and view the details of all the products available in the system in the ‘Safe \nDeposit Box Product Definition Summary’ screen. To invoke this screen, type ‘DLSPRMNT’ \nin the field at the top right corner of the Application Toolbar and then click the adjoining arrow \nbutton.\nIn this screen, specify any combination of parameters for the query. The query parameters \nthat are available are:\nAuthorization Status\nProduct Code\nProduct Type"
+    },
+    {
+      "page_number": 30,
+      "sections": [],
+      "summary": "This page describes how to search for records by specifying parameters such as end date, record status, product group, and start date, and what details are displayed in the search results.",
+      "raw_text": "4-13\nEnd Date\nRecord Status\nProduct Group\nStart Date\nAuto Rollover\nAfter you specify the parameters, click ‘Search’. The system will display all the records \nmatching the given parameters. If you do not enter any parameter before clicking ‘Search’, \nthe system will display all the records available for the maintenance.\nThe following details pertaining to each record are displayed:\nAuthorization Status\nRecord Status\nProduct Code\nProduct Description\nProduct Group\nProduct Type \nStart Date"
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "5. Operations",
+        "5.1 Contract Details",
+        "5.1.1 Maintaining Safe Deposit Box Contract Details"
+      ],
+      "summary": "This page describes operations related to managing safe deposit box contracts, including maintaining contract details and viewing records.",
+      "raw_text": "1\n5. Operations\nThis chapter elaborates the operations you can perform through the Safe Deposit Box module. \nThese include creating contracts when customers request lockers, maintaining visitor \ninformation, collecting details of customers requiring lockers and requests for duplicate key \nissues. You can also query and view the records created for each operation through the \nrespective summary screens. All these have been explained in detail in the subsequent sections \nof this manual.\nThis chapter contains the following sections:\nSection 5.1, \"Contract Details\"\nSection 5.2, \"Safe Deposit Box Authorize Contract Details\"\nSection 5.3, \"PreClosure of Contracts\"\nSection 5.4, \"Safe Deposit Box Payment Input\"\nSection 5.5, \"Safe Deposit Box Break Open Operation\"\nSection 5.6, \"Safe Deposit Box Visitors Log\"\nSection 5.7, \"Safe Deposits Box Customer Waitlist Log\"\nSection 5.8, \"Safe Deposit Duplicate Key Issuance Detailed\"\n5.1 \nContract Details\nThis section contains the following topics:\nSection 5.1.1, \"Maintaining Safe Deposit Box Contract Details\"\nSection 5.1.2, \"Main Tab\"\nSection 5.1.3, \"Parties Tab\"\nSection 5.1.4, \"Tracers Tab\"\nSection 5.1.5, \"Advices Tab\"\nSection 5.1.6, \"Linkage Details Button\"\nSection 5.1.7, \"Viewing Safe Deposit Box Contract Details\"\n5.1.1 \nMaintaining Safe Deposit Box Contract Details\nWhenever a customer requests for a locker, you need to log in the relevant details in the system. \nYou can do this in the ‘Safe Deposit Box Contract Detailed’ screen. To invoke this screen, type"
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Main Tab",
+        "DL Details"
+      ],
+      "summary": "This page describes how to enter contract details in a system, including product code and description, contract reference, user reference, source reference, and source code fields.",
+      "raw_text": "5-2\n‘DLDTRONL’ in the field at the top right corner of the Application Toolbar and then click the \nadjoining arrow button.\nThe locker details in this screen are as follows:\nProduct Code\nEnter the product you wish to use for this contract. You can also select the product from the \nadjoining option list. The list has all the product codes maintained in the system.\nClick ‘P’ (Populate) button. The system will display the relevant details in the screen.\nProduct Description\nThe system will display the description of the product you have selected.\nContract Reference\nThis unique reference number is generated and displayed by the system.\nUser Reference\nThe system displays the Contract Reference number generated here. You can change it to \none that uniquely identifies this contract.\nSource Reference\nThe system defaults the source reference number for the contract. .\nSource Code\nThe system will default ‘FLEXCUBE’ here.\n5.1.2 \nMain Tab\nYou can enter the following details for the contract:\nDL Details\nEnter the following deposit locker details"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Vault Code",
+        "Box Code",
+        "Box Type",
+        "Box Dimension",
+        "Box Description",
+        "Deposit Ccy",
+        "Deposit Amount",
+        "Customer",
+        "Customer Name",
+        "Party Type",
+        "RP Customer"
+      ],
+      "summary": "This page describes the fields and options available for specifying details related to a safe deposit box, including vault code, box information, customer selection, and pricing considerations.",
+      "raw_text": "5-3\nVault Code\nSpecify the vault code required. You can also select it from the adjoining option list. The list \ncontains all the codes maintained in the system. \nBox Code\nEnter the code of the deposit box you wish to associate for the contract. You can also select \nit from the adjoining option list. The list contains all the available boxes for the vault selected.\nBox Type\nThe system will display the type for the box selected.\nBox Dimension\nThe system will display the dimensions of the box.\nBox Description\nThe system will display the description for the box you have selected.\nDeposit Ccy\nThe system will display the deposit currency for the vault code selected. You can modify this \nif required.\nDeposit Amount\nThe system will display the deposit amount for the vault code selected. You can modify this if \nrequired.\nCustomer\nSpecify the customer who has requested a safe deposit box. You can also select the \ncustomer code from the adjoining option list. The list contains all the customers maintained in \nthe system.\nCustomer Name\nThe system will display the name of the customer you have selected.\nParty Type\nThe system will default the party type based on the type of operation selected in the ‘Mode Of \nOperation’ field.\nRP Customer\nCheck this option to indicate that the customer is relationship pricing customer. This ensures \nthat the system will take into account any scheme linked to this customer at the time of \ncalculating charges.\nRefer the chapter ‘Customer Relationship Pricing’ in the Relationship Pricing User Manual for \nmore details.\nWait List Serial No.\nIf the customer has already requested for a safe deposit box and is on the waiting list, you can \nenter the appropriate waitlist number here. When you authorize the locker request for the \ncustomer here, the system will change the allocation status of the waitlist to ‘Allocated’ from \n‘Waitlisted’ in the ‘Deposit Lockers customer Waitlist Log’ screen.\nNo. of free visits (Contract Tenor)\nThis value will be defaulted from the product level. You will be allowed to change it.\nBook Date\nThe system will default the application date."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Value Date",
+        "Expiry Date",
+        "Closure Date",
+        "Break Open Period",
+        "Others"
+      ],
+      "summary": "This page outlines various fields and their default values in a system, including Value Date, Expiry Date, Closure Date, Break Open Period, and other options like Auto Extension and Auto Liquidation.",
+      "raw_text": "5-4\nValue Date\nThe system will default the application date here. You can change it if required.\nExpiry Date\nThe system will default the date of expiry based on the tenor maintained at the product level. \nYou can modify it, if required.\nClosure Date\nThe system will default the expiry date here. If you have maintained closure days for the \nproduct then the closure date will be computed taking into account the closure days specified \n(Expiry Date + Closure Days). You can modify it, if required.\nBreak Open Period\nThe system will compute and display the value for the field. This will include the break open \ndays specified for the product (Closure Date + Break Open Period). You can modify it if \nrequired. However, the date you provide should be greater than the closure date for the \ncontract.\nOthers\nEnter the following details:\nAuto Extension\nThe system defaults the preference maintained at the product level. You can modify it if \nrequired. Check this option to automatically extend the contract when it expires.\nAuto Liquidation\nThe system will default the preference maintained at the product level. You can change it if \nrequired. Check this option to indicate the system should automatically debit the account of \nthe customer for the subsequent rentals on the dates each falls due.\nCASA Account Mandatory\nThe system defaults the preference maintained at the product level. Additionally, if you have \nchosen the ‘Auto Extension’ or ‘Auto Liquidation’ options, this option needs to be selected. If \nthis option is checked, then you are required to provide settlement details in the contract \nscreen. At the time of closure of an account, the system will ensure that the account is not \nlinked to any contract for deposit lockers.\nRental Details\nThe system will display the rental details, based on your product selection. You can modify \nthe following:\nRental Mode\nSelect, from the drop-down list, the mode of rental payment required. The options are:\nAdvance\nArrears\nRental Frequency\nSelect, from the drop-down list, the frequency at which the customer will have to pay the safe \ndeposit box rental. You have the following options:\nMonthly\nQuarterly\nHalf Yearly\nAnnual"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Month",
+        "Day",
+        "First Rental Due Date",
+        "Next Rental Due Date",
+        "Settlement Details"
+      ],
+      "summary": "This page describes how to set up rental payment details including month and day selection, due dates, and settlement information for a locker rental service.",
+      "raw_text": "5-5\nMonth\nSelect, from the drop-down list, the month in which the rental payment should be made. The \nlist, which contains all the months of the year, will be enabled only if the rental frequency is \nany of the following:\nQuarterly\nHalf Yearly\nAnnual\nDay\nSpecify, from the drop-down list, the day of the month on which the rental payment should be \nmade. The list contains all the days of the month.\nFirst Rental Due Date\nThe system will display the date on which the first rental is due based on the details provided \nfor rent and the contract value date.\nNext Rental Due Date\nThe system will display the date on which the subsequent rent is due.\nSettlement Details\nYou can detail the following information on settlement which will be used to collect the initial \nlocker fee and the rentals for the locker:\nBranch\nSpecify the branch of the customer account. You can also select the branch from the option \nlist. The list contains all the branches maintained in the system.\nAccount\nSpecify the customer account. You can also select the account from the option list. The list \ncontains all the accounts maintained for the customer in the branch selected.\nTo view the joint holder’s details of an account and the mode of operation maintained at the \naccount level, place the cursor on the Account field and press Ctrl+J. The system displays the \n‘Joint Holder’ screen.\nFor more information on the ‘Joint Holder’ screen refer to the section ‘Joint Holder \nMaintenance’ in the Core User Manual.\nCcy\nThe system displays the currency of the account selected.\nNote\n– \nThe details you specify in the contract screen will be made available in the \n‘Settlement’ screen which you can invoke by clicking the ‘Settlement’ button in the \ncontract screen. You can change these details if required.\n– \nIf no details are specified in the contract screen, the system will pick up the account \nmaintained for the customer and display the details in the ‘Settlement’ screen. You \nwill be not be allowed to modify these details \n– \nAfter the contract has come into force, you can change the settlement details only \nin the ‘Settlement’ screen, not in the ‘Safe Deposit Box Contract Detailed’ screen."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Mode of Operation",
+        "Frozen",
+        "Parties Tab"
+      ],
+      "summary": "This page details how to configure locker operations and freezing, including specifying modes of operation, freezing options, and managing parties authorized to operate the safe deposit box.",
+      "raw_text": "5-6\nStatus Change Details\nSpecify the following information for operating the locker and freezing the locker:\nMode of Operation\nSelect, from the drop-down list, the mode of operating the locker. You have the following \noptions:\nSingle – For single operation, the system will default ‘APP’ (Applicant – this is the \nprimary customer) in the ‘Party Type’ field and you can add any of the following as \nparties (in the ‘Parties’ tab) \n– \nCAP(Co-applicant – this is the secondary customer)\n– \nAUT (Authorized User)\n– \nNOM (Nominee) \nJointly – For joint operation, the system will default ‘APP’ in the ‘Party Type’ field and \nyou can add CAP/AUT/NOM as parties (in the ‘Parties’ tab). \nMandate Holder – For a mandate holder operation, the system will default ‘APP’ in the \n‘Party Type’ field and will not allow you to specify any other party type for instance \nnominee or co-applicant. \nFrozen\nCheck this option to freeze the contract during amendment.\n5.1.3 \nParties Tab\nIn this screen, you specify the parties other than the customer/primary applicant who are \nauthorized to operate the safe deposit box.\nYou can enter the following details for parties:\nCustomer Id\nThe system will default the ID of the customer initially. You can add the customer IDs of other \nparties if you wish. You can select the required ID from the adjoining option list. The list \ncontains all the customer codes maintained in the system.\nCustomer Name\nThe system will display the name of the customer selected."
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Party Type",
+        "Tracers Tab"
+      ],
+      "summary": "This page describes how to enter and manage party types, joint customers, signature IDs, and tracers for a customer in a system related to safe deposit contracts.",
+      "raw_text": "5-7\nParty Type\nEnter the party type for the customer. You can also select the party type from the adjoining \noption list. The list contains all the party codes maintained.\nParty Description\nThe system will display the description of the party selected.\nJoint Customer\nEnter the joint customer for the customer ID selected earlier. You can also select the joint \ncustomer from the adjoining option list. The list contains all the joint customers associated for \nthe customer.\nSignature ID\nSpecify the signature Id maintained for the customer. You can also select the ID from the \nadjoining option list. The list contains all the signature IDs maintained in the system.\nImage\nYou can capture the signatures for all the parties that are authorized to operate the locker.\n5.1.4 \nTracers Tab\nTracers are reminders sent to customers at different stages of the safe deposit contract. \nDetails of tracers that have been associated at the product level will be displayed here. You \ncan change only a few details.\nYou can modify the following tracer details:\nTracer Required\nCheck this option against each tracer that you would like to generate for this contract.\nMaximum Tracers\nSpecify the maximum number of times you would like to send the particular tracer.\nNumbers Sent\nThe system will default the number of tracers sent. You cannot modify it.\nStart Date\nSpecify the date from which you would like the tracers to be sent."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Advices Tab"
+      ],
+      "summary": "This section describes how to modify advice details in a specific screen, including options for changing medium, priority, and suppressing advice generation.",
+      "raw_text": "5-8\n5.1.5 \nAdvices Tab\nThe system defaults all the advices associated at the product level for the triggered event at \nthe contract level. You can modify only selected details in this screen.\nYou can change only the following details for advices:\nMedium\nThe system will default the preference maintained at the product level for the advice. You can \nselect the option ‘Mail’.\nPriority\nThe system will default the preference maintained at the product level for the advice. You can \nretain it or modify it.\nSuppress\nThe system will default the preference maintained at the product level for the advice. You can \nchange the preference here by checking the option to indicate that the advice should not be \ngenerated. Uncheck it to generate the advice."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Linkage Details Button"
+      ],
+      "summary": "This section explains how to link deposits to a safe deposit contract in the bank's system and details the fields that need to be entered.",
+      "raw_text": "5-9\n5.1.6 \nLinkage Details Button\nIn the contract screen, for an existing customer who has deposits with the bank, you can link \nany number of deposits to the safe deposit contract by clicking the ‘Linkage Details’ button. \nThe system will allow you to select TDs for the contract amount entered. \nIn the screen, enter the following details to complete the linkage:\nLinked To Reference Number/Account\nEnter the reference number for the deposit. You can also select it from the adjoining option \nlist. The list contains all the deposits in the branch for the customer of the contract.\nBranch\nThe system will display the branch of the fixed deposit.\nCurrency \nThe system will display the currency of the deposit selected.\nAmount\nThe system will display the deposit amount for the deposit reference you have selected.\nWhenever a TD linked here is closed, the system will display an override to indicate the \nlinkage.\nFor further information refer the following Oracle FLEXCUBE User Manuals:\nProducts\nCharges and Fees\nMIS\nUser Defined Fields\nSettlements"
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "5.1.7 Viewing Safe Deposit Box Contract Details",
+        "5.2 Safe Deposit Box Authorize Contract Details"
+      ],
+      "summary": "This page describes how to view and query safe deposit box contract details in a system, as well as the operations that can be performed on these contracts such as authorizing, reversing, amending, closing, deleting, and rolling over them.",
+      "raw_text": "5-10\n5.1.7 \nViewing Safe Deposit Box Contract Details\nYou can query and view the details of the safe deposit locker contracts in the system in the \n‘Safe Deposit Box Contract Summary’ screen. To invoke this screen, type ‘DLSTRONL’ in the \nfield at the top right corner of the Application Toolbar and then click the adjoining arrow button.\nIn this screen, you can query on any combination of the following parameters:\nAuthorization Status\nContract Reference\nCurrency\nBox Code\nContract Status\nProduct Code\nCustomer\nAfter specifying the parameters for the query, click ‘Search’. The system displays all the \nrecords matching the parameters specified. If you do not specify any parameter for the query \nbefore clicking ‘Search’, the system will display all the available safe deposit locker records.\n5.2 \nSafe Deposit Box Authorize Contract Details\nThis section contains the following topics:\nSection 5.2.1, \"Authorizing Contracts\"\nSection 5.2.2, \"Reversing Contracts\"\nSection 5.2.3, \"Amending Contracts\"\nSection 5.2.4, \"Closing Contracts\"\nSection 5.2.5, \"Deleting Contracts\"\nSection 5.2.6, \"Rolling over Contracts\"\n5.2.1 \nAuthorizing Contracts\nYou can perform the following operations for a safe deposit locker contract:\nAuthorization"
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Reversal",
+        "Amendment",
+        "Closure",
+        "Delete",
+        "Rollover",
+        "Pre-closure"
+      ],
+      "summary": "This page outlines various operations for managing contracts such as reversal, amendment, and closure, including how to authorize contracts and the conditions under which certain actions can be taken.",
+      "raw_text": "5-11\nReversal\nAmendment\nClosure\nDelete\nRollover\nPre-closure\nThese operations are explained in detail in the following sections.\nYou can authorize contracts in the ‘Safe Deposit Box Authorize Contract’ screen which you \ncan invoke by typing ‘DLDTRAUT in the field at the top right corner of the Application Toolbar \nand clicking the adjoining arrow button.\nIn this screen, you can do the following:\nVerify that the details input are valid\nCheck Overrides displayed by the system\nRe-key data for fields which require re-keying\nSubsequently, enter the contract reference of the contract you wish to authorize and click the \n‘Authorize’ button to authorize this contract.\n5.2.2 \nReversing Contracts\nYou can reverse a contract by clicking the reverse icon in the toolbar or selecting Reverse \nfrom the Actions menu. You can reverse only those contracts which have financial impact and \nwhere the contract expiry date is later than the application date.\n5.2.3 \nAmending Contracts\nFor contracts which have been authorized and which have not yet expired, you can modify \ndetails by clicking the unlock icon in the toolbar or selecting Unlock from the Actions menu. \nThe details that are amendable are:"
+    },
+    {
+      "page_number": 42,
+      "sections": [],
+      "summary": "This page describes how to close, delete, and roll over contracts in a system, including the conditions and processes for each action.",
+      "raw_text": "5-12\nParty details\nMax No of Free Visits\nBreak Open Period Date\nSettlement Details\nFrozen\n5.2.4 \nClosing Contracts\nYou can close contracts by clicking the close icon in the toolbar or selecting Close from the \nActions menu. Closure of contracts is possible only where the subscription date in the \ncontracts is earlier or the same as the application date. When you close a contract, the system \nwill change the status of the locker from ‘Rented’ to ‘Available’.\n5.2.5 \nDeleting Contracts\nTo delete a contract, click the delete icon in the toolbar or select Delete from the Actions \nmenu. For a new, unauthorized contract, the system will delete the contract itself. For an \nexisting unauthorized contract, the system will delete only the last event saved for the \ncontract.\n5.2.6 \nRolling over Contracts\nYou can extend an existing contract for the same period as specified in the current contract. \nTo rollover a contract, click the rollover icon in the toolbar or select Rollover from the Actions \nmenu. The following validations are applicable while rolling-over a contract:\nFor an automatic rollover (‘Auto Extension’ option checked in the SDB contract screen), \nthe contract will be extended by the same period as the tenor of the original contract. \nFor manual rollover, you can specify the desired tenor. The rental payment schedule will \nbe re-calculated for the new tenor.\nSimilarly, for an automatic rollover, the system will compute the break-open period and \ncontract closure date based on the new tenor.  You can modify these details in case of \na manual roll-over.\nThe system will default the following details which are not amendable:\n– \nValue Date\n– \nParty Details\n– \nRental Details\n– \nVault and Box Details\n– \nFree Visit count (reset to the value applicable to the earlier tenor)\nNote\nThe system will not allow rolling-over of contracts where payment is outstanding from the \ncustomer or where the record is closed.\n5.3 \nPreClosure of Contracts\nThis section contains the following topic:\nSection 5.3.1, \"Closing Contracts Prematurely\""
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Closing Contracts Prematurely"
+      ],
+      "summary": "This section explains how to close contracts before their expiry date through the 'Safe Deposit Box Pre Closure' screen and describes the process of collecting rental arrears or returning advance rent during pre-closure.",
+      "raw_text": "5-13\n5.3.1 \nClosing Contracts Prematurely\nYou can close contracts before the expiry date in the ‘Safe Deposit Box Pre Closure’ screen. \nTo invoke this screen, type ‘DLDPCLOS’ in the field at the top right corner of the Application \nToolbar and then click the adjoining arrow button.\nIn this screen, enter the reference number of the contract for which payment is being \nprocessed. Click on ‘P’ button. The system will display the following details of the contract:\nUser Reference No\nVault code\nBox Code\nCustomer\nValue Date\nClosure Date\nBox Dimension\nBox Description\nCustomer Name\nEffective Date\nClick the save button. The system will close the record pre-maturely.\n As part of the pre-closure, if you wish to collect rental arrears or penalty charges, you can do \nso by associating the required charge class to the PCLS event. The system will debit the \ncustomer account for the amount when pre-closure happens. \nYou can also return any advance rent collected from the customer by associating the charge \nclass to PCLS event. The charge amount is calculated by taking into account the difference \nbetween the original date of closure and the date on which pre-closure is done. You can \nmodify the amount to be returned in the ‘Charges’ screen by clicking the charges button."
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Safe Deposit Box Payment Input",
+        "Processing Safe Deposit Box Payments",
+        "Viewing Safe Deposit Box Payment Details"
+      ],
+      "summary": "This page describes how to process and view safe deposit box payments, including both automatic and manual payment methods.",
+      "raw_text": "5-14\nThe system will trigger the pre-closure event and modify the status of the box from ‘Rented’ \nto ‘Available.\n5.4 \nSafe Deposit Box Payment Input\nThis section contains the following topics:\nSection 5.4.1, \"Processing Safe Deposit Box Payments\"\nSection 5.4.2, \"Viewing Safe Deposit Box Payment Details\"\n5.4.1 \nProcessing Safe Deposit Box Payments\nPayments from the customer (initial fees or rentals) can be collected either automatically or \nmanually. The automatic payment is enabled by selecting the ‘Auto Liquidation’ option and \nlinking a current account or savings account to the contract. Here, the system will \nautomatically calculate and collect the rental(s) due as part of the EOD operations.\nIn case of manual payments, you have the option of collecting the rental either in cash or from \nthe account of the customer. You can collect the payment from the account of the customer \nin the ‘Safe Deposit Box Payment Input’ screen. To invoke this screen, type ‘DLDPAMNT’ in \nthe field at the top right corner of the Application Toolbar and then click the adjoining arrow \nbutton.\nIn this screen, enter the reference number of the contract for which payment is being \nprocessed. Click on ‘P’ button. The system will display the following details of the contract:\nUser Reference No\nCustomer ID\nPayment Due Date\nValue Date\nCustomer Name\nPayment Next due Date\nPayment Currency\nPayment Amount\nSettlement Branch\nSettlement Currency\nSettlement Account"
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "5-15",
+        "5.4.2 Viewing Safe Deposit Box Payment Details"
+      ],
+      "summary": "This page describes how to modify certain fields in a payment transaction and provides instructions on viewing safe deposit box payment details through specific screens and queries.",
+      "raw_text": "5-15\nYou can modify the value date, settlement branch, currency and account details, if required. \nAll the other fields will retain the original values.\nClick the save button. The system will process the payment.\nRefer the chapter ‘Cash Transactions’ in the Savings User Manual for details on payments to \nbe done by cash\nTo view the joint holder’s details of an account and the mode of operation maintained at the \naccount level, place the cursor on the Settlement Account field and press Ctrl+J. The system \ndisplays the ‘Joint Holder’ screen.\nFor more information on the ‘Joint Holder’ screen refer to the section ‘Joint Holder \nMaintenance’ in the Core User Manual.\n5.4.2 \nViewing Safe Deposit Box Payment Details\nYou can query and view the details of the payments made for the safe deposit lockers in the \n‘Safe Deposit Box Payment Summary’ screen. To invoke this screen, type ‘DLSPAMNT’ in \nthe field at the top right corner of the Application Toolbar and then click the adjoining arrow \nbutton.\nIn this screen, you can query on any combination of the following parameters:\nContract Reference No\nPayment Due Date\nAuthorization Status\nCustomer ID\nPayment Next Due Date\nRecord Status\nAfter specifying the parameters for the query, click ‘Search’. The system displays all the \nrecords matching the parameters specified. If you do not specify any parameter for the query \nbefore clicking ‘Search’, the system will display all the available payment records for safe \ndeposit lockers.\n5.5 \nSafe Deposit Box Break Open Operation\nThis section contains the following topics:"
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "5.5.1 Breaking Open Safe Deposit Boxes",
+        "5.5.2 Viewing Safe Deposit Box Break Open Details"
+      ],
+      "summary": "This page describes how to break open a safe deposit box when certain conditions are met and details the steps involved in recording this operation.",
+      "raw_text": "5-16\nSection 5.5.1, \"Breaking Open Safe Deposit Boxes\"\nSection 5.5.2, \"Viewing Safe Deposit Box Break Open Details\"\n5.5.1 \nBreaking Open Safe Deposit Boxes\nUnder certain circumstances like where the customer has not paid the rental or not visited the \nlocker for a long time, you can break open the safe deposit locker. As part of this operation, \nyou are required to maintain certain information in the ‘Safe Deposit Box Break Open \nOperation’ screen. To invoke this screen, type ‘DLDBRKOP’ in the field at the top right corner \nof the Application Toolbar and then click the adjoining arrow button.\nIn this screen, specify the following details:\nContract Reference\nEnter or select from the adjoining option list, the reference number of the contract \ncorresponding to the safe deposit locker that you wish to break open.\nThe system will display the following values:\nUser Reference No\nSubscription Start Date\nSubscription End Date\nCustomer\nCustomer Name\nSettlement Branch\nSettlement Currency\nSettlement Account\nBreak Open Reason\nSelect, from the drop-down list, the reason for breaking open the safe deposit locker. The \nreasons are:\nCustomer Not Visited"
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "Viewing Safe Deposit Box Break Open Details",
+        "Safe Deposit Box Visitors Log"
+      ],
+      "summary": "This page describes how to view details of safe deposit box break open operations and provides an overview of maintaining and viewing visitor information for such boxes.",
+      "raw_text": "5-17\nOthers\nBreak Open Remarks\nEnter any additional information that you would like to maintain for breaking-open the locker.\n5.5.2 \nViewing Safe Deposit Box Break Open Details\nYou can query and view the details of the safe deposit lockers which have been broken open \nin the ‘Safe Deposit Box Break Open Operation Summary’ screen. To invoke this screen, type \n‘DLSBRKOP’ in the field at the top right corner of the Application Toolbar and then click the \nadjoining arrow button.\nIn this screen, you can query on any combination of the following parameters:\nContract Reference No\nUser Reference No\nSettlement Currency\nCustomer\nSettlement Branch\nSettlement Account\nAfter specifying the parameters for the query, click ‘Search’. The system displays all the \nrecords matching the parameters specified. If you do not specify any parameter for the query \nbefore clicking ‘Search’, the system will display all the available safe deposit locker records \nfor which the break-open operation has been done.\n5.6 \nSafe Deposit Box Visitors Log\nThis section contains the following topics:\nSection 5.6.1, \"Maintaining Safe Deposit Box Visitor Information\"\nSection 5.6.2, \"Viewing Safe Deposit Box Visitor Information\""
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Maintaining Safe Deposit Box Visitor Information"
+      ],
+      "summary": "This section explains how to maintain visitor information for safe deposit boxes using the 'Safe Deposit Box Visitors Log' screen in the application toolbar.",
+      "raw_text": "5-18\n5.6.1 \nMaintaining Safe Deposit Box Visitor Information\nYou can maintain details of customer or visitors who have visited the lockers in the ‘Safe \nDeposit Box Visitors Log’ screen. To invoke this screen, type ‘DLDVINFO’ in the field at the \ntop right corner of the Application Toolbar and then click the adjoining arrow button.\nIn this screen, enter or select the contract reference number and click on the ‘P’ button \nadjoining the ‘Contract Reference No.’ The system will populate the following details:\nEvent Sequence No\nCustomer ID\nBox Code\nSD Vault Code\nSubscription Start and End Dates\nMode Of Operation\nNo. of Free Visits\nVisited Count Till Date\nIn addition to the above, the system will also indicate if:\nPayment is overdue from the customer in the ‘Payment Overdue’ field\nThe contract is ‘Frozen’ in the ‘Account Frozen’ field. For a frozen contract, you will not \nbe allowed to add or save any visitor information in this screen.\nYou can enter the following information:"
+    },
+    {
+      "page_number": 49,
+      "sections": [
+        "Visitor Details",
+        "Party Details"
+      ],
+      "summary": "This page outlines the details required for a customer visit to a locker, including date and times, additional party information, and contract-specific rules based on the mode of operation.",
+      "raw_text": "5-19\nVisitor Details\nSpecify the following details about the visit:\nVisited Date\nSelect, from the adjoining calendar, the date of the customer visit.\nEntry Time\nEnter the check-in time for the visit to the locker.\nExit Time\nEnter the check-out time for the visit.\nParty Details\nHere, you can enter details of additional persons who visited the locker:\nCustomer Id\nSpecify the customer code of the visitor. You can also select it from the adjoining option list. \nName\nThe system displays the customer name depending on the customer ID selected.\nParty Type\nThe system displays the party type and will validate the visit to the deposit locker based on \nthe ‘Mode of Operation’ you have selected for the contract.\nIf the mode is ‘Single’, any of the following party types can visit the locker:\n– \nAPP\n– \nCAP\n– \nAUT\n– \nNOM\nIf the mode is ‘Jointly’, then any of the following party types will be allowed to visit, \nprovided they are accompanied by the applicant holder:\n– \nCAP\n– \nAUT \n– \nNOM\nIf the mode is ‘Mandate Holder’, then the system will allow visit only from the primary \napplicant.\nJoint Customer\nThe system displays the name of the joint customer.\nWhile saving the contract, apart from checking for party type, the system will also check if, for \nthe given period, the customer has exceeded the maximum number of free visits allowed for \nthe contract. If so, the system will debit the customer account for the corresponding charges.\nNote\nIf you wish to change the charges or settlement details, you can do so by clicking the \n‘Charges’ and ‘Settlement’ screens respectively."
+    },
+    {
+      "page_number": 50,
+      "sections": [
+        "Viewing Safe Deposit Box Visitor Information",
+        "Safe Deposits Box Customer Waitlist Log",
+        "Creating Safe Deposit Box Waitlists for Customers"
+      ],
+      "summary": "This page describes how to view visitor information for safe deposit boxes and outlines the process of creating and viewing waitlist details for customers interested in these services.",
+      "raw_text": "5-20\n5.6.2 \nViewing Safe Deposit Box Visitor Information\nYou can query and view the details of visitors who have visited the lockers through the ‘Safe \nDeposit Box Visitor Summary’ screen. To invoke this screen, type ‘DLSVINFO’ in the field at \nthe top right corner of the Application Toolbar and then click the adjoining arrow button.\nIn this screen, you can query on any combination of the following parameters:\nContract Reference No\nSD Box Code\nCustomer ID\nVisited Date\nAfter specifying the parameters for the query, click ‘Search’. The system displays all the \nrecords matching the parameters specified. If you do not specify any parameter for the query \nbefore clicking ‘Search’, the system will display all the available records for visitors to the safe \ndeposit lockers.\n5.7 \nSafe Deposits Box Customer Waitlist Log\nThis section contains the following topics:\nSection 5.7.1, \"Creating Safe Deposit Box Waitlists for Customers\"\nSection 5.7.2, \"Viewing Safe Deposit Box Waitlist Details\"\n5.7.1 \nCreating Safe Deposit Box Waitlists for Customers\nWaitlists for customers can be created within the system for customers who wish to avail the \nsafe deposit facility offered by your bank. As and when a box becomes available, the \ncustomer can be contacted and offered the box. You can maintain these details in the ‘Safe"
+    },
+    {
+      "page_number": 51,
+      "sections": [
+        "Box Details",
+        "Waitlist Serial Number",
+        "Box Type",
+        "Allocation Status",
+        "Existing Customer",
+        "Date of Logging",
+        "Branch Code",
+        "Priority"
+      ],
+      "summary": "This page describes how to use the 'Deposit Box Customer Waitlist Log' screen to enter details for a customer wishing to avail a safety box facility, including fields for various customer and box-related information.",
+      "raw_text": "5-21\nDeposit Box Customer Waitlist Log’ screen. To invoke this screen, type ‘DLDCUSWL’ in the \nfield at the top right corner of the Application Toolbar and then click the adjoining arrow button.\nEnter the following details for a customer who wishes to avail the facility:\nBox Details\nWaitlist Serial Number\nThe system generates this number automatically for each new record.\nBox Type\nSpecify the box type required by the customer. You can also select the type from the adjoining \noption list. The list contains all the box types maintained in the system.\nAllocation Status\nThe system will display the status for the customer. The status can be either of the following:\nWaitlisted\nAllocated\nExisting Customer\nCheck this option to indicate that the customer requiring the safety box is an existing customer \nof your bank.\nDate of Logging\nThe system displays the application date here.\nBranch Code\nSpecify the branch where the box is requested. You can also select the code from the \nadjoining option list. The list contains all the branches maintained in the system.\nPriority\nSelect, from the adjoining drop-down list, the priority with which the request has been made. \nYou have the following options:\nHigh"
+    },
+    {
+      "page_number": 52,
+      "sections": [
+        "Customer Details"
+      ],
+      "summary": "This section describes how to input and display customer details such as ID, name, address, contact information, and country for both existing and new customers.",
+      "raw_text": "5-22\nMedium\nLow\nCustomer Details\nCustomer ID\nSpecify the customer code. If the customer is an existing one, you can select the ID from the \nadjoining option list. The list contains all the customer IDs maintained in the system. You can \nenter the name of the customer or leave this field blank if the customer is a new one.\nName\nThe system will display the name of the customer, if the customer is an existing one. You are \nrequired to specify the details for a new customer.\nAddress\nThe system will display the address of the customer, if the customer is an existing one. You \nare required to specify the details for a new customer.\nCity\nThe system will display the city, if the customer is an existing one. You are required to specify \nthe details for a new customer.\nZip Code\nThe system will display the zip code, if the customer is an existing one. You are required to \nspecify the details for a new customer.\nState\nThe system will display the state to which the customer belongs, if the customer is an existing \none. You are required to specify the details for a new customer.\nCountry\nThe system will display the country of the customer, if the customer is an existing one. You \nare required to specify the details for a new customer.\nPh Number\nThe system will display the phone number, if the customer is an existing one. You are required \nto specify the details for a new customer.\nE-mail\nThe system will display the email address of the customer, if the customer is an existing one. \nYou are required to specify the details for a new customer.\nRemarks\nEnter any additional information that you wish to maintain for the request.\n5.7.2 \nViewing Safe Deposit Box Waitlist Details\nYou can query and view the details of customers who are waitlisted for the box facility through \nthe ‘SDB Customer Waitlist Log Summary’ screen. To invoke this screen, type ‘DLSCUSWL’"
+    },
+    {
+      "page_number": 53,
+      "sections": [
+        "5.8 Safe Deposit Duplicate Key Issuance Detailed",
+        "5.8.1 Handling Safe Deposit Duplicate Key Requests",
+        "5.8.2 Viewing Safe Deposit Duplicate Key Details"
+      ],
+      "summary": "This page describes how to query records using various parameters in the Application Toolbar and details sections related to handling and viewing safe deposit duplicate key requests.",
+      "raw_text": "5-23\nin the field at the top right corner of the Application Toolbar and then click the adjoining arrow \nbutton.\nIn this screen, you can query on any combination of the following parameters:\nAuthorization Status\nWaitlist Serial Number\nDate Of Logging\nRecord Status\nBox Type\nBranch Code\nAfter specifying the parameters for the query, click ‘Search’. The system displays all the \nrecords matching the parameters specified. If you do not specify any parameter for the query \nbefore clicking ‘Search’, the system will display all the available records for waitlisted \ncustomers.\n5.8 \nSafe Deposit Duplicate Key Issuance Detailed\nThis section contains the following topics:\nSection 5.8.1, \"Handling Safe Deposit Duplicate Key Requests\"\nSection 5.8.2, \"Viewing Safe Deposit Duplicate Key Details\""
+    },
+    {
+      "page_number": 54,
+      "sections": [
+        "Handling Safe Deposit Duplicate Key Requests"
+      ],
+      "summary": "This section explains how to process a duplicate key request for a customer through the 'SDB Duplicate Key Issuance Detailed' screen.",
+      "raw_text": "5-24\n5.8.1 \nHandling Safe Deposit Duplicate Key Requests\nIn case a customer requests for a duplicate key, you can process it through the ‘SDB \nDuplicate Key Issuance Detailed’ screen. To invoke this screen, type ‘DLDDUKEY’ in the field \nat the top right corner of the Application Toolbar and then click the adjoining arrow button.\nEnter the following details for the duplicate key request:\nContract Reference No\nEnter the contract reference number against which you are issuing the duplicate key and click \nthe ‘P’ button.\nThe system will default the following details:\nAccount Frozen\nVault Code\nSD Box Code\nSettlement Details\nPayment Overdue\nYou can now specify the following:\nExisting Customer Key No.\nSelect the existing key number from the adjoining option list.\nNew Customer Key No.\nEnter the new key number for the customer.\nRemarks\nEnter any additional information that you wish to maintain for the record."
+    },
+    {
+      "page_number": 55,
+      "sections": [
+        "Viewing Safe Deposit Duplicate Key Details"
+      ],
+      "summary": "This section explains how to query and view details of duplicate keys issued through the 'SDB Duplicate Key Issuance Summary' screen.",
+      "raw_text": "5-25\nNote\nYou can also assign the existing key number instead of a new one.\n5.8.2 \nViewing Safe Deposit Duplicate Key Details\nYou can query and view the details of duplicate keys issued through the ‘SDB Duplicate Key \nIssuance Summary’ screen. To invoke this screen, type ‘DLSDUKEY’ in the field at the top \nright corner of the Application Toolbar and then click the adjoining arrow button.\nIn this screen, you can query on any combination of the following parameters:\nSD Box Code\nContract Reference No\nVault Code\nNew Customer Key No\nEvent Sequence No\nAfter specifying the parameters for the query, click ‘Search’. The system displays all the \nrecords matching the parameters specified. If you do not specify any parameter for the query \nbefore clicking ‘Search’, the system will display all the available records for duplicate key \nrequests."
+    },
+    {
+      "page_number": 56,
+      "sections": [
+        "SDB Events",
+        "Accounting Role",
+        "SDB Accounting Entries and Advices"
+      ],
+      "summary": "This section details various events for the SDB module in Oracle FLEXCUBE, including their descriptions and associated accounting entries.",
+      "raw_text": "6-1\n6. Annexure – Events, Accounting Entries and\nAdvices\nThis section contains details of the roles, events, accounting entries and advices that can be \nset up for the SDB module of Oracle FLEXCUBE. The details of the suggested accounting \nentries are listed event-wise.\nThis chapter contains the following sections:\nSection 6.1, \"SDB Events\"\nSection 6.2, \"Accounting Role\"\nSection 6.3, \"SDB Accounting Entries and Advices\"\n6.1 \nSDB Events\nThe following is a list of events for SDB. In the subsequent paragraphs we shall examine the \naccounting entries and advices for each of the events listed below.\nEvent Name\nDescription\nBOOK (Book-\ning)\nThis event will be triggered, at the time of booking the contract. This \ncan have charge associated with it.\nINIT (Initializa-\ntion)\nThis event will be triggered on the contract value date, executing the \nInitial fee accounting entries and rent advances for INIT event.\nAMND \n(Amendment)\nThis event will be triggered, when an existing SDB contract end date is \nmodified. Accounting entries will be executed to debit charges from the \ncustomer account.\nAmendment event can also be triggered for the changing the status of \ncontract - Freezing and De-Freezing.\nCLOS (Clo-\nsure)\nThis event will be triggered, when an SDB contract is closed. When a \ncontract is triggered for closure, the system will check for the rental \npending payments, if required it will debit charges from the customer \naccount and generate the closure advice for this event. \nIn case of insufficient funds in the customer account, the system will \nreturn an error by restricting the contract to be closed.\nREVR (Rever-\nsal)\nThis event will be triggered, when a SDB contract is reversed for the \nlatest event. The system will reverse the accounting entries executed \nfor the previous event. \nThe reversal events will be supported for all the events except closure \nand pre-closure events.\nROLL (Rollo-\nver)\nThis event will be triggered, when a contract is rolled-over for the next \nperiod. This event will execute the accounting entries for rental pay-\nment charges.\nLIQD (Liquida-\ntion)\nThis event will be triggered for both Manual and Auto liquidation, \nbased on the Auto liquidation flag set at the contract level.\nWhen a liquidation event is triggered system will execute the account-\ning entries to debit the rental fee charges from the customer."
+    },
+    {
+      "page_number": 57,
+      "sections": [
+        "Accounting Role",
+        "SDB Accounting Entries and Advices"
+      ],
+      "summary": "This page discusses the accounting role and various SDB accounting entries triggered by different events such as customer visits, contract maturity, key duplication requests, and pre-closure of contracts.",
+      "raw_text": "6-2\n6.2 \nAccounting Role\n6.3 \nSDB Accounting Entries and Advices\nThis section contains the following topics:\nSection 6.3.1, \"Book \"\nSection 6.3.2, \"INIT \"\nSection 6.3.3, \"LIQD \"\nSection 6.3.4, \"AMND \"\nSection 6.3.5, \"REVR \"\nSection 6.3.6, \"ROLL \"\nSection 6.3.7, \"CUSV\"\nSection 6.3.8, \"BPNT\"\nSection 6.3.9, \"DPNT\"\nSection 6.3.10, \"CLOS / PCLS\"\n6.3.1 \nBook \nAccounting Entry\nInitial Fee charges can be collected at BOOK or INIT event, based on the customer need. \nCUSV (Cus-\ntomer Visit)\nThis event will be triggered, for all customer visits; however the \ncharges will be applicable only when the count exceeds the free visit \ncount.\nBPNT (Break \nOpen Period)\nThis event will be triggered, when the customer has not visited the \nbank till the post contract maturity period. The system will execute the \naccounting entries to debit the charges from the customer account.\nDPNT (Dupli-\ncate Key)\nThis event will be triggered, when the customer requests for duplicate \nkey. The system will execute the accounting entries to debit the \ncharges from the customer account.\nPCLS (Pre-clo-\nsure)\nThis event will be triggered for Pre closure of SDB contracts. The sys-\ntem will execute the accounting entries to debit the charges from the \ncustomer account.\nAccounting Role\nDescription\nRole Type\nCUSTOMER\nCustomer Accounts\nReal/Type \n“X”\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr\nCHARGE COMPONENT_INC\nCHARGES\nCr"
+    },
+    {
+      "page_number": 58,
+      "sections": [
+        "INIT Accounting Entry",
+        "LIQD Accounting Entry",
+        "AMND Accounting Entry"
+      ],
+      "summary": "This page details accounting entries for different events such as INIT, LIQD, and AMND, including their respective advice names, event generation times, format names, message types, roles, amounts, tags, and debit/credit information.",
+      "raw_text": "6-3\nAdvice\n6.3.2 \nINIT \nAccounting Entry\nAdvice\n6.3.3 \nLIQD \nAccounting Entry\nRental Fee Charges are collected during this event\nAdvice\n6.3.4 \nAMND \nAccounting Entry\nCharges applicable for extending the subscription end date are collected during this event.\nAdvice Name\nEvent\nGeneration \nTime\nFormat Name\nMessage \nType\nBook Advice\nBOOK\nAuthorize\nDL_BOOK_ADVICE\nBOOK_AD-\nVICE\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr\nCHARGE COMPONENT_INC\nCHARGES\nCr\nAdvice Name\nEvent\nGeneration \nTime\nFormat Name\nMessage Type\nInit Advice\nINIT\nAuthorize\nDL_INIT_ADVICE\nINIT_ADVICE\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr\nCHARGE COMPONENT_INC\nCHARGES\nCr\nAdvice Name\nEvent\nGeneration \nTime\nFormat Name\nMessage Type\nPayment Advice\nLIQD\nAuthorize\nDL_PAY-\nMENT_ADV\nPAYMENT_ADV\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr"
+    },
+    {
+      "page_number": 59,
+      "sections": [
+        "REVR",
+        "ROLL"
+      ],
+      "summary": "This page describes accounting entries and transactions related to event generation, including reversing previous postings and collecting rental fees and charges for exceeding free visit counts.",
+      "raw_text": "6-4\nAdvice\n6.3.5 \nREVR \nAll the accounting entries which have been previously posted are reversed during this event.\n6.3.6 \nROLL \nAccounting Entry\nRental Fee is collected during this event.\nAdvice\n6.3.7 \nCUSV\nAccounting Entry \nCharges for exceeding the free visit count are collected during this event.\nCHARGE COMPONENT_INC\nCHARGES\nCr\nAdvice Name\nEvent\nGeneration \nTime\nFormat Name\nMessage Type\nAmendment \nAdvice\nAMND\nAuthorize\nDL_AMEND_AD-\nVICE\nAMEND_AD-\nVICE\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr\nCHARGE COMPONENT_INC\nCHARGES\nCr\nAdvice Name\nEvent\nGeneration \nTime\nFormat Name\nMessage Type\nRollover\nROLL\nAuthorize\nDL_ROLLO-\nVER_ADV\nROLLO-\nVER_ADV\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr\nCHARGE COMPONENT_INC\nCHARGES\nCr"
+    },
+    {
+      "page_number": 60,
+      "sections": [
+        "Advice",
+        "BPNT",
+        "DPNT",
+        "CLOS / PCLS"
+      ],
+      "summary": "This page outlines various accounting entries and charges for different events related to deposit lockers, including break open periods, duplicate key issuance, and closure of SDB.",
+      "raw_text": "6-5\nAdvice\n6.3.8 \nBPNT\nAccounting Entry\nCharges for Break open period are collected during this event, if the customer has not visited \nthe deposit locker. The system will automatically calculate and collect these charges as part \nof EOD operations.\nAdvice\n6.3.9 \nDPNT\n Charge for issuance of a duplicate key is collected during this event.\n6.3.10 \nCLOS / PCLS\nAccounting Entry\nCharges for closure and pre-closure of SDB are collected during this event.\nAdvice Name\nEvent\nGeneration \nTime\nFormat Name\nMessage Type\nCustomer Visit \nAdvice\nCUSV\nAuthorize\nDL_CUST_VIS-\nIT_ADV\nCUST_VIS-\nIT_ADV\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr\nCHARGE COMPONENT_INC\nCHARGES\nCr\nAdvice Name\nEvent\nGeneration \nTime\nFormat Name\nMessage Type\nBreakOpen \nAdvice\nBPNT\nAuthorize\nDL_BREAKO-\nPEN_ADV\nBREAKO-\nPEN_ADV\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr\nCHARGE COMPONENT_INC\nCHARGES\nCr\nRole\nAmount Tag\nDebit/Credit\nCustomer\nCHARGES\nDr\nCHARGE COMPONENT_INC\nCHARGES\nCr"
+    },
+    {
+      "page_number": 61,
+      "sections": [],
+      "summary": "This page appears to list various elements related to advice and closure messages, including names and types.",
+      "raw_text": "6-6\nAdvice\nAdvice Name\nEvent\nGeneration \nTime\nFormat Name\nMessage Type\nClosure\nCLOS\nAuthorize\nDL_CLOSURE_AD-\nVICE\nCLOSURE_AD-\nVICE"
+    },
+    {
+      "page_number": 62,
+      "sections": [],
+      "summary": "",
+      "raw_text": "7-1\n7. Function ID Glossary\nD\nDLDBRKOP .....................5-16\nDLDBXTDF .......................3-1\nDLDCUSWL ....................5-21\nDLDDUKEY .....................5-24\nDLDPAMNT .....................5-14\nDLDPCLOS .....................5-13\nDLDPRMNT ......................4-1\nDLDTRAUT .....................5-11\nDLDTRONL .......................5-2\nDLDVINFO ......................5-18\nDLDVLBXM .......................3-3\nDLSBRKOP .....................5-17\nDLSBXTDF ....................... 3-2\nDLSCUSWL .................... 5-22\nDLSDUKEY ..................... 5-25\nDLSPAMNT .................... 5-15\nDLSPRMNT .................... 4-12\nDLSTRONL ..................... 5-10\nDLSVINFO ...................... 5-20\nDLSVLBXM ....................... 3-6\nE\nEIDMANPE ....................... 3-7\nX\nXPDVNMNT ...................... 3-3"
+    }
+  ]
+}

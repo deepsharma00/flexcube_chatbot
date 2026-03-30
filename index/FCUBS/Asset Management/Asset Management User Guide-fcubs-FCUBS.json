@@ -1,0 +1,1802 @@
+{
+  "source": "FlexCube/FCUBS/Asset Management/Asset Management User Guide-fcubs-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 79,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's structure and accessibility features for readers.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Asset Management module, detailing its purpose and organization structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Asset Management module, detailing its purpose and organization structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Asset Management module, detailing its purpose and organization structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Asset Management module, detailing its purpose and organization structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Asset Management module, detailing its purpose and organization structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "3",
+          "title": "2. Asset Management - An Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features of the Module",
+          "start_page": 7
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Creating a Fund Product Preference Class",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Fund Product Preference Class Maintenance",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Fund Product Preferences Class Details",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Fields Button",
+          "start_page": 12
+        },
+        {
+          "structure": "5",
+          "title": "4. Defining Attributes Specific to a Fund Product",
+          "start_page": 13
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Asset Management Product Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Maintaining Asset Management Product Details",
+          "start_page": 13
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Preferences Button",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 MIS Button",
+          "start_page": 19
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Branch Currency Button",
+          "start_page": 20
+        },
+        {
+          "structure": "5.1.5",
+          "title": "4.1.5 Customer Button",
+          "start_page": 22
+        },
+        {
+          "structure": "5.1.6",
+          "title": "4.1.6 Interest Details Button",
+          "start_page": 23
+        },
+        {
+          "structure": "5.1.7",
+          "title": "4.1.7 Charge Details Button",
+          "start_page": 27
+        },
+        {
+          "structure": "5.1.8",
+          "title": "4.1.8 Tax Details Button",
+          "start_page": 30
+        },
+        {
+          "structure": "5.1.9",
+          "title": "4.1.9 Accounting Roles Button",
+          "start_page": 32
+        },
+        {
+          "structure": "5.1.10",
+          "title": "4.1.10 Events Button",
+          "start_page": 33
+        },
+        {
+          "structure": "5.1.11",
+          "title": "4.1.11 Fields Button",
+          "start_page": 36
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides references to related documents and a glossary of icons used in the User Manual for the AM module.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides references to related documents and a glossary of icons used in the User Manual for the AM module.",
+      "cross_references": [
+        {
+          "structure": "9",
+          "title": "8. Annexure A - Events and Accounting Entries",
+          "start_page": 75
+        },
+        {
+          "structure": "9.1",
+          "title": "8.1 Fund Events",
+          "start_page": 75
+        },
+        {
+          "structure": "9.2",
+          "title": "8.2 Amount Tags",
+          "start_page": 76
+        },
+        {
+          "structure": "9.3",
+          "title": "8.3 Accounting Roles",
+          "start_page": 76
+        },
+        {
+          "structure": "9.4",
+          "title": "8.4 Event - Entries",
+          "start_page": 76
+        },
+        {
+          "structure": "9.5",
+          "title": "8.5 Maintenance Done Before Running EOD",
+          "start_page": 78
+        },
+        {
+          "structure": "6",
+          "title": "5. Setting up a Fund",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Fund Input",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Maintaining Fund On-line Details",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Fund Details Tab",
+          "start_page": 39
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Bank Accounts Tab",
+          "start_page": 42
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Net Asset Value Button",
+          "start_page": 43
+        },
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Charges Button",
+          "start_page": 47
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Tax Details Button",
+          "start_page": 49
+        },
+        {
+          "structure": "6.1.7",
+          "title": "5.1.7 Settlement Button",
+          "start_page": 51
+        },
+        {
+          "structure": "6.1.8",
+          "title": "5.1.8 MIS Button",
+          "start_page": 52
+        },
+        {
+          "structure": "6.1.9",
+          "title": "5.1.9 Rate Button",
+          "start_page": 53
+        },
+        {
+          "structure": "6.1.10",
+          "title": "5.1.10 Fields Button",
+          "start_page": 55
+        },
+        {
+          "structure": "6.1.11",
+          "title": "5.1.11 Events Button",
+          "start_page": 55
+        },
+        {
+          "structure": "6.1.12",
+          "title": "5.1.12 Message Button",
+          "start_page": 56
+        },
+        {
+          "structure": "8",
+          "title": "7. Defining Charges for a Fund",
+          "start_page": 71
+        },
+        {
+          "structure": "8.1",
+          "title": "7.1 Fund Charge Definition",
+          "start_page": 71
+        },
+        {
+          "structure": "8.1.1",
+          "title": "7.1.1 Maintaining Charge Definition Details",
+          "start_page": 71
+        },
+        {
+          "structure": "8.1.2",
+          "title": "7.1.2 Charge Details Tab",
+          "start_page": 72
+        },
+        {
+          "structure": "8.1.3",
+          "title": "7.1.3 Payment Details Tab",
+          "start_page": 73
+        },
+        {
+          "structure": "7",
+          "title": "6. Manually Processing a Corporate Action",
+          "start_page": 58
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 Corporate Action for Funds",
+          "start_page": 58
+        },
+        {
+          "structure": "7.1.1",
+          "title": "6.1.1 Maintaining Corporate Action for Funds",
+          "start_page": 58
+        },
+        {
+          "structure": "7.1.2",
+          "title": "6.1.2 Settlement Button",
+          "start_page": 61
+        },
+        {
+          "structure": "7.1.3",
+          "title": "6.1.3 Events Button",
+          "start_page": 62
+        },
+        {
+          "structure": "7.1.4",
+          "title": "6.1.4 Reversing a Corporate Action",
+          "start_page": 63
+        },
+        {
+          "structure": "7.1.5",
+          "title": "6.1.5 Saving the Details of a Corporate Action Record",
+          "start_page": 63
+        },
+        {
+          "structure": "7.1.6",
+          "title": "6.1.6 An Example in Processing Corporate Actions",
+          "start_page": 63
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Asset Management - An Overview",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the Asset Management module in Oracle FLEXCUBE, explaining its functionality and how it allows for the creation and management of funds through predefined classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the Asset Management module in Oracle FLEXCUBE, explaining its functionality and how it allows for the creation and management of funds through predefined classes.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Features of the Module",
+      "start_page": 7,
+      "end_page": 9,
+      "summary": "This page provides an overview of the Asset Management module in Oracle FLEXCUBE, explaining its functionality and how it allows for the creation and management of funds through predefined classes.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "4",
+      "title": "3. Creating a Fund Product Preference Class",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This section explains how to create and maintain fund preference classes in Oracle FLEXCUBE, which are used to define attributes for fund products.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Fund Product Preference Class Maintenance",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This section explains how to create and maintain fund preference classes in Oracle FLEXCUBE, which are used to define attributes for fund products.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Maintaining Fund Product Preferences Class Details",
+      "start_page": 9,
+      "end_page": 12,
+      "summary": "This section explains how to create and maintain fund preference classes in Oracle FLEXCUBE, which are used to define attributes for fund products.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Fields Button",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page explains how Oracle FLEXCUBE processes charge accruals on holidays and describes the 'Fields' button function in the application.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Defining Attributes Specific to a Fund Product",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page discusses how to define attributes specific to a Fund product in Oracle FLEXCUBE and provides details on maintaining asset management product information.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Asset Management Product Maintenance",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page discusses how to define attributes specific to a Fund product in Oracle FLEXCUBE and provides details on maintaining asset management product information.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Maintaining Asset Management Product Details",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This page discusses how to define attributes specific to a Fund product in Oracle FLEXCUBE and provides details on maintaining asset management product information.",
+      "cross_references": [
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Fund Product Preferences Class Details",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Fields Button",
+          "start_page": 12
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Fund Product Preference Class Maintenance",
+          "start_page": 9
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Preferences Button",
+      "start_page": 15,
+      "end_page": 19,
+      "summary": "This page describes various fields and options for creating a product, including descriptions, slogans, dates, remarks, and exchange rate variances.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.3",
+      "title": "4.1.3 MIS Button",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This section describes how to use the 'MIS' button and details the fields that need to be specified on the 'MIS Details' screen for product management in a financial system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.4",
+      "title": "4.1.4 Branch Currency Button",
+      "start_page": 20,
+      "end_page": 22,
+      "summary": "This page describes how to specify details for settlements, MIS codes, branch currency restrictions, product codes, and product descriptions in a financial management system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.5",
+      "title": "4.1.5 Customer Button",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This page describes how to use the 'Customer' button and details on specifying product codes, descriptions, class information, and restriction types.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.6",
+      "title": "4.1.6 Interest Details Button",
+      "start_page": 23,
+      "end_page": 27,
+      "summary": "This page describes how to specify restrictions on an account by selecting categories and entering details such as codes, descriptions, and customer information. It also explains how to use the 'Default From Class' feature and introduces the 'Interest Details' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.7",
+      "title": "4.1.7 Charge Details Button",
+      "start_page": 27,
+      "end_page": 30,
+      "summary": "This page explains how to associate a product with a class of mapped interest details and how to specify charge details including product code, description, and component details.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.8",
+      "title": "4.1.8 Tax Details Button",
+      "start_page": 30,
+      "end_page": 32,
+      "summary": "This section describes how to specify tax details by entering product code and description, selecting a tax scheme, and specifying transaction level tax tab details such as component and stop association.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.9",
+      "title": "4.1.9 Accounting Roles Button",
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This page describes various settings and options related to financial tags, rate codes, waivers, and accounting roles in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.10",
+      "title": "4.1.10 Events Button",
+      "start_page": 33,
+      "end_page": 36,
+      "summary": "This page describes how to set up product details in an asset management system, including product description, class code and description, roles such as accounting role and account head, and the events button functionality.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.11",
+      "title": "4.1.11 Fields Button",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page describes options for suppressing and prioritizing advice generation, collecting charges, and accessing user-defined fields in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Setting up a Fund",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page describes how to set up a fund in Oracle FLEXCUBE, including inputting specific details and navigating through various tabs for detailed configurations.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Fund Input",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page describes how to set up a fund in Oracle FLEXCUBE, including inputting specific details and navigating through various tabs for detailed configurations.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.1",
+      "title": "5.1.1 Maintaining Fund On-line Details",
+      "start_page": 37,
+      "end_page": 39,
+      "summary": "This page describes how to set up a fund in Oracle FLEXCUBE, including inputting specific details and navigating through various tabs for detailed configurations.",
+      "cross_references": [
+        {
+          "structure": "5.1.7",
+          "title": "4.1.7 Charge Details Button",
+          "start_page": 27
+        },
+        {
+          "structure": "5.1.10",
+          "title": "4.1.10 Events Button",
+          "start_page": 33
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Maintaining Asset Management Product Details",
+          "start_page": 13
+        },
+        {
+          "structure": "5.1.11",
+          "title": "4.1.11 Fields Button",
+          "start_page": 36
+        },
+        {
+          "structure": "5.1.6",
+          "title": "4.1.6 Interest Details Button",
+          "start_page": 23
+        },
+        {
+          "structure": "5.1.8",
+          "title": "4.1.8 Tax Details Button",
+          "start_page": 30
+        },
+        {
+          "structure": "5.1.9",
+          "title": "4.1.9 Accounting Roles Button",
+          "start_page": 32
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Asset Management Product Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Preferences Button",
+          "start_page": 15
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 MIS Button",
+          "start_page": 19
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Branch Currency Button",
+          "start_page": 20
+        },
+        {
+          "structure": "5.1.5",
+          "title": "4.1.5 Customer Button",
+          "start_page": 22
+        }
+      ]
+    },
+    {
+      "structure": "6.1.2",
+      "title": "5.1.2 Fund Details Tab",
+      "start_page": 39,
+      "end_page": 42,
+      "summary": "This page explains how to associate a product with a fund and enter details such as the fund's reference number and identity in the 'Fund Online' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.3",
+      "title": "5.1.3 Bank Accounts Tab",
+      "start_page": 42,
+      "end_page": 43,
+      "summary": "This page explains the fund pricing strategy options (pre-NAV and post-NAV) and how they affect subscription, redemption, and unit allocation, as well as instructions on setting up bank accounts for asset settlement in the 'Fund On-Line' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.4",
+      "title": "5.1.4 Net Asset Value Button",
+      "start_page": 43,
+      "end_page": 47,
+      "summary": "This page explains how to indicate settlement accounts for a fund in different currencies and describes the Net Asset Value (NAV) button in Oracle FLEXCUBE, including its formula and methods of calculation.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.5",
+      "title": "5.1.5 Charges Button",
+      "start_page": 47,
+      "end_page": 49,
+      "summary": "This page discusses charge computation methods and details of NAV calculation updates for a fund, including how charges are calculated and managed.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.6",
+      "title": "5.1.6 Tax Details Button",
+      "start_page": 49,
+      "end_page": 51,
+      "summary": "This page describes how to apply, waive, and liquidate charge components for a fund, as well as handling tax details.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.7",
+      "title": "5.1.7 Settlement Button",
+      "start_page": 51,
+      "end_page": 52,
+      "summary": "This page discusses the components of taxation for funds, including waiving taxes, liquidation processes, and maintaining parameters related to issuer tax. It also covers settlement buttons for viewing applicable charges and taxes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.8",
+      "title": "5.1.8 MIS Button",
+      "start_page": 52,
+      "end_page": 53,
+      "summary": "This page describes how to invoke the Settlement Details screen and explains the details available there, as well as how Oracle FLEXCUBE indicates whether an account should be debited or credited. It also mentions that MIS details for a fund and product are similar.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.9",
+      "title": "5.1.9 Rate Button",
+      "start_page": 53,
+      "end_page": 55,
+      "summary": "This page describes how transaction types, cost codes, pool codes, and interest calculation methods are defaulted for funds and accounts in the MIS screen, and mentions that charges can be overridden or waived for specific funds.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.10",
+      "title": "5.1.10 Fields Button",
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "This page describes how to use the 'Fields' and 'Events' buttons in a system, detailing what screens are displayed and what information needs to be specified.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.11",
+      "title": "5.1.11 Events Button",
+      "start_page": 55,
+      "end_page": 56,
+      "summary": "This page describes how to use the 'Fields' and 'Events' buttons in a system, detailing what screens are displayed and what information needs to be specified.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.12",
+      "title": "5.1.12 Message Button",
+      "start_page": 56,
+      "end_page": 58,
+      "summary": "This page describes how to specify details for events and messages in a fund management system, including event numbers, dates, codes, descriptions, and related fields.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Manually Processing a Corporate Action",
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This page describes how to manually process corporate actions for internal funds in Oracle FLEXCUBE, including maintaining records and using various buttons.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 Corporate Action for Funds",
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This page describes how to manually process corporate actions for internal funds in Oracle FLEXCUBE, including maintaining records and using various buttons.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.1",
+      "title": "6.1.1 Maintaining Corporate Action for Funds",
+      "start_page": 58,
+      "end_page": 61,
+      "summary": "This page describes how to manually process corporate actions for internal funds in Oracle FLEXCUBE, including maintaining records and using various buttons.",
+      "cross_references": [
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Charges Button",
+          "start_page": 47
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Tax Details Button",
+          "start_page": 49
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Maintaining Fund On-line Details",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Fund Input",
+          "start_page": 37
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Fund Details Tab",
+          "start_page": 39
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Bank Accounts Tab",
+          "start_page": 42
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Net Asset Value Button",
+          "start_page": 43
+        },
+        {
+          "structure": "6.1.7",
+          "title": "5.1.7 Settlement Button",
+          "start_page": 51
+        },
+        {
+          "structure": "6.1.8",
+          "title": "5.1.8 MIS Button",
+          "start_page": 52
+        },
+        {
+          "structure": "6.1.9",
+          "title": "5.1.9 Rate Button",
+          "start_page": 53
+        },
+        {
+          "structure": "6.1.10",
+          "title": "5.1.10 Fields Button",
+          "start_page": 55
+        },
+        {
+          "structure": "6.1.11",
+          "title": "5.1.11 Events Button",
+          "start_page": 55
+        },
+        {
+          "structure": "6.1.12",
+          "title": "5.1.12 Message Button",
+          "start_page": 56
+        }
+      ]
+    },
+    {
+      "structure": "7.1.2",
+      "title": "6.1.2 Settlement Button",
+      "start_page": 61,
+      "end_page": 62,
+      "summary": "This page explains how transaction prices, loads, and nominal amounts are calculated for corporate actions in a fund, including adjustments when these values are changed.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.3",
+      "title": "6.1.3 Events Button",
+      "start_page": 62,
+      "end_page": 63,
+      "summary": "This page explains how to view accounting entries for fund events and details on specifying these entries, including various fields such as branch, account, and amount in deal currency.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.4",
+      "title": "6.1.4 Reversing a Corporate Action",
+      "start_page": 63,
+      "end_page": 63,
+      "summary": "This page discusses how to reverse a corporate action in a fund management system and provides details on the effects of reversing subscriptions, redemptions, and dividend payments.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.5",
+      "title": "6.1.5 Saving the Details of a Corporate Action Record",
+      "start_page": 63,
+      "end_page": 63,
+      "summary": "This page discusses how to reverse a corporate action in a fund management system and provides details on the effects of reversing subscriptions, redemptions, and dividend payments.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.6",
+      "title": "6.1.6 An Example in Processing Corporate Actions",
+      "start_page": 63,
+      "end_page": 71,
+      "summary": "This page discusses how to reverse a corporate action in a fund management system and provides details on the effects of reversing subscriptions, redemptions, and dividend payments.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Defining Charges for a Fund",
+      "start_page": 71,
+      "end_page": 71,
+      "summary": "This page explains how to define charges for a fund by maintaining details and using different tabs in the 'Charge Definition' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1",
+      "title": "7.1 Fund Charge Definition",
+      "start_page": 71,
+      "end_page": 71,
+      "summary": "This page explains how to define charges for a fund by maintaining details and using different tabs in the 'Charge Definition' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1.1",
+      "title": "7.1.1 Maintaining Charge Definition Details",
+      "start_page": 71,
+      "end_page": 72,
+      "summary": "This page explains how to define charges for a fund by maintaining details and using different tabs in the 'Charge Definition' screen.",
+      "cross_references": [
+        {
+          "structure": "7.1",
+          "title": "6.1 Corporate Action for Funds",
+          "start_page": 58
+        },
+        {
+          "structure": "7.1.1",
+          "title": "6.1.1 Maintaining Corporate Action for Funds",
+          "start_page": 58
+        },
+        {
+          "structure": "7.1.2",
+          "title": "6.1.2 Settlement Button",
+          "start_page": 61
+        },
+        {
+          "structure": "7.1.3",
+          "title": "6.1.3 Events Button",
+          "start_page": 62
+        },
+        {
+          "structure": "7.1.4",
+          "title": "6.1.4 Reversing a Corporate Action",
+          "start_page": 63
+        },
+        {
+          "structure": "7.1.5",
+          "title": "6.1.5 Saving the Details of a Corporate Action Record",
+          "start_page": 63
+        },
+        {
+          "structure": "7.1.6",
+          "title": "6.1.6 An Example in Processing Corporate Actions",
+          "start_page": 63
+        }
+      ]
+    },
+    {
+      "structure": "8.1.2",
+      "title": "7.1.2 Charge Details Tab",
+      "start_page": 72,
+      "end_page": 73,
+      "summary": "This page describes how to invoke and use the 'Fund Charge Definition – Detailed' screen in Oracle FLEXCUBE to specify charge details for a fund, including payment method, component details such as amount and currency.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1.3",
+      "title": "7.1.3 Payment Details Tab",
+      "start_page": 73,
+      "end_page": 75,
+      "summary": "This page explains how to specify the end date for collecting charge components, indicate the charge amount and currency, set the tenor using start and end dates, and define accrual frequency preferences for a fund product.",
+      "cross_references": []
+    },
+    {
+      "structure": "9",
+      "title": "8. Annexure A - Events and Accounting Entries",
+      "start_page": 75,
+      "end_page": 75,
+      "summary": "This page details various fund events and their corresponding accounting entries, including descriptions of subscription, redemption, dividend, and charge-related activities.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.1",
+      "title": "8.1 Fund Events",
+      "start_page": 75,
+      "end_page": 76,
+      "summary": "This page details various fund events and their corresponding accounting entries, including descriptions of subscription, redemption, dividend, and charge-related activities.",
+      "cross_references": [
+        {
+          "structure": "8.1",
+          "title": "7.1 Fund Charge Definition",
+          "start_page": 71
+        },
+        {
+          "structure": "8.1.1",
+          "title": "7.1.1 Maintaining Charge Definition Details",
+          "start_page": 71
+        },
+        {
+          "structure": "8.1.2",
+          "title": "7.1.2 Charge Details Tab",
+          "start_page": 72
+        },
+        {
+          "structure": "8.1.3",
+          "title": "7.1.3 Payment Details Tab",
+          "start_page": 73
+        }
+      ]
+    },
+    {
+      "structure": "9.2",
+      "title": "8.2 Amount Tags",
+      "start_page": 76,
+      "end_page": 76,
+      "summary": "This page describes various tags and accounting roles related to fund transactions, along with example entries for subscription and redemption events.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.3",
+      "title": "8.3 Accounting Roles",
+      "start_page": 76,
+      "end_page": 76,
+      "summary": "This page describes various tags and accounting roles related to fund transactions, along with example entries for subscription and redemption events.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.4",
+      "title": "8.4 Event - Entries",
+      "start_page": 76,
+      "end_page": 78,
+      "summary": "This page describes various tags and accounting roles related to fund transactions, along with example entries for subscription and redemption events.",
+      "cross_references": []
+    },
+    {
+      "structure": "9.5",
+      "title": "8.5 Maintenance Done Before Running EOD",
+      "start_page": 78,
+      "end_page": 79,
+      "summary": "This page outlines the batch maintenance required before running End of Day (EOD) processes and the branch-related parameters that need to be maintained.",
+      "cross_references": []
+    },
+    {
+      "structure": "10",
+      "title": "9. Function ID Glossary",
+      "start_page": 79,
+      "end_page": 81,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking Asset Management version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Asset Management User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited's Asset Management User Guide.",
+      "raw_text": "Asset Management User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces the document's structure and accessibility features for readers.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nAsset Management - An Overview ......................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nFeatures of the Module............................................................................................  2-1\n3. \nCreating a Fund Product Preference Class ........................................... 3-1\n3.1 \nFund Product Preference Class Maintenance.........................................................  3-1\n3.1.1  \nMaintaining Fund Product Preferences Class Details ................................  3-1\n3.1.2  \nFields Button...............................................................................................  3-4\n4. \nDefining Attributes Specific to a Fund Product .................................... 4-1\n4.1 \nAsset Management Product Maintenance...............................................................  4-1\n4.1.1  \nMaintaining Asset Management Product Details........................................  4-1\n4.1.2  \nPreferences Button.....................................................................................  4-3\n4.1.3  \nMIS Button..................................................................................................  4-7\n4.1.4  \nBranch Currency Button .............................................................................  4-8\n4.1.5  \nCustomer Button.......................................................................................  4-10\n4.1.6  \nInterest Details Button ..............................................................................  4-11\n4.1.7  \nCharge Details Button ..............................................................................  4-15\n4.1.8  \nTax Details Button ....................................................................................  4-18\n4.1.9  \nAccounting Roles Button ..........................................................................  4-20\n4.1.10  Events Button ...........................................................................................  4-21\n4.1.11  Fields Button.............................................................................................  4-24\n5. \n Setting up a Fund ................................................................................... 5-1\n5.1 \nFund Input ...............................................................................................................  5-1\n5.1.1  \nMaintaining Fund On-line Details ...............................................................  5-1\n5.1.2  \nFund Details Tab ........................................................................................  5-3\n5.1.3  \nBank Accounts Tab ....................................................................................  5-6\n5.1.4  \nNet Asset Value Button ..............................................................................  5-7\n5.1.5  \nCharges Button.........................................................................................  5-11\n5.1.6  \nTax Details Button ....................................................................................  5-13\n5.1.7  \nSettlement Button.....................................................................................  5-15\n5.1.8  \nMIS Button................................................................................................  5-16\n5.1.9  \nRate Button...............................................................................................  5-17\n5.1.10  Fields Button.............................................................................................  5-19\n5.1.11  Events Button ...........................................................................................  5-19\n5.1.12  Message Button........................................................................................  5-20\n6. \nManually Processing a Corporate Action .............................................. 6-1\n6.1 \nCorporate Action for Funds .....................................................................................  6-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Maintaining Corporate Action for Funds",
+        "Settlement Button",
+        "Events Button",
+        "Reversing a Corporate Action",
+        "Saving the Details of a Corporate Action Record",
+        "An Example in Processing Corporate Actions"
+      ],
+      "summary": "This page discusses various aspects of managing corporate actions for funds, including maintaining details, reversing actions, and saving records.",
+      "raw_text": "6.1.1  \nMaintaining Corporate Action for Funds.....................................................  6-1\n6.1.2  \nSettlement Button.......................................................................................  6-4\n6.1.3  \nEvents Button .............................................................................................  6-5\n6.1.4  \nReversing a Corporate Action ....................................................................  6-6\n6.1.5  \nSaving the Details of a Corporate Action Record .......................................  6-6\n6.1.6  \nAn Example in Processing Corporate Actions............................................  6-6\n7. \nDefining Charges for a Fund .................................................................. 7-1\n7.1 \nFund Charge Definition............................................................................................  7-1\n7.1.1  \nMaintaining Charge Definition Details ........................................................  7-1\n7.1.2  \nCharge Details Tab.....................................................................................  7-2\n7.1.3  \nPayment Details Tab ..................................................................................  7-3\n8. \nAnnexure A - Events and Accounting Entries ...................................... 8-1\n8.1 \nFund Events ............................................................................................................  8-1\n8.2 \nAmount Tags ...........................................................................................................  8-2\n8.3 \nAccounting Roles.....................................................................................................  8-2\n8.4 \nEvent - Entries.........................................................................................................  8-2\n8.5 \nMaintenance Done Before Running EOD................................................................  8-4\n9. \nFunction ID Glossary ............................................................................... 9-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Asset Management module, detailing its purpose and organization structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help you to quickly get acquainted with the Asset Management \nmodule of Oracle FLEXCUBE.\nIt provides an overview to the module and takes you through the various steps involved \nsetting up and maintaining a mutual and portfolio fund.\nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nBack office data entry clerk\nInput functions for funds\nBack office managers/\nofficers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of day operators\nProcessing during end of day/ beginning of \nday\nChapter \nNumber\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nAsset Management - An Overview explains the snapshot of the features \nthat the module provides.\nChapter 3\nCreating a Fund Product Preference Class details the procedure for set-\nting up a fund preference class.\nChapter 4\nDefining Attributes Specific to a Fund Product deals with the procedure \nto create a fund product.\nChapter 5\nSetting up a Fund details the procedure for setting up a fund."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page provides references to related documents and a glossary of icons used in the User Manual for the AM module.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nYou may need to refer to any or all of the User Manuals while working on the AM module: \nProcedures\nSecurities\nProducts\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\nChapter 6\nManually Processing a Corporate Action explains the corporate actions \nthat can be performed on a fund. It also contains a detailed example for \neach corporate action and its impact on a fund.\nChapter 7\nDefining Charges for a Fund describes the procedure involved in defin-\ning accruable charge components for a fund.\nChapter 8\nAnnexure A – Events and Accounting Entries gives the list and descrip-\ntion of the events, amount tags, and accounting roles applicable to \nfunds.\nChapter 9\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "Features of the Module"
+      ],
+      "summary": "This page provides an overview of the Asset Management module in Oracle FLEXCUBE, explaining its functionality and how it allows for the creation and management of funds through predefined classes.",
+      "raw_text": "2-1\n2. Asset Management - An Overview\n2.1 \nIntroduction\nThe Asset Management module as the name suggests is a comprehensive asset \nmanagement product based on the concept of a fund. With this module, you can create a fund \nand manage all the activities during its lifecycle.\nThe product definition function, the mainstay of Oracle FLEXCUBE’s design, enables you to \ncreate products for specific funds that you set up. The module gives you the flexibility to \ndefine, upfront, components (such as charge, and tax), restrictions (such as branch and \ncurrency), preferences, events and accounting entries into ‘Classes’. When defining a \nproduct, you merely need to associate it with the different classes that you have built.\nThis chapter contains the following section:\nSection 2.2, \"Features of the Module\"\n2.2 \nFeatures of the Module\nDefinition of Classes\nIn Oracle FLEXCUBE, a ‘Class’ embodies a generic set of attributes. A class could represent:\nA set of restrictions (branch, currency)\nA set of ‘preferences’ (security preferences, portfolio preferences, or deal preferences)\nA set of events and the corresponding accounting roles and heads (account types and \nthe GLs involved)\nA component (tax, interest, or charge)\nAs part of your one-time set up, you can define several sets of classes of a particular type. In \nOracle FLEXCUBE, therefore, you do not have to specify restrictions, preferences, and \ncomponents every time you create a product. You only need to associate the different set of \nclasses that you have already maintained.\nThis feature eliminates redundancy, and saves processing time. \nRefer Securities User Manual of Oracle FLEXCUBE for the procedure to create a class.\nCreating Products\nWhen setting up the module, you can define the various fund schemes that your bank offers \nas products. For each product, you can also define ‘attributes’, or in other words, the terms \nand conditions. When a user at the bank actually processes a loan, it can be associated with \na product. The loan acquires the terms defined for the product that it involves. (However, the \nbank can allow a user to change the inherited attributes of a fund. \nThis offers you flexibility and at the same time streamlines your operations based on the \ncategories of business segments you operate in.\nCreation of Funds\nYou can create and maintain both Mutual and Portfolio Funds. You can link a fund to a Corpus \naccount. All the investments of the fund would be routed through this account. Besides, you \ncan also define a pricing strategy for a fund. \nThe Asset Management module is designed to handle all the events in the life cycle of a fund. \nYou can process the following corporate actions for a fund:"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Net Asset Value Computation",
+        "Funding Loans, Securities, and Money Market Deals",
+        "Interface with FP-IS",
+        "Specialized Services Branch"
+      ],
+      "summary": "This page discusses various functionalities of Oracle FLEXCUBE related to fund management, including net asset value computation, investment in loans and securities, interfacing with other systems, and specialized services.",
+      "raw_text": "2-2\nSubscription\nRedemption \nDividend Payment\nNet Asset Value Computation\nThe NAV of all funds that are created or maintained in Oracle FLEXCUBE can be calculated \nat a frequency that you specify. \nThe NAV can be arrived at after the revaluation process has been run in the Securities, Loans, \nDeposits, and Money Market modules of Oracle FLEXCUBE. The assets and liabilities of a \nfund are computed by aggregating the GL + MIS balances for the fund.\nFunding Loans, Securities, and Money Market Deals\nA fund can invest in various activities like Loans, Securities, and Money Market placements. \nWhile processing a Loan, Securities, or Money Market deal, you can indicate the fund \ninvesting in the transaction. This would create an asset for the fund but not for the bank. \nHence these entries will be reflected in the books of the fund and not of the bank. \nInterface with FP-IS \nThe Asset Management module of Oracle FLEXCUBE can interface with Oracle FLEXCUBE \nIS. Funds are broadly categorized into Internal and External. Internal funds are those that are \ncreated and managed solely in Oracle FLEXCUBE. External funds are those that are created \nin another system and managed in Oracle FLEXCUBE.\nThe interface involves the following information flow:\nAutomatic upload of the details of an external fund, including details like, subscription, \nredemption, and dividend payment \nThe export of the NAV details of a fund from Oracle FLEXCUBE \nSpecialized Services Branch\nOracle FLEXCUBE supports the “specialized services branch” concept. If you have Asset \nManagement expertise only at one branch, says the Head Office (HO) and funds of any \nbranch are created and processed only through HO, Oracle FLEXCUBE offers absolute ease \nof operations. You can indicate whether a branch can create and process funds in the Branch \nParameters screen. A branch can create or process funds only if it has been marked as a \n‘Fund Branch’."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Fund Product Preference Class Maintenance",
+        "Maintaining Fund Product Preferences Class Details"
+      ],
+      "summary": "This section explains how to create and maintain fund preference classes in Oracle FLEXCUBE, which are used to define attributes for fund products.",
+      "raw_text": "3-1\n3. Creating a Fund Product Preference Class\n'Preferences' are the options that are available to you for defining the attributes of a fund. A \nset of such preferences can be grouped together into what we call in Oracle FLEXCUBE, a \n‘Preference Class’. You can maintain several fund preference classes.\nWhile creating a fund product, instead of specifying preferences for each product, you need \nto just associate the appropriate fund preference class to the product. All the attributes \ndefined for the class will be made applicable to the fund product.\nNote\nOnce defined, a fund preference class can be made applicable to any number of products.\nThis chapter contains the following sections:\nSection 3.1, \"Fund Product Preference Class Maintenance\"\n3.1 \nFund Product Preference Class Maintenance\nThis sections contains the following topics:\nSection 3.1.1, \"Maintaining Fund Product Preferences Class Details\"\nSection 3.1.2, \"Fields Button\"\n3.1.1 \nMaintaining Fund Product Preferences Class Details\nIf you are calling a fund restriction class record that has already been defined, choose the \nSummary option. From the ‘Summary’ screen double-click a class of your choice to open it. \nYou can invoke the ‘Fund Product Preferences Class Summary’ screen by typing \n‘AMSPRPCL’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Class Code",
+        "Description",
+        "Fund Type",
+        "Cash Flow Period"
+      ],
+      "summary": "This page describes how to maintain a fund preference class in Oracle FLEXCUBE, including setting up a Class Code, Description, Fund Type, and Cash Flow Period.",
+      "raw_text": "3-2\nYou can also maintain a fund preference class in the ‘Fund Product Preference Class \nDefinition’ screen. You can invoke the ‘Fund Product Preference Class Definition’ screen by \ntyping ‘AMDPRPCL’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button. \nTo maintain a new fund preference class, Click ‘New’ button on the Application tool bar.\nClass Code \nIn Oracle FLEXCUBE, each fund preference class that you maintain is identified by a unique \ncode called a Class Code. You can follow your own convention for devising this code.\nDescription\nYou can specify a short description that will enable you to identify the fund preference class \nquickly. The short description that you specify is for information purposes only and will not be \nprinted on any customer correspondence.\nFund Type\nThe funds that you enter in Oracle FLEXCUBE can be internal or external. An internal fund is \none that originates from Oracle FLEXCUBE. An external fund is one that has originated from \na system outside Oracle FLEXCUBE e.g. Oracle FLEXCUBE Investor Servicing.\nFurther internal and external funds can be of the Portfolio and Mutual fund type. The fund type \nthat you specify for a class will be defaulted to the product to which it associated.\nCash Flow Period\nEnter the period of Cash flow."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Purge Allowed",
+        "Purge"
+      ],
+      "summary": "This page discusses settings for purge frequency and charge accrual preferences, including options for daily, monthly, quarterly, half yearly, or yearly frequencies.",
+      "raw_text": "3-3\nPurge Allowed\nCheck the box if purge is allowed. \nPurge\nYou can maintain the following parameters here:\nFrequency\nThe purge frequency can be one of the following:\nDaily\nMonthly\nQuarterly\nHalf yearly\nYearly\nStart Day\nIn the case of monthly, quarterly, half yearly or yearly purges, you should specify the date on \nwhich the accruals have to be done during the month. \nStart Month\nIf you set the accrual frequency as quarterly, half yearly or yearly, you have to specify the \nmonth in which the first accrual has to begin, besides the date on which the accruals should \nbe done.\nCharge Accrual \nCertain charges that you incur in maintaining a fund need to be accrued. While setting up a \nfund preference class, you can specify accrual frequency preferences. The charge \ncomponents of funds associated with the product will be accrued based on these preferences.\nFrequency\nAs a product preference, you can specify the frequency with which the charges applicable to \na fund should be accrued. While specifying the details of the charge, you can indicate the \nperiod over which the charge should be accrued.\nThe accrual frequency can be one of the following:\nDaily\nMonthly\nQuarterly\nHalf yearly\nYearly\nStart Day\nIn the case of monthly, quarterly, half yearly or yearly accruals, you should specify the date \non which the accruals have to be done during the month. \nStart Month\nIf you set the accrual frequency as quarterly, half yearly or yearly, you have to specify the \nmonth in which the first accrual has to begin, besides the date on which the accruals should \nbe done."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Processing Charge Accrual on a Holiday",
+        "Fields Button"
+      ],
+      "summary": "This page explains how Oracle FLEXCUBE processes charge accruals on holidays and describes the 'Fields' button function in the application.",
+      "raw_text": "3-4\n3.1.1.1 \nProcessing Charge Accrual on a Holiday\nOracle FLEXCUBE carries out automatic accruals at the frequency that you specify, as part \nof the end of cycle processing. However, if the accrual date falls on a holiday, the accruals \nare done as per your holiday handling specifications in the ‘Branch Parameters’ screen:\nIf you have specified that automatic events are to be processed for a holiday(s) on the \nworking day before the holiday, the accruals falling due on a holiday(s) will be processed \nduring end-of-day processing on the last working day before the holiday.\nIf you have specified that the automatic events are to be processed for a holiday(s) on \nthe working day following the holiday, the automatic events falling due on a holiday(s) \nwill be processed on the next working day, during the beginning-of-day processing.\nClick ‘Exit’ or ‘Cancel’ button to return to the Application Browser.\n3.1.2 \nFields Button\nWhen you click on ‘Fields’, the ‘User Defined Fields’ screen will be displayed. \nSpecify the values in the fields and click ‘Ok’ button."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Asset Management Product Maintenance",
+        "Maintaining Asset Management Product Details"
+      ],
+      "summary": "This page discusses how to define attributes specific to a Fund product in Oracle FLEXCUBE and provides details on maintaining asset management product information.",
+      "raw_text": "4-1\n4. Defining Attributes Specific to a Fund Product\nA 'Fund Product' is a category or type of fund. For instance, you can define a mutual fund as \na product in Oracle FLEXCUBE. In this chapter, we shall discuss the manner in which you can \ndefine attributes specific to a Fund product.\nThis chapter contains the following section:\nSection 4.1, \"Asset Management Product Maintenance\"\n4.1 \nAsset Management Product Maintenance\nThis section contains the following topics:\nSection 4.1.1, \"Maintaining Asset Management Product Details\"\nSection 4.1.2, \"Preferences Button\"\nSection 4.1.3, \"MIS Button\"\nSection 4.1.4, \"Branch Currency Button\"\nSection 4.1.5, \"Customer Button\"\nSection 4.1.6, \"Interest Details Button\"\nSection 4.1.7, \"Charge Details Button\"\nSection 4.1.8, \"Tax Details Button\"\nSection 4.1.9, \"Accounting Roles Button\"\nSection 4.1.10, \"Events Button\"\nSection 4.1.11, \"Fields Button\"\n4.1.1 \nMaintaining Asset Management Product Details\nIf you are calling a Product Definition record that has already been defined, choose the \nSummary option. You can invoke this screen by typing ‘AMSFNPRD’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button. From the \n‘Summary’ screen double-click a product of your choice to open it."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "You can also create a Fund product in the ‘Asset Management Product Definition’ screen",
+        "Product Code",
+        "Product Description",
+        "Product Type"
+      ],
+      "summary": "This page explains how to create a Fund product in the 'Asset Management Product Definition' screen and details fields such as product code, description, and type.",
+      "raw_text": "4-2\nYou can also create a Fund product in the ‘Asset Management Product Definition’ screen, \ninvoked from the Application Browser. You can invoke the ‘Asset Management Product \nDefinition’ screen by typing ‘AMDFNPRD’ in the field at the top right corner of the Application \ntool bar and clicking the adjoining arrow button.\nIn this screen, you can enter basic information relating to a Fund product such as the Product \nCode, the Description, and so forth. \nNote\n After you enter the details related to a product in ‘Asset Management- Product definition’ \nscreen, the product code and description are defaulted in all sub screens and you cannot \nedit for screens like branches, customer and so forth.  \nFor any product you create in Oracle FLEXCUBE, you can define generic attributes, such as \nbranch, currency, and customer restrictions, interest details, tax details, and so forth, by \nclicking on the appropriate buttons in the horizontal array of icons in this screen. \nProduct Code\nSpecify the product code you need to create.\nProduct Description\nSpecify the description for the product specified.\nProduct Type\nAn important detail in defining a product is to specify the type of product you are creating. The \nproduct type identifies the basic nature of a product. A fund product that you create can be \nbroadly classified into:\nMutual funds \nPortfolio funds\nThe accounting entries that are passed, the messages that are generated, and the processing \nof funds involving this product are determined by the type of product that you create."
+    },
+    {
+      "page_number": 15,
+      "sections": [],
+      "summary": "This page describes various fields and options for creating a product, including descriptions, slogans, dates, remarks, and exchange rate variances.",
+      "raw_text": "4-3\nDescription\nThe description of the selected product type is defaulted here.\nSlogan\nSpecify a slogan for the specified product code.\nProduct Group\nSelect a valid product group from the adjoining option list.\nProduct Group\nProduct group description is defaulted here.\nStart Date\nSelect a date when you need to start the product from the adjoining Calendar icon.\nEnd Date\nSelect a date when you need to end the product from the adjoining Calendar icon.\nRemarks\nSpecify remarks for the selected product code.\nExchange Rate Variance\nFor a special customer, or in special cases, you may want to use an exchange rate (a special \nrate) that is greater than the exchange rate maintained for a currency pair. The variance is \nreferred to as the Exchange Rate Variance.\nWhen creating a product, you can express an Exchange Rate Variance Limit in terms of a \npercentage. This variance limit would apply to all funds associated with the product.\nThe Override Limit: If the variance between the default rate and the rate input varies by a \npercentage that is between the Override Limit and the Rate Stop Limit, you can save the \ntransaction (involving the fund) by providing an override.\nThe Rate Stop Limit: If the variance between the default rate and the rate input varies by a \npercentage greater than or equal to the Rate Stop Limit, you cannot save the transaction \ninvolving the fund.\n4.1.2 \nPreferences Button\nPreferences are the options that are available to you for defining the attributes of a product. \nThe preferences that you define for a product will be inherited by all funds that are associated \nwith the product.\nWhen you click ‘Preferences’, the following screen will be displayed. Specify the values in the \nfields and click ‘Ok’ button. Through this screen, you can define preferences for the product \nyou are creating."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Associating a Preference Class",
+        "Specifying Preferences for the Product"
+      ],
+      "summary": "This page explains how to define product preferences by associating them with a fund preference class or specifying them directly for the product.",
+      "raw_text": "4-4\nWhen defining a product, you can choose to specify preferences for the product, either by:\nAssociating the product with a Fund Preference Class\nDefining these preferences specifically for the product\n4.1.2.1 \nAssociating a Preference Class\nTo associate a fund preference class with a product, you need to click ‘Default From Class’ \nfrom the ‘Fund Product Preferences’ screen. A list of the fund preference classes that you \nhave defined under the fund preference class of asset management will be displayed. Choose \nthe fund preference class to be associated with the product from the option list.\n4.1.2.2 \nSpecifying Preferences for the Product\nThe following screen defines the preferences class:\nProduct\nProduct code is defaulted from the main screen.\nProduct Description\nProduct description is defaulted here."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Class Code",
+        "Fund Type",
+        "Cash Flow Period",
+        "Purge Allowed",
+        "Module",
+        "Purge"
+      ],
+      "summary": "This page outlines various settings and preferences for product configuration in a financial system, including class selection, fund type specification, cash flow period, purge options, and module assignment.",
+      "raw_text": "4-5\nClass Code\nSelect a valid class code from the adjoining option list.\nClass description\nClass description of the selected class code is defaulted here.\nFund Type\nSpecify the following details.\nFund type\nThe funds that you enter in Oracle FLEXCUBE can be internal or external. An internal fund is \none that originates from Oracle FLEXCUBE. An external fund is one that has originated from \na system external to Oracle FLEXCUBE.\nAs a product preference, you should indicate the type of funds that the product can cater to.\nCash Flow Period\nSpecify the period for which you need cash flow.\nPurge Allowed\nCheck this box to allow purging.\nModule\nSpecify the module to which the product code belongs.\nPurge\nYou can specify the following parameters here:\nFrequency\nSelect a valid frequency from the adjoining drop-down list. This list displays the following \nvalues:\nDaily\nMonthly\nQuarterly\nHalf yearly\nYearly\nStart Day\nIf you have selected monthly, quarterly, half yearly or yearly as the frequency for purge, then \nspecify the day you wish to start the purge the product.\nStart Month\nIf you have selected quarterly, half yearly or yearly as the frequency for purge, then specify \nthe month you wish to start the purge the product."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Charge Accrual",
+        "Frequency",
+        "Start day",
+        "Start month"
+      ],
+      "summary": "This page explains how to accrue charges for a fund based on specified frequencies and start dates, including daily, monthly, quarterly, half-yearly, and yearly options.",
+      "raw_text": "4-6\nCharge Accrual\nCertain charges that you incur in maintaining a fund need to be accrued. You can specify the \nfrequency with which charges should be accrued. The charge components of funds \nassociated with the product will be accrued based on these preferences.\nFrequency\nAs a product preference, you can specify the frequency with which charges should be \naccrued. While defining the details of the charge, you can indicate the period over which the \ncharge should be accrued.\nThe accrual frequency can be one of the following:\nDaily\nMonthly\nQuarterly\nHalf yearly\nYearly\nStart day\nIn the case of monthly, quarterly, half yearly or yearly accruals, you should specify the date \non which the accruals have to be done during the month. For example, if you specify the date \nas “30”, accruals will be carried out on that day of the month, depending on the frequency.\nIf you want to fix the accrual date for the last working day of the month, you should specify the \ndate as “31” and indicate the frequency. If you indicate the frequency as monthly, the accruals \nwill be done at the end of every month -- that is, on 31st for months with 31 days, on 30th for \nmonths with 30 days and on 28th or 29th, as the case may be, for February.\nIf you specify the frequency as quarterly and fix the accrual date as 31, the accruals will be \ndone on the last day of the month at the end of every quarter. It works in a similar fashion for \nhalf-yearly and yearly accrual frequency.\nStart month\nIf you set the accrual frequency as quarterly, half yearly or yearly, you have to specify the \nmonth in which the first accrual has to begin, besides the date on which the accruals should \nbe done.\nIf the accrual date is a holiday\nOracle FLEXCUBE carries out automatic accruals at the frequency that you specify, as part \nof the end of cycle processing. However, if the accrual date falls on a holiday, the accruals \nare done as per your holiday handling specifications in the ‘Branch Parameters’ screen."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "MIS Button"
+      ],
+      "summary": "This section describes how to use the 'MIS' button and details the fields that need to be specified on the 'MIS Details' screen for product management in a financial system.",
+      "raw_text": "4-7\n4.1.3 \nMIS Button\nWhen you click ‘MIS’, the following ‘MIS Details’ screen will be displayed. Specify the values \nin the fields and click ‘Ok’ button. \nSpecify the following details.\nProduct Code\nThe product code is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. One of the characters of the code should \nnecessarily be a letter of the English alphabet. You can follow your own convention for \ndevising this code.\nMIS Group\nWhen you click ‘Default from MIS Group’, the following ‘MIS Group’ will be displayed. Select \nan MIS Group from the adjoining option list.\nPool Code\nSelect the pool code from the list.\nCost Code\nSelect the cost code from the list.\nFor a Funds product, in addition to these generic attributes, you can specifically define other \nattributes. These attributes are discussed in detail in this chapter. \nYou can define the attributes specific to a Fund product in the ‘Fund Product Definition Main’ \nscreen and the ‘Fund Product Preferences’ screen. In these screens, you can specify the \nproduct type and set the product preferences respectively.\nFor further information on the generic attributes that you can define for a product, please refer \nthe following Oracle FLEXCUBE User Manuals:\nProducts\nInterest\nUser Defined Fields"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Settlements",
+        "MIS Codes",
+        "Branch Currency Button",
+        "Product Code",
+        "Product Description"
+      ],
+      "summary": "This page describes how to specify details for settlements, MIS codes, branch currency restrictions, product codes, and product descriptions in a financial management system.",
+      "raw_text": "4-8\nSettlements\nMIS Codes\nSpecify the following details.\nMIS Class\nThis displays the MIS class.\nMIS Code\nSelect the MIS code from the list\n4.1.4 \nBranch Currency Button\nWhen you click ‘Branch Currency’ button, the following ‘Branch/Currency Restrictions’ screen \nwill be displayed.\nSpecify the values in the fields and click ‘Ok’ button. \nSpecify the following details.\nProduct Code\nThe product code is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. One of the characters of the code should \nnecessarily be a letter of the English alphabet. You can follow your own convention for \ndevising this code.\nProduct Description\nThe description is defaulted for all the sub screens after you enter the same in the ‘Asset \nManagement- Product Definition’ main screen. The short description enables you to identify \nthe fund product quickly. The description is for information purposes only and will not be \nprinted on any customer correspondence."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Class Code",
+        "Class Description",
+        "Branch Restrictions",
+        "Branch Code",
+        "Currency",
+        "Currency Code",
+        "Currency Name"
+      ],
+      "summary": "This page describes various parameters and settings related to class codes, branch restrictions, currency restrictions, and their corresponding codes and names in a system.",
+      "raw_text": "4-9\nClass Code\nThe system displays the class code linked to the product.\nClass Description\nThe system displays a brief description of the class code linked to the product.\nBranch Restrictions\nSelect whether Branch Restriction is Disallowed or Allowed.\nBranch Code\nYou can maintain the following parameters here:\nBranch Code\nEnter the branch code from the list.\nBranch Name\nThis displays the description for the corresponding branch code, when you select the branch \ncode from the list.\nCurrency\nSelect whether Currency Restriction is Disallowed or Allowed.\nCurrency Code\nEnter the currency code from the list.\nCurrency Name\nThis displays the description for the corresponding currency code, when you select the \ncurrency code from the list.\nClick ‘Default From Class’ to associate the product you are maintaining with a class of \nmapped branches and currencies. A list of the classes that you have defined specifically for \nthe module will be displayed. Choose the appropriate one."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Customer Button",
+        "Product Code",
+        "Product Description",
+        "Class Details",
+        "Restriction Type"
+      ],
+      "summary": "This page describes how to use the 'Customer' button and details on specifying product codes, descriptions, class information, and restriction types.",
+      "raw_text": "4-10\n4.1.5 \nCustomer Button\nWhen you click ‘Customer’ button, the following ‘Customer Restrictions’ screen will be \ndisplayed. Specify the values in the fields and click ‘Ok’ button. \nSpecify the following details.\nProduct Code\nThe product code is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. One of the characters of the code should \nnecessarily be a letter of the English alphabet. You can follow your own convention for \ndevising this code.\nProduct Description\nThe description is defaulted for all the sub screens after you enter the same in the ‘Asset \nManagement- Product Definition’ main screen. The short description enables you to identify \nthe fund product quickly. The description is for information purposes only and will not be \nprinted on any customer correspondence.\nClass Details\nSpecify the following details.\nClass Code\nThe system displays the class code linked to the product.\nClass Description\nThe system displays a brief description of the class code linked to the product.\nRestriction Type\nYou can select the following categories here:"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Categories List",
+        "Interest Details Button"
+      ],
+      "summary": "This page describes how to specify restrictions on an account by selecting categories and entering details such as codes, descriptions, and customer information. It also explains how to use the 'Default From Class' feature and introduces the 'Interest Details' screen.",
+      "raw_text": "4-11\nCategories List\nSpecify the type of restriction being placed on the account by selecting from the following \noption list:\nDisallowed \nAllowed\nCategory\nSpecify the following details:\nCode\nEnter the code from the list.\nDescription\nThis displays the description for the corresponding code, when you select the code from the \nlist.\nCustomers\nSpecify the following details.\nCustomer ID\nSelect the customer ID from the option list. \nCustomer Name\nThis displays the customer name.\nRestriction\nThis displays whether allowed or disallowed.\nClick ‘Default From Class’ to associate the product you are maintaining with a class of \nmapped customers and customer categories. A list of the classes that you have defined \nspecifically for the module will be displayed. Choose the appropriate one.\n4.1.6 \nInterest Details Button\nThe following ‘Interest Details’ screen will be displayed, when you click ‘Interest’. Specify \nvalues in the fields and click ‘Ok’ button."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Product Code",
+        "Product Description",
+        "Component Details"
+      ],
+      "summary": "This page outlines how to specify product codes and descriptions in the 'Asset Management- Product Definition' main screen, as well as details on component specifications.",
+      "raw_text": "4-12\n \nSpecify the following details.\nProduct Code\nThe product code is defaulted for all the sub screens after you enter the same in the ‘Asset \nManagement- Product Definition’ main screen. One of the characters of the code should \nnecessarily be a letter of the English alphabet. You can follow your own convention for \ndevising this code.\nProduct Description\nThe description is defaulted for all the sub screens after you enter the same in the ‘Asset \nManagement- Product Definition’ main screen. The short description enables you to identify \nthe fund product quickly. The description is for information purposes only and will not be \nprinted on any customer correspondence.\nComponent Details\nSpecify the following details.\nComponent\nEnter the component details.\nComponent Description\nDescription of the selected component is defaulted here.\nStop Association\nCheck or uncheck the stop association."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Interest Details",
+        "Leg Type",
+        "Event Details",
+        "Basis Amount Tag",
+        "Description",
+        "Amount Category",
+        "Rate Type",
+        "Floating Rate Type",
+        "Flat Amount Per Unit",
+        "Rate Details",
+        "Default Rate Code",
+        "Rate Code Description"
+      ],
+      "summary": "This page details various interest-related settings and options, including primary interest, accrual requirements, coupon types, leg type selection, event specifications, rate types, and default rate codes.",
+      "raw_text": "4-13\nInterest Details\nThe following are the interest details. Check any one of the following:\nPrimary Interest\nAccrual Required\nCoupon\nLeg Type\nSelect the Leg Type from the following:\nIn \nOut\nEvent Details\nSpecify the following details.\nEvent for Association\nEnter the event for association.\nEvent Description\nDescription of the selected event is defaulted here.\nBasis Amount Tag\nEnter the basis amount tag.\nDescription\nDescription of the amount tag selected as basis is defaulted here\nAmount Category\nEnter the amount category.\nRate Type\nSelect the rate type from the following:\nFloating\nFixed\nSpecial\nFloating Rate Type\nSelect the Floating rate type from the following:\nAutomatic\nPeriodic\nFlat Amount Per Unit\nCheck or uncheck the flat amount per unit.\nRate Details\nSpecify the following details.\nDefault Rate Code \nSelect the default rate code from the list.\nRate Code Description\nDescription of the selected rate code is defaulted here."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Default Rate Source",
+        "Default Tenor",
+        "Other Details",
+        "Rates Button"
+      ],
+      "summary": "This page describes how to select default rate and tenor sources, configure additional options, and set interest currency limits including minimum and maximum rates and spreads.",
+      "raw_text": "4-14\nDefault Rate Source\nSelect the default rate source from the list.\nRate Source Description\nDescription of the selected rate source is defaulted here.\nDefault Tenor\nSelect the default tenor from the list.\nTenor Description\nDescription of the selected tenor is defaulted here.\nOther Details\nCheck the required options from the following:\nDefault Waiver\nAmend After Association\nAllow Rate Type Amendment\nAllow Rate Amendment\nAllow Rate Code Amendment\n4.1.6.1 \nRates Button\nWhen you click ‘Rates’, the following ‘Interest Currency Limits’ screen will be displayed. \nSpecify the values in the fields and click ‘Ok’ button. \nSpecify the following details.\nCurrency\nSelect the currency of the fund in which the amount is being invested.\nEnter the following details:\nMinimum Rate\nMaximum Rate\nDefault Rate\nMinimum Spread"
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Maximum Spread",
+        "Charge Details Button"
+      ],
+      "summary": "This page explains how to associate a product with a class of mapped interest details and how to specify charge details including product code, description, and component details.",
+      "raw_text": "4-15\nMaximum Spread\nClick ‘Default From Class’ to associate the product you are maintaining with a class of \nmapped interest details. A list of the classes that you have defined specifically for the module \nwill be displayed. Choose the appropriate one.\n4.1.7 \nCharge Details Button\nThe following ‘Charge Details’ screen will be displayed when you click ‘Charges’. Specify the \nvalues in the fields and click ‘Ok’ button. \nSpecify the following details.\nProduct Code\nThe product code is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. One of the characters of the code should \nnecessarily be a letter of the English alphabet. You can follow your own convention for \ndevising this code.\nProduct Description\nThe description is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. The short description enables you to identify \nthe fund product quickly. The description is for information purposes only and will not be \nprinted on any customer correspondence.\nComponent Details\nSpecify the following details.\nComponent\nThe list of components displays, when you click ‘Default From Class’. Select the component \ndetails from the list.\nDescription\nThis displays the description, when you enter the component details.\nStop Association\nCheck or uncheck stop association."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Propagation Required",
+        "Charge Type",
+        "Third Party Type",
+        "Debit/Credit",
+        "Add/Subtract",
+        "Net consideration",
+        "Advice Charge",
+        "Swift Qualifier",
+        "Event Details",
+        "Event for Association",
+        "Description",
+        "Event for Liquidation",
+        "Description",
+        "Event for Application",
+        "Description",
+        "Basis Amount Tag"
+      ],
+      "summary": "This page describes various fields and options related to event details, charge types, and other settings.",
+      "raw_text": "4-16\nPropagation Required\nCheck or uncheck propagation required.\nCharge Type\nSelect the charge type from the drop-down list.\nThird Party Type\nEnter the third party type.\nDebit/Credit\nSelect debit or credit.\nAdd/Subtract\nSelect add or subtract.\nNet consideration\nCheck or uncheck net consideration.\nAdvice Charge\nCheck or uncheck advice charge.\nSwift Qualifier\nEnter the swift qualifier.\nEvent Details\nSpecify the following details.\nEvent for Association\nThe corresponding event for association displays when you select the component from \ndefault class.\nDescription\nThe description for corresponding event for association displays when you select the \ncomponent from default class.\nEvent for Liquidation\nThe corresponding event for liquidation displays when you select the component from default \nclass.\nDescription\nThe description for corresponding event for liquidation displays when you select the \ncomponent from default class.\nEvent for Application\nThe corresponding event for application displays when you select the component from default \nclass.\nDescription\nThe description for corresponding event for application displays when you select the \ncomponent from default class.\nBasis Amount Tag\nThe corresponding basis amount tag displays when you select the component from default \nclass."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Rule Details",
+        "Rule",
+        "Description",
+        "Default Waiver",
+        "Capitalize"
+      ],
+      "summary": "This page describes how to specify details for a corporate action settlement currency and rules related to it, including options for waiving charges and capitalization settings.",
+      "raw_text": "4-17\nDescription\nThe description for corresponding basis amount tag displays when you select the component \nfrom default class.\nRule Details\nSpecify the following details.\nSettlement Currency\nIndicate the currency in which the corporate action should be settled. Depending on the type \nof corporate action you are processing, it could be the currency in which,\nA subscription is made to the fund\nUnits of the fund are redeemed\nDividend is paid\nThe settlement of a corporate action can be in the base currency of the fund or in another \ncurrency. If the corporate action is in the base currency of the fund, choose the option 'In Fund \nCurrency'. If the corporate action is not in the base currency of the fund, indicate the currency \nin which the corporate action is to be settled. Click the adjoining option list icon and select a \ncurrency code from the list. The equivalent of the Nominal FCY amount denominated in the \nbase currency of the fund is displayed. The standard exchange rate is used in the currency \nconversion.\nRule\nSelect rule from the list or when you select the component from default class, the \ncorresponding rule displays.\nDescription\nThis displays the description for the selected rule.\nDefault Waiver\nIf you have indicated a specific rate for NAV charge computation, you can waive it if required \nby checking this box. If you have opted for the waiver of charges, you must specify a specific \nrate.\nCapitalize\nCheck or uncheck capitalize.\nCollect LC Advising Charges in Bills\nCheck this box if you need to collect advising charges for LC bills.\nOther Details\nCheck the required options from the following:\nAllow Rule Amendment\nAmend after Association\nAllow Amount Amendment\nAccrual Required\nAmend after Application\nConsider as Discount\nDiscount Basis"
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Tax Details Button",
+        "Transaction Level Tax Tab"
+      ],
+      "summary": "This section describes how to specify tax details by entering product code and description, selecting a tax scheme, and specifying transaction level tax tab details such as component and stop association.",
+      "raw_text": "4-18\n4.1.8 \nTax Details Button\nThe following ‘Tax Details’ screen will be displayed when you click ‘Tax’. Specify the values \nin the fields and click ‘Ok’ button. \nSpecify the following details.\nProduct Code\nThe product code is defaulted for all the sub screens after you enter the same in the ‘Asset \nManagement- Product Definition’ main screen. One of the characters of the code should \nnecessarily be a letter of the English alphabet. You can follow your own convention for \ndevising this code.\nProduct Description\nDescription of the Product is defaulted here from the main screen.\nScheme Details\nTax Scheme\nSelect tax scheme you need from the adjoining option list.\nScheme Description\nDescription of the selected scheme is defaulted here.\nClick ‘Default From Class’ button to default details maintained for the linked scheme.\n4.1.8.1 \nTransaction Level Tax Tab\nSpecify the following details.\nComponent\nEnter the component.\nStop Association\nCheck or uncheck stop association."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Tax Type",
+        "Borne By",
+        "Net Consideration",
+        "Cash Outflow",
+        "Add/Subtract",
+        "Enter the following details:",
+        "Issuer Tax Tab"
+      ],
+      "summary": "This page outlines various fields and options to be filled in for tax-related entries, including selecting tax types, specifying cash flows, and entering event descriptions.",
+      "raw_text": "4-19\nTax Type\nSelect tax type from the drop-down list.\nBorne By\nSelect Borne by from the drop-down list.\nNet Consideration\nCheck or uncheck net consideration.\nCash Outflow\nCheck or uncheck cash outflow.\nAdd/Subtract\nSelect add or subtract from the drop-down list.\nEnter the following details:\nSwift Qualifier\nEvent for Association\nEvent for Application\nEvent for Liquidation\nBasis Amount Tag\n4.1.8.2 \nIssuer Tax Tab \nSpecify the following details.\nComponent\nEnter the component.\nStop Association\nCheck or uncheck stop association.\nEvent for Association\nEnter the event for association.\nEvent Description\nDescription of the selected event for association is defaulted here."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Basis Amount Tag",
+        "Default Rate Code",
+        "Default Waiver",
+        "Amend after Association",
+        "Allow Rate Code Amendment",
+        "Accounting Roles Button"
+      ],
+      "summary": "This page describes various settings and options related to financial tags, rate codes, waivers, and accounting roles in a system.",
+      "raw_text": "4-20\nBasis Amount Tag\nEnter the basis amount tag.\nDescription\nDescription of the selected amount tag is defaulted here.\nDefault Rate Code\nSelect the default rate code from the list.\nDescription\nDescription of the selected rate code is defaulted here.\nDefault Waiver\nCheck or uncheck default waiver.\nAmend after Association\nCheck or uncheck amend after association.\nAllow Rate Code Amendment\nCheck or uncheck allow rate code amendment.\n4.1.9 \nAccounting Roles Button\nWhen you click ‘Accounting Roles’, the following ‘Accounting Roles’ screen will be displayed. \nSpecify the values in the fields and click ‘Ok’ button. \nSpecify the following details.\nProduct Code\nThe product code is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. One of the characters of the code should \nnecessarily be a letter of the English alphabet. You can follow your own convention for \ndevising this code."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Product Description",
+        "Class Details",
+        "Roles",
+        "Events Button"
+      ],
+      "summary": "This page describes how to set up product details in an asset management system, including product description, class code and description, roles such as accounting role and account head, and the events button functionality.",
+      "raw_text": "4-21\nProduct Description\nThe description is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. The short description enables you to identify \nthe fund product quickly. The description is for information purposes only and will not be \nprinted on any customer correspondence.\nClass Details\nSpecify the following details.\nClass Code\nThe system displays the class code linked to the product.\nClass Description \nThe system displays a brief description of the class code linked to the product.\nRoles\nSpecify the following details.\nAccounting Role\nSelect accounting role from the list.\nRole Description\nThe corresponding description displays, when you select accounting role from the list.\nAccount Head\nSelect the account head from the list.\nGL Description\nThe corresponding description displays, when you select accounting head from the list.\n4.1.10 \nEvents Button\nWhen you click the ‘Events’ button the ‘Events’ screen will be displayed. Specify the values \nin the fields and click ‘Ok’ button."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Product Code",
+        "Product Description",
+        "Class Details",
+        "Events Details"
+      ],
+      "summary": "This page outlines the default settings for product codes and descriptions in asset management, as well as details on class and event codes.",
+      "raw_text": "4-22\n \nSpecify the following details.\nProduct Code\nThe product code is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. One of the characters of the code should \nnecessarily be a letter of the English alphabet. You can follow your own convention for \ndevising this code.\nProduct Description\nThe description is defaulted for all the sub screens after you enter the same in the Asset \nManagement- Product definition main screen. The short description enables you to identify \nthe fund product quickly. The description is for information purposes only and will not be \nprinted on any customer correspondence.\nClass Details\nSpecify the following details.\nClass Code\nThe system displays the class code linked to the product.\nClass Description \nThe system displays a brief description of the class code linked to the product.\nEvents Details\nSpecify the following details.\nEvent Code\nSelect the event from the list."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Advices Button"
+      ],
+      "summary": "This section describes how to specify advices for various events in the 'Asset Management- Product definition' screen and details the fields that need to be maintained.",
+      "raw_text": "4-23\nDescription\nThe corresponding description is defaulted, when you select event from the list.\n4.1.10.1 Advices Button\nYou can select the advices that should be triggered for various events. The selected advices \nare generated, once the product is authorized. These advices can be simple Debit /Credit \nadvices when any payment or disbursement is made, Deal Slip advices, Rate Revision \nadvices, Loan advices etc. \nTo specify the advices for an event, click ‘Advices’ in the ‘Events’ sub-screen of the ‘Asset \nManagement- Product definition’ screen – the following screen is displayed. \nThe following advice details have to be maintained in the screen:\nEvent Code\nCode of the specified event is defaulted from the Event level.\nDescription\nDescription of the specified event is defaulted from the Event level.\nAdvices Details\nThe following advice details can be maintained here:\nAdvice Name\nSpecify a valid advice you want to trigger, from the adjoining option list. This option list \ndisplays advices applicable for the module. \nDescription\nDescription of the specified advice is defaulted here.\nGeneration Time\nAuthorization is defaulted as the generation time for all advices which need to be generated \nfor a specified Event."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Suppress",
+        "Priority",
+        "Charges",
+        "Fields Button"
+      ],
+      "summary": "This page describes options for suppressing and prioritizing advice generation, collecting charges, and accessing user-defined fields in a system.",
+      "raw_text": "4-24\nSuppress\nSelect ‘Y’ or ‘N’ from the adjoining drop-down list to either suppress or allow the generation of \nsome advices.\nPriority\nSelect the importance of the advice generation from the adjoining drop-down list. This list \ndisplays the following values:\nHigh\nMedium\nLow \nCharges\nCheck this box if you want to collect charges for advice generation. \nFor a detailed list of Events, Advices, Accounting Roles and Amount Tags, refer ‘Annexure’ \nof this User Manual.\n4.1.11 \nFields Button\nClick ‘Fields’ button to invoke the ‘User Defined Fields’ screen.\nSpecify the values in the fields and click ‘Ok’ button.\nClick ‘Exit’ or ‘Cancel’ button to return to the Application Browser."
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Fund Input",
+        "Maintaining Fund On-line Details"
+      ],
+      "summary": "This page describes how to set up a fund in Oracle FLEXCUBE, including inputting specific details and navigating through various tabs for detailed configurations.",
+      "raw_text": "5-1\n5.  Setting up a Fund\nA fund that you process in Oracle FLEXCUBE can be internal or external. An internal fund is \none that is created and managed entirely in Oracle FLEXCUBE, and an external fund one that \nhas originated from a system external to Oracle FLEXCUBE. Internal and external funds are \nfurther classified into:\nPortfolio\nMutual funds\nTo recall, you have already created fund products to group together or categorize Funds that \nshare broad similarities. Under each Product that you have defined, you can enter specific \nfunds based on your requirement.\nBy default a fund inherits all the attributes of the product associated with it. This means that \nyou will not have to define the general attributes of a fund each time you input a fund involving \na product.\nThis chapter contains the following sections:\nSection 5.1, \"Fund Input\"\n5.1 \nFund Input\nThis section contains the following topics:\nSection 5.1.1, \"Maintaining Fund On-line Details\"\nSection 5.1.2, \"Fund Details Tab\"\nSection 5.1.3, \"Bank Accounts Tab\"\nSection 5.1.4, \"Net Asset Value Button\"\nSection 5.1.5, \"Charges Button\"\nSection 5.1.6, \"Tax Details Button\"\nSection 5.1.7, \"Settlement Button\"\nSection 5.1.8, \"MIS Button\"\nSection 5.1.9, \"Rate Button\"\nSection 5.1.10, \"Fields Button\"\nSection 5.1.11, \"Events Button\"\nSection 5.1.12, \"Message Button\"\n5.1.1 \nMaintaining Fund On-line Details\nIf you are calling a fund online record that has already been defined, choose the Summary \noption. From the ‘Summary’ screen double-click a class of your choice to open it. You can"
+    },
+    {
+      "page_number": 38,
+      "sections": [],
+      "summary": "This page describes how to invoke the 'Fund On-Line Summary' screen and provides instructions for setting up a new fund.",
+      "raw_text": "5-2\ninvoke the ‘Fund On-Line Summary’ screen by typing ‘AMSFNONL’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button.\nThe ‘Fund On-Line Summary’ screen can also be invoked by typing ‘AMDFNONL’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button.\nIf you are setting up a new fund, Click the ‘New’ button on the Application tool bar."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Associating Product to Fund",
+        "Fund Identity"
+      ],
+      "summary": "This page explains how to associate a product with a fund and enter details such as the fund's reference number and identity in the 'Fund Online' screen.",
+      "raw_text": "5-3\nThe ‘Fund Online’ screen as it appears contains a header, a footer containing fields that are \nspecific to the fund you are creating, and two tabs (Fund details and Bank accounts). Besides \nthese, you will also notice a horizontal array of six icons along the lines of which you can enter \ndetails of a fund. Fund details are grouped into screens according to the similarities they \nshare.\nAssociating Product to Fund\nYou should necessarily use a product that has already been created to enter the details of a \nfund. \nProduct\nDepending on the type of fund you are creating, you can select an appropriate product code \nfrom the option list available.\nProduct Description\nDescription of the product is defaulted here.\nA fund will inherit all the attributes defined for the product associated with it. You can further \nadd details that are specific to the fund like the face value of the units of the fund, the fund \nbase currency, the life span of the fund and so forth and change some of the defaulted \nattributes.\nThis feature renders the creation of a fund quick and easy.\nFund Identity\nBesides the reference number generated by the system, you should enter a unique six to nine \ncharacter reference number to identify the fund. By default, Oracle FLEXCUBE defaults the \nproduct code and the last five characters of the Fund reference number as the Fund ID. You \ncan change the default.\nThis number, in addition to the 'Fund Reference Number', will be used to identify the fund.\nFund Reference Number\nIn Oracle FLEXCUBE, reference numbers are generated automatically and sequentially by \nthe system. This number tag is used to identify the fund you are defining. Hence, the system \ngenerates a unique number for each fund.\nThe fund reference number is a combination of a three-digit branch code, a four-character \nproduct code, a five-digit Julian Date, and a four-digit serial number. The Julian date has the \nfollowing format:\n‘YYDDD’\nHere, YY stands for the last two digits of the year and DDD for the number of day (s) that has/\nhave elapsed in the year.\nFor example, January 31, 1999 translates into the Julian date: 99031. Similarly, February 5, \n1999 becomes 99036 in the Julian format. Here, 036 is arrived at by adding the number of \ndays elapsed in January with those elapsed in February (31+5 = 36).\nEvery transaction in a fund is tracked against the Fund reference. This reference is also used \nfor MIS tracking.\n5.1.2 \nFund Details Tab\nYou can maintain the following details here:"
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Fund Description",
+        "Fund Start Date",
+        "Fund End Date",
+        "Note",
+        "Fund Role To Head Class",
+        "Indicating the fund category"
+      ],
+      "summary": "This page discusses various aspects of defining a fund in an accounting system, including its description, start and end dates, role to head class mapping, and categorization.",
+      "raw_text": "5-4\nFund Description\nYou should specify a short description that will enable you to identify the fund quickly.\nThe short description that you specify is for information purposes only and will not be printed \non any customer correspondence.\nFund Start Date\nWhen you create a fund, you must also specify the life span (start and end date) of the fund. \nThe period that you specify, as the life span of a fund should fall within the life span of the \nproduct associated with the fund.\nFund End Date\nThe end date for a close-ended fund refers to the fund termination date (after which, \nsubscription and redemption is disallowed).\nNote\n If you do not specify an End Date for the fund, the fund is taken to be an open-ended fund. \nIt is important to note that you cannot associate an open-ended fund with a closed end \nfund product.\nFund Role To Head Class\nTo recall, while defining a product you have already indicated the accounting roles and heads \nthat are applicable to the product. These become applicable to all funds to which the product \nis associated.\nWhile processing a fund, you have the option to change the Role to Head mapping class \ndefaulted from the product. The accounting entries that are passed for the fund will be posted \nto accounts based on the Accounting Role to Head class that you associate with it.\nIndicating the fund category\nWhile creating a fund you should indicate to which category the fund belongs. Funds in Oracle \nFLEXCUBE are categorized into:\nInternal Funds \nExternal Funds\nAn internal fund is one that is created and managed entirely in Oracle FLEXCUBE, and an \nexternal fund one that has originated from a system external to Oracle FLEXCUBE, for \nexample, Oracle FLEXCUBE Investor Servicing.\nFund Base Currency\nThe base currency is the currency in which the Fund should be denominated. You can select \na currency code from the option list that is displayed. The NAV and dividend declarations for \nthe Fund will be expressed and calculated in this currency.\nSubscriptions can be made to the fund in a currency that is different from the base currency; \nbut entitlement and benefits will be calculated in the fund base currency. The standard \nexchange rate defined for the currency pair is used for the conversion.\nFor example, You have set up a fund with the base currency as USD. The subscription price \nof a unit of the fund is USD 10.\nYou have received an investment of DEM 10,000 to the fund. The existing exchange rate for \nthe currency pair is 1:2."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Face Value",
+        "Decimal Units",
+        "Units Round",
+        "Fund Buy Load",
+        "Fund Sell Load"
+      ],
+      "summary": "This page explains how units are allotted for an investment in a mutual fund based on the investment amount and details rounding preferences for fractional units, as well as the roles of face value, buy load, and sell load in determining the subscription price.",
+      "raw_text": "5-5\nThe allotment of units for the investment is made based on the USD equivalent of the \nInvestment amount. In this case 500 units of the fund will be allotted for the invested amount.\nFace Value\nFor the mutual funds that you set up, you should indicate the face value of each unit of the \nfund.\nDecimal Units\nYou can indicate the number of decimal units up to which fractional units of the fund can be \nallotted. This preference together with the rounding preference that you specify is used to \ndetermine the allocation of fractional units of the fund.\nFor example, You have received an investment of USD 10,000 to a fund. The subscription \nprice of a unit of the fund is USD 55. In this case, the number of units that you would allot from \nthe fund is a fraction and amounts to 181.818181 units.\nDecimal units = 2\nRounding preference = Round up\nIn this case, the number of units that should be allocated is 181.82 Units.\nUnits Round\nWhen allocating units of a fund, you may encounter fractional units. Therefore, you need to \nspecify preferences as to how the fractional units should be rounded. The options available \nare:\nFund Buy Load\nThe fund buy load indicates the percentage of the NAV that should be added to the NAV of a \nunit of the fund to calculate the price at which the unit can be subscribed.\nThe buy load is used to calculate the price at which a unit of the fund should be sold. It is \nexpressed as a percentage of the NAV.\nSubscription price = NAV + Buy Load\nFund Sell Load\nThe fund sell load indicates the percentage of the NAV that should be subtracted from the \nNAV of a unit of the fund to calculate the price at which the unit can be subscribed.\nThe sell load is used to calculate the price at which a unit of the fund should be redeemed. It \nis expressed as a percentage of the NAV.\nRedemption price = NAV - Sell Load\nOption\nDetails\nRound Standard\nThe fraction will be rounded up to the next full unit if fraction is \ngreater than 0.5, else it will be rounded down to the previous full \nunit.\nRound Up\nThe fraction will be rounded up to the next full unit.\nRound Down\nThe fraction will be rounded down to the previous full unit."
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Indicating the Fund Pricing Strategy",
+        "Bank Accounts Tab"
+      ],
+      "summary": "This page explains the fund pricing strategy options (pre-NAV and post-NAV) and how they affect subscription, redemption, and unit allocation, as well as instructions on setting up bank accounts for asset settlement in the 'Fund On-Line' screen.",
+      "raw_text": "5-6\nIndicating the Fund Pricing Strategy\nThe pricing strategy for a fund indicates when and at what price units of the fund should be \nallocated. The options available are:\nPre NAV \nPost NAV\nThe pricing strategy helps to determine:\nThe price at which subscription or redemption should be made \nWhen the allocation of units can be done\nIf you choose the pre-NAV option, the NAV of the fund calculated at Beginning of Day (BOD) \nwill be the basis on which the price of a unit of the fund is determined. For funds with pre NAV \npricing, subscription and redemption can be done immediately.\nIf you select the post-NAV funding strategy, the NAV calculated at End of Day (EOD) would \nbe used to determine the price of a unit of the fund. As the price of a unit of the fund is \ndetermined using the NAV calculated during EOD; any allocation or redemption of units from \nthe fund can be done only after the EOD is run.\n5.1.3 \nBank Accounts Tab\nClick the tab titled 'Bank Accounts' from the ‘Fund On-Line’ screen to indicate the asset \nsettlement accounts that should be used in the accounting entries that are passed for the \nfund. \nSpecify the following details."
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Indicating settlement accounts for a fund",
+        "Net Asset Value Button"
+      ],
+      "summary": "This page explains how to indicate settlement accounts for a fund in different currencies and describes the Net Asset Value (NAV) button in Oracle FLEXCUBE, including its formula and methods of calculation.",
+      "raw_text": "5-7\nIndicating settlement accounts for a fund\nA fund that you create can have bank accounts in different currencies. However it is \nmandatory for you to indicate an asset account in the base currency of the fund. These \naccounts will be used when investments are made into the fund in a currency other than the \nfund base currency.\nNote\nYou can maintain only one bank account for a specific currency. The Bank settlement ac-\ncount is unique for a particular fund.\nFor external funds\nFor external funds, you can specify the related account number. This is the number by which \nthe fund is identified in the external system.\n5.1.4 \nNet Asset Value Button\nIn Oracle FLEXCUBE, the NAV of a fund is computed using the following formula:\nThe total assets and liabilities are computed based on the GL + MIS balances for the fund. \nFor the purpose of NAV calculation, you can indicate the GLs that should be considered for \nNAV calculation. You can indicate these GLs by maintaining either a list of GLs that should \nbe included or excluded for NAV calculations.\nYou can define several NAV calculation methods for a Fund. Each NAV for the fund can be \ndefined with a set of GLs to be included or excluded and NAV calculation frequency"
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Identifying a GL Combination for NAV Calculation",
+        "Specifying GLs for NAV Calculation"
+      ],
+      "summary": "This page explains how to identify and specify general ledger combinations for calculating the Net Asset Value (NAV) of a fund in an online system, including defining unique IDs and choosing included or excluded lists of GLs.",
+      "raw_text": "5-8\npreferences. Click ‘Net Asset Value’ button from the ‘Fund On-Line’ screen to invoke the GLs \nfor ‘NAV Calculation’ screen. \n5.1.4.1 \nIdentifying a GL Combination for NAV Calculation\nThe NAV of a fund is calculated using the balances of a combination of GLs that you define. \nYou can define several sets of GL combinations for the purpose of NAV calculation. Each \nsuch GL combination should be assigned a unique identification ID.\nNet Asset Value Identification\nIf you have defined several GL combinations for calculating the NAV of a fund, you can assign \none of the combinations as the Main NAV.\nFor external funds, the GL combination marked as the Main NAV is handed off to Oracle \nFLEXCUBE Investor Servicing.\n5.1.4.2 \nSpecifying GLs for NAV Calculation\nYou can specify the GLs to be included for calculating the NAV of a fund either in the form of \nan ‘included’ or ‘excluded’ list. You can indicate your preference by choosing the appropriate \noption under the field 'Selected GLs'.\nThe entire list of GLs maintained at your bank is displayed under the head GLs available. If \nyou have maintained an included list, the GLs displayed in the selected column only will be \nconsidered for NAV calculation. If you selected the 'excluded' option, all GLs other than the \nones in the excluded list will be considered for NAV calculation.\nThe list of GLs for NAV calculations can be maintained under GL code. Their inclusion/\nexclusion depends on the selection of ‘To be included for Net asset value calculation’ and ‘To \nbe excluded for net asset value calculation’ options."
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "Net Asset Value (NAV) Frequency",
+        "Start Day",
+        "Start Month"
+      ],
+      "summary": "This page explains how to set the frequency for calculating Net Asset Value (NAV) of a fund and details the specific dates and months associated with different calculation frequencies.",
+      "raw_text": "5-9\nNet Asset Value (NAV) Frequency\nYou can maintain the following parameters here:\nFrequency\nYou can indicate the frequency, with which the Net Asset Value of a fund should be \ncalculated. The frequency that you specify can be:\nDaily\nMonthly\nQuarterly \nAnnually\nOracle FLEXCUBE will automatically calculate the NAV of a fund, as part of the end of cycle \nprocessing based on the preferences that you specified here.\nStart Day\nIn the case of monthly, quarterly, half yearly or yearly frequencies, you should specify the date \non which the NAV should be calculated during the month. For example, if you specify the date \nas ‘30’, NAV will be calculated on that day of the month, depending on the frequency.\nIf you want to fix the NAV calculation date for the last working day of the month, you should \nspecify the date as ‘31’ and indicate the frequency. If you indicate the frequency as monthly, \nthe NAV of the fund will be calculated at the end of every month -- that is, on 31st for months \nwith 31 days, on 30th for months with 30 days and on 28th or 29th, as the case may be, for \nFebruary.\nIf you specify the frequency as quarterly and fix the calculation date as 31, the NAV will be \ncalculated on the last day of the month at the end of every quarter. It works in a similar fashion \nfor half-yearly and yearly calculation frequency.\nStart Month\nIf you set the calculation frequency as quarterly, half yearly or yearly, you have to specify the \nmonth in which the NAV calculation for the fund should be done, besides the date on which \nthe calculation should be done.\nFor example, you have selected the half-yearly option and specified the start month as June \nand the start date as 31.\nIn this case, Oracle FLEXCUBE will calculate the NAV of the fund first on 30 June for the \nperiod from January 1 to June 30 and second on 31 December for the period from 1 July to \n31 December.\nIf the calculation date falls on a holiday\nIf the NAV calculation date falls on a holiday, the calculation is done as per your holiday \nhandling specifications in the ‘Branch Parameters’ screen.\nThe System provides two Basis Amount tags for NAV Charge calculation:\nNAVAMT – For this amount tag, no holiday treatment is available. It is used for daily, \nmonthly, quarterly, half yearly as well as annual funds. \nNAV-ANNULZD-AMT – This tag is available only for daily funds.\nFor Daily NAV funds in respect of which the NAV charges (NAVC) are charged using the \nBasis Amount tag NAV-ANNULZ-AMT, NAV charges are computed for all days in a year, \nincluding both business days as well as intervening holidays."
+    },
+    {
+      "page_number": 46,
+      "sections": [],
+      "summary": "This page details the computation of charges for a Daily NAV fund using the NAV-ANNULZD-AMT Basis Amount tag and provides examples based on different processing parameters.",
+      "raw_text": "5-10\nThe charges in respect of a Daily NAV fund using the NAV-ANNULZD-AMT Basis Amount tag \nare computed as follows:\nExample - Pre-NAV Fund (NAV computed during BOD) \nExample - Post-NAV Fund (NAV computed during EOD) \nBranch Parameters Preference: Process Till Next Working Day –1\nBranch Parameters Preference: Process Till System Date\nSystem \nDate\nNAV Charge Date before start \nof Processing\nCurrent Processing \nTill Date\nNumber Of \nDays\n19th July \n2003\n18th July 2003\n19th July 2003\n1\n22nd July \n2003\n19th July 2003\n22nd July 2003\n3\n23rd July \n2003\n22nd July 2003\n23rd July 2003\n1\n2nd \nAugust \n2003\n23rd July 2003\n2nd August 2003\n10\nSystem \nDate\nNAV Charge Date before \nstart of Processing\nCurrent Processing \nTill Date\nNumber Of \nDays\n19th July \n2003\n18th July 2003\n21st July 2003\n3\n22nd July \n2003\n21st July 2003\n22nd July 2003\n1\n23rd July \n2003\n22nd July 2003\n31st July 2003\n9\n2nd \nAugust \n2003\n31st July 2003\n2nd August 2003\n2\nSystem \nDate\nNAV Charge Date before start of \nProcessing\nCurrent \nProcessing Till \nDate\nNumber Of \nDays\n19th July \n2003\n18th July 2003\n19th July 2003\n1"
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "5.1.4.3 NAV Calculation Updates",
+        "5.1.5 Charges Button"
+      ],
+      "summary": "This page discusses charge computation methods and details of NAV calculation updates for a fund, including how charges are calculated and managed.",
+      "raw_text": "5-11\nCharge computation is done as follows:\nNAV Amount of Fund – USD 105,000\nUnits in issue – 10,000\nAnnualized NAV Amount – 105,000/365 = USD 287.67 (Rounded according to the Fund Base \nCurrency Rounding Rules)\nCharge Amount = 2% of NAV Annualized Amount = USD 5.75.\nThis charge amount will be multiplied with the Number Of Days as in Illustration 1 and 2 before \nthe rounding rules are applied.\n5.1.4.3 \nNAV Calculation Updates\nThe following NAV details are available and displayed for each fund (internal and external):\nThe NAV of the fund (as of the last time it was calculated)\nThe NAV of a unit (as of the last time it was calculated)\nThe last date on which the NAV was calculated\nThe next date on which the NAV will be calculated\nMoving between the NAV combinations defined for a fund\nTo move between the NAV combinations defined for a fund, use the buttons provided for the \nsame at the bottom of the screen:\nClick the back arrow button to view the previous version.\nClick the forward arrow button to view the next version.\nConfirming your specifications\nAfter you have defined the GLs for NAV calculation, click ‘Ok’ button to confirm your \nspecifications. Click ‘Exit’ button to delete your specifications. In either case, you will be \nreturned to the ‘Funds On-Line’ screen.\n5.1.5 \nCharges Button\nTo maintain a fund, your bank may incur several expenses. You can levy the expenses that \nyou incur as charges on a customer. The charges that you collect can be applicable for the \nfollowing events:\nSubscription\nRedemption \nDividend Payment\n22nd \nJuly \n2003\n19th July 2003\n22nd July 2003\n3\n23rd July \n2003\n22nd July 2003\n31st July 2003\n9\n2nd \nAugust \n2003\n31st July 2003\n2nd August 2003\n2"
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Association Tab"
+      ],
+      "summary": "This section explains how to manage charge components associated with a fund on the 'Charge Detail' screen, including changing the charge rule and disassociating a component.",
+      "raw_text": "5-12\nFrom the ‘Fund On-Line’ screen, click ‘Charges’ button. The ‘Charge Detail’ screen will be \ndisplayed.\nThe characteristic feature of a charge is that it is always booked in advance and is not \naccrued, as a charge is collected only when it is due. Each time you create a fund, you need \nnot specify when and how the charges should be collected. \nTo recall, you have defined the attributes of a charge by defining a ‘Rule’. A rule identifies the \nbasic nature of the charge. You have further defined a Charge class where you have enriched \nthe attributes of a rule. We shall refer to these classes as 'components'. Each charge \ncomponent in turn is linked to a fund product. All the charge components linked to a product \nare defaulted to the funds associated with it. Thus each time you create a fund, you need not \nspecify when and how charges should be collected.\nHowever, while creating a fund, you can choose to associate a charge component with it. \nFurther, you can modify some of the attributes defined for the applicable component.\nContract Reference Number\nSpecify the contract reference number for which you need to maintain charges.\n5.1.5.1 \nAssociation Tab\nAll the charge components applicable to the fund will be displayed together with the rule that \nis linked to the component.\nIn this section of the screen you can:\nChange the charge rule linked to the component \nDisassociate a charge component from the fund\nChanging the charge rule linked to a component\nThe rule that is linked to a charge component is displayed next to the component. The \nadjoining option list displays a list of all the charge rules maintained. Select the appropriate \nrule from the option list. The new rule will be made applicable to the charge component.\nDisassociating a charge component from a fund\nYou can disassociate a charge component from the fund. In the 'Association' section of the \n‘Contract Charge’ screen, click against the waive option positioned next to the component."
+    },
+    {
+      "page_number": 49,
+      "sections": [
+        "Application Tab",
+        "Liquidation Tab",
+        "Tax Details Button"
+      ],
+      "summary": "This page describes how to apply, waive, and liquidate charge components for a fund, as well as handling tax details.",
+      "raw_text": "5-13\nIn this case, the charge component is attached to the fund but is not calculated.\n5.1.5.2 \nApplication Tab\nIn the application section of the screen, you can indicate the charge components that should \nbe applied to the fund. The list of components that is displayed depends on the charge \ncomponents that you have associated to the fund. \nThe following details of the component are also displayed:\nThe basis component on which the charge is levied\nThe currency of the basis amount\nThe basis amount\nThe charge amount \nThe currency in which the charge amount is defined\nYou can change the charge amount that is calculated using the class applicable to the \ncomponent.\nWaiving a charge for a fund\nYou also have the option to waive a component for a fund. To waive a charge for a fund, check \nagainst the 'waiver' option in the application section of the screen. The charge will be \ncalculated but not applied.\nNote\n You can waive a charge only if it is yet to be liquidated.\n5.1.5.3 \nLiquidation Tab\nWhen a charge component that is applied to a fund is liquidated, the relevant accounting \nentries are passed. The ‘Contract Charge’ screen will be displayed:\nThe charge components that have already been liquidated\nThe amount that was liquidated\nThe currency in which it was liquidated\n5.1.6 \nTax Details Button\nThe tax details specified for the product to which the fund is associated is automatically \napplied. However, while processing a fund, you can waive the application of tax on the fund."
+    },
+    {
+      "page_number": 50,
+      "sections": [
+        "Transaction Level Tax Tab",
+        "Component",
+        "Disassociating a tax component from a fund",
+        "Application"
+      ],
+      "summary": "This page describes how to use the 'Tax Details' screen in the 'Fund On-Line' interface to manage transaction taxes, including linking and disassociating tax rules, applying components, and waiving certain components for a fund.",
+      "raw_text": "5-14\nYou can invoke the ‘Tax Details’ screen by clicking ‘Tax’ button from the ‘Fund On-Line’ \nscreen.\nReference Number\nThe reference number of the fund for which you are defining transaction tax details is \ndisplayed. The screen will contain a list of all the tax components applicable to the fund.\n5.1.6.1 \nTransaction Level Tax Tab\nYou can maintain the following parameters here:\nAssociation \nAll the tax components applicable to the fund you are processing will be displayed together \nwith the rule linked to the component.\nIn this section of the screen you can:\nChange the tax rule linked to a component \nDisassociate a tax rule from a component\nComponent\nThe rule that is linked to a tax component is displayed next to the component. To link a new \nrule to the component, click the adjoining option list from the field titled 'Rule'. Select the \nappropriate rule from the option list that is displayed. The new rule will be made applicable to \nthe component.\nDisassociating a tax component from a fund\nYou can disassociate a tax component from the fund. In the 'Association' section of the \n‘Contract Tax’ screen, click against the waive option positioned next to the component.\nIn this case, the tax component is attached to the fund but is not calculated.\nApplication \nIn the application section of the screen, you can indicate the tax components that should be \napplied to the fund. The list of components that is displayed depends on the tax components \nthat you have associated with the fund. The following details of the component are also \ndisplayed:"
+    },
+    {
+      "page_number": 51,
+      "sections": [
+        "Waiving tax on a fund",
+        "Liquidation",
+        "Issuer Tax Tab",
+        "Settlement Button"
+      ],
+      "summary": "This page discusses the components of taxation for funds, including waiving taxes, liquidation processes, and maintaining parameters related to issuer tax. It also covers settlement buttons for viewing applicable charges and taxes.",
+      "raw_text": "5-15\nThe basis component on which the tax is levied\nThe currency of the basis amount\nThe basis amount\nThe tax amount \nThe currency in which the tax amount is defined\nYou can change the tax amount that is calculated using the rule applicable to the component.\nWaiving tax on a fund\nYou also have the option to waive a tax component for a fund. To waive a tax component for \na fund, check against the 'waiver' option in the application section of the screen. The tax will \nbe calculated but not applied.\nNote\n You can waive tax only if it is yet to be liquidated.\nLiquidation\nWhen a tax component that is applied to a fund is liquidated, the relevant accounting entries \nare passed. The contract tax screen displays:\nThe tax components that have already been liquidated\nThe amount that was liquidated \nThe currency in which it was liquidated\n5.1.6.2 \nIssuer Tax Tab\nYou can maintain the following parameters here:\n5.1.7 \nSettlement Button\nThrough the settlement screens you can view the fund accounts to which entries for the \napplicable charges and taxes are posted. These details are available in the ‘Settlement"
+    },
+    {
+      "page_number": 52,
+      "sections": [
+        "5-16 Message' screen",
+        "MIS Button"
+      ],
+      "summary": "This page describes how to invoke the Settlement Details screen and explains the details available there, as well as how Oracle FLEXCUBE indicates whether an account should be debited or credited. It also mentions that MIS details for a fund and product are similar.",
+      "raw_text": "5-16\nMessage’ screen. Click ‘Settlement’ button from the ‘Fund On-Line’ screen, to invoke the \n‘Settlement Details’ screen.\nBesides the settlement components, the other details available include:\nThe currency in which the component is expressed\nThe payment account and currency\nThe branch of your bank to which the account belongs\nAll the settlement components applicable to the fund are expressed in the fund base currency. \nTo recall, you have already indicated a settlement account in the fund base currency in the \n‘Bank Accounts’ screen. This account will be used as the settlement account for the displayed \ncomponents.\nDepending on the component, Oracle FLEXCUBE indicates whether the account involved in \nan entry has to be debited or credited:\n‘P’ indicates you credit (Pay to) the account involved\n‘R’ indicates you debit (Receive from) the account involved\n5.1.8 \nMIS Button\nThe MIS details you would define for a fund and a product are similar. The entities defined for \nthe customer will be picked up by default and they can be changed."
+    },
+    {
+      "page_number": 53,
+      "sections": [],
+      "summary": "This page describes how transaction types, cost codes, pool codes, and interest calculation methods are defaulted for funds and accounts in the MIS screen, and mentions that charges can be overridden or waived for specific funds.",
+      "raw_text": "5-17\nClick ‘MIS’ button from the ‘Fund On-Line’ screen to invoke the ‘MIS’ screen.\nFor a fund, the transaction type of MIS class, the cost code and pool code will be picked up \nfrom the product under which the fund is processed. The composite MIS code is defaulted \nfrom the definition made for the customer involved in a transaction involving the fund. \nThe Fund MIS code is defaulted from the product involved in the fund. The first fund MIS code \nis reserved for the Fund ID and cannot be changed. This facilitates the breaking up of \nbalances for NAV computation.\nThe interest calculation method for the refinancing rates of the pool will also be picked up by \ndefault from Pool Codes maintenance and can be changed. \nFor an account, the transaction type of MIS class will be picked up from the account class, \nalong with the cost codes and pool codes. The composite type of MIS class will be defaulted \nfrom those defined for the customer. These can be changed.\nThe interest calculation method for the refinancing rates of the pool will also be picked up by \ndefault from Pool Codes maintenance and can be changed. \n5.1.9 \nRate Button\nFor a specific fund, you can override charges that have been specified for the fund through \nthe charge rule associated with the fund. You can specify special rates for a charge rule; \nalternatively, you can waive the charges altogether."
+    },
+    {
+      "page_number": 54,
+      "sections": [],
+      "summary": "This page explains how to define specific rates for charges applicable on Net Asset Value (NAV) for a specific fund and how to apply these rates using the 'Rate' button in the 'Fund On-Line' screen.",
+      "raw_text": "5-18\nYou can define specific rates for charges applicable on NAV, for a specific fund. You can also \nmake a specific charge rule applicable on NAV, for a specific fund.\nClick on the ‘Rate’ button in the ‘Fund On-Line’ screen to apply specific charge rules with \nspecific rates for NAV charges. The ‘Rate Details’ screen is opened.\nIn this screen, you can specify the following:\nThe charge rule that is to be used for computing special charges on NAV that is specif-\nically applicable for the fund. The adjoining option list displays a list of those rules \nmapped to the product and for which the application event is NAVC.\nYou can associate all those NAV charges for which you wish to specify a special rate, \nthat is, different from the rate maintained in the charge rule. You can also choose to \nwaive it completely. If you do not maintain a specific rate, the rate maintained for the \nselected charge rule in the Charge Rule Definition is used in NAV charge computation. \nIf you wish to enter a specific rate for the rule, you can specify it in the Rate field. If you \nhave opted for the waiver of charges, you must specify a specific rate.\nIf you have indicated a specific rate for NAV charge computation, you can waive it if re-\nquired. If you have opted for the waiver of charges, you must specify a specific rate.\nFor all the charge rules that are maintained in the ‘Special Rates’ screen, the Minimum \nand Maximum values for the NAV Charge maintained in the ICCF Rule Maintenance are \nnot considered during charge calculation."
+    },
+    {
+      "page_number": 55,
+      "sections": [
+        "Fields Button",
+        "Events Button"
+      ],
+      "summary": "This page describes how to use the 'Fields' and 'Events' buttons in a system, detailing what screens are displayed and what information needs to be specified.",
+      "raw_text": "5-19\n5.1.10 \nFields Button\nWhen you click on the ‘Fields’ button, the ‘User Defined Fields’ screen will be displayed. \nSpecify the values in the fields and click ‘Ok’ button.\n5.1.11 \nEvents Button\nWhen you click on the ‘Events’ button, the ‘Event Details’ screen will be displayed.\nSpecify the following details.\nReference Number\nIn Oracle FLEXCUBE, reference numbers are generated automatically and sequentially by \nthe system while creating the fund online. The reference number for the contract is displayed \nin this field."
+    },
+    {
+      "page_number": 56,
+      "sections": [
+        "Events",
+        "Message Button",
+        "Contract Reference",
+        "Event Sequence Number",
+        "Event",
+        "Message Tab"
+      ],
+      "summary": "This page describes how to specify details for events and messages in a fund management system, including event numbers, dates, codes, descriptions, and related fields.",
+      "raw_text": "5-20\nEvents\nSpecify the following details.\nEvent Number\nThis number is generated by the system based on the number of events fired relating to the \nfund.\nEvent Date\nDate on which the event is triggered is displayed here.\nEvent Code\nThe system defaults the code as per the fund product which is mapped to the fund id when \nthe particular event is triggered based on the corporate manual actions.\nDescription\nThis displays the description for the corresponding event code.\n5.1.12 \nMessage Button\nWhen you click on the ‘Message’ button, the ‘View Messages’ screen will be displayed.\nSpecify the following details.\nContract Reference\nIn Oracle FLEXCUBE, reference numbers are generated automatically and sequentially by \nthe system while creating the fund online. The reference number for the contract is displayed \nin this field.\nEvent Sequence Number\nSpecify the event sequence number.\nEvent\nSpecify the event.\nMessage Tab\nEnter the following details:"
+    },
+    {
+      "page_number": 57,
+      "sections": [
+        "Message Type",
+        "Receiver",
+        "Currency",
+        "Amount",
+        "Status",
+        "BOILERPLATETXT",
+        "Name",
+        "Media",
+        "Address",
+        "Exception",
+        "Products",
+        "Interest",
+        "User Defined Fields",
+        "Settlements"
+      ],
+      "summary": "This page lists various attributes and fields that can be defined for a product in Oracle FLEXCUBE, including message type, receiver, currency, amount, status, and more.",
+      "raw_text": "5-21\nMessage Type\nReceiver\nCurrency\nAmount\nStatus\nBOILERPLATETXT\nName\nMedia\nAddress\nException\nProducts\nInterest\nUser Defined Fields\nSettlements\nFor further information on the generic attributes that you can define for a product, please refer \nthe following Oracle FLEXCUBE User Manuals."
+    },
+    {
+      "page_number": 58,
+      "sections": [
+        "Corporate Action for Funds",
+        "Maintaining Corporate Action for Funds"
+      ],
+      "summary": "This page describes how to manually process corporate actions for internal funds in Oracle FLEXCUBE, including maintaining records and using various buttons.",
+      "raw_text": "6-1\n6. Manually Processing a Corporate Action\nThe corporate actions that are discussed in this chapter concern only internal funds (funds \ncreated and managed entirely in Oracle FLEXCUBE). The corporate actions that you can \nprocess for a fund are:\nSubscription\nRedemption \nDividend Payment\nThis chapter contains the following sections:\nSection 6.1, \"Corporate Action for Funds\"\n6.1 \nCorporate Action for Funds\nThis section contains the following topics:\nSection 6.1.1, \"Maintaining Corporate Action for Funds\"\nSection 6.1.2, \"Settlement Button\"\nSection 6.1.3, \"Events Button\"\nSection 6.1.4, \"Reversing a Corporate Action\"\nSection 6.1.5, \"Saving the Details of a Corporate Action Record\"\nSection 6.1.6, \"An Example in Processing Corporate Actions\"\n6.1.1 \nMaintaining Corporate Action for Funds\nIf you are calling a corporate action for funds record that has already been defined, choose \nthe Summary option. From the ‘Summary’ screen double-click a class of your choice to open \nit. You can invoke the ‘Corporate Manual Action – Summary’ screen by typing ‘AMSCAONL’ \nin the field at the top right corner of the Application tool bar and clicking the adjoining arrow \nbutton."
+    },
+    {
+      "page_number": 59,
+      "sections": [
+        "Settlement Currency"
+      ],
+      "summary": "This page explains how to manually enter details of corporate actions when investor services are unavailable and discusses the settlement currency options for such actions.",
+      "raw_text": "6-2\nIn cases where there are no Investor services, you would need to enter details of the \ncorporate actions manually. You can invoke the ‘Corporate Action For Funds’ screen by \ntyping ‘AMDCAONL’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button.  \nOracle FLEXCUBE assigns a unique reference number to each corporate action that you \nprocess. This reference number bears a sequence in which the action was performed. You \ncan assign your own identification to the action.\nSettlement Currency\nThe settlement of a corporate action can be in the base currency of the fund or in another \ncurrency. Depending on the type of corporate action you are processing, it could be the \ncurrency in which:\nA subscription is made to the fund\nUnits of the fund are redeemed\nDividend is paid\nIf the corporate action is in the base currency of the fund, choose the option ‘In Fund \nCurrency’. If the corporate action is not in the base currency, indicate the currency in which \nthe corporate action is settled. The equivalent of the transaction amount denominated in the \nbase currency of the fund is displayed. The standard rate is used in the currency conversion."
+    },
+    {
+      "page_number": 60,
+      "sections": [
+        "Action Type",
+        "Basis Type",
+        "Transaction Details"
+      ],
+      "summary": "This page outlines the types of corporate actions that can be processed for a fund and details how to specify transaction units and nominal amounts based on the chosen basis type.",
+      "raw_text": "6-3\nAction Type\nThe Corporate actions that can be processed during the lifecycle of a fund are:\nRedemption\nSubscription \nDividend payment\nChoose the appropriate option based on the type of corporate action you are processing on \nthe fund.\nBasis Type\nSubscription and redemption can be enlisted in two ways:\nUnits (500 units of a fund)\nAs Nominal (units worth USD 5000)\nFor a corporate action that is denominated in units it is mandatory for you to indicate the \nnumber of units involved in the action. The transaction nominal amount is calculated based \non the number of units that you specify and the load applicable to the fund. Fractional units \nwill be handled based on the rounding and decimal unit preferences that you specified for the \nfund.\nIf the basis type is nominal, you should indicate the transaction amount. The number of units \nallocated is calculated based on the transaction nominal, the transaction load and the NAV of \na unit of the fund.\nIf the basis type is nominal, you should indicate the transaction nominal amount and then click \nthe ‘RECALC’ button. The number of units allocated is calculated based on the transaction \nnominal, the transaction load and the NAV of a unit of the fund. If the basis type is unit then \nneed to mention the number of units.\nTransaction Details\nYou can specify the following details here:\nTransaction Units\nIf the quotation basis for the corporate action is expressed in Units, you should also specify \nthe number of units that are involved in the corporate action. Based on the number of units \nthat you specify, the transaction nominal amount is calculated.\nIf the quotation basis is Nominal, Oracle FLEXCUBE calculates the number of units based on \nthe transaction nominal and load that you specify.\nTransaction Price\nThe transaction price of an action is the price at which a single unit of the fund is transacted. \nOracle FLEXCUBE calculates the transaction price as follows:\nFor a subscription,\nNAV + Subscription Load\nFor a redemption,\nNAV – Redemption Load"
+    },
+    {
+      "page_number": 61,
+      "sections": [
+        "Transaction Load",
+        "Transaction Nominal",
+        "Transaction Discount or Premium"
+      ],
+      "summary": "This page explains how transaction prices, loads, and nominal amounts are calculated for corporate actions in a fund, including adjustments when these values are changed.",
+      "raw_text": "6-4\nThis amount is expressed in the base currency of the fund. You can change the price that is \ndefaulted. If you change the defaulted transaction price the other related components like the \ntransaction load will be automatically adjusted.\nTransaction Load\nThe load applicable to a corporate action is defaulted from the fund to which the corporate \naction is associated. Depending on the type of corporate action you are processing, the buy/\nsell load will apply. For instance, if you process:\nA subscription the buy load will apply\nA redemption the sell load will apply\nYou have the option to use or change the defaulted buy or sell load. If you change the \ndefaulted transaction load amount, the other related components like the transaction price will \nbe automatically adjusted.\nNote\n You can process a subscription or redemption on a fund with or without the transaction \nload.\nTransaction Nominal\nIf the quotation basis for the corporate action is Nominal, you should specify the transaction \namount expressed in the currency in which the action is settled. Based on the amount that \nyou specify, the number of units is calculated.\nIf the quotation basis is Units, Oracle FLEXCUBE calculates the transaction nominal based \non the number of units involved in the action and transaction load.\nTransaction Discount or Premium\nThe transaction discount or premium indicates the profit or loss applicable for the corporate \naction you are processing.\nDiscount or Premium = (Transaction Price - FV per unit - Load per unit) x No of Units\nIt is computed as the difference between the Face value and the NAV of the Fund.\nFund Details\nThe following details of the fund for which you are processing corporate actions are displayed:\nThe Face value per unit\nThe number of units of the fund that have been issued\nThe NAV of the fund\nThe NAV of a single unit of the fund\n6.1.2 \nSettlement Button\nTo recall, a corporate action can be settled in the fund base currency or in another currency. \nWhile processing a corporate action on a fund, you can indicate the currency in which it is to \nbe settled.\nIf you specify a settlement currency that is different from the base currency, Oracle \nFLEXCUBE calculates the LCY equivalent of the transaction nominal in the fund base \ncurrency. The standard rate as of the transaction date of the action is used in the currency \nconversion."
+    },
+    {
+      "page_number": 62,
+      "sections": [
+        "6.1.3 Events Button",
+        "6.1.3.1 Specifying Accounting Entries"
+      ],
+      "summary": "This page explains how to view accounting entries for fund events and details on specifying these entries, including various fields such as branch, account, and amount in deal currency.",
+      "raw_text": "6-5\nSubscriptions and redemption can be made to a fund in a currency that is different from the \nbase currency; but entitlement and benefits will be calculated in the fund base currency.\n6.1.3 \nEvents Button\nClick the ‘Events’ button from the ‘Fund On-Line’ screen, to view the accounting entries that \nare passed for each event. The details of events that have already taken place for the deal \nleg will be displayed, along with the date on which the event took place.\nYou can specify the following details:\nReference Number\nThe system displays the following details of the events associated with the specified reference \nnumber:\nEvent No\nEvent Date\nEvent Code\nDescription\n6.1.3.1 \nSpecifying Accounting Entries\nHighlight the event for which you want to view accounting entries. All the accounting entries \nthat were passed and the overrides that were encountered for the event will be displayed.\nThe following information is provided for each event:\nBranch\nAccount\nDr/Cr indicator\nThe amount tag\nThe date on which the entry was booked\nValue Date\nThe deal currency\nAmount in deal CCY"
+    },
+    {
+      "page_number": 63,
+      "sections": [],
+      "summary": "This page discusses how to reverse a corporate action in a fund management system and provides details on the effects of reversing subscriptions, redemptions, and dividend payments.",
+      "raw_text": "6-6\nThe foreign currency equivalent (if applicable)\nThe exchange rate that was used for the conversion\nAmount in local currency\nAll the overrides that were encountered for the event will also be displayed.\nClick the ‘Exit’ or ‘Cancel’ button to return to the ‘Corporate Action For Funds’ screen.\n6.1.4 \nReversing a Corporate Action\nAfter you have saved and authorized a corporate action you can reverse it. You can reverse \nan action from the detailed view of the ‘Corporate Actions for Funds’ screen. To reverse an \naction:\nSelect ‘Reverse’ from the Processing sub-menu of the Actions Menu in the Application \ntool bar\nClick the reverse icon on the Toolbar\nFor a subscription\nIf you reverse a subscription that you have made to the fund:\nThe units in issue will be reduced to reflect the subscription reversal\nThe accounting entries passed for the action will be reversed with the event code RSUB.\nFor a redemption\nThe units in issue will go up to the extent of the reversal\nThe accounting entries passed for the action will be reversed with the event code \nRRED.\nFor a dividend payment\nIn the case of a reversal of dividend payment, the accounting entries passed for the action will \nbe reversed.\nNote\nYou can reverse dividend payments only for internal funds.\n6.1.5 \nSaving the Details of a Corporate Action Record\nAfter you have entered the applicable details of the corporate action, save the fund by either \nclicking on the save icon on the tool bar or by selecting ‘Save’ from the Actions menu in the \nApplication tool bar.\nOn saving the record, your User Id will be displayed in the Input By field at the bottom of the \nscreen. The date and time at which you saved the fund will be displayed in the Date/Time field.\nA user bearing a different login ID should authorize a corporate action record that you have \nentered, before the EOD is run. Once the record is authorized, the ID of the user who \nauthorized it will be displayed in the Auth By field together with the date and time at which it \nwas authorized. The status of the fund is also displayed.\nClick 'Exit' or 'Cancel' button to exit the ‘Corporate Actions For Funds’ screen and return to \nthe Application Browser.\n6.1.6 \nAn Example in Processing Corporate Actions\nYou have set up a fund 'Lucrative Money Pool'. The following are the features of the fund:"
+    },
+    {
+      "page_number": 64,
+      "sections": [
+        "6.1.6.1 Subscription"
+      ],
+      "summary": "This section discusses subscription details for units in a fund, including calculations and considerations when subscribing in the base currency or another currency.",
+      "raw_text": "6-7\nNet Asset Value per unit = USD 200\nFace Value of a Unit = USD 100\nThe buy load = 2%\nThe sell Load = 2%\nBase currency = USD\nNon Base currency = DEM\nRate USD - DEM = 1:2\nUsing this example, we will discuss each type of corporate action in terms of the manner in \nwhich the action is denominated and the currency in which it is settled.\n6.1.6.1 \nSubscription\nSpecify the following details:\nUnits based in the fund base currency\nWe will first examine the case of a units based subscription made in the fund base currency. \nIn this case, you should specify the number of units that are subscribed.\nUnits subscribed = 100\nBased on the subscription units and the load percentage, Oracle FLEXCUBE will compute the \nfollowing details:\nYou have the option to change the transaction price and the load amount that is defaulted. \nHowever you will not have an option to change the Transaction nominal and the premium that \nis calculated.\nUnits based in FCY\nTake the case of a units based subscription that needs to be settled in a currency (DEM) other \nthan the fund base currency (USD). In this case, you should specify the number of units that \nare subscribed.\nUnits subscribed = 100\nComponent\nCalculation method\nResult\nLoad Amount\nLoad % x Transaction units\n2% of NAV x 100\n400\nTransaction Nomi-\nnal\nTransaction units x NAV + Load %\n100 x (200 + 4)\nUSD 20,400\nTransaction price\nNominal LCY / Transaction units\n20,400 / 100\nUSD 204\nPremium\nTransaction price - FV - Load per unit x \nTransaction units\n204-100 - 4 x 100\nUSD 10000"
+    },
+    {
+      "page_number": 65,
+      "sections": [],
+      "summary": "This page explains how Oracle FLEXCUBE computes transaction components such as load amount, transaction nominal, transaction price, and premium based on given parameters.",
+      "raw_text": "6-8\nOracle FLEXCUBE will compute the components of the action in the same manner as \ndiscussed earlier except that the FCY equivalent of the Nominal LCY will also be computed.\nYou have the option to change the transaction price and the load amount that is defaulted. \nHowever you will not have an option to change the Transaction nominal, the Transaction FCY \nand the premium that is calculated.\nNominal based in the base currency\nIn the case of nominal based subscription made in the fund base currency, you should specify \nthe Transaction Nominal in the fund base currency.\nTransaction Nominal = USD 20400\nBased on the Nominal LCY and the load percentage, Oracle FLEXCUBE will compute the \nfollowing details:\nYou have the option to change the transaction price and the load amount that is defaulted. \nHowever, you will not have an option to change the number of units, and the premium that is \ncalculated.\nComponent\nCalculation method\nResult\nLoad Amount\nLoad % x Transaction units\n2% of NAV x 100\n400\nTransaction Nomi-\nnal\nTransaction units x NAV + Load %\n100 x (200 + 4)\nUSD 20,400\nTransaction price\nNominal LCY / Transaction units\n20,400 / 100\nUSD 204\nNominal FCY\nNominal LCY x Exchange rate\n20,400 x 2\nDEM 40800\nPremium\n(Transaction price - FV - Load per \nunit) x Transaction units\n(204-100 - 4) x 100\nUSD 10000\nComponent\nCalculation method\nResult\nUnits\nNominal LCY / NAV\n20000 / 200\n100 Units\nLoad Amount\nLoad % x Transaction units\n2% of NAV x 100\n400\nTransaction \nPrice\nNominal LCY / Transaction units\n20,000 / 100\nUSD 200\nPremium\nTransaction price - FV - Load per unit x Trans-\naction units\n200-100 x 100\nUSD 10000"
+    },
+    {
+      "page_number": 66,
+      "sections": [
+        "Redemption",
+        "Units based in the fund base currency"
+      ],
+      "summary": "This page discusses redemption and units-based transactions for a nominal-based fund in FCY, detailing how Oracle FLEXCUBE calculates various financial components.",
+      "raw_text": "6-9\nNominal based in an FCY\nNow we will examine a subscription to a nominal based fund in FCY. In this case, you should \nspecify the FCY Nominal that is invested into the fund.\nFCY Nominal = DEM 83500\nBased on the FCY Nominal and the exchange rate, Oracle FLEXCUBE computes the \nfollowing details:\nYou have the option to change the transaction price and the load amount that is defaulted. \nHowever you will not have an option to change the number of units, the LCY Nominal and the \npremium that is calculated.\n6.1.6.2 \nRedemption\nSpecify the following details.\nUnits based in the fund base currency\nWe will first examine the case of units based redemption made in the fund base currency. In \nthis case, you should specify the number of units that are redeemed.\nUnits redeemed = 100\nBased on the number of units that are redeemed and the redemption load percentage, Oracle \nFLEXCUBE will compute the following details:\nComponent\nCalculation method\nResult\nTransaction Nomi-\nnal\nExchange rate\n83500 / 2\nUSD 41750\nUnits\nTransaction Nominal / NAV\n41750 / 200\n208.75 \nUnits\nLoad Amount\nLoad % x Transaction units\n2% of NAV x 208.75\nUSD 835\nTransaction Price\nNominal LCY / Transaction units\nUSD 41750 / 208.75 Units\nUSD 200\nPremium\nNAV- FV x Transaction units\n200-100 x 208.75\nUSD 20875\nComponent\nCalculation method\nResult\nLoad Amount\nLoad % x No of units subscribed\n2% of NAV x 100\n400\nTransaction Nomi-\nnal\nNo of Units x NAV + Load %\n100 x (200 - 4)\nUSD \n19600\nTransaction price\nNominal LCY / No of Units\n19600 / 100\nUSD 196"
+    },
+    {
+      "page_number": 67,
+      "sections": [
+        "Units based in FCY",
+        "Nominal based in the base currency"
+      ],
+      "summary": "This page explains how Oracle FLEXCUBE calculates redemption components for units and nominal based redemptions in different currencies, including transaction price, load amount, and premium calculations.",
+      "raw_text": "6-10\nYou have the option to change the transaction price and load that is defaulted. However you \nwill not have an option to change the Nominal LCY and the premium that is calculated.\nUnits based in FCY\nTake the case of units based redemption in a currency (DEM) other than the fund base \ncurrency (USD). In this case, you should specify the number of units that are redeemed.\nUnits redeemed = 100\nOracle FLEXCUBE will compute the components of the action in the same manner as \ndiscussed earlier for the units based redemption in fund base currency, except that the FCY \nequivalent of the Transaction nominal will also be calculated.\nYou have the option to change the transaction price and the load amount that is defaulted. \nHowever you will not have an option to change the Nominal LCY, FCY and the premium that \nis calculated.\nNominal based in the base currency\nIn the case of nominal based redemption in the fund base currency, you should specify the \nTransaction Nominal.\nNominal LCY = USD 20000\nBased on the Nominal LCY and the load percentage, Oracle FLEXCUBE will compute the \nfollowing details:\nPremium\nNAV- FV X Transaction units\n200-100 x 100\nUSD \n10000\nComponent\nCalculation method\nResult\nLoad Amount\nLoad % x Transaction units\n2% of NAV x 100\n400\nNominal LCY\nTransaction units x NAV - Load %\n100 x (200 - 4)\nUSD \n19,600\nTransaction \nprice\nNominal LCY / Transaction units\n19600 / 100\nUSD 196\nNominal FCY\nNominal LCY x Exchange rate\n19600 x 2\nDEM 39200\nPremium\n(NAV- FV) x Transaction units\n(200-100) x 100\nUSD 10000\nComponent\nCalculation method\nResult\nUnits\nNominal LCY / NAV\n20000 / 200\n100 Units\nLoad Amount\nLoad % x No of units subscribed\n2% of NAV x 100\n400"
+    },
+    {
+      "page_number": 68,
+      "sections": [],
+      "summary": "This page discusses the options and calculations involved in changing transaction prices and load amounts for nominal-based funds in FCY, as well as dividend payments made in the fund base currency.",
+      "raw_text": "6-11\nYou have the option to change the transaction price and the load amount that is defaulted. \nHowever you will not have an option to change the number of units, and the premium that is \ncalculated.\nNominal based in FCY\nNow we will examine redemption made from a nominal based fund in FCY. In this case, you \nshould specify the number of units that are subscribed.\nFCY Nominal = 83500 DEM\nBased on the FCY Nominal and the exchange rate, Oracle FLEXCUBE computes the \nfollowing details:\nYou have the option to change the transaction price and the load amount that is defaulted. \nHowever you will not have an option to change the number of units, the Transaction nominal \nand the premium that is calculated.\n6.1.6.3 \nDividend Payment\nSpecify the following details:\nUnits based in the fund base currency\nWe will first examine the case of a dividend payment made in the fund base currency. In this \ncase, you should specify the percentage of dividend to be paid.\nTransaction price = 30% per unit\nTransaction \nPrice\nNominal LCY / No of Units\n20,400 / 100\nUSD 204\nPremium\n(NAV- FV) x No of units\n(200-100) x 100\nUSD \n10000\nComponent\nCalculation method\nResult\nNominal LCY\nExchange rate\n83500 / 2\nUSD 41750\nUnits\nNominal LCY / NAV\n41750 / 200\n208.75 \nUnits\nLoad Amount\nLoad % x No of units subscribed\n2% of NAV x 208.75\nUSD 835\nTransaction \nPrice\nNominal LCY / No of Units\nUSD 41750 / 208.75 Units\nUSD 200\nPremium\nNAV- FV x No of units\n200-100 x 208.75\nUSD 20875"
+    },
+    {
+      "page_number": 69,
+      "sections": [
+        "Units based in FCY",
+        "Nominal based in the base currency"
+      ],
+      "summary": "This page explains how Oracle FLEXCUBE calculates dividend payments for a fund based on specified percentages and transaction prices, whether the units or nominal are in the base currency or a foreign currency.",
+      "raw_text": "6-12\nThe percentage that you specify is always based on the face value of a unit of the fund. Based \non this percentage, Oracle FLEXCUBE will compute the following details:\nThe number of units that have been issued for the fund is taken to be the default number of \nunits for which dividend is paid. You have the option to change it. If you change the number \nof units for which dividend is to be paid the transaction nominal is automatically updated.\nUnits based in FCY\nTake the case of units based dividend that needs to be paid in a currency other than the fund \nbase currency (USD). In this case, you should specify the percentage of dividend to be paid.\nTransaction price = 30% per unit\nOracle FLEXCUBE will compute the components of the action in the following manner:\nThe number of units that have been issued for the fund is taken to be the default number of \nunits for which dividend is paid. You have the option to change it. However you will not have \nan option to change the Transaction nominal and the Transaction FCY that is calculated.\nNominal based in the base currency\nIn the case of nominal based dividend paid in the fund base currency, you should specify the \ndividend amount paid for each unit.\nTransaction Price = USD 15\nBased on the Nominal LCY and the load percentage, Oracle FLEXCUBE will compute the \nfollowing details:\nYou have the option to change the transaction units that is defaulted. However you will not \nhave an option to change the Transaction nominal that is calculated.\nNominal based in FCY\nTake the case of dividend being paid in a currency (DEM) other than the fund base currency \n(USD). In this case, you should specify the amount of dividend to be paid.\nTransaction price = 15 USD per unit\nComponent\nCalculation method\nResult\nTransaction Nomi-\nnal\nTransaction price x Transaction units\n30 x 100\nUSD \n3000\nComponent\nCalculation method\nResult\nTransaction Nomi-\nnal \nTransaction price x No of Units\n100 x 30\nUSD 3000\nNominal FCY\nTransaction Nominal x Exchange rate\n3000 x 2\nDEM \n6000\nComponent\nCalculation method\nResult\nTransaction Nomi-\nnal\nTransaction price x Transaction Units\n15 x 100\nUSD \n15000"
+    },
+    {
+      "page_number": 70,
+      "sections": [],
+      "summary": "This page explains how Oracle FLEXCUBE calculates the components of a fund action, including Transaction nominal and Nominal FCY, using specific examples.",
+      "raw_text": "6-13\nOracle FLEXCUBE will compute the components of the action in the following manner:\nThe number of units that have been issued for the fund is taken to be the default number of \nunits for which dividend is paid. You have the option to change it. However, you will not have \nan option to change the Transaction nominal and the Transaction FCY that is calculated.\nComponent\nCalculation method\nResult\nTransaction Nomi-\nnal\nTransaction price x No of Units\n100 x 15 USD\nUSD 1500\nNominal FCY\nTransaction Nominal x Exchange rate\n1500 x 2\nDEM \n3000"
+    },
+    {
+      "page_number": 71,
+      "sections": [
+        "Fund Charge Definition",
+        "Maintaining Charge Definition Details"
+      ],
+      "summary": "This page explains how to define charges for a fund by maintaining details and using different tabs in the 'Charge Definition' screen.",
+      "raw_text": "7-1\n7. Defining Charges for a Fund\nTo recall, while defining a product, you have associated one or several interest classes to it \n(in the ‘Product ICCF’ screen). You have also associated these components with the event \n'CDEF' (Charge definition). A fund will inherit all the charge components defined for the \nproduct associated with it.These charge components can be accrued over a period that you \ncan specify. For example, you may want to amortize the advertising costs or fund \nmanagement fees that you incur over a period. You can define details of these charge \ncomponents in the ‘Charge Definition’ screen.\nThis chapter contains the following sections:\nSection 7.1, \"Fund Charge Definition\"\n7.1 \nFund Charge Definition\nThis section contains the following topics:\nSection 7.1.1, \"Maintaining Charge Definition Details\"\nSection 7.1.2, \"Charge Details Tab\"\nSection 7.1.3, \"Payment Details Tab\"\n7.1.1 \nMaintaining Charge Definition Details\nIf you are calling a fund charge definition record that has already been defined, choose the \nSummary option. From the ‘Summary’ screen double-click a class of your choice to open it. \nYou can also invoke the ‘Charge Definition – Summary’ screen by typing ‘AMSCDEFN’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 72,
+      "sections": [
+        "Charge Details Tab",
+        "Component Details"
+      ],
+      "summary": "This page describes how to invoke and use the 'Fund Charge Definition – Detailed' screen in Oracle FLEXCUBE to specify charge details for a fund, including payment method, component details such as amount and currency.",
+      "raw_text": "7-2\nYou can invoke the ‘Fund Charge Definition – Detailed’ screen by typing ‘AMDCDEFN’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button\nYou should first indicate the fund for which you want to specify charge details. Oracle \nFLEXCUBE automatically assigns a unique identification number to each charge definition \nrecord. You can further specify your own identification for the record.\nFund Identification\nSelect the fund identification number from the adjoining option list.\n7.1.2 \nCharge Details Tab\nThe following details are maintained here:\nPayment Method\nSelect payment method for collecting the charge from the adjoining drop-down list. This list \ndisplays the following values:\nAdvance–Select to collect the charge in advance. When a charge component is collect-\ned in advance, it will be collected on the start date that you specify for the charge com-\nponent.\nArrears–Select to collect the charge in arrears. A charge component collected in arrears \nis collected on the end date that you specify for the component.\nComponent Details\nAll the interest type components defined for the product that is associated with the fund is \ndisplayed. \nComponent\nYou can specify the following details for the components that are applicable to the fund:\nAmount\nCurrency\nStart Date"
+    },
+    {
+      "page_number": 73,
+      "sections": [
+        "7-3",
+        "Indicating the charge amount and currency",
+        "Indicating the tenor of the charge component",
+        "Setting the Accrual Frequency"
+      ],
+      "summary": "This page explains how to specify the end date for collecting charge components, indicate the charge amount and currency, set the tenor using start and end dates, and define accrual frequency preferences for a fund product.",
+      "raw_text": "7-3\nEnd Date\nFurther, you can indicate when the charge components should be collected. It could be in \nadvance or in arrears. The accrual frequency preferences defined for the product (in the ‘Fund \nProduct Preferences’ screen) is defaulted.\nIndicating the charge amount and currency\nFrom the list of components that are displayed, you can specify the applicable amount only \nfor components that are applicable to the fund. After you indicate the charge amount, you can \nspecify the currency in which it is denominated.\nIndicating the tenor of the charge component\nNow that you have specified the charge amount and the currency in which it should be \ncollected, you should also indicate the tenor of the charge. This is achieved by specifying a \nstart and an end date for the charge component.This period serves as the tenor, over which \nthe charge component is accrued. The start and end date that you specify also determines \nwhen the charge amount is collected. If the payment method is advance, the charge will be \ncollected on the start date. If it is collected in arrears, it will be collected at the end date of this \nperiod.\n7.1.2.1 \nSetting the Accrual Frequency\nCharges on a fund can be accrued over the period that you specified as the start and end date \nfor the component. To recall, you have already defined accrual frequency preferences while \ndefining a product. These preferences are used and will be applicable to all the interest type \ncomponents of the fund.\n7.1.3 \nPayment Details Tab\nThe details of the charges that have already been liquidated are available. Click the tab titled \n'Payment Details\" from the ‘Fund Charge Definition’ screen.  \nThe following details of each liquidated component are displayed:\nThe charge component\nThe due amount\nThe due date"
+    },
+    {
+      "page_number": 74,
+      "sections": [
+        "The charge currency",
+        "The amount liquidated"
+      ],
+      "summary": "This page discusses the charge currency and the amount liquidated.",
+      "raw_text": "7-4\nThe charge currency \nThe amount liquidated"
+    },
+    {
+      "page_number": 75,
+      "sections": [
+        "Fund Events",
+        "Amount Tags",
+        "Accounting Roles",
+        "Event - Entries",
+        "Maintenance Done Before Running EOD"
+      ],
+      "summary": "This page details various fund events and their corresponding accounting entries, including descriptions of subscription, redemption, dividend, and charge-related activities.",
+      "raw_text": "8-1\n8. Annexure A - Events and Accounting Entries\nThis chapter contains the following sections:\nSection 8.1, \"Fund Events\"\nSection 8.2, \"Amount Tags\"\nSection 8.3, \"Accounting Roles\"\nSection 8.4, \"Event - Entries\"\nSection 8.5, \"Maintenance Done Before Running EOD\"\n8.1 \nFund Events\nEvent\nDescription\nSUBR\nSubscription\nREDM\nRedemption\nDIVD\nDividend Payout\nRSUB\nReversal of Subscription\nRRED\nReversal of Redemption\nRDVD\nReversal of Dividend\nNAVC\nNAV Charges\nCDEF\nAd-hoc Charge definition\nACCR\nAccrual of Ad-hoc charges\nLIQD\nLiquidation of ad-hoc Charges\nACDF\nAmendment of Ad-hoc Charges\nBOOK\nBooking of Fund\nRCDF\nReversal of Charge Definition\nREVP\nReversal of Charge Liquidation\nAMND\nAmendment of the Fund"
+    },
+    {
+      "page_number": 76,
+      "sections": [
+        "Amount Tags",
+        "Accounting Roles",
+        "Event - Entries"
+      ],
+      "summary": "This page describes various tags and accounting roles related to fund transactions, along with example entries for subscription and redemption events.",
+      "raw_text": "8-2\n8.2 \nAmount Tags\n8.3 \nAccounting Roles\n8.4 \nEvent - Entries\nTag\nDescription\nCORPUSAMT\nCorpus Amount\nSUBLOADAMT\nSubscription Load amount\nREDLOADAMT\nRedemption Load amount\nSUBPREMIUM\nSubscription Premium amount\nREDPREMIUM\nRedemption Premium amount\nSUBDIS-\nCOUNT\nSubscription Discount\nNAVAMT\nNAV of the Fund\nFUNDCAPITAL\nFund Capital amount\nDIVDAMT\nDividend Amount\nAccounting Role\nDescription\nFUNDBANKAC\nFund Bank Account\nFUNDCOR-\nPUSAC\nUnit Capital Account\nSUBLOADINC\nSubscription Load Income\nREDLOADINC\nRedemption Load Income\nSUBDISCEXP\nSubscription Load Expense\nSUBPREMINC\nSubscription Premium Income\nREDPREMEXP\nRedemption Premium \nExpense\nREDDISCINC\nRedemption Discount Income\nDIVIDENDEXP\nDividend Expense\nEvent\nDr/\nCr\nRole\nAmt Tag\nSUBR\nDr\nFUNDBANKAC\nCORPUSAMT\nCr\nFUNDCOR-\nPUSAC\nCORPUSAMT\nDr\nFUNDBANKAC\nSUBLOADAMT"
+    },
+    {
+      "page_number": 77,
+      "sections": [],
+      "summary": "This page appears to detail various financial transactions and account entries related to a fund or insurance company, including premium, discount, corpus, load, dividend, and advertising expense accounts.",
+      "raw_text": "8-3\nCr\nSUBLOADINC\nSUBLOADAMT\nDr\nFUNDBANKAC\nSUBPREMIUM\nCr\nSUBPREMINC\nSUBPREMIUM\nDr\nSUBDISCEXP\nSUBDISCOUNT\nCr\nFUNDBANKAC\nSUBDISCOUNT\nDr\nFUNDBANKAC\nSUBCHGAMT\nCr\nSUBCHGINC\nSUBCHGAMT\nREDM\nDr\nFUNDCOR-\nPUSAC\nCORPUSAMT\nCr\nFUNDBANKAC\nCORPUSAMT\nDr\nFUNDBANKAC\nREDLOADAMT\nCr\nREDLOADINC\nREDLOADAMT\nDr\nREDPREMEXP\nREDPREMIUM\nCr\nFUNDBANKAC\nREDPREMIUM\nDr\nFUNDBANKAC\nREDDISCOUNT\nCr\nREDDISCINC\nREDDISCOUNT\nDr\nFUNDBANKAC\nSUBCHGAMT\nCr\nSUBCHGINC\nSUBCHGAMT\nDIVD\nDr\nDIVIDENDEXP\nDIVDAMT\nCr\nFUNDBANKAC\nDIVDAMT\nDr\nFUNDBANKAC\nDIVTAXAMT\nCr\nDIVTAXPAY\nDIVTAXAMT\nCDEF\nDr\nADVRTCHGPIA\nADVRTCHG_LIQD\nCr\nFUNDBANKAC\nADVRTCHG_LIQD\nACCR\nDr\nADVRTCHGEXP\nADVRTCH-\nG_BACR\nCr\nADVRTCHGPAY\nADVRTCH-\nG_BACR\nDr\nADVRTCHGEXP\nADVRTCHG_-\nDACR\nCr\nADVRTCHGPIA\nADVRTCHG_-\nDACR\nCLIQ\nDr\nADVRTCHGPAY\nADVRTCHG_LIQD\nCr\nFUNDBANKAC\nADVRTCHG_LIQD"
+    },
+    {
+      "page_number": 78,
+      "sections": [
+        "Maintenance Done Before Running EOD",
+        "Branch Related Maintenance before running EOD"
+      ],
+      "summary": "This page outlines the batch maintenance required before running End of Day (EOD) processes and the branch-related parameters that need to be maintained.",
+      "raw_text": "8-4\n8.5 \nMaintenance Done Before Running EOD\nThe Asset Management EOD requires the following batch to be maintained before running \nbatch:\n AMAUTDLY\n GLMISUPD\nAMBNAVHF\nBranch Related Maintenance before running EOD\nThe following branch related maintenance is done before running EOD:\nLD Branch Parameters Maintenance \nIC Branch Parameters Maintenance \nNAVC\nDr\nMGTFEEEXP\nMGTFEEAMT\nCr\nFUNDBANKAC\nMGTFEEAMT"
+    },
+    {
+      "page_number": 79,
+      "sections": [],
+      "summary": "",
+      "raw_text": "9-1\n9. Function ID Glossary\nA\nAMDCAONL ......................6-2\nAMDCDEFN ......................7-2\nAMDFNONL ......................5-2\nAMDPRPCL ......................3-2\nAMSCAONL ...................... 6-1\nAMSCDEFN ...................... 7-1\nAMSFNONL ...................... 5-2\nAMSFNPRD ...................... 4-1\nAMSPRPCL ...................... 3-1"
+    }
+  ]
+}

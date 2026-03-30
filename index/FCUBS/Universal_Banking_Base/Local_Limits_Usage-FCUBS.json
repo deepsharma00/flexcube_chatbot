@@ -1,0 +1,353 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/Local_Limits_Usage-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 17,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "1.  Local Limits in FCUBS without ELCM",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page explains the setup and functionalities of local limits in Oracle FLEXCUBE UBS without ELCM, including how to create local facilities and collaterals, and the process for customer creation involving track limits.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.1",
+      "title": "1.1 Introduction",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page explains the setup and functionalities of local limits in Oracle FLEXCUBE UBS without ELCM, including how to create local facilities and collaterals, and the process for customer creation involving track limits.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.1.1",
+      "title": "1.1.1 Setup",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page explains the setup and functionalities of local limits in Oracle FLEXCUBE UBS without ELCM, including how to create local facilities and collaterals, and the process for customer creation involving track limits.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.2",
+      "title": "1.2 Local Limits",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page explains the setup and functionalities of local limits in Oracle FLEXCUBE UBS without ELCM, including how to create local facilities and collaterals, and the process for customer creation involving track limits.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.2.1",
+      "title": "1.2.1 Customer creation with Track Limits (For usage of Limits in UBS without Limits)",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page explains the setup and functionalities of local limits in Oracle FLEXCUBE UBS without ELCM, including how to create local facilities and collaterals, and the process for customer creation involving track limits.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.2.2",
+      "title": "1.2.2 Modification of Track Limit Details.",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This section explains how to invoke the 'Customer Maintenance' screen and modify track limit details during customer modification.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.2.3",
+      "title": "1.2.3 Local Facility Creation",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This section explains how to create local facilities with utilization tracking enabled and provides steps for doing so in the FCUBS modules.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.2.4",
+      "title": "1.2.4 Local Collateral Creation",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the process of creating local collaterals and their utilization tracking, as well as specific account class parameters for CASA limits in a UBS.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3",
+      "title": "1.3 CASA Limits",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page discusses the process of creating local collaterals and their utilization tracking, as well as specific account class parameters for CASA limits in a UBS.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.1",
+      "title": "1.3.1 Account class parameters specific to Limits",
+      "start_page": 6,
+      "end_page": 8,
+      "summary": "This page discusses the process of creating local collaterals and their utilization tracking, as well as specific account class parameters for CASA limits in a UBS.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.2",
+      "title": "1.3.2 Maintaining Limits at Customer Account Level",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page details various components and their impact on account limits, including balance, sweep-in funds, OD limit, AUF limit, line, TOD, daylight limit, and overline.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.2.1",
+      "title": "1.3.2.1 Using Term Deposit as Collateral",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This section provides steps to book a term deposit as collateral by using the 'Account Class Maintenance' screen in the Application toolbar.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.2.2",
+      "title": "1.3.2.2 Local Collateral",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page discusses local collaterals and un-secured limits in account management, including how they are linked and accessed.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.2.3",
+      "title": "1.3.2.3 Un-secured Limit",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page discusses local collaterals and un-secured limits in account management, including how they are linked and accessed.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.2.4",
+      "title": "1.3.2.4 Limit Balance after Limit Linkage",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page discusses account balance details including limit balances and utilization after a debit transaction.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.2.5",
+      "title": "1.3.2.5 Account Balance",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page discusses account balance details including limit balances and utilization after a debit transaction.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.3",
+      "title": "1.3.3 Account Balance and Limit Balance/Utilization after debit Transaction",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page discusses account balance details including limit balances and utilization after a debit transaction.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.3.1",
+      "title": "1.3.3.1 Scenario 1",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page discusses account balance details including limit balances and utilization after a debit transaction.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.3.2",
+      "title": "1.3.3.2 Scenario 2",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page details five scenarios involving the debiting of an account and how different components are used to cover the debit, including balance, overdraft limit, AUF, TOD, and Line.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.3.3",
+      "title": "1.3.3.3 Scenario 3",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page details five scenarios involving the debiting of an account and how different components are used to cover the debit, including balance, overdraft limit, AUF, TOD, and Line.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.3.4",
+      "title": "1.3.3.4 Scenario 4",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page details five scenarios involving the debiting of an account and how different components are used to cover the debit, including balance, overdraft limit, AUF, TOD, and Line.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.3.3.5",
+      "title": "1.3.3.5 Scenario 5",
+      "start_page": 12,
+      "end_page": 14,
+      "summary": "This page details five scenarios involving the debiting of an account and how different components are used to cover the debit, including balance, overdraft limit, AUF, TOD, and Line.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.4",
+      "title": "1.4 Local Limits Linkage at modules",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This section explains how local facilities and collaterals can be linked for limit tracking within modules, and how the linked contract amount is utilized or de-utilized based on module operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.5",
+      "title": "1.5 Customer Limit Details Query(STDLMBAL)",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page describes how to use the Customer Limit Details Query screen to view limit details for a customer and navigate to it.",
+      "cross_references": []
+    },
+    {
+      "structure": "1.5.1",
+      "title": "1.5.1 Assumptions",
+      "start_page": 16,
+      "end_page": 18,
+      "summary": "This page indicates that there are no assumptions made in the document.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page pertains to Oracle FLEXCUBE Universal Banking Local Limits Usage for Release 14.7.0.0.0, dated November 2022.",
+      "raw_text": "FCUBS Local Limits Usage \nOracle FLEXCUBE Universal Banking \nRelease 14.7.0.0.0 \nPart No. F72109-01 \n[November] [2022]"
+    },
+    {
+      "page_number": 2,
+      "sections": [
+        "Introduction",
+        "Local Limits",
+        "CASA Limits"
+      ],
+      "summary": "This page discusses local limits in FCUBS without ELCM, including customer creation with track limits, modification of track limit details, and CASA limits parameters.",
+      "raw_text": "1-1\nTable of Contents \n1. \nLOCAL LIMITS IN FCUBS WITHOUT ELCM ........................................................................................ 1-1 \n1.1 \nINTRODUCTION ......................................................................................................................................... 1-1 \n1.1.1 \nSetup .................................................................................................................................................... 1-1 \n1.2 \nLOCAL LIMITS ........................................................................................................................................... 1-1 \n1.2.1 \nCustomer creation with Track Limits (For usage of Limits in UBS without Limits) ........................... 1-1 \n1.2.2 \nModification of Track Limit Details..................................................................................................... 1-2 \n1.2.3 \nLocal Facility Creation ........................................................................................................................ 1-3 \n1.2.4 \nLocal Collateral Creation .................................................................................................................... 1-4 \n1.3 \nCASA LIMITS ........................................................................................................................................... 1-4 \n1.3.1 \nAccount class parameters specific to Limits ........................................................................................ 1-4 \n1.3.2 \nMaintaining Limits at Customer Account Level .................................................................................. 1-6 \n1.3.3 \nAccount Balance and Limit Balance/Utilization after debit Transaction ............................................ 1-9 \n1.4 \nLOCAL LIMITS LINKAGE AT MODULES .................................................................................................... 1-12 \n1.5 \nCUSTOMER LIMIT DETAILS QUERY(STDLMBAL) ................................................................................. 1-13 \n1.5.1 \nAssumptions ....................................................................................................................................... 1-14"
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Local Limits in FCUBS without ELCM",
+        "Introduction",
+        "Setup",
+        "Local Limits",
+        "Customer creation with Track Limits (For usage of Limits in UBS without Limits)"
+      ],
+      "summary": "This page explains the setup and functionalities of local limits in Oracle FLEXCUBE UBS without ELCM, including how to create local facilities and collaterals, and the process for customer creation involving track limits.",
+      "raw_text": "1-1\n1.  Local Limits in FCUBS without ELCM \n1.1 Introduction \nThis document explains the usage of local limit functionalities in Oracle FLEXCUBE UBS without \nELCM.  \n1.1.1 Setup \nOracle FLEXCUBE UBS Application Setup without ELCM by maintaining \n“ELCM_SETUP_MODE” = “N” in CSTB_PARAM. \n1.2 Local Limits \nIn UBS set without ELCM system supports two types of local limits could be created namely, \n• \nLocal Facility-Facilities for which utilization and validations are tracked with in UBS  \n• \nLocal Collateral-Collaterals for which utilization and validations are tracked with in UBS. \nLocal Collateral and facilities are allowed to be used in CASA and other modules \n1.2.1 Customer creation with Track Limits (For usage of Limits in UBS without \nLimits) \nFor creation of local facility or collateral, The “Track Limits” Flag has to be opted in Customer \nMaintenance (STDCIF) under “Additional” tab. On authorization of customer system will \nautomatically create the liability and link it with the customer on authorization. \n• \nCustomer number is used as Liability number/Optionally an existing liability number can be \nselected. In that case this customer would be linked existing Liability .Existing details of the \nliability would not be changed. \n• \nCustomer Full name (FULL_NAME) is used as Liability Name for Individual type of customers \n• \nCustomer Name (CUSTOMER_NAME1) is used for Liability Name for other type of \ncustomers like Corporate/Bank. \n• \nCustomer’s branch (LOCAL_BRANCH) is used as Liability branch \n• \nBranch local currency is used as Liability currency \n• \nA configurable override would be displayed if an existing liability is mapped instead of \ncreating a new one."
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "1.2.2 Modification of Track Limit Details"
+      ],
+      "summary": "This section explains how to invoke the 'Customer Maintenance' screen and modify track limit details during customer modification.",
+      "raw_text": "1-2\nYou can invoke the ‘Customer Maintenance’ screen by typing ‘STDCIF’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button. \nYou can also navigate to Customers > Operations > Customer Input. \n \n1.2.2 Modification of Track Limit Details. \nUser can mark the track limits enabled during customer modification as well. Changing the Track \nlimit from yes to No is allowed during customer modification"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Local Facility Creation"
+      ],
+      "summary": "This section explains how to create local facilities with utilization tracking enabled and provides steps for doing so in the FCUBS modules.",
+      "raw_text": "1-3\n1.2.3 Local Facility Creation \nFacilities can be created once we done with the customers are created with Track Limit flag \nenabled. Local utilization tracking will be done when using this facility in FCUBS modules. Limit \nrelated validations are performed in UBS for local Facilities and shown during the transactions as \napplicable  \nTo create the facilities, follow the steps below: \n1. Navigate to Common Entity > Limits Maintenance > External Facilities Maintenance’ \n(STDCRFAC) screen. \n \n2. Create the facility with ‘Utilization tracking’ as “Local”."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Local Collateral Creation",
+        "CASA Limits"
+      ],
+      "summary": "This page discusses the process of creating local collaterals and their utilization tracking, as well as specific account class parameters for CASA limits in a UBS.",
+      "raw_text": "1-4\n1.2.4 Local Collateral Creation \nCollaterals can be created once we done with the customers are created with Track Limit flag \nenabled .Collaterals can be created from Local Collateral Maintenance (STDCOLAT) screen. \n• \nLocal utilization tracking will be done when using this local collateral from modules.  \n• \nFor CASA, Linked portion will be blocked upfront on linkage. Further, there will not be any \nutilization tracking for each transaction. \n• \nLimit related validations are performed in UBS for local Facilities and shown during the \ntransactions as applicable. \nYou can invoke the ‘Local Collateral Maintenance’ screen by typing ‘STDCOLAT’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button. \nYou can also navigate to Common Entity > Limits Maintenance > Local Collateral Input screen. \n \n1.3 CASA Limits \nCASA module support linkage of local limit types in a UBS without ELCM setup mode. \n1.3.1 Account class parameters specific to Limits \n• \n‘Overdraft facility’ under account class – ‘Preferences’ sub screen should be enabled to \nattach the limits with the account created under that account class. \n• \n‘Limit Check’ flag under account class – ‘Preferences’ sub screen should be enabled for \nutilization tracking or using local facility. \n• \nMargin on Advance against uncollected fund and default CASA OD interest parameters are \ncan be maintained under account class – ‘Default Limits’ subsystem. \n• \nAlso the default ‘Fund Utilization Sequence’ and Channel wise sequences are should be \nchosen. This is used for raising overrides to control the usage of account level limits. For \nmore information, Please refer FCUBS_14.0.0.0.0_ DesignDocument_Limit_Changes.docx"
+    },
+    {
+      "page_number": 7,
+      "sections": [],
+      "summary": "This page explains how to access the 'Account Class Maintenance' screen through different navigation methods in the application toolbar and customer accounts maintenance section.",
+      "raw_text": "1-5\nYou can invoke the ‘Account Class Maintenance’ screen by typing ‘STDACCLS’ in the field at the \ntop right corner of the Application tool bar and clicking the adjoining arrow button. \nYou can also navigate to Customer Accounts > Customer Accounts Maintenance > Account \nClasses"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Component",
+        "Impact in Limit",
+        "Remarks"
+      ],
+      "summary": "This page details various components and their impact on account limits, including balance, sweep-in funds, OD limit, AUF limit, line, TOD, daylight limit, and overline.",
+      "raw_text": "1-6\n1.3.2 Maintaining Limits at Customer Account Level \nThe following sources of funds will be considered for utilization at account level. \nComponent \nImpact in Limit  \nRemarks \nB- Balance \nNil \nBalance refers to clear balance available for debits at account. \nS- Sweep in \nFunds \nNil \nFunds available as a result of Sweep in Set Up including \nCover account, auto deposit and term deposit linkages \nO- OD Limit \nYes \nWill apply to account  level OD limits like  \n• \nTerm Deposits \n• \nLocal Collateral \n• \nUn-secured Limit \n \nA- AUF limit \nYes \n• \nLimit granted against uncollected funds available in \nthe account \n• \nIt will be issued after reserving a portion of the \nuncollected funds as margin. \nL – Line \nYes \n• \nLocal Facility linked at account level \nT – TOD \nYes \n• \nTemporary Overdraft given at account level \nD – Daylight \nYes \n• \nDay Light Limit amount given to the account \nV- Overline \nYes \n• \nAlways last component to be utilized \nUtilization sequence will be defaulted from account class."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Using Term Deposit as Collateral"
+      ],
+      "summary": "This section provides steps to book a term deposit as collateral by using the 'Account Class Maintenance' screen in the Application toolbar.",
+      "raw_text": "1-7\n1.3.2.1 Using Term Deposit as Collateral  \nFollow the steps below to book a term deposit as collateral: \n1. Invoke the ‘Account Class Maintenance’ screen by typing ‘STDACCLS’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button. \n \n2. Book a term deposit with the flag “Allow Collateral Linkage” enabled. \n3. Once the term deposit is authorized, it will get listed in Customer Account Maintenance"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Local Collateral",
+        "Un-secured Limit"
+      ],
+      "summary": "This page discusses local collaterals and un-secured limits in account management, including how they are linked and accessed.",
+      "raw_text": "1-8\n1.3.2.2 Local Collateral  \nLocal collaterals created in Sec 1.2.3 are allowed to link as account level OD. Linked portion will \nbe blocked upfront on linkage. Further, there will not be any utilization tracking on each \ntransaction. \n1.3.2.3 Un-secured Limit \nIt is a clean limit assigned without any collateral. i.e. Unsecured limits granted not backed by \ncollaterals. \nYou can invoke the ‘Customer Account Maintenance’ screen by typing ‘STDCUSAC’ in the field at \nthe top right corner of the Application tool bar and clicking the adjoining arrow button. \nYou can also navigate to Customer Accounts > Customer Accounts Operations > Customer \nAccount Input."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Limit Balance after Limit Linkage",
+        "Account Balance",
+        "Account Balance and Limit Balance/Utilization after debit Transaction"
+      ],
+      "summary": "This page discusses account balance details including limit balances and utilization after a debit transaction.",
+      "raw_text": "1-9\n1.3.2.4 Limit Balance after Limit Linkage \n1.3.2.5 Account Balance  \nCUST_AC_BRN \n000 \nCUST_AC_NO \n000039622688 \nACY_WITHDRAWABLE_BAL \n84.000 \nACY_UNCOLLECTED \n750.000 \nACY_BLOCKED_AMT \n0.000 \nWITHDRAWABLE_UNCOLLED_FUND \n750.0000000 \nAC_STAT_DORMANT \nN \nRECEIVABLE_AMOUNT \n0 \nACY_ECA_BLOCKED_AMT \n0 \nCCY \nGBP \nACY_UNAUTH_CR \n0 \n1.3.3 Account Balance and Limit Balance/Utilization after debit Transaction \n1.3.3.1 Scenario 1 \n• \nConsidering the above mentioned account (Sec 1.2.6.5) and balance (Sec 1.2.6.4), Debit the \naccount for 50 GBP \n• \nSystem completes the transaction without any override as it has sufficient account balance \nLocal Collateral \nLocal Facility \nLIMIT_TYPE \nX \nF \nLIAB_NO \n003962 \n003962 \nLIMIT_REF_NO \nLCL_COLLAT_01 \nLINE0039621 \nLIMIT_SOURCE \nFLEXCUBE \nFCUBS \nUTIL_AMT \n0.000 \n0.000 \nMATURED_UTIL \n0.000 \n0.000 \nREVOLVING_AMT \n0.000 \n0.000 \nBLOCKED_AMT \n3000.000 \n0.000 \nAVAILABLE_AMOUNT \n22000.000 \n50000.000"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "1.3.3.2 Scenario 2",
+        "1.3.3.3 Scenario 3",
+        "1.3.3.4 Scenario 4",
+        "1.3.3.5 Scenario 5"
+      ],
+      "summary": "This page details five scenarios involving the debiting of an account and how different components are used to cover the debit, including balance, overdraft limit, AUF, TOD, and Line.",
+      "raw_text": "1-10 \n1.3.3.2 Scenario 2 \n• \nConsidering the above mentioned account (Sec 1.2.6.5) and balance (Sec 1.2.6.4), Debit the \naccount for 250 GBP \n• \nSystem will use below components and raise overrides \no B - Balance   \n84 GBP \no O – OD Limit  \n666 GBP \n• \nSweep and Daylight components are not available to use. \n \n1.3.3.3 Scenario 3 \n• \nConsidering the above mentioned account (Sec 1.2.6.5) and balance (Sec 1.2.6.4), Debit the \naccount for 33333 GBP \n• \nSystem will use below components and raise overrides \no B - Balance   \n84 GBP \no O – OD Limit  \n33000 GBP \no A – AUF \n \n249 GBP \n• \nSweep and Daylight components are not available to use. \n1.3.3.4 Scenario 4 \n• \nConsidering the above mentioned account (Sec 1.2.6.5) and balance (Sec 1.2.6.4), Debit the \naccount for 35000 GBP \n• \nSystem will use below components and raise overrides \no B - Balance   \n84 GBP \no O – OD Limit  \n33000 GBP \no A – AUF \n \n750 GBP \no T – TOD \n \n1166 GBP \n• \nSweep and Daylight components are not available to use. \n1.3.3.5 Scenario 5 \n• \nConsidering the above mentioned account (Sec 1.2.6.5) and balance (Sec 1.2.6.4), Debit the \naccount for 36000 GBP \n• \nSystem will use below components and raise overrides \no B - Balance   \n84 GBP \no O – OD Limit  \n33000 GBP \no A – AUF \n \n750 GBP \no T – TOD \n \n2000 GBP \no L – Line \n \n166 GBP (Local utilization tracking will be done in Line) \n• \nSweep and Daylight components are not available to use. \nYou can invoke the ‘Journal Entry Input’ screen by typing ‘DEDJNLON’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button. \nYou can also navigate to Accounting and MIS > Journal Posting Operation > Journal Entry Online"
+    },
+    {
+      "page_number": 13,
+      "sections": [],
+      "summary": "This page provides detailed financial information about a specific account, including limits, balances, and blocked amounts in GBP.",
+      "raw_text": "1-11 \nLimit Balance \n    \nLocal \nCollateral \nLocal \nFacility \nLIMIT_TYPE \nX \nF \nLIAB_NO \n003962 \n003962 \nLIMIT_REF_NO \nLCL_COLLAT_01 \nLINE0039621 \nLIMIT_SOURCE \nFLEXCUBE \nFCUBS \nUTIL_AMT \n0.000 \n166.000 \nMATURED_UTIL \n0.000 \n0.000 \nREVOLVING_AMT \n0.000 \n0.000s \nBLOCKED_AMT \n3000.000 \n0.000 \nAVAILABLE_AMOUNT \n22000.000 \n49834.000 \nAccount Balance \nCUST_AC_BRN \n000 \nCUST_AC_NO \n000039622688 \nACY_WITHDRAWABLE_BAL \n-35916.000 \nACY_UNCOLLECTED \n750.000 \nACY_BLOCKED_AMT \n0.000 \nWITHDRAWABLE_UNCOLLED_FUND \n750.0000000 \nAC_STAT_DORMANT \nN \nRECEIVABLE_AMOUNT \n0 \nACY_ECA_BLOCKED_AMT \n0 \nCCY \nGBP \nACY_UNAUTH_CR \n0"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Local Limits Linkage at modules",
+        "CL Local Facility Linkage"
+      ],
+      "summary": "This section explains how local facilities and collaterals can be linked for limit tracking within modules, and how the linked contract amount is utilized or de-utilized based on module operations.",
+      "raw_text": "1-12 \n1.4 Local Limits Linkage at modules \nLocal facilities and collaterals can be linked at modules for limit tracking. The linked /contract \namount will be utilised/de-utilized based on the module operation.  \nCL Local Facility Linkage"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "CL Local Facility Linkage",
+        "Customer Limit Details Query(STDLMBAL)"
+      ],
+      "summary": "This page describes how to use the Customer Limit Details Query screen to view limit details for a customer and navigate to it.",
+      "raw_text": "1-13 \nCL Local Facility Linkage \n \n \n1.5 Customer Limit Details Query(STDLMBAL) \nUser shall invoke Customer Limit Details Query screen to view the limit details for customer .This \nscreen provide all the limit details for a customer and its utilisations  \nNavigate to Limits and Collaterals>Query>Customer Limit Details."
+    },
+    {
+      "page_number": 16,
+      "sections": [],
+      "summary": "This page indicates that there are no assumptions made in the document.",
+      "raw_text": "1-14 \n \n \n1.5.1 Assumptions \nNone."
+    },
+    {
+      "page_number": 17,
+      "sections": [],
+      "summary": "Could not summarize",
+      "raw_text": "1-1\n \n \n \nFCUBS Local Limits Usage \nNovember 2022 \nVersion 14.7.0.0.0 \n \nOracle Financial Services Software Limited \nOracle Park \nOff Western Express Highway \nGoregaon (East) \nMumbai, Maharashtra 400 063 \nIndia \n \nWorldwide Inquiries: \nPhone: +91 22 6718 3000 \nFax:+91 22 6718 3001 \nwww.oracle.com/financialservices/  \n \nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved. \n \nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their \nrespective owners. \n \nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs \ninstalled on the hardware, and/or documentation, delivered to U.S. Government end users are \"commercial computer \nsoftware\" pursuant to the applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As \nsuch, use, duplication, disclosure, modification, and adaptation of the programs, including any operating system, \nintegrated software, any programs installed on the hardware, and/or documentation, shall be subject to license terms and \nlicense restrictions applicable to the programs. No other rights are granted to the U.S. Government. \n \nThis software or hardware is developed for general use in a variety of information management applications. It is not \ndeveloped or intended for use in any inherently dangerous applications, including applications that may create a risk of \npersonal injury. If you use this software or hardware in dangerous applications, then you shall be responsible to take all \nappropriate failsafe, backup, redundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates \ndisclaim any liability for any damages caused by use of this software or hardware in dangerous applications. \n \nThis software and related documentation are provided under a license agreement containing restrictions on use and \ndisclosure and are protected by intellectual property laws. Except as expressly permitted in your license agreement or \nallowed by law, you may not use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, \nperform, publish or display any part, in any form, or by any means. Reverse engineering, disassembly, or decompilation of \nthis software, unless required by law for interoperability, is prohibited. \n \nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any \nerrors, please report them to us in writing.  \n \nThis software or hardware and documentation may provide access to or information on content, products and services \nfrom third parties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any \nkind with respect to third-party content, products, and services. Oracle Corporation and its affiliates will not be \nresponsible for any loss, costs, or damages incurred due to your access to or use of third-party content, products, or \nservices."
+    }
+  ]
+}

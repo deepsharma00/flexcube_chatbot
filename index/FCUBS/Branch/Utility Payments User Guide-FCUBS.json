@@ -1,0 +1,1510 @@
+{
+  "source": "FlexCube/FCUBS/Branch/Utility Payments User Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 41,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces and provides an overview of defining products for utility payments.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Utility Payments Module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Utility Payments Module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Utility Payments Module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Utility Payments Module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Utility Payments Module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Defining Products for Utility Payments",
+          "start_page": 8
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Introduction",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Advantage of Defining Product",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Attributes of Product",
+          "start_page": 8
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Payment Transactions",
+          "start_page": 9
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Products for Utility Payment Transactions",
+          "start_page": 9
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Define Products",
+          "start_page": 9
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Features of Utility Payment Product Definition Main Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "4.4.3",
+          "title": "3.4.3 Defining Other Attributes of Utility Payment Products",
+          "start_page": 11
+        },
+        {
+          "structure": "4.4.4",
+          "title": "3.4.4 Saving Utility Payments Product",
+          "start_page": 11
+        },
+        {
+          "structure": "4.4.5",
+          "title": "3.4.5 Specifying Accounts Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.4.6",
+          "title": "3.4.6 Specifying Charge Details",
+          "start_page": 12
+        },
+        {
+          "structure": "3",
+          "title": "2. Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page lists related documents and manuals, provides a glossary of icons, and outlines chapters on bill payment processing and function ID navigation.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page lists related documents and manuals, provides a glossary of icons, and outlines chapters on bill payment processing and function ID navigation.",
+      "cross_references": [
+        {
+          "structure": "6",
+          "title": "5. Processing Bill Payments",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Introduction",
+          "start_page": 30
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Making Bill Payments",
+          "start_page": 30
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Maintaining Utility Provider Type",
+          "start_page": 30
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Specifying User Defined Fields",
+          "start_page": 31
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Maintaining Bill Parameters",
+          "start_page": 32
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 Specifying User Defined Fields",
+          "start_page": 33
+        },
+        {
+          "structure": "6.5",
+          "title": "5.5 Maintain Bill Instructions",
+          "start_page": 33
+        },
+        {
+          "structure": "6.5.1",
+          "title": "5.5.1 Maintaining Bill Instructions",
+          "start_page": 34
+        },
+        {
+          "structure": "6.5.2",
+          "title": "5.5.2 Viewing Execution Log",
+          "start_page": 36
+        },
+        {
+          "structure": "6.5.3",
+          "title": "5.5.3 Specifying User Defined Fields",
+          "start_page": 37
+        },
+        {
+          "structure": "6.6",
+          "title": "5.6 Maintaining Products for Utility Bill Payments",
+          "start_page": 37
+        },
+        {
+          "structure": "6.7",
+          "title": "5.7 Viewing Utility Payment Transaction",
+          "start_page": 38
+        },
+        {
+          "structure": "6.8",
+          "title": "5.8 Viewing Bill Details",
+          "start_page": 39
+        },
+        {
+          "structure": "6.9",
+          "title": "5.9 Viewing Transaction Details",
+          "start_page": 39
+        },
+        {
+          "structure": "6.10",
+          "title": "5.10 Executing Bill Payment Batch",
+          "start_page": 4
+        },
+        {
+          "structure": "5",
+          "title": "4. Accounts Details and Charges",
+          "start_page": 13
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Introduction",
+          "start_page": 13
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Maintaining Accounts Details and Charges - Utility Products",
+          "start_page": 13
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 ARC Maintenance Screen",
+          "start_page": 13
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Invoke ‘ARC Maintenance’ screen",
+          "start_page": 14
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Specifying Institution ID",
+          "start_page": 15
+        },
+        {
+          "structure": "5.3.3",
+          "title": "4.3.3 Identifying Offset Details",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.4",
+          "title": "4.3.4 Identifying Transaction Details",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.5",
+          "title": "4.3.5 Identifying Transaction Codes",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.6",
+          "title": "4.3.6 Indicating Service Charges for Inter-branch Transactions",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.7",
+          "title": "4.3.7 Indicating Exchange Rate Revaluation",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.8",
+          "title": "4.3.8 Defining Charge details",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.9",
+          "title": "4.3.9 Charge Code Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "5.3.10",
+          "title": "4.3.10 ARC Branch Group Maintenance",
+          "start_page": 26
+        },
+        {
+          "structure": "5.3.11",
+          "title": "4.3.11 Entity Maintenance",
+          "start_page": 26
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Generating Notifications",
+          "start_page": 29
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Overview",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section describes the Payments Utility Interface module's functionality for processing utility payments and outlines its key features such as flexible accounting definitions and cross-currency support.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section describes the Payments Utility Interface module's functionality for processing utility payments and outlines its key features such as flexible accounting definitions and cross-currency support.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Features",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This section describes the Payments Utility Interface module's functionality for processing utility payments and outlines its key features such as flexible accounting definitions and cross-currency support.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Defining Products for Utility Payments",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page discusses defining products for utility payments and highlights the advantages of doing so in terms of streamlining transaction processing details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Introduction",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page discusses defining products for utility payments and highlights the advantages of doing so in terms of streamlining transaction processing details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Advantage of Defining Product",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page discusses defining products for utility payments and highlights the advantages of doing so in terms of streamlining transaction processing details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Attributes of Product",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page discusses defining products for utility payments and highlights the advantages of doing so in terms of streamlining transaction processing details.",
+      "cross_references": [
+        {
+          "structure": "3.2",
+          "title": "2.2 Features",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Payment Transactions",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page discusses transaction details and product definitions in Oracle FLEXCUBE related to payment transactions involving utility providers.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Products for Utility Payment Transactions",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page discusses transaction details and product definitions in Oracle FLEXCUBE related to payment transactions involving utility providers.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.1",
+      "title": "3.4.1 Define Products",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page discusses transaction details and product definitions in Oracle FLEXCUBE related to payment transactions involving utility providers.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.2",
+      "title": "3.4.2 Features of Utility Payment Product Definition Main Screen",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This section describes how to set up a basic profile for a utility product on the UP Product Definition main screen and lists the details that must be specified.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.3",
+      "title": "3.4.3 Defining Other Attributes of Utility Payment Products",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page outlines the key details required for defining a utility payments product, including its type, description, slogan, classification, and availability period.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.4",
+      "title": "3.4.4 Saving Utility Payments Product",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page outlines the key details required for defining a utility payments product, including its type, description, slogan, classification, and availability period.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.5",
+      "title": "3.4.5 Specifying Accounts Details",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page describes how product information is updated when saved and details on specifying accounts for utility payments processing.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.6",
+      "title": "3.4.6 Specifying Charge Details",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page describes how product information is updated when saved and details on specifying accounts for utility payments processing.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Accounts Details and Charges",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This section explains how to configure utility payment products for specific utility providers by detailing necessary account information and charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Introduction",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This section explains how to configure utility payment products for specific utility providers by detailing necessary account information and charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Maintaining Accounts Details and Charges - Utility Products",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This section explains how to configure utility payment products for specific utility providers by detailing necessary account information and charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 ARC Maintenance Screen",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This section explains how to configure utility payment products for specific utility providers by detailing necessary account information and charges.",
+      "cross_references": [
+        {
+          "structure": "4.2",
+          "title": "3.2 Advantage of Defining Product",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Attributes of Product",
+          "start_page": 8
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Payment Transactions",
+          "start_page": 9
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Products for Utility Payment Transactions",
+          "start_page": 9
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Define Products",
+          "start_page": 9
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Features of Utility Payment Product Definition Main Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "4.4.3",
+          "title": "3.4.3 Defining Other Attributes of Utility Payment Products",
+          "start_page": 11
+        },
+        {
+          "structure": "4.4.4",
+          "title": "3.4.4 Saving Utility Payments Product",
+          "start_page": 11
+        },
+        {
+          "structure": "4.4.5",
+          "title": "3.4.5 Specifying Accounts Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.4.6",
+          "title": "3.4.6 Specifying Charge Details",
+          "start_page": 12
+        }
+      ]
+    },
+    {
+      "structure": "5.3.1",
+      "title": "4.3.1 Invoke ‘ARC Maintenance’ screen",
+      "start_page": 14,
+      "end_page": 15,
+      "summary": "This page describes how to invoke and use the 'ARC Maintenance' screen in Oracle FLEXCUBE for specifying accounting entry definitions, exchange rate specifications, and charge details related to utility payment transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.2",
+      "title": "4.3.2 Specifying Institution ID",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page explains how to maintain ARC details for utility providers in a banking system, including specifying the product and currency for processing customer payments.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.3",
+      "title": "4.3.3 Identifying Offset Details",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page explains how to specify accounts and transaction details for payments to utility providers, including offset and debit tracking.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.4",
+      "title": "4.3.4 Identifying Transaction Details",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page explains how to specify accounts and transaction details for payments to utility providers, including offset and debit tracking.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.5",
+      "title": "4.3.5 Identifying Transaction Codes",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This page explains how to specify accounts and transaction details for payments to utility providers, including offset and debit tracking.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.6",
+      "title": "4.3.6 Indicating Service Charges for Inter-branch Transactions",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page explains how to indicate service charges and exchange rate revaluation in transactions, including details on inter-branch transactions and profit/loss revaluation GLs.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.7",
+      "title": "4.3.7 Indicating Exchange Rate Revaluation",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page explains how to indicate service charges and exchange rate revaluation in transactions, including details on inter-branch transactions and profit/loss revaluation GLs.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.8",
+      "title": "4.3.8 Defining Charge details",
+      "start_page": 17,
+      "end_page": 22,
+      "summary": "This page explains how to indicate service charges and exchange rate revaluation in transactions, including details on inter-branch transactions and profit/loss revaluation GLs.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.9",
+      "title": "4.3.9 Charge Code Maintenance",
+      "start_page": 22,
+      "end_page": 26,
+      "summary": "This section explains how to set liquidation preferences for tracked charges in a system, detailing partial and full options and their implications.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.10",
+      "title": "4.3.10 ARC Branch Group Maintenance",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page describes how to maintain ARC branch groups and entity fees in the application tool bar by using specific screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.11",
+      "title": "4.3.11 Entity Maintenance",
+      "start_page": 26,
+      "end_page": 29,
+      "summary": "This page describes how to maintain ARC branch groups and entity fees in the application tool bar by using specific screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4",
+      "title": "4.4 Generating Notifications",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This section describes how Oracle FLEXCUBE generates notifications for transactions in the Utility Payments module and lists the fields included in these notifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Processing Bill Payments",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page introduces bill payment processes and maintenance procedures for utility providers in a banking context.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Introduction",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page introduces bill payment processes and maintenance procedures for utility providers in a banking context.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Making Bill Payments",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page introduces bill payment processes and maintenance procedures for utility providers in a banking context.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3",
+      "title": "5.3 Maintaining Utility Provider Type",
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This page introduces bill payment processes and maintenance procedures for utility providers in a banking context.",
+      "cross_references": [
+        {
+          "structure": "5.3",
+          "title": "4.3 ARC Maintenance Screen",
+          "start_page": 13
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Invoke ‘ARC Maintenance’ screen",
+          "start_page": 14
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Specifying Institution ID",
+          "start_page": 15
+        },
+        {
+          "structure": "5.3.3",
+          "title": "4.3.3 Identifying Offset Details",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.4",
+          "title": "4.3.4 Identifying Transaction Details",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.5",
+          "title": "4.3.5 Identifying Transaction Codes",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.6",
+          "title": "4.3.6 Indicating Service Charges for Inter-branch Transactions",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.7",
+          "title": "4.3.7 Indicating Exchange Rate Revaluation",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.8",
+          "title": "4.3.8 Defining Charge details",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.9",
+          "title": "4.3.9 Charge Code Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "5.3.10",
+          "title": "4.3.10 ARC Branch Group Maintenance",
+          "start_page": 26
+        },
+        {
+          "structure": "5.3.11",
+          "title": "4.3.11 Entity Maintenance",
+          "start_page": 26
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Generating Notifications",
+          "start_page": 29
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Maintaining Accounts Details and Charges - Utility Products",
+          "start_page": 13
+        }
+      ]
+    },
+    {
+      "structure": "6.3.1",
+      "title": "5.3.1 Specifying User Defined Fields",
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This page describes how to invoke a screen for updating utility provider types and details, as well as specifying user-defined fields.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4",
+      "title": "5.4 Maintaining Bill Parameters",
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This page describes how to access and use the 'Utility Provider Type Maintenance' and 'Utility Bill Structure Definition' screens for maintaining utility provider types and bill parameters.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.1",
+      "title": "5.4.1 Specifying User Defined Fields",
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This page describes how to specify utility provider details, field labels for bill payment, and user-defined fields in the system, as well as instructions on maintaining bill information.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5",
+      "title": "5.5 Maintain Bill Instructions",
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This page describes how to specify utility provider details, field labels for bill payment, and user-defined fields in the system, as well as instructions on maintaining bill information.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.1",
+      "title": "5.5.1 Maintaining Bill Instructions",
+      "start_page": 34,
+      "end_page": 36,
+      "summary": "This page describes how to maintain bill payment instructions for utility providers using the 'Utility Bill Instruction Capture' screen in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.2",
+      "title": "5.5.2 Viewing Execution Log",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page describes how to specify payment details such as amount and account for a bill payment, and how to view the execution log of the transaction.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.5.3",
+      "title": "5.5.3 Specifying User Defined Fields",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page discusses how to specify user-defined fields and maintain products for utility bill payments in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.6",
+      "title": "5.6 Maintaining Products for Utility Bill Payments",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page discusses how to specify user-defined fields and maintain products for utility bill payments in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.7",
+      "title": "5.7 Viewing Utility Payment Transaction",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This page explains how to define products and account details for utility payments before entering transactions, and how to view these transactions in the 'Bill Payment Query' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.8",
+      "title": "5.8 Viewing Bill Details",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page describes how to view bill and transaction details, as well as execute batch payments for utility bills.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.9",
+      "title": "5.9 Viewing Transaction Details",
+      "start_page": 39,
+      "end_page": 4,
+      "summary": "This page describes how to view bill and transaction details, as well as execute batch payments for utility bills.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.10",
+      "title": "5.10 Executing Bill Payment Batch",
+      "start_page": 4,
+      "end_page": 41,
+      "summary": "This page discusses various functions related to bill instructions, products, and payments, including maintaining bill instructions, specifying user-defined fields, and executing payment batches.",
+      "cross_references": [
+        {
+          "structure": "5.3",
+          "title": "4.3 ARC Maintenance Screen",
+          "start_page": 13
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Invoke ‘ARC Maintenance’ screen",
+          "start_page": 14
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Specifying Institution ID",
+          "start_page": 15
+        },
+        {
+          "structure": "5.3.3",
+          "title": "4.3.3 Identifying Offset Details",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.4",
+          "title": "4.3.4 Identifying Transaction Details",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.5",
+          "title": "4.3.5 Identifying Transaction Codes",
+          "start_page": 16
+        },
+        {
+          "structure": "5.3.6",
+          "title": "4.3.6 Indicating Service Charges for Inter-branch Transactions",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.7",
+          "title": "4.3.7 Indicating Exchange Rate Revaluation",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.8",
+          "title": "4.3.8 Defining Charge details",
+          "start_page": 17
+        },
+        {
+          "structure": "5.3.9",
+          "title": "4.3.9 Charge Code Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "5.3.10",
+          "title": "4.3.10 ARC Branch Group Maintenance",
+          "start_page": 26
+        },
+        {
+          "structure": "5.3.11",
+          "title": "4.3.11 Entity Maintenance",
+          "start_page": 26
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Advantage of Defining Product",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Attributes of Product",
+          "start_page": 8
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Maintaining Accounts Details and Charges - Utility Products",
+          "start_page": 13
+        },
+        {
+          "structure": "5",
+          "title": "4. Accounts Details and Charges",
+          "start_page": 13
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Introduction",
+          "start_page": 13
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Generating Notifications",
+          "start_page": 29
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Products for Utility Payment Transactions",
+          "start_page": 9
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Define Products",
+          "start_page": 9
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Features of Utility Payment Product Definition Main Screen",
+          "start_page": 10
+        },
+        {
+          "structure": "4.4.3",
+          "title": "3.4.3 Defining Other Attributes of Utility Payment Products",
+          "start_page": 11
+        },
+        {
+          "structure": "4.4.4",
+          "title": "3.4.4 Saving Utility Payments Product",
+          "start_page": 11
+        },
+        {
+          "structure": "4.4.5",
+          "title": "3.4.5 Specifying Accounts Details",
+          "start_page": 12
+        },
+        {
+          "structure": "4.4.6",
+          "title": "3.4.6 Specifying Charge Details",
+          "start_page": 12
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Features",
+          "start_page": 7
+        },
+        {
+          "structure": "4",
+          "title": "3. Defining Products for Utility Payments",
+          "start_page": 8
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Introduction",
+          "start_page": 8
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Payment Transactions",
+          "start_page": 9
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "6",
+          "title": "5. Processing Bill Payments",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Introduction",
+          "start_page": 30
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Making Bill Payments",
+          "start_page": 30
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Maintaining Utility Provider Type",
+          "start_page": 30
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Specifying User Defined Fields",
+          "start_page": 31
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Maintaining Bill Parameters",
+          "start_page": 32
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 Specifying User Defined Fields",
+          "start_page": 33
+        },
+        {
+          "structure": "6.5",
+          "title": "5.5 Maintain Bill Instructions",
+          "start_page": 33
+        },
+        {
+          "structure": "6.5.1",
+          "title": "5.5.1 Maintaining Bill Instructions",
+          "start_page": 34
+        },
+        {
+          "structure": "6.5.2",
+          "title": "5.5.2 Viewing Execution Log",
+          "start_page": 36
+        },
+        {
+          "structure": "6.5.3",
+          "title": "5.5.3 Specifying User Defined Fields",
+          "start_page": 37
+        },
+        {
+          "structure": "6.6",
+          "title": "5.6 Maintaining Products for Utility Bill Payments",
+          "start_page": 37
+        },
+        {
+          "structure": "6.7",
+          "title": "5.7 Viewing Utility Payment Transaction",
+          "start_page": 38
+        },
+        {
+          "structure": "6.8",
+          "title": "5.8 Viewing Bill Details",
+          "start_page": 39
+        },
+        {
+          "structure": "6.9",
+          "title": "5.9 Viewing Transaction Details",
+          "start_page": 39
+        },
+        {
+          "structure": "3",
+          "title": "2. Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "7",
+      "title": "6. Function ID Glossary",
+      "start_page": 41,
+      "end_page": 43,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for utility payments in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Utility Payments User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "Utility Payments User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "3. Defining Products for Utility Payments",
+        "3.1 Introduction"
+      ],
+      "summary": "This page introduces and provides an overview of defining products for utility payments.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nOverview ................................................................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nFeatures ..................................................................................................................  2-1\n3. \nDefining Products for Utility Payments ................................................. 3-1\n3.1 \nIntroduction..............................................................................................................  3-1\n3.2 \nAdvantage of Defining Product................................................................................  3-1\n3.2.1  \nAttributes of Product...................................................................................  3-1\n3.3 \nPayment Transactions.............................................................................................  3-2\n3.4 \nProducts for Utility Payment Transactions...............................................................  3-2\n3.4.1  \nDefine Products ..........................................................................................  3-2\n3.4.2  \nFeatures of Utility Payment Product Definition Main Screen......................  3-3\n3.4.3  \nDefining Other Attributes of Utility Payment Products................................  3-4\n3.4.4  \nSaving Utility Payments Product ................................................................  3-4\n3.4.5  \nSpecifying Accounts Details .......................................................................  3-5\n3.4.6  \nSpecifying Charge Details ..........................................................................  3-5\n4. \nAccounts Details and Charges ............................................................... 4-1\n4.1 \nIntroduction..............................................................................................................  4-1\n4.2 \nMaintaining Accounts Details and Charges - Utility Products..................................  4-1\n4.3 \nARC Maintenance Screen.......................................................................................  4-1\n4.3.1  \nInvoke ‘ARC Maintenance’ screen .............................................................  4-2\n4.3.2  \nSpecifying Institution ID..............................................................................  4-3\n4.3.3  \nIdentifying Offset Details.............................................................................  4-4\n4.3.4  \nIdentifying Transaction Details ...................................................................  4-4\n4.3.5  \nIdentifying Transaction Codes....................................................................  4-4\n4.3.6  \nIndicating Service Charges for Inter-branch Transactions .........................  4-5\n4.3.7  \nIndicating Exchange Rate Revaluation.......................................................  4-5\n4.3.8  \nDefining Charge details ..............................................................................  4-5\n4.3.9  \nCharge Code Maintenance.......................................................................  4-10\n4.3.10  ARC Branch Group Maintenance.............................................................  4-14\n4.3.11  Entity Maintenance...................................................................................  4-14\n4.4 \nGenerating Notifications ........................................................................................  4-17\n5. \nProcessing Bill Payments ....................................................................... 5-1\n5.1 \nIntroduction..............................................................................................................  5-1\n5.2 \nMaking Bill Payments .............................................................................................  5-1\n5.3 \nMaintaining Utility Provider Type.............................................................................  5-1\n5.3.1  \nSpecifying User Defined Fields ..................................................................  5-2\n5.4 \nMaintaining Bill Parameters.....................................................................................  5-3"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Specifying User Defined Fields",
+        "Maintain Bill Instructions",
+        "Maintaining Products for Utility Bill Payments",
+        "Viewing Utility Payment Transaction",
+        "Viewing Bill Details",
+        "Viewing Transaction Details",
+        "Executing Bill Payment Batch"
+      ],
+      "summary": "This page discusses various functions related to bill instructions, products, and payments, including maintaining bill instructions, specifying user-defined fields, and executing payment batches.",
+      "raw_text": "5.4.1  \nSpecifying User Defined Fields ..................................................................  5-4\n5.5 \nMaintain Bill Instructions..........................................................................................  5-4\n5.5.1  \nMaintaining Bill Instructions........................................................................  5-5\n5.5.2  \nViewing Execution Log ...............................................................................  5-7\n5.5.3  \nSpecifying User Defined Fields ..................................................................  5-8\n5.6 \nMaintaining Products for Utility Bill Payments .........................................................  5-8\n5.7 \nViewing Utility Payment Transaction .......................................................................  5-9\n5.8 \nViewing Bill Details ................................................................................................  5-10\n5.9 \nViewing Transaction Details ..................................................................................  5-10\n5.10 Executing Bill Payment Batch................................................................................  5-10\n6. \nFunction ID Glossary ............................................................................... 6-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization"
+      ],
+      "summary": "This page introduces the Utility Payments Module of Oracle FLEXCUBE and outlines its intended audience, accessibility information, and organization into chapters.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help acquaint you with the Utility Payments Module of Oracle \nFLEXCUBE.\nIt provides an overview of the module and guides you, through the various steps involved in \nprocessing utility payments of the customers of your bank.\nYou can further obtain information about to a particular field by placing the cursor on the \nrelevant field and striking the <F1> key on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nBack office data entry clerk\nInput functions for contracts.\nBack office managers/officers\nAuthorization functions.\nProduct Managers\nProduct definition and authorization.\nEnd of Day operators\nProcessing during End of Day/ Beginning of \nDay.\nFinancial Controller / Product Managers\nGeneration of reports.\nChapter\nDescription\nChapter 1\nPreface gives information on the intended audience. It also lists the vari-\nous chapters covered in this User Manual.\nChapter 2\nOverview is a snapshot of the features that the module provides.\nChapter 3\nDefining Products for Utility Payments details the procedure to set up prod-\nucts for utility payments.\nChapter 4\nAccounts Details and Charges explains the process of setting up details of \naccounts and charges for a utility product, applicable for payment transac-\ntions, is explained in this chapter."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Related Documents",
+        "Glossary of Icons",
+        "Chapter 5",
+        "Chapter 6",
+        "Icons"
+      ],
+      "summary": "This page lists related documents and manuals, provides a glossary of icons, and outlines chapters on bill payment processing and function ID navigation.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nThe Core Services User Manual\nThe Core Entities User Manual\nThe Procedures User Manual\n1.6 \nGlossary of Icons\nChapter 5\nProcessing Bill Payments deals with the procedure involved in entering the \ndetails of a utility payment transaction for a customer, against an issued \nbill.\nChapter 6\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "Features"
+      ],
+      "summary": "This section describes the Payments Utility Interface module's functionality for processing utility payments and outlines its key features such as flexible accounting definitions and cross-currency support.",
+      "raw_text": "2-1\n2. Overview\n2.1 \nIntroduction\nThe Payments Utility Interface module enables your bank to process payments made by \ncustomers towards services and utilities provided by specific utility providers. Customers may \nneed to make these payments from any branch of your bank to any other branch of your bank.\nFor each kind of payment, you can define a product in the UP Product Definition screen.\nYou can make the use of the product specific to payments made to a specific utility provider, \nfor a particular utility payment, and a particular payment currency, by defining ARC details in \nthe ARC Maintenance screen.\n2.2 \nFeatures\nThe Payment Utility Interface module enables you to process utility payments made by \ncustomers, by providing the following features:\nFlexible definitions of accounting entries and events involving payments\nDefinition of charges applicable\nDefinition of exchange rates applicable for cross-currency conversions\nInter-branch payment transactions can be processed"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Introduction",
+        "Advantage of Defining Product"
+      ],
+      "summary": "This page discusses defining products for utility payments and highlights the advantages of doing so in terms of streamlining transaction processing details.",
+      "raw_text": "3-1\n3. Defining Products for Utility Payments\n3.1 \nIntroduction\nA product is a specific service, facility, scheme or utility that you make available to customers \nof your bank.\nFor instance, processing payments made by customers for utility services, to a utility provider \ninstitution could be thought of as a product.\nThis chapter contains the following sections:\nSection 3.2, \"Advantage of Defining Product\"\nSection 3.3, \"Payment Transactions\"\nSection 3.4, \"Products for Utility Payment Transactions\"\n3.2 \nAdvantage of Defining Product\nWhen you process a utility payment transaction for a customer, you need to provide the \nfollowing details:\nAny applicable charges levied for the service of processing payments\nThe specific accounts that would be impacted (debited or credited) when the payment \ntakes place\nThe exchange rates that would apply in the case of cross currency conversions that may \nneed to be done when a payment is processed\nThe transaction codes under which accounting entries would be posted for each leg of \nthe transaction\nFor an inter-branch transaction, you would need to specify the branch in which the debit \naccount resides\nTo avoid capturing these details each time a payment transaction is processed, you can \ndefine a product. You can specify all the details mentioned above and define a specific set of \naccounts, charges and rates for each utility provider for whom you need to process payment \ntransactions. These details can then be mapped to the product. Whenever you process a \npayment made by a customer to the utility provider, against the product, the system applies \nall the specifications made for the product to the transaction, and you need not specify them \nafresh.\n3.2.1 \nAttributes of Product\nA product is characterized by its attributes. The attributes are options that you define that will \napply to any actual transactions that will be processed against the product.\nIn the case of a product that you create to process utility payments made by a customer to a \nutility provider, you can define a specific set of accounting details, applicable charges and \nrates that would apply to each specific utility provider. These details can be mapped to the \nproduct.\n3.2.1.1 \nOther Attributes\nThe following are the other attributes you could define for a utility payments product:\nThe user-defined fields that you would want to use for entering transactions against the \nproduct"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Payment Transactions",
+        "Products for Utility Payment Transactions"
+      ],
+      "summary": "This page discusses transaction details and product definitions in Oracle FLEXCUBE related to payment transactions involving utility providers.",
+      "raw_text": "3-2\nThe management reporting (MIS) details for transactions involving the product.\n3.3 \nPayment Transactions\nA transaction is a specific operation with financial implications (such as a payment) that \ninvolves two or more entities. A customer who approaches your bank to avail of any of the \nservices offered by your bank enters into a transaction or contract with your bank. \nIn the case of utility payments of customers, the entities involved are the customer, your bank \nand the utility provider. The utility provider is the institution in whose favor a customer makes \npayments, and on whose behalf your bank has agreed to accept and process such customer \npayments.\nIn Oracle FLEXCUBE, a transaction is entered into the system against a product. For \ninstance, a payment made by a customer towards electricity charges could be entered into \nthe system against a product defined for processing electricity charges payments, with \naccounting details, rates and charges defined specifically for the utility provider that is the \nrecipient of the payment.\nWhen Oracle FLEXCUBE processes the transaction, it will apply all the attributes and \nspecifications made for the product against which the transaction was entered.\nYou can enter more than one payment transaction in favour of a utility provider, against a \nproduct that has been created specifically for the utility provider.\n3.4 \nProducts for Utility Payment Transactions\nThis section contains the following topics:\nSection 3.4.1, \"Define Products\"\nSection 3.4.2, \"Features of Utility Payment Product Definition Main Screen\"\nSection 3.4.3, \"Defining Other Attributes of Utility Payment Products\"\nSection 3.4.4, \"Saving Utility Payments Product\"\nSection 3.4.5, \"Specifying Accounts Details\"\nSection 3.4.6, \"Specifying Charge Details\"\n3.4.1 \nDefine Products\n When you define products for processing payment transactions of customers, you need to \ndefine BPAT (Bill payment against account) and BPCH (Bill payment against cash) product \nfor utility payment that your bank would process for customers. \nDefine the utility provider ID of the recipient of each type of utility payment made by a \ncustomer. Attach this utility provide ID against the transaction type field in ‘ARC Maintenance’ \nscreen. The details of the accounts to which entries are posted for payments, exchange rates \nfor cross currency conversion and the charges that bank levies on utility payments towards \neach utility provider may be different. Therefore, you need to map these details to the \ncorresponding transaction type that you have created in 'ARC Maintenance'.\nTo create a product for utility payments of customers, you must specify basic details such as \nthe Product Code, Group, Description, and so on in the ‘UP Product Definition’ screen. You"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Features of Utility Payment Product Definition Main Screen"
+      ],
+      "summary": "This section describes how to set up a basic profile for a utility product on the UP Product Definition main screen and lists the details that must be specified.",
+      "raw_text": "3-3\ncan invoke this screen by typing ‘UPDPRDMN’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button.\nIn this screen, you can only set up a basic profile for the product. You cannot associate any \naccount details or charge details for a specific utility provider. To maintain these details for a \nspecific utility provider for a specific product, you must use the Accounting Rates and Charges \nMaintenance (ARC) screen.\nRefer to the chapter Accounts Details and Charges in this user manual, for information about \nthe ‘ARC Maintenance’ screen.\n3.4.2 \nFeatures of Utility Payment Product Definition Main Screen\nYou must specify the following details for a utility product in the UP Product Definition main \nscreen:\nAn identifier or code for the product, which is unique to it\nA concise description of the product\nA slogan for the product\nThe group under which the product is classified\nThe life-span of the product\nAny narrative regarding the product (remarks)\nThe limits with regard to exchange rate variance that would apply to any transactions \ninvolving the product\nProduct Code\nThe product code is a unique identifier for the product in the system, across all modules. You \ncan specify a code consisting of four characters. You cannot use the code that you specify \nhere for any other product in the system, in any module. If, for instance, you have specified \nPWBL as the product code for a utility product in this screen, you cannot specify the same \ncode for any other product in any other module in the system.\nFor any utility product, you must specify a code. Specify an indicative code."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Product Type",
+        "Product Description",
+        "Slogan",
+        "Product Group",
+        "Start and End Date"
+      ],
+      "summary": "This page outlines the key details required for defining a utility payments product, including its type, description, slogan, classification, and availability period.",
+      "raw_text": "3-4\nProduct Type\nThe product type indicates the category under which the product can be placed, and the type \nof transaction that will be processed against the product. A utility payments product can only \nbe used to process utility payments made by customers in favor of a particular utility provider.\nProduct Description\nGive a brief description of the product. This description can be used to easily locate and \nretrieve information regarding the product.\nFor any utility product, you must specify a description. Specify an indicative description.\nSlogan \nSpecify a catchphrase for the product. You could specify a marketing motto, or any other \nsaying that encapsulates the product in a few short words.\nFor any utility product, you must specify a slogan.\nProduct Group\nProducts are classified into different groups, based on similar characteristics. The \nclassification makes it simple to retrieve information about a class of products.\nA list of product groups maintained in the Product Group Definition is displayed in the list box, \nfrom which you can select the appropriate group.\nStart and End Date\nTo recall, a product is a scheme or service that your bank offers customers. Typically, a \nscheme or service is available to customers within a fixed period. This period is the life span \nof the product.\nYou specify the product life span by providing a Start Date and an End Date. The period \nbetween the two dates is when the product is available for use. If you do not specify an end \ndate, the product can be used indefinitely, or until it is closed.\nRemarks\nYou can specify information about a product that will be used for reference, within your bank. \nIt will not be printed on any correspondence with customers, but will be displayed when the \ndetails of any payment transaction involving the product are displayed or printed.\n3.4.3 \nDefining Other Attributes of Utility Payment Products\nAfter specifying all these basic details of a product, you can indicate certain specific attributes \nfor the product. Each of these attributes can be defined in the corresponding screen that you \ncan invoke from the ‘UP Product Definition’ main screen, by clicking the appropriate icons. \nAttributes with common characteristics are grouped together in common screens, simplifying \nthe process of defining them.\nClick ‘Fields’ button to specify any user-defined fields that would be required during entry of \ntransactions involving the product.\nClick ‘MIS’ to specify any MIS details that would be applicable for any utility payment \ntransactions involving the product.\n3.4.4 \nSaving Utility Payments Product\nAfter you have specified all the mandatory information required for the product in the product \ndefinition screens, you could save the product. You will not be allowed to save the product \nuntil you have specified all the mandatory information."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "3-5",
+        "3.4.5"
+      ],
+      "summary": "This page describes how product information is updated when saved and details on specifying accounts for utility payments processing.",
+      "raw_text": "3-5\nWhen you save the product, the following information is updated and displayed in the status \nbar of the UP Product Definition screen:\nYour User ID in the Input By field\nThe date and time at which you entered the product, in the Date Time field\nAlso, the status of the product is updated as Open and Unauthorized. Another user with \nauthorization rights must authorize it, before you can begin to use it.\n3.4.5 \nSpecifying Accounts Details\nTo recall, you maintain a utility payments product to process a specific kind of utility payment \nmade by customers. In order to configure a product to process a specific type of payment \nmade by customers, in favor of a specific utility provider, you also need to specify the details \nof the accounts or GL’s to which accounting entries need to be posted for any payment \ntransaction, for the utility provider.\nYou specify these accounts details in the ARC Maintenance screen, for each specific utility \nprovider. You also map the appropriate product to these details. When you do so, the product \n– accounting details combination can then be used to process only all those payments made \nby customers to the specific utility provider to whom the accounts details are applicable. \nTo use the same product to process specific payments made by customers in favor of a \ndifferent utility provider, you will need to set up another set of accounting details that are \nspecific to the utility provider in the ARC Maintenance screen, and associate these details with \nthe product.\nInvoke the ‘ARC Maintenance’ screen from the Application Browser. \nFor a full discussion of this screen, refer the chapter Accounts Details and Charges in this user \nmanual.\n3.4.6 \nSpecifying Charge Details\nWhen you process utility payments made by customers, your bank may need to levy certain \nservice charges for each utility provider. You can specify these charges specifically for a utility \nprovider, in the ARC Maintenance screen, and associate the product you have created, with \nthese charges. Whenever you use the product to process a utility payment made to the utility \nprovider for whom you have defined the charges in the ARC Maintenance screen, they are \napplied by default. You can override these default charges, if necessary.\nInvoke the ‘ARC Maintenance’ screen from the Application Browser. \nFor a full discussion of this screen, refer the chapter Accounts Details and Charges in this \nUser Manual."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Introduction",
+        "Maintaining Accounts Details and Charges - Utility Products"
+      ],
+      "summary": "This section explains how to configure utility payment products for specific utility providers by detailing necessary account information and charges.",
+      "raw_text": "4-1\n4. Accounts Details and Charges\n4.1 \nIntroduction\nThis chapter contains the following sections:\nSection 4.2, \"Maintaining Accounts Details and Charges - Utility Products\"\nSection 4.3, \"ARC Maintenance Screen\"\nSection 4.4, \"Generating Notifications\"\n4.2 \nMaintaining Accounts Details and Charges - Utility \nProducts\nThe institution or utility provider\nThe entities that are recipients of any kind of utility payments made by customers are known \nas receiving institutions or utility providers. For instance, a company that provides telephone \nservices, in favor of whom a customer may make payments for telephone services, is one type \nof utility provider.\nAfter you have defined a utility payments product to process a specific kind of utility payment \nof customers, you must configure the product to process payments made to a specific utility \nprovider. To do this, you must specify the following details for the product:\nThe details of accounts or GLs to which accounting entries would be posted when the \nutility payments are processed. This would be specific to each utility provider, since the \ndebit and offset accounts for a payments transaction would presumably be different for \neach utility provider.\nThe utility provider or the institution that would be the recipient for any payments of the \ntype for which you have defined the product, made by customers.\nThe currency in which payments would be accepted\nThe details of any charges that your bank would need to collect or levy, for the service \nof processing the utility payment. These details could again be specific to each utility \nprovider.\nNote\nIn order to compute applicable charges, the following screens need to be maintained, be-\nfore proceeding with ARC Maintenance:\nCharge Code Maintenance\nEntity Maintenance\nDetails on the above mentioned maintenances are provided in subsequent sections of this \nchapter.\n4.3 \nARC Maintenance Screen\nThis section contains the following topics:\nSection 4.3.1, \"Invoke ‘ARC Maintenance’ screen\"\nSection 4.3.2, \"Specifying Institution ID\"\nSection 4.3.3, \"Identifying Offset Details\"\nSection 4.3.4, \"Identifying Transaction Details\""
+    },
+    {
+      "page_number": 14,
+      "sections": [],
+      "summary": "This page describes how to invoke and use the 'ARC Maintenance' screen in Oracle FLEXCUBE for specifying accounting entry definitions, exchange rate specifications, and charge details related to utility payment transactions.",
+      "raw_text": "4-2\nSection 4.3.5, \"Identifying Transaction Codes\"\nSection 4.3.6, \"Indicating Service Charges for Inter-branch Transactions\"\nSection 4.3.7, \"Indicating Exchange Rate Revaluation\"\nSection 4.3.8, \"Defining Charge details\"\nSection 4.3.9, \"Charge Code Maintenance\"\nSection 4.3.10, \"ARC Branch Group Maintenance\"\nSection 4.3.11, \"Entity Maintenance\"\n4.3.1 \nInvoke ‘ARC Maintenance’ screen\nThe ‘ARC Maintenance’ screen allows you to maintain these details for any utility product \nagainst which you process utility payments made by customers in favour of a specific utility \nprovider.\nThrough this screen you can perform the following tasks while posting accounting entries \nrelated to utility payment transactions involving a utility product in Oracle FLEXCUBE:\nSpecify the Accounting entry definition\nIndicate the Exchange Rate specifications for any charges\nCapture the Charges that should be levied. \nYou can invoke this screen by typing ‘IFDATMMN’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button. \nThe accounts details and charges details (or ARC details) can be specified to be applicable \neither for an account class or a product type. You need to indicate this in the ARC \nMaintenance screen."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Product",
+        "Currency"
+      ],
+      "summary": "This page explains how to maintain ARC details for utility providers in a banking system, including specifying the product and currency for processing customer payments.",
+      "raw_text": "4-3\nIf you are maintaining ARC details for a utility product and a specific utility provider (or \ninstitution), the ARC details maintained in this screen will be used for posting entries for the \nutility product, Institution ID and currency code combination. The institution ID is the \nidentification of the utility provider that will be the recipient of the utility payment being made \nby customers.\nYou must maintain ARC details for each specific utility provider for whom you process \ncustomer payments made in favor of the utility provider. A unique, single set of ARC details \nmust be maintained for each utility provider. You can, however, associate a utility product with \nmany different ARC details sets. Therefore, you can use a particular utility product to process \npayments made in favor of any utility provider, but you must maintain distinct ARC details for \neach individual utility provider.\nSince the ARC related detail are maintained at the Head Office of your bank, the details that \nyou specify in this screen will be made applicable to all the branches of your bank. \nProduct \nWhile maintaining the ARC details for a utility provider, you have to indicate the particular \nproduct that would be used to process payments made by customers in favor of the utility \nprovider, from the available list. Each product in Oracle FLEXCUBE is identified with a unique \nfour character alphanumeric code. You can indicate the appropriate utility product. \nCurrency \nYou must indicate the currency in which the utility provider would accept utility payments \nmade in favor of the utility provider involving the selected utility product.\nFor each currency in which the utility provider accepts utility payments made in favor of the \nutility provider, you must maintain a separate set of ARC details in this screen. \nCustomer Group\nSpecify the customer group to define charges. This adjoining option list displays all valid \ncustomer groups maintained in the system. You can choose the appropriate one. Input to this \nfield is mandatory.\nAccount Class Group\nSelect the account class group from the adjoining option list.\nNote\nIf ARC is maintained for an account class group, then the charges computed is applicable \nfor all the account classes defined under that account class group,\n4.3.2 \nSpecifying Institution ID\nYou must specify the ID of the utility provider for whom the ARC details are being maintained \nin this record. These ARC details would be applicable for all payments to the utility provider, \ninvolving the selected utility product and made in the selected currency. Select the \nappropriate ID from the options list.\nFor each institution that would be a recipient of utility payments, you must maintain a separate \nset of ARC details in this screen.\nUtility Provider ID is provided in field 'Transaction Type'"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Identifying Offset Details",
+        "Identifying Transaction Details",
+        "Identifying Transaction Codes"
+      ],
+      "summary": "This page explains how to specify accounts and transaction details for payments to utility providers, including offset and debit tracking.",
+      "raw_text": "4-4\n4.3.3 \nIdentifying Offset Details\nYou can specify the Branch and the offset account or GL into which offset entries are to be \nbooked. This will be the account that would be credited with the payment. Typically, this is the \naccount held by the utility provider in your bank.\nAccount Description\nThe system displays the description of the specified account number based on the details \nmaintained at ‘Customer Account Maintenance’ level.\nIf the receiving institution (or utility provider) has different accounts in your bank in different \ncurrencies, and proposes to receive payments in any of those currencies, you must maintain \na distinct set of ARC details in this screen for each of the accounts.\n4.3.4 \nIdentifying Transaction Details\nFor walk-in customers who do not hold accounts in your bank, and who are making cash \npayments to the selected utility provider, you must specify the account that must be debited \n(to which debit entries will be posted), as well as the branch in which this account resides. The \nbranch information could also be used in the case of an inter-branch payment transaction.\nAccount Description\nThe system displays the description of the specified account number based on the details \nmaintained at ‘Customer Account Maintenance’ level.\n4.3.5 \nIdentifying Transaction Codes\nIn addition, you have to also identify the transaction codes against which offset and debit \nrelated entries for the payment ought to be tracked. \nIndicating the Netting of Debit Leg of Charge\nYou have the option to net the accounting entries for the debit leg of the charges along with \nthe main transaction entries. \nCheck this box to indicate that the debit leg of the charges is to be netted before passing the \naccounting entries. Leave the box unchecked to pass the entries without netting the charges \nof the debit leg.\nMain Offset Accounting Entries Required\nThis box will be checked by default indicating that the main accounting entries are required. \nIf it is unchecked, then the actual accounting entries will not be passed and any charges \nassociated to the product alone will be passed.\nNote\nTo pass charge entries alone, you should uncheck the above check box for the product \nmapped for revalidation.\nCharge Debit Account\nYou can choose the charge debit account from the adjoining drop-down list. The available \noptions are:\nOffset Account\nTransaction Account\nCheck this box to indicate whether an Advice needs to be generated for the Transaction \n(redundant for J2EEBranch, might still be used for other Interfaces)."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Indicating Service Charges for Inter-branch Transactions",
+        "Indicating Exchange Rate Revaluation"
+      ],
+      "summary": "This page explains how to indicate service charges and exchange rate revaluation in transactions, including details on inter-branch transactions and profit/loss revaluation GLs.",
+      "raw_text": "4-5\n4.3.6 \nIndicating Service Charges for Inter-branch Transactions\nIn a transaction, if the account branch of the teller transaction is different from the transaction \nbranch, then charges maintained by inter-branch product will be applied to the transaction. \nIf you select the IB transaction as 'Yes' for a RT product at ARC, the system picks up and \nprocess the charge entries as maintained.\nIf you select the IB transaction as 'NO' for a RT product at ARC, then the charges maintained \nin Non-IB product are applied to the transaction.\nIB Transaction\nCheck this box if you want the system to pick up the product for inter-branch transactions. \nYou will notice the difference in the service charges processed for two transactions with same \nkind of product. \n4.3.7 \nIndicating Exchange Rate Revaluation\nYou can specify the following details:\nProfit Revaluation GL\nSpecify the profit revaluation GL details.\nLoss Revaluation GL\nSpecify the loss revaluation GL details.\nExchange rate values are maintained at CCDRATES. Rate type and Rate code preferred is \nmaintained at product level and Negotiated cost rate is maintained at transaction level.\nThe Revaluation amount = (Transaction amount/exchange rate) - (Transaction amount/\nnegotiated rate),\nWhere exchange rate is picked for the rate type and rate code maintained at Product level.\nThe system will display an override message if the negotiated rate is not within the exchange \nrate variance maintained at the product.\n4.3.8 \nDefining Charge details\nYou can define a maximum of five charges. A charge can be computed based either on the \ntransaction amount or on an earlier charge amount.\nAs part of defining the Charge details for each charge, you need to capture the following \ndetails in the corresponding charge tabs:\nCharge Type\nThe Charge Type that should be applied on the transaction. It could either be a Percentage \nof the transaction amount or a Flat Charge. \nSlab Type\nSelect whether the Charge computation has to be over different Amount Slabs or Tiers (0-100 \n@ 10, 101-500 @ 15 etc.). \nBasis\nYou can indicate the basis amount on which the charge is to be computed."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Entity Name",
+        "Based on Charge Code"
+      ],
+      "summary": "This page explains how to set up charge amounts and their bases in a system, including using transaction amounts or previous charges as basis, and selecting system entities for certain transactions.",
+      "raw_text": "4-6\nSince you can maintain five different charge amounts, the basis amount that you enter could \neither be the Transaction Amount’ or any of the earlier charge amounts. For example, let us \nassume you are maintaining Charge 1. The only basis for charge 1 can be the transaction \namount. While defining Charge 2 you can choose either the transaction amount or Charge 1 \nas the basis. Similarly while defining Charge 3, you can choose the transaction amount or \nCharge 1 or Charge 2 as the basis. ‘System Entity’ can be selected to calculate those teller \ntransactions that exceeds the restriction amount. If ‘System Entity’ is selected, then the linked \nsystem entity returns the basis amount on which the charge is calculated.\nEntity Name\nThe field is enabled if ‘System Entity’ is selected in the ‘Basis’ field. Select the Entity Name, \nfrom the adjoining option list. The list of values are populated from the ‘Entity Maintenance’ \nscreen (STDENMNT). Further details on the ‘Entity Maintenance’ screen is provided in \nsubsequent sections of this chapter.\nBased on Charge Code\nCheck this box to indicate whether the charge is based on the charges maintained in the \ncharge code maintenance. If this field is checked, then the system checks the parameters \napplicable to the said charge code from the Charge Code Maintenance (which is detailed in \nthe subsequent section) and passes the relevant parameter value(s). The system also passes \nthe “Basis” amount to the charge code as the basis is captured at ARC charge level. \nIf the system is unable to pass a parameter value to a charge code because of unavailability \nof data, the same parameter is treated as *.*. \nSubsequently, charges are calculated based on the charge calculating preferences for the \nsaid record. Charge Code\nThis field is enabled if ‘Based on Charge Code’ field is checked. Select the charge code from \nthe adjoining option list. All charge codes as maintained in the charge code maintenance \nscreen is listed in this field.\nCurrency\nYou can indicate the currency in which the charge amount would be expressed. If the \ntransaction currency is different from the charge currency, a conversion would be done, using \nthe rate code and rate type that you specify for each charge.\nCharge Debit Account\nSelect the charge debit account into which charge related entries are to be posted from the \nadjoining option list.\nNote\nIf charge debit account is maintained at both ARC and charge level with different values, \nthe system will take precedence of the charge debit account at the charge level to debit \nthe charges.The charge debit account can either be \"TXN_ACC\" or \"OFS_ACC\" or GL's \n(Income or Expense)\nIf netting charge is checked at ARC level, charge debit account should be maintained at \nARC level. This charge debit account and charge credit account is used when bank has to \nremit tax on income they receive as part of each and every RT transactions.\nCharge Credit Account\nSelect the charge credit account from the adjoining option list. The other leg of the charge is \nposted to a GL, as specified in the ARC record.\nFor example,"
+    },
+    {
+      "page_number": 19,
+      "sections": [],
+      "summary": "This page explains how to collect a charge and tax from cash deposit transactions, detailing the percentage charges and accounting entries involved.",
+      "raw_text": "4-7\nTo collect tax from the income received will be as follows:\nFor cash deposit transactions, bank wants to collect a charge of 5% on the transaction \namount (inclusive of tax). The bank has to remit Tax @ 9.090909% of gross charge collected \nfrom the income GL.\nThe ARC maintenance can be done as follows to achieve the same:\nCharge 1:\nCharge Basis: Transaction Amount\n% Charge: 5 %\nCharge Debit Account: Transaction Account\nCharge Credit Account: Income GL (say INC00001)\nCharge 2:\nCharge Basis: Charge 1\n% Charge: 9.090909%\nCharge Debit Account: Income GL (INC00001)\nCharge Credit Account: Tax Payable GL (say PAYB0001)\nFor a cash deposit of USD 1000 in account CASA0001, the gross charge (inclusive of tax) will \nbe USD 50 and Tax will be 4.55 after rounding.\nThe accounting entries for the maintained ARC will be as below:\nNetting Charge\nIf two or more accounting entries, for the same event, are to be passed to the same account, \non the same Transaction Date, these entries can be netted. You can choose to net the charge \nleg of the Transaction Account (debit) entry with the main leg of the customer accounting \nentry.\nTransaction Code\nYou can indicate the code using which the accounting entries would be booked, for each \ncharge.\nRate Code and Rate Type\nWhile settling charges for cross currency transactions, you can choose to debit the customer \nby applying the mid rate, buy rate or by using the buy/sell spread over the mid-rate. Therefore \nDr/Cr\nAccount\nCurrency\nAmount\nDR\nCASH GL \nUSD\n1000\nCR\nCASA0001\nUSD\n1000\nDR\nCASA0001\nUSD\n50\nCR\nINC00001\nUSD\n50\nDR\nINC00001\nUSD\n4.55\nCR\nPAYB0001\nUSD\n4.55"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Rate Code and Rate Type",
+        "Charge Amount",
+        "Rate",
+        "Minimum and Maximum Charge Amount"
+      ],
+      "summary": "This page explains how to specify exchange rate details for ARC definition records, including Rate Code, Rate Type, charge amount, rate, and minimum/maximum charge amounts.",
+      "raw_text": "4-8\nyou need to specify the Exchange Rate details for each ARC definition record that you \nmaintain in the system. \nFirstly, indicate the Rate Code for which different rates can be maintained. A list of all the rate \ncodes maintained in the Floating Rates Maintenance screen is displayed in the list. You can \nchoose the appropriate code. \nIn addition to specifying the Rate Code you have to indicate the Rate Type which should be \npicked up for exchange rate conversions involving settlement of charges for cross currency \ntransactions. You can maintain any one of the following as the Rate Type:\nBuy\nMid\nSell\nAfter identifying the Rate Code and Rate Type you can indicate the basis amount on which \ncharges are to be computed. \nCharge Amount\nYou have to specify the flat amount only when the charge type is a Flat Amount. \nThe flat amount will be collected in the currency that you have specified in the Currency Code \nfield. \nRate\nIf you have indicated that the charge should be a percentage of the transaction amount, you \nhave to necessarily capture the rate that is to be applied on the transaction amount. The rate \nthat you specify will be applied after converting the amount into the Account Currency.\nMinimum and Maximum Charge Amount\nWhen the charge type applicable on the transaction is a percentage of the transaction amount \nyou have to capture the minimum and maximum charge amounts that should be applied on \nthe transaction. \nIf the charge percentage involving a particular transaction is less than the minimum charge \nthe system will by default debit the customer account with the minimum charge amount. \nSimilarly, when the charge percentage exceeds the maximum amount, the system will debit \nthe customer account with the maximum charge amount. \nNote\nThe charge amount will be deducted in the currency that you specified earlier. \nMIS Head\nSpecify the MIS Head that is applicable for the charge-related accounting entry.\nDescription\nYou can indicate a short description for the charge.\nCharge Tracking Preference\nSelect charge tracking preference from the adjoining drop-down list. The options available \nare:\nPart Debit/Part Waive - If your account does not have an amount sufficient to collect the \nfull charge, then the system collects the available amount and waives off the remaining \namount. There will not be any tracking for the waived amount. For example: If the"
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "This page explains different scenarios of how charges are handled when a customer's account does not have sufficient funds to cover the full amount, including partial collection, tracking, waiver, and forced debit.",
+      "raw_text": "4-9\ncharge amount is Rs100 and there is Rs70 in the customer account, then Rs70 will be \ncollected as the charge and the remaining Rs30 would be waived off. \nPart Debit/Part Track - If your account does not have an amount sufficient to collect the \nfull charge, then the system collects the available amount and tracks the remaining \namount. For example: If the charge amount is Rs100 and there is Rs70 in the customer \naccount, then Rs70 will be collected as the charge and the remaining Rs30 would be \ntracked for collection. \nFull Waive - If your account does not have sufficient balance then the system waives off \nthe full charge amount. For e.xample: If the charge amount is Rs100 and there is Rs70 \nin the account, the entire Rs100 charge will be waived off. \nFull Track - If your account does not have sufficient balance to cover the charge, then \nthe system tracks the entire amount as receivable. For example: If the charge is Rs100 \nand the amount in the account is Rs70, charge will not be collected, instead Rs100 will \nbe tracked as receivable and this would be tracked till closure. \nForce Debit - The system debits the charge amount forcefully from your account. If the \namount available in the account is not sufficient then force debit results in negative \nbalance. For example: If the charge is Rs100 and the customer account has Rs70, then \nthe system forcibly debits the customer account of Rs100 resulting in the customer \naccount balance of Rs30. The amount is not tracked in this case. This option if selected, \nignores all other validations for balance check and will debit the customer account for \nthe charge amount. The same balance check validations are skipped here too which are \ncurrently skipped by the system if balance check required flag is unchecked at \ntransaction code level. However, other validations such as No debit, account freeze will \nnot be skipped.\nNot Required - Select ‘Not Required’ if charge for tracking is not preferred. The system \nbehaves in the same manner as it is when “Tracking required auto liquidation” flag is \nunchecked. This will consider the validations for balance check, that is preference at \ntransaction code level or account overdraft errors (e.g. AC-OVD)\nReject - If the account does not have sufficient balance, then the system rejects entire \ntransaction.\nNote\n– \nIf “Charge Tracking Preference” is any of the above other than “Not Required”, the \ngiven preference will take precedence over the account overdraft check validation \n(AC-OVD). For example, if account overdraft check validation (AC-OVD) is set up \nas an override, but tracking preference is selected as full track or part debit/ part \ntrack, the charge amount will be tracked if available balance is insufficient to cover \nthe charges. If tracking preference is selected as “Not Required”, then the system \nwill debit the account for charge even if available balance is insufficient to cover the \ncharges.\n– \nIf account overdraft check validation (ACOVD) is set up as an error, but tracking \npreference is selected as “Force Debit”, then the charge amount will be debited to \nthe customer account by skipping the balance check validation and if available bal-\nance is insufficient to cover the charges. But if the tracking preference is selected \nas “Not Required”, the transaction fails due to insufficient fund.\nNote\n– \nThe charge tracking preference is not applicable if the charge debit account is a GL\n– \nThe charge tracking preference is not applicable for Account close out products or \nNUM-ACC-OPN-DAYS if selected as basis."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Liquidation Preference for Tracked Charges"
+      ],
+      "summary": "This section explains how to set liquidation preferences for tracked charges in a system, detailing partial and full options and their implications.",
+      "raw_text": "4-10\nLiquidation Preference for Tracked Charges\nSelect liquidation preference for tracked charges from the adjoining drop-down list. The \noptions available are:\nPartial - If ‘Partial’ is selected, the system liquidates the tracked charge amounts \npartially during EO only if part amount is available in the account. For example: If Rs.30 \nis tracked for an account and during next day EOD, system finds Rs10 is available in \nthe account, system will try to collect the available Rs10.\nFull - If this is selected, then the system tries to liquidate the individual tracked charge \namount fully during EOD. If only part amount is available in the account, system will not \ntry to collect the part amount. For example: If Rs30 is tracked for a charge in an account \nand during next day EOD, system finds Rs10 is available in the account; system will not \ntry to collect the available Rs10. But, system will wait till the time balance available in \nthe account becomes Rs30. \nNote\n– \nThe system does not validate the “Charge Tracking Preference” selected and \n“Liquidation Preference for Tracked Charges” selected for a given charge. This has \nto be operationally controlled. The “Liquidation Preference for Tracked Charges” is \napplicable only if the Charge tracking preference is selected as “Full Track” or “Part \nDebit/ Part Track”. In all other cases, the liquidation preference can be maintained \nas “Full” or “Partial” which will not have any impact unless any charges are tracked.\n– \nLiquidation of IC tracked charges are done as per the logic available for other \ntracked amounts like RT, CL tracked amounts.\n– \nYou can define the priority of liquidation order product-wise at account class AMT \nblock screen for IC charge products also.\nThe system displays override messages when:\nAvailable balance is sufficient to cover the transaction amount but not sufficient for the \ncharge.\nProduct level tracking is checked and when transaction amount is greater than the \navailable balance.For further details refer ‘Maintaining Accounting Details’ chapter of \nRetail Teller user manual.\n4.3.9 \nCharge Code Maintenance\nIn the ‘Charge Code Maintenance’ screen, charges based on some additional parameters \nwhich are not a part of ‘ARC Maintenance’ can be maintained. These charge codes will help in \ndifferentiating inter-branch transactions and inter-bank charges. You can invoke this screen \nby typing ‘STDCHGCD’ in the field at the top right corner of the Application tool bar and clicking \nthe adjoining arrow button."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Charge Code",
+        "Charge Code Description",
+        "Parameters Mapping"
+      ],
+      "summary": "This page details how to specify charge codes and map parameters for transaction branches, account branches, and bank codes in a system configuration.",
+      "raw_text": "4-11\nSpecify the following details in this screen:\nCharge Code\nSpecify a unique identifier to identify a charge code.\nCharge Code Description\nThe description of the charge code is defaulted here.\nParameters Mapping\nIn this section, actual parameter(s) based on which charges are differentiated is mapped to \nfixed parameter IDs. There are 5 parameter IDs provided in this section. At least one \nparameter must be defined. Select the appropriate value from the adjoining option list. This \nlist contains the following values:\nTRANSACTION_BRANCH_GROUP- This is the ARC branch group code to which the \ntransaction branch belongs to. If the transaction branch is not grouped under any ARC \nbranch group *.* is returned for the same.\nACCOUNT_BRANCH_GROUP - This is the ARC branch group code to which the \nAccount branch belongs to. If the account branch is not grouped under any ARC branch \ngroup *.* is returned for the same.\nPAYABLE_BANK_CODE - This is the beneficiary Bank Code which is used while \nsending an outgoing interbank BC/DD/TT.\nPAYABLE_BRANCH_CODE- This is the beneficiary Bank’s branch Code which is \nused while sending an outgoing interbank BC/DD/TT. \nThe list of factory shipped parameters which is made available in this screen are as follows:"
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Parameter Specific To Differentiating Parameter",
+        "Transaction"
+      ],
+      "summary": "This page lists various parameters and their descriptions applicable to customer categories and transactions in a system.",
+      "raw_text": "4-12\nParameter \nSpecific \nTo\nDifferentiating Parameter\nDescription\nApplicable \nto \ntransaction\nCustomer\nCUSTOMER_CATEGORY\nCustomer category speci-\nfied at customer CIF level\nALL\nGROUP_CODE\nGroup code specified at \ncustomer CIF >Addi-\ntional tab level\nALL\nCLEARING_GROUP\nClearing group specified \nat customer CIF >Addi-\ntional tab level\nALL\nTAX_GROUP\nTax group specified at \ncustomer CIF >Addi-\ntional tab level\nALL\nCUSTOMER_CLASSIFICA-\nTION\nCustomer Classification \nspecified at customer CIF \n>Additional tab level\nALL\nNATIONALITY\nNationality specified at \ncustomer CIF level> per-\nsonal/corporate tab\nALL\nTransac-\ntion\nTRANSACTION_BRANCH\nBranch code at which \ntransaction is being done\nALL\nTRANSAC-\nTION_BRANCH_GROUP\nBranch group to which \ntransaction branch \nbelongs to\nALL\nACCOUNT_BRANCH\nBranch code of the trans-\naction account\nALL\nACCOUNT_BRANCH_GROU\nP\nBranch group to which \naccount branch belongs \nto\nALL\nPAYABLE_BANK_CODE\nPayable bank code for \nBC/DD/TT\nBC/DD/TT \nPAYABLE_BRANCH_CODE\nPayable Branch for BC/\nDD/TT\nBC/DD/TT \nTO_ACCOUNT_BRANCH\nBranch code of the Credit \naccount\nLOCH and \nAccount to \nAccount \ntransfer\nTO_AC-\nCOUNT_BRANCH_GROUP\nBranch group to which \ncredit account branch \nbelongs to\nLOCH and \nAccount to \nAccount \ntransfer"
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Charge Matrix",
+        "Values 1 to 5",
+        "Charge Type",
+        "Amount",
+        "Rate",
+        "Minimum Charge",
+        "Maximum Charge",
+        "Slab Type"
+      ],
+      "summary": "This page describes how to configure charge settings including parameter mapping, charge type selection, and slab or tier details for a charging system.",
+      "raw_text": "4-13\nCharge Matrix\nValues 1 to 5\nValues 1 to 5 correspond to the respective parameter values in the Parameter Mapping \nsection. For example: Value 1 corresponds to Parameter Value 1 and so on and so forth. \nSelect the specific value from the adjoining option list. \nCharge Type\nSelect the charge type from the drop down list. The charge type can be flat or percentage.\nAmount\nSpecify the charge amount in this field.\nRate\nSpecify the rate in this field.\nMinimum Charge\nSpecify the minimum charge in this field.\nMaximum Charge\nSpecify the maximum charge in this field.\nSlab Type\nSelect the Slab Type as Slab or Tier from the drop down list. If Slab Type is Slab or Tier, then \nprovide the slab or tier details in the slab or tier sub-screen by clicking ‘S’ button.\nIn this screen, you need to specify the number of slabs, the basis to value, and charge slab \ndetails."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "ARC Branch Group Maintenance",
+        "Entity Maintenance"
+      ],
+      "summary": "This page describes how to maintain ARC branch groups and entity fees in the application tool bar by using specific screens.",
+      "raw_text": "4-14\n4.3.10 \nARC Branch Group Maintenance\nTo define branch groups which are equivalent to cities or regions that the bank operates in, \ninvoke the ‘ARC Branch Group Maintenance’ screen by typing ‘STDBRGMT’ in the field at the \ntop right corner of the application tool bar and clicking the adjoining arrow button. \nSpecify the following details in this screen:\nARC Branch Group\nSpecify a group code to identify a group of branches. \nARC Branch Group Description\nSpecify a description for the branch group. \nAfter specifying the necessary details in the ‘ARC Branch Group Maintenance’ screen, all the \nARC branch groups are displayed in the ‘Branch Parameter Maintenance’ screen \n(STDBRANC). Select the branch group from the ‘ARC Branch Group’ field. For more \ninformation on the Branch Parameters Maintenance screen, refer section 5 ‘Branch \nParameters’ in the Core Service module.\n4.3.11 \nEntity Maintenance\nIn the ARC Maintenance screen, fees or charges as a percentage of the transaction amount \ncan be calculated for transactions exceeding the restriction amount. To calculate this fee or \ncharge, you need to select ‘System Entity’ in the ‘Basis Field’ in the ARC Maintenance screen. \nThereafter, the ‘Entity Name’ field is enabled which displays values obtained from the ‘Entity"
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Entity Name",
+        "Unit Name",
+        "During ARC Maintenance, the following scenarios are considered if exceeded amount is selected",
+        "During ARC Maintenance, the following scenarios are considered if transaction amount is selected",
+        "Entity Type"
+      ],
+      "summary": "This page describes how to use the 'Maintenance' screen in an application tool bar for fee maintenance, including specifying entity name, unit name, and entity type, as well as different scenarios based on the selection of exceeded or transaction amount.",
+      "raw_text": "4-15\nMaintenance’ screen. You can invoke this screen by typing ‘STDENMNT’ in the field at the \ntop right corner of the application tool bar and clicking the adjoining arrow button.\nSpecify the following in this screen:\nEntity Name\nSpecify the entity name to be considered for Fee Maintenance. \nUnit Name\nSelect a value for charge consideration from the drop down list. The value provided in the drop \ndown list are as follows:\nExceeded Amount\nTransaction Amount\nDuring ARC Maintenance, the following scenarios are considered if exceeded amount is \nselected:\nIf the transaction is not exceeding the restriction utilization, then the value provided is 0.\nIf the transaction is exceeding the restriction utilization partially, then the portion of the \ntransaction amount which exceeds the restriction amount, is provided.\nDuring ARC Maintenance, the following scenarios are considered if transaction amount is \nselected\nIf the transaction is not exceeding the restriction utilization, then the value provided is 0.\nIf the transaction is exceeding the restriction utilization partially, then the transaction \namount is provided.\nIf the transaction is exceeding the restriction utilization fully, then the transaction amount \nis provided.\nEntity Type\nSelect the Entity Type from the drop down list. The values provided in the drop down list are \nas follows:\nNull\nRestriction Code"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Parameter",
+        "Viewing Entity Types"
+      ],
+      "summary": "This page explains how to select parameters and view entity types in a system, including searching by various fields and viewing details.",
+      "raw_text": "4-16\nParameter\nSelect the Parameter if ‘Restriction Code’ is selected in the Entity Type field, from the \nadjoining option list. All active restriction codes as maintained in the system are displayed in \nthis field. For more information on restriction code maintenance, refer to the section \n‘Restriction Amount Maintenance’ in the Core Services Module.\n4.3.11.1 Viewing Entity Types\nYou can view the entity types in the ‘Entity Summary’ screen. You can invoke this screen by \ntyping ‘STSENMNT’ in the field at the top right corner of the application tool bar and clicking \nthe adjoining arrow button.\nYou can search for entity types by specifying values in the following fields:\nAuthorization Status\nRecord Status\nEntity Name\nUnit Name\nEntity Type\nOn updating these details and clicking the ‘Search’ button, the following columns are \npopulated:\nAuthorization Status\nRecord Status\nEntity Name\nUnit Name\nEntity Type"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Generating Notifications"
+      ],
+      "summary": "This section describes how Oracle FLEXCUBE generates notifications for transactions in the Utility Payments module and lists the fields included in these notifications.",
+      "raw_text": "4-17\n4.4 \nGenerating Notifications\nOracle FLEXCUBE provides a facility to insert notification of transactions done through the \nUtility Payments module in the notification table. The following list of fields is sent in the \nnotification for a transaction done in the Utility Payments module:\nBranch Code.\nName of the branch where the transaction is done (Branch Description).\nTransaction Reference Number.\nTransaction code – To differentiate transaction.\nTransaction Product Code.\nTransaction Product Code Description.\nDebit Account Number.\nDebit Account Currency.\nDebit Amount.\nCredit Account Number.\nCredit Account Currency.\nCredit Amount.\nDate of the Transaction along with Time.\nValue date of the Transaction.\nTransaction Narration.\nName of the Biller.\nBill Reference Number.\nBill Amount with Currency.\nAccount Current Balance after the transaction.\nAccount Available Balance after the transaction."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Introduction",
+        "Making Bill Payments",
+        "Maintaining Utility Provider Type"
+      ],
+      "summary": "This page introduces bill payment processes and maintenance procedures for utility providers in a banking context.",
+      "raw_text": "5-1\n5. Processing Bill Payments\n5.1 \nIntroduction\nThis chapter contains the following sections:\nSection 5.2, \"Making Bill Payments \"\nSection 5.3, \"Maintaining Utility Provider Type\"\nSection 5.4, \"Maintaining Bill Parameters\"\nSection 5.5, \"Maintain Bill Instructions\"\nSection 5.6, \"Maintaining Products for Utility Bill Payments\"\nSection 5.7, \"Viewing Utility Payment Transaction\"\nSection 5.8, \"Viewing Bill Details\"\nSection 5.9, \"Viewing Transaction Details\"\nSection 5.10, \"Executing Bill Payment Batch\"\n5.2 \nMaking Bill Payments \nA customer of your bank could choose to make payments for utility services, to the required \ninstitutions or utility providers against bills issued by them, through your bank. Such payments \nare bill payment transactions.\nIn a bill payment transaction, the entities involved in a contract are the customer, your bank \nand the institutions (utility providers) that are the recipients of the bill payment.\n5.3 \nMaintaining Utility Provider Type\nYou can maintain different types of utility providers using the ‘Utility Provider Type \nMaintenance’ screen."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Utility Provider Type",
+        "Utility Provider Type Description",
+        "Specifying User Defined Fields"
+      ],
+      "summary": "This page describes how to invoke a screen for updating utility provider types and details, as well as specifying user-defined fields.",
+      "raw_text": "5-2\nYou can invoke this screen by typing ‘UPDTPMNT’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button. \nYou can specify the following details:\nUtility Provider Type\nSpecify a unique identifier for the utility provider type. The code can be alphanumeric and can \nhave a maximum of 35 characters.\nUtility Provider Type Description\nGive a brief description for the utility provider type. You can specify a maximum of 105 \nalphanumeric characters. \n5.3.1 \nSpecifying User Defined Fields\nYou can specify values for all user-defined fields (UDFs) linked to the function ID, in the ‘User \ndefined Fields’ screen."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Click ‘Fields’ button on the‘Utility Provider Type Maintenance’ screen.",
+        "Maintaining Bill Parameters"
+      ],
+      "summary": "This page describes how to access and use the 'Utility Provider Type Maintenance' and 'Utility Bill Structure Definition' screens for maintaining utility provider types and bill parameters.",
+      "raw_text": "5-3\nClick ‘Fields’ button on the‘Utility Provider Type Maintenance’ screen. \nRefer the User Defined Fields module chapter under Modularity for further details about \nUDFs.\n5.4 \nMaintaining Bill Parameters\nYou can maintain bill parameters for utility providers using the ‘Utility Bill Structure Definition’ \nscreen. You can invoke this screen by typing ‘UPDBILDT’ in the field at the top right corner of \nthe Application tool bar and clicking the adjoining arrow button.\nYou can specify the following details:\nUtility Provider Type\nSpecify the utility provider type for which you are maintaining parameters. The adjoining \noption list displays all valid utility provider types maintained in the system. You can select the \nappropriate one."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Utility Provider Type Description",
+        "Field Label",
+        "Field Name",
+        "Specifying User Defined Fields",
+        "Maintain Bill Instructions"
+      ],
+      "summary": "This page describes how to specify utility provider details, field labels for bill payment, and user-defined fields in the system, as well as instructions on maintaining bill information.",
+      "raw_text": "5-4\nUtility Provider Type Description\nBased on the utility provider type, the system displays the corresponding description.\nUtility Provider ID\nSpecify the CIF of the utility provider. The adjoining option list displays all valid CIF of type \n‘Utility Provider; maintained in the system. You can select the appropriate one.\nField Label\nYou can capture five entities that should be captured in the bill.\nField 1 to 5\nSpecify the name of the entity for which value has to be captured during bill payment.\nField Name\nYou can capture the name of field in UP module to which each label needs to be mapped. The \nfollowing value is available in the adjoining drop-down list:\nConsumer No.\nNote that you need to map one label to the field ‘Consumer No.’. For the remaining four labels, \nyou need not specify the UP field mapping.\n5.4.1 \nSpecifying User Defined Fields\nYou can specify values for all user-defined fields (UDFs) linked to the function ID, in the ‘User \ndefined Fields’ screen. \nClick ‘Fields’ button on the‘Utility Bill Structure Definition’ screen. \nRefer the User Defined Fields module chapter under Modularity for further details about \nUDFs.\n5.5 \nMaintain Bill Instructions\nThis section contains the following topics:\nSection 5.5.1, \"Maintaining Bill Instructions\"\nSection 5.5.2, \"Viewing Execution Log\""
+    },
+    {
+      "page_number": 34,
+      "sections": [],
+      "summary": "This page describes how to maintain bill payment instructions for utility providers using the 'Utility Bill Instruction Capture' screen in a system.",
+      "raw_text": "5-5\nSection 5.5.3, \"Specifying User Defined Fields\"\n5.5.1 \nMaintaining Bill Instructions\nYou can maintain bill payment instructions for utility providers using the ‘Utility Bill Instruction \nCapture’ screen. You can invoke this screen by typing ‘UPDAUINS’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button.\nYou can capture the following details:\nInstruction Reference Number\nThe system generates a unique identifier for the instruction and displays it here, on saving the \nrecord. \nBranch Code\nThe current logged-in branch is displayed here.\nCustomer Id\nSpecify the Customer Identification Number (CIF) of the customer for which payment \ninstructions are being maintained. The adjoining option list displays all valid CIF maintained \nin the system. You can select the appropriate one. \nUtility Provider ID\nSpecify the CIF of the utility provider. The adjoining option list displays all valid CIF of type \n‘Utility Provider; maintained in the system. You can select the appropriate one. \nUtility Provider Type\nSpecify the utility provider type for which you are maintaining instructions. The adjoining \noption list displays all valid utility provider types maintained in the system. You can select the \nappropriate one.\nUtility Provider Type Description\nBased on the utility provider type, the system displays the corresponding description."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Parameters",
+        "First Execution Date",
+        "Next Execution Date",
+        "Last Execution Date",
+        "Execution Frequency",
+        "Execution Retry Count",
+        "Collection Mode"
+      ],
+      "summary": "This page describes various parameters and settings for scheduling and executing utility payments, including date specifications, frequency, retries, and collection modes.",
+      "raw_text": "5-6\nParameters\nThe system picks up all parameters maintained for the utility provider type and displays them \nhere. You can specify values for each one of them.\nFirst Execution Date\nIndicate the date from which the instruction should be executed, using the adjoining calendar.\nNext Execution Date\nThe system computes the next execution date based on the execution frequency and displays \nit here.\nLast Execution Date\nIndicate the date on which the instruction should be executed for the last time, using the \nadjoining calendar.\nExecution Frequency\nSelect the frequency of instruction execution from the adjoining drop-down list. It can be any \none of the following:\nMonthly\nQuarterly\nHalf Yearly\nYearly\nExecution Retry Count\nSpecify the number of times that the payment execution should be re-tried within the \nexecution frequency, in case of failure. The retry happens on the next working day after the \nexecution fails. You can specify the maximum value as ‘99’.\nCollection Mode\nSelect the collection mode from the adjoining drop-down list. It can be any one of the \nfollowing:\nCollect Full\nCollect Partial\nFor ‘Collect Partial’ mode, if the debit account balance is less than the bill payment amount, \nthen the system will take the available amount that can be paid and settle the remaining \namount as per the retry definition. \nFor ‘Collect Full’ mode, if the debit account balance is less than the bill payment amount, then \nno payment will be made. The system will continue to recover the complete payment amount \nas per the retry definition.\nPayment Mode\nSelect the payment mode from the adjoining drop-down list. It can be any one of the following:\nFull\nPartial\nIf you select ‘Full’, then the entire bill amount will be considered paid; else only the amount \nspecified in the ‘Payment Amount’ field will be considered paid.\nPayment Currency\nSpecify the currency in which payment has to be made. The adjoining option list displays all \nvalid currency codes maintained in the system. You can select the appropriate one."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Payment Amount",
+        "Debit Branch",
+        "Debit Account",
+        "Viewing Execution Log"
+      ],
+      "summary": "This page describes how to specify payment details such as amount and account for a bill payment, and how to view the execution log of the transaction.",
+      "raw_text": "5-7\nPayment Amount\nIn case of a partial payment, specify the amount that should be paid.\nDebit Branch\nSpecify the branch where the debit account resides. The adjoining option list displays all valid \nbranch codes maintained in the system. You can select the appropriate one.\nDebit Account\nSpecify the account that should be debited for making the bill payment. The adjoining option \nlist displays all accounts maintained in the debit branch (in the system) for the customer ID. \nYou can select the appropriate one.\n5.5.2 \nViewing Execution Log\nClick ‘Execution Log’ button and invoke the ‘Execution Log Details’ screen.\nHere you can view the following details:\nInstruction Reference Number\nUtility Provider ID\nCustomer ID\nExecution Date\nDebit Branch\nDebit Account\nPayment Currency\nActual Bill Amount\nStatus\nPayment Mode\nPayment Amount"
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Specifying User Defined Fields",
+        "Maintaining Products for Utility Bill Payments"
+      ],
+      "summary": "This page discusses how to specify user-defined fields and maintain products for utility bill payments in Oracle FLEXCUBE.",
+      "raw_text": "5-8\nMaximum Retry Count\nRetry Count\nPaid Bill Amount\nStatus \nError Code\nMessage\n5.5.3 \nSpecifying User Defined Fields\nYou can specify values for all user-defined fields (UDFs) linked to the function ID, in the ‘User \ndefined Fields’ screen. Click ‘Fields’ button on the‘Utility Bill Details’ screen. \nRefer the User Defined Fields module chapter under Modularity for further details about \nUDFs.\n5.6 \nMaintaining Products for Utility Bill Payments\nA product is a specific service, scheme or facility that you make available to customers.\nFor instance, the facility of accepting payments from customers on behalf of utility providers \nfor bills issued by them for utility services is a specific service you could offer. This service can \nbe thought of as a product.\nIn Oracle FLEXCUBE, a bill payment transaction for a customer is entered into the system \nagainst a specific product that has been created for processing particular types of utility \npayments made by customers in favor of specific utility providers. For instance, electricity \ncharges payment made by a customer to a specific electrical services provider is entered into \nthe system against a product created specifically for the utility provider, for electricity charge \nbill payments.\nDefining a product simplifies the process of entering a transaction, since you can associate a \nproduct with certain accounting and charges details that will be applied to all payment \ntransactions entered against the product automatically, saving your effort to specify them \nafresh each time you input a transaction. When Oracle FLEXCUBE processes the \ntransaction, it will apply all the attributes and specifications made for the product against \nwhich the transaction was entered.\nYou can enter more than one payment transaction of a customer for a specific service against \na product created for the utility provider."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Defining Products for Utility Payments",
+        "Viewing Utility Payment Transaction"
+      ],
+      "summary": "This page explains how to define products and account details for utility payments before entering transactions, and how to view these transactions in the 'Bill Payment Query' screen.",
+      "raw_text": "5-9\nBefore you enter any payment transactions for a utility provider, you should have already \ndefined a specific product to process payments against bills issued against the specific \nservice provided by the utility provider.\nThe definition of products for utility payments is explained in detail in the chapter Defining \nProducts for Utility Payments in this user manual.\nFor each utility provider, you must also define the following details and associate them with \nthe product:\n1. The specific GL’s to which accounting entries would be posted for the payment made for \na specific utility, to the utility provider\n2. Any applicable charges that your bank levies for the service of processing payments \nmade for a specific utility, to the utility provider.\nThese account details and charges are defined in the ARC Maintenance screen, for a product \nand a specific Utility Provider ID (field 'Transaction Type'), and would apply to all customers \nthat make payments to the specific utility provider.\nThe definition of accounts details and charges (ARC) is explained in the chapter Accounts \nDetails and Charges in this user manual.\n5.7 \nViewing Utility Payment Transaction\nYou can view the bill payment transaction in the ‘Bill Payment Query’ screen. You can invoke \nthis screen by typing ‘UPDQUERY’ in the field at the top right corner of the Application tool \nbar and clicking on the adjoining arrow button.\nIn this screen, you can view the following details for each payment transaction:\nReference Number\nInstitution Identification\nProduct Code\nTransaction Currency\nTanked Transaction"
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Viewing Bill Details",
+        "Viewing Transaction Details",
+        "Executing Bill Payment Batch"
+      ],
+      "summary": "This page describes how to view bill and transaction details, as well as execute batch payments for utility bills.",
+      "raw_text": "5-10\nFor more information on Tanked Transaction, refer Branch Parameters chapter under Core \nServices module.\n5.8 \nViewing Bill Details\nYou can view the details of the bill issued by the utility provider against which the customer is \nmaking payment.\nBill number\nBill Issue Date\nBill Currency\nBill Amount\nExchange Rate Details\nAccount Details\n5.9 \nViewing Transaction Details\nYou can view the following transaction details:\nOffset Account Details\nCharge Details\nNet Paid Amount\nService ID\nExternal Reference Number\nNarrative\n5.10 Executing Bill Payment Batch\nYou can have all bill payments executed through a batch process.For this you need to \nmaintain the function ID ‘UPBAUINS’ as a mandatory batch program, using the ‘Mandatory \nBatch Program Maintenance’ (‘EIDMANPE’) screen"
+    },
+    {
+      "page_number": 40,
+      "sections": [],
+      "summary": "This page describes how the system fetches bill details and executes payments for instructions in the current branch, creating utility payment transactions, and mentions the option to generate advice.",
+      "raw_text": "5-11\n. \nFor further details about this screen, refer the chapter ‘Setting- up Mandatory Programs for \nEOD’ in the AEOD User Manual.\nThe system fetches the bill amount, bill date and bill number from an external system. \nThe batch executes the payments for instructions maintained in the current branch. Each \npayment creates a utility payment transaction. The product for posting transaction is picked \nup from a back-end system parameter. If you want advices to be generated for the payments, \nthen you will have to check the box ‘Generate Advice’ in the in ‘ARC Maintenance’ screen."
+    },
+    {
+      "page_number": 41,
+      "sections": [],
+      "summary": "",
+      "raw_text": "6-1\n6. Function ID Glossary\nE\nEIDMANPE ......................5-10\nI\nIFDATMMN .......................4-2\nS\nSTDBRGMT ....................4-14\nSTDCHGCD ....................4-10\nSTDENMNT ....................4-15\nSTSENMNT .................... 4-16\nU\nUPBAUINS ...................... 5-10\nUPDAUINS ....................... 5-5\nUPDBILDT ........................ 5-3\nUPDPRDMN ..................... 3-3\nUPDQUERY ...................... 5-9\nUPDTPMNT ...................... 5-2"
+    }
+  ]
+}

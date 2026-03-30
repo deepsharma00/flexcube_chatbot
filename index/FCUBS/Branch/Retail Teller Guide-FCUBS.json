@@ -1,0 +1,905 @@
+{
+  "source": "FlexCube/FCUBS/Branch/Retail Teller Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 34,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces and provides an overview of maintaining accounting details, including a specific section on ARC Maintenance.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Retail Teller module of Oracle FLEXCUBE and outlines its intended audience, organization, related documents, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Retail Teller module of Oracle FLEXCUBE and outlines its intended audience, organization, related documents, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Retail Teller module of Oracle FLEXCUBE and outlines its intended audience, organization, related documents, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Retail Teller module of Oracle FLEXCUBE and outlines its intended audience, organization, related documents, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Retail Teller module of Oracle FLEXCUBE and outlines its intended audience, organization, related documents, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the Retail Teller module of Oracle FLEXCUBE and outlines its intended audience, organization, related documents, and accessibility information.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 4,
+      "end_page": 6,
+      "summary": "This page introduces the Retail Teller module of Oracle FLEXCUBE and outlines its intended audience, organization, related documents, and accessibility information.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 4
+        },
+        {
+          "structure": "3",
+          "title": "2. Retail Teller Module – An Overview",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintaining Accounting Details",
+          "start_page": 7
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 ARC Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Invoke ARC Maintenance screen",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Identifying Offset Account",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Identifying Transaction Account",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Identifying Offset and Debit Transaction Codes",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Indicating Service Charges for Inter-branch Transactions",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.6",
+          "title": "3.2.6 Indicating Exchange Rate Revaluation",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.7",
+          "title": "3.2.7 Defining Charge Details",
+          "start_page": 13
+        },
+        {
+          "structure": "4.2.8",
+          "title": "3.2.8 Charge Code Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "4.2.9",
+          "title": "3.2.9 ARC Branch Group Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "4.2.10",
+          "title": "3.2.10 Entity Maintenance",
+          "start_page": 23
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 View Teller Transactions",
+          "start_page": 25
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Viewing Teller Transactions",
+          "start_page": 25
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Viewing Transaction Leg Details",
+          "start_page": 26
+        },
+        {
+          "structure": "4.3.3",
+          "title": "3.3.3 Specifying Offset Leg Details",
+          "start_page": 26
+        },
+        {
+          "structure": "4.3.4",
+          "title": "3.3.4 Viewing Instrument Codes",
+          "start_page": 27
+        },
+        {
+          "structure": "5",
+          "title": "4. Maintaining Retail Teller Products",
+          "start_page": 28
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Introduction",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Maintain Products",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Invoke ‘RT Product Definition’ screen",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Specifying Product Preferences",
+          "start_page": 30
+        },
+        {
+          "structure": "5.2.3",
+          "title": "4.2.3 MIS Button",
+          "start_page": 30
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Transaction Reversal",
+          "start_page": 30
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Reversing of Online Charge",
+          "start_page": 32
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Generating Notifications",
+          "start_page": 33
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Retail Teller Module – An Overview",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section provides an overview of the Retail Teller module in Oracle FLEXCUBE and explains how it maintains reference information for processing teller transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This section provides an overview of the Retail Teller module in Oracle FLEXCUBE and explains how it maintains reference information for processing teller transactions.",
+      "cross_references": [
+        {
+          "structure": "4.1",
+          "title": "3.1 Introduction",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4",
+      "title": "3. Maintaining Accounting Details",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page explains how to maintain accounting information for retail teller transactions in the Account, Rates and Charges (ARC) screen, including identifying transaction accounts, offset accounts, and applicable charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page explains how to maintain accounting information for retail teller transactions in the Account, Rates and Charges (ARC) screen, including identifying transaction accounts, offset accounts, and applicable charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 ARC Maintenance",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page explains how to maintain accounting information for retail teller transactions in the Account, Rates and Charges (ARC) screen, including identifying transaction accounts, offset accounts, and applicable charges.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Invoke ARC Maintenance screen",
+      "start_page": 8,
+      "end_page": 10,
+      "summary": "This section explains how to invoke and use the ARC Maintenance screen in an application browser for maintaining accounting and charges information related to retail teller transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.2",
+      "title": "3.2.2 Identifying Offset Account",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page explains how to specify offset and transaction accounts for teller transactions involving specific products, branches, and currencies.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.3",
+      "title": "3.2.3 Identifying Transaction Account",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page explains how to specify offset and transaction accounts for teller transactions involving specific products, branches, and currencies.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.4",
+      "title": "3.2.4 Identifying Offset and Debit Transaction Codes",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page explains how to set a transaction account as either the debit or charge account in teller transactions, and also mentions the need to identify offset and debit transaction codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.5",
+      "title": "3.2.5 Indicating Service Charges for Inter-branch Transactions",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page explains how service charges are applied in inter-branch transactions and provides options for netting charges, setting end points, and managing bank float days.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.6",
+      "title": "3.2.6 Indicating Exchange Rate Revaluation",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page explains how service charges are applied in inter-branch transactions and provides options for netting charges, setting end points, and managing bank float days.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.7",
+      "title": "3.2.7 Defining Charge Details",
+      "start_page": 13,
+      "end_page": 19,
+      "summary": "This page discusses exchange rate maintenance and charge definition in a system, including how revaluation amounts are calculated and details on defining charges based on transaction or earlier charge amounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.8",
+      "title": "3.2.8 Charge Code Maintenance",
+      "start_page": 19,
+      "end_page": 22,
+      "summary": "This page describes the system's process for evaluating and liquidating charges in a transaction, including handling of earmarking credits, charge order evaluation, and apportionment during online and end-of-day (EOD) processes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.9",
+      "title": "3.2.9 ARC Branch Group Maintenance",
+      "start_page": 22,
+      "end_page": 23,
+      "summary": "This page describes how to set up slab types and branch groups for a banking application, including specifying details such as number of slabs, basis to value, charge slab details, and group codes for branches.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.10",
+      "title": "3.2.10 Entity Maintenance",
+      "start_page": 23,
+      "end_page": 25,
+      "summary": "This page describes how to specify a description for an ARC branch group and maintain entities for fee calculation in the ARC Maintenance screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 View Teller Transactions",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page describes how to view retail teller transactions and includes sub-sections on viewing transaction details and specifying offset leg details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.1",
+      "title": "3.3.1 Viewing Teller Transactions",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page describes how to view retail teller transactions and includes sub-sections on viewing transaction details and specifying offset leg details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.2",
+      "title": "3.3.2 Viewing Transaction Leg Details",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page describes how to invoke a screen for viewing details of teller transactions and specifies the details that can be viewed in different sections.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.3",
+      "title": "3.3.3 Specifying Offset Leg Details",
+      "start_page": 26,
+      "end_page": 27,
+      "summary": "This page describes how to invoke a screen for viewing details of teller transactions and specifies the details that can be viewed in different sections.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.4",
+      "title": "3.3.4 Viewing Instrument Codes",
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This section describes how to view various details of an instrument code, including value date, local currency amount, narrative, and more.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Maintaining Retail Teller Products",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page introduces how to maintain retail teller products using the 'RT Product Definition' screen in Oracle FLEXCUBE, including basic information entry and attribute definition.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Introduction",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page introduces how to maintain retail teller products using the 'RT Product Definition' screen in Oracle FLEXCUBE, including basic information entry and attribute definition.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Maintain Products",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page introduces how to maintain retail teller products using the 'RT Product Definition' screen in Oracle FLEXCUBE, including basic information entry and attribute definition.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.1",
+      "title": "4.2.1 Invoke ‘RT Product Definition’ screen",
+      "start_page": 28,
+      "end_page": 30,
+      "summary": "This page introduces how to maintain retail teller products using the 'RT Product Definition' screen in Oracle FLEXCUBE, including basic information entry and attribute definition.",
+      "cross_references": [
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Invoke ARC Maintenance screen",
+          "start_page": 8
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 ARC Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Identifying Offset Account",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Identifying Transaction Account",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Identifying Offset and Debit Transaction Codes",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Indicating Service Charges for Inter-branch Transactions",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.6",
+          "title": "3.2.6 Indicating Exchange Rate Revaluation",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2.7",
+          "title": "3.2.7 Defining Charge Details",
+          "start_page": 13
+        },
+        {
+          "structure": "4.2.8",
+          "title": "3.2.8 Charge Code Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "4.2.9",
+          "title": "3.2.9 ARC Branch Group Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "4.2.10",
+          "title": "3.2.10 Entity Maintenance",
+          "start_page": 23
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 View Teller Transactions",
+          "start_page": 25
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Viewing Teller Transactions",
+          "start_page": 25
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Viewing Transaction Leg Details",
+          "start_page": 26
+        },
+        {
+          "structure": "4.3.3",
+          "title": "3.3.3 Specifying Offset Leg Details",
+          "start_page": 26
+        },
+        {
+          "structure": "4.3.4",
+          "title": "3.3.4 Viewing Instrument Codes",
+          "start_page": 27
+        }
+      ]
+    },
+    {
+      "structure": "5.2.2",
+      "title": "4.2.2 Specifying Product Preferences",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page describes how to set up product preferences and associate MIS details with products in a retail teller system, as well as options for transaction reversal.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.3",
+      "title": "4.2.3 MIS Button",
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This page describes how to set up product preferences and associate MIS details with products in a retail teller system, as well as options for transaction reversal.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Transaction Reversal",
+      "start_page": 30,
+      "end_page": 32,
+      "summary": "This page describes how to set up product preferences and associate MIS details with products in a retail teller system, as well as options for transaction reversal.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.1",
+      "title": "4.3.1 Reversing of Online Charge",
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This page explains how to reverse cash transactions using the 'Transaction Reversal' screen and details the criteria for querying and the transaction information displayed.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4",
+      "title": "4.4 Generating Notifications",
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This section describes how Oracle FLEXCUBE generates notifications for transactions done through the Retail Teller module and lists the fields included in these notifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Function ID Glossary",
+      "start_page": 34,
+      "end_page": 36,
+      "summary": "This page contains a list of function IDs and their corresponding references without any section titles.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page provides guidance for retail tellers using Oracle FLEXCUBE Universal Banking version 14.7.0.0.0.",
+      "raw_text": "Retail Teller Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited's Retail Teller User Guide.",
+      "raw_text": "Retail Teller User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "3. Maintaining Accounting Details",
+        "3.1 Introduction"
+      ],
+      "summary": "This page introduces and provides an overview of maintaining accounting details, including a specific section on ARC Maintenance.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-1\n1.6 \nGlossary of Icons.....................................................................................................  1-1\n2. \nRetail Teller Module – An Overview ....................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n3. \nMaintaining Accounting Details ............................................................. 3-1\n3.1 \nIntroduction..............................................................................................................  3-1\n3.2 \nARC Maintenance ...................................................................................................  3-1\n3.2.1  \nInvoke ARC Maintenance screen...............................................................  3-2\n3.2.2  \nIdentifying Offset Account...........................................................................  3-4\n3.2.3  \nIdentifying Transaction Account .................................................................  3-5\n3.2.4  \nIdentifying Offset and Debit Transaction Codes.........................................  3-5\n3.2.5  \nIndicating Service Charges for Inter-branch Transactions .........................  3-6\n3.2.6  \nIndicating Exchange Rate Revaluation.......................................................  3-7\n3.2.7  \nDefining Charge Details..............................................................................  3-7\n3.2.8  \nCharge Code Maintenance.......................................................................  3-13\n3.2.9  \nARC Branch Group Maintenance.............................................................  3-17\n3.2.10  Entity Maintenance...................................................................................  3-17\n3.3 \nView Teller Transactions .......................................................................................  3-20\n3.3.1  \nViewing Teller Transactions .....................................................................  3-20\n3.3.2  \nViewing Transaction Leg Details ..............................................................  3-21\n3.3.3  \nSpecifying Offset Leg Details ...................................................................  3-21\n3.3.4  \nViewing Instrument Codes........................................................................  3-21\n4. \nMaintaining Retail Teller Products ......................................................... 4-1\n4.1 \nIntroduction..............................................................................................................  4-1\n4.2 \nMaintain Products....................................................................................................  4-1\n4.2.1  \nInvoke ‘RT Product Definition’ screen ........................................................  4-1\n4.2.2  \nSpecifying Product Preferences .................................................................  4-3\n4.2.3  \nMIS Button..................................................................................................  4-3\n4.3 \nTransaction Reversal...............................................................................................  4-3\n4.3.1  \nReversing of Online Charge .......................................................................  4-5\n4.4 \nGenerating Notifications ..........................................................................................  4-6\n5. \nFunction ID Glossary ............................................................................... 5-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page introduces the Retail Teller module of Oracle FLEXCUBE and outlines its intended audience, organization, related documents, and accessibility information.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual explains the features of the Retail Teller module of Oracle FLEXCUBE which \nenables you to enter and process retail teller transactions entered through an Oracle \nFLEXCUBE retail branch.\n1.2 \nAudience\nThis manual is intended for the Customer Service Representatives (CSRs) and staff in charge \nof setting up new products in your bank.\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\n1.5 \nRelated Documents\nThe Procedures User Manual\n1.6 \nGlossary of Icons\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also lists the \nvarious chapters covered in this User Manual.\nChapter 2\nThe Retail Teller Module – an Overview gives you an overview of the retail \nteller module.\nChapter 3\nMaintaining Accounting Details explains how to set up accounting details for \nretail teller products in Oracle FLEXCUBE. \nChapter 4\nMaintaining Retail Teller Products describes the procedure to create retail \nteller products for the specific services your bank offers. \nChapter 5\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used in \nthe module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Option List",
+        "Icons",
+        "Function"
+      ],
+      "summary": "This page discusses various options and their associated icons and functions.",
+      "raw_text": "1-2\nOption List\nIcons\nFunction"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Introduction"
+      ],
+      "summary": "This section provides an overview of the Retail Teller module in Oracle FLEXCUBE and explains how it maintains reference information for processing teller transactions.",
+      "raw_text": "2-1\n2. Retail Teller Module – An Overview\n2.1 \nIntroduction\nTeller transactions entered through an Oracle FLEXCUBE branch are stored in the Oracle \nFLEXCUBE database, in the Retail Teller module.\nThe Retail Teller module of Oracle FLEXCUBE provides for the maintenance of appropriate \nreference information, which would enable entry of teller transactions from an Oracle \nFLEXCUBE branch, and also enable you to view and enrich transactions that have been \nentered through an Oracle FLEXCUBE branch.\nIn order to facilitate the entry of teller transactions through the Retail Branch, the following \nreference information needs to be maintained at the host Oracle FLEXCUBE installation:\nProducts in the Retail Teller module would be used to process SWITCH products, \naccount closure products, and online charges products for CADCHBOO, STDCHGMN, \nACDOPTN, and STDCUSAC.\nAccounting and charges details for combinations of product, customer, branch and \ncurrency, that will be applicable for retail teller transactions.\nOracle FLEXCUBE provides inbuilt products in the Retail Teller module for retail teller \ntransactions entered through an Oracle FLEXCUBE branch. These products and their \nassociations with the corresponding functions in the Oracle FLEXCUBE Retail branch should \nbe maintained as per section 4.1 of this User Manual. No new products other than these need \nbe maintained for such retail teller transactions. You can, however, make changes to these \ninbuilt products, to suit your requirements, and specify any exchange rate parameters and any \nMIS details. \nThe accounting and charges details for combinations of product, customer, branch and \ncurrency, that will be applicable for retail teller transactions, must be maintained in the host \nOracle FLEXCUBE installation, through the ARC Maintenance. Refer the head ‘Maintaining \nAccounting Details for Retail Teller Transactions’ in this chapter for information about the ARC \nMaintenance."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Introduction",
+        "ARC Maintenance"
+      ],
+      "summary": "This page explains how to maintain accounting information for retail teller transactions in the Account, Rates and Charges (ARC) screen, including identifying transaction accounts, offset accounts, and applicable charges.",
+      "raw_text": "3-1\n3. Maintaining Accounting Details\n3.1 \nIntroduction\nAfter you have maintained the requisite products for retail teller transactions, you must \nmaintain the accounting information that will be used by the system to process such \ntransactions involving the product. \nIn the Account, Rates and Charges (ARC) screen, you can maintain accounting information \nthat will be used to \nIdentify the transaction account and offset account to which accounting entries arising \nfrom a retail teller transaction using the product will be posted\nIdentify whether the offset account or the transaction account must be considered to be \nthe debit account in a retail teller transaction using the product\nIdentify whether any applicable charges in a retail teller transaction using the product \nmust be paid out from the offset account or the transaction account\nCompute the applicable charges that would be levied. \nIdentify the transaction codes to be used for the accounting entries \nNote\nIn order to compute applicable charges, the following screens need to be maintained, be-\nfore proceeding with ARC Maintenance:\n– \nCharge Code Maintenance\n– \nEntity Maintenance\nDetails on the above mentioned maintenances are provided in subsequent sections of this \nchapter.\nThis chapter contains the following sections:\nSection 3.2, \"ARC Maintenance\"\nSection 3.3, \"View Teller Transactions\"\n3.2 \nARC Maintenance\nThis section contains the following topics:\nSection 3.2.1, \"Invoke ARC Maintenance screen\"\nSection 3.2.2, \"Identifying Offset Account\"\nSection 3.2.3, \"Identifying Transaction Account\"\nSection 3.2.4, \"Identifying Offset and Debit Transaction Codes\"\nSection 3.2.5, \"Indicating Service Charges for Inter-branch Transactions\"\nSection 3.2.6, \"Indicating Exchange Rate Revaluation\"\nSection 3.2.7, \"Defining Charge Details\"\nSection 3.2.8, \"Charge Code Maintenance\"\nSection 3.2.9, \"ARC Branch Group Maintenance\"\nSection 3.2.10, \"Entity Maintenance\""
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Invoke ARC Maintenance screen"
+      ],
+      "summary": "This section explains how to invoke and use the ARC Maintenance screen in an application browser for maintaining accounting and charges information related to retail teller transactions.",
+      "raw_text": "3-2\n3.2.1 \nInvoke ARC Maintenance screen\nIn the ARC Maintenance screen, you maintain accounting and charges information that would \nbe applicable for processing retail teller transactions involving a specific branch, retail teller \nproduct and specific currency combination.\nYou can invoke the ‘ARC Maintenance’ screen from the application browser. You can invoke \nthis screen by typing ‘IFDATMMN’ in the field at the top right corner of the Application tool bar \nand clicking on the adjoining arrow button.\nIn the ARC Maintenance screen, you maintain accounting and charges information (known as \nARC details) that would be applicable when processing retail teller transactions involving a \nspecific branch, retail teller product and specific currency combination.\nNote\nIt is recommended that you maintain ARC details for all possible combinations of retail tell-\ner branch, product, offset currency, transaction currencies, customer and customer group. \nIf you do not maintain specific records for each currency, customer and branch combina-\ntion, you can use the ‘*.* ‘ option. \nProduct \nWhile maintaining the ARC details, you have to indicate the retail teller product, transactions \ninvolving which the details would apply. Each product in Oracle FLEXCUBE is identified with \na unique four character alphanumeric code. You can indicate the appropriate product. \nIt is recommended that you maintain ARC details to be applicable for each retail teller product \nthat you set up.\nYou can select CCDM (Cash and Cheque Deposit Machines) product to indicate that as soon \nas cash is deposited it will be reflected in the customer’s account. A separate GL is created \nto differentiate this CCDM transaction.\nCurrency \nYou must indicate the currency, transactions involving which the ARC details would be \napplied.\nFor each currency in which retail teller transactions would be processed involving the selected \nproduct, you can maintain a separate set of ARC details in this screen. You can also choose \nthe “ALL” option under currency, which the system, will use if no specific record for a currency \nis available."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Customer Group",
+        "Account Class Group"
+      ],
+      "summary": "This page explains how to specify customer groups and account class groups for defining charges and selecting options from predefined lists.",
+      "raw_text": "3-3\nCustomer Group\nSpecify the customer group to define charges. This adjoining option list displays all valid \ncustomer groups maintained in the system. You can choose the appropriate one. Input to this \nfield is mandatory.\nAccount Class Group\nSelect the account class group from the adjoining option list.\nNote\nIf ARC is maintained for an account class group, then the charges computed is applicable \nfor all the account classes defined under that account class group,\nThe ARC resolution logic is as below:\nSequen\nce\nAccou\nnt \nClass \nGroup\nBranch\nProduct\nCurrenc\ny\nCustome\nr Group\nTransactio\nn Type\n1\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\n2\nSpecific\n*.*\nSpecific\nSpecific\nSpecific\nSpecific\n3\nSpecific\nSpecific\nSpecific\n*.*\nSpecific\nSpecific\n4\nSpecific\nSpecific\nSpecific\nSpecific\n*.*\nSpecific\n5\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\n*.*\n6\nSpecific\n*.*\nSpecific\n*.*\nSpecific\nSpecific\n7\nSpecific\n*.*\nSpecific\nSpecific\n*.*\nSpecific\n8\nSpecific\n*.*\nSpecific\nSpecific\nSpecific\n*.*\n9\nSpecific\nSpecific\nSpecific\n*.*\n*.*\nSpecific\n10\nSpecific\nSpecific\nSpecific\n*.*\nSpecific\n*.*\n11\nSpecific\n*.*\nSpecific\n*.*\n*.*\nSpecific\n12\nSpecific\n*.*\nSpecific\n*.*\nSpecific\n*.*\n13\nSpecific\n*.*\nSpecific\nSpecific\n*.*\n*.*\n14\nSpecific\nSpecific\nSpecific\n*.*\n*.*\n*.*\n15\nSpecific\n*.*\nSpecific\n*.*\n*.*\n*.*\n16\n*.*\nSpecific\nSpecific\nSpecific\nSpecific\nSpecific\n17\n*.*\n*.*\nSpecific\nSpecific\nSpecific\nSpecific\n18\n*.*\nSpecific\nSpecific\n*.*\nSpecific\nSpecific"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Identifying Offset Account",
+        "Identifying Transaction Account"
+      ],
+      "summary": "This page explains how to specify offset and transaction accounts for teller transactions involving specific products, branches, and currencies.",
+      "raw_text": "3-4\n3.2.2 \nIdentifying Offset Account\nYou can specify the offset account or GL into which offset entries are to be booked, as a result \nof the teller transaction involving the product, branch and currency.\nYou can also indicate the branch in which the offset account resides. You can also choose \nthe “ALL” option, which the system interprets as the branch in which the transaction is being \ninput.\nIndicating the offset account as the debit account\nYou could indicate that the offset account is to be the debit account for the transaction, in teller \ntransactions involving the product, branch and currency combination. To indicate this, select \nthe ‘Offset Account’ option in the Debit Account field on this screen.\nIndicating the offset account as the default charge account\nYou could indicate that the offset account is to be the default charge account for the \ntransaction, in teller transactions involving the product, branch and currency combination. \nThis means that the charges would be recovered from this account. To indicate this, select \nthe ‘Offset Account’ option in the Charge From Account field on this screen.\nNote\nIf the offset account you have specified uses an account class that is restricted for debit or \ncredit transactions for the product, an override is sought when you attempt to save the con-\ntract.\n3.2.3 \nIdentifying Transaction Account\nYou must specify the transaction account for the retail teller transaction, as well as the branch \nin which this account resides. The branch information you specify here could also be used in \nthe case of an inter-branch transaction.\nIf you wish to maintain ARC details for a specific customer, you can specify a valid customer \naccount here. In such a case, the ARC record will be applicable to all retail teller transactions \n19\n*.*\nSpecific\nSpecific\nSpecific\n*.*\nSpecific\n20\n*.*\nSpecific\nSpecific\nSpecific\nSpecific\n*.*\n21\n*.*\n*.*\nSpecific\n*.*\nSpecific\nSpecific\n22\n*.*\n*.*\nSpecific\nSpecific\n*.*\nSpecific\n23\n*.*\n*.*\nSpecific\nSpecific\nSpecific\n*.*\n24\n*.*\nSpecific\nSpecific\n*.*\n*.*\nSpecific\n25\n*.*\nSpecific\nSpecific\n*.*\nSpecific\n*.*\n26\n*.*\n*.*\nSpecific\n*.*\n*.*\nSpecific\n27\n*.*\n*.*\nSpecific\n*.*\nSpecific\n*.*\n28\n*.*\n*.*\nSpecific\nSpecific\n*.*\n*.*\n29\n*.*\nSpecific\nSpecific\n*.*\n*.*\n*.*\n30\n*.*\n*.*\nSpecific\n*.*\n*.*\n*.*"
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Indicating the transaction account as the debit account",
+        "Indicating the transaction account as the default charge account"
+      ],
+      "summary": "This page explains how to set a transaction account as either the debit or charge account in teller transactions, and also mentions the need to identify offset and debit transaction codes.",
+      "raw_text": "3-5\ninvolving the customer, product, branch and currency combination that you have specified in \nthis record, in this screen.\nIndicating the transaction account as the debit account\nYou could indicate that the transaction account is to be the debit account for the transaction, \nin teller transactions involving the product, branch and currency combination. To indicate this, \nselect the ‘Transaction Account’ option in the Debit Account field on this screen. \nIndicating the transaction account as the default charge account\nYou could indicate that the transaction account is to be the default charge account for the \ntransaction, in teller transactions involving the product, branch and currency combination. \nThis means that the charges would be recovered from this account. To indicate this, select \nthe ‘Transaction Account’ option in the Charge From Account field on this screen. Typically \nfor a “Cash Deposit” type of a transaction, in which the customer account will be specified \nwhen the transaction is entered, the same account would also be used to debit the charges. \nNote\nIf the transaction account you have specified uses an account class that is restricted for \ndebit or credit transactions for the product, an override is sought when you attempt to save \nthe contract.\n3.2.4 \nIdentifying Offset and Debit Transaction Codes\nIn addition, you have to also identify the transaction codes against which offset and debit \nrelated entries for the transaction ought to be tracked.\nFor instrument-based products (such as check deposit / check withdrawal products) you must \nensure that you specify a transaction code for which check numbers are mandatory.\nCharge Debit Account\nYou can choose the charge debit account from the adjoining drop-down list. The available \noptions are:\nOffset Account\nTransaction Account\nMain Offset Accounting Entries Required \nCheck this box to pass the Main accounting entries along with charges defined at ARC for a \nProduct, else only the charges accounting entries defined for the product alone will get \npassed which is used for Online charge collection.\nNote\nWhen RT products are used for On-line charge definition (STDCHGMN) this checkbox has \nto be unchecked.\nGenerate Transaction Advices\nYou can indicate that advices must be generated for retail teller transactions involving the \nproduct, branch and currency combination. \nGenerate MT101\nCheck this box to generate MT101."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Indicating Service Charges for Inter-branch Transactions",
+        "IB Transaction",
+        "Note",
+        "Netting Charge",
+        "End Point",
+        "Description",
+        "Bank Float Days"
+      ],
+      "summary": "This page explains how service charges are applied in inter-branch transactions and provides options for netting charges, setting end points, and managing bank float days.",
+      "raw_text": "3-6\n3.2.5 \nIndicating Service Charges for Inter-branch Transactions\nIn a transaction, if the account branch of the teller transaction is different from the transaction \nbranch, then charges maintained by inter-branch product will be applied to the transaction. \nIf you select the IB transaction as 'Yes' for a RT product at ARC, the system picks up and \nprocess the charge entries as maintained.\nIf you select the IB transaction as 'NO' for a RT product at ARC, then the charges maintained \nin Non-IB product are applied to the transaction.\nIB Transaction\nCheck this box if you want the system to pick up the product, for inter-branch transactions.You \nwill notice the difference in the service charges processed for two transactions with same kind \nof product. \nNote\nThis is supported for Cash Deposit (1401), Cash Withdrawal (1001) and Account to Ac-\ncount Transfer (1006)\nNetting Charge\nYou have the option to net the accounting entries for the debit leg of the charges along with \nthe main transaction entries. \nCheck this box to indicate that the debit leg of the charges is to be netted before passing the \naccounting entries. Leave the box unchecked to pass the entries without netting the charges \nof the debit leg.\nEnd Point\nIn case of Outward Clearing, Clearing House is derived based on the End Point maintained \nfor the ARC combination.\nDescription\nEnd Point Description (Display Only field).\nBank Float Days\nIn case Bank Float Days is not maintained at the Clearing Bank/Branch level, it is picked up \nfrom here.\nCustomer Float Days\nIn case Customer Float Days is not maintained at the Clearing Bank/Branch level, it is picked \nup from here.\nFloat Days Basis \nWhether to consider the Calendar Days or Working Days for computing the Value Date based \non the Floats maintained.\n3.2.6 \nIndicating Exchange Rate Revaluation\nYou can specify the following details:\nProfit Revaluation GL\nSpecify the profit revaluation GL details.\nLoss Revaluation GL\nSpecify the loss revaluation GL details."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "3-7",
+        "3.2.7 Defining Charge Details"
+      ],
+      "summary": "This page discusses exchange rate maintenance and charge definition in a system, including how revaluation amounts are calculated and details on defining charges based on transaction or earlier charge amounts.",
+      "raw_text": "3-7\nExchange rate values are maintained at CCDRATES. Rate type and Rate code preferred is \nmaintained at product level and Negotiated cost rate is maintained at transaction level.\nThe Revaluation amount = (Transaction amount/exchange rate) - (Transaction amount/\nnegotiated rate),\nWhere,\nExchange rate is picked for the rate type and rate code maintained at Product level.\nThe system will display an override message if the negotiated rate is not within the exchange \nrate variance maintained at the product.\n3.2.7 \nDefining Charge Details\nYou can define a maximum of five charges. A charge can be computed based either on the \ntransaction amount or on an earlier charge amount \nAs part of defining the Charge details for each charge, you need to capture the following \ndetails in the corresponding charge tabs:\nCharge Type\nThe Charge Type that should be applied on the transaction. It could either be a Percentage \nof the transaction amount or a Flat Charge. \nSlab type\nSelect whether the Charge computation has to be over different Amount Slabs or Tiers (0-100 \n@ 10, 101-500 @ 15 etc.).\nBasis\nYou can indicate the basis amount on which the charge is to be computed. \nSince you can maintain five different charge amounts, the basis amount that you enter could \neither be the ‘Transaction Amount’ or any of the earlier charge amounts. For example, let us \nassume you are maintaining Charge 1. The only basis for charge 1 can be the transaction \namount. While defining Charge 2 you can choose either the transaction amount or Charge 1 \nas the basis. Similarly while defining Charge 3, you can choose the transaction amount or \nCharge 1 or Charge 2 as the basis. NUM-ACC-OPN-DAYS' is used as basis to define the \nAccount closure Charge product. When this basis is used, Slab type should be maintained as \n\"SLAB\" and Rate Type as \"FLAT RATE\". As system will check the slab for charges to be \ncollected based on the Number of days account kept open by the customer. ‘System Entity’ \ncan be selected to calculate those teller transactions that exceed the restriction amount. If \n‘System Entity’ is selected, then the linked system entity returns the basis amount on which \nthe charge is calculated.\nEntity Name\nThe field is enabled if ‘System Entity’ is selected in the ‘Basis’ field. Select the Entity Name, \nfrom the adjoining option list. The list of values are populated from the ‘Entity Maintenance’ \nscreen (STDENMNT). Further details on the ‘Entity Maintenance’ screen is provided in \nsubsequent sections of this chapter.\nBased on Charge Code\nCheck this box to indicate whether the charge is based on the charges maintained in the \n‘Charge Code Maintenance’ screen. If this field is checked, then the system checks the \nparameters applicable to the selected charge code from the ‘Charge Code Maintenance’ \nscreen (which is detailed in the subsequent section) and passes the relevant parameter \nvalue(s). The system also passes the “Basis” amount to the charge code as the basis is \ncaptured at ARC charge level."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Charge Code",
+        "Currency",
+        "Charge Debit Account",
+        "Note",
+        "Charge Credit Account"
+      ],
+      "summary": "This page describes various fields and their functionalities related to charge codes in a system, including how charges are posted and the accounts involved.",
+      "raw_text": "3-8\nIf the system is unable to pass a parameter value to a charge code because of unavailability \nof data, the same parameter is treated as *.*. \nCharge Code\nThis field is enabled if ‘Based on Charge Code’ field is checked. Select the charge code from \nthe adjoining option list. All charge codes as maintained in the charge code maintenance \nscreen is listed in this field.\nCurrency\nYou can indicate the currency in which the charge amount would be expressed. If the \ntransaction currency is different from the charge currency, a conversion would be done, using \nthe rate code and rate type that you specify for each charge.\nCharge Debit Account\nSelect the charge debit account into which charge related entries are to be posted from the \nadjoining option list.\nNote\n– \nIf charge debit account is maintained at both ARC and charge level with different \nvalues, the system will take precedence of the charge debit account at the charge \nlevel to debit the charges.The charge debit account can either be \"TXN_ACC\" or \n\"OFS_ACC\" or GL's (Income or Expense)\n– \nIf netting charge is checked at ARC level, charge debit account should be main-\ntained at ARC level. This charge debit account and charge credit account is used \nwhen bank has to remit tax on income they receive as part of each and every RT \ntransactions.\nCharge Credit Account\nSelect the charge credit account from the adjoining option list. The other leg of the charge is \nposted to a GL, as specified in the ARC record.\nFor example,\nTo collect tax from the income received will be as follows:\nFor cash deposit transactions, bank wants to collect a charge of 5% on the transaction \namount (inclusive of tax). The bank has to remit Tax @ 9.090909% of gross charge collected \nfrom the income GL.\nThe ARC maintenance can be done as follows to achieve the same:\nCharge 1:\nCharge Basis: Transaction Amount\n% Charge: 5 %\nCharge Debit Account: Transaction Account\nCharge Credit Account: Income GL (say INC00001)\nCharge 2:\nCharge Basis: Charge 1\n% Charge: 9.090909%\nCharge Debit Account: Income GL (INC00001)"
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Charge Credit Account: Tax Payable GL (say PAYB0001)",
+        "Netting",
+        "Transaction Code",
+        "Rate Code and Rate Type"
+      ],
+      "summary": "This page discusses accounting entries for charging a credit account, netting of transactions, the use of transaction codes, and rate codes and types for cross currency transactions.",
+      "raw_text": "3-9\nCharge Credit Account: Tax Payable GL (say PAYB0001)\nFor a cash deposit of USD 1000 in account CASA0001, the gross charge (inclusive of tax) will \nbe USD 50 and Tax will be 4.55 after rounding.\nThe accounting entries for the maintained ARC will be as below:\nNetting \nIf two or more accounting entries, for the same event, are to be passed to the same account, \non the same Transaction Date, these entries can be netted. You can choose to net the charge \nleg of the Transaction Account (debit) entry with the main leg of the customer accounting \nentry.\nTransaction Code\nYou can indicate the code using which the accounting entries would be booked, for each \ncharge.\nRate Code and Rate Type\nWhile settling charges for cross currency transactions, you can choose to debit the customer \nby applying the mid rate, buy rate or by using the buy/sell spread over the mid-rate. Therefore \nyou need to specify the Exchange Rate details for each ARC definition record that you \nmaintain in the system. \nFirstly, indicate the Rate Code for which different rates can be maintained. A list of all the rate \ncodes maintained in the Floating Rates Maintenance screen is displayed in the list. You can \nchoose the appropriate code. \nIn addition to specifying the Rate Code you have to indicate the Rate Type which should be \npicked up for exchange rate conversions involving settlement of charges for cross currency \ntransactions. \nYou can maintain any one of the following as the Rate Type:\nMid\nBuy/Sell Rate\nAfter identifying the Rate Code and Rate Type you can indicate the basis amount on which \ncharges are to be computed. \nAmount\nYou have to specify the flat amount only when the charge type is a Flat Amount. \nThe flat amount will be collected in the currency that you have specified in the Currency Code \nfield. \nDr/Cr\nAccount\nCurrency\nAmount\nDR\nCASH GL \nUSD\n1000\nCR\nCASA0001\nUSD\n1000\nDR\nCASA0001\nUSD\n50\nCR\nINC00001\nUSD\n50\nDR\nINC00001\nUSD\n4.55\nCR\nPAYB0001\nUSD\n4.55"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Rate",
+        "Minimum and Maximum Charge Amount",
+        "MIS Head",
+        "Description",
+        "Charge Tracking Preference"
+      ],
+      "summary": "This page outlines the settings required for applying a percentage charge on transactions, including rate specification, minimum and maximum charge amounts, MIS head selection, description, and charge tracking preference.",
+      "raw_text": "3-10\nRate\nIf you have indicated that the charge should be a percentage of the transaction amount, you \nhave to necessarily capture the rate that is to be applied on the transaction amount. The rate \nthat you specify will be applied after converting the amount into the Account Currency.\nMinimum and Maximum Charge Amount\nWhen the charge type applicable on the transaction is a percentage of the transaction amount \nyou have to capture the minimum and maximum charge amounts that should be applied on \nthe transaction. \nIf the charge percentage involving a particular transaction is less than the minimum charge \nthe system will by default debit the customer account with the minimum charge amount. \nSimilarly, when the charge percentage exceeds the maximum amount, the system will debit \nthe customer account with the maximum charge amount. \nNote\nThe charge amount will be deducted in the currency that you specified earlier. \nMIS Head\nSpecify the MIS Head that is applicable for the charge-related accounting entry.\nDescription\nYou can indicate a short description for the charge.\nCharge Tracking Preference\nSelect charge tracking preference from the adjoining drop-down list. The options available \nare:\nPart Debit/Part Waive - If your account does not have an amount sufficient to collect the \nfull charge, then the system collects the available amount and waives off the remaining \namount. There will not be any tracking for the waived amount. For example: If the \ncharge amount is Rs100 and there is Rs70 in the customer account, then Rs70 will be \ncollected as the charge and the remaining Rs30 would be waived off. \nPart Debit/Part Track - If your account does not have an amount sufficient to collect the \nfull charge, then the system collects the available amount and tracks the remaining \namount. For example: If the charge amount is Rs100 and there is Rs70 in the customer \naccount, then Rs70 will be collected as the charge and the remaining Rs30 would be \ntracked for collection. \nFull Waive - If your account does not have sufficient balance then the system waives off \nthe full charge amount. For e.xample: If the charge amount is Rs100 and there is Rs70 \nin the account, the entire Rs100 charge will be waived off. \nFull Track - If your account does not have sufficient balance to cover the charge, then \nthe system tracks the entire amount as receivable. For example: If the charge is Rs100 \nand the amount in the account is Rs70, charge will not be collected, instead Rs100 will \nbe tracked as receivable and this would be tracked till closure. \nForce Debit - The system debits the charge amount forcefully from your account. If the \namount available in the account is not sufficient then force debit results in negative \nbalance. For example: If the charge is Rs100 and the customer account has Rs70, then \nthe system forcibly debits the customer account of Rs100 resulting in the customer \naccount balance of Rs30. The amount is not tracked in this case. This option if selected, \nignores all other validations for balance check and will debit the customer account for \nthe charge amount. The same balance check validations are skipped here too which are \ncurrently skipped by the system if balance check required flag is unchecked at \ntransaction code level. However, other validations such as No debit, account freeze will \nnot be skipped."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Not Required",
+        "Reject"
+      ],
+      "summary": "This page explains how different tracking preferences affect transaction processing and account validation checks in a financial system.",
+      "raw_text": "3-11\nNot Required - Select ‘Not Required’ if charge for tracking is not preferred. The system \nbehaves in the same manner as it is when “Tracking required auto liquidation” flag is \nunchecked. This will consider the validations for balance check, that is preference at \ntransaction code level or account overdraft errors (e.g. AC-OVD)\nReject - If the account does not have sufficient balance, then the system rejects entire \ntransaction.\nNote\n– \nIf “Charge Tracking Preference” is any of the above other than “Not Required”, the \ngiven preference will take precedence over the account overdraft check validation \n(AC-OVD). For example, if account overdraft check validation (AC-OVD) is set up \nas an override, but tracking preference is selected as full track or part debit/ part \ntrack, the charge amount will be tracked if available balance is insufficient to cover \nthe charges. If tracking preference is selected as “Not Required”, then the system \nwill debit the account for charge even if available balance is insufficient to cover the \ncharges.\n– \nIf account overdraft check validation (ACOVD) is set up as an error, but tracking \npreference is selected as “Force Debit”, then the charge amount will be debited to \nthe customer account by skipping the balance check validation and if available bal-\nance is insufficient to cover the charges. But if the tracking preference is selected \nas “Not Required”, the transaction fails due to insufficient fund.\nNote\n– \nThe charge tracking preference is not applicable if the charge debit account is a GL\n– \nThe charge tracking preference is not applicable for Account close out products or \nNUM-ACC-OPN-DAYS if selected as basis.\nLiquidation Preference for Tracked Charges\nSelect liquidation preference for tracked charges from the adjoining drop-down list. The \noptions available are:Partial - If ‘Partial’ is selected, the system liquidates the tracked \ncharge amounts partially during EO only if part amount is available in the account. For \nexample: If Rs.30 is tracked for an account and during next day EOD, system finds Rs10 \nis available in the account, system will try to collect the available Rs10.\nFull - If this is selected, then the system tries to liquidate the individual tracked charge \namount fully during EOD. If only part amount is available in the account, system will not \ntry to collect the part amount. For example: If Rs30 is tracked for a charge in an account \nand during next day EOD, system finds Rs10 is available in the account; system will not \ntry to collect the available Rs10. But, system will wait till the time balance available in \nthe account becomes Rs30. \nNote\n– \nThe system does not validate the “Charge Tracking Preference” selected and \n“Liquidation Preference for Tracked Charges” selected for a given charge. This has \nto be operationally controlled. The “Liquidation Preference for Tracked Charges” is \napplicable only if the Charge tracking preference is selected as “Full Track” or “Part \nDebit/ Part Track”. In all other cases, the liquidation preference can be maintained \nas “Full” or “Partial” which will not have any impact unless any charges are tracked.\n– \nLiquidation of IC tracked charges are done as per the logic available for other \ntracked amounts like RT, CL tracked amounts."
+    },
+    {
+      "page_number": 18,
+      "sections": [],
+      "summary": "This page discusses the priority of liquidation order product-wise at account class AMT block screen for IC charge products and details non-sufficient funds tracking preferences and processing.",
+      "raw_text": "3-12\n– \nYou can define the priority of liquidation order product-wise at account class AMT \nblock screen for IC charge products also.\nIf track receivable is checked at RT product level, then the non sufficient treatment or charge \ntracking preference at ARC maintenance level is ignored by the system. \nIf track receivable is not checked at RT product level, the non sufficient treatment or charge \ntracking preference selected at ARC maintenance level for the product is applicable. The non \nsufficient treatment or charge tracking preference at ARC level is applicable to charges and \nnot for the original transaction amount. For ARC product, the processing is done by \nRTAUTDLY batch.\nIf one charge has been used as a basis to arrive at another charge, then the ‘Charge Tracking \nPreference’ will be same for both the charges. \nDuring evaluation of charge tracking preference for a transaction with multiple charges, the \nsystem calculates all the charges and then considers charges from 1 to 5.\nThe system displays override messages when:\nAvailable balance is sufficient to cover the transaction amount but not sufficient for the \ncharge.\nProduct level tracking is checked and when transaction amount is greater than the \navailable balance.\nThe non sufficient funds tracked transactions can be reversed on the same day only, next day \nreversal is not allowed.\nIf netting is disabled for credit transactions, the charges will be deducted from the account. \nHence, NSF charge tracking preference will be applicable if system is unable to collect the \ncharge amount.\nProcess flow for Non sufficient Funds Treatment\nIf ‘Charge Tracking Preference’ is selected as ‘Part track’ or ‘Full track’ then, once the amount \nfor tracking has been calculated then the system does the following:\nCreates an internal amount block for the amount to be tracked against the charge \naccount in table CSTB_AUTO_SETTLE_BLOCK.\nThe tracked amount will be updated in receivable amount in the CASA account \nOnce the receivable amount is updated, the available balance is affected. The \nreceivable amount is deducted from current balance while arriving at the available \nbalance.during tracking. \nThe receivable amount will be displayed in customer account \nFor all the online transaction screens during SAVE at enrich stage, if any charge amount \nis being tracked or waived or force debited to the account, the same information is \ndisplayed as an override. If you accept the override, the transaction will be completed \nand if the override is rejected, the transaction will not proceed.\nIf you modify or waive any of the charges after the override is displayed, the override \nshould be cancelled and modify the charges. After the modification of charges, system \nwill re-evaluate the NSF preferences based on the available balance and the modified \ncharges. On save, system displays if any charge amount is being tracked or waived or \nforce debited to the account.\nWhenever an account is credited for which there are tracked receivables, the system will do \nthe following:"
+    },
+    {
+      "page_number": 19,
+      "sections": [],
+      "summary": "This page describes the system's process for evaluating and liquidating charges in a transaction, including handling of earmarking credits, charge order evaluation, and apportionment during online and end-of-day (EOD) processes.",
+      "raw_text": "3-13\nFor all the existing internal amount blocks, system checks for earmarking the credit of \nbook date, blocking order and liquidation order.\nIf there are multiple charges tracked as a part of a single RT transaction, like all five ARC \ncharges, the order of evaluation will be in increasing order from Charge 1 to charge 5.\nDuring online apportionment of credit and subsequent liquidation, the system will not \nconsider account level receivable tracking for NSF tracked charges. If there are any \nNSF tracked charge amount for the account, system will go ahead with the online \napportionment of credit and subsequent liquidation of the charges during EOD.\nDuring EOD the does the following to liquidate the tracked receivables:\nThe system evaluates every tracked records with apportioned amount.\nIf apportioned amount is equal to the tracked amount, the system will liquidate the \ntracked amount completely.\nIf apportioned amount is less than the tracked amount and liquidation preference is \n‘FULL’, the liquidation will not happen and system will wait for the apportioned amount \nto become equal to the tracked amount.\nIf apportioned amount is less than the tracked amount and liquidation preference is ‘Partial’, \nsystem will liquidate partially and the tracked amount will be reduced.\n3.2.8 \nCharge Code Maintenance\nIn the ‘Charge Code Maintenance’ screen, charges based on some additional parameters \nwhich are not a part of ‘ARC maintenance’ can be maintained. The charge matrix in this screen \ncan be attached to the ARC maintenance screen for arriving at charges based on additional \nparameters.\nYou can invoke this screen by typing ‘STDCHGCD’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Parameters Mapping"
+      ],
+      "summary": "This section details how parameters for charge codes are mapped to fixed IDs and describes the available parameters related to transaction branches, account branches, and bank codes.",
+      "raw_text": "3-14\nSpecify the following details in this screen:\nCharge Code\nSpecify a unique identifier to identify a charge code.\nCharge Code Description\nThe description of the charge code is defaulted here.\nParameters Mapping\nIn this section, parameters based on which charges are differentiated are mapped to fixed \nparameter IDs. There are 5 parameter IDs provided in this section. At least one parameter \nshould be mandatorily defined. Select the appropriate value from the adjoining option list. This \nlist contains the following values:\nTRANSACTION_BRANCH_GROUP- This is the ARC branch group code to which the \ntransaction branch belongs to. If the transaction branch is not grouped under any ARC \nbranch group *.* is returned for the same.\nACCOUNT_BRANCH_GROUP - This is the ARC branch group code to which the \naccount branch belongs to. If the account branch is not grouped under any ARC branch \ngroup *.* is returned for the same.\nPAYABLE_BANK_CODE - This is the beneficiary Bank Code which is used while \nsending an outgoing interbank BC/DD/TT.\nPAYABLE_BRANCH_CODE- This is the beneficiary Bank’s branch Code which is \nused while sending an outgoing interbank BC/DD/TT. \nThe list of factory shipped parameters which is made available in this screen are as follows:\nParameter \nSpecific To\nDifferentiating \nParameter\nDescription\nApplicable to \ntransaction\nCustomer\nCUSTOMER_CATE-\nGORY\nCustomer category speci-\nfied at customer CIF level\nALL\nGROUP_CODE\nGroup code specified at \ncustomer CIF >Additional \ntab level\nALL\nCLEARING_GROUP\nClearing group specified at \ncustomer CIF >Additional \ntab level\nALL\nTAX_GROUP\nTax group specified at cus-\ntomer CIF >Additional tab \nlevel\nALL\nCUSTOMER_CLASSIFI-\nCATION\nCustomer Classification \nspecified at customer CIF \n>Additional tab level\nALL\nNATIONALITY\nNationality specified at \ncustomer CIF level> per-\nsonal/corporate tab\nALL"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Charge Matrix",
+        "Values 1 to 5",
+        "Charge Type",
+        "Amount",
+        "Rate",
+        "Minimum Charge",
+        "Maximum Charge",
+        "Transaction",
+        "TRANSACTION_BRANCH",
+        "ALL",
+        "TRANSACTION_BRANCH_GROUP",
+        "ACCOUNT_BRANCH",
+        "ALL",
+        "ACCOUNT_BRANCH_GROUP",
+        "PAYABLE_BANK_CODE",
+        "BC/DD/TT",
+        "PAYABLE_BRANCH_CODE",
+        "BC/DD/TT",
+        "TO_ACCOUNT_BRANCH",
+        "LOCH and Account to Account transfer",
+        "TO_ACCOUNT_BRANCH_GROUP",
+        "Branch group to which credit account branch belongs to"
+      ],
+      "summary": "This page describes the configuration of charges, including charge types, amounts, rates, and various transaction-related fields such as branches and bank codes.",
+      "raw_text": "3-15\nCharge Matrix\nValues 1 to 5\nValues 1 to 5 correspond to the respective parameter value in the Parameter Mapping \nsection. For example: Value 1 corresponds to the Parameter Value 1 and so on and so forth. \nSelect the specific values from the adjoining option list. \nCharge Type\nSelect the charge type from the drop down list. The charge type can be flat or percentage.\nAmount\nSpecify the charge amount in this field.\nRate\nSpecify the rate in this field.\nMinimum Charge\nSpecify the minimum charge in this field.\nMaximum Charge\nSpecify the maximum charge in this field.\nTransaction\nTRANSAC-\nTION_BRANCH\nBranch code at which \ntransaction is being done\nALL\nTRANSAC-\nTION_BRANCH_GROU\nP\nBranch group to which \ntransaction branch belongs \nto\nALL\nACCOUNT_BRANCH\nBranch code of the trans-\naction account\nALL\nACCOUNT_BRANCH_G\nROUP\nBranch group to which \naccount branch belongs to\nALL\nPAYABLE_BANK_CODE\nPayable bank code for BC/\nDD/TT\nBC/DD/TT \nPAYA-\nBLE_BRANCH_CODE\nPayable Branch for BC/\nDD/TT\nBC/DD/TT \nTO_AC-\nCOUNT_BRANCH\nBranch code of the Credit \naccount\nLOCH and \nAccount to \nAccount trans-\nfer\nTO_AC-\nCOUNT_BRANCH_GRO\nUP\nBranch group to which \ncredit account branch \nbelongs to\nLOCH and \nAccount to \nAccount trans-\nfer"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Slab Type",
+        "ARC Branch Group Maintenance"
+      ],
+      "summary": "This page describes how to set up slab types and branch groups for a banking application, including specifying details such as number of slabs, basis to value, charge slab details, and group codes for branches.",
+      "raw_text": "3-16\nSlab Type\nSelect the Slab Type as Slab or Tier from the drop down list. If Slab Type is Slab or Tier, then \nprovide the slab or tier details in the slab or tier sub-screen by clicking ‘S’ button.\nIn this screen, you need to specify the number of slabs, the basis to value, and charge slab \ndetails.\n3.2.9 \nARC Branch Group Maintenance\nTo define branch groups which are equivalent to cities or regions that the bank operates in, \ninvoke the ‘ARC Branch Group Maintenance’ screen by typing ‘STDBRGMT’ in the field at the \ntop right corner of the application tool bar and clicking the adjoining arrow button. \nSpecify the following details in this screen:\nARC Branch Group\nSpecify a group code to identify a group of branches."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "ARC Branch Group Description",
+        "Entity Maintenance"
+      ],
+      "summary": "This page describes how to specify a description for an ARC branch group and maintain entities for fee calculation in the ARC Maintenance screen.",
+      "raw_text": "3-17\nARC Branch Group Description\nSpecify a description for the branch group. \nAfter specifying details in the ‘ARC Branch Group Maintenance’ screen, all the ARC branch \ngroups are displayed in the ‘Branch Parameter Maintenance’ screen (STDBRANC). Select \nthe branch group from the ‘ARC Branch Group’ field. \nFor more information on the Branch Parameters Maintenance screen, refer section 5 ‘Branch \nParameters’ in the Core Service module.\n3.2.10 \nEntity Maintenance\nIn the ARC Maintenance screen, fees or charges as a percentage of the transaction amount \ncan be calculated for transactions exceeding the restriction amount. To calculate this fee or \ncharge, you need to select ‘System Entity’ in the ‘Basis Field’ in the ARC Maintenance screen. \nThereafter, the ‘Entity Name’ field is enabled which displays values obtained from the ‘Entity \nMaintenance’ screen. You can invoke this screen by typing ‘STDENMNT’ in the field at the \ntop right corner of the application tool bar and clicking the adjoining arrow button.\nSpecify the following in this screen:\nEntity Name\nSpecify the entity name to be considered for fee maintenance. \nUnit Name\nSelect a value for charge consideration from the drop down list. The value provided in the drop \ndown list are as follows:\nExceeded Amount\nTransaction Amount\nDuring ARC Maintenance, the following scenarios are considered if exceeded amount is \nselected:\nIf the transaction is not exceeding the restriction utilization, then the value provided is 0.\nIf the transaction is exceeding the restriction utilization partially, then the portion of the \ntransaction amount which exceeds the restriction amount, is provided."
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page describes scenarios for transaction amount selection during ARC Maintenance and how to view entity types in the application tool bar.",
+      "raw_text": "3-18\nDuring ARC Maintenance, the following scenarios are considered if transaction amount is \nselected\nIf the transaction is not exceeding the restriction utilization, then the value provided is 0.\nIf the transaction is exceeding the restriction utilization partially, then the transaction \namount is provided.\nIf the transaction is exceeding the restriction utilization fully, then the transaction amount \nis provided.\nEntity Type\nSelect the Entity Type from the drop down list. The values provided in the drop down list are \nas follows:\nNull\nRestriction Code\nParameter\nSelect the Parameter if ‘Restriction Code’ is selected in the Entity Type field, from the \nadjoining option list. All active restriction codes as maintained in the system are displayed in \nthis field. For more information on restriction code maintenance, refer to the section \n‘Restriction Amount Maintenance’ in the Core Services Module.\n3.2.10.1 Viewing Entity Types\nYou can view the entity types in the ‘Entity Summary’ screen. You can invoke this screen by \ntyping ‘STSENMNT’ in the field at the top right corner of the application tool bar and clicking \nthe adjoining arrow button.\nYou can search for entities by specifying values in the following fields:"
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "View Teller Transactions",
+        "Section 3.3.1, \"Viewing Teller Transactions\""
+      ],
+      "summary": "This page describes how to view retail teller transactions and includes sub-sections on viewing transaction details and specifying offset leg details.",
+      "raw_text": "3-19\nAuthorization Status\nRecord Status\nEntity Name\nUnit Name\nEntity Type\nOn updating these details and clicking the ‘Search’ button, the following columns are \npopulated:\nAuthorization Status\nRecord Status\nEntity Name\nUnit Name\nEntity Type\n3.3 \nView Teller Transactions\nThis section contains the following topics:\nSection 3.3.1, \"Viewing Teller Transactions\"\nSection 3.3.2, \"Viewing Transaction Leg Details\"\nSection 3.3.3, \"Specifying Offset Leg Details\"\nSection 3.3.4, \"Viewing Instrument Codes\"\n3.3.1 \nViewing Teller Transactions\nYou can view retail teller transactions in the ‘Retail Teller Transaction Query’ screen. Invoke \nthis screen from the application browser."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Viewing Transaction Leg Details",
+        "Specifying Offset Leg Details"
+      ],
+      "summary": "This page describes how to invoke a screen for viewing details of teller transactions and specifies the details that can be viewed in different sections.",
+      "raw_text": "3-20\nYou can invoke this screen by typing ‘DEDQUERY’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button.\nIn this screen, you can view the following details for each teller transaction:\nProduct \nRelated Customer\nBranch Code\nExternal Reference Number\nExchange Rate\nContract Reference Number\nRoute Code\nTransaction Tanked\nAdditional Reference Number \n3.3.2 \nViewing Transaction Leg Details\nHere you can view the following details:\nTransaction Currency\nTransaction Branch\nTransaction Account\nTransaction Amount\nTransaction Code\n3.3.3 \nSpecifying Offset Leg Details\nOffset Currency\nOffset Branch"
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "3.3.4 Viewing Instrument Codes"
+      ],
+      "summary": "This section describes how to view various details of an instrument code, including value date, local currency amount, narrative, and more.",
+      "raw_text": "3-21\nOffset Account\nOffset Amount\nTransaction Code\n3.3.4 \nViewing Instrument Codes\nYou can view the following details here.\nValue Date\nLocal Currency Amount\nNarrative\nTrack Receivable\nCheque Number\nCheque Date\nCredit GL\nRepair Reason\nLiquidation Date"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Introduction",
+        "Maintain Products",
+        "Invoke ‘RT Product Definition’ screen"
+      ],
+      "summary": "This page introduces how to maintain retail teller products using the 'RT Product Definition' screen in Oracle FLEXCUBE, including basic information entry and attribute definition.",
+      "raw_text": "4-1\n4. Maintaining Retail Teller Products\n4.1 \nIntroduction\nThis chapter contains the following sections:\nSection 4.2, \"Maintain Products\"\nSection 4.3, \"Transaction Reversal\"\nSection 4.4, \"Generating Notifications\"\n4.2 \nMaintain Products\nThis section contains the following topics:\nSection 4.2.1, \"Invoke ‘RT Product Definition’ screen\"\nSection 4.2.2, \"Specifying Product Preferences\"\nSection 4.2.3, \"MIS Button\"\n4.2.1 \nInvoke ‘RT Product Definition’ screen\nTo process different teller transactions, you must maintain appropriate products. You can \nmaintain products using the ‘RT Product Definition’ screen, which you can invoke from the \nApplication Browser. You can invoke this screen by typing ‘DEDRTPRM’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button.\nIn this screen, you can enter basic information relating to a retail teller product such as the \nProduct Code, the Description, etc. \nFor any product you create in Oracle FLEXCUBE, you can define generic attributes by \nclicking on the appropriate icon in the horizontal array of icons in this screen. For a retail teller \nproduct, in addition to these generic attributes, you can specifically define other attributes. \nThese attributes are discussed in this chapter."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "RT Product Definition Main screen and the Retail Teller Product Preferences screen",
+        "Pre-shipped below Retail Products"
+      ],
+      "summary": "This page describes how to define attributes for retail teller products in specific screens and lists pre-shipped products for various account closure charges and other services.",
+      "raw_text": "4-2\nYou can define the attributes specific to a retail teller product in the RT Product Definition Main \nscreen and the Retail Teller Product Preferences screen. In these screens, you can specify \nthe product type and set the product preferences respectively.\nWe are pre-shipping below Retail Products and these need to be used in CASA account \nclosure, TD Redemption, TD Principal/Interest Payout through DD/BC, and Loan Manual \ndisbursement.\nZRCA - RT Credit product for Account closure charges by Cash\nZRAC - RT Credit product for Account closure charges by Fund Transfer\nZRGL - RT Credit product for Account closure charges by GL\nZRBC - RT product for Account closure charges by Bankers Cheque\nZRDD - RT product for Demand Draft for Account closure charges\nZRCD - RT Debit product for Account closure charges by Cash\nZRAD - RT Debit product for Account closure charges by Fund Transfer\nZRGD - RT Debit product for Account closure charges by GL\nBelow-mentioned are the pre-shipped online charges for account statement, cheque book \nrequest, and stop payment:\nZASN - RT product for Account Statement charges\nZASM - RT product for Account Statement charges\nZASC - RT product for Account Statement charges\nZASA - RT product for Account Statement charges\nZCHN - RT product for Cheque Book charges\nZCHM - RT product for Cheque Book charges\nZCHC - RT product for Cheque Book charges\nZCHA - RT product for Cheque Book charges\nZSTN - RT product for Stop Payment charges\nZSTM - RT product for Stop Payment charges\nZSTC - RT product for Stop Payment charges\nZSTA - RT product for Stop Payment charges\nBelow mentioned is the pre-shipped product with RD payment = Y that has to be used for \nRecurring Deposit Payment:\nZRDP - RT product for Recurring Deposit Payment\nThis screen DEDRTPRM should be used for defining products for using Recurring Deposit \nPayment, Switch, and Online Charge. \nFor further information on the generic attributes that you can define for a product, please refer \nthe Products Oracle FLEXCUBE User Manual.\nSpecifying the Product Type\nIndicate if the product that you are creating is cash based or non-cash based. From the drop \ndown list in the Product Type field, select ‘Cash’ from the list to indicate a cash type product, \nor select ‘Others’ to indicate a non-cash type product."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Specifying Product Preferences",
+        "MIS Button"
+      ],
+      "summary": "This page describes how to set up product preferences and associate MIS details with products in a retail teller system, as well as options for transaction reversal.",
+      "raw_text": "4-3\n4.2.2 \nSpecifying Product Preferences \nYou can maintain preferences for teller products from the Product Definition Main screen. \nClick ‘Preferences’ button to invoke the ‘Retail Teller Product Preferences’ screen.\nThe system displays the Product Code, Product Description and Transaction Limit.\nSwitch Product\nSelect this checkbox to enable Switch product preference for the product.\n4.2.3 \nMIS Button\nYou can associate MIS details with a product in the ‘MIS Details’ screen. Click ‘MIS’ button in \nthe ‘Retail Teller Product Details’ screen to invoke it.\n4.3 \nTransaction Reversal\nIn special circumstances, you may want to remove a transaction from the system. In Oracle \nFLEXCUBE you have the option of either ‘deleting’ the transaction or ‘reversing’ it"
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "When is reversal possible?",
+        "Reversing a transaction"
+      ],
+      "summary": "This page discusses the conditions under which transactions can be reversed and provides instructions on how to reverse them in the Teller Entry form.",
+      "raw_text": "4-4\nWhen is reversal possible?\nEvery transaction that is entered in the system must be ratified or, in other words, ‘authorized’ \nby another user with the requisite rights. An authorized transaction can only be reversed It \ncannot be deleted\nIn case you want to reverse a cash transaction, which was entered the previous day, the \nfollowing validation is performed:\nthe system ensures that the till used for the reversal is the same as that used in the \noriginal transaction\nReversing a transaction\nIn the Teller Entry form navigate to the transaction that you want to reverse. Click reverse icon \nin the Toolbar or choose Reverse from the Actions menu. The system will seek a confirmation \nof the reversal. On confirmation, the system will reverse the accounting entries that were \npassed for the transaction.\nIf cash transactions are reversed the system performs the following validations:\nthe system ensures that the till used for the reversal is the same as that used in the \noriginal transaction\nthe denominations are input (If the transaction is reversed the same day that it is input, \nthe denominations of the transaction can be altered.)\na batch is open\nNote\nYou can reverse a transaction initiated from Oracle FLEXCUBE through FCUBS workflow \nprocess. Any cash transactions created through gateway should be reversed using rever-\nseoperation of gateway. You should not reverse the cash transaction created in FCUBS \nthrough gateway as the gateway request will not update any of the FBTB tables including \ntill."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Reversing of Online Charge",
+        "Query Criteria",
+        "Transaction Details"
+      ],
+      "summary": "This page explains how to reverse cash transactions using the 'Transaction Reversal' screen and details the criteria for querying and the transaction information displayed.",
+      "raw_text": "4-5\n4.3.1 \nReversing of Online Charge\nYou can reverse the cash transactions using ‘Transaction Reversal’ screen. You can invoke \nthis screen by typing ‘DEDONLRV’ in the field at the top right corner of the Application tool \nbar and clicking the adjoining arrow button.\nQuery Criteria\nYou can base your query by providing any or all of the following details:\nContract Reference - Transaction reference number for the contract\nEvent Sequence Number - Event sequence number of the transaction\nComponent - Charge component to be reversed\n On clicking the ‘Query’ button, system identifies all records satisfying the above specified \ncriteria and displays in the ‘Transaction Details’ section.\nTransaction Details\nSystem displays following details under ‘Transaction Details’ section.\nEntry Serial Number\nModule\nTransaction Code\nEvent Code\nAmount Tag\nTransaction Date\nValue Date\nDebit/Credit\nForeign Currency Amount\nExchange Rate\nLocal Currency Amount\nRelated Reference\nRelated Account"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Generating Notifications"
+      ],
+      "summary": "This section describes how Oracle FLEXCUBE generates notifications for transactions done through the Retail Teller module and lists the fields included in these notifications.",
+      "raw_text": "4-6\nNote\nYou can reverse only non cash based transactions.\n4.4 \nGenerating Notifications\nOracle FLEXCUBE provides a facility to insert notification of transactions done through the \nRetail Teller module in the notification table. The following list of fields is sent in the notification \nfor a transaction done in the RT module:\nBranch Code.\nName of the branch where the transaction is done (Branch Description)\nTransaction Reference Number\nTransaction code – To differentiate transaction like Cash Deposit, Cash Refund or \nReversal, Cash Withdrawal\nTransaction Code Description\nTransaction Product Code\nTransaction Product Code Description\nOriginal Transaction Reference Number (for reversals)\nDebit Account Number\nDebit Account Currency.\nDebit Amount.\nCredit Account Number.\nCredit Account Currency.\nCredit Amount.\nDate of the Transaction along with Time (Time Stamp).\nValue date of the Transaction.\nTransaction Narration.\nCurrent balance and Available Balance in the debit account at the time of notification in \nAccount Currency.\nCurrent balance and Available Balance in the credit account at the time of notification in \nAccount Currency\nNote\nFor the transactions done through ATM, notifications are inserted in the table by the ATM \n(Switch) module. Hence, sending the notification from RT module can be restricted for the \nsame transaction."
+    },
+    {
+      "page_number": 34,
+      "sections": [],
+      "summary": "This page contains a list of function IDs and their corresponding references without any section titles.",
+      "raw_text": "5-1\n5. Function ID Glossary\nD\nDEDONLRV ......................4-4\nDEDQUERY ....................3-20\nDEDRTPRM ......................4-1\nI\nIFDATMMN .......................3-2\nS\nSTDBRGMT .................... 3-17\nSTDCHGCD .................... 3-14\nSTDENMNT .................... 3-18\nSTSENMNT .................... 3-19"
+    }
+  ]
+}

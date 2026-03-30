@@ -1,0 +1,1252 @@
+{
+  "source": "FlexCube/FCUBS/Expense_Processing/Expense-Processing-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 46,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces a document's preface and provides an overview of expense processing, including key processes such as maintaining expenses, creating products for processing, and defining advices.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE's Expense Processing Module, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE's Expense Processing Module, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE's Expense Processing Module, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE's Expense Processing Module, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the manual for Oracle FLEXCUBE's Expense Processing Module, detailing its purpose, target audience, organization, and content structure.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "3",
+          "title": "2. Expense Processing – An Overview",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Maintenances to Process Expenses",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Product Creation for Processing Expenses",
+          "start_page": 7
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Processing an Expense Contract",
+          "start_page": 8
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Defining Advices for a Contract",
+          "start_page": 8
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 Recording the Value of the Items on a Contract",
+          "start_page": 8
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 Making Payments",
+          "start_page": 8
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintaining Documents and Vendors",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Document Code Maintenance",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Documents and Clauses",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Specifying the Clauses that should be part of the Document",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Vendor Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Budget Code Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Budget Details Maintenance",
+          "start_page": 14
+        },
+        {
+          "structure": "5",
+          "title": "4. Defining Attributes Specific to an XP Product",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Expense Processing Product Definition",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Maintaining Expense Processing Product Details",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Preferences Button",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Customer Button",
+          "start_page": 23
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Documents Button",
+          "start_page": 23
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides references to related user manuals and a glossary of icons used in the XP module.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides references to related user manuals and a glossary of icons used in the XP module.",
+      "cross_references": [
+        {
+          "structure": "7",
+          "title": "6. Annexure A - Accounting Entries and Advices",
+          "start_page": 42
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 Accounting Entries for XP",
+          "start_page": 42
+        },
+        {
+          "structure": "7.1.1",
+          "title": "6.1.1 XP Events",
+          "start_page": 42
+        },
+        {
+          "structure": "7.1.2",
+          "title": "6.1.2 Amount Tags",
+          "start_page": 42
+        },
+        {
+          "structure": "7.1.3",
+          "title": "6.1.3 Accounting Roles",
+          "start_page": 43
+        },
+        {
+          "structure": "7.1.4",
+          "title": "6.1.4 Event-wise Accounting Entries",
+          "start_page": 43
+        },
+        {
+          "structure": "7.1.5",
+          "title": "6.1.5 Advices",
+          "start_page": 45
+        },
+        {
+          "structure": "6",
+          "title": "5. Processing an Expense Contract",
+          "start_page": 25
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Expense Processing Contract",
+          "start_page": 25
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Invoking the Contract Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Contracts Tab",
+          "start_page": 26
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Documents Tab",
+          "start_page": 29
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Advices Tab",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Asset Details Button",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Events Button",
+          "start_page": 33
+        },
+        {
+          "structure": "6.1.7",
+          "title": "5.1.7 Refund Button",
+          "start_page": 35
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Payments for an Expense Contract",
+          "start_page": 35
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Maintaining Expense Processing Payment Details",
+          "start_page": 36
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Settlement Button",
+          "start_page": 37
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Deleting Payments",
+          "start_page": 38
+        },
+        {
+          "structure": "6.2.4",
+          "title": "5.2.4 Authorizing Payments",
+          "start_page": 38
+        },
+        {
+          "structure": "6.2.5",
+          "title": "5.2.5 Unlocking a Contract",
+          "start_page": 39
+        },
+        {
+          "structure": "6.2.6",
+          "title": "5.2.6 Processing a Refund or Reversing of an Expense Contract",
+          "start_page": 39
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Expense Processing – An Overview",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Expense Processing module and details the maintenances required and product creation process for processing expenses.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Expense Processing module and details the maintenances required and product creation process for processing expenses.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Maintenances to Process Expenses",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Expense Processing module and details the maintenances required and product creation process for processing expenses.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Product Creation for Processing Expenses",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Expense Processing module and details the maintenances required and product creation process for processing expenses.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Processing an Expense Contract",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page describes how to process expense contracts by capturing details in different screens and defining advices for contract events.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Defining Advices for a Contract",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page describes how to process expense contracts by capturing details in different screens and defining advices for contract events.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 Recording the Value of the Items on a Contract",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page describes how to process expense contracts by capturing details in different screens and defining advices for contract events.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 Making Payments",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page describes how to process expense contracts by capturing details in different screens and defining advices for contract events.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Maintaining Documents and Vendors",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This section explains how to maintain document codes and clauses for expense contracts in the XP module of Oracle FLEXCUBE, focusing on standardizing documents to reduce repetitive data entry.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Document Code Maintenance",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This section explains how to maintain document codes and clauses for expense contracts in the XP module of Oracle FLEXCUBE, focusing on standardizing documents to reduce repetitive data entry.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Maintaining Documents and Clauses",
+      "start_page": 9,
+      "end_page": 11,
+      "summary": "This section explains how to maintain document codes and clauses for expense contracts in the XP module of Oracle FLEXCUBE, focusing on standardizing documents to reduce repetitive data entry.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Product Creation for Processing Expenses",
+          "start_page": 7
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Processing an Expense Contract",
+          "start_page": 8
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Maintenances to Process Expenses",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Specifying the Clauses that should be part of the Document",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page explains how to specify clauses for documents and maintain vendor details in a document management system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Vendor Maintenance",
+      "start_page": 11,
+      "end_page": 13,
+      "summary": "This page explains how to specify clauses for documents and maintain vendor details in a document management system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Budget Code Maintenance",
+      "start_page": 13,
+      "end_page": 14,
+      "summary": "This page discusses how to handle blacklisted vendors, manage stock details for inventory suppliers, and maintain budget codes in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Budget Details Maintenance",
+      "start_page": 14,
+      "end_page": 16,
+      "summary": "This page explains how to describe and maintain budget details for a specific budget code, including fields like financial year, budget code, description, and debit turnover.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Defining Attributes Specific to an XP Product",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page discusses how to define attributes specific to an XP product, focusing on creating and maintaining details for an expense processing product.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Expense Processing Product Definition",
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This page discusses how to define attributes specific to an XP product, focusing on creating and maintaining details for an expense processing product.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Maintaining Expense Processing Product Details",
+      "start_page": 16,
+      "end_page": 18,
+      "summary": "This page discusses how to define attributes specific to an XP product, focusing on creating and maintaining details for an expense processing product.",
+      "cross_references": [
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Maintaining Documents and Clauses",
+          "start_page": 9
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Specifying the Clauses that should be part of the Document",
+          "start_page": 11
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Document Code Maintenance",
+          "start_page": 9
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Preferences Button",
+      "start_page": 18,
+      "end_page": 23,
+      "summary": "This page discusses how to specify exchange rate variances and limits for products, as well as selecting rate codes and types.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.3",
+      "title": "4.1.3 Customer Button",
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This page explains how to set up vendor restrictions and document requirements for a product in an XP system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.4",
+      "title": "4.1.4 Documents Button",
+      "start_page": 23,
+      "end_page": 25,
+      "summary": "This page explains how to set up vendor restrictions and document requirements for a product in an XP system.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Processing an Expense Contract",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page outlines the process of capturing expense contract details and managing payments in the XP module, including screens and tabs involved.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Expense Processing Contract",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page outlines the process of capturing expense contract details and managing payments in the XP module, including screens and tabs involved.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.1",
+      "title": "5.1.1 Invoking the Contract Screen",
+      "start_page": 25,
+      "end_page": 26,
+      "summary": "This page outlines the process of capturing expense contract details and managing payments in the XP module, including screens and tabs involved.",
+      "cross_references": [
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Maintaining Expense Processing Product Details",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Expense Processing Product Definition",
+          "start_page": 16
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Preferences Button",
+          "start_page": 18
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Customer Button",
+          "start_page": 23
+        },
+        {
+          "structure": "5.1.4",
+          "title": "4.1.4 Documents Button",
+          "start_page": 23
+        }
+      ]
+    },
+    {
+      "structure": "6.1.2",
+      "title": "5.1.2 Contracts Tab",
+      "start_page": 26,
+      "end_page": 29,
+      "summary": "This section describes how to invoke and use the 'Expense Processing Contract Detailed' screen, including specifying vendor details and credit terms in the Contract Main screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.3",
+      "title": "5.1.3 Documents Tab",
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This page explains how the system checks and manages budget details during the booking of expense contracts, including handling of budget codes, credit terms, fund IDs, and settlement accounts.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.4",
+      "title": "5.1.4 Advices Tab",
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This page explains how to manage documents and advices in the XP Contract screen for expense processing, including adding, deleting, and maintaining document details and specifying advice types for a contract.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.5",
+      "title": "5.1.5 Asset Details Button",
+      "start_page": 31,
+      "end_page": 33,
+      "summary": "This page describes how to use the 'Advice' tab in the 'Expense Processing Contract Detailed' screen, including options for suppressing advices, setting priorities for SWIFT payments, and managing transmission mediums. It also explains how to record asset details for contract items.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.6",
+      "title": "5.1.6 Events Button",
+      "start_page": 33,
+      "end_page": 35,
+      "summary": "This section describes how to access and view event details for a contract in the accounting system, specifically through the 'Events' button on the 'Expense Processing Contract Detailed' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1.7",
+      "title": "5.1.7 Refund Button",
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "This section discusses various aspects of managing payments for expense contracts, including maintaining payment details, authorizing and unlocking contracts, and processing refunds.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Payments for an Expense Contract",
+      "start_page": 35,
+      "end_page": 36,
+      "summary": "This section discusses various aspects of managing payments for expense contracts, including maintaining payment details, authorizing and unlocking contracts, and processing refunds.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.1",
+      "title": "5.2.1 Maintaining Expense Processing Payment Details",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This section explains how to enter, delete, and reverse payments for expense contracts in the 'Expense Processing Payments' screen and details what information is displayed when entering a reference number.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.2",
+      "title": "5.2.2 Settlement Button",
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This page details the necessary payment information to be entered for a vendor's expense contract, including total amount, retention and advance amounts, service/product description, value date, penalty interest, and discount.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.3",
+      "title": "5.2.3 Deleting Payments",
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This page describes how to use the Settlements service in the payments function, including changing payment details and deleting or authorizing payments.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.4",
+      "title": "5.2.4 Authorizing Payments",
+      "start_page": 38,
+      "end_page": 39,
+      "summary": "This page describes how to use the Settlements service in the payments function, including changing payment details and deleting or authorizing payments.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.5",
+      "title": "5.2.5 Unlocking a Contract",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page explains how to unlock and amend contract details, as well as process refunds for expense contracts in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.6",
+      "title": "5.2.6 Processing a Refund or Reversing of an Expense Contract",
+      "start_page": 39,
+      "end_page": 42,
+      "summary": "This page explains how to unlock and amend contract details, as well as process refunds for expense contracts in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Annexure A - Accounting Entries and Advices",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This section details the suggested accounting entries and amount tags for the Expense processing module of Oracle FLEXCUBE, organized event-wise.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 Accounting Entries for XP",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This section details the suggested accounting entries and amount tags for the Expense processing module of Oracle FLEXCUBE, organized event-wise.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.1",
+      "title": "6.1.1 XP Events",
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This section details the suggested accounting entries and amount tags for the Expense processing module of Oracle FLEXCUBE, organized event-wise.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.2",
+      "title": "6.1.2 Amount Tags",
+      "start_page": 42,
+      "end_page": 43,
+      "summary": "This section details the suggested accounting entries and amount tags for the Expense processing module of Oracle FLEXCUBE, organized event-wise.",
+      "cross_references": [
+        {
+          "structure": "6.1.5",
+          "title": "5.1.5 Asset Details Button",
+          "start_page": 31
+        },
+        {
+          "structure": "6.1.1",
+          "title": "5.1.1 Invoking the Contract Screen",
+          "start_page": 25
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Expense Processing Contract",
+          "start_page": 25
+        },
+        {
+          "structure": "6.1.2",
+          "title": "5.1.2 Contracts Tab",
+          "start_page": 26
+        },
+        {
+          "structure": "6.1.3",
+          "title": "5.1.3 Documents Tab",
+          "start_page": 29
+        },
+        {
+          "structure": "6.1.4",
+          "title": "5.1.4 Advices Tab",
+          "start_page": 30
+        },
+        {
+          "structure": "6.1.6",
+          "title": "5.1.6 Events Button",
+          "start_page": 33
+        },
+        {
+          "structure": "6.1.7",
+          "title": "5.1.7 Refund Button",
+          "start_page": 35
+        }
+      ]
+    },
+    {
+      "structure": "7.1.3",
+      "title": "6.1.3 Accounting Roles",
+      "start_page": 43,
+      "end_page": 43,
+      "summary": "This page discusses accounting roles and suggested entries for XP transactions, including various amount tags related to discounts, interest, advances, and expenses.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.4",
+      "title": "6.1.4 Event-wise Accounting Entries",
+      "start_page": 43,
+      "end_page": 45,
+      "summary": "This page discusses accounting roles and suggested entries for XP transactions, including various amount tags related to discounts, interest, advances, and expenses.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1.5",
+      "title": "6.1.5 Advices",
+      "start_page": 45,
+      "end_page": 46,
+      "summary": "This page describes the XRFD event triggered by a refund process and outlines the necessary accounting entries for it.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "8. Function ID Glossary",
+      "start_page": 46,
+      "end_page": 48,
+      "summary": "This page contains a function ID glossary with various IDs and their corresponding page numbers.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for expense processing in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Expense Processing User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including details about their software licensing terms.",
+      "raw_text": "Expense Processing User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Expense Processing – An Overview"
+      ],
+      "summary": "This page introduces a document's preface and provides an overview of expense processing, including key processes such as maintaining expenses, creating products for processing, and defining advices.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nExpense Processing – An Overview ...................................................... 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nMaintenances to Process Expenses .......................................................................  2-1\n2.3 \nProduct Creation for Processing Expenses.............................................................  2-1\n2.4 \nProcessing an Expense Contract ............................................................................  2-2\n2.5 \nDefining Advices for a Contract...............................................................................  2-2\n2.6 \nRecording the Value of the Items on a Contract......................................................  2-2\n2.7 \nMaking Payments....................................................................................................  2-2\n3. \nMaintaining Documents and Vendors ................................................... 3-1\n3.1 \nDocument Code Maintenance.................................................................................  3-1\n3.1.1  \nMaintaining Documents and Clauses .........................................................  3-1\n3.1.2  \nSpecifying the Clauses that should be part of the Document.....................  3-3\n3.2 \nVendor Maintenance ...............................................................................................  3-3\n3.3 \nBudget Code Maintenance......................................................................................  3-5\n3.4 \nBudget Details Maintenance....................................................................................  3-6\n4. \nDefining Attributes Specific to an XP Product ...................................... 4-1\n4.1 \nExpense Processing Product Definition ..................................................................  4-1\n4.1.1  \nMaintaining Expense Processing Product Details ......................................  4-1\n4.1.2  \nPreferences Button.....................................................................................  4-3\n4.1.3  \nCustomer Button.........................................................................................  4-8\n4.1.4  \nDocuments Button ......................................................................................  4-8\n5. \nProcessing an Expense Contract ........................................................... 5-1\n5.1 \nExpense Processing Contract .................................................................................  5-1\n5.1.1  \nInvoking the Contract Screen .....................................................................  5-1\n5.1.2  \nContracts Tab .............................................................................................  5-2\n5.1.3  \nDocuments Tab ..........................................................................................  5-5\n5.1.4  \nAdvices Tab................................................................................................  5-6\n5.1.5  \nAsset Details Button ...................................................................................  5-7\n5.1.6  \nEvents Button .............................................................................................  5-9\n5.1.7  \nRefund Button...........................................................................................  5-11\n5.2 \nPayments for an Expense Contract.......................................................................  5-11\n5.2.1  \nMaintaining Expense Processing Payment Details ..................................  5-12\n5.2.2  \nSettlement Button.....................................................................................  5-13\n5.2.3  \nDeleting Payments ...................................................................................  5-14\n5.2.4  \nAuthorizing Payments...............................................................................  5-14\n5.2.5  \nUnlocking a Contract ................................................................................  5-15\n5.2.6  \nProcessing a Refund or Reversing of an Expense Contract ....................  5-15"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Accounting Entries for XP",
+        "XP Events",
+        "Amount Tags",
+        "Accounting Roles",
+        "Event-wise Accounting Entries",
+        "Advices"
+      ],
+      "summary": "This page details various accounting entries and advices related to XP events, including specific tags, roles, and event-wise entries.",
+      "raw_text": "6. \nAnnexure A - Accounting Entries and Advices .................................... 6-1\n6.1 \nAccounting Entries for XP........................................................................................  6-1\n6.1.1  \nXP Events...................................................................................................  6-1\n6.1.2  \nAmount Tags ..............................................................................................  6-1\n6.1.3  \nAccounting Roles........................................................................................  6-2\n6.1.4  \nEvent-wise Accounting Entries...................................................................  6-2\n6.1.5  \nAdvices.......................................................................................................  6-4\n7. \nFunction ID Glossary ............................................................................... 7-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter 1: About this Manual",
+        "Chapter 2: Expense Processing – An Overview",
+        "Chapter 3: Maintaining Documents and Vendors",
+        "Chapter 4: Defining Attributes Specific to an XP"
+      ],
+      "summary": "This page introduces the manual for Oracle FLEXCUBE's Expense Processing Module, detailing its purpose, target audience, organization, and content structure.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help acquaint you with the Expense Processing Module of Oracle \nFLEXCUBE. It provides an overview of the module and guides you, through the various steps \ninvolved in processing expenses. \nYou can further obtain information about to a particular field by placing the cursor on the \nrelevant field and striking the <F1> key on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nBack office data entry clerk\nInput functions for contracts.\nBack office managers/officers\nAuthorization functions.\nProduct Managers\nProduct definition and authorization.\nEnd of Day operators\nProcessing during End of Day/ Beginning of Day.\nFinancial Controller / Product \nManagers\nGeneration of reports.\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also lists \nthe various chapters covered in this User Manual\nChapter 2\nExpense Processing – An Overview gives a brief introduction to the module \nand its features.\nChapter 3\nMaintaining Documents and Vendors explains the maintenance you need \nto do before you begin operations on this module.\nChapter 4\nDefining Attributes Specific to an XP Product talks about defining the attrib-\nutes specific to setting up an XP product.\nChapter 5\nProcessing an Expense Contract deals with the procedure involved in \nentering the details of an XP transaction."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Related Documents",
+        "Glossary of Icons"
+      ],
+      "summary": "This page provides references to related user manuals and a glossary of icons used in the XP module.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nYou may need to refer to any or all of the User Manuals while working on the XP module:\nProcedures\nSettlements\nInterest\nCharges and Fees\nTax\nUser Defined Fields\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nChapter 6\nAppendix A - Accounting Entries and Advices for the Expense Processing \nmodule contains a list of suggested accounting entries and advices for the \nmodule. \nChapter 7\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Maintenances to Process Expenses",
+        "Product Creation for Processing Expenses"
+      ],
+      "summary": "This page provides an overview of the Oracle FLEXCUBE Expense Processing module and details the maintenances required and product creation process for processing expenses.",
+      "raw_text": "2-1\n2. Expense Processing – An Overview\n2.1 \nIntroduction\nBanks incur many expenses while performing their day to day functions. The expense \nprocessing (XP) module of Oracle FLEXCUBE deals with vendor payment for any type of \nexpenses that the bank incurs. Some salient features of the module are:\nThe XP Module processes and monitors expenses – advance payments, reimburse-\nment claims, account payables.  \nIt also maintains details of purchase orders related to the expenses incurred by the or-\nganisation. \nIt allows payments to be done against advances, captures retention money collected \nand paid, etc. \nIt is primarily a back-office system. It comprises a comprehensive contract processing \nand management reporting system.\nThis chapter contains the following sections:\nSection 2.2, \"Maintenances to Process Expenses\"\nSection 2.3, \"Product Creation for Processing Expenses\"\nSection 2.4, \"Processing an Expense Contract\"\nSection 2.5, \"Defining Advices for a Contract\"\nSection 2.6, \"Recording the Value of the Items on a Contract\"\nSection 2.7, \"Making Payments\"\n2.2 \nMaintenances to Process Expenses\nThe following maintenances need to be done for processing expenses in Oracle FLEXCUBE\nList of Documents and Details for following categories:\n– \nTransport\n– \nInvoice\n– \nInsurance\n– \nOthers\nVendor Maintenance \nBudget Code Maintenance \n2.3 \nProduct Creation for Processing Expenses\nYou can create an XP product in the XP Product Definition screen with basic information XP \nspecific preferences as under:\nIndicating Preference for specifying Contract Level Expense GL’s\nBudget tracking details for the booking/payment amount  \nSpecifying vendor restriction  \nSpecifying document details"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Processing an Expense Contract",
+        "Defining Advices for a Contract"
+      ],
+      "summary": "This page describes how to process expense contracts by capturing details in different screens and defining advices for contract events.",
+      "raw_text": "2-2\n2.4 \nProcessing an Expense Contract\nYou can capture the details of an expense contract in the XP Contract Details screen. \nThe Contract Details screen is divided into three sub-screens, each invoked by clicking a tab. \nThe sub-screens are:\nThe Contract Main screen\nThe Contract Document screen\nThe Contract Advice screen\nIn the Contract Main screen, you can capture the basic details of the contract you are entering. \nSystem will perform Validations for Budget tracking.  You can specify document details in \nDocument Screen. A screen is available to record individual item details under a single asset \ncode in cases where many similar assets are grouped under one category.\n2.5 \nDefining Advices for a Contract\nThe advices that can be generated for the different events in the lifecycle of a contract are \ndefined for the product to which the contract is linked. For example, you may have specified \nthe following advices for an XP product:\nBooking Advice\nPayment Advice\nAmendment Advice\nThese advices will default to contracts associated with the product. If any of the advices is not \napplicable to the contract you are processing, you can suppress its generation by ticking the \nsuppress field.\n2.6 \nRecording the Value of the Items on a Contract\nA contract can have several items towards which you would incur an expense. You can record \nthe value of each item on a contract in the Expense Processing Items screen.\n2.7 \nMaking Payments\nThe following operations can be performed on a payment, through the Expense Processing \nPayments screen:\nMaking a payment\nDeleting a payment\nReversing a payment\nIn Oracle FLEXCUBE, you can process refunds for a fully liquidated expense contract."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Document Code Maintenance",
+        "Maintaining Documents and Clauses"
+      ],
+      "summary": "This section explains how to maintain document codes and clauses for expense contracts in the XP module of Oracle FLEXCUBE, focusing on standardizing documents to reduce repetitive data entry.",
+      "raw_text": "3-1\n3. Maintaining Documents and Vendors\nBefore you begin operations in the Expense Processing (XP) module of Oracle FLEXCUBE, \nyou must maintain certain basic information. For example, you must maintain:\nA list of documents and details\nA list of valid vendors\nThis data is maintained first because it is required to create XP products, process XP \nContracts, and so on. In other words, this information is the foundation on which you build a \nsuperstructure called products to which, in turn, you can link expense contracts.\nThis chapter contains the following sections:\nSection 3.1, \"Document Code Maintenance\"\nSection 3.2, \"Vendor Maintenance\"\nSection 3.3, \"Budget Code Maintenance\"\nSection 3.4, \"Budget Details Maintenance\"\n3.1 \nDocument Code Maintenance\nThis section contains the following topics:\nSection 3.1.1, \"Maintaining Documents and Clauses\"\nSection 3.1.2, \"Specifying the Clauses that should be part of the Document\"\n3.1.1 \nMaintaining Documents and Clauses\nPayments towards the different items of an expense contract are typically made on the basis \nof documents. Most of these documents are standard and common to any expense contract \nthat you enter into. Therefore, you need not specify the details of the document every time \nyou enter into an expense contract. Instead, you can maintain the details of all documents in \nthe ‘Bills & Collections Document Code Maintenance’ screen.\nWhen creating a product, you only need to indicate the document codes that should be part \nof the contracts involving the product. All the details maintained for the document will be \nautomatically picked up. This reduces your effort, as you do not need to enter the contents of \nthe document each time you use it.\nFurther, all contracts involving a product will acquire the document specifications. During \ncontract processing, however, you can choose to ignore the default document list altogether, \nor modify the default list of documents suitably."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Document code",
+        "Document Type",
+        "Validate Shipping Guarantee",
+        "Language Code",
+        "Document Short Description"
+      ],
+      "summary": "This page explains how to access and use the 'Bills & Collections Document Code Maintenance' screen in Oracle FLEXCUBE, detailing various fields such as document codes, types, shipping guarantees, language codes, and short descriptions.",
+      "raw_text": "3-2\nYou can invoke the ‘Bills & Collections Document Code Maintenance’ screen from the \nApplication Browser by typing ‘BCDDOCCD’ in the field at the top right corner of the \nApplication tool bar and clicking the adjoining arrow button.\nDocument code \nIn Oracle FLEXCUBE, every document that you maintain is identified by a unique code called \na Document Code. \nWhile creating a product, or at the time of entering the details of an expense contract, you only \nneed to specify the code assigned to the document. The document details will be \nautomatically picked up and defaulted.\nDocument Type\nYou can classify the document you are maintaining into any of the following types:\nTransport\nInsurance\nInvoice\nClaim\nOthers\nValidate Shipping Guarantee\nCheck this field if you want to validate the shipping guarantee.\nLanguage Code\nSpecify the language of the document description. Click the adjoining option list to select a \nvalid language code..\nDocument Short Description \nThe documents that can be part of an expense contract are sometimes large and hence \ndifficult to identify. Therefore, you can specify a short description or a title that will enable you \nto identify the document quickly."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "3.1.2 Specifying the Clauses that should be part of the Document",
+        "3.2 Vendor Maintenance"
+      ],
+      "summary": "This page explains how to specify clauses for documents and maintain vendor details in a document management system.",
+      "raw_text": "3-3\nThe short description that you specify is for information purposes only and will not be printed \non any customer correspondence.\nDocument Long Description\nAfter you specify a code to identify the document, you can proceed to maintain the description \nof the document. The description of the document is printed on the applicable advices \ngenerated for a contract. This will be in the language specified for the document.\nOnce the document code is stored, the description of a document can be edited only through \nthe ‘Document Codes Maintenance’ screen. However, you can view the description of a \ndocument code when you are linking it to a product or contract.\n3.1.2 \nSpecifying the Clauses that should be part of the Document\nFor each document, you can specify several clauses. A clause is a statement that should be \nincluded in the document. The clauses that you specify for a document will automatically be \nincluded in the document. \nTo specify the clauses that should be part of a document, click add row icon. Identify the \nClause Code in the Clause Code field. (Only clauses maintained in the Clause Code \nMaintenance screen will appear on the picklist in this field.) To add another clause to a \ndocument, click add row icon again.\nTo remove a clause specified for a document, click delete row icon.\n3.2 \nVendor Maintenance\nTypically, you would enter into expense contracts with a standard set of vendors. Therefore, \nyou need not specify the details of the vendor every time you enter into an expense contract. \nYou can maintain the details of all the vendors with whom you deal in the ‘Vendor \nMaintenance’ screen.\nWhen processing a contract, you only need to indicate the Vendor ID. All the details \nmaintained for the Vendor will automatically be picked up. This reduces your effort, as you do \nnot need to enter the details of the vendor every time you enter into a contract.\nIf the Vendor you are maintaining is a customer of your bank with a valid CIF ID, you can \nspecify the Customer ID as the Vendor Code. In this case, the settlement and other details \nmaintained for the customer will automatically default when you enter into an expense \ncontract with the vendor.\nFurther, in the ‘Vendor Maintenance’ screen, you can blacklist vendors. Your staff cannot \nenter into contracts with vendors that you have blacklisted. This guards against entering into \nunviable contracts."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "You can invoke the ‘Vendor Maintenance’ screen by 'XPDVNDMT in the field at the top right corner of the Application tool bar and clicking the adjoining arrow button.",
+        "In this screen, you can maintain the following details for a Vendor:"
+      ],
+      "summary": "This page explains how to access the Vendor Maintenance screen and lists the fields available for maintaining vendor information.",
+      "raw_text": "3-4\nYou can invoke the ‘Vendor Maintenance’ screen by ‘XPDVNDMT in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button. \nIn this screen, you can maintain the following details for a Vendor:\nVendor Code\nSpecify the vendor code here, to uniquely identify the vendor.\nIs Vendor a Customer\nCheck this box to indicate that the vendor is a customer of the bank.\nShort and Long Descriptions\nYou may provide short (brief) and long (detailed) descriptions of the vendor whose details are \nbeing maintained here.\nVendor Address 1-4\nEnter the address of the vendor here.\nCountry\nSpecify, using the adjoining list, the country from which the vendor operates.\nPhone and Fax\nEnter here the phone and fax numbers of the vendor."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Blacklisted Information",
+        "Stock Details",
+        "Budget Code Maintenance"
+      ],
+      "summary": "This page discusses how to handle blacklisted vendors, manage stock details for inventory suppliers, and maintain budget codes in Oracle FLEXCUBE.",
+      "raw_text": "3-5\nBlacklisted Information\nIf the vendor is a blacklisted vendor, then check the ‘Vendor is Blacklisted’ box. Additionally, \nspecify the ‘Reasons for Blacklisting’\nOnce a vendor is recorded as blacklisted, you cannot enter into contracts with them. This \nguards against accidentally entering into unviable contracts. \nStock Details\nUnder the ‘Stock Details’ section, you can specify whether the vendor is an inventory supplier \nor not. If the vendor is an inventory supplier then you can record the list of stocks that can be \nserviced by the vendor.\nFor more details on the Stock Details section, refer the Instruments Inventory Tracking \nmanual.\n3.3 \nBudget Code Maintenance\nIn Oracle FLEXCUBE, you can define unique budget codes and maintain budget details for \neach code. These details would include the budget limit, the financial year for which the \nbudget is being calculated etc. Based on the limit defined and the amount expended, the \nsystem will automatically calculate the utilized amount and the available balance for a fiscal \nyear, under a specific budget code. This facility will enable you to monitor the expenses \nincurred at your branch. \nYou can invoke ‘Budget Code Maintenance’ screen by typing ‘XPDBCODM’ in the field at the \ntop right corner of the Application tool bar and clicking the adjoining arrow button. \nIn this screen, you can capture the following detail:\nBudget Code\nYou can capture a code that will uniquely identify the budget throughout the system. The code \ncan consist of a maximum of ten characters and can be a combination of alphabets and \nnumbers."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Budget Description",
+        "Budget Details Maintenance"
+      ],
+      "summary": "This page explains how to describe and maintain budget details for a specific budget code, including fields like financial year, budget code, description, and debit turnover.",
+      "raw_text": "3-6\nBudget Description \nYou can also capture a brief description of the budget code being defined. The description will \nfurther help you in identifying the type of budget. The description can consist of a maximum \nof 35-alphanumeric characters. \n3.4 \nBudget Details Maintenance\nFor each budget code defined through the ‘Budget Code Maintenance’ screen, you have to \nmaintain budget details such as the budget limit, the fiscal year for which the budget tracking \nwould be done, the name of the branch etc. \nYou can maintain budget details through the ‘Budget Maintenance’ screen by typing \n‘XPDBDMNT’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button. \nYou can maintain the following details in this screen:\nBranch Code\nYou can maintain budget details for the current branch alone. The code of the current branch \nwill be displayed here.  \nFinancial Year\nSelect the fiscal year for which the budget details are being maintained. You can select the \nrelevant year from the option-list provided.\nBudget Code\nAll the budget codes maintained at your branch through the Budget Code Maintenance \nscreen will be available in the option-list provided. Select the appropriate code from this list.\nBudget Description\nUpon selection of the budget code, the associated description will be displayed alongside. \nDebit Turnover\nHere, you have to define the limit up to which your branch can utilize towards expenses, under \nthe selected budget code. This value will be stored in the local currency of your branch. The \ncurrency code will be displayed alongside.\nUtilization\nThis field will indicate the total amount utilized under a budget code for the given financial \nyear. Oracle FLEXCUBE will automatically update the amount utilized as and when an \nexpense contract is booked in the system."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Available",
+        "Note"
+      ],
+      "summary": "This page explains how the available budget amount is calculated and outlines the process of tracking budgets by associating budget codes during expense contract bookings.",
+      "raw_text": "3-7\nAvailable\nThe value in this field will indicate the total amount available under a budget at any given point \nof time. This value is also automatically updated by the system. The available balance will be \ncalculated as follows:\nAvailable = Turnover – Utilized\nNote\nYou can track the budget by associating a budget code at the time of booking an expense \ncontract. During the booking of an expense contract, the system will check whether you \nhave maintained the budget details for the associated budget code for the fiscal year of \nthe transaction date of the contract. If the details are not maintained, the system will not \nallow you to proceed with the booking of the contract."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Expense Processing Product Definition",
+        "Maintaining Expense Processing Product Details"
+      ],
+      "summary": "This page discusses how to define attributes specific to an XP product, focusing on creating and maintaining details for an expense processing product.",
+      "raw_text": "4-1\n4. Defining Attributes Specific to an XP Product\nIn this chapter, we shall discuss the manner in which you can define attributes specific to an \nXP product.\nThis chapter contains the following sections:\nSection 4.1, \"Expense Processing Product Definition\"\n4.1 \nExpense Processing Product Definition\nThis section contains the following topics:\nSection 4.1.1, \"Maintaining Expense Processing Product Details\"\nSection 4.1.2, \"Preferences Button\"\nSection 4.1.3, \"Customer Button\"\nSection 4.1.4, \"Documents Button\"\n4.1.1 \nMaintaining Expense Processing Product Details\nYou can create an XP product in the XP Product Definition screen, invoked from the \nApplication Browser. In this screen, you can enter basic information relating to a XP product \nsuch as the Product Code, the Description, etc.\nYou can invoke ‘XP Product Definition’ screen by typing ‘XPDPRMNT’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nIn this screen, you can enter basic information relating to a XP product such as the Product \nCode, the Description, etc.\nFor further information on the generic attributes that you can define for a product, please refer \nthe following Oracle FLEXCUBE User Manuals under Modularity:"
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Product Definition",
+        "User Defined Fields",
+        "Settlements"
+      ],
+      "summary": "This page describes how to specify product details in Oracle FLEXCUBE, including entering a unique code, providing a description, specifying the module and type, adding a slogan, and classifying it into a group.",
+      "raw_text": "4-2\nProduct Definition\nUser Defined Fields\nSettlements\nSpecifying Product Details\nProduct Code\nA product code identifies a product throughout Oracle FLEXCUBE. This code should be four \ncharacters in length. When defining a new product, you should enter a code that is unique \nacross the different modules of Oracle FLEXCUBE.\nDescription\nIt may be difficult to recognize a product just by its code. In the Description field, therefore, \nsuitably describe the product code so that it can be easily identified. This description will be \ndisplayed along with the code throughout Oracle FLEXCUBE.\nProduct Module\nBy default, the system will display ‘XP’ as the product module.\nDescription\nBy default, the system will display ‘Expense Processing’ in this field.\nProduct Type\nProduct categories are referred to as ‘product types’. When you create a product, you must \nspecify the type to which it belongs. Indicate the type to which the product you are creating \nbelongs. Click the adjoining icon and select a product type from the option list. The option list \nwill contain all the product types maintained at your bank.\nDescription\nThe description maintained for the selected product group is displayed.\nProduct Slogan\nEnter a punch line for the product. This slogan will be printed on the advices sent out to \nvendors involved in contracts entered under the product.\nProduct Group\nEvery product should be classified under a specific group. Indicate the group to which the \nproduct you are creating belongs. Select a product group from the option list. The option list \nwill contain all the product groups maintained at your bank.\nDescription\nThe description maintained for the selected product group is displayed.\nStart Date\nA product can be used over a period. Here you should indicate the start date of the period. \nThe settlement date of contracts associated with the product should be the same as or later \nthan the Start Date you specify for the product.\nThe start and end date of a product come in handy, when you define a product that is \napplicable for a specific period.\nEnd Date\nA product can be used over a period. Here you can indicate the end date of the period.\nThe settlement date of contracts involving a product should be:\nthe same as or later than the Start Date"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Specifying Exchange Rate Variance Details",
+        "Stop Limit",
+        "Rate Code",
+        "Rate Type"
+      ],
+      "summary": "This page discusses how to specify exchange rate variances and limits for products, as well as selecting rate codes and types.",
+      "raw_text": "4-3\nthe same as or earlier than the End Date of the product\nIf you do not specify an End Date, a message is displayed prompting you to indicate whether \nyou are creating an open-ended product. In this case, the product can be used until it is \nclosed.\nRemarks\nEnter additional information about the product intended for the internal reference of your bank. \nYour remarks will not be printed on any correspondence with the vendor.\nSpecifying Exchange Rate Variance Details\nOverride Limit\nFor a special customer, or in special cases, you may want to use an exchange rate (a special \nrate) that is greater than the exchange rate maintained for a currency pair. The variance is \nreferred to as the Exchange Rate Variance.\nWhen creating a product, you can express an Exchange Rate Variance Limit in terms of a \npercentage. This variance limit would apply to all contracts involving the product.\nStop Limit\nFor a special customer, or in special cases, you may want to use an exchange rate (a special \nrate) that is greater than the exchange rate maintained for a currency pair. The variance is \nreferred to as the Exchange Rate Variance.\nWhen creating a product, you can express an Exchange Rate Variance Limit in terms of a \npercentage. This variance limit would apply to all contracts involving the product.\nRate Code\nSelect the rate code from the drop down list. The available values are:\nMid Rate\nBuy / Sell Rate\nRate Type\nSpecify the Rate Type. Typically, the rate type is Standard. \n4.1.2 \nPreferences Button\nPreferences are the attributes defined for a product that can be changed for contracts \ninvolving the product. You can define the preferences for a product in the ‘Expense \nProcessing - Preferences’ screen. Click ‘Preferences’ in the ‘Expense Product Definition’ \nscreen to invoke the ‘Expense Processing - Preferences’ screen."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Specifying the Tenor Details",
+        "Indicating Preference for specifying Contract Level Expense GLs",
+        "Indicating the Contract Details to be Rekeyed"
+      ],
+      "summary": "This page discusses how expense contracts acquire product attributes by default, but can have preferences changed. It covers setting tenor details, specifying contract-level expense general ledger accounts, and rekeying contract details for authorization.",
+      "raw_text": "4-4\n By default, an expense contract acquires the attributes defined for the product with which it \nis associated. However, the attributes that are defined as the product’s ‘preferences’ can be \nchanged for a contract.\nBy default, the product code along with a brief description that you specified for the product \nin the ‘XP Product Definition’ screen is displayed in the ‘Product Code’ field.\nThe following are the preferences that you can define for a product.\nSpecifying the Tenor Details\nThe standard tenor for a product is always expressed in days and will apply to all contracts \ninvolving the product. If you do not specify the tenor of a contract while capturing it, the \nstandard tenor defined for the product will apply. However, the standard tenor can be changed \nduring contract processing.\nIndicating Preference for specifying Contract Level Expense GLs\nThis option which is set at the product level once chosen cannot be amended after the first \ntime it is authorized. If you enable this option, you have to mandatorily specify the GL heads \nfor various items captured in the items details screen of the contract at contract level. If a \nsingle vendor provides multiple services to your bank but different expense heads need to be \ncharged, you will have to check against this field.\nIndicating the Contract Details to be Rekeyed\nAll contracts entered in the system should be ratified or ‘authorized’ by a user with the \nrequisite rights.\nTo ensure that the authorizer of a contract calls the correct contract, you can specify that the \nvalues of certain fields should be entered before the other details of the contract are displayed \nfor authorization. You can make this specification when building a product by choosing the \nRekey option. Your specification will apply to all contracts involving the product.\nThe fields for which values have to be provided at the time of authorization are called rekey \nfields. You can specify any or all of the following as re-key fields:"
+    },
+    {
+      "page_number": 20,
+      "sections": [],
+      "summary": "This page discusses various settings and preferences related to contracts, including exchange rate types, limits monitoring methods, and payment modes.",
+      "raw_text": "4-5\nAmount\nCurrency\nVendor\nTransaction Date \nMaturity Date\nIf you do not specify re-key fields, the details of the contract will be displayed immediately \nwhen the authorizer calls the contract for authorization.\nSpecifying the Default Exchange Rate Type\nWhen defining a product, you can specify a default ‘exchange rate type’. For example, you \ncan specify the exchange rate type as ‘Spot Rate’. This rate type will default to all contracts \ninvolving the product.\nWhen you enter an expense contract, the exchange rate (maintained in the currency table) \ncorresponding to the Exchange Rate Type specified for the product will default.\nLimits Monitoring\nWhen defining your preferences for a product, you should specify the method in which you \nwould like to calculate the tenor for tracking limits for contracts involving the product.  \nThe tenor calculation type can be either:\nFixed\nRolling\nA Fixed tenor implies that a contract will be tracked by the appropriate credit line throughout \nits tenor. If you specify a Rolling tenor, a contract will be tracked under the appropriate lines, \naccording to its diminishing tenor. \nSpecifying the Payment Mode\nYou have to specify the mode of payment based on which the booking amount will be paid to \nthe vendor. This specification will get defaulted to all contracts booked under the product. The \nfollowing options are available:\nAutomatic - If the payment mode is automatic, the system will automatically trigger the \npayment on the payment date as specified at the time of capturing the contract details. \nManual – In the manual mode, you have to make the payment manually using the ‘Pay-\nment’ screen. \nBased on the payment mode, the system will process the payment in the following manner:\nAutomatic Processing\nAs stated above, in this type of payment, the system will make an auto payment of the booking \namount when you book an expense contract. The payment will be triggered automatically on \nthe payment date maintained at the contract level. By default, the current system date will be \nthe payment date but you have the option to specify a future date also. If you specify a \npayment date that is less than or equal to the current system date, the system will \nautomatically trigger the XPMT (Expense Payment) event immediately after the XBOK \n(Expense Booking) event.\nAs the XPMT event indicates a complete payment to the vendor, the system will mark the \ncontract status as ‘Liquidated’ immediately after this event."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Note",
+        "Manual Processing",
+        "Batch processing for Auto payment"
+      ],
+      "summary": "This page explains how payment dates are handled on holidays and outlines different modes of payment processing, including manual and automatic batch processes.",
+      "raw_text": "4-6\nNote\nThe payment date specified at the contract level will undergo a holiday check as per the \n‘Local Holiday Calendar’ maintained for your branch. If the payment date falls on a holiday, \nthe system will generate an override message to indicate the same.\nManual Processing\nIn the manual mode of payment, at the time of booking the contract, the system will park the \nexpense entries in provisional/temporary GLs. You will be required to make the payment \nmanually through the ‘Payment’ screen. \nNote\nIf the mode of payment is manual, you will not be allowed to capture the payment date at \nthe contract level.\nBatch processing for Auto payment\nYou have to execute the auto payment batch process at the beginning of each day to process \nall contracts having payment mode as ‘Auto’. This batch will process all pending payments as \nper the specification maintained for the branch. If you have specified the ‘Processing Till’ as \n‘Today’ (in the Branch Parameter Maintenance screen), the system will process all pending \npayments for the current date alone. If the value is maintained as ‘Next working day-1’, the \nbatch process will pick up all active contracts falling within the current date and the day before \nthe next working date. \nFor instance, let us assume that the current date is 1st January 2002 and the next working \nday is maintained as 4th January 2002 (2nd and 3rd being holidays). Further, the ‘Processing \nTill’ date is specified as ‘Next working date –1’. The BOD batch process will pick up all the \ncontracts pending payment for the period 1st Jan 2002 to 3rd Jan 2002.\nThe system will then trigger the XPMT event for all the selected contracts to indicate full \npayment. The contract status will be updated to ‘liquidated’.\nMaintaining Budget Tracking Preferences \nOracle FLEXCUBE provides you with the facility to track the budget expended towards the \nbooking amount when processing expense contracts at your branch for a given financial year. \nThe system will track the budget against the financial year within which the transaction \nbooking date falls. You will not be allowed to change the booking date after the authorization \nof the contract. Irrespective of the date of operation on the contract, the system will track the \nbudget against the budget code that you associate during the booking of an expense contract. \nBudget tracking will always be done in the local currency of the branch. Foreign currency \namounts will be converted to the local currency equivalents using the conversion rates \nmaintained at your branch. \nTo enable this feature; you have to maintain the budget tracking details at the time of defining \nthe preferences for an expense product.\nBudget Tracking Required\nThe system will track the budget for the booking amount only if you enable this option. This \nspecification will be defaulted to all the contracts booked under the product. However, you can \nchange it at the contract level. \nIf you opt for budget tracking, you will have to indicate the budget code and the tracking event \nas well."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Budget Code",
+        "Tracking Event"
+      ],
+      "summary": "This page explains how to set up budget codes and tracking events for contracts, including the options available and their impacts on financial records.",
+      "raw_text": "4-7\nBudget Code\nYou have to indicate the budget code under which the tracking should be done. All the budget \ncodes defined through the Budget Code Maintenance screen will be available in the option-\nlist provided. You can select the appropriate code from this list. The selected code will be \nassociated will all contracts processed under this product. However, you have the option to \nselect a different budget code at the contract level.\nNote\nThis field will be enabled only if the ‘Budget Tracking Required’ option is selected.\nTracking Event\nYou have to specify the event for which the budget for the booking amount should be tracked. \nThe following options are available:\nBooking \nPayment\nNote\nThis field will be enabled only if the ‘Budget Tracking Required’ option is selected.\nDepending on the tracking event that you select, the system will track the budget as explained \nbelow.\nBooking\nIf you select the track event as ‘Booking’, the system will track the booking amount at the \nfollowing events:\nBooking of the contract (XBOK)\nContract amendment (XAMD)\nDeletion of the contract\nContract reversal \nDuring the XBOK event, the system will debit the expense GL for the booking amount. \nConsequently, the utilized amount will increase and the available balance will decrease under \nthe selected budget code.\nAt the time of contract amendment, if you increase the amount, the expense GL will be debited \nfor the amount incremented. Similarly, if there is a decrease in the amount, the system will \ncredit the expense GL for the amount reduced. In both the cases, the system will update the \nutilized amount accordingly. \nDeletion and reversal of the contract will result in a decrease in the utilized amount. \nConsequently, there will be an increase in the available balance.\nPayment\nIf the track event is selected as ‘Payment’, the system will track the amount paid to the vendor. \nThe tracking will be done against the budget for the following events:\nBooking of payment\nDeletion of unauthorized payment\nReversal of payment"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Customer Button",
+        "Documents Button"
+      ],
+      "summary": "This page explains how to set up vendor restrictions and document requirements for a product in an XP system.",
+      "raw_text": "4-8\n4.1.3 \nCustomer Button\nJust as you can maintain branch and currency restrictions for a product, you can maintain a \nlist of blacklisted vendors. You can specify vendor restrictions for a product in the ‘Vendor \nRestrictions Details’ screen. To invoke this screen, click ‘Customer’ in the ‘XP Product \nDefinition’ screen.\nBy default, the product code along with a brief description that you specified for the product \nin the ‘XP Product Definition’ screen is displayed in the ‘Product Code’ field.\nTo specify the vendor IDs that you would like to disallow, identify the vendor that you would \nlike to disallow in the ‘Vendor Identification’ field. (Only vendors you have maintained in the \n‘Vendor Maintenance’ screen will appear on the option list in this field.) To add another vendor \nto the list, click add button again.\nClick delete button to delete the highlighted vendor on the list.\n4.1.4 \nDocuments Button\nPayments towards the different items of an expense contract are typically made on the basis \nof documents. When creating a product, you can indicate the documents that should be part \nof the contracts involving the product. Invoke the ‘XP Product Document Codes’ screen, to"
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "This page explains how to specify documents for a product in expense contracts within the XP Product Definition screen, including default settings and customizations.",
+      "raw_text": "4-9\nmake this specification. Click ‘Documents’ in the ‘XP Product Definition’ screen to invoke the \nscreen.\nBy default, the product code along with a brief description that you specified for the product \nin the ‘XP Product Definition’ screen is displayed in the ‘Product Code’ field.\nYour specifications in this screen will default to all contracts involving the product. When \nprocessing an expense contract, however, you can choose to ignore the default altogether, \nor modify the default list of documents suitably.\nTo specify the documents that should accompany expense contracts involving the product, \nidentify the document code in the ‘Document Code’ field. (Only documents maintained in the \n‘Document Maintenance’ screen will appear on the option list in this field.) To add another \ndocument to the list, click add row icon again."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Expense Processing Contract",
+        "Payments for an Expense Contract"
+      ],
+      "summary": "This page outlines the process of capturing expense contract details and managing payments in the XP module, including screens and tabs involved.",
+      "raw_text": "5-1\n5. Processing an Expense Contract\nYou can capture the details of an expense contract in the ‘Expense Processing Contract \nDetailed’ screen. Before we proceed to discuss the details of the screen, we shall briefly recall \nthe workflow in the XP module.\nFirst of all, you maintained the Vendors you deal with and the Documents that should \naccompany an expense contract in the ‘Vendor Maintenance’ screen and the ‘Bills & \nCollections Document Code Maintenance’ screen, respectively. This information is used \nwhen defining an Expense Product. \nProducts help you group together or categorize expense contracts which share broad \nsimilarities. Under a product you have defined, you can enter specific expense contracts. By \ndefault, a contract inherits the attributes of the product to which it is associated. This means \nthat you do not have to define the attributes that default from the product every time you input \na contract involving the product.\nYou can capture the payments made against the different items of a contract in the XP \nPayments screen. \nThis chapter contains the following topics:\nSection 5.1, \"Expense Processing Contract\"\nSection 5.2, \"Payments for an Expense Contract\"\n5.1 \nExpense Processing Contract\nThis section contains the following topics:\nSection 5.1.1, \"Invoking the Contract Screen\"\nSection 5.1.2, \"Contracts Tab\"\nSection 5.1.3, \"Documents Tab\"\nSection 5.1.4, \"Advices Tab\"\nSection 5.1.5, \"Asset Details Button\"\nSection 5.1.6, \"Events Button\"\nSection 5.1.7, \"Refund Button\"\n5.1.1 \nInvoking the Contract Screen\nYou can invoke the ‘Expense Processing Contract Detailed’ screen from the Application \nBrowser. To enter the details of a fresh contract, click on New from the Actions Menu, or ‘New’ \nicon in the toolbar. The XP contract screen with no values in the fields will be displayed.\nIf you are calling a contract that has already been created, click on ‘Summary’. The details of \nthe contracts that you have entered will be displayed in a tabular form. From the summary \nscreen, you can open an existing contract by double clicking on it."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Contracts Tab"
+      ],
+      "summary": "This section describes how to invoke and use the 'Expense Processing Contract Detailed' screen, including specifying vendor details and credit terms in the Contract Main screen.",
+      "raw_text": "5-2\nYou can invoke ‘Expense Processing Contract Detailed’ screen by typing ‘XPDTRONL’ in the \nfield at the top right corner of the Application tool bar and clicking the adjoining arrow button.\nThe Contract Details screen is divided into three convenient sub-screens, each invoked by \nclicking on a tab. The sub-screens are:\nThe Contract Main screen\nThe Contract Document screen\nThe Contract Advice screen\n5.1.2 \nContracts Tab\nIn the Contract Main screen, you can capture the basic details of the contract you are entering.\nSpecifying the Vendor\nVendor Id\nYou must, first of all, specify the vendor with whom you are entering into the expense contract. \nA list of vendors is maintained in the ‘Vendor Maintenance’ screen. You can only enter into \ncontracts with vendors who are not blacklisted.\nVendor Description\nA brief description of the vendor you specify, as entered in the ‘Vendor Maintenance’ screen, \nwill be displayed for your reference.\nSpecifying the Credit Terms\nInitiation Date\nSpecify the date on which the contract is initiated. Click the adjoining calendar button to \nspecify the date."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Maturity Date",
+        "Invoice Credit Period",
+        "Interest Rate",
+        "Specifying the Limit Details",
+        "Limits Tracking Required",
+        "Credit Line",
+        "Entering the Amount",
+        "Currency",
+        "Conversion Rate",
+        "Amount in LCY",
+        "Outstanding Amount",
+        "Total Refund Amt",
+        "The other Details"
+      ],
+      "summary": "This page details various fields and options for specifying contract terms, including maturity date, credit period, interest rate, limits tracking, currency, and outstanding amounts.",
+      "raw_text": "5-3\nMaturity Date\nSpecify the maturity date of the contract. Click the adjoining calendar button to specify the \ndate.\nInvoice Credit Period\nSpecify the Credit Period, as specified in the Invoice, if any.\nInterest Rate\nEnter the penalty Interest Rate that should be levied on the outstanding contract amount in \ncase of default.\nThe specified penalty interest will be levied on completion of the Invoice Credit Period. The \ninterest will be levied for the entire tenor of the contract.\nSpecifying the Limit Details\nLimits Tracking Required\nCheck this option if you would like to track the expense contract you are capturing under a \ncredit line. \nCredit Line\nIf you opted to track the contract you are entering under a credit line, identify the Credit Line \nhere. Choose the ID of the Credit Line from the option list.\nEntering the Amount\nAmount\nEnter the total amount of the expense contract. \nCurrency\nIn case of a cross-currency contract, specify the currency of the contract.\nConversion Rate\nIn case of a cross-currency contract, specify the conversion rate that should be used. \nAmount in LCY\nUsing the conversion rate specified, the amount in local currency will be displayed for your \nreference. \nOutstanding Amount\nThe system also deducts all payments that you have made to the vendor towards delivery of \ndifferent items on the contract, and displays the outstanding amount. \nTotal Refund Amt\nThe system will display the total of all the refunds made for a contract.\nThe other Details\nIn addition to these details, you can specify the following details:\nPayment Mode\nYou have to indicate the mode of payment based on which the booking amount will be paid \nto the vendor. This specification will get defaulted from the product under which the contract \nis being booked. However, you have the option to change it at the contract level. The following \npayment options are available:\nAutomatic - If the payment mode is automatic, the system will automatically trigger the \npayment on the payment date as specified at the time of capturing the contract details."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Payment Date",
+        "Note",
+        "Ordered By",
+        "Approved By",
+        "Product/Service",
+        "Specifying Budget Details"
+      ],
+      "summary": "This page describes different fields and settings related to payment processing, order and approval details, product/service description, and budget tracking in a manual or automatic mode.",
+      "raw_text": "5-4\nManual – In the manual mode, you have to make the payment manually using the ‘Pay-\nment’ screen. \nPayment Date \nIf you have maintained the payment mode as ‘Automatic’, you have to maintain the payment \ndate also. The system will automatically process the payment on the date that you specify \nhere. \nThe payment date will undergo a holiday check as per the ‘Local Holiday Calendar’ \nmaintained for your branch. If the payment date falls on a holiday, the system will generate \nan override message to indicate the same\nNote\nIf the mode of payment is manual, you will not be allowed to capture the payment date at \nthe contract level.\nThe system will process the payment based on the payment mode and the payment date.\nFor more details on payment processing, refer the Products chapter of the XP User Manual.\nOrdered By\nSpecify the names of your officers who ordered the purchase of the goods/services \nrespectively.\nApproved By\nSpecify the names of your officers who authorized the purchase of the goods/services \nrespectively.\nProduct/Service\nSpecify a brief description of the produce/service underlying the expense contract.\nSpecifying Budget Details\nBudget Track Required\nThe system will track the budget for the booking amount only if you enable this option. This \nspecification will be defaulted from the product under which the contract is booked. However, \nyou can change it at the contract level. \nBudget \nYou have to indicate the budget code under which the tracking should be done. This \nspecification will also be defaulted from the product associated with the contract. However, \nyou have the option to select a different budget code at the contract level. The budget codes \ndefined through the Budget Code Maintenance screen will be available in the option-list \nprovided. You can select the appropriate code from this list. \nNote\nThis field will be enabled only if the ‘Budget Tracking Required’ option is selected.\nRefer the Products chapter of the Expense Processing User Manual for information on \nmaintaining budget codes and budget details. \nValidations performed for budget tracking are given below:"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "At the time of booking an expense contract",
+        "Credit Terms",
+        "Fund Id",
+        "Documents Tab"
+      ],
+      "summary": "This page explains how the system checks and manages budget details during the booking of expense contracts, including handling of budget codes, credit terms, fund IDs, and settlement accounts.",
+      "raw_text": "5-5\nAt the time of booking an expense contract, the system will check whether you have \nmaintained the budget details for the associated budget code for the fiscal year of the \ntransaction date. If the details are not maintained, the system will not allow you to book \nthe contract. \nIf the available balance under a budget code falls below the amount being disbursed or \npaid, the system will generate an appropriate override message to indicate the same. \nThe system will track the budget for a contract against a single budget code that is ini-\ntially associated with the contract throughout the life cycle of the contract, irrespective \nof the fiscal year during which the operation is performed. If the operation falls in a dif-\nferent fiscal year, the system will display a override message.\nAn override message will be displayed if an operation leads to negative utilization or \nnegative availability under a budget code.\nCredit Terms\nFund Id\nThe fund Id will be visible only if the current branch is a fund branch. Select the Fund Id from \nthe option list. The settlements processing is enabled only if ‘Allow Corporate Access’ is \nchecked in the Branch Parameters – Detail View screen.\nIf ‘Allow Corporate Access’ is not checked, then the settlement account would be the \nfund bank accounts linked to fund id.\nIf ‘Allow Corporate Access’ is checked, then the settlement account is fetched from the \nsettlement instruction maintenance for the counterparty.\n5.1.3 \nDocuments Tab\nAn expense contract is normally accompanied by certain standard documents of the following \ntypes:\nTransport\nInsurance\nInvoice\nAny other"
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Document Maintenance",
+        "Advices Tab"
+      ],
+      "summary": "This page explains how to manage documents and advices in the XP Contract screen for expense processing, including adding, deleting, and maintaining document details and specifying advice types for a contract.",
+      "raw_text": "5-6\nYou can capture the details of these documents in the XP Contract screen. Click ‘Document’   \non the ‘Expense Processing Contract Detailed’ screen.\nAll the documents specified for the product to which the contract is linked will default to this \nscreen. You can add to or delete documents to this default list. To add a document for the \ncontract you are processing, click add row icon button,. Select the code of the appropriate \ndocument from the list of document codes maintained in the ‘Documents Maintenance’ \nscreen. The description of the document will be displayed in the Description field.\nTo delete a document that is not required for the contract you are processing, highlight the \ndocument code and click delete row icon button.\nFor each document that you specify, you have to maintain the following details:\nThe Document Reference and Date\nThe Covering Letter Reference and Date\n5.1.4 \nAdvices Tab\nThe advices that can be generated for the different events in the lifecycle of a contract are \ndefined for the product to which the contract is linked. For example, you may have specified \nthe following advices for an XP product:\nBooking Advice\nPayment Advice\nAmendment Advice\nThese advices will default to contracts associated with the product."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Advice tab",
+        "Medium",
+        "Priority",
+        "Suppress",
+        "Asset Details Button"
+      ],
+      "summary": "This page describes how to use the 'Advice' tab in the 'Expense Processing Contract Detailed' screen, including options for suppressing advices, setting priorities for SWIFT payments, and managing transmission mediums. It also explains how to record asset details for contract items.",
+      "raw_text": "5-7\nFrom the ‘Expense Processing Contract Detailed’ screen, click ‘Advice’ tab. The advices \nscreen is displayed. The advices that are defined for the product, for the event you are \nprocessing, will be displayed. You can choose to suppress any of these advices.\nThe address of the vendor to whom the advice is addressed to will be picked up by default, \nbased on the media and address maintenance for the vendor. You can change this. \nFor a payment message by SWIFT, you can indicate a ‘priority’.\nMedium\nThe medium by which an advice is transmitted and the corresponding address will be picked \nup based on the media and address maintained for the vendor. \nYou can, however, change either of these while processing the contract.\nPriority\nFor a payment message by SWIFT, you can change the ‘priority’ of the message from \n‘Normal’ to ‘Medium’ or ‘High’. By default, the priority of all advices is marked as ‘Normal’. \nSuppress\nBy default, all the advices that have been defined for a product will be generated for the \ncontracts involving it. If any of the advices is not applicable to the contract you are processing, \nyou can suppress its generation by ticking the suppress field.\n5.1.5 \nAsset Details Button\nA contract can have several items towards which you would incur an expense. You can record \nthe value of each item on a contract in the ‘Expense Processing Items’ screen. You can invoke"
+    },
+    {
+      "page_number": 32,
+      "sections": [],
+      "summary": "This page describes how to enter details for items on an expense processing contract, including descriptions, quantities, GL heads, and total values.",
+      "raw_text": "5-8\nthis screen by clicking Asset Details button in the ‘Expense Processing Contract Detailed’ \nscreen. \nIndividually, you can enter the following details for the different items on the contract:\nA Description of the item\nThe Quantity of the item.  In the case of services, this would contain the value ‘1’.\n– \nSpecifying GL Heads. You have to enter the Expense GL’s for individual items / ser-\nvices GL Heads.  GL Head input at contract level is mandatory if the Product level \n‘Contract Level Expense GL’s option is set to Yes and if ‘Contract Level Expense \nGL’s’ option is set to No at Product level this field will be disabled in the Contract \ninput\n– \nExpense processing would be done using the GL’s specified in the contract.\nDefault Product Level GLs \nThe Total Value of the item.  In the case of services, this would be the total value of the \nservice.  In the case of goods, the system checks that cumulative value of the items \nmust not exceed the total contract amount mentioned in the XP Contract Details screen."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "5.1.6 Events Button"
+      ],
+      "summary": "This section describes how to access and view event details for a contract in the accounting system, specifically through the 'Events' button on the 'Expense Processing Contract Detailed' screen.",
+      "raw_text": "5-9\n5.1.6 \nEvents Button\nThe ‘Event Details’ screen of contract processing shows the details of the accounting entries \ngenerated for a contract. Click ‘Events’ in the ‘Expense Processing Contract Detailed’ screen. \nThe details of events that have already taken place on the contract will be displayed, along \nwith the date on which the event took place."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Accounting Entry Button"
+      ],
+      "summary": "This section describes how to view accounting details for an expense contract event and lists the information provided for each event.",
+      "raw_text": "5-10\n5.1.6.1 \nAccounting Entry Button\nIn this screen, you can view the accounting details for a specific event in the life cycle of an \nexpense contract. To invoke the ‘Accounting Entries’ screen, click ‘Accounting Entries’ in the \n‘Event Details’ screen.\nThe following information is provided for each event:\nBranch\nAccount\nCurrency\nAmount Tag\nFCY Amount\nRate\nLCY Amount\nDebit/Credit\nTransaction Date\nValue Date\nAll the overrides that were given for the event.\nClick Exit button to go back to the screen from where you invoked the Accounting Entries \nscreen."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Section 5.2.1, 'Maintaining Expense Processing Payment Details'",
+        "Section 5.2.2, 'Settlement Button'",
+        "Section 5.2.3, 'Deleting Payments'",
+        "Section 5.2.4, 'Authorizing Payments'",
+        "Section 5.2.5, 'Unlocking a Contract'",
+        "Section 5.2.6, 'Processing a Refund or Reversing of an Expense Contract'"
+      ],
+      "summary": "This section discusses various aspects of managing payments for expense contracts, including maintaining payment details, authorizing and unlocking contracts, and processing refunds.",
+      "raw_text": "5-11\n5.1.7 \nRefund Button\nYou can view the details of individual refunds processed for an expense contract. To invoke \nthe ‘Refund Details’ screen, click ‘Refund’ button in the ‘Expense Processing Contract Details’ \nscreen. The screen is displayed below:\nFor details relating to Charges and Settlements, please refer the Charges and Settlements \nuser manuals.\n5.2 \nPayments for an Expense Contract\nThis section contains the following topics:\nSection 5.2.1, \"Maintaining Expense Processing Payment Details\"\nSection 5.2.2, \"Settlement Button\"\nSection 5.2.3, \"Deleting Payments\"\nSection 5.2.4, \"Authorizing Payments\"\nSection 5.2.5, \"Unlocking a Contract\"\nSection 5.2.6, \"Processing a Refund or Reversing of an Expense Contract\""
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "5.2.1 Maintaining Expense Processing Payment Details"
+      ],
+      "summary": "This section explains how to enter, delete, and reverse payments for expense contracts in the 'Expense Processing Payments' screen and details what information is displayed when entering a reference number.",
+      "raw_text": "5-12\n5.2.1 \nMaintaining Expense Processing Payment Details\nYou can enter payments made towards an expense contract in the ‘Expense Processing \nPayment’ screen. You can invoke this screen by typing ‘XPDPMNT’ in the field at the top right \ncorner of the Application tool bar and clicking the adjoining arrow button.\nThe following operations can be performed on a payment, through the Expense Processing \nPayments screen:\nInput of payments\nDeletion of payments\nReversal of payments\nReference Number\nYou shall specify the reference number of the expense contract in respect of which you are \nentering payment.\nOn entering the reference number of the expense contract in the ‘Expense Processing \nPayments’ screen, the following details will be displayed on the screen:\nThe vendor involved in the expense contract\nThe currency of the expense contract\nThe status of the contract\nThe total outstanding amount as of the Value date (the date on which the payment is \nbeing made)\nThe version of the contract (it is, the number of times the contract has been modified)\nThe total outstanding retention amount in respect of the vendor, as on the date of pay-\nment\nIf the contract involves an advance to the vendor for goods or services to be delivered, \nthe total advance amount due is displayed."
+    },
+    {
+      "page_number": 37,
+      "sections": [],
+      "summary": "This page details the necessary payment information to be entered for a vendor's expense contract, including total amount, retention and advance amounts, service/product description, value date, penalty interest, and discount.",
+      "raw_text": "5-13\nThe net amount paid by the vendor\nEntering Payment Details for the Contract\nYou must enter the following details for the payment:\nThe total amount being paid to the vendor towards the dues in respect of the expense \ncontract. This amount is apportioned to the items for which the expense was occurred, \nas applicable. When you specify the amount being paid, the amount liquidated towards \neach item is displayed in the Payment Breakup section.\nPart of the amount being paid can be retained, or treated as advance payment for items \nthat are to be delivered. If so, you can record the ‘Retention Amount’ and the ‘Advance \nAmount’, if any, in the respective fields in this screen.\nThe service (or product) in respect of which the expense was incurred, towards which \nthe payment is being made\nThe value date of the payment. The Value date here is the date on which the liquidation \nentries will be passed for the contract.\nThe amount being paid to the vendor towards a penalty interest on the contract, if any\nIf the contract involves an advance to the vendor for goods or services to be delivered, \nyou can specify the advance amount being paid (Advance Amount)\nIf you wish to retain any portion of the payment being made to the vendor, you can spec-\nify the retention amount (Retention Amount)\nThe portion of the outstanding retention amount that is being paid to the vendor through \nthe payment you are recording.\nThe discount (flat amount) on the payment, if any, if allowed in the terms of the contract. \nThis amount is deducted from the amount being paid to the vendor.\nIf you are liquidating advance paid out to the vendor on receipt of goods or services, you \ncan specify the paid advance amount that you are liquidating.\nAny appropriate remarks, if any\nContract Item Details Displayed by the System\nThe system also displays the items of the contract, towards which the expense has been \nincurred, along with the following details for each item:\nA description of the item\nThe quantity of the item\nThe total value of the item \nThe total amount paid towards the item\nThe current amount paid towards the item\nDelivery Status\n5.2.2 \nSettlement Button\nWhen the contract and the accounts for payment are in different currencies, you may enter \nthe Foreign Exchange rate for conversion, in the Settlements screen. If the customer account \nwas not defined at the time of contract input, you will have to specify an account, at the time \nof payment, through the Settlements screen.\nThe payment accounts can also be changed at the time of payment. The new payment \naccounts will only be used only for that particular session, of the payment function."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "To invoke the Settlements service from the payments function",
+        "Deleting Payments",
+        "Authorizing Payments"
+      ],
+      "summary": "This page describes how to use the Settlements service in the payments function, including changing payment details and deleting or authorizing payments.",
+      "raw_text": "5-14\nTo invoke the Settlements service from the payments function, click ‘Settlement’ button in the \n‘Expense Processing Payments’ screen.\nIn this screen,\nThe currency (of the contract components) and the branch will be displayed.\nYou can change the payment account.\nYou can specify the exchange rate, if the Settlement Account Currency is different from \nthe contract currency.\nFor further details, refer ‘Settlements’ User Manual.\n5.2.3 \nDeleting Payments\nPayments made using the payments function, can be deleted before the payment is \nauthorized.\nAll the entries passed during the payment will also be deleted. All the schedules will be \nrestored to the original status. In short, the prepayment status of the contract will be restored.\nFrom the Actions Menu, choose Delete or click delete icon in the toolbar. You will be prompted \nto confirm the deletion. Once you confirm it, all the entries that have been saved, but not \nauthorized, will be deleted. \n5.2.4 \nAuthorizing Payments\nYou can invoke this function from the Application Browser. Enter the Reference number, the \nValue date of the payment and the amount paid (of those payments that you want to \nauthorize). The payment details are displayed, along with the overrides and an authorization \nwill be sought. If you choose not to authorize the payment, the authorization screen will be \ndismissed."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Unlocking a Contract",
+        "Processing a Refund or Reversing of an Expense Contract"
+      ],
+      "summary": "This page explains how to unlock and amend contract details, as well as process refunds for expense contracts in Oracle FLEXCUBE.",
+      "raw_text": "5-15\n5.2.5 \nUnlocking a Contract\nIf you want to change the details of an authorized contract, you can unlock the contract by \nselecting the ‘Unlock’ option from the Actions Menu, or click unlock button in the toolbar. The \n‘Amend’ screen will be displayed. \nUsing the above screen, you can either write-off or amend the contracts details. \nFor further details, refer ‘Common Operations’ chapter in the Procedures user manual.\n5.2.6 \nProcessing a Refund or Reversing of an Expense Contract\nIn Oracle FLEXCUBE, you can choose to process refunds for an expense contract. This \nwould result in a decrease in the utilization of the budget. Consequently, the available balance \nwill be incremented under the budget code that is associated with the contract. However, you \nare allowed to process refunds for liquidated expense contracts only. \nNote\nOnly fully liquidated contracts are available for refund."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Refunding the Contract"
+      ],
+      "summary": "This section explains how to process a refund for a contract using the 'Reverse' option and details what information needs to be provided during the refund process.",
+      "raw_text": "5-16\nYou can process a refund for a contract by using the ‘Reverse’ option from the Actions Menu, \nor click ‘Reverse’ icon in the toolbar. The ‘Reverse/Refund’ screen is displayed. \n5.2.6.1 \nRefunding the Contract\nFor refunding the contract, select ‘Refund’ option and click ‘Ok’ button. The following screen \nwill be displayed:\nThe system will display the following details in this screen:\nThe reference number of the contract\nThe currency of the contract \nThe budget code associated with the contract\nIn addition to the above details, you have to indicate the following:\nRefund Value Date \nThis is the date on which the refund will become effective in the system. Accordingly, on this \ndate, there will be a decrease in the amount utilized under the budget code and an increase \nin the available balance."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Refund Amount",
+        "Refund Exchange Rate",
+        "Reversing Payments"
+      ],
+      "summary": "This page explains how to calculate and process refunds for expense contracts, including handling exchange rates and reversing payments.",
+      "raw_text": "5-17\nRefund Amount\nThis is the amount to be refunded for an expense contract. The refund amount is expressed \nin the contract currency. Further, the System checks the refund amount against the total \namount of the expense contract and the amount already refunded under the contract. The \nsystem displays an override message if the total of all the refunded amounts exceeds the \ncontract amount.\nIf the contract currency is different from local currency of the branch, the System converts the \nrefund amount to the local currency equivalent by using currency conversion rates maintained \nfor the branch. The LCY equivalent will be used to decrease the utilization of the budget code \nand accordingly increase the available amount.\nNote\nThe system will display an error message if you do not process a refund in the same finan-\ncial year in which contract is booked.\nRefund Exchange Rate\nYou can specify the exchange rate which is used to arrive at the LCY equivalent for budget \ntracking and accounting if the contract currency is different from the local currency of the \nbranch. \n5.2.6.2 \nReversing Payments\nYou can reverse authorized payments on an expense. For reversing the contract, select \n‘Reverse’ option in the ‘Reverse/Refund’ screen and click ‘Ok’ button. In the Expense \nPayment Processing screen, to reverse a payment, you must specify the Contract Reference \nNumber. Enter the Amount Paid and then click on Reverse in the Processing sub-menu of the \nActions Menu. The system reverses all the accounting entries passed during the payment that \nwas processed earlier in respect of the contract, and updates the status of the payment as \n\"Reversed\".\nThe following details will be displayed in this screen:\nThe date on which the refund details were maintained\nThe date on which the refund became effective in the system\nThe refund amount\n5.2.6.3 \nMaintaining Accounting Entries for Refund Processing\nThe XRFD (Refund) event will be triggered when you process a refund in the system. \nFor details about the accounting entries associated with the XRFD event, refer the Appendix \nA - Accounting Entries and Advices for the Expense Processing module, in this user manual.\nFor a complete list of events, accounting roles, amount tags and event-level accounting \nentries applicable for an expense contract, refer the Appendix A - Accounting Entries and \nAdvices for the Expense Processing module, in this user manual."
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Accounting Entries for XP",
+        "XP Events",
+        "Amount Tags"
+      ],
+      "summary": "This section details the suggested accounting entries and amount tags for the Expense processing module of Oracle FLEXCUBE, organized event-wise.",
+      "raw_text": "6-1\n6. Annexure A - Accounting Entries and Advices\nThis chapter contains the following sections:\nSection 6.1, \"Accounting Entries for XP\"\n6.1 \nAccounting Entries for XP\nThis section contains the following topics:\nSection 6.1.1, \"XP Events\"\nSection 6.1.2, \"Amount Tags\"\nSection 6.1.3, \"Accounting Roles\"\nSection 6.1.4, \"Event-wise Accounting Entries\"\nSection 6.1.5, \"Advices\"\nThis section contains details of the suggested accounting entries that can be set up, for the \nExpense processing module of Oracle FLEXCUBE. The details of the suggested accounting \nentries are listed event-wise.\n6.1.1 \nXP Events\n6.1.2 \nAmount Tags\nThe amount tags listed below are hard-coded in Oracle FLEXCUBE.\nSl No.\nEvent Code\nEvent Description\n1.\nXAMD\nBooking of Expense\n2.\nXBOK\nBooking of Expense\n3.\nXPMT\nLiquidation of Expense\n4.\nXPRV\nReversal of Payment\n5.\nXREV\nReversal of Expense\n6.\nXWRF\nWrite Off of Expense\n7\nXRFD\nRefund\nAmount Tag\nDescription\nXP_ADV_LIQD\nXP Advance Liquidated in Contract CCY\nXP_ADV_PAID\nXP Advance Paid in Contract CCY\nXP_AMT_INCRDECR\nXP Amount Increased/Decreased in Contract CCY\nXP_AMT_PAID\nXP Amount Paid in Contract CCY\nXP_CHG_COLL\nXP Charges Collected in Contract CCY\nXP_CONT_AMT\nXP Contract Amount in Contract CCY"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Accounting Roles",
+        "Event-wise Accounting Entries"
+      ],
+      "summary": "This page discusses accounting roles and suggested entries for XP transactions, including various amount tags related to discounts, interest, advances, and expenses.",
+      "raw_text": "6-2\nIn addition to these you can define amount tags as per your requirement for the ICCF and tax \ncomponents that are attached to a product.\n6.1.3 \nAccounting Roles\nThe following list contains the accounting roles that are applicable to XP transactions that you \ncan process at your bank.\n6.1.4 \nEvent-wise Accounting Entries\nIn this section we will discuss the suggested accounting entries that should be generated for \neach event in the life cycle of an XP transaction.\nNote\nSome of the Amount Tags linked to the Accounting Roles are user defined.\nXP_DISC_AMT\nXP Discount Amount in Contract CCY\nXP_INT_AMT\nXP Interest Amount Paid in Contract CCY\nXP_OS_ADV\nXP Outstanding Advance Amount\nXP_OS_AMT\nXP Contract Outstanding Amt in Contract CCY\nXP_OS_RET\nXP Outstanding Retention Amount\nXP_RET_COLL\nXP Retention Money Collected in Contract CCY\nXP_RET_PAY\nXP Retention Money Paid in Contract CCY\nXP_AMT_REFUND\nRefunded amount\nAccounting Role\nDescription\nXPCHGEXP\nCharges collected\nXPDISCINC\nDiscounts Received\nXPEXPPROV\nProvision\nXPPENEXP\nPenalty Interest Paid\nXPPREPAY\nAdvance (Prepaid)\nXPRETPAY\nRetention Money\nXPVENEXP\nExpense Booking\nXPWRITEOFF\nWrite Off Account\nXPVENPAY\nVendor\nXPVENEXP\nExpense GL"
+    },
+    {
+      "page_number": 44,
+      "sections": [],
+      "summary": "This page lists various event tags and their corresponding accounting roles, amount tags, and debit/credit indicators.",
+      "raw_text": "6-3\n6.1.4.1 \nEvent - XAMD\n6.1.4.2 \nEvent - XBOK\n6.1.4.3 \nEvent - XPMT\n6.1.4.4 \nEvent - XWRF\nAccounting Role\nAmount Tag\nDr./Cr. Indicator\nXPVENEXP\nXP_AMT_INCRDECR\nDEBIT\nXPEXPPROV\nXP_AMT_INCRDECR\nCREDIT\nAccounting Role\nAmount Tag\nDr./Cr. Indicator\nXPCHGEXP\nXP_CHG_COLL\nCREDIT\nXPVENPAY\nXP_CHG_COLL\nDEBIT\nXPVENEXP\nXP_CONT_AMT\nDEBIT\nXPEXPPROV\nXP_CONT_AMT\nCREDIT\nAccounting Role\nAmount Tag\nDr./Cr. Indicator\nXPVENEXP\nXP_ADV_LIQD\nDEBIT\nXPPREPAY\nXP_ADV_LIQD\nCREDIT\nXPPREPAY\nXP_ADV_PAID\nDEBIT\nXPVENPAY\nXP_ADV_PAID\nCREDIT\nXPEXPPROV\nXP_AMT_PAID\nDEBIT\nXPVENPAY\nXP_AMT_PAID\nCREDIT\nXPDISCINC\nXP_DISC_AMT\nCREDIT\nXPVENPAY\nXP_DISC_AMT\nDEBIT\nXPPENEXP\nXP_INT_AMT\nDEBIT\nXPVENPAY\nXP_INT_AMT\nCREDIT\nAccounting Role\nAmount Tag\nDr./Cr. Indicator\nXPWRITEOFF\nXP_OS_ADV\nDEBIT\nXPPREPAY\nXP_OS_ADV\nCREDIT\nXPEXPPROV\nXP_OS_AMT\nDEBIT\nXPVENEXP\nXP_OS_AMT\nCREDIT\nXPVENEXP\nXP_OS_RET\nDEBIT\nXPRETPAY\nXP_OS_RET\nCREDIT"
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "Event - XFRD",
+        "Advices"
+      ],
+      "summary": "This page describes the XRFD event triggered by a refund process and outlines the necessary accounting entries for it.",
+      "raw_text": "6-4\n6.1.4.5 \nEvent - XFRD\nThe XRFD (Refund) event will be triggered when you process a refund in the system. The \nfollowing accounting entries have to be set up for this event:\n6.1.5 \nAdvices\nNIL\nAccounting Role\nAmount Tag\nDr / Cr Indicator\nXPVENPAY \nXP_AMT_REFUND\nDEBIT\nXPVENEXP \nXP_AMT_REFUND \nCREDIT"
+    },
+    {
+      "page_number": 46,
+      "sections": [],
+      "summary": "This page contains a function ID glossary with various IDs and their corresponding page numbers.",
+      "raw_text": "8-1\n8. Function ID Glossary\nX\nXPDPMNT .......................5-12\nXPDPRMNT ...................... 4-1\nXPDTRONL ...................... 5-2\nXPRPRETR ...................... 6-1"
+    }
+  ]
+}

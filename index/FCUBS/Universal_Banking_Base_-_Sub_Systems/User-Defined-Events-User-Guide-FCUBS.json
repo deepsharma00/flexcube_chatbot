@@ -1,0 +1,538 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base_-_Sub_Systems/User-Defined-Events-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 24,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces user-defined events and provides details on how to invoke them, including information about specific buttons within the event process.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for defining User Defined events in FLEXCUBE and provides information on accessing online help, the manual's organization, related documents, and icons used.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for defining User Defined events in FLEXCUBE and provides information on accessing online help, the manual's organization, related documents, and icons used.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for defining User Defined events in FLEXCUBE and provides information on accessing online help, the manual's organization, related documents, and icons used.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for defining User Defined events in FLEXCUBE and provides information on accessing online help, the manual's organization, related documents, and icons used.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Glossary of Icons",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces a user manual for defining User Defined events in FLEXCUBE and provides information on accessing online help, the manual's organization, related documents, and icons used.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 4,
+      "end_page": 6,
+      "summary": "This page introduces a user manual for defining User Defined events in FLEXCUBE and provides information on accessing online help, the manual's organization, related documents, and icons used.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. User Defined Events",
+          "start_page": 6
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Event Details",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Invoking User Defined Events Screen",
+          "start_page": 6
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Default Button",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Value Date Derivation Button",
+          "start_page": 10
+        },
+        {
+          "structure": "3.2.4",
+          "title": "2.2.4 Event Processing Button",
+          "start_page": 11
+        },
+        {
+          "structure": "3.2.5",
+          "title": "2.2.5 Calculating the Commission on the Highest Outstanding Balance",
+          "start_page": 11
+        },
+        {
+          "structure": "3.2.6",
+          "title": "2.2.6 Viewing Event Details",
+          "start_page": 12
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Accounting Roles and Heads",
+          "start_page": 16
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Invoking Accounting Roles and Heads Screen",
+          "start_page": 17
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Amount Tag Tab",
+          "start_page": 17
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 Accounting Roles Tab",
+          "start_page": 21
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 User Defined Events",
+          "start_page": 22
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Triggering User Defined Events Automatically",
+          "start_page": 22
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. User Defined Events",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page explains how to define and manage user-defined events in Oracle FLEXCUBE, including invoking the relevant screen and processing events during a contract's lifecycle.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page explains how to define and manage user-defined events in Oracle FLEXCUBE, including invoking the relevant screen and processing events during a contract's lifecycle.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Event Details",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page explains how to define and manage user-defined events in Oracle FLEXCUBE, including invoking the relevant screen and processing events during a contract's lifecycle.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Invoking User Defined Events Screen",
+      "start_page": 6,
+      "end_page": 9,
+      "summary": "This page explains how to define and manage user-defined events in Oracle FLEXCUBE, including invoking the relevant screen and processing events during a contract's lifecycle.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Organization",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Default Button",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This section explains how to define triggering parameters for user-defined events by using the 'Default' button and details the fields that can be configured.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "2.2.3 Value Date Derivation Button",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This section explains how to use the 'Value Date Derivation' button on the 'Event Trigger' screen to specify value date derivation logic and handle any errors that may occur.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.4",
+      "title": "2.2.4 Event Processing Button",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes how to process events using a derivation rule and explains the calculation of commission based on the highest outstanding balance.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.5",
+      "title": "2.2.5 Calculating the Commission on the Highest Outstanding Balance",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page describes how to process events using a derivation rule and explains the calculation of commission based on the highest outstanding balance.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.6",
+      "title": "2.2.6 Viewing Event Details",
+      "start_page": 12,
+      "end_page": 16,
+      "summary": "The text describes settings for an event trigger, execution query, value date derivation, availability level, and how to view event details and accounting entries in a contract screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Accounting Roles and Heads",
+      "start_page": 16,
+      "end_page": 17,
+      "summary": "This page explains how to view message details and introduces topics related to accounting roles and heads.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Invoking Accounting Roles and Heads Screen",
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This page describes how to invoke the 'Accounting Role and Head Maintenance' screen and explains the parameters that can be specified on the Amount Tag tab.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Amount Tag Tab",
+      "start_page": 17,
+      "end_page": 21,
+      "summary": "This page describes how to invoke the 'Accounting Role and Head Maintenance' screen and explains the parameters that can be specified on the Amount Tag tab.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.3",
+      "title": "2.3.3 Accounting Roles Tab",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page describes how to handle currency rule errors and explains the details that can be entered in the Accounting Roles tab of the Accounting Role and Head Maintenance screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 User Defined Events",
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This page discusses how to set up and automatically trigger user-defined events in a specific module through the 'Mandatory Batch Program Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Triggering User Defined Events Automatically",
+      "start_page": 22,
+      "end_page": 24,
+      "summary": "This page discusses how to set up and automatically trigger user-defined events in a specific module through the 'Mandatory Batch Program Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 24,
+      "end_page": 26,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for defining events in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "User Defined Events User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including details about their user guide for user defined events.",
+      "raw_text": "User Defined Events User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Introduction",
+        "Event Details"
+      ],
+      "summary": "This page introduces user-defined events and provides details on how to invoke them, including information about specific buttons within the event process.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nDocumentation Accessibility....................................................................................  1-1\n1.3 \nOrganization ............................................................................................................  1-1\n1.4 \nGlossary of Icons.....................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-1\n2. \nUser Defined Events ................................................................................ 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nEvent Details ...........................................................................................................  2-1\n2.2.1  \nInvoking User Defined Events Screen........................................................  2-1\n2.2.2  \nDefault Button.............................................................................................  2-4\n2.2.3  \nValue Date Derivation Button .....................................................................  2-5\n2.2.4  \nEvent Processing Button ............................................................................  2-6\n2.2.5  \nCalculating the Commission on the Highest Outstanding Balance ............  2-6\n2.2.6  \nViewing Event Details.................................................................................  2-7\n2.3 \nAccounting Roles and Heads ................................................................................  2-11\n2.3.1  \nInvoking Accounting Roles and Heads Screen ........................................  2-12\n2.3.2  \nAmount Tag Tab.......................................................................................  2-12\n2.3.3  \nAccounting Roles Tab ..............................................................................  2-16\n2.4 \nUser Defined Events..............................................................................................  2-17\n2.4.1  \nTriggering User Defined Events Automatically .........................................  2-17\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces a user manual for defining User Defined events in FLEXCUBE and provides information on accessing online help, the manual's organization, related documents, and icons used.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is intended as a guide to help you define User Defined events in FLEXCUBE. \nBesides this User Manual, you can find answers to specific features and procedures in the \nOnline Help, which can be invoked, by choosing ‘Help Contents’ from the Help Menu of the \nsoftware. You can further obtain information specific to a particular field by placing the cursor \non the relevant field and striking <F1> on the keyboard.\n1.2 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.3 \nOrganization\nThis manual is organized as follows:\n1.4 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\n1.5 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nCore Services\nChapter\nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also lists \nthe various chapters covered in this User Manual.\nChapter 2\nBuilding User Defined Events explains how to define events in Oracle \nFLEXCUBE either for your own convenience or to suit the requirements of \nyour bank.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's used \nin the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Common Procedures"
+      ],
+      "summary": "This page discusses common procedures.",
+      "raw_text": "1-2\nCommon Procedures"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "User Defined Events",
+        "Event Details",
+        "Invoking User Defined Events Screen"
+      ],
+      "summary": "This page explains how to define and manage user-defined events in Oracle FLEXCUBE, including invoking the relevant screen and processing events during a contract's lifecycle.",
+      "raw_text": "2-1\n2. User Defined Events\n2.1 \nIntroduction\nA contract that you process in Oracle FLEXCUBE goes through different stages during its life \ncycle. These stages are defined as Events. Every new module that you maintain has to be \nassociated with a set of events, which will be triggered at appropriate stages during the \nlifecycle of the contract. \nApart from the factory shipped events, you can create your own events as per the \nrequirements of the bank.\nThis chapter contains the following sections:\nSection 2.2, \"Event Details\"\nSection 2.3, \"Accounting Roles and Heads\"\nSection 2.4, \"User Defined Events\"\n2.2 \nEvent Details\nThis section contains the following topics:\nSection 2.2.1, \"Invoking User Defined Events Screen\"\nSection 2.2.2, \"Default Button\"\nSection 2.2.3, \"Value Date Derivation Button\"\nSection 2.2.4, \"Event Processing Button\"\nSection 2.2.5, \"Calculating the Commission on the Highest Outstanding Balance\"\nSection 2.2.6, \"Viewing Event Details\"\n2.2.1 \nInvoking User Defined Events Screen\nYou can define the events through the ‘User defined Events’ screen. You can invoke this \nscreen by typing ‘UDDEVMNT’ in the field at the top right corner of the Application tool bar \nand clicking on the adjoining arrow button."
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Report Module",
+        "Event Code",
+        "Event Description",
+        "Accounting Entries Definition",
+        "Advice Definition",
+        "UDE Advices Definition"
+      ],
+      "summary": "This page describes how to set up user-defined events for a module, including specifying the event code, description, and related definitions such as accounting entries and advice.",
+      "raw_text": "2-2\nYou can define events for a new module and also for existing modules in this screen.\nUser defined events will be linked to a product and is triggered in the life cycle of a contract, \nwhich is processed under that product.\nReport Module\nSpecify the module for which you want to set up a user-defined event. The adjoining option \nlist contains all the module codes available in the system. Select the appropriate one.\nEvent Code\nSpecify the event code that you want to set up for the module.\nEvent Description\nGive a brief description of the event that you are defining. The description that you enter is for \ninformation purposes.\nAccounting Entries Definition\nSpecify the accounting entries definition. You have the following options:\nYes\nNo\nAdvice Definition\nSpecify the advice entries definition. You have the following options:\nYes\nNo\nUDE Advices Definition\nSpecify the UDE advice definition. You have the following options:\nYes\nNo"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Association",
+        "Application",
+        "Liquidation"
+      ],
+      "summary": "This page outlines settings for allowing charges and transaction taxes in different contexts such as association, application, and liquidation.",
+      "raw_text": "2-3\nAssociation\nIndicate your preferences.\nAllow Charge\nSpecify the association allow charge. You have the following options:\nYes\nNo\nAllow Transaction Tax\nSpecify the association allow transaction tax. You have the following options:\nYes\nNo\nApplication\nIndicate your preferences. These fields will not be applicable if you have specified any one of \nthe following in the ‘Report Module’ field:\nCL\nCI\nLE\nMO\nAllow Charge\nSpecify the application allow charge. You have the following options:\nYes\nNo\nAllow Transaction Tax\nSpecify the application allow transaction tax. You have the following options:\nYes\nNo\nLiquidation\nIndicate your preferences.These fields will not be applicable if you have specified any one of \nthe following in the ‘Report Module’ field:\nCL\nCI\nLE\nMO\nAllow Charge\nSpecify the liquidation allow charge. You have the following options:\nYes\nNo\nAllow Transaction Tax\nSpecify the liquidation allow transaction tax. You have the following options:\nYes"
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Default Button"
+      ],
+      "summary": "This section explains how to define triggering parameters for user-defined events by using the 'Default' button and details the fields that can be configured.",
+      "raw_text": "2-4\nNo\n2.2.2 \nDefault Button\nClick ‘Default’ button in the ‘User Defined Events’ screen to define the triggering parameters \nfor the configured event.\nIn this screen you can enter the following details below:\nModule Code\nThe system displays the module code here.\nEvent Code\nThe system displays the event code here.\nEvent Trigger\nThe event, which you are defining, can be triggered in either of the following ways:\nAutomatic – This means that the event should be triggered automatically during EOD.\nManual - This means that the event should be triggered manually from the ‘User Defined \nEvent’ triggering screen.\nValue Date Derivation\nCheck this box to indicate that the value date derivation is defined for a particular event.\nEvent Processing \nCheck this box to indicate the event processing is defined for a particular event.\nExecution Query\nEnter the query condition to select the list of accounts for the execution of the event during \nEOD. Input to this field will be mandatory if you choose ‘Automatic’ triggering of the event."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Value Date Derivation Button"
+      ],
+      "summary": "This section explains how to use the 'Value Date Derivation' button on the 'Event Trigger' screen to specify value date derivation logic and handle any errors that may occur.",
+      "raw_text": "2-5\n2.2.3 \nValue Date Derivation Button\nClick ‘Value Date Derivation’ button on the ‘Event Trigger’ screen and invoke the ‘Derivation \nRule’ screen to specify the value date derivation logic.\nIn this screen you can enter the following details:\nModule Code\nThe system displays module code here.\nEvent Code\nThe system displays event code here.\nValue Date Derivation Rule\nEnter description about the value date derivation rule. You need to assign a value to \n‘L_VAL_DT’. For instance, ‘L_VAL_DT:=global.application_date’. \nError\nClick ‘X’ button to execute the code. The derivation code will be validated by the system. If \nany checks fail, you must alter the statement so that the validation can be made successfully. \nClick ‘E’ button to view the errors."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Event Processing Button",
+        "Calculating the Commission on the Highest Outstanding Balance"
+      ],
+      "summary": "This page describes how to process events using a derivation rule and explains the calculation of commission based on the highest outstanding balance.",
+      "raw_text": "2-6\n2.2.4 \nEvent Processing Button\nClick ‘Event Processing’ button on the ‘Event Trigger’ screen and invoke the ‘Derivation Rule’ \nscreen to assign values for processing of the event.\nIn this screen you can enter the following details:\nModule Code\nThe system displays module code here.\nEvent Code\nThe system displays event code here.\nErrors\nClick ‘X’ button to execute the code. The derivation code will be validated by the system. If \nany checks fail, you must alter the statement so that the validation can be made successfully. \nClick ‘E’ button to view the errors.\n2.2.5 \nCalculating the Commission on the Highest Outstanding Balance\nSystem uses UDE to calculate the commission on the highest outstanding balance of the loan \nand the mortgage Accounts.\nYou can define a UDE Highest Debit Balance Commission Event (HDBC) for computation of \ncommission with following parameters:"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Event Trigger can be either Auto or Manual",
+        "Execution Query should be all accounts which satisfy the following criteria:",
+        "Value Date derivation rule to return the date as month-end",
+        "This event is available at Loan and Mortgage product level.",
+        "Viewing Event Details",
+        "Viewing Accounting Entries"
+      ],
+      "summary": "The text describes settings for an event trigger, execution query, value date derivation, availability level, and how to view event details and accounting entries in a contract screen.",
+      "raw_text": "2-7\nEvent Trigger can be either Auto or Manual\nApply Charge should be Yes\nExecution Query should be all accounts which satisfy the following criteria:\n– \nAccount Status is Active\n– \nOutstanding Principal is greater than 0.00\nValue Date derivation rule to return the date as month-end\nThis event is available at Loan and Mortgage product level.\n2.2.6 \nViewing Event Details\nYou can view the event details maintained in the 'User Defined Events' screen under 'Events' \nscreen of a contract screen. You can invoke the ‘Events’ screen by typing ‘CSDEVENT’ in the \nfield at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nReference Number\nSpecify the reference number.\nThe system displays the following details:\nEvent Number\nEvent code\nDescription\nEvent Date\nAuthorization Status\nMaker Id\nChecker Id\n2.2.6.1 \nViewing Accounting Entries\nYou can view the accounting entries maintained for an event in the ‘Accounting Entries’ \nscreen by selecting an event and clicking on ‘Accounting Entries’ button in the’ Events’"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "screen",
+        "The following details are displayed in the Accounting Entries:",
+        "The following details are displayed in the Accounting Under Process:"
+      ],
+      "summary": "This page describes how to invoke a specific screen and lists the details displayed for accounting entries and under process.",
+      "raw_text": "2-8\nscreen. To invoke the screen type ‘CSDACENT’ in the field at the top right corner of the \nApplication tool bar and clicking on the adjoining arrow button.\nReference Number\nSpecify the transaction reference number\nSee Position Entries\nCheck this box to view currency position of the entries.\nEvent\nSpecify the event.\nEvent Number\nThe system displays the event number.\nThe following details are displayed in the Accounting Entries:\nEvent\nBranch\nAccount\nAccount Description\nDr/Cr\nAmount Tag\nAccount Ccy\nForeign Currency Amount\nRate\nLocal Currency Amount\nDate\nValue Date\nTxn Code\nThe following details are displayed in the Accounting Under Process:\nEvent\nBranch"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Account",
+        "Dr/Cr",
+        "Amount Tag",
+        "Account Ccy",
+        "Foreign Currency Amount",
+        "Rate",
+        "Local Currency Amount",
+        "Date",
+        "Value Date",
+        "Txn Code",
+        "Override Details"
+      ],
+      "summary": "This page lists various fields and sections related to accounting entries, including account details, currency information, and override options.",
+      "raw_text": "2-9\nAccount\nDr/Cr\nAmount Tag\nAccount Ccy\nForeign Currency Amount\nRate\nLocal Currency Amount\nDate\nValue Date\nTxn Code\nOverride Details\nClick on ‘Overrides’ button to view the override details of the accounting entries."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Viewing Messages"
+      ],
+      "summary": "This section explains how to view messages by selecting an event and using a specific screen type in the application toolbar.",
+      "raw_text": "2-10\n2.2.6.2 \nViewing Messages\nYou can view the messages by selecting an event and clicking on ‘Messages’ button in the’ \nEvents’ screen. To invoke the screen type ‘CSDMSGVW’ in the field at the top right corner of \nthe Application tool bar and clicking on the adjoining arrow button.\nThe system displays the following details:\nContract Reference\nESN\nEvent\nMessage Type\nSWIFT Message Type\nMedium\nMessage Status\nAuthorization Status\nReceiver\nReceiver Name\nDCN"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Message Details",
+        "Accounting Roles and Heads"
+      ],
+      "summary": "This page explains how to view message details and introduces topics related to accounting roles and heads.",
+      "raw_text": "2-11\nMessage Details\nYou can view the details of a message by selecting a message from the ‘Message’ screen \nand clicking on ‘Message Details’ button.\n2.3 \nAccounting Roles and Heads\nThis section contains the following topics:\nSection 2.3.1, \"Invoking Accounting Roles and Heads Screen\"\nSection 2.3.2, \"Amount Tag Tab\"\nSection 2.3.3, \"Accounting Roles Tab\""
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Invoking Accounting Roles and Heads Screen",
+        "Amount Tag Tab"
+      ],
+      "summary": "This page describes how to invoke the 'Accounting Role and Head Maintenance' screen and explains the parameters that can be specified on the Amount Tag tab.",
+      "raw_text": "2-12\n2.3.1 \nInvoking Accounting Roles and Heads Screen\nYou can define the amount tags for accounting roles through the ‘Accounting Role and Head \nMaintenance’ screen You can invoke this screen by typing ‘UDDRLTAG’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button.\nYou can specify the following parameters for the module:\nAmount Tag\nAccounting Roles\n2.3.2 \nAmount Tag Tab\nThis tab is displayed by default when you invoke the screen.\nAmount Tag\nSpecify the amount tag.\nDescription\nEnter the brief description for amount tag.\nCharge\nIndicate whether the amount tag pertains to a charge or not by choosing one of the following \noptions:\nYes\nNo\nAccounting\nIndicate whether accounting entries are required or not by choosing one of the following \noptions:\nYes\nNo"
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Transaction Tax",
+        "Local Currency",
+        "Local Currency Eq. Tag",
+        "Module Code",
+        "Amount Tag"
+      ],
+      "summary": "This page outlines options for transaction tax applicability, local currency preferences, and details on specifying amount tags and module codes.",
+      "raw_text": "2-13\nTransaction Tax\nIndicate whether transaction tax is applicable or not by choosing one of the following options:\nYes\nNo\nLocal Currency\nIndicate the local currency preference by choosing one of the following options:\nAverage\nEquivalent\nLocal Currency Eq. Tag\nSpecify the amount tag for the local currency equivalent amount.\nClick ‘Derivation’ button and invoke the ‘Derivation Rule Details’ screen to derive the amount \nand currency for the amount tag.\nHere you can specify derivation logic for the following:\nAmount Rule\nCurrency Rule\nModule Code\nThe system displays module code here.\nAmount Tag\nThe system displays the amount tag here."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Amount Rule Derivation"
+      ],
+      "summary": "This section explains how to specify and derive amounts based on conditions using various variables in a defined rule.",
+      "raw_text": "2-14\nAmount Rule Derivation\nYou can specify the following details.\nAmount Rule Type\nCheck this box if the amount has to be derived based on a specified condition. The amount \nfor a particular tag can be derived based on a condition.\nDerivation Amount Rule\nIf you have checked against the option ‘Amount Rule Type’, the system will derive the amount \nfor the amount tag that is being defined. You can use the following as variables while creating \nthe derivation rule:\nAccount Level UDF \nSDE \nYou can use any of the following SDEs:\nCUSTOMER_CATEGORY - Category of the customer of the loan\nCUSTOMER_ID - Customer ID\nLOAN_STATUS - Status\nACCOUNT_CCY - Loan account's currency\nTODAY - Today\nNEXT_WORKDAY - Date of next workday\nPAYMENT_VALUE_DATE - Payment value date\nLAST_PAYMENT_DATE - Last payment date for the customer\nDAYS_FOR_NEXT_PMNT - Days for next payment\nAMOUNT_DISBURSED - Current disbursement amount\nCOMMITMENT_UTILIZED - Utilized part of commitment\nEMI_AMOUNT - EMI AMOUNT\nNET_PRINCIPAL - Non-funded amount for which the loan is applied\nTOTAL_DUE_AMOUNT - Sum of all the Outstanding Balances for the Customer\nLAST_PAYMENT_AMOUNT - Last Payment Amount for the Customer\nCURRENT_PAYMENT_AMOUNT - Current Amount which is Due\nPAID_INTEREST_AMOUNT - Total Interest Amount Paid\nINTEREST_ACCRUED_AMOUNT - Sum of all the Accrued Amounts for Interest\nAMOUNT_NOT_DISBURSED - Amount Not Disbursed\nCOMMITMENT_UNUTILIZED - Unutilized part of commitment\nTOTAL_PRINCIPAL - Amount for which the loan is applied\nTENOR - Duration for which the loan is applied\nLOAN_PRINCIPAL - Principal\nPRINCIPAL - Amount disbursed\nPRINCIPAL_OUTSTAND – Principal amount outstanding\nOVERDUE_MONTHS - OverDue Months\nTOTAL_OVERDUE_AMOUNT - Total Overdue amount for all components\nINS_TENOR - INSTALLMENT TENOR\nNO_OF_RPMNT_SCHS - Number of Non-Moratorium repayment schedules\nMORA_OUTSTANDING - Moratorium Outstanding Amount\nCOMPOUND_VALUE - Amount Compounded"
+    },
+    {
+      "page_number": 20,
+      "sections": [],
+      "summary": "This page lists various financial components and their abbreviations related to moratorium amounts, expected values, outstanding amounts, and currency details, along with rules for deriving amount and currency.",
+      "raw_text": "2-15\nTOTAL_MORA_AMOUNT - Total Moratorium Amount\n_OVR_DAYS - <Component> overdue days\n_EXPECTED - <Component> expected amount\n_OUTSTAND - <Component> outstanding amount\n_CCY - <Component> currency\n_OVERDUE - <Component> overdue amount\n_FN_NO_REPAY_SCH - <Component> number of schedules for a component if \nperiodic\n_NET_PRINCIPAL - <Component> amount financed\nPROJECTED_AMOUNT - Projected Amount\nUIDB_DIFFERENTIAL - UIDB Differential\nBALLOON_AMOUNT - Balloon Amount\nRESIDUAL_AMOUNT - Residual Amount\nCAPITAL_AMOUNT - Capital Amount\nCLOSURE_AMOUNT - Closure Amount\nNET_MORTGAGE - Net Mortgage Amount\nAssume that you have an account-level UDF called ‘OSCHGRATE’.\nThe derivation rule using the SDEs and UDF may be given as under.\nDECLARE\nl_osprin_amt number;\nrate number;\nBEGIN\nL_osprin_amt:=(@SDE_VAL#PRINCIPAL_OUTSTAND);\nrate: =(@UDF_UD#OSCHGRATE);\nl_amount:=rate * l_osprin_amt;\nEND\nAmount Rule Error Description\nEnter a brief description about amount rule error that should be displayed in case the \nderivation fails.\nCurrency Rule Derivation\nThe currency can either be derived from the existing account currency or can be maintained \nas a UDF field in the account or it can be hard-coded in the ‘Currency Rule Definition’ screen. \nCurrency Rule Type\nCheck this box if the currency for a particular amount tag has to be derived based on the \nderivation rule.\nDerivation Currency Rule\nSpecify the rule based on which the system should derive the currency for the amount tag. \nYou need to assign a value to ‘L_CCY’. For instance, the rule may be given as under."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Currency Rule Error Description",
+        "Accounting Roles Tab"
+      ],
+      "summary": "This page describes how to handle currency rule errors and explains the details that can be entered in the Accounting Roles tab of the Accounting Role and Head Maintenance screen.",
+      "raw_text": "2-16\nBEGIN\nSELECT currency \nINTO      l_ccy \nFROM     cltb_account_master \nWHERE  account_number = p_acc_no \nAND        branch_code=p_branch;\nEND;\nCurrency Rule Error Description\nEnter a brief description about currency rule error that should be displayed in case the \nderivation fails.\n2.3.3 \nAccounting Roles Tab\nClick ‘Accounting Roles’ tab in the ‘Accounting Role and Head Maintenance’ screen.\nIn this screen you can enter the following details:\nRole Code\nSpecify the role code.\nDescription\nEnter a brief description about role code.\nRole Type\nSelect the role type from the adjoining drop-down list. The following values are available:\nAsset\nLiability\nIncome"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "User Defined Events",
+        "Triggering User Defined Events Automatically"
+      ],
+      "summary": "This page discusses how to set up and automatically trigger user-defined events in a specific module through the 'Mandatory Batch Program Maintenance' screen.",
+      "raw_text": "2-17\nExpense\nC Asset\nC Liability\nCustomer\n2.4 \nUser Defined Events\nThis section contains the following topics:\nSection 2.4.1, \"Triggering User Defined Events Automatically\"\n2.4.1 \nTriggering User Defined Events Automatically\nYou can add the user defined event batch to the mandatory programs to be run for the \nmodule, using the ‘Mandatory Batch Program Maintenance’ screen. You can invoke this \nscreen by typing ‘EIDMANPR’ in the field at the top right corner of the Application tool bar and \nclicking the adjoining arrow button.\nModule\nChoose the module code from the adjoining option list.\nFunction Identification\nSpecify ‘UDBATEVT’ as the batch that needs to be run. You can also select this value from \nthe adjoining option list."
+    },
+    {
+      "page_number": 23,
+      "sections": [],
+      "summary": "This page describes how to set up predecessors for the 'UDBATEVT' batch and explains the process of fetching user defined events and posting accounting entries.",
+      "raw_text": "2-18\nEnd Of Cycle Group \nSelect the option ‘End Of Transaction Input’.\nPredecessors\nYou need to add the following batches as predecessors to the ‘UDBATEVT’ batch:\nCL batch (CLBATCH) \nIslamic CL batch (CIDBATCH)\nLeasing batch (LEDBATCH)\nMortgage batch (MODBATCH)\nFor further details about this screen, refer the chapter ‘Setting- up Mandatory Programs for \nEOD’ in the AEOD User Manual.\nThis batch fetches the list of user defined events of the following modules for which the event \ntriggering is set as ‘Automatic’:\nCL\nIslamic Financing\nMortgages\nLeasing\nIt fetches valid accounts associated with the event by the executing the query defined for the \nevent in the ‘Event Trigger’ screen. The settlement account and branch are defaulted from the \nsettlement details maintained for the account. If these details are not maintained, they will be \ndefaulted from the settlement details maintained for the ‘Principal’ component.\nThe system triggers the derivation rule maintained for the event to arrive at the value date of \nthe event. The system then posts accounting entries to the respective GLs using the value \ndate derived. The system also derives the amount and currency for each amount tag of the \naccounting entries defined for the event. The system allows you to link only payment advice \n‘CR_ADV, DR_ADV’ to the user defined event. So if linked to an account, this advice will be \ngenerated."
+    },
+    {
+      "page_number": 24,
+      "sections": [],
+      "summary": "",
+      "raw_text": "3-1\n3. Function ID Glossary\nC\nCSDACENT .......................2-8\nCSDACENT’ ......................2-8\nCSDEVENT .......................2-7\nCSDMSGVW ...................2-10\nE\nEIDMANPR ..................... 2-17\nU\nUDDEVMNT ...................... 2-1\nUDDRLTAG .................... 2-12"
+    }
+  ]
+}

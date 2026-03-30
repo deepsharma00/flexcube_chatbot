@@ -1,0 +1,1685 @@
+{
+  "source": "FlexCube/FCUBS/Interactions/Interactions-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 69,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the document's purpose and structure, followed by a section on interactions within Oracle FLEXCUBE, including setting preferences for various tabs.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Oracle FLEXCUBE Interactions module manual, outlining its purpose, target audience, and organization into chapters covering various user roles and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Oracle FLEXCUBE Interactions module manual, outlining its purpose, target audience, and organization into chapters covering various user roles and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Oracle FLEXCUBE Interactions module manual, outlining its purpose, target audience, and organization into chapters covering various user roles and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Oracle FLEXCUBE Interactions module manual, outlining its purpose, target audience, and organization into chapters covering various user roles and functions.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Oracle FLEXCUBE Interactions module manual, outlining its purpose, target audience, and organization into chapters covering various user roles and functions.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "3",
+          "title": "2. Interactions in Oracle FLEXCUBE",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Preferences for Interactions",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 Setting Preferences for Interactions",
+          "start_page": 8
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Conversation Preferences Tab",
+          "start_page": 9
+        },
+        {
+          "structure": "3.1.3",
+          "title": "2.1.3 Spend Analysis Preferences Tab",
+          "start_page": 11
+        },
+        {
+          "structure": "3.1.4",
+          "title": "2.1.4 .Viewing Preferences for Interactions",
+          "start_page": 12
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Alerts",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Alert Selection Criteria",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Defining Alert Selection Criteria",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Viewing Alert Criteria Definition Summary",
+          "start_page": 15
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Alerts",
+          "start_page": 15
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Defining Alerts",
+          "start_page": 15
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Preferences Tab",
+          "start_page": 16
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Target Tab",
+          "start_page": 18
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Message Tab",
+          "start_page": 19
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Viewing Alert Definition Summary",
+          "start_page": 24
+        },
+        {
+          "structure": "4.2.6",
+          "title": "3.2.6 Viewing Alert Dashboard",
+          "start_page": 24
+        },
+        {
+          "structure": "5",
+          "title": "4. Spend Analysis",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Spend Analysis",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Spend Analysis in Oracle FLEXCUBE",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Classification of Entries",
+          "start_page": 33
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Classification of Reversal Entries",
+          "start_page": 34
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Spend Class by a Bank User",
+          "start_page": 35
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Maintaining Spend Class by a Bank User",
+          "start_page": 35
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Viewing Class Code Summary",
+          "start_page": 36
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Spend Classes for Channel User",
+          "start_page": 36
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Maintaining Spend Classes for Channel User",
+          "start_page": 37
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Viewing Spend Class Summary",
+          "start_page": 39
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Spend Rules",
+          "start_page": 39
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Defining Spend Rules",
+          "start_page": 39
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Creating Conditions with Expressions",
+          "start_page": 41
+        },
+        {
+          "structure": "5.4.3",
+          "title": "4.4.3 Viewing Customer Spend Analysis Details",
+          "start_page": 43
+        },
+        {
+          "structure": "5.4.4",
+          "title": "4.4.4 Reclassification of Spend Classes",
+          "start_page": 45
+        },
+        {
+          "structure": "5.4.5",
+          "title": "4.4.5 Deletion of Spend Class",
+          "start_page": 46
+        },
+        {
+          "structure": "5.4.6",
+          "title": "4.4.6 Deletion of Sub Class Code",
+          "start_page": 46
+        },
+        {
+          "structure": "5.4.7",
+          "title": "4.4.7 Splitting a Transaction",
+          "start_page": 46
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page provides an overview of related documents and icons used in a User Manual, including references to chapters on reminders, instructions, and function ID glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page provides an overview of related documents and icons used in a User Manual, including references to chapters on reminders, instructions, and function ID glossary.",
+      "cross_references": [
+        {
+          "structure": "7",
+          "title": "6. Reminders",
+          "start_page": 60
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 Reminders in Oracle FLEXCUBE",
+          "start_page": 60
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Create Reminders",
+          "start_page": 61
+        },
+        {
+          "structure": "7.2.1",
+          "title": "6.2.1 Creating Reminders",
+          "start_page": 61
+        },
+        {
+          "structure": "7.2.2",
+          "title": "6.2.2 Viewing Reminders on User Dashboard",
+          "start_page": 63
+        },
+        {
+          "structure": "7.2.3",
+          "title": "6.2.3 Viewing Reminders Summary",
+          "start_page": 63
+        },
+        {
+          "structure": "6",
+          "title": "5. Customer Interactions",
+          "start_page": 48
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Interactions in Oracle FLEXCUBE",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Create Interactions",
+          "start_page": 53
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Creating Interactions",
+          "start_page": 54
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Uploading Documents",
+          "start_page": 57
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Viewing Interaction Summary",
+          "start_page": 58
+        },
+        {
+          "structure": "6.2.4",
+          "title": "5.2.4 Viewing Interactions on User Dashboard",
+          "start_page": 59
+        },
+        {
+          "structure": "8",
+          "title": "7. Instructions",
+          "start_page": 65
+        },
+        {
+          "structure": "8.1",
+          "title": "7.1 Instructions in Oracle FLEXCUBE",
+          "start_page": 65
+        },
+        {
+          "structure": "8.2",
+          "title": "7.2 Maintain Instructions",
+          "start_page": 65
+        },
+        {
+          "structure": "8.2.1",
+          "title": "7.2.1 Maintaining Instructions",
+          "start_page": 65
+        },
+        {
+          "structure": "8.2.2",
+          "title": "7.2.2 Viewing Customer Instructions",
+          "start_page": 67
+        },
+        {
+          "structure": "8.2.3",
+          "title": "7.2.3 Viewing Instructions Summary",
+          "start_page": 68
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Interactions in Oracle FLEXCUBE",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page describes how Oracle FLEXCUBE interacts with bank users and customers through various interactions such as preferences settings and different types of communications like reminders, instructions, alerts, and spend analysis.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Preferences for Interactions",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page describes how Oracle FLEXCUBE interacts with bank users and customers through various interactions such as preferences settings and different types of communications like reminders, instructions, alerts, and spend analysis.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.1",
+      "title": "2.1.1 Setting Preferences for Interactions",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This section explains how to set preferences for Oracle FLEXCUBE interactions through the 'Interactions Preferences Maintenance' screen and specifies the details that need to be entered.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.2",
+      "title": "2.1.2 Conversation Preferences Tab",
+      "start_page": 9,
+      "end_page": 11,
+      "summary": "This section explains how to set conversation preferences, including specifying the stale period and default user/role indicator under the 'Conversation Preferences' tab.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.3",
+      "title": "2.1.3 Spend Analysis Preferences Tab",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This section describes how to set preferences for spend analysis, including options for enabling spend analysis, specifying archival batch frequency, and defining rule threshold values.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.4",
+      "title": "2.1.4 .Viewing Preferences for Interactions",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This section explains how to view preferences set for Oracle FLEXCUBE interactions using the 'Interactions Pref Summary' screen and describes the parameters that can be used for queries.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Alerts",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page discusses how to define and view alert selection criteria in Oracle FLEXCUBE for generating alerts to bank staff and customers.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Alert Selection Criteria",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page discusses how to define and view alert selection criteria in Oracle FLEXCUBE for generating alerts to bank staff and customers.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1.1",
+      "title": "3.1.1 Defining Alert Selection Criteria",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This page discusses how to define and view alert selection criteria in Oracle FLEXCUBE for generating alerts to bank staff and customers.",
+      "cross_references": [
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Conversation Preferences Tab",
+          "start_page": 9
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Preferences for Interactions",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 Setting Preferences for Interactions",
+          "start_page": 8
+        },
+        {
+          "structure": "3.1.3",
+          "title": "2.1.3 Spend Analysis Preferences Tab",
+          "start_page": 11
+        },
+        {
+          "structure": "3.1.4",
+          "title": "2.1.4 .Viewing Preferences for Interactions",
+          "start_page": 12
+        }
+      ]
+    },
+    {
+      "structure": "4.1.2",
+      "title": "3.1.2 Viewing Alert Criteria Definition Summary",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page describes how to view alert criteria definitions in Oracle FLEXCUBE and introduces various sections related to defining and managing alerts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Alerts",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page describes how to view alert criteria definitions in Oracle FLEXCUBE and introduces various sections related to defining and managing alerts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Defining Alerts",
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This page describes how to view alert criteria definitions in Oracle FLEXCUBE and introduces various sections related to defining and managing alerts.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.2",
+      "title": "3.2.2 Preferences Tab",
+      "start_page": 16,
+      "end_page": 18,
+      "summary": "This page describes how to define alerts in a system by specifying alert codes, descriptions, criteria codes, and final SQL statements, as well as setting preferences for alert message generation.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.3",
+      "title": "3.2.3 Target Tab",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This section describes how to set up alert message targets by specifying target types and options for customer and bank user alerts in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.4",
+      "title": "3.2.4 Message Tab",
+      "start_page": 19,
+      "end_page": 24,
+      "summary": "This page explains how to specify bank user types and message delivery channels for alert messages in a banking system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.5",
+      "title": "3.2.5 Viewing Alert Definition Summary",
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This page explains how to view a summary of alerts defined in Oracle FLEXCUBE using the 'Alert Definition Summary' screen and how to view user alerts on the 'Alerts' screen in the Dashboard.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.6",
+      "title": "3.2.6 Viewing Alert Dashboard",
+      "start_page": 24,
+      "end_page": 26,
+      "summary": "This page explains how to view a summary of alerts defined in Oracle FLEXCUBE using the 'Alert Definition Summary' screen and how to view user alerts on the 'Alerts' screen in the Dashboard.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Spend Analysis",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page explains the spend analysis feature of Oracle FLEXCUBE and its various maintenance and operations, including transaction classification and reclassification.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Spend Analysis",
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This page explains the spend analysis feature of Oracle FLEXCUBE and its various maintenance and operations, including transaction classification and reclassification.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Spend Analysis in Oracle FLEXCUBE",
+      "start_page": 26,
+      "end_page": 33,
+      "summary": "This page explains the spend analysis feature of Oracle FLEXCUBE and its various maintenance and operations, including transaction classification and reclassification.",
+      "cross_references": [
+        {
+          "structure": "4.1",
+          "title": "3.1 Alert Selection Criteria",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1.1",
+          "title": "3.1.1 Defining Alert Selection Criteria",
+          "start_page": 13
+        },
+        {
+          "structure": "4.1.2",
+          "title": "3.1.2 Viewing Alert Criteria Definition Summary",
+          "start_page": 15
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Alerts",
+          "start_page": 15
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Defining Alerts",
+          "start_page": 15
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Preferences Tab",
+          "start_page": 16
+        },
+        {
+          "structure": "4.2.3",
+          "title": "3.2.3 Target Tab",
+          "start_page": 18
+        },
+        {
+          "structure": "4.2.4",
+          "title": "3.2.4 Message Tab",
+          "start_page": 19
+        },
+        {
+          "structure": "4.2.5",
+          "title": "3.2.5 Viewing Alert Definition Summary",
+          "start_page": 24
+        },
+        {
+          "structure": "4.2.6",
+          "title": "3.2.6 Viewing Alert Dashboard",
+          "start_page": 24
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Classification of Entries",
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This section explains how debit entries are classified into spend classes based on transaction attributes defined in the 'Spend Rule Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.3",
+      "title": "4.1.3 Classification of Reversal Entries",
+      "start_page": 34,
+      "end_page": 35,
+      "summary": "This section explains how reversal entries are classified and handled in spend analysis, including uncategorization if a match is found or the application of normal categorization rules. It also describes the process for reversing split transactions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Spend Class by a Bank User",
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "This page describes how to maintain and view spend class codes for banks, including details on the 'Spend Class for Bank' screen operations.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.1",
+      "title": "4.2.1 Maintaining Spend Class by a Bank User",
+      "start_page": 35,
+      "end_page": 36,
+      "summary": "This page describes how to maintain and view spend class codes for banks, including details on the 'Spend Class for Bank' screen operations.",
+      "cross_references": [
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Defining Alerts",
+          "start_page": 15
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Preferences Tab",
+          "start_page": 16
+        }
+      ]
+    },
+    {
+      "structure": "5.2.2",
+      "title": "4.2.2 Viewing Class Code Summary",
+      "start_page": 36,
+      "end_page": 36,
+      "summary": "This page describes how to view and search class codes maintained by bank users and introduces topics related to maintaining and viewing spend classes for channel users.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Spend Classes for Channel User",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page describes how to view and search class codes maintained by bank users and introduces topics related to maintaining and viewing spend classes for channel users.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.1",
+      "title": "4.3.1 Maintaining Spend Classes for Channel User",
+      "start_page": 37,
+      "end_page": 39,
+      "summary": "This section describes how to create spend class codes and sub-class codes using the 'ITDSPCLS' screen in the application toolbar, including details on required fields such as Class Code, Description, and Customer Number.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.2",
+      "title": "4.3.2 Viewing Spend Class Summary",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page describes how to view spend class summaries and introduces various topics related to defining and managing spend rules in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4",
+      "title": "4.4 Spend Rules",
+      "start_page": 39,
+      "end_page": 39,
+      "summary": "This page describes how to view spend class summaries and introduces various topics related to defining and managing spend rules in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.1",
+      "title": "4.4.1 Defining Spend Rules",
+      "start_page": 39,
+      "end_page": 41,
+      "summary": "This page describes how to view spend class summaries and introduces various topics related to defining and managing spend rules in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.2",
+      "title": "4.4.2 Creating Conditions with Expressions",
+      "start_page": 41,
+      "end_page": 43,
+      "summary": "This page describes how the system displays and manages spend class descriptions, negative points, sub class codes, and conditions using expressions for spend rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.3",
+      "title": "4.4.3 Viewing Customer Spend Analysis Details",
+      "start_page": 43,
+      "end_page": 45,
+      "summary": "This page explains how to choose logical operators for creating spend rules and how to view customer spend analysis details using a specific screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.4",
+      "title": "4.4.4 Reclassification of Spend Classes",
+      "start_page": 45,
+      "end_page": 46,
+      "summary": "This page describes how to view transaction details under the 'Transactions' tab and explains the reclassification process for spend classes by channel users.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.5",
+      "title": "4.4.5 Deletion of Spend Class",
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This page discusses the deletion and closure of spend class codes and sub class codes through the FCUBSInteractionService messaging service, including who can perform these actions and under what conditions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.6",
+      "title": "4.4.6 Deletion of Sub Class Code",
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This page discusses the deletion and closure of spend class codes and sub class codes through the FCUBSInteractionService messaging service, including who can perform these actions and under what conditions.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.7",
+      "title": "4.4.7 Splitting a Transaction",
+      "start_page": 46,
+      "end_page": 48,
+      "summary": "This page discusses the deletion and closure of spend class codes and sub class codes through the FCUBSInteractionService messaging service, including who can perform these actions and under what conditions.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Customer Interactions",
+      "start_page": 48,
+      "end_page": 49,
+      "summary": "This section explains how Oracle FLEXCUBE can be used to capture and manage customer interactions, including both external customer complaints and internal follow-ups, with examples provided.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Interactions in Oracle FLEXCUBE",
+      "start_page": 49,
+      "end_page": 53,
+      "summary": "This section explains how interactions are captured and managed in Oracle FLEXCUBE, including their assignment to users and resolution by the accounts department.",
+      "cross_references": [
+        {
+          "structure": "5.2",
+          "title": "4.2 Spend Class by a Bank User",
+          "start_page": 35
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Maintaining Spend Class by a Bank User",
+          "start_page": 35
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Viewing Class Code Summary",
+          "start_page": 36
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Spend Analysis",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Spend Analysis in Oracle FLEXCUBE",
+          "start_page": 26
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Classification of Entries",
+          "start_page": 33
+        },
+        {
+          "structure": "5.1.3",
+          "title": "4.1.3 Classification of Reversal Entries",
+          "start_page": 34
+        }
+      ]
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Create Interactions",
+      "start_page": 53,
+      "end_page": 54,
+      "summary": "This page describes how to create interactions, upload documents, view interaction summaries and details on a user dashboard, along with providing interaction status updates.",
+      "cross_references": [
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Viewing Class Code Summary",
+          "start_page": 36
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Maintaining Spend Class by a Bank User",
+          "start_page": 35
+        }
+      ]
+    },
+    {
+      "structure": "6.2.1",
+      "title": "5.2.1 Creating Interactions",
+      "start_page": 54,
+      "end_page": 57,
+      "summary": "This section explains how to create an interaction using the 'Interaction Input' screen and details the information required such as Interaction ID, Status, Customer ID, and Customer Name.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.2",
+      "title": "5.2.2 Uploading Documents",
+      "start_page": 57,
+      "end_page": 58,
+      "summary": "This section explains how to upload and manage documents during interactions using the 'Document Upload' screen, including specifying document details and viewing uploaded documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.3",
+      "title": "5.2.3 Viewing Interaction Summary",
+      "start_page": 58,
+      "end_page": 59,
+      "summary": "This section explains how to view and search for interaction summaries in Oracle FLEXCUBE using specific parameters such as authorization status and interaction date.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.4",
+      "title": "5.2.4 Viewing Interactions on User Dashboard",
+      "start_page": 59,
+      "end_page": 60,
+      "summary": "This page outlines various interaction-related fields and details on viewing interactions through a user dashboard, including the sequence in which they are displayed.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Reminders",
+      "start_page": 60,
+      "end_page": 60,
+      "summary": "This page explains how to configure reminders for bank staff and customers in Oracle FLEXCUBE, including setting frequencies and viewing examples of reminder usage.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 Reminders in Oracle FLEXCUBE",
+      "start_page": 60,
+      "end_page": 61,
+      "summary": "This page explains how to configure reminders for bank staff and customers in Oracle FLEXCUBE, including setting frequencies and viewing examples of reminder usage.",
+      "cross_references": [
+        {
+          "structure": "6.2",
+          "title": "5.2 Create Interactions",
+          "start_page": 53
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Creating Interactions",
+          "start_page": 54
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Uploading Documents",
+          "start_page": 57
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Viewing Interaction Summary",
+          "start_page": 58
+        },
+        {
+          "structure": "6.2.4",
+          "title": "5.2.4 Viewing Interactions on User Dashboard",
+          "start_page": 59
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Interactions in Oracle FLEXCUBE",
+          "start_page": 49
+        }
+      ]
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 Create Reminders",
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This page describes how to create reminders and view them in different contexts such as user dashboard and summary.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2.1",
+      "title": "6.2.1 Creating Reminders",
+      "start_page": 61,
+      "end_page": 63,
+      "summary": "This page describes how to create reminders and view them in different contexts such as user dashboard and summary.",
+      "cross_references": [
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Viewing Interaction Summary",
+          "start_page": 58
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Creating Interactions",
+          "start_page": 54
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Uploading Documents",
+          "start_page": 57
+        }
+      ]
+    },
+    {
+      "structure": "7.2.2",
+      "title": "6.2.2 Viewing Reminders on User Dashboard",
+      "start_page": 63,
+      "end_page": 63,
+      "summary": "This page describes how bank users can view reminders on their dashboard and access a summary of reminders through the 'Reminders Summary' screen in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.2.3",
+      "title": "6.2.3 Viewing Reminders Summary",
+      "start_page": 63,
+      "end_page": 65,
+      "summary": "This page describes how bank users can view reminders on their dashboard and access a summary of reminders through the 'Reminders Summary' screen in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Instructions",
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This page explains how Oracle FLEXCUBE allows users to convey instructions and messages to bank users and customers, including maintaining and accessing these instructions.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.1",
+      "title": "7.1 Instructions in Oracle FLEXCUBE",
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This page explains how Oracle FLEXCUBE allows users to convey instructions and messages to bank users and customers, including maintaining and accessing these instructions.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.2",
+      "title": "7.2 Maintain Instructions",
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This page explains how Oracle FLEXCUBE allows users to convey instructions and messages to bank users and customers, including maintaining and accessing these instructions.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.2.1",
+      "title": "7.2.1 Maintaining Instructions",
+      "start_page": 65,
+      "end_page": 67,
+      "summary": "This page explains how Oracle FLEXCUBE allows users to convey instructions and messages to bank users and customers, including maintaining and accessing these instructions.",
+      "cross_references": [
+        {
+          "structure": "7.1",
+          "title": "6.1 Reminders in Oracle FLEXCUBE",
+          "start_page": 60
+        },
+        {
+          "structure": "7.2.1",
+          "title": "6.2.1 Creating Reminders",
+          "start_page": 61
+        },
+        {
+          "structure": "7.2.2",
+          "title": "6.2.2 Viewing Reminders on User Dashboard",
+          "start_page": 63
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Create Reminders",
+          "start_page": 61
+        },
+        {
+          "structure": "7.2.3",
+          "title": "6.2.3 Viewing Reminders Summary",
+          "start_page": 63
+        }
+      ]
+    },
+    {
+      "structure": "8.2.2",
+      "title": "7.2.2 Viewing Customer Instructions",
+      "start_page": 67,
+      "end_page": 68,
+      "summary": "This section explains how to view customer instructions in Oracle FLEXCUBE by using the 'Customer Instruction View' screen and provides details on searching for instruction details based on specific parameters.",
+      "cross_references": []
+    },
+    {
+      "structure": "8.2.3",
+      "title": "7.2.3 Viewing Instructions Summary",
+      "start_page": 68,
+      "end_page": 69,
+      "summary": "This section explains how to view a summary of all instructions using the 'Instructions Summary' screen and describes the search parameters available for filtering the results.",
+      "cross_references": []
+    },
+    {
+      "structure": "9",
+      "title": "8. Function ID Glossary",
+      "start_page": 69,
+      "end_page": 71,
+      "summary": "",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page introduces the Interactions User Guide for Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Interactions User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use.",
+      "raw_text": "Interactions User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Interactions in Oracle FLEXCUBE"
+      ],
+      "summary": "This page introduces the document's purpose and structure, followed by a section on interactions within Oracle FLEXCUBE, including setting preferences for various tabs.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nRelated Documents.................................................................................................  1-2\n1.6 \nGlossary of Icons.....................................................................................................  1-2\n2. \nInteractions in Oracle FLEXCUBE .......................................................... 2-1\n2.1 \nPreferences for Interactions ....................................................................................  2-1\n2.1.1  \nSetting Preferences for Interactions ...........................................................  2-2\n2.1.2  \nConversation Preferences Tab...................................................................  2-3\n2.1.3  \nSpend Analysis Preferences Tab ...............................................................  2-5\n2.1.4  \n.Viewing Preferences for Interactions.........................................................  2-6\n3. \nAlerts ........................................................................................................ 3-1\n3.1 \nAlert Selection Criteria.............................................................................................  3-1\n3.1.1  \nDefining Alert Selection Criteria..................................................................  3-1\n3.1.2  \nViewing Alert Criteria Definition Summary..................................................  3-3\n3.2 \nAlerts .......................................................................................................................  3-3\n3.2.1  \nDefining Alerts ............................................................................................  3-3\n3.2.2  \nPreferences Tab.........................................................................................  3-4\n3.2.3  \nTarget Tab..................................................................................................  3-6\n3.2.4  \nMessage Tab..............................................................................................  3-7\n3.2.5  \nViewing Alert Definition Summary ............................................................  3-12\n3.2.6  \nViewing Alert Dashboard..........................................................................  3-12\n4. \nSpend Analysis ........................................................................................ 4-1\n4.1 \nSpend Analysis........................................................................................................  4-1\n4.1.1  \nSpend Analysis in Oracle FLEXCUBE .......................................................  4-1\n4.1.2  \nClassification of Entries ..............................................................................  4-8\n4.1.3  \nClassification of Reversal Entries...............................................................  4-9\n4.2 \nSpend Class by a Bank User.................................................................................  4-10\n4.2.1  \nMaintaining Spend Class by a Bank User ................................................  4-10\n4.2.2  \nViewing Class Code Summary.................................................................  4-11\n4.3 \nSpend Classes for Channel User ..........................................................................  4-11\n4.3.1  \nMaintaining Spend Classes for Channel User..........................................  4-12\n4.3.2  \nViewing Spend Class Summary ...............................................................  4-14\n4.4 \nSpend Rules..........................................................................................................  4-14\n4.4.1  \nDefining Spend Rules...............................................................................  4-14\n4.4.2  \nCreating Conditions with Expressions......................................................  4-16\n4.4.3  \nViewing Customer Spend Analysis Details...............................................  4-18\n4.4.4  \nReclassification of Spend Classes ...........................................................  4-20\n4.4.5  \nDeletion of Spend Class...........................................................................  4-21\n4.4.6  \nDeletion of Sub Class Code .....................................................................  4-21\n4.4.7  \nSplitting a Transaction..............................................................................  4-21\n5. \nCustomer Interactions ............................................................................. 5-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Interactions in Oracle FLEXCUBE",
+        "Reminders"
+      ],
+      "summary": "This page describes how to interact with and manage reminders within the Oracle FLEXCUBE system.",
+      "raw_text": "5.1 \nInteractions in Oracle FLEXCUBE...........................................................................  5-2\n5.2 \nCreate Interactions ..................................................................................................  5-6\n5.2.1  \nCreating Interactions ..................................................................................  5-7\n5.2.2  \nUploading Documents ..............................................................................  5-10\n5.2.3  \nViewing Interaction Summary...................................................................  5-11\n5.2.4  \nViewing Interactions on User Dashboard .................................................  5-12\n6. \nReminders ................................................................................................ 6-1\n6.1 \nReminders in Oracle FLEXCUBE............................................................................  6-1\n6.2 \nCreate Reminders ...................................................................................................  6-2\n6.2.1  \nCreating Reminders....................................................................................  6-2\n6.2.2  \nViewing Reminders on User Dashboard ....................................................  6-4\n6.2.3  \nViewing Reminders Summary ....................................................................  6-4\n7. \nInstructions .............................................................................................. 7-1\n7.1 \nInstructions in Oracle FLEXCUBE...........................................................................  7-1\n7.2 \nMaintain Instructions................................................................................................  7-1\n7.2.1  \nMaintaining Instructions..............................................................................  7-1\n7.2.2  \nViewing Customer Instructions...................................................................  7-3\n7.2.3  \nViewing Instructions Summary ...................................................................  7-4\n8. \nFunction ID Glossary ............................................................................... 8-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter Description"
+      ],
+      "summary": "This page introduces the Oracle FLEXCUBE Interactions module manual, outlining its purpose, target audience, and organization into chapters covering various user roles and functions.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to explain the Interactions (IT) module of Oracle FLEXCUBE. It \nprovides an overview to the module, and provides information on using the Interaction module \nof Oracle FLEXCUBE. \nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized into the following chapters:\nRole\nFunction\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of day operators\nProcessing during end of day/ beginning of day\nFinancial Controller/Product Managers\nGeneration of reports\nChapter \nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual\nChapter 2\nInteractions in Oracle FLEXCUBE help the customers track the informa-\ntion related to their accounts. They also help the bank users identify the \ntasks that require their attention.\nChapter 3\nAlerts give critical information on their accounts or transactions to help \nthem take appropriate actions. The bank staff may also require certain \ninformation on the customer accounts and transactions.\nChapter 4\nSpend Analysis tracks the Debit transactions of a customer. By tracking \nthe debit transaction of an account the customer can manage all the \ndebit transactions in a more effective way.\nChapter 5\nInteractions help capturing the interactions with the customers. This \nhelps you to track and address the request of the customers."
+    },
+    {
+      "page_number": 6,
+      "sections": [],
+      "summary": "This page provides an overview of related documents and icons used in a User Manual, including references to chapters on reminders, instructions, and function ID glossary.",
+      "raw_text": "1-2\n1.5 \nRelated Documents\nProcedures User Manual\n1.6 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\nChapter 6\nReminders describes the methods to create, view and track reminders \nabout important activities that require attention for the bank staff and the \ncustomers.\nChapter 7\nInstructions convey important information to the end user by displaying it \non the dashboard, emailing or sending an SMS.\nChapter 8\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Preferences for Interactions",
+        "Interaction Description"
+      ],
+      "summary": "This page describes how Oracle FLEXCUBE interacts with bank users and customers through various interactions such as preferences settings and different types of communications like reminders, instructions, alerts, and spend analysis.",
+      "raw_text": "2-1\n2. Interactions in Oracle FLEXCUBE\nOracle FLEXCUBE interacts with the bank users and customers based on certain predefined \nparameters. The interactions help the customers track the information related to their \naccounts. They also help the bank users identify the tasks that require their attention. \nOracle FLEXCUBE supports the following interactions:\n2.1 \nPreferences for Interactions\nThis section contains the following topics:\nSection 2.1.1, \"Setting Preferences for Interactions\"\nSection 2.1.2, \"Conversation Preferences Tab\"\nSection 2.1.3, \"Spend Analysis Preferences Tab\"\nSection 2.1.4, \".Viewing Preferences for Interactions\"\nInteraction\nDescription\nConversation\nConversation is the flow of information between you and the end \nuser. It helps you to track and address the request of the end users.\nReminder\nOracle FLEXCUBE allows configuring reminders to remind about \nimportant activities like making a payment, attending meetings and \nso on.\nInstruction\nAn instruction is a piece of information that is conveyed to you and \nthe end user simultaneously on the dashboard. You can provide dif-\nferent messages to different users of the same account.\nAlert\nA business alert is a message that conveys such information by \nemail, sms or as a message on the user dashboard. The alerts can \nbe generated to the customers and bank staff at a regular interval \ndefined in the system.\nSpend Analysis\nBased on the type of expenditure from the account, Oracle FLEX-\nCUBE will classify the debit transactions under different spend \nclasses. This classification helps the customer get the details of the \nmoney spend from the account under each spend class."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Setting Preferences for Interactions"
+      ],
+      "summary": "This section explains how to set preferences for Oracle FLEXCUBE interactions through the 'Interactions Preferences Maintenance' screen and specifies the details that need to be entered.",
+      "raw_text": "2-2\n2.1.1 \nSetting Preferences for Interactions\nYou can set your preferences for Oracle FLEXCUBE interactions using ‘Interactions \nPreferences Maintenance’ screen. To invoke this screen, type ‘ITDINPRF’ in the field at the \ntop right corner of the Application toolbar and click the adjoining arrow button.\nSpecify the following details:\nBank Code\nSpecify the bank code of the corresponding head office branch. The adjoining option list \ndisplays the bank code of the head office branch.\nNote\nYou can maintain these preferences at the head office level only."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Conversation Preferences Tab"
+      ],
+      "summary": "This section explains how to set conversation preferences, including specifying the stale period and default user/role indicator under the 'Conversation Preferences' tab.",
+      "raw_text": "2-3\n2.1.2 \nConversation Preferences Tab\nYou can set the preferences with respect to the conversations under the ‘Conversation \nPreferences’ tab. Click ‘Conversation Preferences’ tab on ‘Interaction Preferences \nMaintenance’ screen.\nSpecify the following details:\nStale Period\nSpecify the period after which a closed conversation is moved to Archival. You can specify \nthe stale period in terms of number of days, months or years.\nIf you choose the unit as ‘Days’, you need to specify the number of days here. Similarly, if you \nchoose the unit as ‘Months’, you need to specify the number of months during which a closed \nconversation will remain active.\nStale Period Unit\nSpecify the unit in which the stale period is specified. You can choose one of the following \nunits:\nDays\nMonths\nYears\nDefault User/Role Indicator\nSpecify whether you are setting the conversation preferences for a particular user or a user \nrole. The drop-down list displays the following options:\nUser\nRole\nChoose the appropriate one."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Default User/Role Name",
+        "Department",
+        "User/Role",
+        "Assigned To"
+      ],
+      "summary": "This page describes how to set conversation preferences by specifying default user or role names, departments, and assigned users or roles.",
+      "raw_text": "2-4\nNote\nIn case, the conversation is not assigned to any user or role, the system will default the \ncorresponding conversation to a user or role.\nDefault User/Role Name\nSpecify the user ID or role name. If you are maintaining the conversation preferences for a \nuser profile, specify the user ID. If you are maintaining the conversation preferences for a user \nrole, specify the user role. If Department wise User/Role is not maintained, then the \nconversation will be assigned to the Default User/Role Name maintained.\nDepartment\nSpecify the department for which you are setting the conversation preferences. The option list \ndisplays all valid department codes maintained in the system. Choose the appropriate one.\nUser/Role\nSpecify whether you are setting the conversation preferences for a particular user or a user \nrole. The drop-down list displays the following options:\nUser\nRole\nChoose the appropriate one.\nAssigned To\nSpecify the user ID or role to which the conversations are assigned. Based on the department \ncode and the applicable class (user/role), the option list displays the user IDs and roles that \nare applicable. Choose the appropriate one.\nYou can add more rows to the list using add button. You can also delete rows by checking the \nrespective checkboxes and clicking the delete button."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Spend Analysis Preferences Tab"
+      ],
+      "summary": "This section describes how to set preferences for spend analysis, including options for enabling spend analysis, specifying archival batch frequency, and defining rule threshold values.",
+      "raw_text": "2-5\n2.1.3 \nSpend Analysis Preferences Tab\nYou can set the preferences with respect to the spend analysis under the ‘Spend Analysis \nPreferences’ tab. Click ‘Spend Analysis Preferences’ tab on ‘Interaction Preferences \nMaintenance’ screen.\nSpecify the following details:\nSpend Analysis Required\nCheck this box to indicate that spend analysis is applicable to the selected bank code. If you \ndo not check this, the system will not enable spend analysis for the bank.\nArchival Batch Frequency\nSpecify the period after which the spend entry should be considered for archival. You can \nspecify the period in terms of number of days, months or years. \nIf you choose the unit as ‘Days’, you need to specify the number of days here. Similarly, if you \nchoose the unit as ‘Months’, you need to specify the number of months after which the spend \nentry will be archived.\nArchival Batch Frequency Unit\nSpecify the unit in which the archival batch frequency is specified. You can choose one of the \nfollowing units:\nDays\nMonths\nYears\nRule Threshold Value\nSpecify the rule threshold value. This is the threshold value for the negative points \naccumulated for a rule ID to lower its priority by a notch.\nOracle FLEXCUBE classifies debit transactions under different spend classes based on the \nspend rules maintained. If a transaction is reclassified under a different spend class, the"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Viewing Preferences for Interactions"
+      ],
+      "summary": "This section explains how to view preferences set for Oracle FLEXCUBE interactions using the 'Interactions Pref Summary' screen and describes the parameters that can be used for queries.",
+      "raw_text": "2-6\nsystem applies negative points to the Rule ID. Once the accumulated negative points exceeds \nthe rule threshold value specified here, the system lowers the priority of the rule by a notch.\nOnce you have captured the above details, save the preferences.\n2.1.4 \n.Viewing Preferences for Interactions\nYou can view the preferences set for Oracle FLEXCUBE interactions using 'Interactions Pref \nSummary' screen. To invoke this screen, type 'ITSINPRF' in the field at the top right corner of \nthe Application toolbar and click the adjoining arrow button.\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nAuthorization Status\nBank Code\nRecord Status\nSelect any or all of the above parameters for a query and click 'Search' button. System \ndisplays the records meeting the selected criteria:\nAuthorization Status\nRecord Status\nBank Code\nDefault User/ Role Indicator\nStale Period\nArchival Period\nDefault User/ Role Name\nThreshold value"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Alert Selection Criteria",
+        "Defining Alert Selection Criteria"
+      ],
+      "summary": "This page discusses how to define and view alert selection criteria in Oracle FLEXCUBE for generating alerts to bank staff and customers.",
+      "raw_text": "3-1\n3. Alerts\nThe bank customers may require critical information on their accounts or transactions to help \nthem take appropriate actions. The bank staff may also require certain information on the \ncustomer accounts and transactions. A business alert is a message that conveys such \ninformation by email, sms or as a message on the user dashboard. \nOracle FLEXCUBE allows you to define business alerts for the bank staff as well as bank \ncustomers. The alerts can be generated to the customers and staff at a regular interval \ndefined in the system. \nThis chapter contains the following sections:\nSection 3.1, \"Alert Selection Criteria\"\nSection 3.2, \"Alerts\"\n3.1 \nAlert Selection Criteria\nThis section contains the following topics:\nSection 3.1.1, \"Defining Alert Selection Criteria\"\nSection 3.1.2, \"Viewing Alert Criteria Definition Summary\"\n3.1.1 \nDefining Alert Selection Criteria\nYou can define alert selection criteria in Oracle FLEXCUBE. The system identifies the set of \ncustomers who receive the alerts based on the selection criteria. \nThe system generates the alerts based on the selection criteria defined in ‘Alert Selection \nCriteria’ screen. To invoke this screen, type ‘ITDACMNT’ in the field at the top right corner of \nthe Application toolbar and click the adjoining arrow button.\nSpecify the following details:"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Criteria Code",
+        "Description",
+        "Select",
+        "From and Where Clause",
+        "Final SQL Statement"
+      ],
+      "summary": "This page explains how to define criteria for generating alerts in a system, including specifying codes, descriptions, SQL statements, and ensuring the final SQL statement is correct.",
+      "raw_text": "3-2\nCriteria Code\nSpecify a unique code that identifies the criterion that you are defining. This code will be the \nunique identifier of the criterion based on which alert is generated.\nThe system will not allow you to modify the criteria code after saving it. \nDescription\nSpecify a brief description of the selection criterion that you are defining.\nSelect\nSpecify the ‘Select’ part of the selection criterion. \nThe criterion must be defined as an SQL statement with aliases. However, you need not enter \nthe keyword ‘SELECT’. \nThe alias naming convention is ‘ColX’. Here, ‘X’ refers to the sequential number of the column \nin the ‘Select’ clause. \nExamples are s1.cust_ac_no Col1 ,s1.cust_no Col2 ,s1.ccy Col3 ,s1.account_class Col4 \n,s1.ACY_OPENING_BAL Col5, s2.customer_name1 Col6,  s2.language Col7, \ns2.default_media Col8\nBased on the columns defined under ‘Select’ and ‘From and Where Clause’, the system forms \nthe final SQL statement. You need to ensure that the final SQL statement is a syntactically \ncorrect SQL statement.\nFrom and Where Clause\nSpecify the remaining part of the selection criterion. You need not enter the keyword ‘From’. \nBased on the columns defined under ‘Select’ and ‘From and Where Clause’, the system forms \nthe final SQL statement. You need to ensure that the final SQL statement is a syntactically \ncorrect SQL statement.\nFinal SQL Statement\nThe system concatenates the values defined under ‘Select’ and ‘From and Where Clause’ \nand displays the final SQL statement. This must be a valid SQL statement. \nThe system generates the alert messages based on this final SQL statement. \nOnce you have captured the details, save the record. \nTo define the criteria as SQL statement, you need to have sufficient understanding about the \ndata model of Oracle FLEXCUBE and SQL programming language."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Viewing Alert Criteria Definition Summary",
+        "Alerts",
+        "Defining Alerts"
+      ],
+      "summary": "This page describes how to view alert criteria definitions in Oracle FLEXCUBE and introduces various sections related to defining and managing alerts.",
+      "raw_text": "3-3\n3.1.2 \nViewing Alert Criteria Definition Summary\nYou can view a summary of the alert criteria maintained in Oracle FLEXCUBE using ‘Alert \nSelection Criteria Summary’ screen. To invoke this screen, type ‘ITSACMNT’ in the field at \nthe top right corner of the Application toolbar and click the adjoining arrow button.\nYou can search for the records based on one or more of the following parameters:\nAuthorization status of the record\nStatus of the record\nSelection criteria code\nSelection criteria description \nOnce you have set the search parameters, click the ‘Search’ button. The system displays the \nrecords that match the search criteria. Double-click a record to view the details.\n3.2 \nAlerts\nThis section contains the following topics:\nSection 3.2.1, \"Defining Alerts\"\nSection 3.2.2, \"Preferences Tab\"\nSection 3.2.3, \"Target Tab\"\nSection 3.2.4, \"Message Tab\"\nSection 3.2.5, \"Viewing Alert Definition Summary\"\nSection 3.2.6, \"Viewing Alert Dashboard\"\n3.2.1 \nDefining Alerts\nYou can define specific alerts to be sent to the bank staff and customers. You need to define \nthe alert codes and map the alert code to the customer or bank user using ‘Alert Code"
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Alert Code",
+        "Description",
+        "Criteria Code",
+        "Final SQL Statement",
+        "Preferences Tab"
+      ],
+      "summary": "This page describes how to define alerts in a system by specifying alert codes, descriptions, criteria codes, and final SQL statements, as well as setting preferences for alert message generation.",
+      "raw_text": "3-4\nDefinition’ screen. To invoke this screen, type ‘ITDADMNT’ in the field at the top right corner \nof the Application toolbar and click the adjoining arrow button.\nSpecify the following details:\nAlert Code\nSpecify the alert code to be mapped to the customer or bank.\nDescription\nSystem displays the description of the alert based on the alert code specified. \nCriteria Code\nSpecify the selection criteria code to be used for the alert. The option list displays all valid \nselection criteria codes maintained in the system. Choose the appropriate one. \nFinal SQL Statement\nBased on the criteria code selected, the system displays the final SQL statement. \n3.2.2 \nPreferences Tab\nYou can set the preferences for alert message generation under ‘Preferences’ tab. Click \n‘Preferences’ tab on ‘Alert Definition’ screen:\nUnder this tab, you can set the following preferences for the alert generation."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Effective From",
+        "End Date",
+        "Frequency",
+        "View Days",
+        "Actionable"
+      ],
+      "summary": "This page describes settings for generating and managing alert messages, including specifying dates, frequency, visibility duration, and actionability.",
+      "raw_text": "3-5\nEffective From\nSpecify the start date of the alert message generation. Click the date button to choose a date \nfrom the calendar. \nThe system will generate the alerts for the users/customers from this date. \nEnd Date\nSpecify the end date of the alert message generation. Click the date button to choose a date \nfrom the calendar. \nThe system will generate the alerts for the users/customers until this date. \nFrequency\nSpecify the frequency of the alert message generation. Depending on the requirement, you \ncan choose one of the following frequencies:\nOnce\nDaily\nWeekly\nMonthly\nYearly\nView Days\nSpecify the number of days you wish to keep the alert message in the dashboard or the portal. \nThe user or customer can view the alert message in the dashboard or portal for the number \nview days maintained here. After that, the message will disappear from the dashboard or \nportal. \nActionable\nCheck this box to indicate that the alert is an actionable alert. You can check this box only if \nthe Target Type is selected as ‘Bank User’.\nNote\n– \nDuring batch processing, the system picks the alert code and creates Interaction/\nAlert based on the Alert type defined.\n– \nIf you define the alert as actionable, then during batch process, the system creates \nonly Interaction(s) and not Alert(s). If there are multiple targets setup for an \nactionable alert, the interaction(s) are auto-assigned to any one of them only.\n– \nIf you define the alert as non-actionable, then during batch process, the system cre-\nates only Alert(s) not Interaction(s)."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Target Tab"
+      ],
+      "summary": "This section describes how to set up alert message targets by specifying target types and options for customer and bank user alerts in a system.",
+      "raw_text": "3-6\n3.2.3 \nTarget Tab\nYou can capture the details of the customer and bank users for who will receive the alert \nmessage. Click ‘Target’ tab.\nSpecify the following details:\nTarget Type\nThe target type indicates the receiver of the alert message. The drop-down list displays the \nfollowing target types:\nCustomer – select this if the alert message is intended only for the customer\nBank User – select this if alert message is intended only the bank user\nBoth – select this if the alert message is intended for the customers and the bank users\nYou can choose the appropriate one. \nCustomer/Both\nSpecify the intended target. The drop-down list displays the following options:\nCustomer Only – if you select this, the system generates the alert to the customer alone\nCustomer and RM Direct - if you select this, the system generates the alert to the \ncustomer and the direct relationship manager\nCustomer and Full RM Hierarchy - if you select this, the system generates the alert to \nthe customer and the full relationship manager hierarchy\nRM Direct Only - if you select this, the system generates the alert to the direct \nrelationship manager alone\nRM Full Hierarchy Only - if you select this, the system generates the alert to the full \nrelationship manager hierarchy\nYou can select one of the above options only for the target types ‘Customer’ and ‘Both’.\nCustomer No Column Position\nSpecify the position of the customer number column in the SQL statement. If you have \nselected the target type as ‘Customer’ or ‘Both’, it is mandatory to specify the customer \nnumber column position."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Bank User Type",
+        "Message Tab"
+      ],
+      "summary": "This page explains how to specify bank user types and message delivery channels for alert messages in a banking system.",
+      "raw_text": "3-7\nBank User Type\nSpecify the bank user type to receive the alert message.  The drop-down list displays the \nfollowing user types:\nRole\nUser ID\nChoose the appropriate one.\nThis is applicable only if the target type is ‘Bank User’. \nTarget ID\nSpecify the target ID. If the Bank User Type is ‘Role’, you need to specify the particular user \nrole. If the Bank User Type is ‘User ID’, you need to specify the respective user ID.\nYou can choose the appropriate target ID from the option list. The alert message will be \ngenerated to the target IDs selected here. \nDescription\nThe system displays the description of the selected target ID.\nYou can add more bank user types by clicking the add button. You can also delete a bank \nuser type using delete button. \n3.2.4 \nMessage Tab\nYou can capture the details of the message to be sent to the customers and users under \n‘Message’ tab. Click ‘Message’ tab.\nYou can capture the following details under this tab:\nChannel\nSpecify the mode of message delivery. The drop-down list displays the following channels:\nDashboard – applicable to bank users only\nEmail – applicable to customers only\nSMS – applicable to customers only"
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Language",
+        "Subject",
+        "Customer Message",
+        "User Message",
+        "Using Variables in Messages"
+      ],
+      "summary": "This page describes how to configure alert messages for both customers and bank users, including specifying language, subject, message content with static and variable texts, and using variables in the messages.",
+      "raw_text": "3-8\nChoose the appropriate one. The alert message is delivered to the customer/bank user by the \nmode specified here. \nLanguage\nSpecify the language of the alert message. The option list displays all valid languages that are \napplicable. Choose the appropriate one.\nSubject\nSpecify a subject that is significant to the alert message to be generated. \nCustomer Message\nEnter the message to be generated for the customer. The message may contain two types of \ntext, viz. static and variables. \nThe static text will be generated as they are defined here. The variable text will vary based on \nthe intended customer and the nature of the message. \nThis field is enabled only if the alert message is generated for the customer. \nUser Message\nEnter the message to be generated for the bank user or RM. The message may contain two \ntypes of text, viz. static and variables. \nThe static text will be generated as they are defined here. The variable text will vary based on \nthe intended user and the nature of the message. \nThis field is enabled only if the alert message is generated for the bank user.\n3.2.4.1 \nUsing Variables in Messages\nYou can use certain variables in the alert messages generated for customers and users. Few \nof the variables are given below:\nYou can consider the following examples.\n1. Alert for the bank user about the customers who have more than three loans \nwith statuses other than ‘NORM’ with an adversity level greater than one.\nIn order to create this alert, you need to maintain the following selection criterion in ‘Alert \nSelection Criteria’ screen. \nSELECT \ncust.customer_name1 col1, cust.customer_no col2, a.user_defined_status col3, dt.today \ncol4,COUNT(1) col5\nVariable\nDescription\n$USERID \nWhile generating the alert message, the system will replace this varia-\nble with the corresponding user ID from ‘Alert Definition’.\n$USERNAME \nWhile generating the alert message, the system will replace this attrib-\nute with the user name of the corresponding user ID defined in the \n‘Alert Definition’.\n$TODAY \nWhile generating the alert message, the system will replace this attrib-\nute with the current system date."
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "This page describes a SQL query to identify customers with multiple loans in adverse status and outlines how to create an alert message for bank users based on this query.",
+      "raw_text": "3-9\nFROM cltb_account_master a,\n     sttm_customer cust,\n     sttm_dates    dt\nWHERE cust.customer_no = a.customer_id\nAND dt.branch_code = a.branch_code\nAND a.user_defined_status IN \n      (SELECT b.status_code \n      FROM CLTM_PRODUCT_STATUS_LEVEL b\n      WHERE b.product_code = a.product_code\n            AND b.adversity_level  in  \n            (SELECT c.adversity_level\n      FROM CLTM_PRODUCT_STATUS_LEVEL c\n      WHERE c.product_code = a.product_code\n      AND c.status_code <> 'NORM'\n      and c.adversity_level > 1))\n  Group By cust.customer_name1, cust.customer_no , a.user_defined_status, dt.today\n  Having count(1) > 3\nFurther, in ‘Alert Definition’ screen under ‘Message’ tab, you need to create an alert message \nas follows:\nNotice that three variables viz. $USERNAME, $USERID and $TODAY are used in the above \nmessage. While generating the actual message for a user, the system replaces these \nvariables with the bank user name, user ID and the current application date. \nDear $USERNAME ($USERID),\nKindly note that as on today ($TODAY), the number of loans for the customer $1 (ID \n$2) with status $3 or worse is $5. \nRegards,\n<Bank Name>\nThis is an auto-generated message and does not need any signatures."
+    },
+    {
+      "page_number": 22,
+      "sections": [],
+      "summary": "This page describes how to create an alert for fixed depositors' maturity date intimation in a banking system, including the necessary selection criteria and the message template.",
+      "raw_text": "3-10\nThe actual message will be generated as follows:\n2. Alert for fixed depositors’ maturity date intimation, where the target type is \n‘Customer’ and ‘Customer/Both’ is ‘Customer Only’.\nIn order to create this alert, you need to maintain the following selection criterion in ‘Alert \nSelection Criteria’ screen.\nSELECT s1.cust_ac_no col1, s1.cust_no col2, s1.ccy col3, s1.account_class col4,  \ns1.ACY_OPENING_BAL col5,   \ns2.customer_name1 col6, s2.language col7, s2.default_media col8   \nFROM  fcubs12r1.sttm_cust_account s1, fcubs12r1.sttm_customer s2,fcubs12r1.ictm_acc \ns3\nWHERE    account_class = 'TD01'  \nAND s1.cust_no = s2.customer_no   and s1.cust_ac_no = s3.acc\nFurther, in ‘Alert Definition’ screen under ‘Message’ tab, you need to create an alert message \nas follows:\nThe actual message will be generated as follows:\nDear Smith (SM000123),\nKindly note that as on today (01st Mar, 2012), the number of loans for the customer \nElizabeth (ID C038756) with status NPA or worse is 5. \nRegards,\n<Bank Name>\nThis is an auto-generated message and does not need any signatures.\nDear $6 (FD a/c No $1),\nKindly note that your fixed deposit, bearing account no. $1 (with an initial deposit of \n$3 $5) is due for maturity on $9. The maturity balance for the deposit is $3 $5.\nRegards,\n<Bank Name>\nThis is an auto-generated message and does not need any signatures.\nDear John Mathew (FD a/c No FD00003456),\nKindly note that your fixed deposit, bearing account no. FD00003456 (with an initial \ndeposit of USD 1,000.00) is due for maturity on 07-Mar-2012.\nRegards,\n<Bank Name>\nThis is an auto-generated message and does not need any signatures."
+    },
+    {
+      "page_number": 23,
+      "sections": [],
+      "summary": "This page describes how to set up an alert for fixed depositors' maturity date intimation in a specific system, detailing the necessary criteria and message content.",
+      "raw_text": "3-11\n3. Alert for fixed depositors’ maturity date intimation, where the target type is \n‘Customer’ and ‘Customer/Both’ is ‘RM Direct Only’.\nIn order to create this alert, you need to maintain the following selection criterion in ‘Alert \nSelection Criteria’ screen.\nSELECT s1.cust_ac_no col1, s1.cust_no col2, s1.ccy col3, s1.account_class col4,  \ns1.ACY_OPENING_BAL col5,   \ns2.customer_name1 col6, s2.language col7, s2.default_media col8   \nFROM  fcubs12r1.sttm_cust_account s1, fcubs12r1.sttm_customer s2,fcubs12r1.ictm_acc \ns3\nWHERE    account_class = 'TD01'  \nAND s1.cust_no = s2.customer_no   and s1.cust_ac_no = s3.acc\nFurther, in ‘Alert Definition’ screen under ‘Message’ tab, you need to create an alert message \nas follows:\nThe actual message will be generated as follows:\nDear $RM ($RMUID),\nKindly note that your customer $2 (customer id $6) has a fixed deposit (no. $1), \nwhich is maturing on $9. The maturity balance for the deposit is $3 $5.\nRegards,\n<Bank Name>\nThis is an auto-generated message and does not need any signatures.\nDear Joseph (RM0875344),\nKindly note that your customer John Mathew (customer ID CUST23456) has a fixed \ndeposit (no. FD00003456), which is maturing on 07th Mar, 2012. The maturity bal-\nance for the deposit is USD 12,000.\nRegards,\n<Bank Name>\nThis is an auto-generated message and does not need any signatures."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Viewing Alert Definition Summary",
+        "Viewing Alert Dashboard"
+      ],
+      "summary": "This page explains how to view a summary of alerts defined in Oracle FLEXCUBE using the 'Alert Definition Summary' screen and how to view user alerts on the 'Alerts' screen in the Dashboard.",
+      "raw_text": "3-12\n3.2.5 \nViewing Alert Definition Summary\nYou can view a summary of the alerts defined in Oracle FLEXCUBE using ‘Alert Definition \nSummary’ screen. To invoke this screen, type ‘ITSADMNT’ in the field at the top right corner \nof the Application toolbar and click the adjoining arrow button.\nYou can search for the records based on one or more of the following parameters:\nAuthorization status of the record\nAlert code\nAlert description\nFrequency of the alert\nEnd date\nTarget type\nRecord status\nCriteria code\nEffective date\nView days\nCustomer number column position\nCustomer/both\nOnce you have set the search parameters, click ‘Search’ button. The system displays the \nrecords that match the search criteria. Double-click a record to view the detailed screen of the \nrecord.\n3.2.6 \nViewing Alert Dashboard\nOracle FLEXCUBE generates and displays the user alerts defined for your user profile. You \ncan view the user alerts on ‘Alerts’ screen in your Dashboard. You can also view the ‘Alerts’"
+    },
+    {
+      "page_number": 25,
+      "sections": [],
+      "summary": "This page describes how to access and view alert messages in a user dashboard by typing 'ITDALEDB' into the Application toolbar and clicking on the arrow button.",
+      "raw_text": "3-13\nscreen by typing ‘ITDALEDB’ in the field at the top right corner of the Application toolbar and \nclicking the adjoining arrow button.\nThis screen displays five latest alert messages that require your attention. You can click the \nlink ‘more…’ to view the remaining alert messages in your Dashboard. The messages are \narranged in descending order of the effective date.\nYou can view the following details of the alert messages:\nSubject line of the alert message\nMessage\nEffective date of the message\nFor further details on User Dashboards, refer to the User Dashboards user manual."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Spend Analysis",
+        "Spend Analysis in Oracle FLEXCUBE"
+      ],
+      "summary": "This page explains the spend analysis feature of Oracle FLEXCUBE and its various maintenance and operations, including transaction classification and reclassification.",
+      "raw_text": "4-1\n4. Spend Analysis\nOracle FLEXCUBE uses Spend Analysis to track the Debit transactions of a customer. By \ntracking the debit transaction of an account the customer can manage all the debit \ntransactions in a more effective way.\nThis chapter explains the spend analysis feature of Oracle FLEXCUBE and various \nmaintenances and operations associated with it.\nThis chapter contains the following sections:\nSection 4.1, \"Spend Analysis\"\nSection 4.2, \"Spend Class by a Bank User\"\nSection 4.3, \"Spend Classes for Channel User\"\nSection 4.4, \"Spend Rules\"\n4.1 \nSpend Analysis\nThis section contains the following topics:\nSection 4.1.1, \"Spend Analysis in Oracle FLEXCUBE\"\nSection 4.1.2, \"Classification of Entries\"\nSection 4.1.3, \"Classification of Reversal Entries\"\n4.1.1 \nSpend Analysis in Oracle FLEXCUBE\nSpend analysis feature of Oracle FLEXCUBE supports the following actions:\nAutomatically classify transactions under different spend classes\nCreate new spend classes and sub classes as well. This can be done by a bank user or \na customer from external channels (channel user).\nChannel user can add sub class codes to bank defined class codes.\nChannel user can add sub class codes to the class codes that are created by the same \nuser.\nManually reclassify transactions into another class code or sub class code\nView spend analysis details\nChannel user can split a transaction amount into multiple amounts.\nDeletion of channel user defined class code and class sub code.\nRe-opening of a deleted class code or sub class code.\nOracle FLEXCUBE classifies the debit transactions from a customer account under different \nspend classes.\nA spend class refers to the classification of debit transactions made from a customer account \nfor a specific purpose. Based on the type of expenditure from the account, Oracle FLEXCUBE \nwill classify the debit transactions under different spend classes.\nThis classification is available only for the respective customer. It helps the customer to get \nthe details of the money spend from the account under each spend class.\nConsider the examples."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Classifying transactions under spend classes",
+        "Reclassifying transactions to a Bank defined Class Code/Sub Class Code"
+      ],
+      "summary": "This page discusses how bank transactions are classified into different spend classes and sub-classes using predefined rules in the Oracle FLEXCUBE system, and how these classifications can be reclassified by the user.",
+      "raw_text": "4-2\n1. Classifying transactions under spend classes\nMr. Sharma is a customer of the bank. He has access to the internet banking system (in this \ncase the Oracle FLEXCUBE Direct Banking System) to view the breakup of all transactions \ninvolving debits from his account.\nThe transactions are already grouped under different spend classes based on certain rules \neither pre-defined or maintained in Oracle FLEXCUBE.\nMr. Sharma’s debit transactions from September 01, 2013 to September 20, 2013 are given \nbelow:\nBased on the spend rules, the system classifies the transactions under different Class Codes \nand Sub Class Codes as follows:The system thus classifies the debit transactions from the \naccount based on the bank defined class codes and sub class codes.. \n2. Reclassifying transactions to a Bank defined Class Code/Sub Class Code\nAfter a week, Mr. Sharma views the breakup of his transactions from September 01, 2013 to \nSeptember 20, 2013. \nHe observes that the transactions are classified under different spend classes as follows:\nDate\nCurrency\nAmount\nCategorization\n01-09-2013\nINR\n40000.00\nCHome Loan EMI\n08-09-2013\nINR\n500.00\nSwisscom Mobile Bill\n10-029-2013\nINR\n312000.00\nCitbank Credit Card Bill\n12-09-2013\nINR\n6000.00\nElectricity Bill\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n01-09-2013\nINR\n40000.00\nLoan\nHome Loan\n08-09-2013\nINR\n500.00\nMobile Bill\nSwisscom \nMobile Bill\n10-09-2013\nINR\n12,000.00\nCredit Card \nBill\nCitbank \nCredit Card\n12-09-2013\nINR\n6,000.00\nElectricity \nBill\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n01-09-2013\nINR\n40,000.00\nLoan\nHome Loan"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "3. Re-categorization of a transaction to a bank defined “Class Code” and user defined “Sub Class Code”."
+      ],
+      "summary": "This page discusses Mr. Sharma's process of re-categorizing his transactions into specific class and sub-class codes, including adding a new sub-class code for car servicing.",
+      "raw_text": "4-3\nMr. Sharma knows that he has withdrawn INR 5000 and INR 2000 from his account through \nan ATM transaction. He then used that amount for car servicing and medicines respectively. \nAlso, he is aware that he has paid the Electricity Bill for BESCOM.Now, by seeing the \ntransactions he has re-categorized the transactions based on his spending nature.\n3. Re-categorization of a transaction to a bank defined “Class Code” and user \ndefined “Sub Class Code”.\nMr. Sharma finds that there is no specific “Sub Class Code” available to categorize the car \nservicing under Repair and Maintenance Class Code which has been defined by the bank. \nHence, he adds a new “Sub Class Code” called “Car Servicing” under the bank defined “Class \nCode” Repair and Maintenance and re-categorizes the transaction of INR 5000 to “Car \nServicing”. \n08-09-2013\nINR\n500.00\nMobile Bill\nSwisscom \nMobile Bill\n10-09-2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank \nCC\n12-09-2013\nINR\n6,000.00\nElectricity Bill\n14-09-2013\nINR\n5,000.00\nCash\n17-09-2013\nINR\n2,000.00\nCash\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/9/2013\nINR\n40,000.00\nLoan\nHome Loan \n8/9/2013\nINR\n500\nMobile Bill\nSwisscom \nMobile Bill\n10/9/2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank \nCC\n12/9/2013\nINR\n6,000.00\nElectricity Bill\nBESCOM\n14/09/2013\nINR\n5,000.00\nRepair & \nMaintenance\n-\n17/09/2013\nINR\n2,000.00\nMedical Bills\n-\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/9/2013\nINR\n40,000.00\nLoan\nHome Loan \n8/9/2013\nINR\n500\nMobile Bill\nSwisscom \nMobile Bill"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "4. Re-categorization of a Transaction to a user defined ‘Class Code’ and user defined ‘Sub Class Code’."
+      ],
+      "summary": "This section describes how Mr.Sharma re-categorized a transaction from 'Other Expenses' to 'Funds Transfer' with specific sub-class codes in his account.",
+      "raw_text": "4-4\n4. Re-categorization of a Transaction to a user defined ‘Class Code’ and user \ndefined ‘Sub Class Code’.\nOn September 23, 2013 Mr.Sharma logs in to his account and views his transactions from 01-\nSeptember-2013 to 23-September-2013. In this period, he noticed that two or more \ntransactions are made in the account as shown below:\n20-September-2013: He has a made a funds transfer of INR.3000 to his friend Mr.Akshay \nwithin the same bank. It has been classified as “Other Expenses” in spend class based on the \nbank defined rules.Mr.Sharma re-categorizing the above transaction as follows:\nFor INR.3, 000, he created a new ‘Class Code’ called ‘Funds Transfer’ new “Sub Class Code” \ncalled “To Akshay”, and then he re-categorized the transaction.\n10/9/2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank \nCC\n12/9/2013\nINR\n6,000.00\nElectricity Bill\nBESCOM\n14/09/2013\nINR\n5,000.00\nRepair & \nMaintenance\nCar Servicing\n17/09/2013\nINR\n2,000.00\nMedical Bills\n-\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/9/2013\nINR\n40,000.00\nLoan\nHome Loan \n8/9/2013\nINR\n500\nMobile Bill\nSwisscom \nMobile Bill\n10/9/2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank \nCC\n12/9/2013\nINR\n6,000.00\nElectricity Bill\nBESCOM\n14/09/2013\nINR\n5,000.00\nRepair & \nMaintenance\nCar Servicing\n17/09/2013\nINR\n2,000.00\nMedical Bills\n-\n20/09/2013\nINR\n3,000.00\nOther \nExpenses\n-\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/9/2013\nINR\n40,000.00\nLoan\nHome Loan \n8/9/2013\nINR\n500\nMobile Bill\nSwisscom \nMobile Bill"
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "5. Deletion of User Defined ‘Sub Class Code’"
+      ],
+      "summary": "This section describes how Mr. Sharma logs into the system and deletes a user-defined 'Sub Class Code' for car servicing, with transactions being automatically reassigned to their parent class code.",
+      "raw_text": "4-5\n5. Deletion of User Defined ‘Sub Class Code’\nMr.Sharma logs into the system and feels that he does not require specific “Sub Class Code” \nfor car servicing and that he has deleted the “Sub Class Code -Car Servicing”. Here, Car \nServicing is under the “Class Code -Repair and Maintenance”. Though the transactions are \nassigned to the “Sub Class Code - Car Servicing” the system allows the user to delete the \nuser defined sub class codes and assigns the transaction automatically to its parent class \ncode “Repair and Maintenance”.\n10/9/2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank CC\n12/9/2013\nINR\n6,000.00\nElectricity Bill\nBESCOM\n14/09/2013\nINR\n5,000.00\nRepair & \nMaintenance\nCar Servicing\n17/09/2013\nINR\n2,000.00\nMedical Bills\n-\n20/09/2013\nINR\n3,000.00\nFunds Trans-\nfer\nTo Akshay\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/9/2013\nINR\n40,000.00\nLoan\nHome Loan \n8/9/2013\nINR\n500\nMobile Bill\nSwisscom \nMobile Bill\n10/9/2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank \nCC\n12/9/2013\nINR\n6,000.00\nElectricity Bill\nBESCOM\n14/09/2013\nINR\n5,000.00\nRepair & \nMaintenance\nCar Servicing\n17/09/2013\nINR\n2,000.00\nMedical Bills\n-\n20/09/2013\nINR\n3,000.00\nFunds Trans-\nfer\nTo Akshay\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/9/2013\nINR\n40,000.00\nLoan\nHome Loan \n8/9/2013\nINR\n500\nMobile Bill\nSwisscom \nMobile Bill\n10/9/2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank CC"
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "6. Deletion of User Defined ‘Class Code’"
+      ],
+      "summary": "This page describes a scenario where Mr. Sharma attempts to delete a user-defined class code but is prevented due to underlying transactions and explains how to reclassify the transactions first.",
+      "raw_text": "4-6\n6. Deletion of User Defined ‘Class Code’\nMr.Sharma logs into the system and feels that he does not require the Class Code “Funds \nTransfer”. While he is trying to delete this class code, the system display an error message \nstating that the “Class Codes which has underlying transactions cannot be deleted”. \nSince the class code “Funds Transfer” has a “Sub Class Code - To Akshay” and it has an \nunderlying transaction, the system does not allow the user to delete the user defined class \ncode. User need to re classify the underlying transaction to any other “Class Code/Sub Class \nCode” to delete the Class Code “Funds Transfer”.\n12/9/2013\nINR\n6,000.00\nElectricity Bill\nBESCOM\n14/09/2013\nINR\n5,000.00\nRepair & \nMaintenance\n-\n17/09/2013\nINR\n2,000.00\nMedical Bills\n-\n20/09/2013\nINR\n3,000.00\nFunds Trans-\nfer\nTo Akshay\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/9/2013\nINR\n40,000.00\nLoan\nHome Loan \n8/9/2013\nINR\n500\nMobile Bill\nSwisscom \nMobile Bill\n10/9/2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank CC\n12/9/2013\nINR\n6,000.00\nElectricity Bill\nBESCOM\n14/09/2013\nINR\n5,000.00\nRepair & \nMaintenance\n-\n17/09/2013\nINR\n2,000.00\nMedical Bills\n-\n20/09/2013\nINR\n3,000.00\nFunds Trans-\nfer\nTo Akshay\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/9/2013\nINR\n40,000.00\nLoan\nHome Loan \n8/9/2013\nINR\n500\nMobile Bill\nSwisscom \nMobile Bill\n10/9/2013\nINR\n12,000.00\nCredit Card \nBill\nCITI Bank \nCC"
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Splitting of a Transaction"
+      ],
+      "summary": "This page describes how Mr. Ajay uses Oracle FLEXCUBE Direct Banking system to split his ATM cash transactions into different sub-class codes for better categorization and spend analysis.",
+      "raw_text": "4-7\n7. Splitting of a Transaction\nThe following transactions are made by a customer whose name is Mr.Ajay. He has the \naccess to internet banking system (in this case the Oracle FLEXCUBE Direct Banking \nsystem) and he will be able to view the breakup of all the transactions involving debits from \nhis account using spend analysis facility.\nHis transactions (only debits) from 01-November- 2013 to 20- November-2013 involve the \nfollowing:\nMr.Ajay realized that he has withdrawn cash from an ATM and used it for multiple purposes \nlike Purchasing Medicines, Groceries and Pizza. Hence, he splits the cash transactions into \nthree and assigns to 3 “Sub Class Codes” created by him. N.\nINR 5000 – For Medical Bills.\nINR 3000 – For Groceries\nINR 2000 – For Pizza\nFor INR.5, 000, he has created three new “Sub Class Codes” called “Medical Bills”, \n“Groceries” and “Pizza” under the “Class Code - Cash” and then he re-categorizes the \ntransaction.\n12/9/2013\nINR\n6,000.00\nElectricity Bill\nBESCOM\n14/09/2013\nINR\n5,000.00\nRepair & \nMaintenance\n-\n17/09/2013\nINR\n2,000.00\nMedical Bills\n-\n20/09/2013\nINR\n3,000.00\nFunds \nTransfer\nTo Akshay\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/11/2013\nINR\n40,000.00\nLoan\n-\n8/11/2013\nINR\n500\nMobile Bill\n-\n10/11/2013\nINR\n12,000.00\nCredit Card \nBill\n-\n20/11/2013\nINR\n10,000.00\nCash\n-\nDate\nCurrency\nAmount\nCategorization\nClass Code\nSub Class \nCode\n1/11/2013\nINR\n40,000.00\nLoan\n-\n8/11/2013\nINR\n500\nMobile Bill\n-\n10/11/2013\nINR\n12,000.00\nCredit Card \nBill\n-"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Classification of Entries"
+      ],
+      "summary": "This section explains how debit entries are classified into spend classes based on transaction attributes defined in the 'Spend Rule Maintenance' screen.",
+      "raw_text": "4-8\n4.1.2 \nClassification of Entries\nEvery debit entry can be classified under a spend class based on certain attributes held by \nthe transaction. \nBased on the rules defined in the ‘Spend Rule Maintenance’ screen, these attributes decide \nthe classification of a transaction. \nThe following entries will be taken up for classification:\nDebit entries\nEntries involving CASA accounts for whom spend analysis tracking is allowed at the \naccount level \nAn entry has the following attributes:\n20/11/2013\nINR\n5,000.00\nCash\nMedical Bills\n20/11/2013\nINR\n3,000.00\nCash\nGroceries\n20/11/2013\nINR\n2,000.00\nCash\nPizza\nField Name\nDescription\nSpend Class\nThe Spend Class to which the entry/transaction is mapped to.\nSource\nThe Source Code of the Internal/External System\nModule\nThe Module encompassing the entry in consideration\nTransaction Ref-\nerence\nThe Reference Number of a transaction\nEvent Code\nThis would identify the purpose for which the transaction had been \ntriggered\nEvent Code \nDescription\nThe description of the event code used to identify the purpose of the \ntransaction.\nBranch Code\nThe branch from which the entry was triggered.\nTransaction Date\nThe date on which the transaction had occurred.\nCustomer\nThe Customer for whom the transaction had occurred.\nAccount Number\nThe account number for which the transaction was triggered.\nAmount\nThe amount which was transacted\nCurrency\nCurrency of the above mentioned Amount\nAdditional Infor-\nmation\nAdditional information about the transaction detailed in the preced-\ning statement narrative which is to be passed on to the account \nowner.\nExternal System \nUser ID\nThe User ID mapped to the External System."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Classification of Reversal Entries",
+        "Reversal of Entries for Split Transactions"
+      ],
+      "summary": "This section explains how reversal entries are classified and handled in spend analysis, including uncategorization if a match is found or the application of normal categorization rules. It also describes the process for reversing split transactions.",
+      "raw_text": "4-9\nEach entry considered for spend analysis is subject to a rule-application logic, which takes the \nentry through each rule arranged in ascending order of priority. Once a rule succeeds in its \nexecution, the spend class associated with that rule is assigned to the entry and the rest of \nthe rules are not executed. This process is repeated for the rest of the entries. \n4.1.3 \nClassification of Reversal Entries\nIn case of a reversal entry, either the FCY amount/LCY amount is negative or the event is \nreversal-specific or both.\nA reversal entry is considered if the following attributes match the original entry:\nThe reversed entry is matched with the original entry by searching spend entries. If the entry \nis found, the original entry and reversed entry are uncategorized. The process status is \nupdated as ‘Deleted’ so that the entries are not considered for spend analysis. The \ncorresponding entry in spend entry group is also updated.\nIf a match for a reversal entry is not found in the original entry, then the system applies the \nnormal categorization process based on rules.\nReversal of Entries for Split Transactions\nA transaction can be split into multiple amounts and classified into class codes or sub class \ncodes. If a transaction has been split already and the user wants to change the splitting of the \ntransaction, then the original splitting needs to be reversed completely. \nFor example: a transaction of USD 11,000 has been split into USD 5,000, USD 4,000 and \nUSD 2,000. After some time, the user wants to split the transaction into USD 6,000, USD \n3,000 and USD 2,000 then the earlier splitting needs to be reversed and the user can begin \nsplitting the transaction as desired.\nChannel User ID\nThe User ID used to access the Channel from which the transaction \nwas initiated.\nInstrument Code\nInstruments like Cheques issued can be captured here.\nApplied Rule\nThe rule which has been applied to arrive at the Spend Class \nmapped to this entry.\nField name\nDescription\nModule\nThe Module encompassing the entry in consideration\nValue Date\nThe value date of the Transaction\nTransaction Ref-\nerence\nThe Reference Number of a transaction for all modules except \nLoans\nRelated Account \nFor Loan Modules\nBranch Code\nThe branch from which the entry was triggered.\nAccount Number\nThe account number for which the transaction was triggered.\nAmount Tag\nThe amount tag used\nCurrency\nCurrency of the above mentioned Amount"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Spend Class by a Bank User",
+        "Maintaining Spend Class by a Bank User",
+        "Viewing Class Code Summary"
+      ],
+      "summary": "This page describes how to maintain and view spend class codes for banks, including details on the 'Spend Class for Bank' screen operations.",
+      "raw_text": "4-10\nIf the original transaction has been reversed in UBS, then the entire split amounts will be \nreversed and there will not be any record available against the “Class Code” or “Sub Class \nCode” to which it was assigned.\n4.2 \nSpend Class by a Bank User\nThis section contains the following topics:\nSection 4.2.1, \"Maintaining Spend Class by a Bank User\"\nSection 4.2.2, \"Viewing Class Code Summary\"\n4.2.1 \nMaintaining Spend Class by a Bank User\nMultiple sub class codes for a specific class code can be maintained by a bank user in the \n‘Spend Class for Bank’ screen. You can invoke this screen by typing ‘ITDSPCBK’ in the field \nat the top right corner of the Application toolbar and click the adjoining arrow button. \nSpecify the following details in this screen:\nClass Code\nThe class code is system generated.\nDescription\nSpecify a description of the system generated class code.\nSub Class Code\nThe default sub class code is system generated.\nDescription\nSpecify a description of the sub class code.\nThe following operations can be performed in this screen:\nInput (New).\nEnter Query.\nUnlock.\nClose."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Viewing Class Code Summary",
+        "Spend Classes for Channel User"
+      ],
+      "summary": "This page describes how to view and search class codes maintained by bank users and introduces topics related to maintaining and viewing spend classes for channel users.",
+      "raw_text": "4-11\nRe-open.\nAuthorization.\n4.2.2 \nViewing Class Code Summary\nYou can view a list of class codes maintained by the bank user in the ‘Spend Class Summary’ \nScreen. You can invoke this screen by typing ‘ITSSPCBK’ in the on the field at the top right \ncorner of the application toolbar and click the adjoining arrow button.\nYou can search for a record by entering details in the following fields:\nAuthorization Status\nRecord Status\nClass Code\nClick the search button and the following fields will populated with values based on your \nsearch parameters:\nAuthorization Status\nRecord Status\nClass Code\nDescription\n4.3 \nSpend Classes for Channel User\nThis section contains the following topics:\nSection 4.3.1, \"Maintaining Spend Classes for Channel User\"\nSection 4.3.2, \"Viewing Spend Class Summary\""
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Maintaining Spend Classes for Channel User"
+      ],
+      "summary": "This section describes how to create spend class codes and sub-class codes using the 'ITDSPCLS' screen in the application toolbar, including details on required fields such as Class Code, Description, and Customer Number.",
+      "raw_text": "4-12\n4.3.1 \nMaintaining Spend Classes for Channel User\nThe following activities can be done in this screen:\nCreation of Class Code by channel user.\nCreation of Sub Class Code for the channel user defined class code.\nCreation of Sub Class Code for the Bank user defined class code.\nTo invoke this screen, type ‘ITDSPCLS’ in the field at the top right corner of the Application \ntoolbar and click the adjoining arrow button.\nSpecify the following details:\nClass Code\nThe system generates a unique spend class code. This will be a unique identifier of the spend \nclass that you maintain. However, you cannot modify the class code. \nDescription\nEnter a brief description of the spend class that you maintain. \nCustomer Number\nThe value in this field is auto populated when the channel user is creating a Class Code from \nthe channel. This field is not be applicable when the “Sub Class Code” is added to a bank \ndefined “Class Code” by the customer.\nNote\nIf a Customer No is associated with a spend class, then the spend class is available only \nfor this particular customer."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Internal Class Code",
+        "Description",
+        "Sub Class Code Details"
+      ],
+      "summary": "This page explains how to specify and manage internal class codes, sub class codes, and descriptions for customer spend classes in Oracle FLEXCUBE.",
+      "raw_text": "4-13\nCustomer Name\nBased on the customer number selected, the system displays the name of the customer. This \nfield is not be applicable when the “Sub Class Code” is added to a bank defined “Class Code” \nby the customer.\nInternal Class Code\nSpecify the internal class code for bank reference. When a customer creates a spend class \nthrough other modes, you can map that class code to an internal class code. This helps the \nbank identify and classify customer created spend classes. \nDescription\nThe system displays the description of the internal class code. \nOnce you have captured the above details, save the maintenance. \nNote\n– \nOracle FLEXCUBE receives and updates the details of spend classes created using \nexternal systems through gateway services. The system will check whether the \nspend class received from the external system already exists in the Oracle \nFLEXCUBE with the same name. If a spend class with the same name already \nexists, the system will not allow the creation of a duplicate spend class.\n– \nYou cannot modify or close the spend classes created using external systems.\n– \nIf you modify a spend class, the system will update the previous spend transactions \nto bear the modified spend class details.\nSub Class Code Details\nSub Class Code\nThe value in this field is defaulted based on the selection of the class code. All valid class sub \ncodes defined under the selected class code is displayed.  \nA channel user can add a sub class code to the existing bank defined class code or channel \nuser defined class code. The option list adjoining the ‘Class Code’ field lists the class codes \nas maintained by the bank user and the class codes as maintained by the channel user. The \nchannel can select a class code to map the sub class code.\nDescription\nSpecify a description of the Sub Class Code.\nCustomer Number\nThe customer ID is defaulted when the Class Sub Code is added by a channel user. If \ncustomer id is assigned then that particular sub class code is applicable to that customer only. \nCustomer Name\nThe customer name is defaulted here. This field is not applicable when the “Sub Class Code” \nis added to a user defined “Class Code” by the customer."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Viewing Spend Class Summary",
+        "Spend Rules",
+        "Defining Spend Rules"
+      ],
+      "summary": "This page describes how to view spend class summaries and introduces various topics related to defining and managing spend rules in Oracle FLEXCUBE.",
+      "raw_text": "4-14\n4.3.2 \nViewing Spend Class Summary\nYou can view a slist of all the class codes created by the bank user and the channel user. To \ninvoke this screen, type ‘ITSSPCLS’ in the field at the top right corner of the Application \ntoolbar and click the adjoining arrow button.\nYou can search for the spend class records based on one or more of the following \nparameters:\nAuthorization status of the record\nClass code\nCustomer number\nRecord status\nDescription of the class\nOnce you have set the search parameters, click ‘Search’ button. The system displays the \nspend class maintenance records that match the search criteria.  \n4.4 \nSpend Rules\nThis section contains the following topics:\nSection 4.4.1, \"Defining Spend Rules\"\nSection 4.4.2, \"Creating Conditions with Expressions\"\nSection 4.4.3, \"Viewing Customer Spend Analysis Details\"\nSection 4.4.4, \"Reclassification of Spend Classes\"\nSection 4.4.5, \"Deletion of Spend Class\"\nSection 4.4.6, \"Deletion of Sub Class Code\"\nSection 4.4.7, \"Splitting a Transaction\"\n4.4.1 \nDefining Spend Rules\nOracle FLEXCUBE classifies the debit transactions into different spend classes based on the \nspend rules. These rules can be setup only for branch defined class codes and sub class"
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "codes.",
+        "Specify the following details:"
+      ],
+      "summary": "This page explains how to define new spend rules using the 'Spend Rule Maintenance' screen and outlines the steps for specifying bank code, priority, condition, result, and class code.",
+      "raw_text": "4-15\ncodes.You can define new spend rules using ‘Spend Rule Maintenance’ screen. To invoke \nthis screen, type ‘ITDSPRLM’ in the field at the top right corner of the Application toolbar and \nclick the adjoining arrow button.\nSpecify the following details:\nBank Code\nThe system displays the bank code.\nPriority\nSpecify the priority of the spend rule sequence. You can set the priority in any random order \n(1, 100, 91, 888 etc.).\nThe system considers the priority of a rule while classifying transactions. \nCondition\nSpecify the condition to be used in the rule. You can define a condition using the ‘Expression’ \nbutton. \nFor further details on defining conditions using expressions, refer to the section ‘Creating \nExpressions’ in this chapter.\nIf a debit entry satisfies the condition and result, the system will classify that entry under the \nspend class mapped to the rule.\nResult\nSpecify whether the condition is expected should be met or not. You can choose one of the \nfollowing results from the drop-down list:\nTrue\nFalse\nIf a debit entry satisfies the condition and result, the system will classify that entry under the \nspend class mapped to the rule.\nClass Code\nSpecify the class code to which you need to map the spend rule. The option list displays all \nthe system defined spend class codes maintained in the system. Choose the appropriate one."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Negative Points",
+        "Sub Class Code",
+        "Creating Conditions with Expressions"
+      ],
+      "summary": "This page describes how the system displays and manages spend class descriptions, negative points, sub class codes, and conditions using expressions for spend rules.",
+      "raw_text": "4-16\nDescription\nThe system displays the description of the spend class.\nNegative Points\nThe system displays the negative points that the rule sequence has. The system displays zero \nas the default value when you define the rule. \nThe system adds a negative score only when an entry classified based on this condition is \nreclassified later under a different system defined spend class.\nWhen the negative points accumulated by a rule exceed a threshold limit set at Interactions \nPreferences, the system brings down the priority of the rule. The system considers the priority \nof a rule while classifying transactions. As the rule priority goes down, the system is less likely \nto consider the rule while classifying transactions.\nSub Class Code\nSelect the sub class code from the adjoining option list. All bank defined sub class codes as \nmaintained in the system are displayed here.\nDescription\nThe description of the sub class code is defaulted.\n4.4.2 \nCreating Conditions with Expressions\nYou can build the conditions with expressions for the spend rule conditions using ‘Expression’ \nscreen. Click ‘Expression’ button on ‘Spend Rule Maintenance’ screen.\nYou need to specify the following details to create the expression.\nCondition\nBased on the element, operators and logical operators that you select in the below fields, the \nsystem displays the condition.\nElements\nSelect element based on which you need to build a condition for spend rule. The following \nelements are applicable to spend rules:\nElement\nField\nDescription"
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Functions",
+        "Operators",
+        "Source",
+        "$MOD",
+        "$TRNREF",
+        "$EVENT",
+        "$AMOUNT",
+        "$CCY",
+        "$ADDLINFO",
+        "$EXTSYSUID",
+        "$CHANNE-LUID",
+        "$INSTMT-CODE",
+        "$TRNCODE",
+        "$TRNDESC",
+        "$AMTTAG"
+      ],
+      "summary": "This page describes the functions and operators for building conditions in spend rules, along with various sources and transaction details that can be used.",
+      "raw_text": "4-17\nFunctions\nSpecify the mathematical function for building the condition. The drop-down list displays the \nfollowing functions:\nAbsolute\nGreatest\nRound\nTrunc\nFloor\nCeil\nPower\nMod\nChoose the appropriate one.\nOperators\nSelect the operator for building a condition for spend rule. You can use multiple elements, in \nconjunction with the functions and arithmetic operators. The drop-down list displays the \nfollowing operators: \n+ (add) \n- (subtract) \n$SOURCE\nSource\nThe source code of the internal/external system\n$MOD\nModule\nThe module encompassing the entry in considera-\ntion\n$TRNREF\nTransaction Ref-\nerence\nThe reference number of the transaction\n$EVENT\nEvent Code\nThe purpose of triggering the transaction\n$AMOUNT\nAmount\nThe amount transacted\n$CCY\nCurrency\nCurrency in which the amount is represented\n$ADDLINFO\nAdditional Infor-\nmation\nAdditional transaction details from the preceding \nstatement narrative which will be passed on to the \naccount owner\n$EXTSYSUID\nExternal System \nUser ID\nThe user ID mapped to the external system\n$CHANNE-\nLUID\nChannel User ID\nThe user ID used to access the channel from \nwhich the transaction was initiated\n$INSTMT-\nCODE\nInstrument Code\nCode of the instruments such as cheques\n$TRNCODE\nTransaction \nCode\nTransaction code\n$TRNDESC\nTransaction \nDescription\nTransaction description\n$AMTTAG\nAmount Tag\nAmount tag"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Logical Operators",
+        "Viewing Customer Spend Analysis Details"
+      ],
+      "summary": "This page explains how to choose logical operators for creating spend rules and how to view customer spend analysis details using a specific screen.",
+      "raw_text": "4-18\n* (multiply) \n/ (divide)\nChoose the appropriate one.\nLogical Operators\nSelect the logical operator for building a condition for spend rule. The system uses the logical \noperators in combination with the elements for creating derivation rules. The drop-down list \ndisplays the following logical operators: \n> (greater than) \n>= (greater than or equal to) \n< (less than) \n<= (less than or equal to) \n= (equal to) \n< > (not equal to)\nChoose the appropriate one.\nOnce you have created the condition, save it.\nThe system will classify each debit transaction under different spend classes based on the \nrule-spend class mapping set here. You can also create a rule to classify the transactions that \ndo not qualify any of the rules maintained in the system. These rules can be defined for a bank \nuser defined class code and sub class code.  \n4.4.3 \nViewing Customer Spend Analysis Details\nYou can view the details of customer spend entries and transactions using ‘Spend Analysis’ \nscreen. To invoke this screen, type ‘ITDSPQRY’ in the field at the top right corner of the \nApplication toolbar and click the adjoining arrow button.\nYou can search for the spend classification details based on the following parameters:\nCustomer ID\nSpecify the CIF of the customer whose spend analysis you wish to view. The option list \ndisplays all valid customer numbers maintained in the system. Choose the appropriate one."
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Account Currency",
+        "Spend Entries"
+      ],
+      "summary": "This page describes how to specify and view customer spend entries in a system, including details such as month, year, class code, sub class code, description, and total amount.",
+      "raw_text": "4-19\nBased on the customer number, the system displays the name of the customer.\nAccount Currency\nSpecify the currency code. The system will display the customer spend analysis for the \ncurrency specified here. \nBased on the currency code specified, the system displays the account description. \nSpend Entries\nClick ‘Spend Entries’ tab to view the spend entries for the selected customer and currency.\nYou can view the following details of each customer spend entry.\nMonth of the spend entry\nYear of the spend entry\nClass Code\nDescription\nSub Class Code: which is the sub class code to which the transaction is mapped.\nDescription: which is the description of the sub class code.\nTotal Amount"
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "Transactions",
+        "Reclassification of Spend Classes"
+      ],
+      "summary": "This page describes how to view transaction details under the 'Transactions' tab and explains the reclassification process for spend classes by channel users.",
+      "raw_text": "4-20\nTransactions\nClick ‘Transactions’ tab to view the spend transactions for the selected customer and \ncurrency.\nYou can view the following details of each spend transaction under the ‘Transactions’ tab.\nClass code to which the entry/transaction is mapped \nDescription of the Class Code\nSub Class Code\nDescription of the sub class code\nTransaction Date\nCurrency of the amount\nAmount of transaction\nBranch of the transaction\nSource code of the internal/external system\nReference number of the transaction\nAdditional information on the transaction in the preceding statement narrative to be \npassed on to the account owner\nUser ID mapped to the external system\nChannel User ID to access the channel from which the transaction was initiated\nRule applied to classify the entry under a the spend class\n4.4.4 \nReclassification of Spend Classes\nA channel user can reclassify an already defined spend class to some other class code or sub \nclass code. The following actions are possible:\nChannel user can re classify a transaction to a bank defined “Sub Class Code”.\nChannel user can re classify a transaction to a channel user defined “Sub Class Code”.\nChannel user can re classify a transaction to a bank defined \"Class Code\".\nChannel user can re classify a transaction to a channel user defined \"Class Code\"."
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "4.4.5 Deletion of Spend Class",
+        "4.4.6 Deletion of Sub Class Code"
+      ],
+      "summary": "This page discusses the deletion and closure of spend class codes and sub class codes through the FCUBSInteractionService messaging service, including who can perform these actions and under what conditions.",
+      "raw_text": "4-21\nThis can be achieved through the FCUBSInteractionService messaging service. For more \ninformation on this service refer to the section ‘Annexure - List of messages’ in the ‘Gateway \nServices module’.\n4.4.5 \nDeletion of Spend Class\nRedundant class code and sub class codes can be deleted. This functionality can be used by \na channel user as well as a bank user. Channels users can close or delete the “Class Code”/\n”Sub Class Code” created by him/her. Similarly, the bank user close or delete the “Class \nCode” or “Sub Class Code” created at the Bank level. \nClosure of Class Code\nThe class codes can be closed or deleted by a channel user provided there are no underlying \ntransactions associated with the class code or sub class code associated with it. When a \nClass Code is closed, then the underlying sub class code becomes invalid. The channel user \ncannot re-classify a closed class code. A channel user can close a class code through the \nFCUBSInteractionService messaging service. For more information on this service refer to \nthe section ‘Annexure - List of messages’ in the ‘Gateway Services module’.\nA channel user can re-open a closed class code which pertains to him or her. A channel user \ncan reopen a class code through the FCUBSInteractionService messaging service. For more \ninformation on this service refer to the section ‘Annexure - List of messages’ in the ‘Gateway \nServices module’.\n4.4.6 \nDeletion of Sub Class Code\nA channel user can delete a sub class code that is created by him or her. A channel user can \ndelete a sub class code even when it is associated with a bank defined Class Code as well. \nA sub class code can be deleted only if its parent class code is in ‘Open’ status. When a sub \nclass code is deleted, then all underlying transactions associated with the sub class code is \nthen mapped to the parent class code. A channel user can close a sub class code through the \nFCUBSInteractionService messaging service. For more information on this service refer to \nthe section ‘Annexure - List of messages’ in the ‘Gateway Services module’.\nA bank user is allowed to delete a sub class code associated with the bank defined class \ncode. When a sub class code is deleted, then all underlying transactions associated with the \nsub class code is then mapped to the parent class code. A bank user will not be allowed to \ndelete a channel user defined class code or sub class code.\n4.4.7 \nSplitting a Transaction\nA channel user can split a transaction and classify it into multiple class codes and sub class \ncodes. A transaction can be split into multiple amounts and these amounts can be classified \ninto multiple class code and sub class codes. The channel user has a choice to reclassify an \nalready split amount to another class code or sub class code. If the original transaction is \nreversed in the FCUBS system, then the entire split amount is reversed and no record will be \nassociated with the assigned class code or sub class code. When the earlier splitting is \nreversed then the whole transaction will be shown against the “Class Code” or “Class Sub \nCode” to which it was originally associated with before splitting. \nThe split amount is displayed in the ‘Spend Analysis’ (ITDSPQRY) screen, instead of the \noriginal amount. The total split amount should be equal to the original transaction amount or \nelse the system displays an error message. A transaction which is already split, cannot be \nsplit further. However, if the splitting has to be done differently, then the transactions can be \nreversed. A channel user can split transaction through the FCUBSInteractionService"
+    },
+    {
+      "page_number": 47,
+      "sections": [],
+      "summary": "This page provides a reference to find more information about the messaging service in the Gateway Services module under the 'Annexure - List of messages'.",
+      "raw_text": "4-22\nmessaging service. For more information on this service refer to the section ‘Annexure - List \nof messages’ in the ‘Gateway Services module’."
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Customer Interactions"
+      ],
+      "summary": "This section explains how Oracle FLEXCUBE can be used to capture and manage customer interactions, including both external customer complaints and internal follow-ups, with examples provided.",
+      "raw_text": "5-1\n5. Customer Interactions\nUsing Oracle FLEXCUBE, you can capture the interactions with the customers. This helps \nyou to track and address the request of the customers. You can also capture the internal \ninteractions (within the bank) triggered by the original interaction with the customer. \nConsider the following examples.\nScenario 1\nMrs. Catherine calls up her Bank Helpdesk and informs that her Account has been debited \ntwice for last evening’s ATM transaction. She complained that she has withdrawn 200 $ but \nher online account statement show 200 $ been debited twice. \nMr. Edward, the bank’s helpdesk representative Mr. Edward takes down her complaint and \ninforms her that he will get back to her at the earliest. He logs an interaction by filling in the \nnecessary details and assigns the interaction to Accounts department.\nMr. Jones from the Accounts department gets this in his dashboard and takes up the \ninteraction and figures out the problem and takes steps to resolve the issue and credits back  \nthe 200$ to Mrs. Catherine’s account . Jones closes the interaction and gives the closure \nremarks “200$ debited extra accidentally, has been credited back to the Account. The bank \nis extremely sorry for the inconvenience caused and will take all steps to ensure that this does \nnot happen again”. \nMrs. Catherine logs into her online account later and sees that her account balance has \nincreased by 200$ and the closure remarks message in her inbox. \nScenario 2\nMr. John has a compliant regarding amount deducted from his current account. Assuming that \nit was an extra EMI deducted for a loan, he contacts Mr. Jonathan from Loans Department \nexplaining his concern. Mr. Jonathan then opens an interaction for the customer. He finds out \nthat the amount debited was not an EMI amount. So he assigns the interaction to Mr. Jones \nof the Accounting Department. \nMr. Jones concludes that the amount deducted was an annual maintenance fee. So he closes \nthe interaction with a reply to the customer stating that the amount debited was an annual \nmaintenance fee levied on the current account.\nMr. John receives this message on his inbox.\nScenario 3\nMr. Mark is interested in a new Term Deposit product for investment. He calls up the banks \nhelp desk number inquiring about the same. The bank’s helpdesk person opens a new \ninteraction based on the details provided by Mr. Mark. The helpdesk person assigns the \ninteraction to a TD role. This action will result in a query being raised to all the users mapped \nto that role.\nMr. Taylor from the Term Deposits department pickup up the interaction and assigns it to his \nsubordinate Mr. Collin. Mr. Collin then responds to Mr. Mark with all the details of Term \nDeposit product.\nMr. Mark can view the message in his inbox."
+    },
+    {
+      "page_number": 49,
+      "sections": [
+        "Interactions in Oracle FLEXCUBE",
+        "Create Interactions"
+      ],
+      "summary": "This section explains how interactions are captured and managed in Oracle FLEXCUBE, including their assignment to users and resolution by the accounts department.",
+      "raw_text": "5-2\nThis chapter contains the following sections:\nSection 5.1, \"Interactions in Oracle FLEXCUBE\"\nSection 5.2, \"Create Interactions\"\n5.1 \nInteractions in Oracle FLEXCUBE\nThe captured interactions are assigned to the corresponding users. The dashboard of \nrespective bank user displays the interaction.\nThe details of the interaction during its life cycle are captured in such a way that it resembles \nan actual interaction. The details section will be in reverse chronological order with the most \nrecent updates being shown in the top. \nConsider the following example.\nStep 1: Mrs. Catherine calls up her Bank and speaks to Mr. Edward from the Call Center \n“Helpdesk” of the bank informing that her Account has been debited twice for an ATM \ntransaction that she carried out last evening. She complained that she has withdrawn 200 $ \nwhereas her online account statement show 200 $ been debited twice. \nStep 2: Mr. Edward takes down her complaint and informs her that he will get back to her at \nthe earliest. He creates a new interaction. The below table is the snapshot.\nStep 3: Mr. Edward then assign the interaction to role mapped to accounts department \n(ACCDEPT_ROLE)\nStep 4: Mr. Jones from the Accounts department sees this in his dashboard and takes up the \ninteraction and figures out the problem and takes steps to resolve the issue and credits back  \nthe 200$ to Mrs. Catherine’s account . Jones close the interaction and gives the closure \nremarks “200$ debited extra amount has been credited back to the Account. The bank is \nextremely sorry for the inconvenience caused and will take all steps to ensure that this does \nnot happen again”.\nField Name\nValue\nInteraction Details\n$200 has been debited twice from 0008341002\nHELPDSK Help Desk @12-FEB-2012 14:30\nField Name\nValue\nInteraction Details\nAssign to: HELPDESK  Help Desk : ACCDEPT_ROLE Account \nDepartment\nHELPDSK Help Desk @14-FEB-2012 14:30\n$200 has been debited twice from 0008341002.\nHELPDSK Help Desk @12-FEB-2012 14:30\nField Name\nValue"
+    },
+    {
+      "page_number": 50,
+      "sections": [],
+      "summary": "This page describes a scenario where an account balance is adjusted due to an error in the bank's system, and how the issue is resolved by transferring the interaction to different departments for analysis and resolution.",
+      "raw_text": "5-3\nStep 5: Mrs. Catherine logs into her online account later and sees that her account balance \nhas increased by 200$ and the closure remarks message in her inbox. \nExample 2\nStep 1: Mr. John has compliant regarding amount deducted from his current account. \nAssuming that it was an extra EMI deducted for a loan, he contacts Mr. Edward from Loans \nDepartment explaining his concern. Mr. Edward then opens an interaction assigned to his \nname and begins an analysis.\nStep 2: Mr. Edward finds out that that the amount debited was not an EMI amount. So he \ntransfers the interaction to Mr. Jones from the Accounting Department asking him to look into \nthe matter.\nInteraction Details\nProblem occurred due to faulty EOD batch \n(STBACC) maintenance. Corrected the batch.\nInteraction Status: W: C\nAssigned to: ACCDEPT_ROLE Account Depart-\nment : JONES\nJONES@14-FEB-2012: 15:01\n----------------------------------------------------------------\nAssigned to: HELPDESK  Help Desk : \nACCDEPT_ROLE Account Department\nHELPDSK@14-FEB-2012 14:30\n----------------------------------------------------------------\n$200 has been debited twice from 0008341002.\nHELPDSK Help Desk @12-FEB-2012 14:30\nClosure Remarks\nY\nDisplay Closure Remarks to Cus-\ntomer\n$200 debited extra amount has been credited back \nto the Account. The bank is extremely sorry for the \ninconvenience caused and will take all steps to \nensure that this does not happen again\nField Name\nValue\nInteraction Details\nAn amount of $23 has been debited from account 00073482.\nBLON01@07-FEB-2012:13:29\nField Name\nValue"
+    },
+    {
+      "page_number": 51,
+      "sections": [],
+      "summary": "This page describes a customer service interaction where Mr. Jones concludes that a debited amount was an annual maintenance fee and updates the status of the interaction.",
+      "raw_text": "5-4\nStep 3: Mr. Jones concludes that the amount deducted was an annual maintenance fee. So \nhe closes the interaction with a reply to the customer stating that the amount debited was an \nannual maintenance fee levied on the current account.\nStep 4: Mr. John receives this message on his inbox.\nInteraction Details\nThe debited amount is not EMI amount. Mr. Jones, please look into \nthis. \nAssigned to: EDWARD (user name/role of the user is displayed: \nJONES (user name/role of the user is displayed)\nDepartment: LOAN : ACC\nEDWARD@15/2/20 12:05\n--------------------------------------------------------------\nAn amount of $23 has been debited from account 00073482.\nBLON01@07-FEB-2012:13:37\nField Name\nValue\nInteraction Details\nDebited amount is an annual fee on current \naccount.\nInteraction Status: W : C\nStatus: WIP : Closed\nJONES@15/2/2012 7:35\n--------------------------------------------------------\nThe debited amount is not EMI amount. Mr. Jones, \nplease look into this. \nAssigned to: EDWARD (user name / role of the \nuser is displayed) \nJONES user name / role of the user is displayed) \nInteraction Status: O: W\nDepartment: LOAN : ACC\nEDWARD@15/2/20 12:05\n--------------------------------------------------------\nAn amount of $23 has been debited from account \n00073482.\nEDWARD@07-FEB-2012:13:37\nClosure Remarks\nY\nDisplay Closure Remarks to Cus-\ntomer\nPlease note that the debited amount is an annual \nmaintenance fee levied on the current account."
+    },
+    {
+      "page_number": 52,
+      "sections": [],
+      "summary": "This page describes a customer service interaction where Mr. Mark inquires about a Term Deposit product, and how the bank processes his request through their helpdesk system.",
+      "raw_text": "5-5\nExample 3\nStep 1: Mr. Mark is interested in a new Term Deposit product for investment. He calls up the \nbanks help desk number inquiring about the same. The bank’s helpdesk person opens a new \ninteraction based on the details provided by Mr. Mark.\nStep 2: Helpdesk person assigns the interaction to TD department (TDDEPT). The system \nauto assigns the interaction to TD role (TD_ROLE). This action will result in a query being \nraised to all the users mapped to that TD role.\nStep 3: Mr. Taylor from the Term Deposits department pickup up the interaction an assigns it \nto his subordinate Mr. Collin. \nStep 4: Mr. Collin then responds to Mr. Mark with all the details of Term Deposit product.\nField Name\nValue\nInteraction Details\nProvide details about product TD04\nHELPDSK@07-FEB-2012:13:29\nField Name\nValue\nInteraction Details\nAssigned to: HELPDESK Help Desk: TD_ROLE\nHELPDESK@11/2/2012:1:35\n------------------------------------------------------------------\nProvide details about product TD04\nHELPDSK@07-FEB-2012:13:29\nField Name\nNew Value\nInteraction Details\nMr. Collin, Please clarify the customer with the required details.\nInteraction Status: O : W\nAssigned to: TD_ROLE : COLLIN\nHELPDESK@11/2/2012:1:35\nTAYLOR@11/2/2012 3:45\n------------------------------------------------------------------\nAssigned to: HELPDESK  Help Desk : TD_ROLE\nHELPDESK Help Desk @11/2/2012:1:35\n------------------------------------------------------------------\nProvide details about product TD04\nHELPDSK@07-FEB-2012:13:29\nField Name\nValue"
+    },
+    {
+      "page_number": 53,
+      "sections": [
+        "Creating Interactions",
+        "Interaction Details"
+      ],
+      "summary": "This page describes how to create interactions, upload documents, view interaction summaries and details on a user dashboard, along with providing interaction status updates.",
+      "raw_text": "5-6\n5.2 \nCreate Interactions\nThis section contains the following topics:\nSection 5.2.1, \"Creating Interactions\"\nSection 5.2.2, \"Uploading Documents\"\nSection 5.2.3, \"Viewing Interaction Summary\"\nSection 5.2.4, \"Viewing Interactions on User Dashboard\"\nInteraction Details\nProviding details.\nInteraction Status: W: R\nAssigned to: TD_ROLE : COLLIN\nCOLLIN@15/2/2012 20:43\n------------------------------------------------------------------\nMr. Collin, Please clarify the customer with the \nrequired details.\nInteraction Status: O : W\nAssigned to: TD_ROLE : COLLIN\nTAYLOR@11/2/2012 3:45\n------------------------------------------------------------------\nAssigned to: HELPDESK Help Desk : TD_ROLE\nHELPDESK@11/2/2012:1:35\n-------------------------------------------------------------------\nProvide details about product TD04\nHELPDSK@07-FEB-2012:13:29\nClosure Remarks\nY\nDisplay Closure Remarks to Cus-\ntomer\nProduct Name: TD04\nRate of Interest: 10%\nRedemption period: 5 years"
+    },
+    {
+      "page_number": 54,
+      "sections": [
+        "Creating Interactions"
+      ],
+      "summary": "This section explains how to create an interaction using the 'Interaction Input' screen and details the information required such as Interaction ID, Status, Customer ID, and Customer Name.",
+      "raw_text": "5-7\n5.2.1 \nCreating Interactions\nYou can create an interaction using the ‘Interaction Input’ screen. To invoke this screen, type \n‘ITDINTRN’ in the field at the top right corner of the Application tool bar and clicking the \nadjoining arrow button.\nIn this screen, you need to specify the following information:\nInteraction Details\nInteraction ID\nThe system generates and displays the interaction ID. This is a unique identifier of the \ninteraction.\nInteraction Status\nThe system displays the interaction status as ‘Open’. However, you can modify the interaction \nstatus. The drop-down list displays the following statuses:\nOpen - Select ‘Open’ when create a new interaction.\nWIP - Select WIP when you assign the interaction to a user.\nClose - Select Close when the interaction is closed.\nPending with Customer - Select Pending with Customer if the interaction is pending with \nCustomer.\nRe-Open - Select Re-Open to modify a closed interaction.\nCustomer ID\nSpecify the customer ID. The option list displays all valid customer IDs maintained in the \nsystem. You can select the appropriate one.\nCustomer Name\nBased on the customer ID selected, the system displays the name of the customer."
+    },
+    {
+      "page_number": 55,
+      "sections": [
+        "Department",
+        "User/Role",
+        "Assigned To",
+        "Interaction Category",
+        "Venue",
+        "Interaction Date",
+        "Interaction Time",
+        "Senior Management Involved",
+        "Other Offices Involved"
+      ],
+      "summary": "This page outlines the fields and options for specifying details of an interaction, including department, user or role, assigned person, category, venue, date, time, senior management involvement, and other offices involved.",
+      "raw_text": "5-8\nDepartment\nSpecify the corresponding Department. You can also click on the adjoining option list and \nselect the corresponding Department.\nOther Department\nSpecify other departments, if any.\nUser/Role\nSelect the category to which the interaction is being assigned to from the following options:\nUser\nRole\nAssigned To\nSpecify the bank user or role, to which the interaction needs to be assigned by clicking on the \nadjoining option list.\nInteraction Category\nSelect the category of the corresponding interaction from the following list:\nCall Report\nCourtesy Meeting\nCustomer Interaction\nService Request\nComplaints\nLead\nVenue\nSelect the venue of the corresponding interaction from the following list:\nBranch\nFace to Face\nClient Office\nClient Residence\nPublic Place\nInteraction Date\nSpecify the date when the interaction started. The system defaults the interaction date in \naccordance with the system date and branch offset. Interaction Date cannot be future dated.\nInteraction Time\nSpecify the time when the interaction started. The system defaults the interaction time in 24 \nhours format.\nSenior Management Involved\nSelect the corresponding senior management involved from the following options:\nCOO\nRegion Head\nSenior RM\nCEO\nOther Offices Involved\nSpecify other offices involved, if any."
+    },
+    {
+      "page_number": 56,
+      "sections": [
+        "Last Changed On",
+        "Priority",
+        "Target Closure Date",
+        "Interaction Mode",
+        "Subject",
+        "Detail",
+        "Original Request",
+        "Documents Presented",
+        "Display Closure Remarks for Customer",
+        "Closure Remarks",
+        "Note",
+        "Direct Access Channel"
+      ],
+      "summary": "This page describes various fields and options related to managing interactions, including priority settings, date and time tracking, communication modes, and closure details.",
+      "raw_text": "5-9\nLast Changed On\nLast Changed On is a read-only field displaying the date and time of the last modification.\nPriority\nThe system defaults the priority as Low. Select the priority of the corresponding interaction \nfrom the following list:\nLow\nMedium\nHigh\nTarget Closure Date\nSpecify the tentative interaction closure date that was communicated to the customer.\nInteraction Mode\nSelect the mode of interaction from the following options:\nMeeting\nTelephone\nEmail\nOther\nFace to Face\nSubject\nSpecify a subject for the corresponding interaction.\nDetail\nSpecify the additional details if the corresponding interaction, if any.\nOriginal Request\nSpecify the initial interaction message.\nDocuments Presented\nSpecify the details of the documents presented.\nDisplay Closure Remarks for Customer\nSelect the option to specify whether to display closure remarks for customer or not. The \nsystem defaults the Closure Remarks for Customer as ‘Yes’.\nClosure Remarks\nSpecify the closure remarks \nNote\nClosure Remarks is mandatory if ‘Display Closure Remarks to Customer’ is opted; and In-\nteraction Status belongs to the following options:\nOpen\nWIP\nPending with Customer\nClose\nDirect Access Channel\nThe system displays the Direct Access Channel as checked if interaction is initiated from \nFCDB-Direct access channels"
+    },
+    {
+      "page_number": 57,
+      "sections": [
+        "Uploading Documents"
+      ],
+      "summary": "This section explains how to upload and manage documents during interactions using the 'Document Upload' screen, including specifying document details and viewing uploaded documents.",
+      "raw_text": "5-10\nExternal System User ID\nThe system displays the system user ID of FCDB.\nChannel User ID\nThe system displays the channel used by FCDB for the interaction.\n5.2.2 \nUploading Documents\nYou can upload documents during interaction using 'Document Upload' screen. These \ndocuments are retrievable to the bank users or customers involved in the interaction. To \ninvoke this screen, click 'Documents' button in 'Interaction Input' screen.\nYou can specify the following details here:\nDocument Category\nSelect the appropriate Document Category from the adjoining option list.\nDocument Type\nSelect the appropriate Document Type from the adjoining option list.\nDocument Reference\nSystem displays the document reference number when you upload the document in the \nserver.\nRemarks\nProvide the additional remarks related to the document to be uploaded.\nUpload\nClick 'Upload' button to upload the document. \nYou can browse through the document path and click 'Submit' to generate the document \nreference number.\nView\nClick 'View' button to retrieve and view the uploaded document.\nSystem stores the uploaded documents in the server as a binary image in the Web Content \nManagement Repository. The bank users and customers will be able to retrieve these \ndocuments and documents related information during interaction enquiries."
+    },
+    {
+      "page_number": 58,
+      "sections": [
+        "Viewing Interaction Summary"
+      ],
+      "summary": "This section explains how to view and search for interaction summaries in Oracle FLEXCUBE using specific parameters such as authorization status and interaction date.",
+      "raw_text": "5-11\n5.2.3 \nViewing Interaction Summary\nYou can view the summary of all interaction created in Oracle FLEXCUBE using the \n‘Interactions Summary’ screen. To invoke this screen, type ‘ITSINTRN’ in the field at the top \nright corner of the Application tool bar and clicking the adjoining arrow button.\nYou can search for the interactions based on one or more of the following parameters:\nAuthorization Status\nRecord Status\nInteraction ID\nCustomer Name\nInteraction Date\nInteraction Mode\nPriority\nInteraction Status\nCustomer ID\nDepartment\nTarget Closure Date\nVenue\nChannel User ID\nOnce you have set the search parameters, click the ‘Search’ button. The summary screen \ndisplays the following information:\nInteraction ID\nSubject\nCustomer Name\nInteraction Date\nInteraction Mode\nPriority"
+    },
+    {
+      "page_number": 59,
+      "sections": [
+        "Interaction Status",
+        "Customer ID",
+        "Department",
+        "Target Closure Date",
+        "Venue",
+        "Channel User ID"
+      ],
+      "summary": "This page outlines various interaction-related fields and details on viewing interactions through a user dashboard, including the sequence in which they are displayed.",
+      "raw_text": "5-12\nInteraction Status\nCustomer ID\nDepartment\nTarget Closure Date\nVenue\nChannel User ID\n5.2.4 \nViewing Interactions on User Dashboard\nYou can view the interaction details through ‘Dashboard Maintenance, screen. You can \ninvoke this screen by clicking on the ‘Interactions’ tab available on the main screen.\nThe interaction dashboard is mapped to the role ‘IT-CONV-VW’. \nThe dashboard displays the following information pertaining to the first five interactions:\nInteraction ID\nSubject\nAssigned to\nYou can use the arrow buttons on the top right corner of the dashboard to view the next/\nprevious set of interactions.\nThe system displays the interaction details in the following sequence starting with the oldest \ninteraction:\n1.  Assigned to me and Open\n2. Assigned to my role and Open\n3. Assigned to me and in WIP status\n4. Assigned to my role and in WIP status\n5. Assigned to me and in Pending with customer status\n6. Assigned to my role and in Pending with customer status"
+    },
+    {
+      "page_number": 60,
+      "sections": [
+        "Reminders in Oracle FLEXCUBE",
+        "Create Reminders"
+      ],
+      "summary": "This page explains how to configure reminders for bank staff and customers in Oracle FLEXCUBE, including setting frequencies and viewing examples of reminder usage.",
+      "raw_text": "6-1\n6. Reminders\nOracle FLEXCUBE allows you to configure reminders about important activities that require \nattention. You can configure reminders for the bank staff and the customers. This chapter \ndescribes the methods to create, view and track reminders in Oracle FLEXCUBE.\nThis chapter contains the following sections:\nSection 6.1, \"Reminders in Oracle FLEXCUBE\"\nSection 6.2, \"Create Reminders\"\n6.1 \nReminders in Oracle FLEXCUBE\nReminders in Oracle FLEXCUBE are configured based on one of the following frequencies:\nOnce\nDaily\nWeekly\nMonthly\nYearly\nReminders due on every day are generated using a scheduler driven batch program \nscheduled to run every day.\nConsider the following examples.\nScenario 1\nMs. Elizabeth, a bank employee needs to make a mutual fund investment payment next week. \nHowever, she is worried about forgetting it. She logs into her Oracle FLEXCUBE account and \nsets up a reminder for next week with the message ‘Need to make mutual fund investment \ntoday” and saves the reminder’. \nMs. Elizabeth logs into her account several times during the week and performs her regular \ntransactions. The next week, when she logs into her account, the reminder message ‘Need \nto make mutual fund investment today’ is displayed on her dashboard. She makes the \npayment and dismisses the reminder. The message is removed from her dashboard and it is \nno longer shown.\nScenario 2\nMr. Brown, a customer of the bank wants to be reminded of his credit card payment that he \nhave to do on a monthly basis. He maintained a reminder with the subject as “Credit Card \nPayment”, and the reminder message as “Pay the credit card bill for this month”. He has \nselected the reminder frequency as “Monthly” and the Reminder date as “4-March-2012” \n.Hence, the system will generate all the reminders due for 4th of every month, 2012. Starting \nfrom March, on 4th of every month; a reminder is displayed on his dashboard reminding him \nabout his credit card bill payment. \nReferences to reminder date in the example are with respect to the system date of the \ndatabase where the reminder is stored.\nThe system removes the dismissed reminders from the dashboard and they are no longer \ndisplayed. The system archives both the dismissed and expired reminders. However, you can"
+    },
+    {
+      "page_number": 61,
+      "sections": [
+        "Creating Reminders",
+        "Viewing Reminders on User Dashboard",
+        "Viewing Reminders Summary"
+      ],
+      "summary": "This page describes how to create reminders and view them in different contexts such as user dashboard and summary.",
+      "raw_text": "6-2\nmodify and save the expired and already processed reminders. By default, all the maintained \nreminders are auto-authorized.\n6.2 \nCreate Reminders\nThis section contains the following topics:\nSection 6.2.1, \"Creating Reminders\"\nSection 6.2.2, \"Viewing Reminders on User Dashboard\"\nSection 6.2.3, \"Viewing Reminders Summary\"\n6.2.1 \nCreating Reminders\nYou can create a reminder using the ‘Reminders’ screen. To invoke this screen, type \n‘ITDREMND’ in the field at the top right corner of the Application tool bar and click the \nadjoining arrow button.\nYou need to specify the following information:\nReminder ID\nThe system generates and displays Reminder ID. It is a unique identifier for the reminder.\nReminder Date\nSpecify the date when the message needs to be reminded.\nReminder Expiry Date\nSpecify the expiry date of the reminder."
+    },
+    {
+      "page_number": 62,
+      "sections": [
+        "Reminder Frequency",
+        "Reminder Instance View Days",
+        "Reminder Subject",
+        "Reminder Message",
+        "Direct Access Channel",
+        "External System User ID",
+        "Source Code",
+        "Target User ID",
+        "Maker ID",
+        "Maker Date Stamp"
+      ],
+      "summary": "This page describes the configuration options for reminders, including frequency, display duration, message content, and metadata related to creation.",
+      "raw_text": "6-3\nNote\nIf you do not specify the Reminder Expiry Date, the system will generate indefinite remind-\ners at a defined frequency. You can stop the reminder only by deleting it.\nReminder Frequency\nSpecify the frequencies available from the following options:\nOnce\nDaily\nWeekly\nMonthly\nYearly\nReminder Instance View Days\nSpecify the number of days for which the reminders should be displayed on the user \ndashboard. The system displays the reminder message on the user dashboard from the \nreminder date, for the number of days specified here. \nReminder Subject\nSpecify a subject for the reminder.\nReminder Message\nSpecify the message that needs to be reminded.\nDirect Access Channel\nThe system displays a check in the box if the reminder is created through XML or the \ncustomer creates the reminder in Oracle FLEXCUBE Direct Banking (FCDB).\nExternal System User ID\nThe system displays the user id of FCDB.\nSource Code\nBy default, the system displays ‘FLEXCUBE’ as the Source Code. If the reminder is created \nin FCDB, the system displays the Source Code as ‘FCAT’.\nTarget User ID\nThe system displays Target User ID. It refers to channel user ID and FCUBS user ID if the \nreminders are created from FCDB and FCUBS respectively.\nMaker ID\nThe system displays the name of the user who created the reminder.\nNote\nMaker ID can either relate to FCUBS user or FCDB customer.\nMaker Date Stamp\nThe system displays the date and time of creating the reminder.\nNote\nThe date format is YYYY-MM-DD."
+    },
+    {
+      "page_number": 63,
+      "sections": [
+        "Viewing Reminders on User Dashboard",
+        "Viewing Reminders Summary"
+      ],
+      "summary": "This page describes how bank users can view reminders on their dashboard and access a summary of reminders through the 'Reminders Summary' screen in Oracle FLEXCUBE.",
+      "raw_text": "6-4\n6.2.2 \nViewing Reminders on User Dashboard\nBank users can view the reminders on the dashboard.\nThe system displays the following information on the dashboard:\nSubject\nMessage\nEffective Date\nDismiss\nDismiss\nCheck the box to dismiss the reminder.\nThe dashboard displays only the first five reminders. If the dashboard contains more than five \nreminders, the other reminders are displayed on the next page. You can navigate to the \nprevious and next page using the left and right arrow keys on the top right corner of the \ndashboard window. Click refresh icon to refresh the reminders displayed on the landing page.\n6.2.3 \nViewing Reminders Summary\nYou can view a summary of the reminders created in Oracle FLEXCUBE using the \n‘Reminders Summary’ screen. To invoke this screen, type ‘ITSREMND’ in the field at the top \nright corner of the Application tool bar and click the adjoining arrow button.\nYou can search for the reminders based on either one or more of the following parameters:"
+    },
+    {
+      "page_number": 64,
+      "sections": [],
+      "summary": "This page describes the search parameters and displayed information for reminders in a system.",
+      "raw_text": "6-5\nReminder ID\nReminder Date\nReminder Expiry Date\nReminder Frequency\nTarget User ID\nOnce you have specified the search parameters, click ‘Search’ button. The system will display \nthe following information:\nReminder ID\nReminder Subject\nReminder Date\nReminder Message\nFrequency\nView Days"
+    },
+    {
+      "page_number": 65,
+      "sections": [
+        "Instructions in Oracle FLEXCUBE",
+        "Maintain Instructions",
+        "Maintaining Instructions",
+        "Viewing Customer Instructions",
+        "Viewing Instructions Summary"
+      ],
+      "summary": "This page explains how Oracle FLEXCUBE allows users to convey instructions and messages to bank users and customers, including maintaining and accessing these instructions.",
+      "raw_text": "7-1\n7. Instructions\nOracle FLEXCUBE allows its users to convey important information to the end user either by \ndisplaying it on the dashboard, emailing or sending an SMS. You can provide different \nmessages to different users of the same account.\nConsider the following example.\nMs. Cathy’s loan payment is overdue for the past six months. Mr Thomas from the Loans \ndepartment maintains an instruction for all Bank users to utilize the credits of Ms. Cathy’s \naccount towards the loan repayment. He also maintains a message for Cathy reminding about \nthe missed loan payment.\nThis chapter contains the following sections:\nSection 7.1, \"Instructions in Oracle FLEXCUBE\"\nSection 7.2, \"Maintain Instructions\"\n7.1 \nInstructions in Oracle FLEXCUBE\nOracle FLEXCUBE facilitates to display instructions to the bank users and the customers \nsimultaneously. You can capture multiple instructions under one ‘Memo ID’ and can access \nthese instructions. \n7.2 \nMaintain Instructions\nThis section contains the following topics:\nSection 7.2.1, \"Maintaining Instructions\"\nSection 7.2.2, \"Viewing Customer Instructions\"\nSection 7.2.3, \"Viewing Instructions Summary\"\n7.2.1 \nMaintaining Instructions\nYou can maintain instructions using the ‘Instructions Maintenance’ screen. To invoke this \nscreen, type ‘CSDINSTR’ in the field at the top right corner of the Application tool bar and click \nthe adjoining arrow button."
+    },
+    {
+      "page_number": 66,
+      "sections": [
+        "Customer/Account No",
+        "Memo ID",
+        "Branch Code",
+        "Category",
+        "Description",
+        "Instructions Details",
+        "Instruction ID",
+        "Display Type",
+        "User Message",
+        "Instruction Date",
+        "Instruction Expiry Date",
+        "Show to Customer",
+        "Customer Message"
+      ],
+      "summary": "This page outlines the necessary information and details required for maintaining instructions, including fields like customer/account number, memo ID, display types, instruction dates, and user messages.",
+      "raw_text": "7-2\nYou need to specify the following information:\nCustomer/Account No\nSpecify the Customer/Account No of the account for which the instructions needs to be \nmaintained.\nMemo ID\nThe system generates and displays the Memo ID. It is a unique identifier for the customer \naccount.\nBranch Code\nThe system displays the branch code of the account.\nCategory\nThe system displays the category based on the selection of Customer/Account No.\nDescription\nThe system displays the Description. It contains either the customer name or the account \nname.\nInstructions Details\nInstruction ID\nSpecify a unique identifier for the instruction.\nDisplay Type\nSelect the display type of the memo. The drop-down list displays the following options:\nOverride - select this to display the memos in override screen; while saving the input \ninformation and authorizing the transaction.\nInformational - select this to display the memo after pressing the F6 key.\nBoth - select this to display the memo in override screen and after pressing the F6 key.\nUser Message\nSpecify the message to be displayed after pressing the F6 key.\nInstruction Date\nSpecify the date on which the instruction is generated.\nInstruction Expiry Date\nSpecify the expiry date of the instruction.\nShow to Customer\nCheck the box to display the message to the end users. \nCustomer Message\nSpecify the message to be displayed to the end customers at FCBD portal. This message is \ndisplayed to the end users only when ‘Show to Customer’ checkbox is selected.\nLanguage\nSelect the language. The system displays the memo in this language.\nChannel\nSelect the mode of channel. The drop-down displays the following options:\nDashboard\nE-Mail\nSMS"
+    },
+    {
+      "page_number": 67,
+      "sections": [
+        "Viewing Customer Instructions"
+      ],
+      "summary": "This section explains how to view customer instructions in Oracle FLEXCUBE by using the 'Customer Instruction View' screen and provides details on searching for instruction details based on specific parameters.",
+      "raw_text": "7-3\n7.2.2 \nViewing Customer Instructions\nYou can view the instruction details mapped to all memo IDs of the corresponding customer \nthrough ‘Customer Instructions View’ screen. On any screen of Oracle FLEXCUBE, place the \ncursor in either ‘Customer Number’ or ‘Customer Account Number’ field and press the F6 key. \nThe system will invoke the ‘Customer instruction view’ screen.\nYou can search for the instruction details mapped to all memo IDs based on either one or \nmore of the following parameters:\nCustomer/Account No\nDescription\nCategory\nOnce you have specified the search parameters, click ‘Search’ button. The system will display \nthe following information:\nUser Message\nInstruction Date\nInstruction Expiry Date"
+    },
+    {
+      "page_number": 68,
+      "sections": [
+        "Viewing Instructions Summary"
+      ],
+      "summary": "This section explains how to view a summary of all instructions using the 'Instructions Summary' screen and describes the search parameters available for filtering the results.",
+      "raw_text": "7-4\n7.2.3 \nViewing Instructions Summary\nYou can view a summary of all instructions using the ‘Instructions Summary’ screen. To \ninvoke this screen, type ‘CSSINSTR’ in the field at the top right corner of the Application tool \nbar and click the adjoining arrow button.\nYou can search for the instructions based on either one or more of the following parameters:\nAuthorization status\nRecord Status\nMemo ID\nCustomer/Account No\nCategory\nBranch Code\nOnce you have specified the search parameters, click ‘Search’ button. The system will display \nthe following information:\nAuthorization status\nRecord Status\nMemo ID\nCustomer/Account No\nCategory\nBranch Code"
+    },
+    {
+      "page_number": 69,
+      "sections": [],
+      "summary": "",
+      "raw_text": "8-1\n8. Function ID Glossary\nC\nCSDINSTR ........................7-1\nCSSINSTR ........................7-4\nI\nITDACMNT ........................3-1\nITDADMNT ........................3-4\nITDALEDB .......................3-13\nITDINPRF ..........................2-2\nITDINTRN .........................5-7\nITDREMND .......................6-2\nITDSPCBK ...................... 4-10\nITDSPCLS ...................... 4-12\nITDSPQRY ...................... 4-18\nITDSPRLM ...................... 4-15\nITSACMNT ........................ 3-3\nITSADMNT ...................... 3-12\nITSINPRF ......................... 2-6\nITSREMND ....................... 6-4\nITSSPCBK ...................... 4-11\nITSSPCLS ...................... 4-14"
+    }
+  ]
+}

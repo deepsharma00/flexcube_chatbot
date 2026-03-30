@@ -1,0 +1,2418 @@
+{
+  "source": "FlexCube/FCUBS/Inventory Management/Instruments Inventory Tracking User Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 62,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the preface and provides an overview of the instruments inventory tracking module, including its scope and features.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Instruments Inventory Tracking (IV) module and outlines its purpose, target audience, documentation accessibility, abbreviations used, and refers to related systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Instruments Inventory Tracking (IV) module and outlines its purpose, target audience, documentation accessibility, abbreviations used, and refers to related systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Instruments Inventory Tracking (IV) module and outlines its purpose, target audience, documentation accessibility, abbreviations used, and refers to related systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces the Instruments Inventory Tracking (IV) module and outlines its purpose, target audience, documentation accessibility, abbreviations used, and refers to related systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Abbreviations",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces the Instruments Inventory Tracking (IV) module and outlines its purpose, target audience, documentation accessibility, abbreviations used, and refers to related systems.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Organization",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page outlines the structure of a user manual for the Oracle FLEXCUBE Instruments Inventory Tracking module, including related documents, chapters covered, and icons used.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page outlines the structure of a user manual for the Oracle FLEXCUBE Instruments Inventory Tracking module, including related documents, chapters covered, and icons used.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.7",
+      "title": "1.7 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page outlines the structure of a user manual for the Oracle FLEXCUBE Instruments Inventory Tracking module, including related documents, chapters covered, and icons used.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Abbreviations",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Organization",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "6",
+          "title": "5. Interfaces and Gateways",
+          "start_page": 48
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Generic Interface",
+          "start_page": 48
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Interface with CASA Module for Cheque Book Issue",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Interface Inputs",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Interface Validation",
+          "start_page": 51
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Interface Outputs",
+          "start_page": 51
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Interface with Web Branch module for Passbook Issue",
+          "start_page": 51
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Interface Inputs",
+          "start_page": 51
+        },
+        {
+          "structure": "6.3.2",
+          "title": "5.3.2 Interface Validation",
+          "start_page": 54
+        },
+        {
+          "structure": "6.3.3",
+          "title": "5.3.3 Interface Outputs",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Interface with Teller Module",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 For Issue of Traveller’s Cheque",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4.2",
+          "title": "5.4.2 For Issue of Banker’s Cheque/Demand Draft",
+          "start_page": 55
+        },
+        {
+          "structure": "6.5",
+          "title": "5.5 Gateway Services and Operations",
+          "start_page": 57
+        },
+        {
+          "structure": "3",
+          "title": "2. Overview - Instruments Inventory Tracking",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Instruments Inventory Tracking",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Scope of the Module",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 IV Module Functions & Features",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Flexible Parameters Definition",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Automatic Tracking of Inventory",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 Extensive Drill-Down Inquiries",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Comprehensive Usage Analysis",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3.5",
+          "title": "2.3.5 Module External Interfaces",
+          "start_page": 9
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintenances",
+          "start_page": 10
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Bank Parameters Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Issuer Code",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Issuer Code Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Issuer Code Summary Screen",
+          "start_page": 12
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Denomination Details",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Denomination Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Denomination Summary screen",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Stock Catalog Definition",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Defining Stock Catalog",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Stock Catalog Summary Screen",
+          "start_page": 18
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Stock Flow Master Definition",
+          "start_page": 19
+        },
+        {
+          "structure": "4.5.1",
+          "title": "3.5.1 Defining Stock Flow Master",
+          "start_page": 19
+        },
+        {
+          "structure": "4.5.2",
+          "title": "3.5.2 Specifying Inventory Operations for Allowed Branches",
+          "start_page": 20
+        },
+        {
+          "structure": "4.5.3",
+          "title": "3.5.3 Specifying Stock Details",
+          "start_page": 21
+        },
+        {
+          "structure": "4.5.4",
+          "title": "3.5.4 Stockflow Summary screen",
+          "start_page": 21
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Vendor Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Mandatory Batch Program Maintenance",
+          "start_page": 24
+        },
+        {
+          "structure": "5",
+          "title": "4. Operations",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Request Stocks",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Requesting Stocks",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Request Stocks Summary Screen",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Bulk Request Stocks",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Bulk Request for Stocks",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Bulk Request for Stocks Summary screen",
+          "start_page": 30
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Order Stocks",
+          "start_page": 31
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Ordering Stocks",
+          "start_page": 31
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Order Stocks Summary Screen",
+          "start_page": 32
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Receive Stocks",
+          "start_page": 33
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Receiving Stocks",
+          "start_page": 33
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Receive Stocks Summary Screen",
+          "start_page": 34
+        },
+        {
+          "structure": "5.5",
+          "title": "4.5 Issue Stocks",
+          "start_page": 35
+        },
+        {
+          "structure": "5.5.1",
+          "title": "4.5.1 Issuing Stocks",
+          "start_page": 35
+        },
+        {
+          "structure": "5.5.2",
+          "title": "4.5.2 Issue Stocks Summary screen",
+          "start_page": 36
+        },
+        {
+          "structure": "5.6",
+          "title": "4.6 Adjust Inventory Balance",
+          "start_page": 37
+        },
+        {
+          "structure": "5.6.1",
+          "title": "4.6.1 Adjusting Inventory Balance",
+          "start_page": 37
+        },
+        {
+          "structure": "5.6.2",
+          "title": "4.6.2 Adjust Inventory Balance Summary screen",
+          "start_page": 40
+        },
+        {
+          "structure": "5.7",
+          "title": "4.7 Confirm Receipts",
+          "start_page": 41
+        },
+        {
+          "structure": "5.8",
+          "title": "4.8 Balance On Hand Inquiry",
+          "start_page": 42
+        },
+        {
+          "structure": "5.9",
+          "title": "4.9 Stock Transactions Inquiry",
+          "start_page": 44
+        },
+        {
+          "structure": "5.10",
+          "title": "4.10 Usage Pattern Analysis",
+          "start_page": 4
+        },
+        {
+          "structure": "5.11",
+          "title": "4.11 EOD Processing",
+          "start_page": 4
+        },
+        {
+          "structure": "5.11.1",
+          "title": "4.11.1 Re-order Level Alerts",
+          "start_page": 47
+        },
+        {
+          "structure": "5.11.2",
+          "title": "4.11.2 Excess Level Alerts",
+          "start_page": 47
+        },
+        {
+          "structure": "7",
+          "title": "6. Annexure",
+          "start_page": 58
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 Process Workflow Illustration",
+          "start_page": 58
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Transaction Workflow Examples",
+          "start_page": 59
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Overview - Instruments Inventory Tracking",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the Instruments Inventory Tracking module in Oracle FLEXCUBE, detailing its scope and functions related to managing financial instruments.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Instruments Inventory Tracking",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page provides an overview of the Instruments Inventory Tracking module in Oracle FLEXCUBE, detailing its scope and functions related to managing financial instruments.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Scope of the Module",
+      "start_page": 7,
+      "end_page": 8,
+      "summary": "This page provides an overview of the Instruments Inventory Tracking module in Oracle FLEXCUBE, detailing its scope and functions related to managing financial instruments.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 IV Module Functions & Features",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page provides an overview of the IV module's functions and features, including flexible parameter definition, automatic inventory tracking, extensive inquiries, usage analysis, and external interfaces.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Flexible Parameters Definition",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page provides an overview of the IV module's functions and features, including flexible parameter definition, automatic inventory tracking, extensive inquiries, usage analysis, and external interfaces.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Automatic Tracking of Inventory",
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This page provides an overview of the IV module's functions and features, including flexible parameter definition, automatic inventory tracking, extensive inquiries, usage analysis, and external interfaces.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.3",
+      "title": "2.3.3 Extensive Drill-Down Inquiries",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page provides an overview of the IV module's functions and features, including flexible parameter definition, automatic inventory tracking, extensive inquiries, usage analysis, and external interfaces.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.4",
+      "title": "2.3.4 Comprehensive Usage Analysis",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page discusses the Comprehensive Usage Analysis feature for tracking inventory usage and aging, as well as the external interfaces of the IV module with CASA and Teller modules in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.5",
+      "title": "2.3.5 Module External Interfaces",
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This page discusses the Comprehensive Usage Analysis feature for tracking inventory usage and aging, as well as the external interfaces of the IV module with CASA and Teller modules in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Maintenances",
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This page outlines various maintenance tasks required for the Instruments Inventory Tracking module of Oracle FLEXCUBE, including bank parameters, issuer codes, denomination details, stock catalog definitions, and vendor maintenance.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Bank Parameters Maintenance",
+      "start_page": 10,
+      "end_page": 11,
+      "summary": "This page outlines various maintenance tasks required for the Instruments Inventory Tracking module of Oracle FLEXCUBE, including bank parameters, issuer codes, denomination details, stock catalog definitions, and vendor maintenance.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Instruments Inventory Tracking",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 IV Module Functions & Features",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Flexible Parameters Definition",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Automatic Tracking of Inventory",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 Extensive Drill-Down Inquiries",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Comprehensive Usage Analysis",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3.5",
+          "title": "2.3.5 Module External Interfaces",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Scope of the Module",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Issuer Code",
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This page describes how to invoke the Bank Parameters Maintenances screen and provides details on allowing inventory tracking and maintaining issuer codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.1",
+      "title": "3.2.1 Issuer Code Maintenance",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "This page describes how to invoke the Bank Parameters Maintenances screen and provides details on allowing inventory tracking and maintaining issuer codes.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2.2",
+      "title": "3.2.2 Issuer Code Summary Screen",
+      "start_page": 12,
+      "end_page": 13,
+      "summary": "This page explains how to access and use the 'Issuer Code Maintenance' and 'Issuer Code - Summary' screens for managing financial instrument codes within a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Denomination Details",
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This page describes how to access and use the Denomination Details screen for specifying currency denominations in the Core module maintenances.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3.1",
+      "title": "3.3.1 Denomination Maintenance",
+      "start_page": 13,
+      "end_page": 15,
+      "summary": "This page describes how to access and use the Denomination Details screen for specifying currency denominations in the Core module maintenances.",
+      "cross_references": [
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Flexible Parameters Definition",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Automatic Tracking of Inventory",
+          "start_page": 8
+        }
+      ]
+    },
+    {
+      "structure": "4.3.2",
+      "title": "3.3.2 Denomination Summary screen",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page describes how to use the 'Denomination Summary' screen for querying records and introduces the 'Stock Catalog Definition' process.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Stock Catalog Definition",
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This page describes how to use the 'Denomination Summary' screen for querying records and introduces the 'Stock Catalog Definition' process.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.1",
+      "title": "3.4.1 Defining Stock Catalog",
+      "start_page": 15,
+      "end_page": 18,
+      "summary": "This page describes how to use the 'Denomination Summary' screen for querying records and introduces the 'Stock Catalog Definition' process.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4.2",
+      "title": "3.4.2 Stock Catalog Summary Screen",
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This page discusses settings for auto serial numbers and stock types, as well as operations that can be performed on the Stock Catalog Definition and Summary screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5",
+      "title": "3.5 Stock Flow Master Definition",
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This page explains how to invoke the 'Stock Catalog Summary' screen and provides details on defining stock flow master, including specifying inventory operations for allowed branches and maintaining stock details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.1",
+      "title": "3.5.1 Defining Stock Flow Master",
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This page explains how to invoke the 'Stock Catalog Summary' screen and provides details on defining stock flow master, including specifying inventory operations for allowed branches and maintaining stock details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.2",
+      "title": "3.5.2 Specifying Inventory Operations for Allowed Branches",
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This section explains how to set up inventory operations for allowed branches using the 'Stock Flow Master Definition' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.3",
+      "title": "3.5.3 Specifying Stock Details",
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This page explains how to specify stock details such as reorder level and excess level for different catalog stocks at the inventory branch level, and also describes how to use the Stockflow Summary screen to query stockflow definition records.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5.4",
+      "title": "3.5.4 Stockflow Summary screen",
+      "start_page": 21,
+      "end_page": 22,
+      "summary": "This page explains how to specify stock details such as reorder level and excess level for different catalog stocks at the inventory branch level, and also describes how to use the Stockflow Summary screen to query stockflow definition records.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6",
+      "title": "3.6 Vendor Maintenance",
+      "start_page": 22,
+      "end_page": 24,
+      "summary": "This page explains how to access the 'Stock Flow Summary' screen and describes the process of maintaining vendor details for inventory suppliers in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7",
+      "title": "3.7 Mandatory Batch Program Maintenance",
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This section explains how to maintain the 'IVBEODFN' batch process for generating excess stock and shortage reports during EOD, by invoking the 'Mandatory Batch Program Maintenance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5",
+      "title": "4. Operations",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page details various operations related to inventory management within the Instruments Inventory Tracking module of Oracle FLEXCUBE, including requesting, ordering, receiving, and issuing stocks.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1",
+      "title": "4.1 Request Stocks",
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This page details various operations related to inventory management within the Instruments Inventory Tracking module of Oracle FLEXCUBE, including requesting, ordering, receiving, and issuing stocks.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.1.1",
+      "title": "4.1.1 Requesting Stocks",
+      "start_page": 25,
+      "end_page": 28,
+      "summary": "This page details various operations related to inventory management within the Instruments Inventory Tracking module of Oracle FLEXCUBE, including requesting, ordering, receiving, and issuing stocks.",
+      "cross_references": [
+        {
+          "structure": "4.1",
+          "title": "3.1 Bank Parameters Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Stock Flow Master Definition",
+          "start_page": 19
+        },
+        {
+          "structure": "4.5.1",
+          "title": "3.5.1 Defining Stock Flow Master",
+          "start_page": 19
+        },
+        {
+          "structure": "4.5.2",
+          "title": "3.5.2 Specifying Inventory Operations for Allowed Branches",
+          "start_page": 20
+        },
+        {
+          "structure": "4.5.3",
+          "title": "3.5.3 Specifying Stock Details",
+          "start_page": 21
+        },
+        {
+          "structure": "4.5.4",
+          "title": "3.5.4 Stockflow Summary screen",
+          "start_page": 21
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Mandatory Batch Program Maintenance",
+          "start_page": 24
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Issuer Code",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Issuer Code Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Issuer Code Summary Screen",
+          "start_page": 12
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Vendor Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Denomination Details",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Denomination Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Denomination Summary screen",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Stock Catalog Definition",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Defining Stock Catalog",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Stock Catalog Summary Screen",
+          "start_page": 18
+        }
+      ]
+    },
+    {
+      "structure": "5.1.2",
+      "title": "4.1.2 Request Stocks Summary Screen",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page describes how to use the 'Request Stocks Summary' screen and the 'Bulk Request Stocks' function for querying and recording multiple stock requests in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2",
+      "title": "4.2 Bulk Request Stocks",
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This page describes how to use the 'Request Stocks Summary' screen and the 'Bulk Request Stocks' function for querying and recording multiple stock requests in a system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.2.1",
+      "title": "4.2.1 Bulk Request for Stocks",
+      "start_page": 28,
+      "end_page": 30,
+      "summary": "This page describes how to use the 'Request Stocks Summary' screen and the 'Bulk Request Stocks' function for querying and recording multiple stock requests in a system.",
+      "cross_references": [
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Issuer Code Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Issuer Code Summary Screen",
+          "start_page": 12
+        }
+      ]
+    },
+    {
+      "structure": "5.2.2",
+      "title": "4.2.2 Bulk Request for Stocks Summary screen",
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This page explains how total value is calculated for stocks and describes the functionality of the 'Bulk Request for Stocks - Summary' screen in querying bulk request records.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3",
+      "title": "4.3 Order Stocks",
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This section explains how to use the 'Order Stocks' screen to place purchase orders by considering current stock levels and indent requests from branches, detailing the necessary inputs such as order stock number, request stock number, supplier code, and requesting branch.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.3.1",
+      "title": "4.3.1 Ordering Stocks",
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This section explains how to use the 'Order Stocks' screen to place purchase orders by considering current stock levels and indent requests from branches, detailing the necessary inputs such as order stock number, request stock number, supplier code, and requesting branch.",
+      "cross_references": [
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Denomination Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Denomination Summary screen",
+          "start_page": 15
+        }
+      ]
+    },
+    {
+      "structure": "5.3.2",
+      "title": "4.3.2 Order Stocks Summary Screen",
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This page describes how to use a stock catalog code to query unfulfilled indent requests and details fields such as series number, start/end number, quantity, and total value for ordering stocks.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4",
+      "title": "4.4 Receive Stocks",
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This page explains how to invoke and use the 'Order Stocks Summary' and 'Receive Stocks' screens for recording inventory additions in an application system.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.4.1",
+      "title": "4.4.1 Receiving Stocks",
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This page explains how to invoke and use the 'Order Stocks Summary' and 'Receive Stocks' screens for recording inventory additions in an application system.",
+      "cross_references": [
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Stock Catalog Summary Screen",
+          "start_page": 18
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Defining Stock Catalog",
+          "start_page": 15
+        }
+      ]
+    },
+    {
+      "structure": "5.4.2",
+      "title": "4.4.2 Receive Stocks Summary Screen",
+      "start_page": 34,
+      "end_page": 35,
+      "summary": "This page describes the details that need to be specified for updating stock balance upon receipt against a purchase order, including input fields for order stock number, supplier code, inventory branch, quantity, and series numbers.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5",
+      "title": "4.5 Issue Stocks",
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "This page describes how to invoke and use the 'Receive Stocks Summary' and 'Issue Stocks' screens for managing inventory distribution within a bank.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.5.1",
+      "title": "4.5.1 Issuing Stocks",
+      "start_page": 35,
+      "end_page": 36,
+      "summary": "This page describes how to invoke and use the 'Receive Stocks Summary' and 'Issue Stocks' screens for managing inventory distribution within a bank.",
+      "cross_references": [
+        {
+          "structure": "4.5.2",
+          "title": "3.5.2 Specifying Inventory Operations for Allowed Branches",
+          "start_page": 20
+        },
+        {
+          "structure": "4.5.1",
+          "title": "3.5.1 Defining Stock Flow Master",
+          "start_page": 19
+        }
+      ]
+    },
+    {
+      "structure": "5.5.2",
+      "title": "4.5.2 Issue Stocks Summary screen",
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This page explains the 'Issue Stocks' function, detailing how it works in transferring stock between inventory branches and requested branches, including input fields such as request stock number, stock catalog code, quantity, series numbers, start and end numbers, and total value.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6",
+      "title": "4.6 Adjust Inventory Balance",
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This page describes how to access and use the 'Issue Stocks Summary' screen and provides information on adjusting inventory balances through the 'Adjust Inventory Balance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6.1",
+      "title": "4.6.1 Adjusting Inventory Balance",
+      "start_page": 37,
+      "end_page": 40,
+      "summary": "This page describes how to access and use the 'Issue Stocks Summary' screen and provides information on adjusting inventory balances through the 'Adjust Inventory Balance' screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.6.2",
+      "title": "4.6.2 Adjust Inventory Balance Summary screen",
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This page explains the conditions under which an adjustment inventory balance record must be maintained and describes how to use the 'Adjust Inventory Balance Summary' screen for querying adjustment stock records.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.7",
+      "title": "4.7 Confirm Receipts",
+      "start_page": 41,
+      "end_page": 42,
+      "summary": "This section explains how to use the 'Confirm Receipts' function to acknowledge the physical receipt of stock and marks instruments as available for issue.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.8",
+      "title": "4.8 Balance On Hand Inquiry",
+      "start_page": 42,
+      "end_page": 44,
+      "summary": "This page describes how to specify transaction statuses for instruments and how to inquire about the current balance of stocks in terms of denominations and serial numbers.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.9",
+      "title": "4.9 Stock Transactions Inquiry",
+      "start_page": 44,
+      "end_page": 4,
+      "summary": "This page describes the Denomination Details screen and how to use the Stock Transactions Inquiry screen to query transactions for a specific stock code within a date range.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.10",
+      "title": "4.10 Usage Pattern Analysis",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page outlines various stock management processes including receiving, issuing, adjusting inventory balance, and confirming receipts.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.11",
+      "title": "4.11 EOD Processing",
+      "start_page": 4,
+      "end_page": 47,
+      "summary": "This page outlines various stock management processes including receiving, issuing, adjusting inventory balance, and confirming receipts.",
+      "cross_references": [
+        {
+          "structure": "4.3.1",
+          "title": "3.3.1 Denomination Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Issuer Code",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.1",
+          "title": "3.2.1 Issuer Code Maintenance",
+          "start_page": 11
+        },
+        {
+          "structure": "4.2.2",
+          "title": "3.2.2 Issuer Code Summary Screen",
+          "start_page": 12
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Vendor Maintenance",
+          "start_page": 22
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Bank Parameters Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Flexible Parameters Definition",
+          "start_page": 8
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Stock Catalog Definition",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4.1",
+          "title": "3.4.1 Defining Stock Catalog",
+          "start_page": 15
+        },
+        {
+          "structure": "4.4.2",
+          "title": "3.4.2 Stock Catalog Summary Screen",
+          "start_page": 18
+        },
+        {
+          "structure": "5",
+          "title": "4. Operations",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Request Stocks",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Requesting Stocks",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Request Stocks Summary Screen",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Bulk Request Stocks",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Bulk Request for Stocks",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Bulk Request for Stocks Summary screen",
+          "start_page": 30
+        },
+        {
+          "structure": "5.3",
+          "title": "4.3 Order Stocks",
+          "start_page": 31
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Ordering Stocks",
+          "start_page": 31
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Order Stocks Summary Screen",
+          "start_page": 32
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Receive Stocks",
+          "start_page": 33
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Receiving Stocks",
+          "start_page": 33
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Receive Stocks Summary Screen",
+          "start_page": 34
+        },
+        {
+          "structure": "5.5",
+          "title": "4.5 Issue Stocks",
+          "start_page": 35
+        },
+        {
+          "structure": "5.5.1",
+          "title": "4.5.1 Issuing Stocks",
+          "start_page": 35
+        },
+        {
+          "structure": "5.5.2",
+          "title": "4.5.2 Issue Stocks Summary screen",
+          "start_page": 36
+        },
+        {
+          "structure": "5.6",
+          "title": "4.6 Adjust Inventory Balance",
+          "start_page": 37
+        },
+        {
+          "structure": "5.6.1",
+          "title": "4.6.1 Adjusting Inventory Balance",
+          "start_page": 37
+        },
+        {
+          "structure": "5.6.2",
+          "title": "4.6.2 Adjust Inventory Balance Summary screen",
+          "start_page": 40
+        },
+        {
+          "structure": "5.7",
+          "title": "4.7 Confirm Receipts",
+          "start_page": 41
+        },
+        {
+          "structure": "5.8",
+          "title": "4.8 Balance On Hand Inquiry",
+          "start_page": 42
+        },
+        {
+          "structure": "5.9",
+          "title": "4.9 Stock Transactions Inquiry",
+          "start_page": 44
+        },
+        {
+          "structure": "5.10",
+          "title": "4.10 Usage Pattern Analysis",
+          "start_page": 4
+        },
+        {
+          "structure": "5.11.1",
+          "title": "4.11.1 Re-order Level Alerts",
+          "start_page": 47
+        },
+        {
+          "structure": "5.11.2",
+          "title": "4.11.2 Excess Level Alerts",
+          "start_page": 47
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Instruments Inventory Tracking",
+          "start_page": 7
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 IV Module Functions & Features",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Automatic Tracking of Inventory",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.3",
+          "title": "2.3.3 Extensive Drill-Down Inquiries",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.4",
+          "title": "2.3.4 Comprehensive Usage Analysis",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3.5",
+          "title": "2.3.5 Module External Interfaces",
+          "start_page": 9
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Abbreviations",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Organization",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "2.7",
+          "title": "1.7 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "4.3.2",
+          "title": "3.3.2 Denomination Summary screen",
+          "start_page": 15
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Scope of the Module",
+          "start_page": 7
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Mandatory Batch Program Maintenance",
+          "start_page": 24
+        },
+        {
+          "structure": "4.5.1",
+          "title": "3.5.1 Defining Stock Flow Master",
+          "start_page": 19
+        },
+        {
+          "structure": "4",
+          "title": "3. Maintenances",
+          "start_page": 10
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Denomination Details",
+          "start_page": 13
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Stock Flow Master Definition",
+          "start_page": 19
+        },
+        {
+          "structure": "4.5.2",
+          "title": "3.5.2 Specifying Inventory Operations for Allowed Branches",
+          "start_page": 20
+        },
+        {
+          "structure": "4.5.3",
+          "title": "3.5.3 Specifying Stock Details",
+          "start_page": 21
+        },
+        {
+          "structure": "4.5.4",
+          "title": "3.5.4 Stockflow Summary screen",
+          "start_page": 21
+        },
+        {
+          "structure": "7",
+          "title": "6. Annexure",
+          "start_page": 58
+        },
+        {
+          "structure": "7.1",
+          "title": "6.1 Process Workflow Illustration",
+          "start_page": 58
+        },
+        {
+          "structure": "7.2",
+          "title": "6.2 Transaction Workflow Examples",
+          "start_page": 59
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "6",
+          "title": "5. Interfaces and Gateways",
+          "start_page": 48
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Generic Interface",
+          "start_page": 48
+        },
+        {
+          "structure": "6.2",
+          "title": "5.2 Interface with CASA Module for Cheque Book Issue",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Interface Inputs",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Interface Validation",
+          "start_page": 51
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Interface Outputs",
+          "start_page": 51
+        },
+        {
+          "structure": "6.3",
+          "title": "5.3 Interface with Web Branch module for Passbook Issue",
+          "start_page": 51
+        },
+        {
+          "structure": "6.3.1",
+          "title": "5.3.1 Interface Inputs",
+          "start_page": 51
+        },
+        {
+          "structure": "6.3.2",
+          "title": "5.3.2 Interface Validation",
+          "start_page": 54
+        },
+        {
+          "structure": "6.3.3",
+          "title": "5.3.3 Interface Outputs",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4",
+          "title": "5.4 Interface with Teller Module",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4.1",
+          "title": "5.4.1 For Issue of Traveller’s Cheque",
+          "start_page": 55
+        },
+        {
+          "structure": "6.4.2",
+          "title": "5.4.2 For Issue of Banker’s Cheque/Demand Draft",
+          "start_page": 55
+        },
+        {
+          "structure": "6.5",
+          "title": "5.5 Gateway Services and Operations",
+          "start_page": 57
+        },
+        {
+          "structure": "3",
+          "title": "2. Overview - Instruments Inventory Tracking",
+          "start_page": 7
+        }
+      ]
+    },
+    {
+      "structure": "5.11.1",
+      "title": "4.11.1 Re-order Level Alerts",
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "This page describes how re-order and excess level alerts are generated based on stock definitions, and explains the process of generating auto-authorized Request Stock transactions when necessary.",
+      "cross_references": []
+    },
+    {
+      "structure": "5.11.2",
+      "title": "4.11.2 Excess Level Alerts",
+      "start_page": 47,
+      "end_page": 48,
+      "summary": "This page describes how re-order and excess level alerts are generated based on stock definitions, and explains the process of generating auto-authorized Request Stock transactions when necessary.",
+      "cross_references": []
+    },
+    {
+      "structure": "6",
+      "title": "5. Interfaces and Gateways",
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "This page discusses various interfaces and gateways used by the IV module of Oracle FLEXCUBE during online transactions, including specific details on how these interfaces function.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.1",
+      "title": "5.1 Generic Interface",
+      "start_page": 48,
+      "end_page": 49,
+      "summary": "This page discusses various interfaces and gateways used by the IV module of Oracle FLEXCUBE during online transactions, including specific details on how these interfaces function.",
+      "cross_references": [
+        {
+          "structure": "5.3",
+          "title": "4.3 Order Stocks",
+          "start_page": 31
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Ordering Stocks",
+          "start_page": 31
+        },
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Order Stocks Summary Screen",
+          "start_page": 32
+        },
+        {
+          "structure": "5.4",
+          "title": "4.4 Receive Stocks",
+          "start_page": 33
+        },
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Receiving Stocks",
+          "start_page": 33
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Receive Stocks Summary Screen",
+          "start_page": 34
+        },
+        {
+          "structure": "5.2",
+          "title": "4.2 Bulk Request Stocks",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Bulk Request for Stocks",
+          "start_page": 28
+        },
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Bulk Request for Stocks Summary screen",
+          "start_page": 30
+        },
+        {
+          "structure": "5.1",
+          "title": "4.1 Request Stocks",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1.1",
+          "title": "4.1.1 Requesting Stocks",
+          "start_page": 25
+        },
+        {
+          "structure": "5.1.2",
+          "title": "4.1.2 Request Stocks Summary Screen",
+          "start_page": 28
+        },
+        {
+          "structure": "5.5",
+          "title": "4.5 Issue Stocks",
+          "start_page": 35
+        },
+        {
+          "structure": "5.5.1",
+          "title": "4.5.1 Issuing Stocks",
+          "start_page": 35
+        },
+        {
+          "structure": "5.5.2",
+          "title": "4.5.2 Issue Stocks Summary screen",
+          "start_page": 36
+        }
+      ]
+    },
+    {
+      "structure": "6.2",
+      "title": "5.2 Interface with CASA Module for Cheque Book Issue",
+      "start_page": 49,
+      "end_page": 49,
+      "summary": "This page describes the interface between the CASA module and the inventory module for cheque book issuance, including the inputs, validation, and outputs of the process.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.1",
+      "title": "5.2.1 Interface Inputs",
+      "start_page": 49,
+      "end_page": 51,
+      "summary": "This page describes the interface between the CASA module and the inventory module for cheque book issuance, including the inputs, validation, and outputs of the process.",
+      "cross_references": [
+        {
+          "structure": "5.2.2",
+          "title": "4.2.2 Bulk Request for Stocks Summary screen",
+          "start_page": 30
+        },
+        {
+          "structure": "5.2.1",
+          "title": "4.2.1 Bulk Request for Stocks",
+          "start_page": 28
+        }
+      ]
+    },
+    {
+      "structure": "6.2.2",
+      "title": "5.2.2 Interface Validation",
+      "start_page": 51,
+      "end_page": 51,
+      "summary": "This page describes the process of cheque book issuance, including unique numbering, interface validation, and updates to inventory status, as well as interactions with the web branch module for passbook issues.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.2.3",
+      "title": "5.2.3 Interface Outputs",
+      "start_page": 51,
+      "end_page": 51,
+      "summary": "This page describes the process of cheque book issuance, including unique numbering, interface validation, and updates to inventory status, as well as interactions with the web branch module for passbook issues.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3",
+      "title": "5.3 Interface with Web Branch module for Passbook Issue",
+      "start_page": 51,
+      "end_page": 51,
+      "summary": "This page describes the process of cheque book issuance, including unique numbering, interface validation, and updates to inventory status, as well as interactions with the web branch module for passbook issues.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.1",
+      "title": "5.3.1 Interface Inputs",
+      "start_page": 51,
+      "end_page": 54,
+      "summary": "This page describes the process of cheque book issuance, including unique numbering, interface validation, and updates to inventory status, as well as interactions with the web branch module for passbook issues.",
+      "cross_references": [
+        {
+          "structure": "5.3.2",
+          "title": "4.3.2 Order Stocks Summary Screen",
+          "start_page": 32
+        },
+        {
+          "structure": "5.3.1",
+          "title": "4.3.1 Ordering Stocks",
+          "start_page": 31
+        }
+      ]
+    },
+    {
+      "structure": "6.3.2",
+      "title": "5.3.2 Interface Validation",
+      "start_page": 54,
+      "end_page": 55,
+      "summary": "This page describes the History tab for viewing passbook details and accounting entries related to passbook issuance, as well as interface validation rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.3.3",
+      "title": "5.3.3 Interface Outputs",
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "This page discusses the interface outputs and details on how instruments such as traveller's cheques and banker's cheques/demand drafts are issued, including updates to inventory status and workflow processes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4",
+      "title": "5.4 Interface with Teller Module",
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "This page discusses the interface outputs and details on how instruments such as traveller's cheques and banker's cheques/demand drafts are issued, including updates to inventory status and workflow processes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.1",
+      "title": "5.4.1 For Issue of Traveller’s Cheque",
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "This page discusses the interface outputs and details on how instruments such as traveller's cheques and banker's cheques/demand drafts are issued, including updates to inventory status and workflow processes.",
+      "cross_references": []
+    },
+    {
+      "structure": "6.4.2",
+      "title": "5.4.2 For Issue of Banker’s Cheque/Demand Draft",
+      "start_page": 55,
+      "end_page": 57,
+      "summary": "This page discusses the interface outputs and details on how instruments such as traveller's cheques and banker's cheques/demand drafts are issued, including updates to inventory status and workflow processes.",
+      "cross_references": [
+        {
+          "structure": "5.4.1",
+          "title": "4.4.1 Receiving Stocks",
+          "start_page": 33
+        },
+        {
+          "structure": "5.4.2",
+          "title": "4.4.2 Receive Stocks Summary Screen",
+          "start_page": 34
+        }
+      ]
+    },
+    {
+      "structure": "6.5",
+      "title": "5.5 Gateway Services and Operations",
+      "start_page": 57,
+      "end_page": 58,
+      "summary": "This page lists various services and operations available for the gateway interface, including stock-related functionalities such as creating, querying, and adjusting stock balances.",
+      "cross_references": []
+    },
+    {
+      "structure": "7",
+      "title": "6. Annexure",
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This chapter provides additional information on the Oracle FLEXCUBE system's IV module through process and transaction workflow illustrations and examples.",
+      "cross_references": []
+    },
+    {
+      "structure": "7.1",
+      "title": "6.1 Process Workflow Illustration",
+      "start_page": 58,
+      "end_page": 59,
+      "summary": "This chapter provides additional information on the Oracle FLEXCUBE system's IV module through process and transaction workflow illustrations and examples.",
+      "cross_references": [
+        {
+          "structure": "6.2",
+          "title": "5.2 Interface with CASA Module for Cheque Book Issue",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2.1",
+          "title": "5.2.1 Interface Inputs",
+          "start_page": 49
+        },
+        {
+          "structure": "6.2.2",
+          "title": "5.2.2 Interface Validation",
+          "start_page": 51
+        },
+        {
+          "structure": "6.2.3",
+          "title": "5.2.3 Interface Outputs",
+          "start_page": 51
+        },
+        {
+          "structure": "6.1",
+          "title": "5.1 Generic Interface",
+          "start_page": 48
+        }
+      ]
+    },
+    {
+      "structure": "7.2",
+      "title": "6.2 Transaction Workflow Examples",
+      "start_page": 59,
+      "end_page": 62,
+      "summary": "This page provides illustrated examples of the workflows in the system, including stock requests and their lifecycle stages such as order stock, receive stock, issue stock, and confirm receipt.",
+      "cross_references": []
+    },
+    {
+      "structure": "8",
+      "title": "7. Function ID Glossary",
+      "start_page": 62,
+      "end_page": 64,
+      "summary": "This page lists function IDs and their corresponding references in a glossary.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Instruments Inventory Tracking in Oracle FLEXCUBE Universal Banking version 14.7.0.0.0, published in November 2022.",
+      "raw_text": "Instruments Inventory Tracking User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal disclaimers for Oracle Financial Services Software Limited's Instruments Inventory Tracking User Guide.",
+      "raw_text": "Instruments Inventory Tracking User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Overview - Instruments Inventory Tracking"
+      ],
+      "summary": "This page introduces the preface and provides an overview of the instruments inventory tracking module, including its scope and features.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nAbbreviations...........................................................................................................  1-1\n1.5 \nOrganization ............................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n1.7 \nGlossary of Icons.....................................................................................................  1-2\n2. \nOverview - Instruments Inventory Tracking .......................................... 2-1\n2.1 \nInstruments Inventory Tracking ...............................................................................  2-1\n2.2 \nScope of the Module................................................................................................  2-1\n2.3 \nIV Module Functions & Features .............................................................................  2-2\n2.3.1  \nFlexible Parameters Definition....................................................................  2-2\n2.3.2  \nAutomatic Tracking of Inventory.................................................................  2-2\n2.3.3  \nExtensive Drill-Down Inquiries....................................................................  2-2\n2.3.4  \nComprehensive Usage Analysis ................................................................  2-3\n2.3.5  \nModule External Interfaces.........................................................................  2-3\n3. \nMaintenances ........................................................................................... 3-1\n3.1 \nBank Parameters Maintenance ...............................................................................  3-1\n3.2 \nIssuer Code .............................................................................................................  3-2\n3.2.1  \nIssuer Code Maintenance...........................................................................  3-2\n3.2.2  \nIssuer Code Summary Screen ...................................................................  3-3\n3.3 \nDenomination Details ..............................................................................................  3-4\n3.3.1  \nDenomination Maintenance........................................................................  3-4\n3.3.2  \nDenomination Summary screen .................................................................  3-6\n3.4 \nStock Catalog Definition ..........................................................................................  3-6\n3.4.1  \nDefining Stock Catalog ...............................................................................  3-6\n3.4.2  \nStock Catalog Summary Screen ................................................................  3-9\n3.5 \nStock Flow Master Definition.................................................................................  3-10\n3.5.1  \nDefining Stock Flow Master......................................................................  3-10\n3.5.2  \nSpecifying Inventory Operations for Allowed Branches............................  3-11\n3.5.3  \nSpecifying Stock Details...........................................................................  3-12\n3.5.4  \nStockflow Summary screen ......................................................................  3-12\n3.6 \nVendor Maintenance .............................................................................................  3-13\n3.7 \nMandatory Batch Program Maintenance...............................................................  3-15\n4. \nOperations ................................................................................................ 4-1\n4.1 \nRequest Stocks .......................................................................................................  4-1\n4.1.1  \nRequesting Stocks......................................................................................  4-1\n4.1.2  \nRequest Stocks Summary Screen..............................................................  4-4\n4.2 \nBulk Request Stocks ...............................................................................................  4-4\n4.2.1  \nBulk Request for Stocks .............................................................................  4-4\n4.2.2  \nBulk Request for Stocks Summary screen.................................................  4-6\n4.3 \nOrder Stocks............................................................................................................  4-7\n4.3.1  \nOrdering Stocks..........................................................................................  4-7"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Order Stocks Summary Screen",
+        "Receiving Stocks",
+        "Receive Stocks Summary Screen",
+        "Issuing Stocks",
+        "Issue Stocks Summary screen",
+        "Adjusting Inventory Balance",
+        "Adjust Inventory Balance Summary screen",
+        "Confirm Receipts",
+        "Balance On Hand Inquiry",
+        "Stock Transactions Inquiry"
+      ],
+      "summary": "This page outlines various stock management processes including receiving, issuing, adjusting inventory balance, and confirming receipts.",
+      "raw_text": "4.3.2  \nOrder Stocks Summary Screen..................................................................  4-8\n4.4 \nReceive Stocks........................................................................................................  4-9\n4.4.1  \nReceiving Stocks........................................................................................  4-9\n4.4.2  \nReceive Stocks Summary Screen............................................................  4-10\n4.5 \nIssue Stocks ..........................................................................................................  4-11\n4.5.1  \nIssuing Stocks ..........................................................................................  4-11\n4.5.2  \nIssue Stocks Summary screen .................................................................  4-12\n4.6 \nAdjust Inventory Balance.......................................................................................  4-13\n4.6.1  \nAdjusting Inventory Balance.....................................................................  4-13\n4.6.2  \nAdjust Inventory Balance Summary screen..............................................  4-16\n4.7 \nConfirm Receipts...................................................................................................  4-17\n4.8 \nBalance On Hand Inquiry .....................................................................................  4-18\n4.9 \nStock Transactions Inquiry ....................................................................................  4-20\n4.10 Usage Pattern Analysis .........................................................................................  4-21\n4.11 EOD Processing....................................................................................................  4-22\n4.11.1  Re-order Level Alerts................................................................................  4-23\n4.11.2  Excess Level Alerts ..................................................................................  4-23\n5. \nInterfaces and Gateways  ........................................................................ 5-1\n5.1 \nGeneric Interface.....................................................................................................  5-1\n5.2 \nInterface with CASA Module for Cheque Book Issue..............................................  5-2\n5.2.1  \nInterface Inputs...........................................................................................  5-2\n5.2.2  \nInterface Validation.....................................................................................  5-4\n5.2.3  \nInterface Outputs........................................................................................  5-4\n5.3 \nInterface with Web Branch module for Passbook Issue..........................................  5-4\n5.3.1  \nInterface Inputs...........................................................................................  5-4\n5.3.2  \nInterface Validation.....................................................................................  5-7\n5.3.3  \nInterface Outputs........................................................................................  5-8\n5.4 \nInterface with Teller Module ....................................................................................  5-8\n5.4.1  \nFor Issue of Traveller’s Cheque ................................................................  5-8\n5.4.2  \nFor Issue of Banker’s Cheque/Demand Draft.............................................  5-8\n5.5 \nGateway Services and Operations........................................................................  5-10\n6. \nAnnexure  ................................................................................................. 6-1\n6.1 \nProcess Workflow Illustration ..................................................................................  6-1\n6.2 \nTransaction Workflow Examples .............................................................................  6-2\n7. \nFunction ID Glossary ............................................................................... 7-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Abbreviations",
+        "The System"
+      ],
+      "summary": "This page introduces the Instruments Inventory Tracking (IV) module and outlines its purpose, target audience, documentation accessibility, abbreviations used, and refers to related systems.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nBanks and other financial institutions use a variety of pre-printed instruments for their daily \nbusiness. These instruments are normally ordered in bulk and distributed internally for daily \ntransactions. Your bank may need to control the inventory of such instruments and ensure \nprompt replenishment when re-order levels are reached.\nThe Instruments Inventory Tracking (IV) module is built to maintain stocks of various financial \ninstruments that the bank handles in the daily business. This module enables you to define \nnew financial instruments with ease and minimum customization.\n1.2 \nAudience\nThis Manual is intended for the following Users/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nAbbreviations\nThe following abbreviations are used in this manual.\nRole\nFunction\nData entry Clerks\nInput functions for maintenance related to the interface\nManagers/Officers\nAuthorization functions\nAbbreviation\nDescription\nIV Module\nInstruments Inventory Tracking Module\nAEOD\nAuto End of Day\nBOD\nBeginning of Day\nEOD\nEnd of Day\nEOTI\nEnd of Transaction Input\nEOFI\nEnd of Financial Input\nThe System\nThis term is always used to refer to Oracle FLEXCUBE\nCASA\nCurrent and Savings Accounts\nTC\nTravellers Cheques\nOBIEE\nOracle Business Intelligence Enterprise Edition"
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Organization",
+        "Related Documents",
+        "Glossary of Icons",
+        "Chapter 1: About this Manual",
+        "Chapter 2: Overview - Instruments Inventory Tracking",
+        "Chapter 3: Maintenances",
+        "Chapter 4: Operations",
+        "Chapter 5: Interfaces and Gateways",
+        "Chapter 6: Annexure",
+        "Chapter 7: Function ID Glossary"
+      ],
+      "summary": "This page outlines the structure of a user manual for the Oracle FLEXCUBE Instruments Inventory Tracking module, including related documents, chapters covered, and icons used.",
+      "raw_text": "1-2\n1.5 \nOrganization\nThis Manual is organized into the following chapters:\n1.6 \nRelated Documents\nFor additional information, you may need to refer the following manuals of the Oracle \nFLEXCUBE system:\nCommon Procedures\nCore Services\nCore Entities\nBranch\n1.7 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons:\nChapter \nDescription\nChapter 1\nAbout this Manual gives information on the intended audience. It also \nlists the various chapters covered in this User Manual.\nChapter 2\nOverview - Instruments Inventory Tracking offers an introduction to IV \nmodule and its features.\nChapter 3\nMaintenances explains about the various activities to be performed as a \npart of enabling and using the Instruments Inventory Tracking (IV) mod-\nule.\nChapter 4\nOperations details about the various functions to perform the required \noperations as part of the Instruments Inventory Tracking (IV) module. \nChapter 5\nInterfaces and Gateways provides information on the interfaces, gate-\nways, and the required maintenances to be made. \nChapter 6\nAnnexure provides additional information through examples and illustra-\ntions of workflows in regard to the IV module.\nChapter 7\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "Instruments Inventory Tracking",
+        "Scope of the Module",
+        "IV Module Functions & Features"
+      ],
+      "summary": "This page provides an overview of the Instruments Inventory Tracking module in Oracle FLEXCUBE, detailing its scope and functions related to managing financial instruments.",
+      "raw_text": "2-1\n2. Overview - Instruments Inventory Tracking\nThis chapter gives you an overview of the Instruments Inventory Tracking (IV) module of \nOracle FLEXCUBE.\nThis chapter contains the following sections:\nSection 2.1, \"Instruments Inventory Tracking\"\nSection 2.2, \"Scope of the Module\"\nSection 2.3, \"IV Module Functions & Features\"\n2.1 \nInstruments Inventory Tracking\nBanks and other financial institutions use a variety of pre-printed instruments for their daily \nbusiness. These instruments are normally ordered in bulk and distributed internally for daily \ntransactions. Most of these instruments have a pre-determined value. Some instruments may \nhave numbers that are internally controlled. In either case, your bank may need to control the \ninventory of such instruments and ensure prompt replenishment when re-order levels are \nreached.\nThe Instruments Inventory Tracking (IV) module is built to maintain stocks of various financial \ninstruments that the bank handles in the daily business. This module enables you to define \nnew financial instruments with ease and minimum customization.\nThe following financial instruments come under its purview:\nPassbooks\nCheque Books\nDemand Drafts\nBanker’s Cheque\nTraveller’s cheque\nThe IV module provides you with the following features:\nMaintaining inventory of instruments\nTracking the movement of the instruments between ordering branch and receiving \nbranch\nTracking the status of each instrument by serial number\nTracking when re-order levels are reached\nAgeing analysis of old stocks\n2.2 \nScope of the Module\nThe IV module comprises of the following high-level functions:\nStock Catalog Definition\nStock flow Master Definition\nVendor/Supplier Codes Maintenance\nRequest Stocks\nOrder Stocks\nReceive Stocks\nIssue Stocks"
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Flexible Parameters Definition",
+        "Automatic Tracking of Inventory",
+        "Extensive Drill-Down Inquiries",
+        "Comprehensive Usage Analysis",
+        "Module External Interfaces"
+      ],
+      "summary": "This page provides an overview of the IV module's functions and features, including flexible parameter definition, automatic inventory tracking, extensive inquiries, usage analysis, and external interfaces.",
+      "raw_text": "2-2\nAdjust Inventory Balance\nBalance On Hand Inquiry\nStock Transactions Inquiry\nUsage Pattern Analysis\nInterface with casa and teller module of Oracle FLEXCUBE\n2.3 \nIV Module Functions & Features\nThe following sections give you a brief overview of the IV module’s various functions and \nfeatures.\nThis section contains the following topics:\nSection 2.3.1, \"Flexible Parameters Definition\"\nSection 2.3.2, \"Automatic Tracking of Inventory\"\nSection 2.3.3, \"Extensive Drill-Down Inquiries\"\nSection 2.3.4, \"Comprehensive Usage Analysis \"\nSection 2.3.5, \"Module External Interfaces\"\n2.3.1 \nFlexible Parameters Definition\nParameters Definition for currencies, denominations and re-order levels is completely user \ndefined and flexible. Since different banks have different workflow requirements for inventory \ncontrol, the module provides a means to define the bank’s workflow for inventory control and \nthen tracks the status of the instruments based on the defined workflow.\nDifferent stocks, different currencies, different denominations for each instrument and re-\norder levels for each type of instrument can be defined and tracked separately.\nSome instruments may not be denominated. In such cases they are tracked only by numbers \nand not by value. For these cases the denomination value will be defaulted to zero.\nRe-order levels can be defined for each type of stock i.e. different re-order level are possible \nfor each issuer, currency etc. This makes tracking and replenishing easier as the procurement \ntime for each type of instrument, issuer or currency is different.\n2.3.2 \nAutomatic Tracking of Inventory\nThe IV module supports tracking of the flow of inventory from the supplier, through the various \ndepartments of the bank, till the final delivery to the customer. The module also supports \ntracking of inventory replenishment requests, made from within the bank, until the fulfillment \nof the request.\nEach and every bank will have different workflows for inventory. The IV module allows you to \ndefine the workflow (or stock flow, as you may call it) and then tracks the inventory based on \nwhat you have defined. \n2.3.3 \nExtensive Drill-Down Inquiries\nComprehensive drill-down inquiries are available for Balance-On-Hand Quantity and Stock \nTransaction inquiry. All these inquiries allow you various parameters for narrowing down the \nresults to individual stock summaries, denomination-wise summaries and even individual \ninstrument serial numbers."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Comprehensive Usage Analysis",
+        "Module External Interfaces"
+      ],
+      "summary": "This page discusses the Comprehensive Usage Analysis feature for tracking inventory usage and aging, as well as the external interfaces of the IV module with CASA and Teller modules in Oracle FLEXCUBE.",
+      "raw_text": "2-3\n2.3.4 \nComprehensive Usage Analysis \nThe Comprehensive Usage Analysis feature enables the bank to track the usage of inventory \nand  also the ageing of inventory. It helps the in identifying whether inventory is used \naccording to age and to check reasons for ad-hoc indent requests. Usage analysis helps the \nbank to plan for better utilization and prompt ordering of inventory. \n2.3.5 \nModule External Interfaces\nThe IV module interfaces with the CASA and Teller modules of Oracle FLEXCUBE. The \ninterface helps in generation of the next available instrument serial number based on the \ninventory. It also helps in keeping an update of the inventory status.\nThe nature of the IV module’s interface with Oracle FLEXCUBE is briefly explained below.\nCASA Module\nThe CASA module has transactions that capture the issue of personal cheque books to \ncustomers based on their request. The interface to the IV module is restricted to the “issue” \nphase alone, since inventory will get updated only on issue. When the cheque comes in for \ninward clearing, only the individual status of that particular cheque changes and this will not \naffect the inventory in any way.\nThe interface takes care of the following with respect to the issuance of cheque book to a \ncustomer:\nGenerates next available cheque book serial number\nUpdates status of cheque in the IV module\nTracks the stock quantity against the re-order level\nTeller Module / Web Branch module:\nThe Teller / Web Branch module of Oracle FLEXCUBE has transactions that capture the \nissuance of passbook, banker’s cheque, demand draft and traveller’s cheque to customers. \nThe interface to the IV module deals with only the issue of stock to the branch and customer \n(as inventory status gets updated only on issue of stock). \nThe interface takes care of the following:\nUpdates instrument status in the IV module and tracks against re-order level \nsubsequent to the issuance of the following:\n– \nPassbook\n– \nBanker’s cheque\n– \nDemand draft\n– \nTraveller’s cheque\nFor passbook issue, interface to the IV module:\n– \nGenerates the next available instrument number\n– \nUpdates the status of the instrument in the IV module\n– \nTracks the stock quantity against the re-order level\nNote\nFor banker’s cheques, demand drafts and traveller’s cheques, the generation of the next \navailable instrument serial number is based on the combination of instrument type and is-\nsuer code. This is handled by the Teller module itself."
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "Bank Parameters Maintenance",
+        "Issuer Code",
+        "Denomination Details",
+        "Stock Catalog Definition",
+        "Stock Flow Master Definition",
+        "Vendor Maintenance",
+        "Mandatory Batch Program Maintenance"
+      ],
+      "summary": "This page outlines various maintenance tasks required for the Instruments Inventory Tracking module of Oracle FLEXCUBE, including bank parameters, issuer codes, denomination details, stock catalog definitions, and vendor maintenance.",
+      "raw_text": "3-1\n3. Maintenances\nAs part of enabling and using the Instruments Inventory Tracking (IV) module of Oracle \nFLEXCUBE, there are several maintenances to be performed. These maintenances have \nbeen elaborated upon in the sections given below.\nNote\nUnless specified otherwise, all maintenances specified below allow all standard mainte-\nnance functions – Add, Modify, Delete, Authorize, Close, Re-open, Inquiry. The mainte-\nnance functions also log all maintenances in the Audit Trail.\nThis chapter contains the following sections:\nSection 3.1, \"Bank Parameters Maintenance\"\nSection 3.2, \"Issuer Code\"\nSection 3.3, \"Denomination Details\"\nSection 3.4, \"Stock Catalog Definition\"\nSection 3.5, \"Stock Flow Master Definition\"\nSection 3.6, \"Vendor Maintenance\"\nSection 3.7, \"Mandatory Batch Program Maintenance\"\n3.1 \nBank Parameters Maintenance\nIn the Bank Parameters Maintenances screen, under the ‘Preferences’ screen you need to \nspecify whether inventory management and tracking should be enabled or not."
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Allow Inventory Tracking",
+        "Issuer Code",
+        "Issuer Code Maintenance"
+      ],
+      "summary": "This page describes how to invoke the Bank Parameters Maintenances screen and provides details on allowing inventory tracking and maintaining issuer codes.",
+      "raw_text": "3-2\nTo invoke the Bank Parameters Maintenances screen, enter ‘STDBNKPM’ in the field at the \ntop right corner of the Application Toolbar and then click the adjoining arrow button.  \nAllow Inventory Tracking\nYou can use this check box to allow/disallow inventory management and tracking. To use \ninventory management module, check this box.\nNote\nIf inventory tracking is allowed then ‘Cheque Numbering Scheme’ should be left blank/null.\nFor more details on Bank Parameters Maintenance, refer the corresponding section in the \nCore Services manual.\n3.2 \nIssuer Code \nThis section contains the following topics:\nSection 3.2.1, \"Issuer Code Maintenance\"\nSection 3.2.2, \"Issuer Code Summary Screen\"\n3.2.1 \nIssuer Code Maintenance\nUse the ‘Issuer Code -Detailed’ screen for maintaining instrument issuer details. This \nmaintenance is found under the Core module."
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "To invoke the ‘Issuer Code Maintenance’ screen",
+        "Issuer Code Summary Screen"
+      ],
+      "summary": "This page explains how to access and use the 'Issuer Code Maintenance' and 'Issuer Code - Summary' screens for managing financial instrument codes within a system.",
+      "raw_text": "3-3\nTo invoke the ‘Issuer Code Maintenance’ screen, enter ‘CSDISSCD’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\nThe details which you need to specify in the above screen are detailed below.\nIssuer Code\nSpecifies the Issuer Code. An issuer code is an internal alphanumeric code used within the \nsystem to track stock of financial instruments. The Issuer Code, for instrument types other \nthan passbook and cheque book, has to be in accordance with the routing mask as defined \nin the bank level parameters.\nIssuer Description\nProvide a description of the Issuer Code maintained. \n3.2.2 \nIssuer Code Summary Screen\nUse the ‘Issuer Code – Summary’ screen to query for Issuer Code Maintenance records, by \nspecifying the following parameters:\nAuthorization Status\nIssuer Code\nRecord Status"
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Denomination Details",
+        "Denomination Maintenance"
+      ],
+      "summary": "This page describes how to access and use the Denomination Details screen for specifying currency denominations in the Core module maintenances.",
+      "raw_text": "3-4\nTo invoke the ‘Issuer Code - Summary’ screen, enter ‘CSSISSCD’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n3.3 \nDenomination Details\nThis section contains the following topics:\nSection 3.3.1, \"Denomination Maintenance\"\nSection 3.3.2, \"Denomination Summary screen\"\n3.3.1 \nDenomination Maintenance\nYou can use the ‘Denomination Details’ screen for specifying various denominations \nsupported for cash and traveller’s cheque for each currency. This function will be available \nunder Core module maintenances.\nTo invoke the ‘Denomination Details’ screen, type ‘CSDDEMAN’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Denomination Type",
+        "Currency Code",
+        "Issuer Code",
+        "Under the Denomination Details section"
+      ],
+      "summary": "This page explains how to input and maintain details for different denominations including denomination type, currency code, issuer code, and specific denomination details such as ID, description, value, sequence number, and type.",
+      "raw_text": "3-5\nThe details to be maintained in the above screen are explained below.\nDenomination Type\nSpecify the Denomination Type here by selecting the appropriate  option from the drop-down \nlist. The following options are available for selection:\nCash\nTraveller’s cheques\nMillionaire Certificate\nNote\nFor denominated deposit only ‘Note’ denomination type can be used.\nCurrency Code\nSelect from the adjoining list of options the currency code for which the denomination \nmaintenance is being performed. Depending on the currency code specified, a brief currency \ndescription is displayed.\nIssuer Code\nSelect the issuer code, for which the denomination maintenance is being performed, from the \nadjoining list of options. Depending on the issuer code specified, the issuer’s description is \ndisplayed.\nNote\nIssuer code needs to be maintained for both cash and TC denomination type. \nUnder the Denomination Details section, you can specify the following details for every record \nadded.\nDenomination ID\nSpecify here the ID for each denomination. For every currency, the various denominations are \nassigned separate denomination IDs.\nDenomination Description\nProvide a full-length description of denomination. \nDenomination Value\nSpecify the value of denomination. \nSequence No.\nSpecify here the preferred sequence of denomination. \nType\nSpecify whether the denominated cash is in currency notes or coins. For Traveller’s cheque, \nthis field can accept only the ‘Note’ option.\nNote\nDenomination type ‘Millionaire Certificate’ is used to facilitate MC/LMC transactions. For \nMC/LMC (Millionaire Certificate) transactions, you can have only one denomination with \ndenomination type as ‘Notes’ and the currency code should be the ‘LCY code’."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Denomination Summary screen",
+        "Stock Catalog Definition",
+        "Defining Stock Catalog"
+      ],
+      "summary": "This page describes how to use the 'Denomination Summary' screen for querying records and introduces the 'Stock Catalog Definition' process.",
+      "raw_text": "3-6\n3.3.2 \nDenomination Summary screen\nUse the ‘Denomination Summary’ screen to query for Denomination Maintenance records \nusing the following parameters:\nAuthorization Status\nDenomination type\nIssuer Code\nRecord Status\nCurrency Code\nTo invoke the ‘Denomination Summary’ screen, enter ‘CSSDEMAN’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n3.4 \nStock Catalog Definition\nThis section contains the following topics:\nSection 3.4.1, \"Defining Stock Catalog\"\nSection 3.4.2, \"Stock Catalog Summary Screen\"\n3.4.1 \nDefining Stock Catalog\nYou can use the ‘Stock Catalog Definition’ screen for definition of the stock catalog for \ndifferent types of financial instruments."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "Stock Catalog Code",
+        "Instrument Type"
+      ],
+      "summary": "This page explains how to invoke the 'Stock Catalog Definition' screen and details on specifying stock catalog codes and instrument types within a banking system.",
+      "raw_text": "3-7\nTo invoke the ‘Stock Catalog Definition’ screen, enter ‘IVDSTKCD’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\nAs part of the Stock Catalog Definition, you need to specify certain details which are explained \nbelow.\nStock Catalog Code\nA Stock Catalog Code identifies a particular financial instrument that is used within the bank \n(For example Demand Drafts drawn on the same bank in local currency). It is an internal \nalphanumeric code used within the system to track stock of financial instruments. This code \nis used internally within the software for tracking stock.\nInstrument Type\nYou need to attach an instrument type to each stock catalog that identifies the internal type of \nthe instrument. In the ‘Instrument Type’ field, indicate the type of Stock Catalog code that is \nbeing defined.\nCertain basic instrument types are identified by Oracle FLEXCUBE and are used internally to \nmanage the inventory. Instrument type will have the below mentioned options:\nTerm Deposit Certificate\nPassbooks\nCASA Cheque books\nTraveller’s Cheques\nDemand Drafts \nBanker’s Cheques \nMillionaire Certificate\nDenominated Certificate \nNote\n– \nIf the instrument type is ‘Term Deposit Certificate’ then the system defaults the \ndenomination id and value as zero."
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "Denominated Deposit",
+        "Stock Short Name",
+        "Stock Catalog Description",
+        "Currency Code",
+        "Issuer",
+        "Denomination Tracking",
+        "Note",
+        "Stock Details Section"
+      ],
+      "summary": "This page describes various fields and settings for stock catalog definitions, including denomination tracking, currency codes, issuer codes, and stock details.",
+      "raw_text": "3-8\n– \n‘Denominated Deposit’ type is applicable only for Denominated Deposit Certifi-\ncates.\nStock Short Name\nSpecify here a short name to be attached to the Stock Code for easier identification.\nStock Catalog Description\nThis is a full-length description of the Stock Code. \nCurrency Code\nSpecify here the currency code of the instrument. The currency code specified will be a valid \nentry as specified in the currency master maintenance.\nIssuer \nSpecify here a valid issuer code from Oracle FLEXCUBE.\nDenomination Tracking\nThe denomination tracking option indicates whether or not denomination details are \nmaintained for the particular type of stock catalog. Denomination tracking is allowed only for \nTraveller’s Cheques.\nIf Denomination Tracking is set as ‘Yes’, then the denomination details for the catalog need \nto be defined during the catalog definition.\nIf the Denomination Tracking is set as ‘No’, then the denomination value will be defaulted to \nzero. \nNote\nFor Denominated Deposit, denomination tracking is set as ‘Yes’. There is a validation \navailable at CSDDEMAN screen to allow the Type as ‘Note’ only. If the validation fails sys-\ntem displays the error ‘Only ‘Note’ type can be used for Denominated Deposit Certificate’.\nStock Details Section\nUnder the Stock Details Section, you can specify the stock details for several denomination.\nDenomination ID – Specify a Denomination ID from the adjoining list of options.\nDenomination Value – Specifies the value of the denomination\nDenomination – Shows a description of the denomination whose stock details are being \nspecified.\nRe-Order Level – Indicate here the minimum quantity of stock to be maintained for each \nstock code at specified denomination level. When the stock position is less than or equal \nto the re-order level, a re-order message is logged in the system and a ‘Short Stock’ \nreport can be generated. If the specified Re-Order level is greater than or equal to the \nexcess level then system will raise a warning message.\nExcess Level – This indicates the upper limit of the stock for the particular type of \ncatalog. When the stock position goes above the excess level, an excess level message \nis logged in the system and the ‘Excess Stock’ report can be generated. \nRe-order Quantity – Indicate here the minimum quantity of the re-order for the catalog \nstock when the re-order level is reached.  If excess level is less than or equal to re-order \nquantity then system will raise a warning message.\nAuto Serial Number \nTo have the system automatically set the next FROM and TO serial numbers for a specified \ncatalog stock during the purchase order transaction, set ‘Auto Serial No’ as Yes."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Stock Type",
+        "Operations Allowed in the Stock Catalog Definition screen",
+        "Stock Catalog Summary Screen"
+      ],
+      "summary": "This page discusses settings for auto serial numbers and stock types, as well as operations that can be performed on the Stock Catalog Definition and Summary screens.",
+      "raw_text": "3-9\nIf Auto Serial No is set as ‘No’, then the numbers will be blank and you will need to input the \nnumbers manually.\nNote\n– \nThe Auto Serial Number is not allowed for Traveller’s Cheques\n– \nThe Auto Serial Number is allowed for Denominated Deposit Certificate.\nStock Type \nIndicate here, where the stock is identified - at leaf level or booklet level?\nNote\n– \nThe stock type ‘Booklets’ option is allowed only for passbooks.\n– \nFor Traveller’s Cheques, Demand Drafts and Banker’s Cheques only one stock \ncode can be maintained in the combination of instrument type and issuer.\nFor MC/LMC (Millionaire Certificate) transactions, you can have only ‘Leaves’ as stock type \nand denomination tracking should be set to yes. Currency code should be the LCY.\nNote\nTwo certificates under a the same denominated deposit cannot have the same certificate \nnumber even if the series number and stock catalogue code are different.\n3.4.1.1 \nOperations Allowed in the Stock Catalog Definition screen.\nFollowing standard maintenance operations are possible in the ‘Stock Catalog Definition’ \nscreen:\nAdd\nModify\nDelete\nAuthorize\nClose\nRe-open\nInquiry\nLogs all maintenances in the Audit Trail.\n3.4.2 \nStock Catalog Summary Screen\nYou can use the ‘Stock Catalog Summary’ screen to query for stock catalog records based \non the following parameters:\nAuthorization Status\nStock Catalog Code\nStock Type\nRecord Status\nInstrument Type"
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Stock Flow Master Definition",
+        "Defining Stock Flow Master"
+      ],
+      "summary": "This page explains how to invoke the 'Stock Catalog Summary' screen and provides details on defining stock flow master, including specifying inventory operations for allowed branches and maintaining stock details.",
+      "raw_text": "3-10\nTo invoke the ‘Stock Catalog Summary’ screen, enter ‘IVSSTKCD’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n3.5 \nStock Flow Master Definition\nThis section contains the following topics:\nSection 3.5.1, \"Defining Stock Flow Master\"\nSection 3.5.2, \"Specifying Inventory Operations for Allowed Branches\"\nSection 3.5.3, \"Specifying Stock Details\"\nSection 3.5.4, \"Stockflow Summary screen\"\n3.5.1 \nDefining Stock Flow Master\nYou can use the ‘Stockflow Master Definition’ screen to define and maintain the inventory \nstock flow. This maintenance must be done for each inventory branch. The stock flow master \ndefinition allows the following:\nSpecifying the operations viz. request stock, order stock, receive stock and issue stock, \nwhich the inventory branch can initiate on behalf of the other branches\nMaintaining the reorder level, excess level and reorder quantity of the different catalog \nstocks (at the inventory branch level)\nThe bank may have different hierarchies, which can be defined using this inventory-branch \ncross-reference maintenance.\nFor each inventory branch, the maintenance needs to be done for all the allowed branches/\noperations (of which the inventory maintenances can be done from this branch). However, \nirrespective of this maintenance, all branches can initiate stock requests for their own branch. \nFor any given branch:\nRequest stock operation can be initiated by a maximum of two branches – by itself \n(irrespective of this maintenance) and by any other inventory branch as per the \nmaintenance. \nOrder/Receive/Issue stock operation can be initiated by only one of the inventory \nbranches. \nInventory branch for each of the operations - Request, Order, Receive, Issue - may be \ndifferent."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Specifying Inventory Operations for Allowed Branches"
+      ],
+      "summary": "This section explains how to set up inventory operations for allowed branches using the 'Stock Flow Master Definition' screen.",
+      "raw_text": "3-11\nTo invoke the ‘Stock Flow Master Definition’ screen, enter ‘IVDSTFMN’ in the field at the top \nright corner of the Application Toolbar and then click the adjoining arrow button.\nYou may need to specify the following details in the above screen.\nInventory Branch\nSpecify here the Inventory branch, i.e. the branch which will be maintaining the inventory for \nthe allowed branch codes.\nBranch Name\nThe system displays the Branch Name for the selected inventory branch.\nRemarks\nIt’s an optional field for specifying additional remarks for this maintenance which can be used \nto indicate the logical group name for the inventory branch.\n3.5.2 \nSpecifying Inventory Operations for Allowed Branches\nYou can use the ‘Allowed Branches’ tab to maintain the list of inventory operations which the \ninventory branch can initiate on behalf of the allowed branches.\nHere you can add Branch Code – Branch Name records and maintain the following details for \neach.\nBranch Code\nSpecify the Branch Code for which the inventory operations need to be maintained. The \nBranch Name is displayed as per your selection.\nUse the following fields to define (specify by selecting Yes/No) the inventory transactions \nwhich the Inventory branch can initiate on behalf of the Allowed Branch codes.\nRequest Stocks\nOrder Stocks\nReceive Stocks\nIssue Stocks"
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Specifying Stock Details",
+        "Stockflow Summary screen"
+      ],
+      "summary": "This page explains how to specify stock details such as reorder level and excess level for different catalog stocks at the inventory branch level, and also describes how to use the Stockflow Summary screen to query stockflow definition records.",
+      "raw_text": "3-12\n3.5.3 \nSpecifying Stock Details\nThe ‘Stock Details’ tab section allows for maintaining the reorder level, excess level and \nreorder quantity of the different catalog stocks (at the inventory branch level).\nThe above maintenance is optional and applies only to the specified inventory branch. The \nmaintenances done here supersedes the Reorder Level, Excess Level and Reorder Quantity \nMaintained at the Stock Catalog Definition.\nYou may specify the following details for each added record in the Stock Details section:\nStock Catalog Code\nSelect from the adjoining list of options, the Stock Catalog whose stock details you wish to \nmaintain/modify for the specified inventory branch.\nBased on your selection the following values are populated. You may modify certain values \nas per your requirements:\nStock Catalog Description\nDenomination ID\nDenomination Value\nCurrency\nDenomination Description\nRe-order Level\nExcess Level\nRe-Order Quantity\n3.5.4 \nStockflow Summary screen\nYou can use the Stockflow Summary) screen to query for Stockflow definition records by \nspecifying the following parameters:\nAuthorization Status\nInventory Branch"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Record Status",
+        "Vendor Maintenance"
+      ],
+      "summary": "This page explains how to access the 'Stock Flow Summary' screen and describes the process of maintaining vendor details for inventory suppliers in a system.",
+      "raw_text": "3-13\nRecord Status\nTo invoke the ‘Stock Flow Summary’ screen, enter ‘IVSSTFMN’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n3.6 \nVendor Maintenance\nYou may enter into contracts with a standard set of vendors who are inventory suppliers. \nTherefore, you need to specify the details of the vendor every time you enter into a perform a \nmaintenance. To ease this, you can maintain the details of all the vendors with whom you deal \nin the ‘Vendor Maintenance’ screen. Then, when performing maintenance, you only need to \nindicate the Vendor ID and all the details maintained for the Vendor will automatically be \npicked up."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Stock Details",
+        "Is Vendor an Inventory Supplier"
+      ],
+      "summary": "This page describes how to invoke the 'Vendor Maintenance' screen and explains how to specify whether a vendor is an inventory supplier and maintain a list of stocks that can be serviced by this vendor.",
+      "raw_text": "3-14\nTo invoke the ‘Vendor Maintenance’ screen, enter ‘XPDVNMNT’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\nUnder the ‘Stock Details’ section, you can specify whether the vendor is an inventory supplier \nor not. If the vendor is an inventory supplier then you can record the list of stocks that can be \nserviced by the vendor.\nIs Vendor an Inventory Supplier\nIf the maintained vendor is an inventory supplier then check this box. You can then proceed \nto capture the stock codes which can be serviced by this vendor.\nStock Details\nHere you can maintain a list of stocks which can be serviced by this vendor/supplier. You may \nalso include all the stocks using the single select check box.\nThe Stock Catalog Codes displayed will be valid codes as maintained in the stock catalog \nmaster maintenance. \nNote\nThe Request Stock function, explained in the Operations chapter, checks for the valid sup-\nplier code. The valid supplier codes are the codes maintained through this supplier codes \nmaintenance. The Order Stock function (explained later) checks if the requested stock can \nbe supplied by this supplier."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Mandatory Batch Program Maintenance"
+      ],
+      "summary": "This section explains how to maintain the 'IVBEODFN' batch process for generating excess stock and shortage reports during EOD, by invoking the 'Mandatory Batch Program Maintenance' screen.",
+      "raw_text": "3-15\nFor more details on Vendor Maintenance, refer the Core Entities user manual.\n3.7 \nMandatory Batch Program Maintenance\nYou need to maintain the ‘IVBEODFN’ batch process in the Mandatory Batch Program \nMaintenance screen, so as to get the excess stock and shortage report to be recorded during \nEOD.\nYou can invoke the ‘Mandatory Batch Program Maintenance’ screen by typing  ‘EIDMANPE’ \nin the field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Request Stocks",
+        "Bulk Request Stocks",
+        "Order Stocks",
+        "Receive Stocks",
+        "Issue Stocks",
+        "Adjust Inventory Balance",
+        "Confirm Receipts",
+        "Balance On Hand Inquiry ",
+        "Stock Transactions Inquiry",
+        "Usage Pattern Analysis",
+        "EOD Processing",
+        "Section 4.1.1, Requesting Stocks",
+        "Section 4.1.2, Request Stocks Summary Screen"
+      ],
+      "summary": "This page details various operations related to inventory management within the Instruments Inventory Tracking module of Oracle FLEXCUBE, including requesting, ordering, receiving, and issuing stocks.",
+      "raw_text": "4-1\n4. Operations\nThis chapter elaborates upon the operations which can be performed using the function \npresent as part of the Instruments Inventory Tracking (IV) module of Oracle FLEXCUBE. \nThese operations have been elaborated upon in the sections given below.\nThis chapter contains the following sections:\nSection 4.1, \"Request Stocks\"\nSection 4.2, \"Bulk Request Stocks\"\nSection 4.3, \"Order Stocks\"\nSection 4.4, \"Receive Stocks\"\nSection 4.5, \"Issue Stocks\"\nSection 4.6, \"Adjust Inventory Balance\"\nSection 4.7, \"Confirm Receipts\"\nSection 4.8, \"Balance On Hand Inquiry \"\nSection 4.9, \"Stock Transactions Inquiry\"\nSection 4.10, \"Usage Pattern Analysis\"\nSection 4.11, \"EOD Processing\"\n4.1 \nRequest Stocks\nThis section contains the following topics:\nSection 4.1.1, \"Requesting Stocks\"\nSection 4.1.2, \"Request Stocks Summary Screen\"\n4.1.1 \nRequesting Stocks\nThe ‘Request Stocks’ function allows requests to be placed by various departments to the \nInventory branch for ordering of stocks. This request is logged and monitored at the inventory \nbranch and an actual order is placed later. \nThe Request Stocks function records the request for replenishment of stock at the branches. \nAfter the inputs are accepted and validated, an indent request reference number is generated \nfor future tracking of this request. The requests are logged and status updated as ‘Open’."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "To invoke this screen",
+        "Request Stock Number",
+        "Requesting Branch",
+        "Note"
+      ],
+      "summary": "This page explains how to access a specific screen and provides instructions on filling out fields such as Request Stock Number, Requesting Branch, and includes a note about the logged-in branch.",
+      "raw_text": "4-2\nTo invoke this screen, enter ‘IVDTXNIR’ in the field at the top right corner of the Application \nToolbar and then click the adjoining arrow button.\nThe details you need to specify in the above screen are given below. \nRequest Stock Number\nRequest stock number is generated by the system, upon Save, and is displayed for further \ntracking of the request status.\nRequesting Branch\nSelect, from the adjoining list of options, the branch code of the branch for which this request \nis being made.\nNote\nIf the Requesting Branch is different from the logged-in branch then the logged-in branch \nshould be the inventory branch for request operation."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Stock Catalog Code",
+        "Quantity",
+        "Request Type",
+        "Total Value",
+        "Remarks",
+        "Request For",
+        "Status",
+        "Quantity Issued/Ordered/Received",
+        "Order/ Receive/Issue Details"
+      ],
+      "summary": "This page describes the fields and sections needed to create a stock request, including details on catalog code, quantity, request type, total value, remarks, and status.",
+      "raw_text": "4-3\nStock Catalog Code\nSelect, from the adjoining list of options, the stock catalog code of the instrument being \nrequested. Once you specify the stock catalog code, the following details are displayed:\nDenomination ID\nDenomination Value\nCurrency Code\nQuantity\nSpecify here the quantity being requested.\nRequest Type\nCan be a regular request ‘R’ or an ad-hoc request ‘A’.\nTotal Value\nFor stocks that are tracked by denominations, total value is calculated by multiplying quantity \nwith the denomination value. \nFor stocks that are not tracked by denomination (denomination value as ‘zero’), the total value \nwill be same as quantity.\nRemarks\nThis is a free-text field where you can either justify the need for an ad-hoc request for \ninventory or provide general remarks. This field is mandatory for Ad Hoc requests and \noptional for regular requests.\nRequest For\nUse this field to indicate if this indent request is for ‘Purchase’ or ‘Issue’. No system \nprocessing logic is associated with this field.\nStatus\nThe system specifies one the following statuses for stock requests:\nOpen\nIn-progress\nCompleted\nQuantity Issued/Ordered/Received\nDisplays the quantity ordered, received and issued against this instrument request.\nOrder/ Receive/Issue Details\nThese sections display the order/receive/issue logs, respectively, for the indent request. Each \nrecord under the sections display the following details:\nInventory Date\nStock Number\nQuantity\nClick ‘Detail’ button to view the detailed screen for order, issue and receive stocks.\nFor request closure operation, the request should not be part of any order/ issue transaction. \nIf stock is ordered for this request, then the order transaction has to be closed before closing \nthe request stock transaction. If an issue is made against the request then the request stock \ntransaction cannot be closed."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Request Stocks Summary Screen",
+        "Bulk Request for Stocks",
+        "Bulk Request for Stocks Summary screen"
+      ],
+      "summary": "This page describes how to use the 'Request Stocks Summary' screen and the 'Bulk Request Stocks' function for querying and recording multiple stock requests in a system.",
+      "raw_text": "4-4\nNote\nFor request stock transaction, re-open operation is not supported.\n4.1.2 \nRequest Stocks Summary Screen\nYou can use the ‘Request Stocks Summary’ summary screen to query for Request Stocks \nrecords by specifying the following parameters:\nAuthorization Status\nRequest Stock Number\nStatus\nRecord Status\nStock Catalog Code\nRequesting Branch\nThe summary screen displays only the requests logged in the current branch.\nTo invoke the ‘Request Stocks Summary’ screen, enter ‘IVSTXNIR’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n4.2 \nBulk Request Stocks\nThis section contains the following topics:\nSection 4.2.1, \"Bulk Request for Stocks\"\nSection 4.2.2, \"Bulk Request for Stocks Summary screen\"\n4.2.1 \nBulk Request for Stocks\nYou can use the ‘Bulk Request Stocks’ screen for recording multiple requests at the same \ntime. These requests can be for different stocks, denomination and requesting branch.\nThe ‘Bulk Request for Stocks’ function records the multiple requests for replenishment of \nstock at the branches. After the inputs are accepted and validated, the system generates a \nbulk request stock number and an individual request stock number for all future tracking of \nthis request."
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "To invoke the ‘Bulk Request Stocks’ screen",
+        "Specify the following details in the above screen."
+      ],
+      "summary": "This page explains how to initiate and fill out the 'Bulk Request Stocks' screen for generating bulk request numbers and specifying various details such as request type, remarks, and stock catalog code.",
+      "raw_text": "4-5\nTo invoke the ‘Bulk Request Stocks’ screen, enter ‘IVDTXNBR’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\nThe Bulk Request Stock Number and the Request Stock Number for individual records will be \ngenerated by the system and displayed for further tracking of the request status. Bulk request \nnumber gets generated upon Save of the transaction. Upon authorization of bulk requests, \nsystem generates an auto-authorized individual request stock transaction.\nYou need to specify the following details in the above screen.\nBulk Request Type\nSpecify whether the request is a Regular or an Ad-hoc request.\nRemarks\nHere you may provide general remarks or remark the need for an ad-hoc request for \ninventory. This field is mandatory for Ad Hoc requests.\nRequest For\nIndicate if this request is for ‘Purchase’ or ‘Issue’. No business logic is associated with this \nfield.\nRequesting Branch\nSelect, from the adjoining list of options, the branch code of the branch for which this request \nis being made. Requesting branch should be a valid branch code. If the requesting branch is \ndifferent from the logged-in branch then the logged-in branch should be the inventory branch \nfor request operation.\nStock Catalog Code\nSelect, from the adjoining list of options, the stock catalog code of the instrument being \nrequested. Once you specify the stock catalog code, the following details are displayed:\nDenomination ID\nDenomination Value\nCurrency Code\nQuantity\nSpecify here the quantity being requested."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Total Value",
+        "Bulk Request for Stocks Summary screen"
+      ],
+      "summary": "This page explains how total value is calculated for stocks and describes the functionality of the 'Bulk Request for Stocks - Summary' screen in querying bulk request records.",
+      "raw_text": "4-6\nTotal Value\nFor stocks that are tracked by denominations, total value is calculated by multiplying quantity \nwith the denomination value. \nFor stocks that are not tracked by denomination (denomination value as ‘zero’), the total value \nwill be same as quantity.\nThe system will not allow modification of an authorized record. Once the bulk request is \nauthorized, further tracking can be done only from individual Request Stock screens. \nUnauthorized bulk requests can be tracked/modified only from the Bulk Request screen.\nIn Bulk Request Mode, closure operation is not supported. Only individual request has to be \nclosed using request stock screen provided order operation is not done for that particular \nrequest.\nNote\nFor bulk request stock transaction, re-open operation is not supported. System will not al-\nlow modification of an authorized record. Once the bulk request is authorized, further \ntracking will be facilitated only from the individual request stock screen. Unauthorized bulk \nrequest can be tracked/modified only from the bulk request screen.\n4.2.2 \nBulk Request for Stocks Summary screen\nYou can use the ‘Bulk Request for Stocks - Summary’ screen to query for Bulk Request \nrecords, by specifying the following parameters:\nAuthorization Status\nBulk Request Stock Number\nRecord Status\nBulk Request Type\nThe system will display only the bulk requests logged in the current branch.\nTo invoke the ‘Bulk Request Stocks - Summary’ screen, enter ‘IVSTXNBR’ in the field at the \ntop right corner of the Application Toolbar and then click the adjoining arrow button."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Ordering Stocks",
+        "Order Stocks Summary Screen"
+      ],
+      "summary": "This section explains how to use the 'Order Stocks' screen to place purchase orders by considering current stock levels and indent requests from branches, detailing the necessary inputs such as order stock number, request stock number, supplier code, and requesting branch.",
+      "raw_text": "4-7\n4.3 \nOrder Stocks\nThis section contains the following topics:\nSection 4.3.1, \"Ordering Stocks\"\nSection 4.3.2, \"Order Stocks Summary Screen\"\n4.3.1 \nOrdering Stocks\nYou can use the ‘Order Stocks’ screen, to place purchase orders to suppliers, by considering \nthe current stock levels in the inventory branch and the requests received from various \nbranches.\nThe details of the purchase order are captured and tracked for receipt.\nTo invoke this screen, enter ‘IVDTXNOR’ in the field at the top right corner of the Application \nToolbar and then click the adjoining arrow button.\nThe details you need to specify in the above screen are explained below.\nOrder Stock Number\nThe Order Stock Number is generated, upon Save, for all future tracking of the status of the \npurchase order.\nRequest Stock Number\nAll purchase orders are placed against indent requests received from branches. So, for each \npurchase order, the indent request reference is accepted as input and the details are \nautomatically displayed. Multiple indent requests can be combined in a single purchase order.\nThe Request Stock Number should be valid and should not be in ‘Completed’ status. All \nindent requests in an order stock transaction should have the same inventory branch for \nreceiving stocks.\nUse the adjoining list to specify the Request Stock Number.\nSupplier Code\nSelect, from the adjoining list of options, the supplier code.\nRequesting Branch\nThis field displays the list of branches for which the logged-in/current branch is the inventory \nbranch for Order Stock operations."
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Stock Catalog Code",
+        "Series Number",
+        "Start Number and End Number",
+        "Quantity",
+        "Total Value"
+      ],
+      "summary": "This page describes how to use a stock catalog code to query unfulfilled indent requests and details fields such as series number, start/end number, quantity, and total value for ordering stocks.",
+      "raw_text": "4-8\nStock Catalog Code\nSelect, from the adjoining list of options, the stock catalog code.\nYou can now query, by clicking ‘Query’ button, the list of unfulfilled indent requests based on \nthe Request Stock Number/ Stock Catalog Code/ Supplier Code / Requesting Branch \nspecified. \nWhen queried based on the Supplier Code, all indent requests which can be serviced by the \nselected supplier and ordered by the current branch will be displayed.\nSeries Number\nYou may specify here a separate series that is normally pre-printed on an entire book or pad \nof stationery. Series number will be accepted only for Traveller’s Cheques.\nStart Number and End Number\nRecord the start/end number of the ordered stocks here. If auto-serial number is set for the \nstock code then the system will auto-generate the start and end numbers. Otherwise, the \nsystem allows  to input start number only and end number gets defaulted based on the value \nprovided for the quantity.\nQuantity\nYou can modify the quantity of stocks ordered. It should be positive-non-zero value and \nshould be less than or equal to the unfulfilled quantity of the request.\nTotal Value \nThis value is computed based on denomination value, quantity and denomination tracking \nindicator.\nUpon confirmation of order details status of the indent requests that form part of the purchase \norder is updated to ‘In Progress’.\nFor order closure operation, the order should not be part of any Receive Stock transaction. \nFor order stock transaction, re-open operation is not supported. System will not allow \nmodification of an authorized record, it can only be closed.\n4.3.2 \nOrder Stocks Summary Screen\nYou can use the ‘Order Stocks Summary’ screen to query for Order Stocks records, by \nspecifying the following parameters:\nAuthorization Status\nRecord Status\nOrder Stock Number\nRequest Stock Number\nSupplier Code\nStock Catalog Code\nDenomination ID"
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Receive Stocks",
+        "Receiving Stocks"
+      ],
+      "summary": "This page explains how to invoke and use the 'Order Stocks Summary' and 'Receive Stocks' screens for recording inventory additions in an application system.",
+      "raw_text": "4-9\nTo invoke the ‘Order Stocks Summary’ screen, enter ‘IVSTXNOR’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n4.4 \nReceive Stocks\nThis section contains the following topics:\nSection 4.4.1, \"Receiving Stocks\"\nSection 4.4.2, \"Receive Stocks Summary Screen\"\n4.4.1 \nReceiving Stocks\nYou can use the ‘Receive Stocks’ screen for recording of inventory added to your existing \nstock. The receipt of stocks would be against a purchase order reference, which in turn would \nbe based on an indent request from branch. This reference number can be used to quickly \nupdate the receipt of stocks. \nTo invoke the ‘Receive Stocks’ screen, enter ‘IVDTXNRO’ in the field at the top right corner \nof the Application Toolbar and then click the adjoining arrow button."
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Order Stock Number",
+        "Supplier Code and Inventory Branch",
+        "Quantity",
+        "Series Number, Start Number and End Number"
+      ],
+      "summary": "This page describes the details that need to be specified for updating stock balance upon receipt against a purchase order, including input fields for order stock number, supplier code, inventory branch, quantity, and series numbers.",
+      "raw_text": "4-10\nThis function updates the balance in hand for the stocks that are received. It also updates the \nstatus of the purchase order. Received stocks can be issued against a request or can be \ntransferred to another branch and then issued.\nYou need to specify the following details in the above screen.\nOrder Stock Number\nSince stocks are received against purchase orders, this screen accepts the order stock \nnumber as input.\nAll un-fulfilled purchase orders, which can be processed by the logged-in branch, are \navailable in the adjoining list of values for selection. When the purchase order reference is \nselected, all the relevant details of the order are displayed. You can then proceed to modify \nquantities and accept receipt. \nSupplier Code and Inventory Branch\nSupplier Code And Inventory Branch will be defaulted based on the order stock number. By \ndefault, all new inventory received is logged under the inventory branch which ordered the \nstocks. After that when transfer happens, the location of the inventory automatically changes.\nQuantity\nFor the first stock receipt against the specified order number, the ordered quantity will be \ndefaulted here.\nFor subsequent receipts the system will not default the quantity. You will need to manually \nspecify it. The Quantity specified cannot be more than what was ordered in the purchase \norder.\nSeries Number, Start Number and End Number\nThe series number cannot be modified. You can modify the start number, but the same should \nbe within the range specified during the order. The End Number will be defaulted based on \nthe quantity received.\nTotal Value \nThis is computed based on denomination value, quantity and denomination tracking indicator. \nFor stocks that are tracked by denominations, Total Value is calculated by multiplying the \nreceived quantity with the denomination amount\nNote\n– \nThe Quantity Received and Start Number are the only fields that can be modified.\n– \nFor receive stock transaction, close and re-open operations are not supported. Sys-\ntem will not allow modification of an authorized record.\n4.4.2 \nReceive Stocks Summary Screen\nThe ‘Receive Stocks Summary’ screen can be used to query for Receive Stocks records, be \nspecifying the following parameters:\nAuthorization Status\nRecord Status\nReceive Stock Number\nOrder Stock Number\nSupplier Code\nStock Catalog Code"
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Issue Stocks",
+        "Issuing Stocks",
+        "Issue Stocks Summary screen"
+      ],
+      "summary": "This page describes how to invoke and use the 'Receive Stocks Summary' and 'Issue Stocks' screens for managing inventory distribution within a bank.",
+      "raw_text": "4-11\nDenomination ID\nTo invoke the ‘Receive Stocks Summary’ screen, enter ‘IVSTXNRO’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n4.5 \nIssue Stocks\nThis section contains the following topics:\nSection 4.5.1, \"Issuing Stocks\"\nSection 4.5.2, \"Issue Stocks Summary screen\"\n4.5.1 \nIssuing Stocks\nYou can use the ‘Issue Stocks’ screen for the distribution of existing inventory to the various \ndepartments within the bank. Stocks are issued against indent requests from branch. This \nreduces the stock in inventory branch and the stock quantity is tracked against the specified \nre-order level.\nTo invoke the ‘Issue Stocks’ screen, enter ‘IVDTXNRI’ in the field at the top right corner of the \nApplication Toolbar and then click the adjoining arrow button."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "The ‘Issue Stocks’ function acts like a transfer transaction of stocks between Inventory branch and requested branches.",
+        "Request Stock Number",
+        "Stock Catalog Code and Requesting Branch",
+        "Quantity",
+        "Series number, Start number and End number",
+        "Total Value",
+        "Note"
+      ],
+      "summary": "This page explains the 'Issue Stocks' function, detailing how it works in transferring stock between inventory branches and requested branches, including input fields such as request stock number, stock catalog code, quantity, series numbers, start and end numbers, and total value.",
+      "raw_text": "4-12\nThe ‘Issue Stocks’ function acts like a transfer transaction of stocks between Inventory branch \nand requested branches. It increases the balance in hand at branches for the stocks that are \nissued and decreases the same simultaneously at the Inventory location. It also updates the \nstatus of the indent request.\nThe above screen is detailed below.\nRequest Stock Number\nSince stocks are issued against indent requests, this screen accepts the Indent Request \nreference number as input. All un-fulfilled indent requests are available in a pick list for \nselection.\nStock Catalog Code and Requesting Branch\nYou can also perform the query by specifying the Stock Catalog Code and Requesting \nBranch. \nYou can then modify the quantities, record the respective instrument numbers and issue the \nstocks. \nQuantity\nThe quantity that was requested is defaulted. You may modify the quantity issued for the \ndenomination, if needed. However the quantity cannot be more than what was requested in \nthe indent request.\nSeries number, Start number and End number\nThe series number cannot be modified. You can modify the start number, but the same should \nbe within the range as per the balance availability. The end number will be defaulted based \non the quantity received.\nTotal Value\nThis value is calculated based on issued quantity, denomination value and denomination \ntracking indicator.\nNote\nThe Quantity Issued and Start Number are the only fields that can be modified.\nWhen a request indent is queried, all the items in the request indent are displayed and system \nallows modification of certain fields as mentioned above. All new issues are automatically \nlogged under the branch location that requested for it. \nAn indent request may be serviced by existing stocks or against new purchase orders. For \nstocks that are tracked by denominations, total value is calculated by multiplying received \nquantity by the denomination amount.\nNote\nFor issue stock transaction, close and re-open operation are not supported. System will \nnot allow modification of an authorized record.\n4.5.2 \nIssue Stocks Summary screen\nYou can use the ‘Issue Stocks Summary’ screen to query of Issue Stocks records, by \nspecifying the following parameters:\nAuthorization Status"
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Adjusting Inventory Balance",
+        "Adjust Inventory Balance Summary screen"
+      ],
+      "summary": "This page describes how to access and use the 'Issue Stocks Summary' screen and provides information on adjusting inventory balances through the 'Adjust Inventory Balance' screen.",
+      "raw_text": "4-13\nRecord Status\nIssue Stock Number\nRequest Stock Number\nStock Catalog Code\nDenomination ID\nTo invoke the ‘Issue Stocks Summary’ screen, enter ‘IVSTXNRI’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\n4.6 \nAdjust Inventory Balance\nThis section contains the following topics:\nSection 4.6.1, \"Adjusting Inventory Balance\"\nSection 4.6.2, \"Adjust Inventory Balance Summary screen\"\n4.6.1 \nAdjusting Inventory Balance\nYou can use the ‘Adjust Inventory Balance’ screen for any adjustments to be made after an \nissue or receipt of inventory. These adjustments may be needed when returning certain items \nfrom the vendor or when the bank’s departments return them to the main inventory control."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "To invoke the ‘Adjust Inventory Balance’ screen",
+        "Type of Adjustment"
+      ],
+      "summary": "This page explains how to access and use the 'Adjust Inventory Balance' function, including specifying adjustment types and system validations for each type.",
+      "raw_text": "4-14\nTo invoke the ‘Adjust Inventory Balance’ screen, enter ‘IVDTXNAS’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\nThe above function changes the current location and status of the instruments. The \nAdjustment Stock Number is automatically generated by the system. Specify the following \ndetails in the above screen.\nType of Adjustment\nSelect the Adjustment Type from the adjoining drop-down list. Adjustment Type can be one \nof the following:\nReturned to the inventory – Here the inventory will be re-usable. This type is chosen due \nto one of the following reasons:\n– \nDue to excess stock\n– \nRejection due to mismatch between requested and received stock\n– \nStock transfer between branches or other reasons\nCancelled – Choose this when instrument is cancelled/ torn/mutilated/misprinted/\nstopped. The instrument in this case cannot be reused.\nLost or misplaced inventory – Choose this when instruments are lost or misplaced in \ntransit within the bank. The instrument can be re-sued after changing the status.\nFound – Choose this to change from the instrument status from lost to usable status.\nMC - User to Branch\nMC - Branch to User\nThe system performs the following validations based on adjustment type entered:\nReturned to the inventory – Instruments have to be in unused status\nCancelled – Instruments have to be in unused status\nLost or misplaced inventory – Instruments have to be in unused status\nFound – Instruments have to be in lost status\nDate\nThe system displays the current system date maintained in the system."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Stock Catalog Code",
+        "Quantity",
+        "Series number, Start number and End number",
+        "Total Value",
+        "Remarks",
+        "From Branch and To Branch"
+      ],
+      "summary": "This page explains how to specify stock catalog code, modify quantities, record serial numbers, calculate total value, and adjust stock between branches.",
+      "raw_text": "4-15\nStock Catalog Code\nSpecifying the Stock Catalog Code here by selecting it from the adjoining list. You can then \nmodify quantities, record respective serial numbers and change the start numbers if needed. \nOnce you have specified the Stock Catalog Code, the following details are displayed:\nDenomination ID\nDenomination Value\nCurrency Code\nTotal Value\nQuantity\nThe quantity issued is defaulted. You may modify the quantity issued for the denomination, if \nneeded. However the quantity cannot be more than what was issued.\nSeries number, Start number and End number\nYou may specify the Series Number here. You can also modify the start number, but the same \nshould be within the range as per the balance availability. The end number will be defaulted \nbased on the quantity.\nTotal Value\nThis value is calculated and displayed based on quantity and denomination value and \ndenomination tracking indicator. For stocks that are tracked by denominations, total value is \ncalculated by multiplying received quantity by the denomination amount.\nRemarks\nYou can enter free text here to describe the need for adjustment.\nFrom Branch and To Branch\nSpecify the From Branch and To Branch for stock adjustment. Note that:\nFor Cancelled and Lost adjustment types, the From and To branch will be same. \nFor adjustment type ‘Found’, the ‘From Branch’ would be branch which had lost the \nspecified stock and the ‘To Branch’ would be the current logged-in branch.\nThe From and To branch is same for ‘MC - Branch to User’ and ‘MC – User to Branch’ \nadjustment types.\nInstruments should be available in the branch mentioned in ‘From Branch’.\nAll instruments must have valid series, start and end numbers along with the above \nvalidations.\nFor stock adjustment transaction, close and re-open operation are not supported. System will \nnot allow modification of an authorized record.\nFor Millionaire Instruments transfer, adjustment types ‘MC - Branch to User’ and ‘MC – User \nto Branch’ are used for stock codes with instrument type as ‘Millionaire Certificate’. \nMaintain Home branch of the customer as ‘From Branch’ and ‘To Branch’.\nUser\nSpecify a valid application user maintained in the system to perform the transfer of instrument \nwho has a Till attached for the respective Branch. \nFor adjustment types ‘MC - Branch to User’ and ‘MC – User to Branch’, User Id is mandatory."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Note",
+        "4.6.2 Adjust Inventory Balance Summary screen"
+      ],
+      "summary": "This page explains the conditions under which an adjustment inventory balance record must be maintained and describes how to use the 'Adjust Inventory Balance Summary' screen for querying adjustment stock records.",
+      "raw_text": "4-16\nIf the adjustment type is 'MC - Branch to User', then you have to maintain an adjustment \ninventory balance record before issuing the term deposit certificates.\nNote\nFor status change of a denominated deposit certificate before issuance of a denominated \ndeposit, you need to use the ‘Adjust Inventory Balance’ screen only if the ‘Allow Inventory \nTracking’ check-box in the ‘Bank Parameters Maintenance’ screen (STDBANKP) is \nchecked.Once the denominated deposit certificates are issued, there will be no further sta-\ntus update in Inventory module for the certificates. The status tracking and changes will be \ndone using the STDCUSTD screen.\nReason\nSpecify the reason for performing inventory balance adjustment. Alternatively, you can select \nthe reason from the option list. The list displays all valid reason codes maintained in the \nsystem.\n4.6.2 \nAdjust Inventory Balance Summary screen\nYou can use the ‘Adjust Inventory Balance Summary’ screen (IVSTXNAS) to query for \nAdjustment Stock records, by specifying the following parameters:\nAuthorization Status\nRecord Status\nAdjustment Stock Number\nType of Adjustment\nFrom Branch\nTo Branch\nStock Catalog Code\nDenomination ID\nTo invoke the ‘Adjust Inventory Balance Summary’ screen, enter ‘IVSTXNAS’ in the field at \nthe top right corner of the Application Toolbar and then click the adjoining arrow button."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Confirm Receipts"
+      ],
+      "summary": "This section explains how to use the 'Confirm Receipts' function to acknowledge the physical receipt of stock and marks instruments as available for issue.",
+      "raw_text": "4-17\n4.7 \nConfirm Receipts\nYou can use the ‘Confirm Receipts’ function to acknowledge the physical receipt of stock \nwhich is issued or transferred (Stock adjustment – returned to the inventory) to the current \nbranch.  Instrument receipt confirmation marks the instrument as available for issue to \ncustomers.\nTo invoke the ‘Confirm Receipts’ screen, enter ‘IVDCONFR’ in the field at the top right corner \nof the Application Toolbar and then click the adjoining arrow button.\nYou can query for and retrieve the stocks to be confirmed / rejected based on the Stock \nCatalog Code, Denomination ID and Reference Number.\nStock Catalog Code\nYou can perform a query based on the Stock Catalog Code.\nReference Number\nSpecify the issue/transfer stock transaction number. Only stock transactions which are issued \nor transferred to the current branch will be displayed. Reference number should be a valid \nissue stock transaction number or adjustment stock transaction number with type of \nadjustment as ‘Returned to the inventory’.\nUpon specify the Stock Catalog Code, the following details are displayed:\nDenomination ID\nStock Catalog Description\nCurrency Code\nDenomination Value\nInventory Branch displays the current branch.\nOnce you have specified the Stock Catalog Code, and if needed the Reference Number, click \n‘Query’ button. Upon querying, the system displays only the stock details which are yet to be \naccepted by the current branch. System will not display the stock details which are already \naccepted or rejected. This function does not log the transaction details in the Audit Trail. \nSystem will log the confirm receipt transaction details (with user-id and transaction date \ntimestamp) separately."
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Transaction Details - Status",
+        "Balance On Hand Inquiry"
+      ],
+      "summary": "This page describes how to specify transaction statuses for instruments and how to inquire about the current balance of stocks in terms of denominations and serial numbers.",
+      "raw_text": "4-18\nTransaction Details - Status\nSpecify the status here. You can either accept or reject the instrument. Upon accepting the \ninstruments, it will be made available for issue to customer. If user rejects the stocks then the \nstatus of the instrument will be marked as ‘Lost’.\nThe Instrument Receipt Confirmation marks the instrument as available for issue to \ncustomers.\nNo authorization is required for Confirm Receipts transactions. Upon Save, the balance gets \nupdated for that particular stock code.\n4.8 \nBalance On Hand Inquiry \nYou can use the ‘Balance on Hand Inquiry’ screen to view the current balance stock in a \ndenominations and serial numbers wise break down. The query results are based on the \nrequesting Branch.\nTo invoke the ‘Balance on Hand Inquiry’ screen, enter ‘IVDBALIN’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\nBranch code\nSpecifies the branch for which the query is requested.\nStock code\nSpecifies the stock code for which the balance is requested. \nThe query results will be for the requesting branch code. This function allows inquiry operation \nonly. The respective branch’s current balance for each type of stock catalog will be displayed \nwith the breakdown of denominations and value for each denomination.\nWhen the user clicks on the ‘Details’ button for a stock catalog code, the denomination-wise \nbalance units will be displayed for each series, along with the total value in each series and \nstock status. \nValid values of stock status are:\nReceived Stocks – represents the stocks that are received by the inventory branch from \nsupplier/vendor. Received stocks can be transferred (Stock adjustment with ‘Returned"
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Stock Balance Details"
+      ],
+      "summary": "This page explains different types of stocks and details about stock balance display including various fields like Stock Catalog Code, Currency Code, Re-order value, Denomination ID, Quantity, Total value, etc.",
+      "raw_text": "4-19\nto inventory’ type) or issued to other branches. Transfer of these stocks would not \nchange the status. Received stocks should finally undergo stock issuance and \nconfirmation to become valid usable stocks.\nIssued Stocks – represents the stocks that are issued by the inventory branch to the \ncurrent branch. Upon confirming the receipt of these stocks, the stocks would become \nvalid usable stocks.\nConfirmed Stocks – Valid usable stocks held in the current branch.\nStock Balance Details\nThe following fields are displayed in multiple rows:\nStock Catalog Code and Stock Short Name - Shows the stock code and stock short \nname for which the balance is displayed. \nCurrency Code - This is the currency code defined for this stock in the stock catalog \nmaster. \nRe-order value - This is the re-order value defined for this stock in the stock catalog \nmaster. This is in number of units.\nDenomination ID\nDenomination Value\nQuantity - Denomination-wise balance is displayed. E.g. If the stock is passbook, then \nthe balance will be in number of passbooks If the stock is TC, then the balance will be \nthe number of TC leaves per denomination. \nTotal value - Displays the total value of the denomination.\nDetails (button) - Displays the series-wise details\nDenomination ID and value\nSeries number\nStart number\nEnd number\nQuantity \nTotal value\nFor every Stock Balance Details records, click the ‘Details’ button alongside to view the \nDenomination Details."
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Denomination Details screen displays the following information as part of Balance Details for a particular Denomination",
+        "Stock Transactions Inquiry"
+      ],
+      "summary": "This page describes the Denomination Details screen and how to use the Stock Transactions Inquiry screen to query transactions for a specific stock code within a date range.",
+      "raw_text": "4-20\nThe Denomination Details screen displays the following information as part of Balance Details \nfor a particular Denomination:\nDenomination ID\nDenomination Value\nSeries Number\nStart Number\nEnd Number\nQuantity\nTotal Value\nStock Status\n4.9 \nStock Transactions Inquiry\nYou can use the ‘Stock Transactions Inquiry’ screen to query on the transactions that have \nhappened on a stock code during a period. \nThis function allows Inquiry operation only. It displays all the transactions that have happened \nin the branch for the specified stock within the specified date range.\nTo invoke the ‘Stock Transactions Inquiry’ screen, enter ‘IVDSTKIN’ in the field at the top right \ncorner of the Application Toolbar and then click the adjoining arrow button.\nBranch code\nSpecify a valid branch code here.\nUser ID\nIdentify the user (maker-id) for which the query is requested. If the User Id is left blank it will \nshow the transactions for all users within that branch.\nUser id will be validated against the user profile for existence.\nStock catalog code\nSpecify the stock code for which the query is requested. Stock catalog code should be a valid \nstock code in stock catalog master."
+    },
+    {
+      "page_number": 45,
+      "sections": [
+        "From Date",
+        "To Date",
+        "Transaction Type"
+      ],
+      "summary": "This page describes how to specify date ranges and transaction types for a query related to stock transactions.",
+      "raw_text": "4-21\nFrom Date\nSpecify the starting date of the period for which the query is done. \nTo Date \nSpecify the ending date of the period for which the query is done.\nThe ‘To Date’ should be greater than or equal to ‘From Date’. Both dates cannot be greater \nthan the application date.\nTransaction Type\nThis input can be used to further narrow down the query results or display all transaction \ntypes. It can be chosen to display all receipts, all issues or the full transaction set. \n‘All receipts’ includes stocks received by the branch, stocks issued to the branch, stocks \nreturned to the branch (Adjustment stock transaction with type as ‘Returned to \ninventory’ and/or ‘Found’).\n‘All issues’ includes stocks issued from the branch, stocks returned from the branch \n(Adjustment stock transaction with type as ‘Returned to inventory’ and/or ‘Lost’).\nFull transaction set will include ‘All receipts’ and ‘All issues’.\nType of transaction should be ‘R’ – receipts, ‘I’ – issues and ‘A’ – all.\nAfter the query input fields are validated, the following fields are displayed in the input frame.\nReference Number - Displays the receive stock number/ issue stock number/ stock \nadjustment number as applicable.\nTransaction Type - Displays the type of stock transaction.\nUser Id - Displays the maker-id of the stock transaction.\nInventory date - Displays the maker-date of the stock transaction.\nDenomination ID\nDenomination Value\nQuantity\nSeries number\nStart number\nEnd number\nTotal value - Displays the denomination details for the stock transaction.\nNote\nFor denominated deposit certificates, the Stock Transaction Inquiry screen  (IVDSTKIN) \nprovides the transaction details only till the issuance of the certificates to a deposit ac-\ncount. Once the certificate is issued, there will be no further update on the status of the \ncertificate available from this screen.\n4.10 Usage Pattern Analysis\nYou can use the ‘Usage Pattern Analysis’ screen to query and display the details of stock \nusage across periods."
+    },
+    {
+      "page_number": 46,
+      "sections": [
+        "Type of analysis",
+        "From date and To date",
+        "Frequency",
+        "Balance On Hand",
+        "Quantity"
+      ],
+      "summary": "This page describes how to invoke a screen for stock inquiry, specifying parameters such as type of analysis, date range, frequency, and what the inquiry displays.",
+      "raw_text": "4-22\nTo invoke this screen, enter ‘IVDUSPIN’ in the field at the top right corner of the Application \nToolbar and then click the adjoining arrow button.\nThis function allows Inquiry operation only. This function displays the denomination-wise \nbalance on hand and the quantity utilized for the specified date range with the frequency-wise \nbreak down. If frequency is monthly then it’s advisable to give the start of the month as ‘From \nDate’ otherwise system derived ‘From Date’ and ‘To Date’ may not be synchronized.\nType of analysis\nType of analysis can be Issue or Receive. Specify one from the following:\nIssue – includes stocks issued from the branch, stocks returned from the branch \n(Adjustment stock transaction with type as ‘Returned to inventory’ and/or ‘Lost’).\nReceive – includes stocks received by the branch, stocks issued to the branch, stocks \nreturned to the branch (Adjustment stock transaction with type as ‘Returned to \ninventory’ and/or ‘Found’).\nFrom date and To date\nSpecify here the date range for the inquiry.\nFrequency\nFor usage pattern analysis, stock usage within the specified date range will be grouped based \non pre-defined frequencies (viz. Weekly, Fortnightly, Monthly, Quarterly, Half-yearly and \nyearly).\nBalance On Hand\nBalance on hand displays the current balance of the stock and denomination.\nQuantity\nQuantity displays the usage level per frequency.\nThe above inquiry is based on the requesting branch, stock code, date range and type of \nanalysis. All the stock issues/receipts made by requesting branch, during the date range, will \nbe grouped under a pre-defined frequency and displayed.\n4.11 EOD Processing\nThe following EOD activities will be present in the End of Financial Input group."
+    },
+    {
+      "page_number": 47,
+      "sections": [
+        "Re-order Level Alerts",
+        "Excess Level Alerts"
+      ],
+      "summary": "This page describes how re-order and excess level alerts are generated based on stock definitions, and explains the process of generating auto-authorized Request Stock transactions when necessary.",
+      "raw_text": "4-23\nThis section contains the following topics:\nSection 4.11.1, \"Re-order Level Alerts\"\nSection 4.11.2, \"Excess Level Alerts\"\n4.11.1 \nRe-order Level Alerts\nEOD processing will fetch the re-order level and the re-order quantity from the Stockflow \nDefinition (if available) or Stock Catalog Master Definition. For an inventory branch, levels \nmaintained at Stockflow Definition will supersede the levels specified in stock catalog master \ndefinition. For a non-inventory branch, system will apply the levels specified in Stock Catalog \nMaster Definition.\nSystem will calculate the balance on hand for each stock code and denomination. System will \ncompute the projected quantity to be received from inventory branch (unfulfilled request \nquantity).\nIf the sum of balance on hand and projected quantity is less than or equal to the re-order level \nthen system will generate an auto-authorized Request Stock transaction for the specified re-\norder quantity with Transaction Date as next working date.\nRe-order Alert will be logged in the system, and can be viewed using BI reports.\n4.11.2 \nExcess Level Alerts\nEOD processing will fetch the excess level from the Stockflow Definition (if available) or Stock \nCatalog Master Definition. For an inventory branch, levels maintained at Stockflow Definition \nwill supersede the levels specified in Stock Catalog Master Definition. For a non-inventory \nbranch, system would apply the levels specified in Stock Catalog Master Definition.\nSystem will calculate the balance on hand for each stock code and denomination. If balance \non hand is greater than the excess level then the system will log an excess level alert. BI \nreports can be used to view the logged alerts."
+    },
+    {
+      "page_number": 48,
+      "sections": [
+        "Generic Interface",
+        "Interface with CASA Module for Cheque Book Issue",
+        "Interface with Web Branch module for Passbook Issue",
+        "Interface with Teller Module",
+        "Gateway Services and Operations"
+      ],
+      "summary": "This page discusses various interfaces and gateways used by the IV module of Oracle FLEXCUBE during online transactions, including specific details on how these interfaces function.",
+      "raw_text": "5-1\n5. Interfaces and Gateways \nThis chapter gives you information regarding the interfaces, gateways and the corresponding \nmaintenances to be made.\nThis chapter contains the following sections:\nSection 5.1, \"Generic Interface\"\nSection 5.2, \"Interface with CASA Module for Cheque Book Issue\"\nSection 5.3, \"Interface with Web Branch module for Passbook Issue\"\nSection 5.4, \"Interface with Teller Module\"\nSection 5.5, \"Gateway Services and Operations\"\n5.1 \nGeneric Interface\nThe IV module interfaces with other modules of Oracle FLEXCUBE during the Online \nTransactions. The interface allows for the following processes.\nGet Next Available Instrument(s) from Inventory\nInputs to interface:\nStock Catalog Code \nDenomination ID\nInstrument Type\nCurrency \nIssuer Code \nBranch Code\nQuantity\nOutputs from interface:\nSuccess/Failure status\nSeries Number\nStart Number\nEnd Number\nTotal Value\nProcessing done by the system includes:\nChecking the request details\nSearching the inventory for the next available valid number or series of the instruments.\nSending back the next instrument number or the next available series with the \ndenomination details if present.\nRaising an error message if the requested stock cannot be serviced.\nUpdate the instrument(s) status in the inventory (Update Inventory Status)\nInputs to interface:\nStock Catalog Code \nDenomination ID\nInstrument Type\nCurrency"
+    },
+    {
+      "page_number": 49,
+      "sections": [
+        "Interface Inputs",
+        "Interface Validation",
+        "Interface Outputs"
+      ],
+      "summary": "This page describes the interface between the CASA module and the inventory module for cheque book issuance, including the inputs, validation, and outputs of the process.",
+      "raw_text": "5-2\nIssuer Code \nBranch Code\nQuantity\nSeries Number\nStart Number\nEnd Number\nInstrument Status\nOutputs from interface:\nSuccess/Failure\nProcessing done by the system includes:\nChecking the request details.\nUpdating the inventory for the inputted instruments or series of instruments with the \ndenomination details if present.\nSending back the reply code.\n5.2 \nInterface with CASA Module for Cheque Book Issue\nThe CASA module will interface with the inventory module during cheque book issue. It will \nautomatically use the next available series that is available for issue. It will also update the \nstatus of each stock in the inventory as issued to a customer.\nThis section contains the following topics:\nSection 5.2.1, \"Interface Inputs\"\nSection 5.2.2, \"Interface Validation\"\nSection 5.2.3, \"Interface Outputs\"\n5.2.1 \nInterface Inputs\nThe following are the inputs for the interface with CASA module. The inputs will be taken from \nthe Cheque Book Maintenance screen."
+    },
+    {
+      "page_number": 50,
+      "sections": [
+        "Account Branch",
+        "Account",
+        "Issuing Branch",
+        "Cheque Book Type",
+        "Cheque Book Serial Number"
+      ],
+      "summary": "This page describes how to invoke and use the 'Cheque Book Maintenance' screen in an application, including fields for specifying account details, branch information, cheque book type, and serial number.",
+      "raw_text": "5-3\nYou can invoke the ‘Cheque Book Maintenance’ screen by typing ‘CADCHBOO’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button.\nAccount Branch\nThe system displays the selected Account's branch code.This is a read-only field defaulted \non selecting Account.\nAccount \nSpecify the account number of the customer to whom you are issuing a Cheque book in the \nAccount Number field. The adjoining option list displays all customer account numbers \nmaintained across all branches which are enabled for cheque book issuance.\n You can choose the appropriate one.Highlight the customer’s account number, and click ‘Ok’ \nbutton to select.\nTo view the joint holder’s details of an account and the mode of operation maintained at the \naccount level, place the cursor on the ‘Account Number’ field and press Ctrl+J. The system \ndisplays the ‘Joint Holder’ screen.\nFor more information on the ‘Joint Holder’ screen refer to the section ‘Joint Holder \nMaintenance’ in this User Manual.\nIssuing Branch\nIt is a read-only field and is defaulted to the logged in Branch.\nCheque Book Type\nIf inventory tracking is allowed at bank level then you will be asked to specify the Cheque Book \nType as part of Check Book Maintenance. The list values for the cheque book type selection \nwill be list of valid stock catalog codes with instrument type as ‘CASA Cheque Books’.\nCheque Book Serial Number\nIf inventory tracking is allowed at bank level then based on the cheque book type and quantity \nof the cheque leaves requested, system will retrieve the next available instrument number."
+    },
+    {
+      "page_number": 51,
+      "sections": [
+        "5-4",
+        "5.2.2 Interface Validation",
+        "5.2.3 Interface Outputs",
+        "5.3 Interface with Web Branch module for Passbook Issue"
+      ],
+      "summary": "This page describes the process of cheque book issuance, including unique numbering, interface validation, and updates to inventory status, as well as interactions with the web branch module for passbook issues.",
+      "raw_text": "5-4\nThe retrieved cheque number will be displayed to the user only after the cheque book request \nis saved.\nCheque book numbering will be unique for each cheque book type. The system will ensure \nthat the cheque number issued to the customer account is unique irrespective of issued \ncheque book type. Deletion of unauthorized cheque book issue would increase the inventory \nbalance.\nAdditional Inputs\nIf inventory tracking is allowed at bank level then the following fields will not hold any business \nlogic and will be stored for information purpose only. They are: \nKind of Cheque\nOrder Date\nOrder Details\nIssue Date\nInclude for cheque book printing\nNote\nYou can query other branch transactions only from the summary screen.\n5.2.2 \nInterface Validation\nValid values of cheque book type will be the list of valid stock catalog code with instrument \ntype as ‘CASA Cheque books’. \nFor cheque book issue through ATM, default cheque book type should be maintained in \nsystem parameters against the parameter code ‘ATM_CHQ_BOOK_TYPE’. System would \nuse this cheque book type for cheque book issue through ATM.\n5.2.3 \nInterface Outputs\nThe instrument status in the inventory will get updated as per the cheque book issue \nmaintenance.\n5.3 \nInterface with Web Branch module for Passbook Issue\nThe web Branch module will interface with the inventory module during passbook issue. It will \nautomatically use the next available series that is available for issue. It will also update the \nstatus of each stock in the inventory as issued to a customer.\nThis section contains the following topics:\nSection 5.3.1, \"Interface Inputs\"\nSection 5.3.2, \"Interface Validation\"\nSection 5.3.3, \"Interface Outputs\"\n5.3.1 \nInterface Inputs\nThe following are the inputs for the interface with web Branch module. The inputs will be taken \nfrom the New Passbook Issue screen."
+    },
+    {
+      "page_number": 52,
+      "sections": [
+        "External Reference Number",
+        "Passbook Type",
+        "Passbook Number",
+        "Note",
+        "Previous Passbook No",
+        "Previous Passbook Status",
+        "Status",
+        "Remarks"
+      ],
+      "summary": "This page describes how to invoke the 'New Passbook Issue' screen and details the fields related to passbook issuance, including reference number generation, passbook type selection, and status updates.",
+      "raw_text": "5-5\nYou can invoke the ‘New Passbook Issue’ web branch screen by typing ‘7030’ in the field at \nthe top right corner of the Application tool bar and clicking on the adjoining arrow button. \nExternal Reference Number\nThe system generates and displays the reference number.\nPassbook Type\nIf inventory tracking is allowed at bank level then you will be asked to enter the passbook type. \nThe list of values for passbook type selection will be the list of valid stock catalog codes with \ninstrument type as ‘Passbooks’.\nPassbook Number\nIf inventory tracking is allowed at bank level then system will retrieve the next available \ninstrument number based on the passbook type. The retrieved passbook number is displayed \nonly after the passbook issue is saved.\nNote\nPassbook issuance is allowed despite the value selected for inventory tracking in bank pa-\nrameter level\nPrevious Passbook No\nThe system displays the previous passbook number for the account.\nPrevious Passbook Status\nThe system displays the previous passbook status issued for the account.\nStatus\nThe system displays the status as ‘active’ or ‘Re-issue & Active’.\nRemarks\nEnter a short remark about the passbook issue."
+    },
+    {
+      "page_number": 53,
+      "sections": [
+        "Branch Code",
+        "Account",
+        "Account Description",
+        "Customer ID",
+        "Click Populate button to view charge and history details of the passbook.",
+        "Charge Tab",
+        "Charge Component",
+        "Waiver",
+        "Charge Amount",
+        "Currency",
+        "Charge in Local Currency",
+        "Exchange Rate"
+      ],
+      "summary": "This page describes various fields and options related to setting up a new passbook, including branch code, account information, charge details, and currency settings.",
+      "raw_text": "5-6\nBranch Code\nThe system defaults the code of the current branch here.\nAccount\nSpecify the Account Number for which you need a new passbook.\nAccount Description\nThe system displays description for the selected account..\nCustomer ID\nThe system displays the Customer ID based on the selected account.\nClick Populate button to view charge and history details of the passbook.\nCharge Tab\nIn Charge tab, you can capture details of charges associated with the issuance of a new \npassbook.\nCharge Component\nThe system displays a short charge description.\nWaiver\nCheck this box if you want to waive charges associated with issuance of new passbook.\nCharge Amount\nThe system computes and displays the charge amount associated with the issuance of \npassbook. However you can edit it.\nCurrency\nThe system displays the currency used. It need not be same as account currency.\nCharge in Local Currency\nSpecify the charge amount in local currency.\nExchange Rate\nSpecify the applicable exchange rate if the currency used is different from the local currency."
+    },
+    {
+      "page_number": 54,
+      "sections": [
+        "History Tab",
+        "Account Entries",
+        "Interface Validation"
+      ],
+      "summary": "This page describes the History tab for viewing passbook details and accounting entries related to passbook issuance, as well as interface validation rules.",
+      "raw_text": "5-7\nHistory Tab\nIn History tab, you can view the additional details associated with the issuance of a new \npassbook.\nThe system displays the details of all the passbooks issued for the selected account. The \nfollowing details are displayed:\nPassbook Number\nIssue Date\nStatus\nStatus Description\nStatus Change Date\nPassbook details are displayed in descending order based on the date of pass book issuance.\nAccount Entries\nOn authorization of the Passbook issue, the charge amount is liquidated. The below given \ntable indicates the accounting entries for the same.\n5.3.2 \nInterface Validation\nValid values of passbook type will be the list of valid stock catalog codes with instrument type \nas ‘Passbooks’. \nDr/Cr Indicator\nAccounting Role\nAmount Tag\nDR\nCustomer account\nCHG_AMT\nCR\nCharge GL mapped\nCHG_AMT"
+    },
+    {
+      "page_number": 55,
+      "sections": [
+        "Interface Outputs",
+        "Interface with Teller Module",
+        "For Issue of Traveller’s Cheque",
+        "For Issue of Banker’s Cheque/Demand Draft"
+      ],
+      "summary": "This page discusses the interface outputs and details on how instruments such as traveller's cheques and banker's cheques/demand drafts are issued, including updates to inventory status and workflow processes.",
+      "raw_text": "5-8\n5.3.3 \nInterface Outputs\nThe instrument status in the inventory will get updated based on the passbook issue \nmaintenance.\n5.4 \nInterface with Teller Module\nThe following sections detail the interfaces with Teller module.\nThis section contains the following topics:\nSection 5.4.1, \"For Issue of Traveller’s Cheque \"\nSection 5.4.2, \"For Issue of Banker’s Cheque/Demand Draft\"\n5.4.1 \nFor Issue of Traveller’s Cheque \nFor traveller’s cheque: Upon confirmation of the issue/transfer stock transaction, system will \nreplicate the instrument details to the web branch data stores.\nIf inventory module is used then existing workflow of recording instrument receipt details \nthrough ‘Buy TCs from HO’ and ‘Buy TCs from Agent’ maintenance will not be allowed.\nInstrument sale/purchase will be as per the existing functionality. The combination of \ninstrument type, issuer code and the currency will uniquely identify the stock code. Once the \ninstrument is issued to the customer, ‘UpdateInventoryStatus’ generic interface will be used \nin web branch EOD to update the instrument status in the inventory.\n‘Sell TCs to HO’ option if used, will initiate a stock adjustment transaction (with adjustment \ntype as ‘Returned to the inventory’, ‘From Branch’ will be the current branch and ‘To Branch’ \nwill be the respective issuing/inventory branch) during web branch EOD and replicates the \ndata to the inventory module. \n5.4.2 \nFor Issue of Banker’s Cheque/Demand Draft\nFor banker’s cheque and demand drafts: Upon confirmation of the issue/transfer stock \ntransaction, system will replicate the instrument details to the web branch data stores.\nIf inventory module is used then the workflow of recording instrument receipt details through \n‘Instrument type maintenance’ will be allowed only for ‘Managers Cheque (MCK)’ instrument \ntype. \nThe combination of instrument type, issuer code and the currency will uniquely identify the \nstock code. Next available instrument number will be fetched based on this derived stock \ncode. Once the instrument is issued to the customer, ‘UpdateInventoryStatus’ generic \ninterface will be used in web branch EOD to update the instrument status in the inventory."
+    },
+    {
+      "page_number": 56,
+      "sections": [],
+      "summary": "This page explains how to invoke the 'BC Issue Against GL' screen by typing a specific code and provides instructions for more details in another manual section.",
+      "raw_text": "5-9\nYou can invoke the ‘BC Issue Against GL’ screen by typing ‘8302’ in the field at the top right \ncorner of the Application tool bar and clicking on the adjoining arrow button\nFor more details on ‘BC Issue Against GL’ screen refer section titled ‘Issuing a BC against a \nGL’ in the chapter ‘Instrument Transactions’ in ‘Savings’ User Manual."
+    },
+    {
+      "page_number": 57,
+      "sections": [
+        "Gateway Services and Operations"
+      ],
+      "summary": "This page lists various services and operations available for the gateway interface, including stock-related functionalities such as creating, querying, and adjusting stock balances.",
+      "raw_text": "5-10\n5.5 \nGateway Services and Operations\nThe following services and operations will be available for the gateway interface.\nService Name\nOperation ID\nOperation Code\nFCUBSIVService\nStockCatalog\nCreateStockCatalog\nModifyStockCatalog\nQueryStockCatalog\nStockflowDefinition\nQueryStockflowDefinition \nRequestStock\nCreateRequestStock\nQueryRequestStock\nBulkRequestStock\nCreateBulkRequestStock\nQueryBulkRequestStock\nOrderStock\nCreateOrderStock\nQueryOrderStock\nReceiveStock\nCreateReceiveStock\nQueryReceiveStock\nIssueStock\nCreateIssueStock\nQueryIssueStock\nAdjustmentStock\nCreateAdjustmentStock\nQueryAdjustmentStock\nStockBalanceInquiry\nQueryStockBalanceInquiry\nStockTxnInquiry\nQueryStockTxnInquiry\nUsagePattern\nQueryUsagePattern"
+    },
+    {
+      "page_number": 58,
+      "sections": [
+        "Process Workflow Illustration",
+        "Transaction Workflow Examples"
+      ],
+      "summary": "This chapter provides additional information on the Oracle FLEXCUBE system's IV module through process and transaction workflow illustrations and examples.",
+      "raw_text": "6-1\n6. Annexure \nThis chapter gives you additional information, in the form of examples and illustrations of the \nworkflows in the Oracle FLEXCUBE system with regard to the IV module.\nThis chapter contains the following sections:\nSection 6.1, \"Process Workflow Illustration\"\nSection 6.2, \"Transaction Workflow Examples\"\n6.1 \nProcess Workflow Illustration\nThe following diagram is an illustration of the process workflow in the system."
+    },
+    {
+      "page_number": 59,
+      "sections": [
+        "Transaction Workflow Examples",
+        "Example 1",
+        "Example 2",
+        "Example 3",
+        "Example 4"
+      ],
+      "summary": "This page provides illustrated examples of the workflows in the system, including stock requests and their lifecycle stages such as order stock, receive stock, issue stock, and confirm receipt.",
+      "raw_text": "6-2\n6.2 \nTransaction Workflow Examples\nThe following sections provide illustrated examples of the workflows in the system.\nExample 1\nBranch initiates a stock request for stock catalog code, say “STKCD1”, with denomination \nvalue 20 and request is made for 100 quantities.\nThis request moves through a complete lifecycle of order stock, receive stock, issue stock and \nfinally confirm receipt.\nExample 2\nIn this example, requests initiated by same branch (for different stocks/denomination value) \nwere combined into single purchase order. It then moves through receive stock, issue stock \nand confirm receipt stage to complete the lifecycle of request stock. \nReceive stock transaction cannot combine multiple orders, and shall always act on only one \norder stock transaction. \nHowever, issue stock transaction can serve multiple stock requests.\nExample 3\nIn this example, requested stock is partly served by using the stockpile in inventory branch \n(head office) and a purchase order is placed for the remaining quantity.\nExample 4\nThis example details the possible combination of stock request lifecycle:"
+    },
+    {
+      "page_number": 60,
+      "sections": [
+        "Stock request (R1) split into multiple purchase orders.",
+        "Stock request (R2) is partly served by using the stockpile in inventory branch (head office) and a purchase order is placed for the remaining quantity.",
+        "Purchase order#3, is placed by combining stock requests R1 and R2.",
+        "System also supports partial receipts of stocks ordered.",
+        "Example 5"
+      ],
+      "summary": "This page describes how stock requests are split into multiple purchase orders, partially served from inventory, combined into a single purchase order, and the process of receiving and issuing stocks.",
+      "raw_text": "6-3\nStock request (R1) split into multiple purchase orders. These orders may be placed with \ndifferent suppliers.\nStock request (R2) is partly served by using the stockpile in inventory branch (head office) \nand a purchase order is placed for the remaining quantity. \nPurchase order#3, is placed by combining stock requests R1 and R2.\nSystem also supports partial receipts of stocks ordered. (Refer Order stock#2 vis-à-vis \nReceive stock#2 and 3). However, receive stock transaction can map to only one order stock \ntransaction. System does not supports receiving stocks of multiple purchase orders with \nsingle receive stock transaction.\nStocks received through receive stock transaction#1, #2 and #3 were combined and a single \nissue is made. Here, it’s presumed that the stocks serving a single request have the same \nseries number and the instrument numbers (start number and end number) is continuous. If \nthe stocks serving a single request have non-sequential instrument numbers or if the series \nnumbers are different, then the stocks will be issued separately.\nExample 5\nIn this example the stock received by the inventory branch undergoes a stock adjustment (due \nto lost/torn/quality is not acceptable etc.). Hence the inventory branch raises a new stock"
+    },
+    {
+      "page_number": 61,
+      "sections": [
+        "6-4"
+      ],
+      "summary": "This section describes how a new stock request (R2) utilizes stock to fulfill an existing request (R1).",
+      "raw_text": "6-4\nrequest (R2). The stock received with this new request (R2) is utilized to fulfill the stock \nrequest (R1)."
+    },
+    {
+      "page_number": 62,
+      "sections": [],
+      "summary": "This page lists function IDs and their corresponding references in a glossary.",
+      "raw_text": "7-1\n7. Function ID Glossary\nNumerics\n7030 ..................................5-5\n8302 ..................................5-9\nC\nCADCHBOO ......................5-3\nCSDDEMAN ......................3-4\nCSDISSCD ........................3-3\nCSSDEMAN ......................3-6\nCSSISSCD ........................3-4\nE\nEIDMANPE ......................3-15\nI\nIVDBALIN ........................4-18\nIVDCONFR ......................4-17\nIVDSTFMN ......................3-11\nIVDSTKCD ........................3-7\nIVDSTKIN ........................4-20\nIVDTXNAS ......................4-14\nIVDTXNBR ........................ 4-5\nIVDTXNIR ......................... 4-2\nIVDTXNOR ....................... 4-7\nIVDTXNRI ....................... 4-11\nIVDTXNRO ....................... 4-9\nIVDUSPIN ....................... 4-22\nIVSSTFMN ...................... 3-13\nIVSSTKCD ...................... 3-10\nIVSTXNAS ...................... 4-16\nIVSTXNBR ........................ 4-6\nIVSTXNIR ......................... 4-4\nIVSTXNOR ........................ 4-9\nIVSTXNRI ....................... 4-13\nIVSTXNRO ...................... 4-11\nS\nSTDBNKPM ...................... 3-2\nX\nXPDVNMNT .................... 3-14"
+    }
+  ]
+}

@@ -1,0 +1,3547 @@
+{
+  "source": "FlexCube/FCUBS/Common_CORE/Messaging_User_Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 46,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Common Core Electronic Messaging Service module and outlines its intended audience, accessibility information, organization, and the content of subsequent chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Common Core Electronic Messaging Service module and outlines its intended audience, accessibility information, organization, and the content of subsequent chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Common Core Electronic Messaging Service module and outlines its intended audience, accessibility information, organization, and the content of subsequent chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Common Core Electronic Messaging Service module and outlines its intended audience, accessibility information, organization, and the content of subsequent chapters.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Common Core Electronic Messaging Service module and outlines its intended audience, accessibility information, organization, and the content of subsequent chapters.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Saving Message Media Control Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Message Media Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Message Queues",
+          "start_page": 3
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing SWIFT Notification Messages",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing SWIFTNet Service Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Processing Incoming SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.20",
+          "title": "2.20 Bulk Monitor",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This page introduces icons used in the User Manual and provides references to related Oracle FLEXCUBE manuals for further information on procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.6",
+      "title": "1.6 Related Documents",
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This page introduces icons used in the User Manual and provides references to related Oracle FLEXCUBE manuals for further information on procedures.",
+      "cross_references": []
+    },
+    {
+      "structure": "3",
+      "title": "2. EMS Maintenances",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page discusses maintenance procedures for EMS and introduces Message Media Control Maintenance, explaining its role in managing external media control systems used for transmitting messages to and from a bank.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Introduction",
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This page discusses maintenance procedures for EMS and introduces Message Media Control Maintenance, explaining its role in managing external media control systems used for transmitting messages to and from a bank.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Message Media Control Maintenance",
+      "start_page": 7,
+      "end_page": 3,
+      "summary": "This page discusses maintenance procedures for EMS and introduces Message Media Control Maintenance, explaining its role in managing external media control systems used for transmitting messages to and from a bank.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.1",
+      "title": "2.2.1 Maintaining Message Media Control",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.2",
+      "title": "2.2.2 Specifying File Prefix",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.2.3",
+      "title": "2.2.3 Saving Message Media Control Details",
+      "start_page": 3,
+      "end_page": 10,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Message Media Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Message Queues",
+          "start_page": 3
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing SWIFT Notification Messages",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing SWIFTNet Service Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Processing Incoming SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.20",
+          "title": "2.20 Bulk Monitor",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Media Maintenance",
+      "start_page": 10,
+      "end_page": 3,
+      "summary": "This page describes settings for configuring Oracle FLEXCUBE to handle incoming and outgoing SWIFT messages, including file prefixes, queue paths, and directory specifications.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Maintaining Message Media Details",
+      "start_page": 3,
+      "end_page": 13,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Saving Message Media Control Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Message Queues",
+          "start_page": 3
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing SWIFT Notification Messages",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing SWIFTNet Service Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Processing Incoming SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.20",
+          "title": "2.20 Bulk Monitor",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.4",
+      "title": "2.4 Message Queues Mapping Maintenance",
+      "start_page": 13,
+      "end_page": 3,
+      "summary": "This page explains how to set priorities for different media types used in message dispatching and introduces the process of maintaining message queues mapping.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.4.1",
+      "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+      "start_page": 3,
+      "end_page": 15,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Saving Message Media Control Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Message Media Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Message Queues",
+          "start_page": 3
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing SWIFT Notification Messages",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing SWIFTNet Service Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Processing Incoming SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.20",
+          "title": "2.20 Bulk Monitor",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.5",
+      "title": "2.5 Message Queue Maintenance",
+      "start_page": 15,
+      "end_page": 3,
+      "summary": "This section explains how to maintain message queues for incoming SWIFT and non-SWIFT messages, including setting up unique queue names, descriptions, and routing rules.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.5.1",
+      "title": "2.5.1 Maintaining Message Queues",
+      "start_page": 3,
+      "end_page": 16,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Saving Message Media Control Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Message Media Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing SWIFT Notification Messages",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing SWIFTNet Service Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Processing Incoming SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.20",
+          "title": "2.20 Bulk Monitor",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.6",
+      "title": "2.6 SWIFT Message Notification Browser",
+      "start_page": 16,
+      "end_page": 3,
+      "summary": "This section describes how to add and remove messages from a queue and explains the SWIFT Message Notification Browser used for viewing ACK/NACK and delivery notification messages in Oracle FLEXCUBE.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.6.1",
+      "title": "2.6.1 Viewing SWIFT Notification Messages",
+      "start_page": 3,
+      "end_page": 17,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Saving Message Media Control Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Message Media Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Message Queues",
+          "start_page": 3
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing SWIFTNet Service Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Processing Incoming SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.20",
+          "title": "2.20 Bulk Monitor",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.7",
+      "title": "2.7 SWIFT Net Service Definition",
+      "start_page": 17,
+      "end_page": 3,
+      "summary": "This page describes how to perform a query using user and reference parameters, detailing the displayed record information, and introduces sections for invoking and viewing SWIFTNet service definitions.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.1",
+      "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.7.2",
+      "title": "2.7.2 Viewing SWIFTNet Service Summary",
+      "start_page": 3,
+      "end_page": 19,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Saving Message Media Control Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Message Media Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Message Queues",
+          "start_page": 3
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing SWIFT Notification Messages",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Processing Incoming SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.20",
+          "title": "2.20 Bulk Monitor",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.8",
+      "title": "2.8 SWIFT Local Authentication Maintenance",
+      "start_page": 19,
+      "end_page": 3,
+      "summary": "This page describes how to view a summary of SWIFTNet services and maintain local authentication for SWIFT messages, including accessing the maintenance screen and processing incoming and outgoing messages.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.1",
+      "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.2",
+      "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.3",
+      "title": "2.8.3 Processing Outgoing SWIFT LAU",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.8.4",
+      "title": "2.8.4 Processing Incoming SWIFT LAU",
+      "start_page": 3,
+      "end_page": 23,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Saving Message Media Control Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Message Media Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Message Queues",
+          "start_page": 3
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing SWIFT Notification Messages",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing SWIFTNet Service Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.20",
+          "title": "2.20 Bulk Monitor",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.9",
+      "title": "2.9 Mapping Rule Group",
+      "start_page": 23,
+      "end_page": 3,
+      "summary": "This page describes how checksum values are updated and validated in received messages, as well as details on invoking the Rule Group Mapping screen.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.1",
+      "title": "2.9.1 Invoking Rule Group Mapping Screen",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.9.2",
+      "title": "2.9.2 Viewing Rule Group Mapping Summary",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10",
+      "title": "2.10 Defining Rule Group",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10.1",
+      "title": "2.10.1 Invoking Rule Group Definition Screen",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.10.2",
+      "title": "2.10.2 Viewing Rule Group Summary",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11",
+      "title": "2.11 Routing Rule Definition",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.1",
+      "title": "2.11.1 Invoking Routing Rule Definition Screen",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.11.2",
+      "title": "2.11.2 Viewing Rule Definition Summary",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12",
+      "title": "2.12 Defining Protocol Parameter",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12.1",
+      "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.12.2",
+      "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.13",
+      "title": "2.13 File Transfer Adapter Connector Configuration",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.13.1",
+      "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.13.2",
+      "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.14",
+      "title": "2.14 Distinguished Name Definition",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.14.1",
+      "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.14.2",
+      "title": "2.14.2 Viewing Distinguished Name Summary",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.15",
+      "title": "2.15 Defining Debulk Rule",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.15.1",
+      "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.15.2",
+      "title": "2.15.2 Viewing Debulk Rule Summary",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.16",
+      "title": "2.16 Connectivity Operation Manager",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.16.1",
+      "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.17",
+      "title": "2.17 Outbound File Browser",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.18",
+      "title": "2.18 Inbound File Browser",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.19",
+      "title": "2.19 Defining Bulk Preference",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.19.1",
+      "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.19.2",
+      "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.20",
+      "title": "2.20 Bulk Monitor",
+      "start_page": 4,
+      "end_page": 46,
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "cross_references": [
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 5
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 5
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 5
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 5
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 5
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 6
+        },
+        {
+          "structure": "2.6",
+          "title": "1.6 Related Documents",
+          "start_page": 6
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. EMS Maintenances",
+          "start_page": 7
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Introduction",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Message Media Control Maintenance",
+          "start_page": 7
+        },
+        {
+          "structure": "3.2.1",
+          "title": "2.2.1 Maintaining Message Media Control",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.2",
+          "title": "2.2.2 Specifying File Prefix",
+          "start_page": 3
+        },
+        {
+          "structure": "3.2.3",
+          "title": "2.2.3 Saving Message Media Control Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Media Maintenance",
+          "start_page": 10
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Maintaining Message Media Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.4",
+          "title": "2.4 Message Queues Mapping Maintenance",
+          "start_page": 13
+        },
+        {
+          "structure": "3.4.1",
+          "title": "2.4.1 Invoking Message Queue Mapping Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.5",
+          "title": "2.5 Message Queue Maintenance",
+          "start_page": 15
+        },
+        {
+          "structure": "3.5.1",
+          "title": "2.5.1 Maintaining Message Queues",
+          "start_page": 3
+        },
+        {
+          "structure": "3.6",
+          "title": "2.6 SWIFT Message Notification Browser",
+          "start_page": 16
+        },
+        {
+          "structure": "3.6.1",
+          "title": "2.6.1 Viewing SWIFT Notification Messages",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7",
+          "title": "2.7 SWIFT Net Service Definition",
+          "start_page": 17
+        },
+        {
+          "structure": "3.7.1",
+          "title": "2.7.1 Invoking SWIFTNet Service Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.7.2",
+          "title": "2.7.2 Viewing SWIFTNet Service Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8",
+          "title": "2.8 SWIFT Local Authentication Maintenance",
+          "start_page": 19
+        },
+        {
+          "structure": "3.8.1",
+          "title": "2.8.1 Invoking SWIFT LAU Maintenance Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.2",
+          "title": "2.8.2 Viewing SWIFT LAU Summary Details",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.3",
+          "title": "2.8.3 Processing Outgoing SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.8.4",
+          "title": "2.8.4 Processing Incoming SWIFT LAU",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9",
+          "title": "2.9 Mapping Rule Group",
+          "start_page": 23
+        },
+        {
+          "structure": "3.9.1",
+          "title": "2.9.1 Invoking Rule Group Mapping Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.9.2",
+          "title": "2.9.2 Viewing Rule Group Mapping Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10",
+          "title": "2.10 Defining Rule Group",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.1",
+          "title": "2.10.1 Invoking Rule Group Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.10.2",
+          "title": "2.10.2 Viewing Rule Group Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11",
+          "title": "2.11 Routing Rule Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.1",
+          "title": "2.11.1 Invoking Routing Rule Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.11.2",
+          "title": "2.11.2 Viewing Rule Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12",
+          "title": "2.12 Defining Protocol Parameter",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.1",
+          "title": "2.12.1 Invoking Protocol Parameter Definition Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.12.2",
+          "title": "2.12.2 Viewing Protocol Parameter Definition Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13",
+          "title": "2.13 File Transfer Adapter Connector Configuration",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.1",
+          "title": "2.13.1 Invoking File Transfer Adapter Connector Configuration Screen",
+          "start_page": 3
+        },
+        {
+          "structure": "3.13.2",
+          "title": "2.13.2 Viewing File Transfer Adapter Connector Configuration Summary",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14",
+          "title": "2.14 Distinguished Name Definition",
+          "start_page": 3
+        },
+        {
+          "structure": "3.14.1",
+          "title": "2.14.1 Invoking Distinguished Name Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.14.2",
+          "title": "2.14.2 Viewing Distinguished Name Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15",
+          "title": "2.15 Defining Debulk Rule",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.1",
+          "title": "2.15.1 Invoking Debulk Rule Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.15.2",
+          "title": "2.15.2 Viewing Debulk Rule Summary",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16",
+          "title": "2.16 Connectivity Operation Manager",
+          "start_page": 4
+        },
+        {
+          "structure": "3.16.1",
+          "title": "2.16.1 Invoking Connectivity Operation Manager Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.17",
+          "title": "2.17 Outbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.18",
+          "title": "2.18 Inbound File Browser",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19",
+          "title": "2.19 Defining Bulk Preference",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.1",
+          "title": "2.19.1 Invoking Bulk Preference Definition Screen",
+          "start_page": 4
+        },
+        {
+          "structure": "3.19.2",
+          "title": "2.19.2 Viewing Bulking Preference Definition Summary",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "4",
+      "title": "3. Function ID Glossary",
+      "start_page": 46,
+      "end_page": 48,
+      "summary": "This page lists various Function IDs and their corresponding page numbers in a glossary.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This document is a user guide for Oracle FLEXCUBE Universal Banking's Electronic Messaging Service version 14.7.0.0.0, released in November 2022.",
+      "raw_text": "Common Core - Electronic Messaging Service User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use for U.S. Government end users.",
+      "raw_text": "Common Core - Electronic Messaging Service User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2007, 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs \ninstalled on the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” \npursuant to the applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, \nduplication, disclosure, modification, and adaptation of the programs, including any operating system, integrated software, any \nprograms installed on the hardware, and/or documentation, shall be subject to license terms and license restrictions applicable \nto the programs. No other rights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed \nor intended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If \nyou use this software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, \nbackup, redundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for \nany damages caused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure \nand are protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you \nmay not use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any \npart, in any form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by \nlaw for interoperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from \nthird parties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with \nrespect to third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, \ncosts, or damages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces the preface and various sections of a document, including its audience, organization, and related documents.",
+      "raw_text": "1-1\nContents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-2\n1.6 \nRelated Documents.................................................................................................  1-2\n2. \nEMS Maintenances .................................................................................. 2-1\n2.1 \nIntroduction..............................................................................................................  2-1\n2.2 \nMessage Media Control Maintenance.....................................................................  2-1\n2.2.1 Maintaining Message Media Control ................................................................ 2-2\n2.2.2 Specifying File Prefix ........................................................................................ 2-4\n2.2.3 Saving Message Media Control Details............................................................ 2-4\n2.3 \nMedia Maintenance .................................................................................................  2-4\n2.3.1 Maintaining Message Media Details................................................................. 2-5\n2.4 \nMessage Queues Mapping Maintenance................................................................  2-7\n2.4.1 Invoking Message Queue Mapping Maintenance Screen ................................ 2-8\n2.5 \nMessage Queue Maintenance.................................................................................  2-9\n2.5.1 Maintaining Message Queues .......................................................................... 2-9\n2.6 \nSWIFT Message Notification Browser...................................................................  2-10\n2.6.1 Viewing SWIFT Notification Messages........................................................... 2-10\n2.7 \nSWIFT Net Service Definition................................................................................  2-11\n2.7.1 Invoking SWIFTNet Service Definition Screen ............................................... 2-12\n2.7.2 Viewing SWIFTNet Service Summary ............................................................ 2-13\n2.8 \nSWIFT Local Authentication Maintenance ............................................................  2-13\n2.8.1 Invoking SWIFT LAU Maintenance Screen .................................................... 2-13\n2.8.2 Viewing SWIFT LAU Summary Details........................................................... 2-15\n2.8.3 Processing Outgoing SWIFT LAU .................................................................. 2-16\n2.8.4 Processing Incoming SWIFT LAU .................................................................. 2-16\n2.9 \nMapping Rule Group .............................................................................................  2-17\n2.9.1 Invoking Rule Group Mapping Screen............................................................ 2-17\n2.9.2 Viewing Rule Group Mapping Summary......................................................... 2-18\n2.10 Defining Rule Group..............................................................................................  2-18\n2.10.1 Invoking Rule Group Definition Screen......................................................... 2-19\n2.10.2 Viewing Rule Group Summary ..................................................................... 2-20\n2.11 Routing Rule Definition..........................................................................................  2-20\n2.11.1 Invoking Routing Rule Definition Screen ...................................................... 2-21\n2.11.2 Viewing Rule Definition Summary ................................................................ 2-23\n2.12 Defining Protocol Parameter .................................................................................  2-24\n2.12.1 Invoking Protocol Parameter Definition Screen ............................................ 2-24\n2.12.2 Viewing Protocol Parameter Definition Summary......................................... 2-25\n2.13 File Transfer Adapter Connector Configuration.....................................................  2-25\n2.13.1 Invoking File Transfer Adapter Connector Configuration Screen ................. 2-26\n2.13.2 Viewing File Transfer Adapter Connector Configuration Summary .............. 2-27\n2.14 Distinguished Name Definition ..............................................................................  2-28"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "2.14.1 Invoking Distinguished Name Definition Screen",
+        "2.14.2 Viewing Distinguished Name Summary",
+        "2.15 Defining Debulk Rule",
+        "2.15.1 Invoking Debulk Rule Definition Screen",
+        "2.15.2 Viewing Debulk Rule Summary",
+        "2.16 Connectivity Operation Manager",
+        "2.16.1 Invoking Connectivity Operation Manager Screen",
+        "2.17 Outbound File Browser",
+        "2.18 Inbound File Browser",
+        "2.19 Defining Bulk Preference",
+        "2.19.1 Invoking Bulk Preference Definition Screen",
+        "2.19.2 Viewing Bulking Preference Definition Summary",
+        "2.20 Bulk Monitor"
+      ],
+      "summary": "This page describes various screens and definitions related to distinguished names, debulk rules, connectivity operations, file browsers, bulk preferences, and a bulk monitor.",
+      "raw_text": "2.14.1 Invoking Distinguished Name Definition Screen........................................... 2-28\n2.14.2 Viewing Distinguished Name Summary........................................................ 2-29\n2.15 Defining Debulk Rule.............................................................................................  2-29\n2.15.1 Invoking Debulk Rule Definition Screen ....................................................... 2-30\n2.15.2 Viewing Debulk Rule Summary .................................................................... 2-31\n2.16 Connectivity Operation Manager...........................................................................  2-31\n2.16.1 Invoking Connectivity Operation Manager Screen ....................................... 2-32\n2.17 Outbound File Browser..........................................................................................  2-33\n2.18 Inbound File Browser.............................................................................................  2-34\n2.19 Defining Bulk Preference.......................................................................................  2-35\n2.19.1 Invoking Bulk Preference Definition Screen ................................................. 2-35\n2.19.2 Viewing Bulking Preference Definition Summary ......................................... 2-37\n2.20 Bulk Monitor...........................................................................................................  2-38\n3. \nFunction ID Glossary ............................................................................... 3-1"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Chapter 1",
+        "Chapter 2"
+      ],
+      "summary": "This page introduces a manual for Oracle FLEXCUBE's Common Core Electronic Messaging Service module and outlines its intended audience, accessibility information, organization, and the content of subsequent chapters.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis manual is designed to help acquaint you with the Common Core Electronic Messaging \nService module of Oracle FLEXCUBE.\nThe module supports various types of media. Besides standard media modes like Mail, Telex \nand SWIFT you can also use other media types supported by the Media Control System \n(MCS) installed at the node at which the database of your branch is installed. Oracle \nFLEXCUBE gives native support for media like Mail, Telex, and SWIFT using EMS as the \nMCS.\nYou can further obtain information specific to a particular field by placing the cursor on the \nrelevant field and striking <F1> on the keyboard.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\nThis manual is organized as follows:\nRole\nFunction\nBack office data entry clerk\nInput functions for contracts\nBack office managers/officers\nAuthorization functions\nProduct Managers\nProduct definition and authorization\nEnd of Day operators\nProcessing during End of Day/Beginning of Day\nFinancial Controller/Product Manag-\ners\nGeneration of reports\nChapter\nDescription\nChapter 1\nPreface gives information on the intended audience. It also lists the \nvarious chapters covered in this User Manual.\nChapter 2\nEMS Maintenances explains the maintenance of various Messaging \nfunctions.\nChapter 3\nFunction ID Glossary has alphabetical listing of Function/Screen ID's \nused in the module with page references for quick navigation."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Glossary of Icons",
+        "Related Documents"
+      ],
+      "summary": "This page introduces icons used in the User Manual and provides references to related Oracle FLEXCUBE manuals for further information on procedures.",
+      "raw_text": "1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\n1.6 \nRelated Documents\nFor further information on procedures discussed in the manual, refer to the Oracle \nFLEXCUBE manuals on:\nCommon Procedures\nAccessibility\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 7,
+      "sections": [
+        "EMS Maintenances",
+        "Message Media Control Maintenance"
+      ],
+      "summary": "This page discusses maintenance procedures for EMS and introduces Message Media Control Maintenance, explaining its role in managing external media control systems used for transmitting messages to and from a bank.",
+      "raw_text": "2-1\n2. EMS Maintenances\n2.1 \nIntroduction\nThis chapter contains the following sections:\nSection 2.2, \"Message Media Control Maintenance\"\nSection 2.3, \"Media Maintenance\"\nSection 2.4, \"Message Queues Mapping Maintenance\"\nSection 2.5, \"Message Queue Maintenance\"\nSection 2.6, \"SWIFT Message Notification Browser\"\nSection 2.7, \"SWIFT Net Service Definition\"\nSection 2.8, \"SWIFT Local Authentication Maintenance\"\nSection 2.9, \"Mapping Rule Group\"\nSection 2.10, \"Defining Rule Group\"\nSection 2.11, \"Routing Rule Definition\"\nSection 2.12, \"Defining Protocol Parameter\"\nSection 2.13, \"File Transfer Adapter Connector Configuration\"\nSection 2.14, \"Distinguished Name Definition\"\nSection 2.15, \"Defining Debulk Rule\"\nSection 2.16, \"Connectivity Operation Manager\"\nSection 2.17, \"Outbound File Browser\"\nSection 2.18, \"Inbound File Browser\"\nSection 2.19, \"Defining Bulk Preference\"\n2.2 \nMessage Media Control Maintenance\nThe messages that are sent from and delivered to your bank are transmitted and received \nover sources that are external to Oracle FLEXCUBE. We shall call these external sources \nMedia Control Systems (MCS).\nIn a distributed environment, the database of a branch is located in a node or server. The MCS \nof the messages are also installed in a node. Thus, while defining an MCS, you also need to \nindicate the node in which it is installed.\nAn MCS can handle only one media, hence you need to set up several media control systems \nfor the various media types maintained for your bank. Apart from indicating the media type for \nan MCS, you can indicate separate directories from which Oracle FLEXCUBE should read \nand write incoming and outgoing messages for a given media.\nYou can maintain MCS details in the ‘Message Media Control Maintenance’ screen. The \ndetails that you specify in this screen control the medium of delivery and reception of \nmessages.\nThis section contains the following topic:\nSection 2.2.1, \"Maintaining Message Media Control\"\nSection 2.2.2, \"Specifying File Prefix\""
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Saving Message Media Control Details"
+      ],
+      "summary": "This section explains how to maintain message media control details in Oracle FLEXCUBE, including invoking the maintenance screen and specifying delivery types such as Folder or Queue.",
+      "raw_text": "2-2\nSection 2.2.3, \"Saving Message Media Control Details\"\n2.2.1 \nMaintaining Message Media Control\nYou can invoke ‘Message Media Control Maintenance’ screen by typing ‘MSDMGMCS’ in the \nfield at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton.\nIf you are maintaining details of a new media control system click the ‘New’ button on the \nApplication toolbar. The ‘Message Media Control Maintenance’ screen is displayed without \nany details.\nIf you are calling an MCS record that has already been defined, double-click a record of your \nchoice from the summary screen. In the ‘Summary’ screen, all the media control system \nrecords that you have entered will be displayed in a tabular form. \nThe screen is as shown below:\nYou can capture the following details on this screen.\nDelivery Type\nYou can specify the delivery type here. Oracle FLEXCUBE gives you two options viz. Folder \nand Queue. Depending on the selection you make, you must specify the details in the \ncorresponding fields as follows.\nFolder – If you choose ‘Folder’ as the delivery type, you must specify the In Directory \nand the Out Directory. Further, after selecting ‘Folder’, if you check the option ‘Unix Swift \nServer’ for a UNIX SWIFT server, then you must specify the Unix In-Directory and the \nUnix Out-Directory. For a Windows Server the In-Directory and Out-Directory must be \nmaintained.\nQueue – If you select ‘Queue’ as the delivery type, you must specify In Queue, Out \nQueue and the type of queue – i.e. ‘Microsoft Message Queue’ or WebSphere \nMessaging Queue’."
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Media Control System",
+        "Node",
+        "Media",
+        "Status",
+        "In Directory and Out Directory"
+      ],
+      "summary": "This page explains the setup and configuration of Media Control Systems in Oracle FLEXCUBE, including how to assign codes, specify media types, indicate statuses, and manage directories.",
+      "raw_text": "2-3\nMedia Control System\nIn Oracle FLEXCUBE, each media control system that you maintain is identified by a 15-\ncharacter code called an MCS code. You can follow your own convention for devising this \ncode.\nThe code that you assign an MCS should be unique as it is used to identify the external \nsource.\nNode\nA node is the Database instance on which Oracle FLEXCUBE is installed. On assigning a \ncode to an MCS, you can indicate the node or server at which the MCS is located. A branch’s \ndatabase is located in a node and an MCS is also installed in a node. Thus, while defining an \nMCS, you need to indicate the node at which it has been installed.\nMedia \nYou need to also specify the media for which your bank is using the MCS. For example, if you \nset up an MCS say ‘MCSSWIFT’ and indicate the media type as SWIFT, it indicates that \nOracle FLEXCUBE can receive and transmit SWIFT messages through the MCS \n‘MCSSWIFT’.\nThe following diagram illustrates a typical MCS setup:I\nStatus\nYou need to indicate the status of an MCS. The status options available are:\nActive and \nPassive\nIt is only when an MCS is active that messages will be directed to it. If, for instance, an MCS \nlocated at the node in which your branch operates malfunctions, you can indicate that the \nMCS is passive. In this case, Oracle FLEXCUBE will not write into or read from the directories \non the node. No message will be routed through a passive MCS.\nIn Directory and Out Directory\nIf the Delivery Type is ‘Folder' and the SWIFT server is a Windows server then apart  from \nindicating the node on which an MCS is located, you should specify the full path of the"
+    },
+    {
+      "page_number": 10,
+      "sections": [
+        "File Prefix",
+        "In Queue",
+        "Out Queue",
+        "Unix Swift Server",
+        "SWIFT Server on UNIX"
+      ],
+      "summary": "This page describes settings for configuring Oracle FLEXCUBE to handle incoming and outgoing SWIFT messages, including file prefixes, queue paths, and directory specifications.",
+      "raw_text": "2-4\ndirectories from which Oracle FLEXCUBE should read and write incoming and outgoing \nmessages respectively.\nFile Prefix\nFor the MCS you are maintaining, you should identify the outgoing message files generated \nin a different media with unique prefixes. Enter the unique identifier in this field.  \nIn Queue\nIf the Delivery type is Queue then you should enter the full path of the queue in the node or \nserver into which the MCS should store the incoming message hand-off file. Oracle \nFLEXCUBE, by default, will pickup and read all incoming messages transmitted through the \nspecified media from this queue.\nOut Queue\nEnter the full path of the queue in the node or server into which the message hand-off file from \nOracle FLEXCUBE for the specified media should be stored. The MCS, which is also, located \non the same node, will by default store the outgoing messages in this queue. \nUnix Swift Server\nAt your bank, if the SWIFT server is on UNIX, check this option. Subsequently, in this screen, \nyou should specify the default In and Out Directories for the SWIFT message hand-off files. \nTo continue with your normal banking operations you can connect to another node and \nindicate the directory on that node from which Oracle FLEXCUBE should read from and write \ninto.\nSWIFT Server on UNIX\nIf the SWIFT server at your bank is on UNIX, you should indicate it in this screen. \nSubsequently, you should specify the default In and Out Directories for the SWIFT message \nhand-off files.\nSpecifying the UNIX In-Directory \nYou can specify the full path of the directory on the SWIFT server where you would like to \nstore incoming SWIFT message files. Oracle FLEXCUBE will pickup and process all incoming \nSWIFT message files from this directory.\nSpecifying the UNIX Out-Directory \nIn this screen, you can also specify the directory on the SWIFT server where you would like \nto store outgoing SWIFT message hand-off files. \n2.2.2 \nSpecifying File Prefix\nFor the MCS you are maintaining, you should identify outgoing message files generated in the \nmedia with unique prefixes. Oracle FLEXCUBE will automatically prefix outgoing message \nhand-off files for the MCS with the prefix that you specify.\n2.2.3 \nSaving Message Media Control Details\nAfter you have made the mandatory entries, save the record. An MCS record that you have \ncreated should be authorized by a user, bearing a different Login ID, before the End of Day \nprocess (EOD) is run.\n2.3 \nMedia Maintenance\nThis section contains the following topic:\nSection 2.3.1, \"Maintaining Message Media Details\""
+    },
+    {
+      "page_number": 11,
+      "sections": [
+        "Maintaining Message Media Details"
+      ],
+      "summary": "This section explains how to access and use the 'Message Media Maintenance' screen in Oracle FLEXCUBE to manage media types for transmitting messages.",
+      "raw_text": "2-5\n2.3.1 \nMaintaining Message Media Details\nYou can invoke the ‘Message Media Maintenance’ screen by typing ‘MSDMEDMT’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button.\nIf you are maintaining details of a new media type, select ‘New’ from the Actions Menu, or click \nnew icon on the toolbar. The ‘Message Media Maintenance’ screen is displayed without any \ndetails. \nIf you are calling a Message Media Maintenance record that has already been defined, \ndouble-click a record from the summary screen. In the ‘Summary’ screen, all the media \nmaintenance records that you have entered will be displayed in a tabular form. \nThe screen is as shown below:\nIn this screen, you can maintain the following:\nThe media types that can be used to transmit messages from and to your bank, and\nThe compatible media for the media type you are maintaining.\nFor each media type that you maintain, you should indicate the following parameters:\nIndicating a Code to Identify a Media Type\nIn Oracle FLEXCUBE, each media type that you maintain is identified with a fifteen-character \ncode called ‘Media Code’. You can follow your own convention for devising this code. A Media \nType could be SWIFT, Mail, Telex, ISO etc.\nThe code that you assign a media type should be unique as it is used to identify the media. \nWhen you need to indicate that a message should be transmitted through a particular media"
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Opting for Message Markers",
+        "Repeating a Set of Padding Characters"
+      ],
+      "summary": "This page explains how to configure message markers and padding characters for media types in Oracle FLEXCUBE, including settings for outgoing and incoming messages.",
+      "raw_text": "2-6\ntype, you just need to specify the code assigned to the media type. The message will be \nrouted automatically through the media. \nYou can enter a short description of the media type that you are maintaining. The description \nwill help you identify the code that it represents. \nOpting for Message Markers\nYou can opt to append end-message markers to outgoing messages generated in a media. \nThese markers are referred to as “Padding Characters” in Oracle FLEXCUBE. Padding \ncharacters would, typically, be a standard set of characters, probably repeated. The padding \ncharacters that you specify will be inserted, automatically, at the end of every outgoing \nmessage in the media. You can indicate the padding characters that mark the end of an \noutgoing message (in a specific media) in the Message Suffix field.\nWhen defining a media, you can also capture the padding characters that mark the end of \nincoming messages in the media. The system identifies the end of an incoming message, in \na file containing several messages, when it encounters the padding characters you have \ncaptured for a media type. Enter the padded characters that mark the end of incoming \nmessages in a media in the Message Terminator field.\nNote\nFor Message suffix to be used for Outgoing messages, the ‘Padding Required’ option should be se-\nlected.\nRepeating a Set of Padding Characters\nIf you opted to suffix an outgoing message with a set of padding characters, indicate in the \n‘Number of Characters’ field the number of times the set should be repeated.\nThe padding characters will be suffixed to every outgoing message in the media as many \ntimes as you specify.\nHalting the Processing of Messages\nAt any time, you can opt to halt the processing of messages in a specific media. To halt the \nprocessing of incoming and outgoing messages in a media, invoke this screen and navigate \nto the maintenance record for the media, and choose the ‘Stop Processing’ option. When you \nsave your changes to the record, Oracle FLEXCUBE will stop processing messages in the \nmedia.\nIndicating the Compatible Media for a Media Type\nFor each media type that you maintain, you can also indicate other media that are compatible. \nThe format of compatible media should be similar.\nFor example, you are maintaining details for the media type 'mail'. You have indicated media \ntype 'Fax' as compatible media.\nIn this case, whenever a message is faxed, it will be in the mail format defined for the message \nin the ‘Advice Format File Maintenance’ screen.\nYou can indicate compatible media by selecting the relevant media codes from the picklist \navailable. To add compatible media for a media type, select the code that identifies the \ncompatible media, and click add icon. To delete compatible media, select the codes that \nidentify the media, and click delete icon."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Setting the Priority",
+        "Message Queues Mapping Maintenance"
+      ],
+      "summary": "This page explains how to set priorities for different media types used in message dispatching and introduces the process of maintaining message queues mapping.",
+      "raw_text": "2-7\nNote\nThe compatible media that you indicate for a media type should have already been main-\ntained as a media type.\nSetting the Priority\nWhile maintaining media types, you can set the usage priority for each media type that you \nmaintain. Consequently, when dispatching messages to customers, the media type used for \nsending the message will be the one that is higher on the priority rating. For instance, let us \nassume that the following are the types of media that you bank uses to send advices to \ncustomers:\nSWIFT\nMail\nTelex\nFax\nISO\nYou have assigned the following priority to each of these media types:\nWhen dispatching messages to customers, the system will, by default, select the media type \nin the ascending order of the priority that you have specified. \nNote\nThe rating that you specify can be anything between 1 and 99. A rating of one would indi-\ncate that the usage of the particular media type is highest on the priority list; whereas, a \nrating of 99 indicates that the usage or the particular media type is of lowest priority. \nSaving the Record\nAfter you have made mandatory entries, save the record. A media maintenance record that \nyou have created should be authorized by a user, bearing a different Login ID, before the End \nof Day processes are triggered. Click ‘Exit’ or ‘Cancel’ button to return to the application.\n2.4 \nMessage Queues Mapping Maintenance\nThis section contains the following topic:\nSection 2.4.1, \"Invoking Message Queue Mapping Maintenance Screen\"\nMedia \nType\nMedia \nPriority\nSWIFT\n2\nMail\n1\nTelex\n4\nFax\n3\nISO\n5"
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Invoking Message Queue Mapping Maintenance Screen"
+      ],
+      "summary": "This section explains how to invoke the 'Message Queue Mapping Maintenance' screen and the routing criteria for MT700 and MT701 messages.",
+      "raw_text": "2-8\n2.4.1 \nInvoking Message Queue Mapping Maintenance Screen\nFor a combination of the following, you can specify the branch (queue) to which the message \nis to be routed:\nMedia – represents the delivery media. Typically, your entry would be SWIFT. \nBIC Code - represents the receiver’s BIC for which a message is to be routed to a \nspecific queue in a particular branch. You can choose to specify the wildcard ALL entry \nin this field. \nMessage Type - indicates the message type for which routing procedure is required. \nYou can select the message type from the available adjoining list.\nCurrency – indicates the currency of the incoming message. For example in an MT103 \nit would be from tag 32A. This is an additional parameter to determine the booking \nbranch and queue. You can also choose to maintain the wildcard ALL entry. \nBooking Branch - indicates the branch in which incoming messages are routed. A set \nof all the branches having the same SWIFT BIC as that mentioned in the BIC code field \nis displayed in the option list. \nThis maintenance can be performed through the ‘Message Queue Mapping Maintenance’ \nscreen. To invoke this screen, type ‘MSDQMAP’ in the field at the top right corner of the \nApplication tool bar and click the adjoining arrow button.\nWhile processing MT700 and MT701 messages the System ensures the following:\nMT700 and MT701 are routed to the branch using the Incoming Routing specifications \nmaintained in this screen\nFor MT700, in case the branch of the corresponding MT701 is different from that of the \nMT700 it is re-aligned to the branch of the MT700\nMT701 messages are processed only after the receipt of MT 700\nNote\nYou can maintain the same BIC for the main branch as well as the sub-branch."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Message Queue Maintenance",
+        "Maintaining Message Queues"
+      ],
+      "summary": "This section explains how to maintain message queues for incoming SWIFT and non-SWIFT messages, including setting up unique queue names, descriptions, and routing rules.",
+      "raw_text": "2-9\n2.5 \nMessage Queue Maintenance\nThis section contains the following topic:\nSection 2.5.1, \"Maintaining Message Queues\"\n2.5.1 \nMaintaining Message Queues\nAll Incoming SWIFT and Non Swift Messages are routed through a messaging queue. You \nneed to maintain different user queues to which incoming messages are directed. Users with \nappropriate rights are allowed to access a particular queue. All 798 incoming index messages \n770,761,784 are also captured in this screen. \nYou can invoke the ‘Message Queue Maintenance’ screen by typing ‘MSDQMNT’ in the field \nat the top right corner of the Application tool bar and clicking the adjoining arrow button.\nIn this screen you can capture the following details for a queue:\nA name to identify the queue uniquely throughout the system.\nA short description of the queue\nSelect ‘Auto STP’ to process SWIFT message automatically if it is part of any queue.\nThe codes of various SWIFT and Non SWIFT messages that would be routed to this \nqueue. \nSelect collection queue flag if the unique queue you are maintaining here is a collection \nQueue. \nNote\nThe codes of various SWIFT and Non SWIFT messages list in the grid is not applicable \nfor the collection queue.\nYou can assign a message to more than one messaging queue. At the time of maintaining \nrules for a message (discussed in the subsequent sections of this document), you can select \nthe appropriate queue for each rule from the list of queues to which the message is linked."
+    },
+    {
+      "page_number": 16,
+      "sections": [
+        "SWIFT Message Notification Browser",
+        "Viewing SWIFT Notification Messages"
+      ],
+      "summary": "This section describes how to add and remove messages from a queue and explains the SWIFT Message Notification Browser used for viewing ACK/NACK and delivery notification messages in Oracle FLEXCUBE.",
+      "raw_text": "2-10\nSelect ‘Add’ from the Actions menu in the Application tool bar or click add icon to add a \nmessage to the queue being defined. To remove a message from the queue, Select ‘Delete’ \nfrom the Actions menu in the Application tool bar or click delete icon.\n2.6 \nSWIFT Message Notification Browser\nThis section contains the following topic:\nSection 2.6.1, \"Viewing SWIFT Notification Messages\"\n2.6.1 \nViewing SWIFT Notification Messages\nSWIFT provides the following two types of notification messages to Oracle FLEXCUBE:\nACK/NACK acknowledgement messages indicating whether the message has been \nsuccessfully delivered to SWIFTNet FIN service, from where it gets forwarded to the \nreceiving system\n Delivery notification messages indicating whether the message was successfully \ndelivered to the receiving system\nYou can access these notifications messages using ‘SWIFT Message Notification Browser’ \nscreen. You can invoke this screen by screen by typing ‘MSSNOTIB’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button. The screen \nis as shown below:\nIn the above screen, you can base your queries on any or all of the following parameters and \nfetch records:\nDocument Number\nSender\nSwift Message Type\nProcess Status\nAuth Status"
+    },
+    {
+      "page_number": 17,
+      "sections": [
+        "User Reference",
+        "Reference Number",
+        "SWIFT Net Service Definition"
+      ],
+      "summary": "This page describes how to perform a query using user and reference parameters, detailing the displayed record information, and introduces sections for invoking and viewing SWIFTNet service definitions.",
+      "raw_text": "2-11\nUser Reference\nReference Number\nSelect any or all of the above parameters for a query and click ‘Search’ button. The records \nmeeting the selected criteria are displayed.\nSystem displays the following details pertaining to the fetched records:\nBranch\nDocument Number\nSender\nSwift Message Type\nBranch Date\nMaker ID\nRelease Time\nRepair Reason\nRunning Number\nProcess Status\nAuth Status\nChecker DT Stamp\nChecker ID\nMessage Reference\nReceiver\nUser Reference\nMod Number\nreference Number\nA back-ground job running on this browser updates the outgoing browser with the ACK/NAK \nand the delivery status of the message. The sender MUR from SWIFT is used to match the \ncorresponding outgoing browser record.\n2.7 \nSWIFT Net Service Definition\nThis section contains the following topic:\nSection 2.7.1, \"Invoking SWIFTNet Service Definition Screen\"\nSection 2.7.2, \"Viewing SWIFTNet Service Summary\""
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Invoking SWIFTNet Service Definition Screen"
+      ],
+      "summary": "This section explains how to invoke and configure the 'SWIFTNet Service Definition' screen for specifying service details such as name, mode, and DNs.",
+      "raw_text": "2-12\n2.7.1 \nInvoking SWIFTNet Service Definition Screen\nYou can invoke ‘SWIFTNet Service Definition’ screen by typing ‘MSDSWTSR’ in the field at \nthe top right corner of the Application tool bar and clicking on the adjoining arrow button...\nYou can specify the following fields:\nService Name\nSpecify the SWIFTnet Service name.\nService Mode\nSelect any one of the service modes.\nReal Time- Choose this button to send and receive messages real-time. Real Time \noption is selected by default.\nStore and Forward - Choose this button to send and receive messages by storing them \nin a location and then forwarding them accordingly.\nRequest for DN\nSpecify the DN that send request to the service. You must provide at least one DN.\nResponder DN\nSpecify the DN that responds request to the service. You must provide at least one DN."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Viewing SWIFTNet Service Summary",
+        "SWIFT Local Authentication Maintenance",
+        "Invoking SWIFT LAU Maintenance Screen"
+      ],
+      "summary": "This page describes how to view a summary of SWIFTNet services and maintain local authentication for SWIFT messages, including accessing the maintenance screen and processing incoming and outgoing messages.",
+      "raw_text": "2-13\n2.7.2 \nViewing SWIFTNet Service Summary\nYou can invoke ‘SWIFTNet Service Summary’ screen by typing ‘MSSSWTSR’ in the field at \nthe top right corner of the Application tool bar and clicking on the adjoining arrow button. \nYou can search using one or more of the following parameters:\nService Name\nAuthorization Status \nRecord Status\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following\nService Name\nAuthorization Status \nRecord Status\n2.8 \nSWIFT Local Authentication Maintenance\nThis section contains the following topics:\nSection 2.8.1, \"Invoking SWIFT LAU Maintenance Screen\"\nSection 2.8.2, \"Viewing SWIFT LAU Summary Details\"\nSection 2.8.3, \"Processing Outgoing SWIFT LAU\"\nSection 2.8.4, \"Processing Incoming SWIFT LAU\"\n2.8.1 \nInvoking SWIFT LAU Maintenance Screen\nYou can maintain SWIFT authentication parameters in ‘SWIFT LAU Maintenance’ screen. \nThis screen can be accessed from Head Office only. The EMS module refers SWIFT LAU \nmaintenance data for calculating checksum for outbound and authentication of inbound \nmessages. HMAC-SHA256 algorithm validation will be used to calculate the checksum and"
+    },
+    {
+      "page_number": 20,
+      "sections": [],
+      "summary": "This page describes how to configure settings for ensuring message integrity with SWIFT using a specific screen in an application, including options for host code, local authentication, message direction, and key specification.",
+      "raw_text": "2-14\nensure the integrity of messages exchanged with SWIFT. You can invoke this screen by \ntyping ‘MSDLAUMN’ in the top right corner of the Application toolbar and clicking the adjoining \narrow button.\nYou can specify the following in this screen:\nHost Code\nSpecify the host code. Alternatively, you can select the host code from the option list. The list \ndisplays all valid host codes maintained in the system.\nLocal Authentication Required\nCheck this box to enable SWIFT local authentication in the bank. If this check-box is checked \nthen all other parameters in this screen is mandatory.\nMessage Direction\nChoose the direction of the message based on the key maintained for Outgoing or Incoming \nSWIFT message.\nSend Key\nFirst Part\nSpecify the first part of the key. The length of the key must be in sixteen hexadecimal \ncharacters\nSecond Part\nSpecify the second part of the key. The length of the key must also be in sixteen hexadecimal \ncharacters."
+    },
+    {
+      "page_number": 21,
+      "sections": [
+        "Viewing SWIFT LAU Summary Details"
+      ],
+      "summary": "This section explains how to view and search for SWIFT LAU maintenance details using the SWIFT LAU Summary screen.",
+      "raw_text": "2-15\n2.8.2 \nViewing SWIFT LAU Summary Details\nYou can view SWIFT LAU maintenance details in the SWIFT LAU Summary screen. You can \ninvoke this screen by typing ‘MSSLAUMN’ at the top right corner of the Application toolbar \nand clicking the adjoining arrow button.\nYou can search using one or more of the following parameters:\nAuthorization Status \nRecord Status \nHost Code \nMessage Direction \nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following:\nAuthorization Status \nRecord Status \nHost Code \nMessage Direction \nLocal Authentication Required \nFirst Part \nSecond Part"
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Processing Outgoing SWIFT LAU",
+        "Processing Incoming SWIFT LAU"
+      ],
+      "summary": "This page explains the workflow for generating and validating S-Block data in both outgoing and incoming SWIFT messages using Oracle FLEXCUBE and EMS modules.",
+      "raw_text": "2-16\n2.8.3 \nProcessing Outgoing SWIFT LAU\nOutbound message workflow is explained below:\nOracle FLEXCUBE generates the S-Block for all outbound SWIFT messages with \nmessage status 'Generated'.\nEMS module refers SWIFT LAU parameters in FLEXCUBE 'SWIFT LAU Maintenance' \nscreen and applies HMAC-SHA256 algorithm to generate the checksum in S-Block for \nall outbound messages from FCUBS.\nFor all outbound messages, EMS-generated checksum is appended in the S-Block of \nthe message, and the same is updated in the 'SWIFT LAU' field of Outgoing Message \nBrowser screen.\nSuccessful generation of S-Block data and message hand-off to out folder, will update \nthe message status to 'Handoff'. If there is a failure in appending the S-Block data in the \nmessage, EMS will not update the message status to 'Handoff' in Outgoing Message \nBrowser.\nThe next handoff job of EMS picks-up the messages with status 'Generated', \nregenerates S-Block data, appends the same in the message, and updates the \nmessage status to 'Handoff' in Outgoing Message Browser.\n2.8.4 \nProcessing Incoming SWIFT LAU\nInbound message workflow is explained below:\nYou can validate inbound messages with the S-Block data. The checksum value is \nregenerated in EMS, based on SWIFT LAU parameters and HMAC-SHA256 algorithm.\nRegenerated checksum is compared with the checksum present in the received \nmessage, and further processing is carried out in FCUBS based on data verification.\nLAU checksum validated messages are uploaded into Incoming Message Browser with \nstatus 'Unprocessed', for FCUBS to create relevant contracts."
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Mapping Rule Group",
+        "Section 2.9.1, \"Invoking Rule Group Mapping Screen\""
+      ],
+      "summary": "This page describes how checksum values are updated and validated in received messages, as well as details on invoking the Rule Group Mapping screen.",
+      "raw_text": "2-17\nThe encrypted S-Block checksum values in the received messages are updated in the \n'SWIFT LAU' field, and the checksum generated by EMS for all incoming messages are \nupdated in 'LAU Validation' field of Incoming Message Browser.\nMessages that have failed in LAU checksum validation are uploaded into Incoming \nMessage Browser with status 'Repair'.\nMessages with status 'Repair' in Incoming Message Browser will hold differences in \nchecksum data present in SWIFT LAU and LAU Validation fields.\nIncoming messages without S Block is uploaded in incoming browser with status \n'Repair', and data is not updated in SWIFT LAU field, while EMS generated checksum \nis updated in LAU VALIDATION field.\n2.9 \nMapping Rule Group\nThis section contains the following topic:\nSection 2.9.1, \"Invoking Rule Group Mapping Screen\"\nSection 2.9.2, \"Viewing Rule Group Mapping Summary\"\n2.9.1 \nInvoking Rule Group Mapping Screen\nYou can invoke ‘Rule Group Mapping’ screen by typing ‘MSDRLMAP’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button..\nYou can specify the following fields:\nRule Group Name\nSpecify the unique rule group name.\nModule ID\nSpecify the module that needs to be mapped to the created rule group."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Viewing Rule Group Mapping Summary",
+        "Defining Rule Group"
+      ],
+      "summary": "This page explains how to view a rule group mapping summary and introduces the process of defining a rule group.",
+      "raw_text": "2-18\n2.9.2 \nViewing Rule Group Mapping Summary\nYou can invoke “Rule Group Mapping Summary” screen by typing ‘MSSRLMAP’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button. \nYou can search using one or more of the following parameters:\nAuthorization Status \nRecord Status\nModule ID\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following\nAuthorization Status \nRecord Status\nModule Identification\nRule Group Name\n2.10 Defining Rule Group\nThis section contains the following topic:\nSection 2.10.1, \"Invoking Rule Group Definition Screen\"\nSection 2.10.2, \"Viewing Rule Group Summary\""
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "Invoking Rule Group Definition Screen"
+      ],
+      "summary": "This section explains how to invoke and use the 'Rule Group Definition' screen in an application tool bar, including fields for specifying rule group details and priority actions.",
+      "raw_text": "2-19\n2.10.1 \nInvoking Rule Group Definition Screen\nYou can invoke ‘Rule Group Definition’ screen by typing ‘MSDRLGRP’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button..\nYou can specify the following fields:\nRule Group Name\nSpecify the unique rule group name.\nDescription\nEnter a brief description of the rule group.\nRule Name\nSpecify the rule name from the rule definition screen.\nRule Priority\nSpecify the priority of the rule name.\nMove To/ Swap \nSpecify whether the priority must be swapped or moved.\nMove\nClick the Move button to move the priority record.\nSwap \nClick the Swap button to swap the priority record."
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "Viewing Rule Group Summary",
+        "Routing Rule Definition"
+      ],
+      "summary": "This page describes how to view a rule group summary and introduces the routing rule definition section.",
+      "raw_text": "2-20\n2.10.2 \nViewing Rule Group Summary\nYou can invoke “Rule Group Summary” screen by typing ‘MSSRLGRP’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button. \nYou can search using one or more of the following parameters:\nAuthorization Status \nRecord Status\nRule Group\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following\nAuthorization Status \nRecord Status\nRule Group Name\nDescription\n2.11 Routing Rule Definition\nThis section contains the following topic:\nSection 2.11.1, \"Invoking Routing Rule Definition Screen\"\nSection 2.11.2, \"Viewing Rule Definition Summary\""
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "Invoking Routing Rule Definition Screen"
+      ],
+      "summary": "This section explains how to invoke the 'Rule Definition' screen and describes the fields that can be specified when defining routing rules.",
+      "raw_text": "2-21\n2.11.1 \nInvoking Routing Rule Definition Screen\nYou can invoke ‘Rule Definition’ screen by typing ‘MSDRLDFN’ in the field at the top right \ncorner of the Application tool bar and clicking on the adjoining arrow button..\nYou can specify the following fields:\nRule Name\nSpecify the unique rule name.\nDescription\nEnter a brief description of the rule name.\nDestination Type\nSpecify the type of destination to which the messages matching the rule criteria is being sent. \nSelect any of the options given below:\nSWIFT Net Connectivity\nBulker\nFolder\nQueue \nFolder Path\nSpecify the folder path if the destination is folder.\nQueue JNDI Name\nSpecify JNDI name of the Queue. This is mandatory if the destination type is Queue.\nProtocol Type\nSpecify the type of Protocol. Select from the following option:\nFTA\nMQHA"
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Protocol Name",
+        "SWIFTNet Connectivity",
+        "Bulk Rule Name",
+        "Expression Section",
+        "Scope",
+        "Left Operand Type",
+        "Left Operand Data Type",
+        "Left Operand",
+        "Operator",
+        "Right Operand Type",
+        "Right Operand Data Type",
+        "Right Operand",
+        "Logical Operators",
+        "Pre Defined Functions",
+        "Parameter Name",
+        "Parameter Value"
+      ],
+      "summary": "This page outlines various fields and options for configuring rules and expressions, particularly focusing on SWIFTNet connectivity settings.",
+      "raw_text": "2-22\nNote\nThis is mandatory if the destination is SWIFTNet.\nProtocol Name\nSpecify the required protocol for the selected protocol.\nSWIFTNet Connectivity\nSpecify the name of the connector if the destination type is SWIFTNet.\nBulk Rule Name\nSpecify the bulk rule name. Alternatively, you can select the bulk rule name from the option \nlist. The list displays all valid values.\nExpression Section\nSpecify the expression section\nScope\nSpecify the scope.\nLeft Operand Type\nSelect the left operand type.\nLeft Operand Data Type\nSelect the left operand data type.\nLeft Operand\nSpecify the left operand. Alternatively, select the left operand from the option list. The list \ndisplays all valid values.\nOperator\nSelect the operator.\nRight Operand Type\nSelect the right operand type.\nRight Operand Data Type\nSelect the right operand data type.\nRight Operand\nSpecify the right operand. Alternatively, select the right operand from the option list. The list \ndisplays all valid values.\nScope\nSpecify the scope.\nLogical Operators\nSelect the logical operators from the drop-down list.\nPre Defined Functions\nSelect the pre defined functions from the drop-down list.\nParameter Name\nSpecify the parameter name.\nParameter Value\nSpecify the value of the parameter."
+    },
+    {
+      "page_number": 29,
+      "sections": [],
+      "summary": "This page describes how to view and search for rule definitions using a specific screen in an application tool bar.",
+      "raw_text": "2-23\nParameter Type\nSpecify the parameter type.\nExpression For\nSelect the expression from the drop-down list.\nFinal Expression\nSpecify the final expression.\nBuild Expression\nClick Build Expression to build the expression.\n2.11.2 \nViewing Rule Definition Summary\nYou can invoke “Rule Definition Summary” screen by typing ‘MSSRLDFN’ in the field at the \ntop right corner of the Application tool bar and clicking on the adjoining arrow button. \nYou can search using one or more of the following parameters:\nAuthorization Status \nRecord Status\nRule Name\nRule Description\nRule Group Name\nDestination Name\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following\nAuthorization Status \nRecord Status\nRule Name\nRule Description"
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "Invoking Protocol Parameter Definition Screen",
+        "Viewing Protocol Parameter Definition Summary"
+      ],
+      "summary": "This section explains how to invoke and view the protocol parameter definition screen in an application tool bar, including fields such as Protocol Parameter Name, Description, Protocol Type Mode, Parameters, and Value.",
+      "raw_text": "2-24\nRule Group Name\nDestination Type\n2.12 Defining Protocol Parameter\nThis section contains the following topic:\nSection 2.12.1, \"Invoking Protocol Parameter Definition Screen\"\nSection 2.12.2, \"Viewing Protocol Parameter Definition Summary\"\n2.12.1 \nInvoking Protocol Parameter Definition Screen\nYou can invoke ‘Protocol Parameter Definition’ screen by typing ‘MSDPTPRM’ in the field at \nthe top right corner of the Application tool bar and clicking on the adjoining arrow button...\nYou can specify the following fields:\nProtocol Parameter Name\nSpecify the name of the Protocol Parameter.\nDescription\nSpecify the description of the Protocol Parameter set.\nProtocol Type Mode\nThe name of the protocol for which parameter list is defined. Select any of the option given \nbelow:\nFTA\nParameters\nSpecify the parameters for the protocol.\nValue\nSpecify the value of the parameter."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "Viewing Protocol Parameter Definition Summary",
+        "File Transfer Adapter Connector Configuration"
+      ],
+      "summary": "This page describes how to access and search for protocol parameter definitions and outlines the folder structure needed for Swiftnet connectivity using file transfer adapter configuration.",
+      "raw_text": "2-25\n2.12.2 \nViewing Protocol Parameter Definition Summary\nYou can invoke “Protocol Parameter Definition Summary” screen by typing ‘MSSPTPRM’ in \nthe field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton. \nYou can search using one or more of the following parameters:\nProtocol Parameter Name\nAuthorization Status \nRecord Status\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following\nProtocol Parameter Name\nDescription\nAuthorization Status \nRecord Status\nProtocol Type\n2.13 File Transfer Adapter Connector Configuration\nYou have to create below folder structure for the Swiftnet connectivity:\n1. Create a application base directory as per the path mentioned in the \nmstm_ems_system_parameters (APP_BASE_DIR)\n2. Create below folder structure in the application base directory:\npayload\\EMS_OUT\nxsl\n3. In the Xsl folder copy all the xsl required for message transformation"
+    },
+    {
+      "page_number": 32,
+      "sections": [
+        "Invoking File Transfer Adapter Connector Configuration Screen",
+        "Viewing File Transfer Adapter Connector Configuration Summary"
+      ],
+      "summary": "This page describes how to invoke and configure the File Transfer Adapter Connector screen for specifying various parameters related to file transfer operations.",
+      "raw_text": "2-26\nThis section contains the following topic:\nSection 2.13.1, \"Invoking File Transfer Adapter Connector Configuration Screen\"\nSection 2.13.2, \"Viewing File Transfer Adapter Connector Configuration Summary\"\n2.13.1 \nInvoking File Transfer Adapter Connector Configuration Screen\nYou can invoke ‘File Transfer Adapter Connector Configuration’ screen by typing \n‘MSDFTACN’ in the field at the top right corner of the Application tool bar and clicking on the \nadjoining arrow button...\nYou can specify the following fields:\nOperation Type\nSelect the type of connectivity. Choose between Inbound and Outbound.\nHost Code\nSpecify the host code.\nParameter File Required\nCheck this box if FCM creates or receives a Parameter File corresponding to each and every \ndata file in configured file directory along with data file.\nData file LAU\nCheck this box if FCM calculates the LAU of Data File and puts the calculated value in \nparameter file.\nParameter File LAU\nCheck this box if parameters defined at emission profile of SAG side are overridden by \ninformation in companion file. \nAllow Overriding on SAG Profile\nCheck this box if parameters defined at the emission profile of SAG side will be overridden by \ninformation in Companion file. \nFile Directory\nSpecifies store details of emission directory for outbound connectivity and reception directory \nfor inbound flow. \nLog Directory\nSpecifies the responses from SAG."
+    },
+    {
+      "page_number": 33,
+      "sections": [
+        "Success Directory",
+        "Debulk Required",
+        "Debulk Rule Name",
+        "Node",
+        "Media",
+        "Media Control System",
+        "Viewing File Transfer Adapter Connector Configuration Summary"
+      ],
+      "summary": "This page describes various configuration settings and directories for file transfer operations, including success directory placement, debulk requirements, and media details. It also explains how to view the configuration summary of file transfer adapter connectors.",
+      "raw_text": "2-27\nSuccess Directory\nFor Outbound connectivity, Delivery notification response related to file transfer status from \nthe SAG are placed in this directory. For inbound connectivity file transfer, success status files \nare placed in this folder.\nDebulk Required\nCheck this box, if debulk is required for inbound messages.\nDebulk Rule Name\nSpecifies the debulk rule name.\nNode\nSpecifies the node details. This is mandatory for inbound.\nMedia\nSpecifies the media details. This is mandatory for inbound.\nMedia Control System\nSpecifies the media control system. This is mandatory for inbound.\n2.13.2 \nViewing File Transfer Adapter Connector Configuration Summary\nYou can invoke “File Transfer Connector Configuration Summary” screen by typing \n‘MSSFTACN’ in the field at the top right corner of the Application tool bar and clicking on the \nadjoining arrow button. \nYou can search using one or more of the following parameters:\nFTA Connector Name \nOperation Mode\nAuth Status \nRecord Status"
+    },
+    {
+      "page_number": 34,
+      "sections": [
+        "Section 2.14 Distinguished Name Definition",
+        "Section 2.14.1 Invoking Distinguished Name Definition Screen",
+        "Section 2.14.2 Viewing Distinguished Name Summary"
+      ],
+      "summary": "This page describes how to search for records based on specific parameters and provides details on invoking and viewing the distinguished name definition screen.",
+      "raw_text": "2-28\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following:\nFTA Connector Name \nOperation Mode\nAuth Status \nRecord Status\n2.14 Distinguished Name Definition\nThis section contains the following topic:\nSection 2.14.1, \"Invoking Distinguished Name Definition Screen\"\nSection 2.14.2, \"Viewing Distinguished Name Summary\"\n2.14.1 \nInvoking Distinguished Name Definition Screen\nYou can invoke ‘Distinguished Name Definition’ screen by typing ‘MSDDSTNM’ in the field at \nthe top right corner of the Application tool bar and clicking on the adjoining arrow button...\nYou can specify the following fields:\nDistinguished Name ID\nSpecify the unique identification of the distinguished name.\nDistinguished Name\nSpecify the distinguished name to identify the entity that sends or gets messages. \nDescription\nSpecify the description of the distinguished name."
+    },
+    {
+      "page_number": 35,
+      "sections": [
+        "Viewing Distinguished Name Summary",
+        "Defining Debulk Rule"
+      ],
+      "summary": "This page describes how to view a distinguished name summary by searching with specific parameters and introduces the process of defining debulk rules.",
+      "raw_text": "2-29\n2.14.2 \nViewing Distinguished Name Summary\nYou can invoke “Distinguished Name Summary” screen by typing ‘MSSDSTNM’ in the field at \nthe top right corner of the Application tool bar and clicking on the adjoining arrow button. \nYou can search using one or more of the following parameters:\nDistinguished Name Id\nDistinguished Name\nAuthorization Status \nRecord Status\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following:\nDistinguished Name Id\nDistinguished Name\nDescription\nAuthorization Status \nRecord Status\n2.15 Defining Debulk Rule\nThis section contains the following topic:\nSection 2.15.1, \"Invoking Debulk Rule Definition Screen\"\nSection 2.15.2, \"Viewing Debulk Rule Summary\""
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Invoking Debulk Rule Definition Screen"
+      ],
+      "summary": "This section explains how to invoke and configure settings on the 'Debulk Rule Definition' screen for processing debulk files.",
+      "raw_text": "2-30\n2.15.1 \nInvoking Debulk Rule Definition Screen\nYou can invoke ‘Debulk Rule Definition’ screen by typing MSDDEBRL’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button...\nYou can specify the following fields:\nDe bulk Rule Name\nSpecify the name of the debulk file.\nPayload Delimiter\nSpecify the delimiter between payloads.\nProtocol\nSelect the type of protocol.\nDecompression Required\nCheck this box if debulk processing requires decompression.\nDecompression Type\nSelect the type of decompression. Choose among the following:\nZIP\nGZIP"
+    },
+    {
+      "page_number": 37,
+      "sections": [
+        "Viewing Debulk Rule Summary",
+        "Connectivity Operation Manager"
+      ],
+      "summary": "This page describes how to access and search the 'Debulk Rule Summary' screen, as well as introduces the Connectivity Operation Manager section.",
+      "raw_text": "2-31\n2.15.2 \nViewing Debulk Rule Summary\nYou can invoke “Debulk Rule Summary” screen by typing ‘MSSDEBRL’ in the field at the top \nright corner of the Application tool bar and clicking on the adjoining arrow button. \nYou can search using one or more of the following parameters:\nAuthorization Status\nRecord Status\nDebulk Rule Name\nProtocol\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following:\nAuthorization Status\nRecord Status\nDebulk Rule Name\nPayload Delimiter\nProtocol\n2.16 Connectivity Operation Manager\nThis section contains the following topic:\nSection 2.16.1, \"Invoking Connectivity Operation Manager Screen\""
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Invoking Connectivity Operation Manager Screen"
+      ],
+      "summary": "This section explains how to invoke and use the 'Connectivity Operation Manager' screen to manage connectivity lines.",
+      "raw_text": "2-32\n2.16.1 \nInvoking Connectivity Operation Manager Screen\nYou can invoke ‘Connectivity Operation Manager’ screen by typing ‘MSDCNMGR’ in the field \nat the top right corner of the Application tool bar and clicking on the adjoining arrow button...\nYou can specify the following fields:\nConnectivity\nSpecify the required connectivity line.\nOperation Type\nSelect the type of operation.\nStatus\nSpecify the display line status.\nStart\nClick the Start button to start the connectivity line.\nStop\nClick the Stop button to start the connectivity line."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Outbound File Browser"
+      ],
+      "summary": "This section describes how to use the outbound file browser for searching and viewing outbound files based on various parameters and details that can be viewed or resent.",
+      "raw_text": "2-33\n2.17 Outbound File Browser\nYou can use the outbound file browser for searching and viewing the outbound files. To \ninvoke the screen, type 'MSSFLBRW' in the field at the top right corner of the application \ntoolbar and click the adjoining arrow button.\nYou can search for the records based on one or more of the following parameters:\nFile name of the bulked file\nBulk reference number\nGenerated date\nStatus \nBulk preference \nOnce you have specified the above details, click 'Execute Query' button. The system displays \nthe records that match the search criteria. You can double-click a record to view the details in \nthe 'Outbound File Browser Details' (MSDFLBRW) screen. \nYou can view the following details in this screen.\nFile name\nBulk reference number\nFile ID\nGenerated date \nGenerated time\nStatus\nBulk preference\nNumber of transactions\nFile size\nYou can resend the selected file from this screen using the 'Resend' button."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Inbound File Browser"
+      ],
+      "summary": "This section describes how to use the inbound file browser for searching and viewing inbound files based on various parameters such as file name, received date, status, and more.",
+      "raw_text": "2-34\n2.18 Inbound File Browser\nYou can use the inbound file browser for searching and viewing the inbound files. To invoke \nthe screen, type 'MSSIFBRW' in the field at the top right corner of the application toolbar and \nclick the adjoining arrow button.\nYou can search for the records based on one or more of the following parameters:\nFile name\nReceived date\nStatus\nLogical file name\nTransaction ID\nFile Act connector name\nOnce you have specified the above details, click 'Execute Query' button. The system displays \nthe following details of records that match the search criteria. \nFile name\nReceived Date\nReceived Time\nStatus\nFile Size\nLogical File Name\nTransaction Id\nFileAct Connector Name\nError Code\nError Parameter\nError Description"
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "2.19 Defining Bulk Preference",
+        "2.19.1 Invoking Bulk Preference Definition Screen"
+      ],
+      "summary": "This page describes how to define bulk preference settings and invoke the screen for doing so, including fields like name, trigger types, and scheduler type.",
+      "raw_text": "2-35\n2.19 Defining Bulk Preference\nThis section contains the following topic:\nSection 2.19.1, \"Invoking Bulk Preference Definition Screen\"\nSection 2.19.2, \"Viewing Bulking Preference Definition Summary\"\n2.19.1 \nInvoking Bulk Preference Definition Screen\nYou can invoke ‘Bulk Preference Definition’ screen by typing ‘MSDBLKRL’ in the field at the \ntop right corner of the Application tool bar and clicking on the adjoining arrow button...\nYou can specify the following fields:\nBulk Preference Name\nSpecify the name used for storing the Bulk Preference.\nVolume Based Trigger\nCheck this box to configure volume based bulking.\nMaximum number of messages\nSpecify the maximum number of messages that can be stored in a bulk file.\nMinimum number of messages\nSpecify the maximum number of messages that can be stored in a bulk file.\nMaximum size in KB\nSpecify the distinguished name to identify the entity that sends or gets messages.\nMinimum size in KB\nSpecify the distinguished name to identify the entity that sends or gets messages.\nSize based Trigger\nCheck this field to configure size based bulking.\nScheduler Type\nSelect the type of scheduler. Choose any one of the following:\nTime Based"
+    },
+    {
+      "page_number": 42,
+      "sections": [
+        "Frequency",
+        "Folder",
+        "Queue",
+        "SwiftNet Connectivity"
+      ],
+      "summary": "This page details various settings and parameters for scheduling and file management, including time intervals, file formats, and destination types.",
+      "raw_text": "2-36\nFrequency \nStart Time\nSpecify the Start Time of the trigger. Enter the format in HH:MM format.\nEnd Time\nSpecify the Start Time of the trigger. Enter the format in HH:MM format.\nTime Interval in Min\nSpecify the interval of the repeat in MM format.\nScheduling No\nSpecify the scheduling sequence.\nStart Hour\nSpecify the start hour of the scheduling sequence.\nStart Min\nSpecify the start minute for frequency based scheduler.\nBulk File Name Prefix\nSpecify the prefix to indicate the name of the bulk file.\nMaximum size of a file of KB\nSpecify the maximum size of a bulk file in KB.\nPayload Delimiter\nSpecify the delimiter while bulking messages.\nMaximum settlement amount for a file\nSpecify the maximum settlement for a file that must be considered while bulking messages.\nFile Format\nSelect the file that must be used while bulking messages.\nFile Type\nSelect the file type that must be used while bulking messages.\nCompression Required\nCheck this box to indicate that file compression is required.\nCompression Type\nSpecify the required type of compression.\nDestination Type\nSpecify the type of destination.\nFolder\nQueue\nSwiftNet Connectivity\nIf destination is Swiftnet connectivity then a field swiftnet connectivity needs to be selected \nfrom LOV which gives the list of connectivity lines.\nFolder Path\nSpecify the user defined destination folder path."
+    },
+    {
+      "page_number": 43,
+      "sections": [
+        "Queue JNDI Name",
+        "SwiftNet Connectivity",
+        "Protocol Type",
+        "FTA",
+        "Protocol Name",
+        "Viewing Bulking Preference Definition Summary"
+      ],
+      "summary": "This page describes settings for queue JNDI name, protocol type selection, and how to view bulking preference definition summary in a specific application.",
+      "raw_text": "2-37\nQueue JNDI Name\nSpecify JNDI name of the Queue if the destination type is Queue.\nSwiftNet Connectivity\nSelect the swiftnet connectivity from the option list.\nProtocol Type\nSelect the type of Protocol.\nFTA\nProtocol Name\nSpecify the protocol name required for FTA protocol.\n2.19.2 \nViewing Bulking Preference Definition Summary\nYou can invoke “Bulking Preference Definition Summary” screen by typing ‘MSSBLKRL’ in \nthe field at the top right corner of the Application tool bar and clicking on the adjoining arrow \nbutton. \nYou can search using one or more of the following parameters:\nBulking Preference Name \nBulk Initiated\nAuth Initiated \nRecord Status\nOnce you have specified the search parameters, click ‘Search’ button. The system displays \nthe records that match the search criteria for the following:\nBulking Preference Name\nFrequency\nMax Number of Messages\nSize (in KB)"
+    },
+    {
+      "page_number": 44,
+      "sections": [
+        "Bulk Monitor"
+      ],
+      "summary": "This page describes how to use the 'Bulk Monitor' screen to search and monitor bulk messages and executions based on various parameters.",
+      "raw_text": "2-38\nFile Format\nBulk Filename Prefix\nMaximum size of bulk file (in KB)\nBulk Initiated\nDestination Type\nAuth Status\nRecord Status\n2.20 Bulk Monitor\nYou can monitor the messages and executions in bulk using 'Bulk Monitor' screen. To invoke \nthis screen, type 'MSSBLKMN' in the field at the top right corner of the application toolbar and \nclick the adjoining arrow button.\nYou can search for the records based on one or more of the following parameters.\nExecution start time\nExecution end time\nBulk preference\nStatus\nNumber of files generated\nOnce you have specified the search parameters, click 'Execute Query' button. The system \ndisplays the following details of the records that match the filter criteria."
+    },
+    {
+      "page_number": 45,
+      "sections": [],
+      "summary": "This page describes how to view and manage details of records in the 'Bulk Monitor Detail' screen, including options to regenerate files or initiate ad-hoc bulk processing.",
+      "raw_text": "2-39\nYou can view the details of each record in the results. Double-click a record from the results \nto view the details in 'Bulk Monitor Detail' (MSDBLKMN) screen. \nThis screen displays the following details of the record.\nProcess reference number\nExecution start date\nExecution start time\nExecution end date\nExecution end time\nStatus\nBulk preference name\nNumber of files generated\nError code\nError parameter\nError description\nYou can regenerate the files by clicking 'Regenerate' button. You can also bulk a selected bulk \npreference ad-hoc using 'Initiate Adhoc Bulking' button."
+    },
+    {
+      "page_number": 46,
+      "sections": [],
+      "summary": "This page lists various Function IDs and their corresponding page numbers in a glossary.",
+      "raw_text": "3-1\n3. Function ID Glossary\nM\nMSDBLKMN ....................2-39\nMSDBLKRL .....................2-35\nMSDCNMGR ...................2-32\nMSDDEBRL ....................2-30\nMSDDSTNM ....................2-28\nMSDFLBRW ....................2-33\nMSDFTACN ....................2-26\nMSDLAUMN ....................2-14\nMSDMEDMT .....................2-5\nMSDMGMCS .....................2-2\nMSDPTPRM ....................2-24\nMSDQMAP ........................2-8\nMSDQMNT ........................2-9\nMSDRLDFN ....................2-21\nMSDRLGRP ....................2-19\nMSDRLMAP .................... 2-17\nMSDSWTSR ................... 2-12\nMSSBLKMN .................... 2-38\nMSSBLKRL ..................... 2-37\nMSSDEBRL .................... 2-31\nMSSDSTNM .................... 2-29\nMSSFLBRW .................... 2-33\nMSSFTACN .................... 2-27\nMSSIFBRW ..................... 2-34\nMSSLAUMN .................... 2-15\nMSSNOTIB ..................... 2-10\nMSSPTPRM .................... 2-25\nMSSRLDFN .................... 2-23\nMSSRLGRP .................... 2-20\nMSSRLMAP’ ................... 2-18\nMSSSWTSR ................... 2-13"
+    }
+  ]
+}

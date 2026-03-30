@@ -1,0 +1,1303 @@
+{
+  "source": "FlexCube/FCUBS/Universal_Banking_Base/Sample-Reports-User-Guide-FCUBS.pdf",
+  "model_used": "qwen2.5:7b",
+  "total_pages": 42,
+  "toc_method": "builtin",
+  "tree": [
+    {
+      "structure": "1",
+      "title": "Contents",
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "2",
+      "title": "1. Preface",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the document's structure and content, including chapters on activating sample reports, listing module-wise reports, and providing a function ID glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.1",
+      "title": "1.1 Introduction",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the document's structure and content, including chapters on activating sample reports, listing module-wise reports, and providing a function ID glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.2",
+      "title": "1.2 Audience",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the document's structure and content, including chapters on activating sample reports, listing module-wise reports, and providing a function ID glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.3",
+      "title": "1.3 Documentation Accessibility",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the document's structure and content, including chapters on activating sample reports, listing module-wise reports, and providing a function ID glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.4",
+      "title": "1.4 Organization",
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This page introduces the document's structure and content, including chapters on activating sample reports, listing module-wise reports, and providing a function ID glossary.",
+      "cross_references": []
+    },
+    {
+      "structure": "2.5",
+      "title": "1.5 Glossary of Icons",
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "This page introduces the document's structure and content, including chapters on activating sample reports, listing module-wise reports, and providing a function ID glossary.",
+      "cross_references": [
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "4",
+          "title": "3. Sample Reports in FLEXCUBE",
+          "start_page": 11
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Common Core",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Asset Management",
+          "start_page": 12
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Retail Teller",
+          "start_page": 12
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Corporate Deposits",
+          "start_page": 14
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Islamic Financing",
+          "start_page": 14
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Consumer Lending",
+          "start_page": 18
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Collections",
+          "start_page": 20
+        },
+        {
+          "structure": "4.8",
+          "title": "3.8 Customer and Savings Account",
+          "start_page": 20
+        },
+        {
+          "structure": "4.9",
+          "title": "3.9 Core",
+          "start_page": 23
+        },
+        {
+          "structure": "4.10",
+          "title": "3.10 Core - Interest Charges",
+          "start_page": 3
+        },
+        {
+          "structure": "4.11",
+          "title": "3.11 Core - Management Information System",
+          "start_page": 3
+        },
+        {
+          "structure": "4.12",
+          "title": "3.12 Core - Messaging System",
+          "start_page": 3
+        },
+        {
+          "structure": "4.13",
+          "title": "3.13 Core - Standing Instruction",
+          "start_page": 3
+        },
+        {
+          "structure": "4.14",
+          "title": "3.14 Core - Relationship Manager",
+          "start_page": 3
+        },
+        {
+          "structure": "4.15",
+          "title": "3.15 Core - Core Entity",
+          "start_page": 3
+        },
+        {
+          "structure": "4.16",
+          "title": "3.16 CORE - Data Entry",
+          "start_page": 3
+        },
+        {
+          "structure": "4.17",
+          "title": "3.17 Core - General Ledger",
+          "start_page": 3
+        },
+        {
+          "structure": "4.18",
+          "title": "3.18 Core - SMS",
+          "start_page": 3
+        },
+        {
+          "structure": "4.19",
+          "title": "3.19 TAX",
+          "start_page": 3
+        },
+        {
+          "structure": "4.20",
+          "title": "3.20 Generic Interface",
+          "start_page": 3
+        },
+        {
+          "structure": "4.21",
+          "title": "3.21 Islamic Accounts",
+          "start_page": 3
+        },
+        {
+          "structure": "4.22",
+          "title": "3.22 Inventory",
+          "start_page": 3
+        },
+        {
+          "structure": "4.23",
+          "title": "3.23 Micro Finance",
+          "start_page": 3
+        },
+        {
+          "structure": "4.24",
+          "title": "3.24 Mortgages",
+          "start_page": 3
+        },
+        {
+          "structure": "4.25",
+          "title": "3.25 Nostro Reconciliation",
+          "start_page": 3
+        },
+        {
+          "structure": "4.26",
+          "title": "3.26 Retail Bills",
+          "start_page": 3
+        },
+        {
+          "structure": "4.27",
+          "title": "3.27 Standing Instructions",
+          "start_page": 3
+        },
+        {
+          "structure": "4.28",
+          "title": "3.28 Securitization of Loan",
+          "start_page": 3
+        },
+        {
+          "structure": "4.29",
+          "title": "3.29 Term Deposits",
+          "start_page": 3
+        },
+        {
+          "structure": "4.30",
+          "title": "3.30 Expense Processing",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Activation of Sample Reports",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1",
+          "title": "2.1 Activation of Menu",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 Front End",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Back End",
+          "start_page": 5
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Activation of Report Roles",
+          "start_page": 6
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Activation of EOD Reports",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Activation of EOD Scheduler Job",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Activation of EOD Report Batch",
+          "start_page": 9
+        }
+      ]
+    },
+    {
+      "structure": "3",
+      "title": "2. Activation of Sample Reports",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page explains how to activate sample reports in FLEXCUBE through the menu by using either the front end or back end methods.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1",
+      "title": "2.1 Activation of Menu",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page explains how to activate sample reports in FLEXCUBE through the menu by using either the front end or back end methods.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.1",
+      "title": "2.1.1 Front End",
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This page explains how to activate sample reports in FLEXCUBE through the menu by using either the front end or back end methods.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.1.2",
+      "title": "2.1.2 Back End",
+      "start_page": 5,
+      "end_page": 6,
+      "summary": "This page explains how to activate sample reports in FLEXCUBE through the menu by using either the front end or back end methods.",
+      "cross_references": [
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        }
+      ]
+    },
+    {
+      "structure": "3.2",
+      "title": "2.2 Activation of Report Roles",
+      "start_page": 6,
+      "end_page": 8,
+      "summary": "This section explains how to activate report roles in a system by using the 'Role Maintenance' screen and specifies the details that need to be entered.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3",
+      "title": "2.3 Activation of EOD Reports",
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This page describes how to activate EOD reports through either an EOD scheduler job or a report batch in the Menu.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.1",
+      "title": "2.3.1 Activation of EOD Scheduler Job",
+      "start_page": 9,
+      "end_page": 9,
+      "summary": "This page explains how to activate the EOD scheduler job and report batches through specific maintenance screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "3.3.2",
+      "title": "2.3.2 Activation of EOD Report Batch",
+      "start_page": 9,
+      "end_page": 11,
+      "summary": "This page explains how to activate the EOD scheduler job and report batches through specific maintenance screens.",
+      "cross_references": []
+    },
+    {
+      "structure": "4",
+      "title": "3. Sample Reports in FLEXCUBE",
+      "start_page": 11,
+      "end_page": 12,
+      "summary": "Could not summarize",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Activation of Menu",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 Front End",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Back End",
+          "start_page": 5
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Activation of EOD Reports",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Activation of EOD Scheduler Job",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Activation of EOD Report Batch",
+          "start_page": 9
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Activation of Report Roles",
+          "start_page": 6
+        }
+      ]
+    },
+    {
+      "structure": "4.1",
+      "title": "3.1 Common Core",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page lists various function IDs and their corresponding report names related to batch performance statistics, change control logs, event logs, user management, fund security holding, fund balance, NAV movements, cheque purchased and returned details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.2",
+      "title": "3.2 Asset Management",
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This page lists various function IDs and their corresponding report names related to batch performance statistics, change control logs, event logs, user management, fund security holding, fund balance, NAV movements, cheque purchased and returned details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.3",
+      "title": "3.3 Retail Teller",
+      "start_page": 12,
+      "end_page": 14,
+      "summary": "This page lists various function IDs and their corresponding report names related to batch performance statistics, change control logs, event logs, user management, fund security holding, fund balance, NAV movements, cheque purchased and returned details.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.4",
+      "title": "3.4 Corporate Deposits",
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This page details various reports and functions related to corporate deposits and Islamic financing, including accrual control, analysis, contract events, forward contracts, value dated amendments, maturity details, overdue schedules, contract retrieval, rate revisions, and linked contracts utilization.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.5",
+      "title": "3.5 Islamic Financing",
+      "start_page": 14,
+      "end_page": 18,
+      "summary": "This page details various reports and functions related to corporate deposits and Islamic financing, including accrual control, analysis, contract events, forward contracts, value dated amendments, maturity details, overdue schedules, contract retrieval, rate revisions, and linked contracts utilization.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.6",
+      "title": "3.6 Consumer Lending",
+      "start_page": 18,
+      "end_page": 20,
+      "summary": "This page provides details of various reports related to consumer lending functions such as disbursements, loan agreements, payment exceptions, and interest calculations.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.7",
+      "title": "3.7 Collections",
+      "start_page": 20,
+      "end_page": 20,
+      "summary": "This page lists various report names and their details related to collections, customer accounts, and savings account activities.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.8",
+      "title": "3.8 Customer and Savings Account",
+      "start_page": 20,
+      "end_page": 23,
+      "summary": "This page lists various report names and their details related to collections, customer accounts, and savings account activities.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.9",
+      "title": "3.9 Core",
+      "start_page": 23,
+      "end_page": 3,
+      "summary": "This page lists various core function IDs and their corresponding report names and details in a financial or accounting context.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.10",
+      "title": "3.10 Core - Interest Charges",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.11",
+      "title": "3.11 Core - Management Information System",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.12",
+      "title": "3.12 Core - Messaging System",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.13",
+      "title": "3.13 Core - Standing Instruction",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.14",
+      "title": "3.14 Core - Relationship Manager",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.15",
+      "title": "3.15 Core - Core Entity",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.16",
+      "title": "3.16 CORE - Data Entry",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.17",
+      "title": "3.17 Core - General Ledger",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.18",
+      "title": "3.18 Core - SMS",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.19",
+      "title": "3.19 TAX",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.20",
+      "title": "3.20 Generic Interface",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.21",
+      "title": "3.21 Islamic Accounts",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.22",
+      "title": "3.22 Inventory",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.23",
+      "title": "3.23 Micro Finance",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.24",
+      "title": "3.24 Mortgages",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.25",
+      "title": "3.25 Nostro Reconciliation",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.26",
+      "title": "3.26 Retail Bills",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.27",
+      "title": "3.27 Standing Instructions",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.28",
+      "title": "3.28 Securitization of Loan",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.29",
+      "title": "3.29 Term Deposits",
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": []
+    },
+    {
+      "structure": "4.30",
+      "title": "3.30 Expense Processing",
+      "start_page": 3,
+      "end_page": 42,
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "cross_references": [
+        {
+          "structure": "3.1",
+          "title": "2.1 Activation of Menu",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1.1",
+          "title": "2.1.1 Front End",
+          "start_page": 5
+        },
+        {
+          "structure": "3.1.2",
+          "title": "2.1.2 Back End",
+          "start_page": 5
+        },
+        {
+          "structure": "3.3",
+          "title": "2.3 Activation of EOD Reports",
+          "start_page": 8
+        },
+        {
+          "structure": "3.3.1",
+          "title": "2.3.1 Activation of EOD Scheduler Job",
+          "start_page": 9
+        },
+        {
+          "structure": "3.3.2",
+          "title": "2.3.2 Activation of EOD Report Batch",
+          "start_page": 9
+        },
+        {
+          "structure": "2",
+          "title": "1. Preface",
+          "start_page": 4
+        },
+        {
+          "structure": "2.1",
+          "title": "1.1 Introduction",
+          "start_page": 4
+        },
+        {
+          "structure": "2.2",
+          "title": "1.2 Audience",
+          "start_page": 4
+        },
+        {
+          "structure": "2.3",
+          "title": "1.3 Documentation Accessibility",
+          "start_page": 4
+        },
+        {
+          "structure": "2.4",
+          "title": "1.4 Organization",
+          "start_page": 4
+        },
+        {
+          "structure": "2.5",
+          "title": "1.5 Glossary of Icons",
+          "start_page": 4
+        },
+        {
+          "structure": "3.2",
+          "title": "2.2 Activation of Report Roles",
+          "start_page": 6
+        },
+        {
+          "structure": "4",
+          "title": "3. Sample Reports in FLEXCUBE",
+          "start_page": 11
+        },
+        {
+          "structure": "4.1",
+          "title": "3.1 Common Core",
+          "start_page": 12
+        },
+        {
+          "structure": "4.2",
+          "title": "3.2 Asset Management",
+          "start_page": 12
+        },
+        {
+          "structure": "4.3",
+          "title": "3.3 Retail Teller",
+          "start_page": 12
+        },
+        {
+          "structure": "4.4",
+          "title": "3.4 Corporate Deposits",
+          "start_page": 14
+        },
+        {
+          "structure": "4.5",
+          "title": "3.5 Islamic Financing",
+          "start_page": 14
+        },
+        {
+          "structure": "4.6",
+          "title": "3.6 Consumer Lending",
+          "start_page": 18
+        },
+        {
+          "structure": "4.7",
+          "title": "3.7 Collections",
+          "start_page": 20
+        },
+        {
+          "structure": "4.8",
+          "title": "3.8 Customer and Savings Account",
+          "start_page": 20
+        },
+        {
+          "structure": "4.9",
+          "title": "3.9 Core",
+          "start_page": 23
+        },
+        {
+          "structure": "4.10",
+          "title": "3.10 Core - Interest Charges",
+          "start_page": 3
+        },
+        {
+          "structure": "4.11",
+          "title": "3.11 Core - Management Information System",
+          "start_page": 3
+        },
+        {
+          "structure": "4.12",
+          "title": "3.12 Core - Messaging System",
+          "start_page": 3
+        },
+        {
+          "structure": "4.13",
+          "title": "3.13 Core - Standing Instruction",
+          "start_page": 3
+        },
+        {
+          "structure": "4.14",
+          "title": "3.14 Core - Relationship Manager",
+          "start_page": 3
+        },
+        {
+          "structure": "4.15",
+          "title": "3.15 Core - Core Entity",
+          "start_page": 3
+        },
+        {
+          "structure": "4.16",
+          "title": "3.16 CORE - Data Entry",
+          "start_page": 3
+        },
+        {
+          "structure": "4.17",
+          "title": "3.17 Core - General Ledger",
+          "start_page": 3
+        },
+        {
+          "structure": "4.18",
+          "title": "3.18 Core - SMS",
+          "start_page": 3
+        },
+        {
+          "structure": "4.19",
+          "title": "3.19 TAX",
+          "start_page": 3
+        },
+        {
+          "structure": "4.20",
+          "title": "3.20 Generic Interface",
+          "start_page": 3
+        },
+        {
+          "structure": "4.21",
+          "title": "3.21 Islamic Accounts",
+          "start_page": 3
+        },
+        {
+          "structure": "4.22",
+          "title": "3.22 Inventory",
+          "start_page": 3
+        },
+        {
+          "structure": "4.23",
+          "title": "3.23 Micro Finance",
+          "start_page": 3
+        },
+        {
+          "structure": "4.24",
+          "title": "3.24 Mortgages",
+          "start_page": 3
+        },
+        {
+          "structure": "4.25",
+          "title": "3.25 Nostro Reconciliation",
+          "start_page": 3
+        },
+        {
+          "structure": "4.26",
+          "title": "3.26 Retail Bills",
+          "start_page": 3
+        },
+        {
+          "structure": "4.27",
+          "title": "3.27 Standing Instructions",
+          "start_page": 3
+        },
+        {
+          "structure": "4.28",
+          "title": "3.28 Securitization of Loan",
+          "start_page": 3
+        },
+        {
+          "structure": "4.29",
+          "title": "3.29 Term Deposits",
+          "start_page": 3
+        },
+        {
+          "structure": "1",
+          "title": "Contents",
+          "start_page": 3
+        },
+        {
+          "structure": "3",
+          "title": "2. Activation of Sample Reports",
+          "start_page": 5
+        }
+      ]
+    },
+    {
+      "structure": "5",
+      "title": "4. Function ID Glossary",
+      "start_page": 42,
+      "end_page": 44,
+      "summary": "This page lists function IDs and their corresponding codes in a glossary format.",
+      "cross_references": []
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "sections": [],
+      "summary": "This page introduces the Sample Reports User Guide for Oracle FLEXCUBE Universal Banking Release 14.7.0.0.0.",
+      "raw_text": "Sample Reports User Guide\nOracle FLEXCUBE Universal Banking\nRelease 14.7.0.0.0\nPart No. F72109-01\nNovember 2022"
+    },
+    {
+      "page_number": 2,
+      "sections": [],
+      "summary": "This page contains contact information and legal notices for Oracle Financial Services Software Limited, including their address, phone number, fax number, website link, copyright details, and terms of use for U.S. Government end users.",
+      "raw_text": "Sample Reports User Guide\nOracle Financial Services Software Limited\nOracle Park\nOff Western Express Highway\nGoregaon (East)\nMumbai, Maharashtra 400 063 \nIndia\nWorldwide Inquiries:\nPhone: +91 22 6718 3000\nFax: +91 22 6718 3001\nhttps://www.oracle.com/industries/financial-services/index.html\nCopyright © 2022, Oracle and/or its affiliates. All rights reserved.\nOracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective \nowners.\nU.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed \non the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to \nthe applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, \nmodification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the \nhardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other \nrights are granted to the U.S. Government.\nThis software or hardware is developed for general use in a variety of information management applications. It is not developed or \nintended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use \nthis software or hardware in dangerous applications, then you shall be responsible to take all appropriate failsafe, backup, \nredundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages \ncaused by use of this software or hardware in dangerous applications.\nThis software and related documentation are provided under a license agreement containing restrictions on use and disclosure and \nare protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may \nnot use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish or display any part, in \nany form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for \ninteroperability, is prohibited.\nThe information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, \nplease report them to us in writing.\nThis software or hardware and documentation may provide access to or information on content, products and services from third \nparties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect \nto third-party content, products, and services. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or \ndamages incurred due to your access to or use of third-party content, products, or services."
+    },
+    {
+      "page_number": 3,
+      "sections": [
+        "Preface",
+        "Activation of Sample Reports"
+      ],
+      "summary": "This page introduces the document's preface and outlines the activation process for sample reports, including menu and report roles.",
+      "raw_text": "Contents\n1. \nPreface ...................................................................................................... 1-1\n1.1 \nIntroduction..............................................................................................................  1-1\n1.2 \nAudience..................................................................................................................  1-1\n1.3 \nDocumentation Accessibility....................................................................................  1-1\n1.4 \nOrganization ............................................................................................................  1-1\n1.5 \nGlossary of Icons.....................................................................................................  1-1\n2. \nActivation of Sample Reports ................................................................. 2-1\n2.1 \nActivation of Menu...................................................................................................  2-1\n2.1.1  \nFront End....................................................................................................  2-1\n2.1.2  \nBack End ....................................................................................................  2-1\n2.2 \nActivation of Report Roles.......................................................................................  2-2\n2.3 \nActivation of EOD Reports.......................................................................................  2-4\n2.3.1  \nActivation of EOD Scheduler Job ...............................................................  2-5\n2.3.2  \nActivation of EOD Report Batch .................................................................  2-5\n3. \nSample Reports in FLEXCUBE ............................................................... 3-1\n3.1 \nCommon Core .........................................................................................................  3-2\n3.2 \nAsset Management..................................................................................................  3-2\n3.3 \nRetail Teller .............................................................................................................  3-2\n3.4 \nCorporate Deposits..................................................................................................  3-4\n3.5 \nIslamic Financing.....................................................................................................  3-4\n3.6 \nConsumer Lending ..................................................................................................  3-8\n3.7 \nCollections.............................................................................................................  3-10\n3.8 \nCustomer and Savings Account ............................................................................  3-10\n3.9 \nCore.......................................................................................................................  3-13\n3.10 Core - Interest Charges.........................................................................................  3-15\n3.11 Core - Management Information System...............................................................  3-15\n3.12 Core - Messaging System .....................................................................................  3-15\n3.13 Core - Standing Instruction....................................................................................  3-16\n3.14 Core - Relationship Manager.................................................................................  3-16\n3.15 Core - Core Entity..................................................................................................  3-18\n3.16 CORE - Data Entry................................................................................................  3-18\n3.17 Core - General Ledger...........................................................................................  3-20\n3.18 Core - SMS............................................................................................................  3-22\n3.19 TAX........................................................................................................................  3-22\n3.20 Generic Interface...................................................................................................  3-22\n3.21 Islamic Accounts....................................................................................................  3-22\n3.22 Inventory................................................................................................................  3-25\n3.23 Micro Finance........................................................................................................  3-25\n3.24 Mortgages..............................................................................................................  3-26\n3.25 Nostro Reconciliation.............................................................................................  3-26\n3.26 Retail Bills..............................................................................................................  3-27\n3.27 Standing Instructions.............................................................................................  3-29\n3.28 Securitization of Loan............................................................................................  3-29\n3.29 Term Deposits .......................................................................................................  3-29\n3.30 Expense Processing..............................................................................................  3-31\n4. \nFunction ID Glossary ............................................................................... 4-1"
+    },
+    {
+      "page_number": 4,
+      "sections": [
+        "Introduction",
+        "Audience",
+        "Documentation Accessibility",
+        "Organization",
+        "Glossary of Icons",
+        "Chapter 1: About this Manual",
+        "Chapter 2: Activation of Sample Reports",
+        "Chapter 3: Sample Reports in FLEXCUBE",
+        "Chapter 4: Function ID Glossary"
+      ],
+      "summary": "This page introduces the document's structure and content, including chapters on activating sample reports, listing module-wise reports, and providing a function ID glossary.",
+      "raw_text": "1-1\n1. Preface\n1.1 \nIntroduction\nThis document list the steps to activate the sample reports and also lists the module-wise \nsample reports that are pre-shipped with the FLEXCUBE.\n1.2 \nAudience\nThis manual is intended for the following User/User Roles:\n1.3 \nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility \nProgram website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc.\n1.4 \nOrganization\n1.5 \nGlossary of Icons\nThis User Manual may refer to all or some of the following icons.\nRole\nFunction\nBack office Managers/Officers\nActivation of Reports\nFinancial Controller/Product Managers\nGeneration of reports\nChapter\nDescription\nChapter 1\nAbout this Manual gives a brief introduction to the module. It also lists \nthe various chapters covered in this User Manual. \nChapter 2\nActivation of Sample Reports explains the details to activate the reports \nin FLEXCUBE. \nChapter 3\nSample Reports in FLEXCUBE lists the module wise reports. \nChapter 4\nFunction ID Glossary has alphabetical listing of Function/Screen ID's\nused in the module with page references for quick navigation.\nIcons\nFunction\nExit\nAdd row\nDelete row\nOption List"
+    },
+    {
+      "page_number": 5,
+      "sections": [
+        "Activation of Menu",
+        "Front End",
+        "Back End"
+      ],
+      "summary": "This page explains how to activate sample reports in FLEXCUBE through the menu by using either the front end or back end methods.",
+      "raw_text": "2-1\n2. Activation of Sample Reports\nIn FLEXCUBE, the sample reports can be activated in two steps as follow:\nSection 2.1, \"Activation of Menu\"\nSection 2.2, \"Activation of Report Roles\"\nSection 2.3, \"Activation of EOD Reports\"\n2.1 \nActivation of Menu\nThe sample reports can be activated in Menu in either of the following two ways:\nSection 2.1.1, \"Front End\"\nSection 2.1.2, \"Back End\"\n2.1.1 \nFront End\nYou can process the ‘Function Description Maintenance’ screen by typing ‘SMDFNDSC’ in \nthe field at the top right corner of the application tool bar and clicking the adjoining arrow \nbutton. The ‘Function Description Maintenance’ screen is displayed.\nTo activate the sample reports from the front end, the ‘Available’ check box should be \nenabled by modifying the record. The user should modify and authorize the records.\n2.1.2 \nBack End\nTo activate the sample reports from the back end, update the static data of SMTB_MENU \nAvailable column to ‘1’ for all the reports."
+    },
+    {
+      "page_number": 6,
+      "sections": [
+        "Activation of Report Roles"
+      ],
+      "summary": "This section explains how to activate report roles in a system by using the 'Role Maintenance' screen and specifies the details that need to be entered.",
+      "raw_text": "2-2\n2.2 \nActivation of Report Roles\nAll the report roles end with the word ‘REPORTS’. These reports are pre-shipped as closed. \nYou can process the ‘Role Maintenance’ screen by typing ‘SMDROLDF’ in the field at the \ntop right corner of the Application tool bar and clicking the adjoining arrow button. The ‘Role \nMaintenance’ screen is displayed.\nIn this screen, specify the following details:\nRole ID and Description\nSpecify the role Id of the reports. Alternatively, you can select the appropriate role Id from the \noption list. The system displays the role description.\nInitially, all the report roles would be in closed status, the user can reopen the report roles by \nclicking on the ‘Reopen’ button."
+    },
+    {
+      "page_number": 7,
+      "sections": [],
+      "summary": "This page provides instructions on how to reopen something by clicking the 'Reopen' button and then confirming with the 'Ok' button.",
+      "raw_text": "2-3\nFor Instance,\nClick the ‘Reopen’ button. The confirmation message window is displayed. Click the ‘Ok’ \nbutton."
+    },
+    {
+      "page_number": 8,
+      "sections": [
+        "Activation of EOD Reports",
+        "Activation of EOD Scheduler Job",
+        "Activation of EOD Report Batch"
+      ],
+      "summary": "This page describes how to activate EOD reports through either an EOD scheduler job or a report batch in the Menu.",
+      "raw_text": "2-4\nThe Information Message window is displayed. Click the ‘Ok’ button. Now the report roles are \nin opened status.\n2.3 \nActivation of EOD Reports\nThe EOD reports can be activated in Menu in either of the following two ways:\nSection 2.3.1, \"Activation of EOD Scheduler Job\"\nSection 2.3.2, \"Activation of EOD Report Batch\""
+    },
+    {
+      "page_number": 9,
+      "sections": [
+        "Activation of EOD Scheduler Job",
+        "Activation of EOD Report Batch"
+      ],
+      "summary": "This page explains how to activate the EOD scheduler job and report batches through specific maintenance screens.",
+      "raw_text": "2-5\n2.3.1 \nActivation of EOD Scheduler Job\nThe Scheduler Job is used to generate Reports at EOD. The Scheduler Job can be activated \nby checking the Active checkbox from the Job Maintenance (STDJOBMT) screen.\n2.3.2 \nActivation of EOD Report Batch\nTo activate the EOD report batches in the Report Batch Maintenance (RPDBATCH) screen, \nenable the Available check box by modifying the records in Function Description \nMaintenance (SMDFNDSC) screen as explained in the Section 2.1.1, \"Front End\". The user \nmust modify and authorize the records."
+    },
+    {
+      "page_number": 10,
+      "sections": [],
+      "summary": "This page explains that batches managed in the Report Batch Maintenance screen can be accessed through the Mandatory Batch Program Maintenance (EIDMANPE) and that reports within these batches will be processed at end-of-day.",
+      "raw_text": "2-6\nAll the batches maintained in the Report Batch Maintenance screen can be fetched in the \nMandatory Batch Program Maintenance (EIDMANPE) and the reports which are part of the \nbatches will be spooled during EOD."
+    },
+    {
+      "page_number": 11,
+      "sections": [],
+      "summary": "Could not summarize",
+      "raw_text": "3-1\n3. Sample Reports in FLEXCUBE\nThis chapter contains the following module wise sample reports: \nSection 3.1, \"Common Core\"\nSection 3.2, \"Asset Management\"\nSection 3.3, \"Retail Teller\"\nSection 3.4, \"Corporate Deposits\"\nSection 3.5, \"Islamic Financing\"\nSection 3.6, \"Consumer Lending\"\nSection 3.7, \"Collections\"\nSection 3.8, \"Customer and Savings Account\"\nSection 3.9, \"Core\"\nSection 3.10, \"Core - Interest Charges\"\nSection 3.11, \"Core - Management Information System\"\nSection 3.12, \"Core - Messaging System\"\nSection 3.13, \"Core - Standing Instruction\"\nSection 3.14, \"Core - Relationship Manager\"\nSection 3.15, \"Core - Core Entity\"\nSection 3.16, \"CORE - Data Entry\"\nSection 3.17, \"Core - General Ledger\"\nSection 3.18, \"Core - SMS\"\nSection 3.19, \"TAX\"\nSection 3.20, \"Generic Interface\"\nSection 3.21, \"Islamic Accounts\"\nSection 3.22, \"Inventory\"\nSection 3.23, \"Micro Finance\"\nSection 3.24, \"Mortgages\"\nSection 3.25, \"Nostro Reconciliation\"\nSection 3.26, \"Retail Bills\"\nSection 3.27, \"Standing Instructions\"\nSection 3.28, \"Securitization of Loan\"\nSection 3.29, \"Term Deposits\"\nSection 3.30, \"Expense Processing\""
+    },
+    {
+      "page_number": 12,
+      "sections": [
+        "Common Core",
+        "Asset Management",
+        "Retail Teller"
+      ],
+      "summary": "This page lists various function IDs and their corresponding report names related to batch performance statistics, change control logs, event logs, user management, fund security holding, fund balance, NAV movements, cheque purchased and returned details.",
+      "raw_text": "3-2\n3.1 \nCommon Core\n3.2 \nAsset Management\n3.3 \nRetail Teller\nFunction Id\nReport Name\nReport Details\nSMRBASTA\nBatch Performance \nStatistics\nMaximum, minimum, and average \nperformance record of each batch operation \nacross all the branches in Oracle FLEXCUBE.\nSMRCONTL\nChange Control Log \nChange log details\nSMREVNLO\nEvent Log\nEvent log details\nSMRNWUSR\nNew User Created\nNew user created\nSMRROLPR\nRole Profile\nDetails of the role profiles\nSMRSUMRY\nUser Role Summary\nUser role summary details\nSSRCONTL\nUser Change Control \nLog \nUser changelog\nSSRPINST\nSecurity Maintenance \nInactive User \nSecurity maintenance inactive users\nSSRUSLOG\nUser Log Details Log \nUser log details log\nSSRUSRDS\nDisabled Users System \nViolation Log \nDisabled user’s system violation log\nSSRUSSTS\nUser Status Log \nProvides user status log\nFunction Id\nReport Name\nReport Details\nAMRFNDHD\nFund Security Holding\nAll funds/specific fund’s security holding \ndetails.\nAMRFUNBL\nFund Balance\nFund’s GL balances across time periods and \nacross GL types.\nAMRNAVMV\nNAV Movements\nAll funds/specific fund Net Asset Value \nmovement for current date or between specific \ndates.\nFunction Id\nReport Name\nReport Details\nSTRCHPRE\nCheque Purchased \nReturned Today \nCheques that were purchased and returned on \nthe specified day, for effective follow-up by the \nbranches.\nSTRCHPUR\nCheque Purchased \nCheque purchased based on the product and \ncurrency type."
+    },
+    {
+      "page_number": 13,
+      "sections": [
+        "Drawer-wise Returned Cheques"
+      ],
+      "summary": "This section explains that cheques are returned by the correspondent bank or branch on a specified day.",
+      "raw_text": "3-3\nSTRDRRET\nDrawer-wise Returned \nCheques \nCheques are returned by the correspondent \nbank or branch on a specified day."
+    },
+    {
+      "page_number": 14,
+      "sections": [
+        "Corporate Deposits",
+        "Islamic Financing"
+      ],
+      "summary": "This page details various reports and functions related to corporate deposits and Islamic financing, including accrual control, analysis, contract events, forward contracts, value dated amendments, maturity details, overdue schedules, contract retrieval, rate revisions, and linked contracts utilization.",
+      "raw_text": "3-4\n3.4 \nCorporate Deposits\n3.5 \nIslamic Financing\nFunction Id\nReport Name\nReport Details\nLDRPACCR\nAccrual Control \nAccruals are done on deposits, as of a specific \ndate. For Non-Accrual Basis (NAB) contracts, \nthe interest, commission, fees, penalty \ninterest, and penalty commission are \ncalculated but no accrual entries are passed.\nLDRPCALC\nAccrual Analysis\nInterest accrual details for single/multiple \ncontracts across a date range.\nLDRPEVNT\nContract Event Details\nList of all the events that have taken place \nduring the tenor of deposits for a specific \nproduct/all product codes or specific contracts \nacross a date range.\nLDRPFRWD\nCorporate Deposits \nForward Contracts \nAll deposit details with a future value date. \nOnly contracts that take effect on a date later \nthan or same as the specified date are \nincluded in the report.\nLDRPFWCH\nValue Dated \nAmendments\nDetails any changes made to the terms of a \ndeposit that come into effect on a future Value \nDate.\nLDRPMATR\nMaturity\nDetails of a deposit that is maturing during the \nperiod that you specify.\nIt also gives details of schedules of Deposits \nfalling due during that period.\nLDRPOSCH\nOverdue Schedule \nAll repayment schedules of a deposit are \noverdue.\nLDRPRETR\nContract Retrieval \nComprehensive information about deposits \nthat are active, liquidated, and reversed can \nbe retrieved through this report.\nLDRPREVN\nRate Revision \nDetails of the periodic rate revisions\nLDRPLICU\nCorporate Deposits \nLinked Contracts \nUtilization\nLoans And Deposits Linked Contracts \nUtilization report.\nLDRPSTAT\nAdverse Status \nList all the details of adverse status.\nFunction Id\nReport Name\nReport Details\nCIRACREV\nContract Reversal \nAll Finance contracts that are reversed or \nwithin a time range."
+    },
+    {
+      "page_number": 15,
+      "sections": [
+        "Islamic Financing",
+        "Early Pre-payment (Maturity)",
+        "Generating Daily Repayments",
+        "Islamic Financing Disbursement",
+        "Payoff Report",
+        "Future Payment List of contracts with future payments where grace days are selected and supplier grace days are maintained.",
+        "Guarantor’s liabilities and lists the contract facilitated by guarantors.",
+        "Insurance is payable for a finance contract with the insurance details.",
+        "Istisna contract’s disbursement details",
+        "The Outstanding amount and other details of the contract for Product Group as on given maturity date.",
+        "Full details of the finance account with customer and account details such as the amount financed, due amount, etc.",
+        "Accruals for various finance contracts.",
+        "Batch exceptions for the contracts that are marked for auto liquidation.",
+        "This report disp"
+      ],
+      "summary": "The page lists various reports related to Islamic financing, including disbursements, repayments, insurance details, and maturity dates.",
+      "raw_text": "3-5\nCIRCOMLM\nIslamic Financing \nAll Limit details are attached to the finance \ncontract or within a time range.\nCIRDLEPP\nEarly Pre-payment \n(Maturity) \nEarly pre-payment details for the day for \nindividual customers.\nCIRDLRPR\nGenerating Daily \nRepayments\nFinance repayments are due for the day for all \nthe customers.\nCIRDSBRM\nIslamic Financing \nDisbursement \nDisbursement details for CI Murabaha \ncontracts.\nCIRFLPAY\nPayoff Report\nContracts where full settlement of the \nschedules is done for a single product or \nacross all products in a date range.\nCIRFTPAY\nFuture Payment \nList of contracts with future payments where \ngrace days are selected and supplier grace \ndays are maintained.\nCIRGLIAB\nIslamic Financing \nGuarantors Liabilities\nGuarantor’s liabilities and lists the contract \nfacilitated by guarantors.\nCIRINSRD\nInsurance Report\nInsurance is payable for a finance contract \nwith the insurance details.\nCIRISDSB\nIstisna Disbursement \nIstisna contract’s disbursement details\nCIRMATDT\nMaturity Date\nThe Outstanding amount and other details of \nthe contract for Product Group as on given \nmaturity date.\nCIRMISDT\nFinancing Detailed MIS \nFull details of the finance account with \ncustomer and account details such as the \namount financed, due amount, etc.\nCIRPACCR\nAccrual Control List\nAccruals for various finance contracts.\nCIRPALPE\nAutomatic Finance \nPayment Exception \nBatch exceptions for the contracts that are \nmarked for auto liquidation.\nCIRPAMSC\nAmortization Schedule\nThis report displays the schedule details and \ncomponent-wise break up of each schedule of \nfinancing contract.\nCIRPAYAC\nAccount Payoff \nCalculator\nDetailed component wise breakup of finance \ncontract due for payment with due dates.\nCIRPAYLM\nLine Payoff Calculator \nLine wise details of the finance contract, \ncomponents due for payment.\nCIRPCALC\nProfit Calculation \nAnalysis\nAccount details of profit calculation, \ncomponent wise.\nCIRPDLIN\nAdvice of Delinquent \nNotes \nMonthly projection details of past due and \nnon-performing finances."
+    },
+    {
+      "page_number": 16,
+      "sections": [],
+      "summary": "This page lists various types of financial contract-related information and amendments for Islamic financing contracts, including maturity details, ledger balances, and overdue schedules.",
+      "raw_text": "3-6\nCIRPEVNT\nEven Details\nEvents information for an Islamic financing \ncontract.\nCIRPFRWD\nForward Contracts\nFuture value dated contracts with component \ndetails.\nCIRPFWCH\nForward Amendments \nLists amendments made to contracts with a \nfuture value date\nCIRPLGBL\nLedger Balance \nVerification\nGL balance details for Islamic financing \ncontract.\nCIRPMATR\nMaturity\nAccounts that are due for payment with \ncomponent details.\nCIRPNWLN\nNew Finance Contracts \nLists the contracts booked under a product \nwithin given dates, for different product \ncategories.\nCIRPOSCH\nOverdue Schedules\nOverdue schedules for an Islamic financing \ncontract.\nCIRPRETR\nContract Retrieval \nAccount details like Product/ Customer/ Value \nDate/ Maturity Date.\nCIRPREVN\nPeriodic Rate Revision \nPeriodic rate revisions along with the new \nrevised UDE values.\nCIRPRLNT\nFinance Rollover \nNotice\nDetails of rolled-over accounts, component-\nwise.\nCIRPRLVR\nFinance Rollover \nMonitoring \nIslamic financing contracts that are due for a \nrollover with given dates.\nCIRPSTAT\nAdverse Status\nComponent-wise adverse status and dues for \nan Islamic financing contract.\nCIRPTOAS\nList of Taken Over \nAssets\nTaken over asset details.\nCIRPTPAY\nPartial Pay-off \nCI contracts with part payments of schedules \ndone with details of outstanding amounts.\nCIRPTRBL\nFinancing Register - \nTrial Balance\nTrial balance details for contracts.\nCIRRPREV\nRepayment Reversal\nAll the accounts for which repayment schedule \namounts have been reversed.\nCIRSAVIN\nList of Islamic Finances \nwith Islamic Savings\nList of finance accounts with CASA benefits.\nCIRTRBRN\nIslamic Financing \nBranch Transfer \nIslamic Financing branch transfer details"
+    },
+    {
+      "page_number": 17,
+      "sections": [],
+      "summary": "This page discusses CI contracts involving VAMI (Value Adjustment Mechanism with Interest) enhancements, including details on EMI changes, tenor adjustments, and revised schedules.",
+      "raw_text": "3-7\nCIRVAMID\nIslamic Financing \nEnhancement \nCI contracts where VAMI has been performed \nwith details of VAMI- EMI change, tenor \nchange, and revised schedules details."
+    },
+    {
+      "page_number": 18,
+      "sections": [
+        "Consumer Lending"
+      ],
+      "summary": "This page provides details of various reports related to consumer lending functions such as disbursements, loan agreements, payment exceptions, and interest calculations.",
+      "raw_text": "3-8\n3.6 \nConsumer Lending\nFunction Id\nReport Name\nReport Details\nCLRDISTD\nDisbursements Made \nToday \nThis report when run at EOD, gives details of \nthe disbursements made for the current day \nwhich includes first, progressive, and final \ndisbursements. This report also provides the \ntotal number of disbursements for the day.\nCLRPACCR\nAccrual Control List\nEvents and Component details for each \naccount will be generated for a specific \ncombination of the Account Number, Event \nDate, and Branch Name.\nCLRPADVC\nCustomer Loan \nAgreement \nCustomer Loan agreement details for a Loan \naccount.\nCLRPALPE\nAutomatic Loan \nPayment Exception\nLoan payment exceptions details.\nCLRPAMSC\nAmortization\nAmortization details of loan contracts.\nCLRPAYAC\nAccount Payoff \nCalculator\nPayoff values for the loan account and \ncomponent-wise charges and fees details for \nthe loan.\nCLRPAYLM\nLine Payoff Calculator\nPayoff values for the line Id and component-\nwise charges and fees details for the loan.\nCLRPCALC\nInterest Calculation \nAnalysis\nInterest details for the accounts required \nbetween the given value date range.\nCLRPDLIN\nAdvice of Delinquent \nNotes\nLists the monthly projection details of past due \nand non-performing loans.\nCLRPEVNT\nContract Events \nList of all the events that have taken place \nduring the tenor of a loan contract.\nCLRPFRWD\nLending Forward \nContract \nLoan contracts with a future value date.\nCLRPFWCH\nForward Amendments \nDetails Changes \nList of all the amendments made to contracts \nwith a future value date.\nCLRPLGBL\nLedger Verification \nList the details of the ledger balances.\nCLRPLICU\nLinked Contracts \nUtilization \nThe accounts, lines, or collaterals that have \nbeen linked to an account, are based on the \nselection criteria.\nCLRPLNHT\nLoan History \nLists the event-wise history details for a loan \naccount.\nCLRPLNPD\nLedger Balance \nVerification \nAll notices for Past Due loans."
+    },
+    {
+      "page_number": 19,
+      "sections": [
+        "Maturity",
+        "New Loans",
+        "Overdue Schedules",
+        "Contract Retrieval",
+        "Periodic Rate Revision",
+        "Loan Rollover Notice",
+        "Loan Rollover Monitoring",
+        "Adverse Status",
+        "Taken Over Assets",
+        "Loan Register/Trial Balance",
+        "Loans with CASA Benefit",
+        "Loan Branch Transfer",
+        "Credit Application By User",
+        "Funded Contracts",
+        "Prefunding Contract Applications",
+        "Underwriting Status By Month and Intermediary",
+        "Underwriting Status By Month"
+      ],
+      "summary": "This page describes various financial contract management tools, including those for tracking maturing contracts, new loans, overdue payments, and loan rollovers.",
+      "raw_text": "3-9\nCLRPMATR\nMaturity \nInformation about a contract that is: Maturing \nduring the period that you specify and have \nschedules falling due during that period.\nCLRPNWLN\nNew Loans \nLists the details of all the new loans that have \nbeen booked.\nCLRPOSCH\nOverdue Schedules \nDetails\n \nAll repayment schedules of a loan that are \noverdue.\nCLRPRETR\nContract Retrieval \nComprehensive information about a loan \ncontract.\nCLRPREVN\nPeriodic Rate Revision\nLists the details of a customer, the rate \nrevision date and the effective rate.\nCLRPRLNT\nLoan Rollover Notice\nNotice details that are sent to customers in \ncase of loan rollovers.\nCLRPRLVR\nLoan Rollover \nMonitoring \nLists the rollover details of all the loans.\nCLRPSTAT\nAdverse Status \nLoan contracts that have moved into a status \nother than active and liquidated.\nCLRPTOAS\nTaken Over Assets \nList the taken over asset details.\nCLRPTRBL\nLoan Register/Trial \nBalance \nLists the loan register/trial balance details.\nCLRSAVIN\nLoans with CASA \nBenefit \nList of loans with CASA benefits.\nCLRTRBRN\nLoan Branch Transfer \nLoan branch transfer.\nRLRPCAUR\nCredit Application By \nUser \nThe number of credit applications entered by \nthe user.\nRLRPFNCR\nFunded Contracts \nApplications funded for the loan.\nRLRPPFCR\nPrefunding Contract \nApplications verified for loans.\nRLRPUNMI\nUnderwriting Status By \nMonth and Intermediary \nApplication status by month and producer for \nloans.\nRLRPUNMN\nUnderwriting Status By \nMonth \nApplication status by the month for loans.\nRLRPUNMU\nUnderwriting Status By \nMonth and Underwriter \nApplication status by month and underwriter \nfor loans.\nCLRPSLNT\nLoan Settlement Notice \nLoans that have received a notice for \nsettlement.\nSTRINEXP\nInsurance Policy \nExpired Today \nMatured insurance policies expired on the \ncurrent day of EOD."
+    },
+    {
+      "page_number": 20,
+      "sections": [
+        "Collections",
+        "Customer and Savings Account"
+      ],
+      "summary": "This page lists various report names and their details related to collections, customer accounts, and savings account activities.",
+      "raw_text": "3-10\n3.7 \nCollections\n3.8 \nCustomer and Savings Account\nFunction Id\nReport Name\nReport Details\nCNRAGIND\nContacts Result \nDetailed \nInteractions which are initiated by the agent \nand the corresponding result of the interaction.\nCNRAGTAC\nActivity \nThe actionable items for the day for the agent.\nCNRASACT\nAccount Level Activity \nActions and payments for an asset reference.\nCNRCASRT\nCash Receipts by \nCollector, Daily and \nMonth to Date\nThe payment mode for all the assets which \nhas been handled by the agent between the \n‘From’ and ‘To’ date.\nCNRCUSRP\nCustomer Aging Report \nby Collector (Agent)\nCustomers and their asset details which are \nunder selected agent.\nCNRDLQAG\nDelinquency and \nActivity by each \nCollection Agent\nDelinquency and activities for the agent.\nCNRDLQOD\nDelinquency Analysis \nby Overdue Days\nAssets that are overdue in the current branch.\nCNRFEEL\nFee Liquidated to \nCollection Agent \nThe collection fee liquidation to the agent in a \nspecified internal for the given branch.\nCNRINTSM\nContacts Results \nSummary \nInteractions which are initiated by the agent.\nFunction Id\nReport Name\nReport Details\nACRSTMOV\nCRR Movement \nAn asset is a performing asset or not.\nCARDORAC\nInsignificant Balance \nDormant Account \nNil Balance Dormant Account Report for \nCASA Accounts.\nCARINSTM\nCustomer Account \nInterest Statement \nCustomer Account Interest statement.\nCARMICUS\nMinor Customer Details \nMinor Accounts are available in the system for \na given branch code, maturity type, days to \nattain age and date of attaining the age.\nCAROPICT\nOperating Instructions \nNot Captured \nOperating instruction not captured.\nCAROVDFT\nCASA-Overdraft \nCustomer accounts which have the overdraft \nfacility and limits that are associated to them.\nCARPAACC\nAccount Opened and \nActivated \nAccount opened and activated."
+    },
+    {
+      "page_number": 21,
+      "sections": [],
+      "summary": "This page lists various codes and their corresponding descriptions related to account management operations in a financial institution.",
+      "raw_text": "3-11\nCARPACCB\nAccount Block and \nReason \nAccount blocked and reason.\nCARPACCL\nAccount Closure and \nReason \nAccount closure and reason.\nCARPAOCR\nAccount Open or Close \nAccount opened and closed.\nCARPASBK\nPassbook Details \nDetails of passbook\nCARPBALC\nAccount Balance List \nAccount balance\nCARPCKDT\nAccount Cheque \nDetails \nCheques used, cancelled and rejected for an \naccount.\nCARPCSLM\nCustomer Limit Position \nTracking \nCustomer limit position tracking.\nCARPDACC\nAll Dormant Account \nDormant account\nCARPDCRD\nDebit Card Issued \nDebit card issued\nCARPMACC\nNew Minor Account \nNew minor account\nCARPNRAC\nNon Resident Account \nNon-resident accounts\nCARPSPMT\nCASA Stop Payment \nStop payment details issued on a Cheque.\nCORDLPRT\nDaily Processed \nTransactions \nDaily processed transactions\nCORRJDD\nCancelled or Rejected \nCanceled or rejected details\nPDRCHDRF\nCustomer Cheque \nDiscounting \nCustomer cheque discounting report\nPDRDTTOD\nPost Dated Cheques \nDue Today \nPDC that was due and were cleared on that \nday.\nSTRCASTM\nAccount Status \nMovement \nCASA accounts that have moved to status \nbased on the Account Class type of the \naccount.\nSTRCUSCH\nCustomer Change \nPrimary party changes\nSTRDAEOD\nDormant Activated \nDormant accounts which were activated on \nthat day.\nSTRDOCL\nDocument Checklist \nDocument checklist\nSTRFRCAS\nCustomer Account \nBranch Transfer \nCustomer account branch transfer\nSTRIBRAC\nInter-Branch Accounts \nOpened Today \nAccounts are created by the Bank Staff, who \nhave Multiple Branch Operational Rights.\nSTROSTFE\nStatement of Fees and \nInterest\nStatement of fees and interest."
+    },
+    {
+      "page_number": 22,
+      "sections": [
+        "Savings Overline/TOD",
+        "Daily Overline/TOD Txn",
+        "Variances Maintained Today",
+        "Stop Cheques Maintained",
+        "Saving Accounts Closed Today",
+        "Savings Account Dormant Today",
+        "Saving Accounts Opened Today",
+        "Blocked Accounts Blocked customer accounts with reasons for blocking.",
+        "Account Balance Listing",
+        "Accounts Dormant Next Month",
+        "Savings Insignificant Balance Accounts Exception report that lists out the customer accounts having insignificant balances.",
+        "Savings Large Balance Movements Exception report of large balance movements in CASA.",
+        "Flat File Cheque Book Requested"
+      ],
+      "summary": "This page details various reports and transactions related to savings accounts, including overline amounts, dormant and closed accounts, blocked accounts, and balance movements.",
+      "raw_text": "3-12\nSTROVODR\nSavings Overline/TOD\nOverline amount, overline days, and credit risk \nrating description, for proper follow-up of these \naccounts and to regularize the same at EOD.\nSTROVTOD\nDaily Overline/TOD Txn \nCurrent and savings account with such \nfacilities, to follow-up at the earliest.\nSTRSPCON\nVariances Maintained \nToday \nCASA and TD accounts for which the interest \nvariances are maintained for the day.\nSTRSPEOD\nStop Cheques \nMaintained \nStop payment instructions carried out on that \nday.\nSVRACREP\nSaving Accounts \nClosed Today \nCASA accounts that have been closed in the \nday, per product per currency per branch.\nSVRADREP\nSavings Account \nDormant Today \nCurrent and Savings accounts that have been \nmarked dormant in the day per product per \ncurrency per branch.\nSVRAOREP\nSaving Accounts \nOpened Today \nAccounts opened on the current day, along \nwith the details of the initial payment.\nSVRBACCL\nBlocked Accounts \nBlocked customer accounts with reasons for \nblocking.\nSVRCABLI\nAccount Balance \nListing \nBalance break-up of all CASA accounts for a \ngiven branch and product.\nSVRDOREP\nAccounts Dormant Next \nMonth \nCASA accounts product-wise and currency-\nwise will remain dormant from the coming \nmonth onwards.\nSVRIBACC\nSavings Insignificant \nBalance Accounts \nException report that lists out the customer \naccounts having insignificant balances.\nSVRLBALM\nSavings Large Balance \nMovements \nException report of large balance movements \nin CASA.\nSVRREPRT\nFlat File Cheque Book \nRequested \nFlat file cheque book requested.\nSVRSIG\nSignatory Details \nSignatory details\nACRSTMNT\nAccount Statement\nAccount Statement details\nSTRCUSMN\nPrimary Party Change\nPrimary party change details"
+    },
+    {
+      "page_number": 23,
+      "sections": [
+        "Core Function Id",
+        "Report Name",
+        "Report Details"
+      ],
+      "summary": "This page lists various core function IDs and their corresponding report names and details in a financial or accounting context.",
+      "raw_text": "3-13\n3.9 \nCore\nFunction Id\nReport Name\nReport Details\nACRDLTXN\nDeleted Transactions \nListing\nThe deleted transaction details pertaining to \neach product under each module pertaining to \nevery user.\nACRMREVL\nMemo Revaluation \nMemo revaluation details\nACRPCASH\nCash Flow \nThe payoff values for the loan account and \ncomponent-wise charges and fees details for \nthe loan.\nACRPFVBL\nFuture Dated Account \nBalance \nBalances of future dated transactions.\nACRPMOVE\nAccounts Movement \nThe movement of the accounts for that \nparticular day.\nACRREVAL\nAccount Revaluation \nThe memo revaluation funds.\nACRUNCOL\nUncollected Funds \nUncollected funds based on the release date \nof the fund.\nCORDSLRP\nDaily Sales \nDaily sales\nCORMNPRF\nMaturity Profile for Next \nWeek \nMaturity profile for next week.\nCORMTPRF\nMaturity Profile for Next \nDay \nMaturity profile for the next day.\nCORUNPSL\nUnprocessed Salary \nUnprocessed salary\nCSRPACTJ\nCore Activity Journal \nActivity journal\nCSRPBLCB\nBlack Listed During \nContract Booking \nBlack listed during contract booking.\nCSRPBLUP\nBlack List Report during \nFile Upload \nBlack list report during file upload.\nCSRPCHB\nCheque Book Issued \nCheque book issued\nCSRPEXCP\nCore Exception \nCore exception\nCSRPPDC\nPDC Input \nPDC Input\nCSRRSTRP\nCustomer Restriction \nUtilization \nCustomer restrictions for a particular period is \ngenerated.\nCSRTEMOD\nTemporary Overdraft \nTemporary overdraft\nCYRTCURR\nCurrency Rate \nRates for currency pairs.\nCYRTHIST\nCurrency Rate History \nHistory of rates for currency pairs."
+    },
+    {
+      "page_number": 24,
+      "sections": [
+        "Customer Details",
+        "Customer Accounts",
+        "Combined Statement"
+      ],
+      "summary": "This page provides details about customer information, their accounts, and a combined statement report.",
+      "raw_text": "3-14\nSTRCIF\nCustomer Details \nDetails of the customer\nSTRCUSAC\nCustomer Accounts \nThe customer account\nSTRCDSMT\nCombined Statement\nDetails of combined statement report."
+    },
+    {
+      "page_number": 25,
+      "sections": [
+        "3.10 Core - Interest Charges",
+        "3.11 Core - Management Information System",
+        "3.12 Core - Messaging System"
+      ],
+      "summary": "This page details various reports and functions related to interest charges, management information systems, and messaging systems.",
+      "raw_text": "3-15\n3.10 Core - Interest Charges\n3.11 Core - Management Information System\n3.12 Core - Messaging System\nFunction Id\nReport Name\nReport Details\nICRACCR\nAccrual Control List \nAccrual control list\nICRIP\nInterest Calculation \nDetails \nInterest calculated of your branch\nICRISFM\nInterest Statement \nMaintenance \nMaintenance related activities are carried out \non interest statement headers for interest \nrules.\nICRLIQR\nLiquidation Control List\nLiquidations that were done for a period.\nICRSAYTD\nSavings YTD Interest \nSavings YTD report for a specified branch, for \nthe current financial year.\nFunction Id\nReport Name\nReport Details\nMIRPRLO\nMIS Profit & Loss \nMIS profit and loss\nMIRREFRT\nPool Codes \nPool codes\nMIRERRPT\nError\nError report\nACRFCDR\nTransaction Force \nDebited \nTransactions with ‘Available Balance Check \nOption’ check box checked at ‘Account Class \nPreferences’ and ‘Transaction Code \nMaintenance’ levels.\nCORINTBR\nInter Branch \nReconciliation \nInter-branch reconciliation\nFunction Id\nReport Name\nReport Details\nMSRDSWFT\nDaily Swift Message \nStatus \nSwift message status\nMSRMSRPT\nSecurity Management \nSystem Log \nSecurity management system log\nMSRPLEXP\nUpload Exception \nUpload exception\nMSRPLSUX\nSuccessful Message \nSuccessful message\nMSRSTMSG\nStatement Message \nStatus \nStatement message status"
+    },
+    {
+      "page_number": 26,
+      "sections": [
+        "3.13 Core - Standing Instruction",
+        "3.14 Core - Relationship Manager"
+      ],
+      "summary": "This page details various reports and functions related to standing instructions, relationship managers, and different types of customer accounts and loans.",
+      "raw_text": "3-16\n3.13 Core - Standing Instruction\n3.14 Core - Relationship Manager\nFunction Id\nReport Name\nReport Details\nSIRACCBC\nSaving and Cheque \nStanding Instructions \nStanding instruction executed for an external \naccount and banker cheques for a given \nbranch code and process date.\nSIRPLTOD\nStanding Orders \nPlaced Today \nSuccessful standing orders were placed \nthroughout the day.\nFunction Id\nReport Name\nReport Details\nSTRCAPER\nPeriod based CASA \nAccounts \nCASA accounts that are created or closed for \nthe customers assigned to you and your \nsubordinates.\nSTRCLBAD\nNon-Performing Assets \nCustomer loans that are in a particular status.\nSTRCLDEF\nDefaulted Loans \nCustomer-wise \nCustomer-wise report of loans that are \ndefaulted.\nSTRCLPAY\nUpcoming Payment \nSchedules \nUpcoming loan payment schedules.\nSTRLELMT\nTerm Deposits \nExceeding Lien Limits \nTerm deposits exceeding the lien reports.\nSTRLICOL\nCollaterals with Value \nLesser than Utilized \nLimit \nCollaterals with value lesser than a utilized \nlimit.\nSTRLICOR\nCustomers Due for \nCollateral Revaluation \nCollateral value has been devalued or gone \nless than the utilized amount.\nSTRLIEXP\nCustomers Due for \nCredit Line Expiry \nCustomers whose credit lines are due to \nexpire during a given period.\nSTRLIUTL\nCustomer Utilizing \nBelow their Limit \nLimits utilization less than the utilization limit \npercentage defined\nSTRLOPER\nPeriod based Loan \nAccounts \nLoan, mortgage, finance and leasing accounts \nof the customers assigned to you and your \nsubordinates.\nSTRNEWCA\nNew CASA Accounts \nNewly created CASA accounts for the \ncustomers assigned to you and your \nsubordinates.\nSTRNEWCA\nNew CASA Accounts \nNewly created CASA accounts for the \ncustomers assigned to you and your \nsubordinates."
+    },
+    {
+      "page_number": 27,
+      "sections": [
+        "New Loans Accounts",
+        "New TD Accounts",
+        "Customers with Negative Balance",
+        "Period Based Business",
+        "RM Mass Amendment Failure",
+        "Consolidated Customer Portfolio",
+        "Period based TD Accounts",
+        "Customer Transaction beyond Threshold Amount",
+        "Term Deposits Closed"
+      ],
+      "summary": "This page lists various sections related to customer accounts and transactions managed by relationship managers, including new loans and deposits, negative balance customers, and period-based business activities.",
+      "raw_text": "3-17\nSTRNEWLO\nNew Loans Accounts \nNewly created loan accounts for the \ncustomers assigned to you and your \nsubordinates.\nSTRNEWTD\nNew TD Accounts \nNewly created term deposit accounts for the \ncustomers assigned to you and your \nsubordinates.\nSTRNGBAL\nCustomers with \nNegative Balance \nCustomers whose account balance has gone \nbelow the threshold set at ‘Relationship \nManager Report Parameters’ screen.\nSTRRMBUS\nPeriod Based Business \nCASA, TD and loan transactions are created \nby the relationship manager and subordinates.\nSTRRMERR\nRM Mass Amendment \nFailure \nRelationship manager mass amendment \nfailure\nSTRRNCON\nConsolidated Customer \nPortfolio \nCASA, term deposit and loans (CL, mortgage, \nfinance and leasing) transactions of the \nselected customer.\nSTRTDPER\nPeriod based TD \nAccounts \nTerm deposit accounts that are created or \nredeemed for the customers assigned to you \nand your subordinates.\nSTRWBDTA\nCustomer Transaction \nbeyond Threshold \nAmount \nDeposit and withdrawal transactions that are \nbeyond the threshold defined\nTDRCLOSE\nTerm Deposits Closed \nTerm deposit accounts that are closed for the \ngiven period, and that are currently on open \nstatus."
+    },
+    {
+      "page_number": 28,
+      "sections": [
+        "Core - Core Entity",
+        "CORE - Data Entry"
+      ],
+      "summary": "This page lists various function IDs and report names related to customer data entry and core entity management in a financial system.",
+      "raw_text": "3-18\n3.15 Core - Core Entity\n3.16 CORE - Data Entry\nFunction Id\nReport Name\nReport Details\nSTRCUSEG\nCustomer Net Worth \nCustomer net worth\nSTRCUSRP\n360 Degree Customer \n360 Degree Customer details\nSTRINCMV\nInactive Customer \nMovement \nInactive customer movement report of a \nspecific branch/all branches for a particular \nperiod.\nSTRINCUS\nInactive Customers \nInactive customer details of a specific branch/\nall branches for a particular period.\nSTRMSMLG\nPrint Maintenance \nControl Log \nPrint maintenance control log details\nSTRNSACT\nActions Triggered \nDuring NSF Status \nChange \nActions which are triggered during the NSF \nstatus change.\nSTRNSFBC\nBlacklisted Customers \nReport\nBlacklisted customers from internal banks and \nagencies.\nSTRNSFC\nReport for NSF \nReturned Cheque\nReturned cheque details\nSTRNSFCB\nCentral Bank \nBlacklisted Customers \nBlacklisted customers from central bank or \nagencies.\nCSRCRDR\nLarge Credit \nTransaction \nLarge credit transaction\nCSRCSTAD\nCombined Statement \nAd-hoc combined statement of accounts for a \ncustomer, generated for a particular period.\nCSRDEBR\nLarge Debit \nTransaction \nLarge debit transaction\nCSRDLACC\nDaily Account Opening \nStatistics \nAccount opening statistics\nCSRDRMAC\nDormant Account \nReactivated \nDormant account reactivated details\nCSRPACCO\nCustomer Account \nOpening Confirmation \nCustomer account opening\nCSRSNREP\nMissing Signature \nThe customers, of a specified branch, whose \nsignatures have not yet been captured in the \nsystem.\nFunction Id\nReport Name\nReport Details"
+    },
+    {
+      "page_number": 29,
+      "sections": [
+        "Batch Totals"
+      ],
+      "summary": "This section explains the concept of batch totals, which are the sums of all transactions posted in a day's batches.",
+      "raw_text": "3-19\nDERBATOT\nBatch Totals\nBatch totals of all the batches into which \ntransactions were posted during the day."
+    },
+    {
+      "page_number": 30,
+      "sections": [
+        "3.17 Core - General Ledger"
+      ],
+      "summary": "This page lists various reports and functions related to the general ledger, including journal entries, expense tracking, balance sheets, and profit and loss statements.",
+      "raw_text": "3-20\n3.17 Core - General Ledger\nFunction Id\nReport Name\nReport Details\nACRJRNAL\nAccounting Journal \nLoan payment exceptions\nGLRDLEXP\nDaily Expense Tracking \nTrack the daily expenses\nGLRISAVG\nGL – MIS average \nbalance \nLatest value date average balances or the \nbook date average balances are based on the \noption you chose at the time of report \ngeneration.\nGLRPAVG\nGL Periodical Average \nBalance \nGL balance in both transaction currency and \nlocal currency.\nGLRPBAL\nGeneral Ledger \nCredit and debit balances in various accounts.\nGLRPBASH\nBalance Sheet\nSummarizes the net balance of all general \nledgers under assets, liabilities, income and \nexpense.\nGLRPBDTN\nBack Dated \nTransaction \nAnalyze all the backdated transactions \nentered in the system.\nGLRPCCY\nCurrency Position \nCurrency position\nGLRPCFLO\nCash Flow \nInflow, outflow and the net inflow of cash for \neach product.\nGLRPGLCY\nProfit & Loss Currency \nwise \nProfit and loss currency-wise\nGLRPINEX\nIncome Expense \nIncome and expenses by displaying the debit, \ncredit and net balances for GL accounts.\nGLRPLTXN\nProfit and Loss Internal \nTransactions \nProfit and loss internal transactions\nGLRPMABR\nMonthly Average \nBalance for Entire GL \nMonthly average balance for entire GL.\nGLRPNFLO\nCurrency Cash Flow \nCash flow report gives you details of inflow, \noutflow and the net inflow of cash for different \ncurrencies.\nGLRPPLST\nProfit and Loss \nStatement\nProfit and loss for a selected period.\nGLRPPNL\nCurrency wise Profit \nand Loss \nInformation on the credit, debit and net \nbalances currency-wise.\nGLRPTBAL\nTrial Balance \nTransactions involving a particular account.\nGLRPUNC\nUncollected Funds \nUncollected funds related to the GL for a \nselected period."
+    },
+    {
+      "page_number": 31,
+      "sections": [
+        "GL Summary"
+      ],
+      "summary": "This section provides an overview of general ledgers that include details of debit and credit balances in both local and foreign currencies.",
+      "raw_text": "3-21\nGLRSUREP\nGL Summary \nGeneral ledgers with details of debit and credit \nbalances in local currency as well as foreign \ncurrency."
+    },
+    {
+      "page_number": 32,
+      "sections": [],
+      "summary": "This page lists various function IDs and report names related to SMS, TAX, and Generic Interface functionalities.",
+      "raw_text": "3-22\n3.18 Core - SMS\n3.19 TAX\n3.20 Generic Interface\n3.21 Islamic Accounts\nFunction Id\nReport Name\nReport Details\nSMRPCHLG\nReport\nDetails of maintenances\nSMRPINST\nSecurity Maintenance \nInactive Users \nUsers who have not used the system over a \ncertain period.\nSMRPRLPR\nRole Profile Created \nRole profile created\nSMRPUSPR\nUser Profile \nUser profile\nSMRPVLLG\nSecurity Management \nSystem Violations Log \nSecurity management system violations log\nSMRUSREN\nUser Entitlement \nUser entitlement details\nFunction Id\nReport Name\nReport Details\nTARAYABL\nTax Payable \nTaxes that are to be paid over a period of \ntime.\nFunction Id\nReport Name\nReport Details\nGIRFILOG\nFile Process \nStandard online report for the upload \nexception details.\nIFRTXPM\nCustomer Tax Payment \nGenerate and view customer tax payment \nreports.\nFunction Id\nReport Name\nReport Details\nIARACENT\nAccrual Control List \nAll entries were processed for a period.\nIARACRHS\nTD/Saving Accounts \nAccrual Details \nTD/Saving Accounts accrual\nIARACVER\nPost Batch Verification \nPost batch verification details\nIARAMFXD\nAmendments to Fixed \nAmendments to fixed details\nIARBKNTD\nPost Run Broken TD \nDetails \nPost-run broken TD details\nIARBRKFD\nBreakage of Fixed \nDeposit \nAny fixed deposit is broken before the maturity \ndate."
+    },
+    {
+      "page_number": 33,
+      "sections": [],
+      "summary": "Could not summarize",
+      "raw_text": "3-23\nIARDTDBK\nDaily Deposit \n(Volumes) Booked \nDetails of booked daily deposits\nIARERACT\nError Accounts Post \nEstimation \nAccounts with errors before after estimation\nIAREXCAC\nExcluded Accounts \nDetails of all excluded accounts\nIARFCMFD\nForthcoming FD \nMaturity \nDetails of forthcoming FD maturity\nIARFNDHD\nFund Security Holding \nDetails of fund security holdings\nIARFUNBL\nFund Balance \nBalances of the funds selected\nIARISLNK\nIslamic Finance \nSyndication Linkage \nIslamic Finance Syndication Linkage details\nIARLIQST\nLiquidation Status \nLiquidation status of selected funds\nIARMAQBL\nMudarabah Quarterly \nAverage Balance \nReport for Savings\nSavings provide details of the quarterly \naverage balance of Mudarabah savings \naccounts.\nIARMATTD\nMudarabah Reports for \nMatured TD & Closed \nSavings Accounts\nMatured TD and closed Mudarabah savings \naccounts.\nIARMAVGB\nMudarabah Monthly \nAverage Balance \nReport on Month End \nfor Savings\nMonthly average balance at month-end for \nMudarabah savings account.\nIARMBLPD\nMudarabah Monthly \nAverage Balance \nReport on Profit \nDistribution Date for \nSavings\nMonthly average balance on profit distribution \ndate for Mudarabah savings.\nIARMMPDR\nMudarabah Monthly \nMinimum Balance \nReport on Profit \nDistribution Date for \nSavings\nMonthly minimum balance on profit distribution \ndate for Mudarabah savings account.\nIARMMQBL\nMudarabah Quarterly \nMinimum Balance \nReport for Savings\nQuarterly minimum balance for Mudarabah \nsavings account.\nIARMURBL\nMudarabah Monthly \nMinimum Balance \nReport on Month End \nfor Savings\nMonthly minimum balance at month-end for \nMudarabah savings account.\nIARNEWTD\nTerm Deposit Opened \nDetails of term deposits opened\nIARPFADJ\nPost Adjustments \nDetails \nPost adjustment details for the selected fund."
+    },
+    {
+      "page_number": 34,
+      "sections": [],
+      "summary": "This page details various financial reports and processes related to fixed deposits, Mudarabah savings accounts, PDM liquidation, TD/Savings account liquidations, term deposit rollovers, and profit calculations.",
+      "raw_text": "3-24\nIARPRFXD\nProcessed Fixed \nDeposit \nDetails of processed fixed deposits.\nIARPRNPD\nMudarabah Principal \nAmount \nPrincipal amount of Mudarabah savings \naccount.\nIARPRNTD\nMudarabah Principal \nAmount Report on \nMonth End for TD\nPrincipal amount at month end for Mudarabah \nTD account.\nIARPSRUN\nPost PDM Liquidation \nDetails \nPDM liquidation details for the selected fund.\nIARTDACC\nTD/Savings Accounts \nLiquidation Details \nTD or savings accounts liquidation details for \nthe selected fund.\nIARTDROL\nTerm Deposit Rollover \nDetails of rollover of term deposit\nIARWMTTD\nWeekly TD Maturity \nTDs matured on weekly basis\nIPRACCR\nAccrual Control \nAccruals that were done for a period\nIPRIP\nProfit Calculation \nThe projected profit is applicable on an \naccount, for the current liquidation period.\nIPRISFM\nProfit Statement \nMaintenance \nProfit statement whenever profit due to a rule \nis liquidated.\nIPRLIQR\nLiquidation Control List\nLiquidations that were done for a period"
+    },
+    {
+      "page_number": 35,
+      "sections": [],
+      "summary": "This page lists various report names and their functions related to inventory management and microfinance operations.",
+      "raw_text": "3-25\n3.22 Inventory\n3.23 Micro Finance\nFunction Id\nReport Name\nReport Details\nIVRADJBL\nInventory Adjustment \nGenerates Inventory Balance adjustment\nIVRSTKRP\nStock \nGives stock details\nFunction Id\nReport Name\nReport Details\nMFRACCNT\nClient Summary and \nHistory \nSet your preferences as to the output of a \nreport using ‘Client Summary and History \nReport’ screen.\nMFRAOFLR\nAccount Officer \nLinkage \nSet your preferences as to the output of a \nreport using ‘Account Officer Linkage Report’ \nscreen.\nMFRARRNT\nLoan Arrears \nSet your preferences as to the output of a \nreport using ‘Loan Arrears Report’ screen.\nMFRBRDNT\nBranch due \nDisbursement \nSet your preferences as to the output of a \nreport using ‘Branch Due Disbursement \nReport’ screen.\nMFRCFPNT\nClient Fees, Charges \nand Penalties \nSet your preferences as to the output of a \nreport using ’Client Fees, Charges and \nPenalties Report’ screen.\nMFRCNPFM\nCenter Performance \nSet your preferences as to the output of a \nreport using ‘Center Performance Report’ \nscreen.\nMFRCOLRP\nMFI Collection Sheet\nSet your preferences as to the output of a \nreport using ‘Collection Sheet’ screen.\nMFRCRINF\nMFI Customer Related \nInformation \nSet your preferences as to the output of a \nreport using ‘MFi Customer Related \nInformation Report’ screen.\nMFRCSINT\nClients Settlement info \nSet your preferences as to the output of a \nreport using ‘Clients Settlement info Report’ \nscreen.\nMFRGRPRM\nGroup Performance \nSet your preferences as to the output of a \nreport using ‘Group Performance Report’ \nscreen.\nMFRSCHNT\nClient Loan Repayment \nSchedule \nSet your preferences as to the output of a \nreport using ‘Client Loan Repayment \nSchedule Report’ screen."
+    },
+    {
+      "page_number": 36,
+      "sections": [
+        "Mortgage Accounts With Casa Benefit",
+        "Mortgage Branch Transfer Report",
+        "Manual Matching Details of all the matched entries.",
+        "Capture Exception The exceptions occurred while the entries that were posted to the internal accounts and GLs were being captured.",
+        "Reconciliation System Matched Items The entries that were matched during the current date, or you can generate the report to contain details of the entries that were matched for a specific reconciliation class + external entity + external account + currency combination using a specific reconciliation class.",
+        "Auto Match Exception The match exceptions that occurred as of a given date or you can indicate a specific match sequence number for which you want to retrieve details.",
+        "Reconciliation System Unmatched Items The unmatched internal and external transactions belonging to a Reconciliation Class + Accounting Entity + Currency combination",
+        "Upload Exception The statements that were uploaded during a given date or you can indicate the upload sequence number for which you want details.",
+        "RE External Statement Details the fields in the generated reports.",
+        "Exception Overrides are accepted during transaction processing."
+      ],
+      "summary": "This page describes various mortgage-related and reconciliation reports, including loan listings, branch transfers, matching processes, exceptions, and external statement details.",
+      "raw_text": "3-26\n3.24 Mortgages\n3.25 Nostro Reconciliation\nFunction Id\nReport Name\nReport Details\nMORSAVIN\nMortgage Accounts \nWith Casa Benefit \nList of loans with CASA benefits\nMORTRBRN\nMortgage Branch \nTransfer \nMortgage branch transfer report\nFunction Id\nReport Name\nReport Details\nRERMANMC\nManual Matching \nDetails of all the matched entries.\nRERPCPEX\nCapture Exception \nThe exceptions occurred while the entries that \nwere posted to the internal accounts and GLs \nwere being captured.\nRERPMC\nReconciliation System \nMatched Items \nThe entries that were matched during the \ncurrent date, or you can generate the report to \ncontain details of the entries that were \nmatched for a specific reconciliation class + \nexternal entity + external account + currency \ncombination using a specific reconciliation \nclass.\nRERPMCEX\nAuto Match Exception \n \nThe match exceptions that occurred as of a \ngiven date or you can indicate a specific match \nsequence number for which you want to \nretrieve details.\nRERPUNMC\nReconciliation System \nUnmatched Items \nThe unmatched internal and external \ntransactions belonging to a Reconciliation \nClass + Accounting Entity + Currency \ncombination\nRERPUPEX\nUpload Exception \nThe statements that were uploaded during a \ngiven date or you can indicate the upload \nsequence number for which you want details.\nRERSTMIN\nRE External Statement \nDetails the fields in the generated reports.\nSVROV\nException \nOverrides are accepted during transaction \nprocessing."
+    },
+    {
+      "page_number": 37,
+      "sections": [],
+      "summary": "This page lists various report names and their descriptions related to retail bills and instruments in financial contracts.",
+      "raw_text": "3-27\n3.26 Retail Bills\nFunction Id\nReport Name\nReport Details\nRBRAMEND\nRetail Bills - \nAmendment \nRetail bill contracts that are amended as of a \ngiven date.\nRBRCOLIN\nCollateralized \nInstruments \nRetail outward bills that are considered as \ncollaterals.\nRBRDDUTL\nDrawer-Drawee \nCombination Limit \nUtilization \nContracts that are either financed or \ncollateralized and have utilized the Other Party \nlimit.\nRBRDISCL\nDishonored \nInstruments Report – \nFCY Cheques under \nCash Letter \nArrangement\nContracts that are dishonored by the other \nparty between the date ranges.\nRBRDISOC\nDishonored \nInstruments Report – \nOverseas Cheques \nPayable Abroad Under \nCollection\nContracts that are dishonored by the other \nparty between the date ranges.\nRBREALIQ\nList of Contracts Failed \nin Auto Liquidation\nRetail outward bills that failed the auto \nliquidation batch process.\nRBRFCUCL\nRegister-Outward FCY \nCheques on Cash \nLetter Arrangement\nRegister outward FCY Cheques on Cash \nLetter Arrangement.\nRBRINPRT\nProtested Bills Report - \nInward Bills \nProtested bills inward bills report.\nRBRLMUTL\nLimit Utilization \nLimits utilization either through financing or \nthrough collateralization for other party and \ndrawer-drawee combination.\nRBRMATCL\nMaturity Follow up \nReport - FCY Cheques \nunder Cash Letter\nFCY cheques under cash letter.\nRBROCPAY\nRegister - Overseas \nCheques Payable \nAbroad under \nCollection\nRegister overseas cheques payable abroad \nunder the collection.\nRBROWACK\nBills on Collection - \nAcknowledgement Due\nOutstanding retail bill instruments which are \nsent for collection to other banks and pending \nacknowledgment by the other banks.\nRBROWDIS\nDishonored \nInstruments Report - \nOutward\nOutward instruments that are dishonored by \nthe other party."
+    },
+    {
+      "page_number": 38,
+      "sections": [
+        "Realized Instruments Report - Outward",
+        "Maturity Follow up Report - Outward",
+        "Overdue Instruments Report - Outward",
+        "Protested Bills Report - Outward Bills for Collection",
+        "Register - Outward Instruments",
+        "Transfer Bills/Cheques"
+      ],
+      "summary": "This page outlines various reports related to retail instruments, including realized instruments, maturity follow-up, overdue instruments, protested bills, instrument tracking, and bill/cheque transfers.",
+      "raw_text": "3-28\nRBROWLIQ\nRealized Instruments \nReport - Outward\nRetail outward instruments are successfully \nrealized.\nRBROWMAT\nMaturity Follow up \nReport - Outward\nMaturity follow up report-outward.\nRBROWOVD\nOverdue Instruments \nReport - Outward\nRetail outward instruments are still overdue.\nRBROWPRT\nProtested Bills Report - \nOutward Bills for \nCollection\nRetail outward and inward bills are protested \nby the collecting bank due to the non-payment \nby the drawee.\nRBROWREG\nRegister - Outward \nInstruments\nHelps you track the outward and inward retail \ninstruments available in the system.\nRBRTFRRB\nTransfer Bills/Cheques \nInstruments that are lodged against another \nparty who is a customer of your bank."
+    },
+    {
+      "page_number": 39,
+      "sections": [
+        "Standing Instructions",
+        "Securitization of Loan",
+        "Term Deposits"
+      ],
+      "summary": "This page details various reports related to standing instructions and term deposits, including their definitions, statuses, and types.",
+      "raw_text": "3-29\n3.27 Standing Instructions\n3.28 Securitization of Loan\n3.29 Term Deposits\nFunction Id\nReport Name\nReport Details\nSIRLISTC\nClosed Term Deposit \nOpen Standing \nInstruction \nStanding Instructions attached to a closed TD \nin the SI contract.\nSIRPAMND\nAmendment of \nStanding Order Report \nStale Cheque \nAmendment of Standing Orders Report Stale \nCheque.\nSIRPCOLL\nStanding Instruction \nPending Collections \nStanding collection orders that are pending \nexecution as of date.\nSIRPCUST\nStanding Instructions \nby Customer \nSIs have been defined for different customers.\nSIRPDELT\nClosed Standing \nOrders \nDetails on closed standing orders.\nSIRPDUE\nStanding Instruction \nDue/Pending \nInstructions that fall due today, and those that \nare pending from previous days.\nSIRPREJT\nPenalty on Rejected \nStanding Orders \nDetails on penalty on rejected standing orders.\nSIRPSUXS\nSuccessful Standing \nInstructions\nIdeally generated after the EOD run of the SI \nbatch processes has been completed, so that \ncomplete information for the day is reported.\nSIRPTYPE\nStanding Instructions \nby Product Type \nInstructions that are processed under each \nproduct type.\nSIRPUNSC\nUnsuccessful Standing \nInstructions \nIdeally generated after the EOD run of the SI \nbatch processes has been completed, so that \ncomplete information for the day is reported.\nFunction Id\nReport Name\nReport Details\nSZRODYPT\nSummary of Over Due \nPayment Received by \nSPV \nSummary of payments which are not received \nfor the underlying CL/LE/MO Accounts for the \nsecuritization contract / SPV for the specified \nperiod.\nFunction Id\nReport Name\nReport Details\nTDRCLOSE\nTerm Deposits Closed \nTerm deposit accounts which are closed for \nthe given period, and that are currently on \nopen status."
+    },
+    {
+      "page_number": 40,
+      "sections": [
+        "Deposit Detail Summary by Total Amount",
+        "Summary of currency-wise deposit details",
+        "Large FD Customer-wise details of large-time deposits beyond the given amount criteria",
+        "Customers Fixed Deposit Lists out all time deposit accounts for a given customer",
+        "TD Full Balance Listing Complete listing of time deposit accounts opened till the run day",
+        "Interest Paid Term deposits interest paid for the day",
+        "TD linked to Overdraft Account TD’s linked to the overdraft account of the customer",
+        "Term Deposits Account Maturity Term deposits that will be matured for the given period",
+        "Term Deposit Account Maturity Date Change TD account maturity date change report for term deposits that have the maturity date adjusted due to adhoc holiday change",
+        "TD Account Maturity Date Falling on a Holiday Term deposit for which the maturity date falls on a holiday due to Adhoc holiday change",
+        "TD Account Maturity Date not adjusted Term deposit for which the maturity date is not adjusted and falls on a holiday",
+        "Term Deposits Opened for the Period Deposit accounts which are opened for the given period, and that are currently on open status",
+        "TD Account Class Summary MIS information like principal amount, interest amount, etc. with respect to term deposit accounts of the bank",
+        "Term Deposits Account Renewed This report lists the term deposit accounts which are r"
+      ],
+      "summary": "This page provides various reports related to time deposits, including summaries by total amount and currency-wise details, customer-wise large FD details, maturity dates, and more.",
+      "raw_text": "3-30\nTDRDDSUM\nDeposit Detail \nSummary by Total \nAmount \nSummary of currency-wise deposit details.\nTDRFDREP\nLarge FD \nCustomer-wise details of large-time deposits \nbeyond the given amount criteria.\nTDRFIDEP\nCustomers Fixed \nDeposit \nLists out all time deposit accounts for a given \ncustomer.\nTDRFULBL\nTD Full Balance Listing \nComplete listing of time deposit accounts \nopened till the run day.\nTDRINREP\nInterest Paid \nTerm deposits interest paid for the day. \nTDRLNKOD\nTD linked to Overdraft \nAccount \nTD’s linked to the overdraft account of the \ncustomer\nTDRMATR\nTerm Deposits Account \nMaturity \nTerm deposits that will be matured for the \ngiven period.\nTDRMDCHG\nTerm Deposit Account \nMaturity Date Change \nTD account maturity date change report for \nterm deposits that have the maturity date \nadjusted due to adhoc holiday change.\nTDRMDFOH\nTD Account Maturity \nDate Falling on a \nHoliday \nTerm deposit for which the maturity date falls \non a holiday due to Adhoc holiday change.\nTDRMNADJ\nTD Account Maturity \nDate not adjusted \nTerm deposit for which the maturity date is not \nadjusted and falls on a holiday\nTDROPEN\nTerm Deposits Opened \nfor the Period \nDeposit accounts which are opened for the \ngiven period, and that are currently on open \nstatus.\nTDRPRSUM\nTD Account Class \nSummary \nMIS information like principal amount, interest \namount, etc. with respect to term deposit \naccounts of the bank.\nTDRRENEW\nTerm Deposits Account \nRenewed \nThis report lists the term deposit accounts \nwhich are renewed for the given period.\nTDRRTMOD\nTerm Deposit with User \nModified Exchange \nRate \nTerm Deposits where the rate is modified by \nthe user in the pay-out or pay-in grid.\nTDRSOACC\nTD Statement of \nAccounts \nFinancial transactions that are customer \ninitiated along with the interest payout and tax \ndeduction if any that has taken place in a time \ndeposit account.\nTDRTOPUP\nTerm Deposits Topped-\nup During the Period\nThis report can be generated for all branches \nor for specific branches for an account."
+    },
+    {
+      "page_number": 41,
+      "sections": [
+        "Expense Processing",
+        "Expense processing details"
+      ],
+      "summary": "This page discusses the function and details related to expense processing.",
+      "raw_text": "3-31\n3.30 Expense Processing\nFunction Id\nReport Name\nReport Details\nXPRPRETR\nExpense Processing \nExpense processing details"
+    },
+    {
+      "page_number": 42,
+      "sections": [],
+      "summary": "This page lists function IDs and their corresponding codes in a glossary format.",
+      "raw_text": "4-1\n4. Function ID Glossary\nE\nEIDMANPE ........................2-6\nR\nRPDBATCH .......................2-5\nS\nSMDFNDSC ...................... 2-1\nSMDROLDF ...................... 2-2\nSTDJOBMT ....................... 2-5"
+    }
+  ]
+}

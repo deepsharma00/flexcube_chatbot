@@ -1,0 +1,53 @@
+{
+  "product": "FCUBS",
+  "module": "Machine_Learning",
+  "document_count": 1,
+  "documents": [
+    {
+      "name": "Machine Learning User Manual-FCUBS",
+      "filename": "Machine Learning User Manual-FCUBS.pdf",
+      "index_file": "Machine Learning User Manual-FCUBS.json",
+      "total_pages": 12,
+      "total_sections": 13,
+      "toc_method": "builtin",
+      "top_sections": [
+        "1  Preface",
+        "1.1 Introduction",
+        "1.2 Audience",
+        "1.3 Organization",
+        "2 Overview of Machine Learning",
+        "2.1 An Introduction",
+        "3 Model Building Routine",
+        "3.1 Contextual Information",
+        "3.2 ML Use Case Definition",
+        "3.3 ML Training and Scoring"
+      ],
+      "summary": "This page appears to be a header for the Machine Learning User Manual related to Oracle FLEXCUBE Universal Banking Release 14.7.0.0.0. This page provides information about FCUBS Machine Learning software from Oracle Financial Services Software Limited, including contact details and copyright informa",
+      "keywords": [
+        "audience",
+        "building",
+        "button",
+        "case",
+        "contextual",
+        "correlation",
+        "cost",
+        "definition",
+        "information",
+        "introduction",
+        "learning",
+        "machine",
+        "matrix",
+        "metrics",
+        "model",
+        "organization",
+        "overview",
+        "preface",
+        "routine",
+        "scoring",
+        "tab",
+        "training",
+        "use"
+      ]
+    }
+  ]
+}

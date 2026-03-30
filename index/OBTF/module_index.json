@@ -1,0 +1,78 @@
+{
+  "product": "OBTF",
+  "module_count": 9,
+  "modules": [
+    {
+      "name": "Bills and Collection",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Common CORE",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Core Entities and Services",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Letters of Credit",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Liquidation",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Reports",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Sub Systems",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Systems",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    },
+    {
+      "name": "Trade Dashboard",
+      "document_count": 0,
+      "documents": [],
+      "top_sections": [],
+      "summary": "",
+      "keywords": []
+    }
+  ]
+}
