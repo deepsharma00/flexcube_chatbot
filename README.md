@@ -140,3 +140,6 @@ python groq_pool_indexer.py --input FlexCube/ --keys gsk_aaa,gsk_bbb,gsk_ccc
 
 # Re-index everything (ignore existing JSONs)
 python groq_pool_indexer.py --input FlexCube/ --reindex
+
+# run ui 
+streamlit run ui.py
