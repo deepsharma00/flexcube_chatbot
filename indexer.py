@@ -19,15 +19,50 @@ from pathlib import Path
 import requests
 import fitz  # PyMuPDF
 
-from config import OLLAMA_URL, OLLAMA_MODEL
+from config import INDEXER_HOST, INDEXER_MODEL, GROQ_API_KEY
 
 
 # ─────────────────────────────────────────
-# Ollama API
+# LLM API
 # ─────────────────────────────────────────
 
-def call_ollama(prompt: str, model: str, host: str = OLLAMA_URL, timeout: int = 300) -> str:
-    """Call Ollama API and return response text."""
+def call_ollama(prompt: str, model: str, host: str = INDEXER_HOST, timeout: int = 300) -> str:
+    """Call Ollama API or Groq API and return response text."""
+    if host.lower() == "groq":
+        if not GROQ_API_KEY:
+            print("  [ERROR] GROQ_API_KEY not found in .env files.")
+            return ""
+        
+        url = "https://api.groq.com/openai/v1/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0
+        }
+        try:
+            # Groq free tier limit is often 30 RPM (2s per request). Sleep to avoid 429.
+            time.sleep(2.5)
+            resp = requests.post(url, json=payload, headers=headers, timeout=timeout)
+            if resp.status_code == 429:
+                print("  [RATE LIMIT] Sleeping for 10 seconds due to strict RPM...")
+                time.sleep(10)
+                resp = requests.post(url, json=payload, headers=headers, timeout=timeout)
+            resp.raise_for_status()
+            
+            data = resp.json()
+            return data["choices"][0]["message"]["content"].strip()
+        except requests.exceptions.Timeout:
+            print(f"  [TIMEOUT] Groq took too long.")
+            return ""
+        except Exception as e:
+            print(f"  [GROQ ERROR] {e}")
+            return ""
+
+    # Default to standard local Ollama
     url = f"{host}/api/generate"
     payload = {
         "model": model,
@@ -53,6 +88,10 @@ def call_ollama(prompt: str, model: str, host: str = OLLAMA_URL, timeout: int = 
 
 def warmup_model(model: str, host: str):
     """Pre-load model into RAM."""
+    if host.lower() == "groq":
+        print(f"  Groq {model} selected (warmup ignored).")
+        return
+        
     print(f"  Warming up {model}...", end=" ", flush=True)
     url = f"{host}/api/generate"
     payload = {
@@ -508,8 +547,8 @@ def index_pdf(pdf_path: str, model: str, host: str, output_path: str = None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Index a PDF into a JSON tree")
     parser.add_argument("--pdf",    required=True,        help="Path to PDF file")
-    parser.add_argument("--model",  default=OLLAMA_MODEL,  help="Ollama model name")
-    parser.add_argument("--host",   default=OLLAMA_URL,   help="Ollama server URL")
+    parser.add_argument("--model",  default=INDEXER_MODEL,  help="Model name")
+    parser.add_argument("--host",   default=INDEXER_HOST,   help="Server URL or groq")
     parser.add_argument("--output",                       help="Output JSON path")
     args = parser.parse_args()
 

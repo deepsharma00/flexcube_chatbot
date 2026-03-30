@@ -8,7 +8,7 @@ import argparse
 import requests
 from pathlib import Path
 
-from config import OLLAMA_URL, OLLAMA_MODEL
+from config import QUERIER_HOST, QUERIER_MODEL
 from querier import (
     load_index,
     expand_query_keywords,
@@ -16,6 +16,7 @@ from querier import (
     follow_cross_references,
     get_page_context,
     answer_question_stream,
+    _section_text,
 )
 
 
@@ -152,7 +153,7 @@ Commands:
                 secs    = p.get("sections", [])
                 summary = p.get("summary", "")[:80]
                 print(f"  Page {p['page_number']:2d}: "
-                      f"{', '.join(secs[:2]) or 'no headings'}")
+                      f"{', '.join(_section_text(s) for s in secs[:2]) or 'no headings'}")
                 print(f"         {summary}")
             print()
             continue
@@ -213,8 +214,8 @@ Commands:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Chat with your indexed PDF")
     parser.add_argument("--index", required=True,        help="Path to JSON index")
-    parser.add_argument("--model", default=OLLAMA_MODEL,  help="Ollama model")
-    parser.add_argument("--host",  default=OLLAMA_URL,   help="Ollama server URL")
+    parser.add_argument("--model", default=QUERIER_MODEL,  help="Ollama model")
+    parser.add_argument("--host",  default=QUERIER_HOST,   help="Ollama server URL")
     args = parser.parse_args()
 
     chat(args.index, args.model, args.host)

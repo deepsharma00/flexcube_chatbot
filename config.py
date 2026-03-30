@@ -42,5 +42,10 @@ def LoadEnvFile():
 LoadEnvFile()
 
 # Central config values — every module reads these
-OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "qwen2.5:7b")
-OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434")
+INDEXER_MODEL = os.environ.get("INDEXER_MODEL", "qwen2.5:7b")
+INDEXER_HOST = os.environ.get("INDEXER_HOST", "http://localhost:11434")
+
+QUERIER_MODEL = os.environ.get("QUERIER_MODEL", "qwen2.5:7b")
+QUERIER_HOST = os.environ.get("QUERIER_HOST", "http://localhost:11434")
+
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")

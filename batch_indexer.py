@@ -48,7 +48,7 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 
-from config import OLLAMA_URL, OLLAMA_MODEL
+from config import INDEXER_HOST, INDEXER_MODEL
 from indexer import index_pdf
 
 
@@ -480,12 +480,12 @@ if __name__ == "__main__":
         help="Output folder for all indexes (default: ./index)"
     )
     Parser.add_argument(
-        "--model", default=OLLAMA_MODEL,
-        help="Ollama model name"
+        "--model", default=INDEXER_MODEL,
+        help="Model name"
     )
     Parser.add_argument(
-        "--host", default=OLLAMA_URL,
-        help="Ollama server URL"
+        "--host", default=INDEXER_HOST,
+        help="Server URL or 'groq'"
     )
     Parser.add_argument(
         "--reindex", action="store_true",

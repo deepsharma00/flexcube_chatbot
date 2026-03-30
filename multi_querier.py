@@ -21,7 +21,7 @@ import argparse
 import time
 from pathlib import Path
 
-from config import OLLAMA_URL, OLLAMA_MODEL
+from config import QUERIER_HOST, QUERIER_MODEL
 from querier import (
     get_query_keywords,
     expand_query_keywords,
@@ -444,11 +444,11 @@ if __name__ == "__main__":
         help="Your question"
     )
     Parser.add_argument(
-        "--model", default=OLLAMA_MODEL,
+        "--model", default=QUERIER_MODEL,
         help="Ollama model name"
     )
     Parser.add_argument(
-        "--host", default=OLLAMA_URL,
+        "--host", default=QUERIER_HOST,
         help="Ollama server URL"
     )
     Args = Parser.parse_args()
